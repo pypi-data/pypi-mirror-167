@@ -1,0 +1,3 @@
+[octoprint.plugin]
+HeaderAnnouncements = octoprint_HeaderAnnouncements
+
