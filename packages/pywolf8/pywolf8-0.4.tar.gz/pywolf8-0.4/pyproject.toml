@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "pywolf8"
+version = "0.4"
+authors = [
+  { name="maxibick", email="author@example.com" },
+]
+description = "api to use with home assistant"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/maxibick/pywolf8"
+"Bug Tracker" = "https://github.com/maxibick/pywolf8/issues"
