@@ -1,0 +1,10 @@
+hierarchicalsoftmax/__init__.py,sha256=CGXQf3QHOG5hEDKWBkGAkK6Ulkwq8ePlDDPa8tdUS1I,245
+hierarchicalsoftmax/inference.py,sha256=koqfiLUyvdQUTwSYkNgqhS3xn4u4qKH89WAsMjtzOZQ,2075
+hierarchicalsoftmax/layers.py,sha256=8qAI-bop4wYx2w2BJNrR-tsYkeNEPdEWnsfOAci9VCc,1474
+hierarchicalsoftmax/loss.py,sha256=kbHH_wGaYSCRLFcFNYuhAHg27hepvrUCEZ580i0ofbE,1442
+hierarchicalsoftmax/metrics.py,sha256=vkILLjbIiyKfPW2Akk8U71ZhrK0wUmePFpqudK0Kh0M,2877
+hierarchicalsoftmax/nodes.py,sha256=Iqwy-Du8eUo3tWWupIh-TCMqruiJLAp-WA-0kXJfk3Q,7043
+hierarchicalsoftmax-0.1.4.dist-info/LICENSE,sha256=jwJ8BHrI7PxwAItimKhjYZQfwEIGJPhQZTHVH_nbu6U,10761
+hierarchicalsoftmax-0.1.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+hierarchicalsoftmax-0.1.4.dist-info/METADATA,sha256=MFnnbLvO4MlEnCDj4_caTbzqe0ftCpt89LNwUd1p9D4,5191
+hierarchicalsoftmax-0.1.4.dist-info/RECORD,,
