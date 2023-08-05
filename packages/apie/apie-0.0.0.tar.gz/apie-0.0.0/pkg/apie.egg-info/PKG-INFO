@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: apie
+Version: 0.0.0
+Summary: Application Program Interface with eons
+Home-page: https://github.com/eons-dev/bin_apie
+Author: eons
+Author-email: support@eons.llc
+Project-URL: Bug Tracker, https://github.com/eons-dev/bin_apie/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Application Program Interface with eons
+
+
+## Installation
+`pip install apie`
