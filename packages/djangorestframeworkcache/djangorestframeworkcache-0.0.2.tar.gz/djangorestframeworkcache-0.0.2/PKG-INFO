@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: djangorestframeworkcache
+Version: 0.0.2
+Summary: REST Framework Cache is a powerful and flexible toolkit for building cached views based on a fully dynamic lifecycle based on the variation of the information they provide.
+Home-page: https://github.com/dot-tostring/rest_framework_cache
+Author: Eduardo Ventura Izquierdo Nuñez
+Author-email: in.eduardo.v@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: django,rest,cache
+Platform: UNKNOWN
