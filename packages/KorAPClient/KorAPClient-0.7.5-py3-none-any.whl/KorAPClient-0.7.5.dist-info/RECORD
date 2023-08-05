@@ -1,0 +1,10 @@
+KorAPClient/__init__.py,sha256=K8w_tWGoUHZkC3DQx0Mk99Ivnoh9vfBBC9wBWqLPJ3s,12266
+KorAPClient/__main__.py,sha256=sabV5_Jty4rqzF1SxK7yHHlFk9Az3RRxG4gcFnhEYQs,1596
+KorAPClient/tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+KorAPClient/tests/test_korapclient.py,sha256=Prx6hi7eJ1oCIBzsAL5Am6V-CMdTqrGesOte2H79pIU,2299
+KorAPClient-0.7.5.data/scripts/korapclient,sha256=yp91Ky3G89t7bDtuxhCYgazZJyFVUXEOCdKPWB4V9qI,51
+KorAPClient-0.7.5.dist-info/LICENSE.txt,sha256=O-89LHD7vf6nMkwKAwNM_8HJfcmbJZDml7Iw14BfKeo,1311
+KorAPClient-0.7.5.dist-info/METADATA,sha256=24XHN9jXiXqGrwFiaPywC-6s4DLQIlecVxMHw4ivJWg,13197
+KorAPClient-0.7.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+KorAPClient-0.7.5.dist-info/top_level.txt,sha256=T-ufNYwGoQPmm5b6qZfKQXPErPdyXCJ9dGkFFhrfsuc,12
+KorAPClient-0.7.5.dist-info/RECORD,,
