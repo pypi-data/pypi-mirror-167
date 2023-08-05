@@ -1,0 +1,3 @@
+include FastCopyFast/requirements.txt
+include FastCopyFast/thirdparty.json
+include FastCopyFast/README.MD
