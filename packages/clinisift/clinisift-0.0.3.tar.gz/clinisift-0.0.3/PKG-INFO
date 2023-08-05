@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: clinisift
+Version: 0.0.3
+Summary: An NLP tool for parsing, analyzing, and visualizing medical records
+Home-page: https://github.com/clinisift/clinisift
+Author: Sam Rawal
+Author-email: scrawal2@illinois.edu
+Project-URL: Bug Tracker, https://github.com/clinisift/clinisift/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clinisift
+
+`clinisift` is a multitool for processing clinical medical records.
+
+The main goal is to provide easy, off-the-shelf access to **common NLP processes** when working with medical records:
+
+-   **Sentence Tokenization** and **Section Identification** from unstructured clinical textual data
+-   **Named Entity Recognition** of medication-related data and clinical entities from records
+-   **Intuitive visualization** of extracted information
+
+Some motivating examples that can be accomplished in only a few lines of code to illustrate possible use-cases:
+
+-   Extract clinical problems and procedures mentioned in a record's CLINICAL HISTORY section.
+-   When exploring a new dataset, visualize records with clinical and medication entities parsed and highlighted on-the-fly.
+-   Check if both a particular medication and particular surgical procedure are mentioned in a patient's PAST MEDICAL HISTORY.
+
+
+<a id="org9f96de1"></a>
+
+## Quick Features
+
+-   **Parse** - Extract clinical and medical entities through Transformers-based Named Entity Recognition, as well as other components like medical record section identification. Also supports any NER model that can be loaded as a HuggingFace pipeline
+-   **Analyze** - Built-in methods to quickly filter through parsed data with as little code overhead as possible.
+-   **Visualize** - spaCy-based visualizer that integrates with Transformers NER to visualize medical record parses on-the-fly, programmatically or via command line.
+
+
+<a id="org37a2636"></a>
+
+# Get Started
+
+
+<a id="org46aa298"></a>
+
+## Installation
+
+Install via `pip`:
+
+    pip install clinisift
+
+Or, from source:
+
+    git clone git@github.com:clinisift/clinisift.git
+    cd clinisift && pip install -e .
+
+
+<a id="org7b0aef4"></a>
+
+# Quickstart
+
+For a comprehensive overview of clinisift's capabilities, see the ["Components" page on the wiki](https://github.com/clinisift/clinisift/wiki/Components).
+
+
+<a id="org4ce4ce1"></a>
+
+## Components
+
+clinisift is made up of `Parser` and `Doc` components. See the ["Components" page on the wiki](https://github.com/clinisift/clinisift/wiki/Components) for an explanation of all the parameters.
+
+    class Parser(
+        models=None,
+        include_ents=[],
+        exclude_ents=[],
+        iob_resolve=True,
+        sent_tokenizer="clinitokenizer",
+        sent_per_line=False,
+        extract_section_headers=False,
+        section_header_expr=None,
+        device=None,
+    ) 
+
+    class Doc(
+        filepath_or_str,
+        parser,
+        is_file=True
+    )
+
+
+<a id="org02398ac"></a>
+
+## Examples
+
+Below are some examples for common use-cases. 
+
+
+<a id="org3b3880f"></a>
+
+### Extract all clinical entities and medications from a \*.txt file
+
+    from clinisift.cliniparse import Parser
+    from clinisift.doc import Doc
+    
+    parser = Parser() # med ner and clinical ner
+    doc = Doc(text_file_path, parser)
+    
+    res = doc.parse()
+    # { "sentences": [...],
+    # "entities": [...l, }
+
+
+<a id="org4877a29"></a>
+
+### Visualize entities extracted on-the-fly from a directory of .txt files
+
+To launch a visualizer using the default Parser() config:
+
+From the command line:
+
+    python -m clinisift.visualizer /my/data/dir
+
+A Flask server will be launched:
+
+![img](./assets/visualizer_1.png)
+
+![img](./assets/visualizer_2.png)
+
+The visualizer module can be integrated with any \`Parser\` for more customizability about the NER pipelines used, entities visualized, and so forth. More information is available in the wiki.
+
