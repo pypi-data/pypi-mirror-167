@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ghgql
+Version: 0.0.4
+Summary: Thin wrapper for interacting with the Github GraphQL API
+License: MIT
+Author: Konrad Kleine
+Requires-Python: >=3.9,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.28.1)
+Description-Content-Type: text/markdown
+
+# ghgql
+
+Thin wrapper for interacting with the Github GraphQL API
+
+## Installation
+
+```bash
+$ pip install ghgql
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`ghgql` was created by Konrad Kleine. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`ghgql` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
