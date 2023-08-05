@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Feni
+Version: 1.22
+Summary: A simple static site generator.
+Home-page: http://bitbucket.org/sras/feni
+Author: Sandeep.C.R
+Author-email: sandeepcr2@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bottle
+Requires-Dist: lesscpy
+Requires-Dist: markdown
+Requires-Dist: pyyaml
+
+UNKNOWN
+
