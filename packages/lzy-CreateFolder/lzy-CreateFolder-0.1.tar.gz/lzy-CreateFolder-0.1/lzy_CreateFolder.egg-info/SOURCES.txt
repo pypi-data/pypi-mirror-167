@@ -1,0 +1,6 @@
+CreateFolder.py
+setup.py
+lzy_CreateFolder.egg-info/PKG-INFO
+lzy_CreateFolder.egg-info/SOURCES.txt
+lzy_CreateFolder.egg-info/dependency_links.txt
+lzy_CreateFolder.egg-info/top_level.txt
