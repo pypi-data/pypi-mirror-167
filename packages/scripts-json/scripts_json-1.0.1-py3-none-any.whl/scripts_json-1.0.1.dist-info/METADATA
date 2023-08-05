@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: scripts-json
+Version: 1.0.1
+Summary: A tool to run scripts from a JSON file
+Home-page: https://github.com/oliveman01/scripts.json
+Author: Olivier Audet-Yang
+Author-email: oaudetyang@gmail.com
+Requires-Python: >=3.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/oliveman01/scripts.json
+Description-Content-Type: text/markdown
+
+# Scripts.json
+
+A tool to run scripts from a JSON file
+
+## Usage
+
+```
+scripts-json [-h] [--file FILE] script
+```
+
