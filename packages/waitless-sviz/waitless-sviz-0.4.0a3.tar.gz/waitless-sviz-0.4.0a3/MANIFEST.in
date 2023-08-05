@@ -1,0 +1,2 @@
+include src/waitless-sviz/res/*.html
+include src/waitless-sviz/res/css/*.css
