@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: encrypticoin-etalon
+Version: 0.3.1
+Summary: Etalon token implementation by Encrypticoin UAB
+Home-page: https://github.com/encrypticoin-uab/encrypticoin-etalon
+Author: Nándor Mátravölgyi
+Author-email: dev@etalon.cash
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+
+# encrypticoin-etalon
+
+Implementation of the Etalon Token by Encrypticoin UAB.
+
+Etalon is a BEP20 token implemented in Solidity, heavily utilizing the framework provided by the OpenZeppelin project.
+
+## Etalon contract
+
+The contract is found at `encrypticoin_etalon/contract/BEP20EtalonToken.sol`. Its pre-compiled ABI and binary-code is also committed that were compiled by the specified Solidity compiler version.
+
+## Python packaging
+
+The contract is wrapped in a Python package for easy development and distribution in the relevant server systems.
+
+Testing of the contract is performed in other environments, this repository is purely for the contract itself. 
+
+A source distribution package is available from PyPI named `encrypticoin-etalon`:
+
+```
+pip install encrypticoin-etalon
+```
