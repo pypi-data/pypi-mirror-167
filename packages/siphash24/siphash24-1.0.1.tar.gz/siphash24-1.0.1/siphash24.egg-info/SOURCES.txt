@@ -1,0 +1,15 @@
+.gitignore
+README.rst
+c-siphash.c
+c-siphash.h
+check.py
+pyproject.toml
+setup.py
+siphash24.pyx
+test.py
+.github/workflows/tests.yml
+.github/workflows/wheels.yml
+siphash24.egg-info/PKG-INFO
+siphash24.egg-info/SOURCES.txt
+siphash24.egg-info/dependency_links.txt
+siphash24.egg-info/top_level.txt
