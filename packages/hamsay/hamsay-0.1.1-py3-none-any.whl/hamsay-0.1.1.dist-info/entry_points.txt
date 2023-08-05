@@ -1,0 +1,3 @@
+[console_scripts]
+hamsay=hamsay.main:main
+

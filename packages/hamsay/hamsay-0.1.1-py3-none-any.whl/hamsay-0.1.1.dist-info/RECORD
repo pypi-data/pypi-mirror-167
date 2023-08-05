@@ -1,0 +1,11 @@
+hamsay/__init__.py,sha256=uzwspEPX0Gg8_2mkWxvVda0g0sJpC9KnIamfKZZqOXE,93
+hamsay/__main__.py,sha256=7J41tzSFRX35vzNyuaaiV6d46B5MArlfLTgpNFyxZg0,95
+hamsay/hamsters/__init__.py,sha256=ya5uw_atNSHSxeKtONIvimUIg_OSua72-qj7FrCN-r0,77
+hamsay/hamsters/hams.py,sha256=jDkPBcXR1b7SmG-iy8evJFBn-sLIYLn-ysOKShlSvec,1510
+hamsay/help/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamsay/help/help.py,sha256=1399-jgW3m_Aj6ZQFHsfL_iJ9e5INhdeFlDjmMzjY8M,792
+hamsay/main.py,sha256=vNmc66mVhsfpIXvwsb0fpp5XUJeDovfbgfqQmPlZwmc,752
+hamsay-0.1.1.dist-info/entry_points.txt,sha256=JELLVLWkAlKBTJc9gT63Lk6nDjdvV8zA_LEcFSFhNLg,43
+hamsay-0.1.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+hamsay-0.1.1.dist-info/METADATA,sha256=AyiWhuVOhAoTV8wQd4MF2tOXmBGv-or6FpET8lL_PlA,5386
+hamsay-0.1.1.dist-info/RECORD,,
