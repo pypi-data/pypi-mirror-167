@@ -1,0 +1,9 @@
+mypandas/__init__.py,sha256=OOUSaKHfWjkRXqF5boAABnbkHWJdz0UYeK4iXaiMm-c,419
+mypandas/sqldf.py,sha256=6Ssvm-faUrN5gYABzSedf0mLA3ZAMPC6XX0XLEuFZpg,8226
+mypandas/data/births.csv,sha256=Hrdtbf8Um3cQEy0bp76xcWv30bN8NHYGpWla0IyURCw,1141
+mypandas/data/births_by_month.csv,sha256=P---jKcuWe6Nvbag9WNUWjEl1essQZzFNYeL_bKb8mQ,11028
+mypandas/data/meat.csv,sha256=HCKDtcCk6D6x8LcNFem2zQTpPYqtch5TY9Ir8q4fJ_Q,62608
+mypandas-0.1.3.dist-info/METADATA,sha256=BalOsuN74ZgFHCWstYjfvBwuVl6X_AAe_9BQ9Eysiwo,2700
+mypandas-0.1.3.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+mypandas-0.1.3.dist-info/licenses/LICENSE,sha256=c0TISl7aQUH1NdL5Ll9cVcYwm9-2E5O8sJNlOo4Ic7I,1079
+mypandas-0.1.3.dist-info/RECORD,,
