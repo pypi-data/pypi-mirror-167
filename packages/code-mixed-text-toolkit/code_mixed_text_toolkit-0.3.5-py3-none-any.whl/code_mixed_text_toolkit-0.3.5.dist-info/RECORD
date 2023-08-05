@@ -1,0 +1,15 @@
+code_mixed_text_toolkit/__init__.py,sha256=uNo1OKBmnpWfGXMrd85LBy2FLqf7CW8T-IcZnoPSV1E,153
+code_mixed_text_toolkit/demo.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_mixed_text_toolkit/data/__init__.py,sha256=M1uGO7T21EE6r8ZsGSJqFuAxnpYrH6FC8tZYOBbR8_U,2704
+code_mixed_text_toolkit/data/data.json,sha256=515iXM9_v9B6Sm4tKOLt8grA9vGOEdrYzfitEeQwbe8,589
+code_mixed_text_toolkit/data/downloader.py,sha256=PTHirrWx2sGDRqDQH5G_Ajd42OLLFrep8T3PzhKWb5I,3999
+code_mixed_text_toolkit/preprocessing/__init__.py,sha256=T_clgUX6kRJfIN_yaTfrYRrLfFU9EXOwNJ6M2ckDLSc,54
+code_mixed_text_toolkit/preprocessing/search.py,sha256=Dz2Wl1yPCVNkCzKiO3DvNxYSUEwKl5GznQO4-GbwNcc,1315
+code_mixed_text_toolkit/preprocessing/tokenizer/__init__.py,sha256=KMCHAzHbpxpBjRofskCaL8uExR5Ajcag9TAunCOEUgg,559
+code_mixed_text_toolkit-0.3.5.data/data/code_mixed_text_toolkit/data/data.json,sha256=515iXM9_v9B6Sm4tKOLt8grA9vGOEdrYzfitEeQwbe8,589
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cmtt_tests.py,sha256=egNPY7pBKpoFb7JdFlXsy9y8OYUsgO5LHeKIU4BchY8,1206
+code_mixed_text_toolkit-0.3.5.dist-info/METADATA,sha256=hnN73tUjbGQVRYT0UNtKgFW9mg4SYidEsooo5Z6mZBA,2708
+code_mixed_text_toolkit-0.3.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+code_mixed_text_toolkit-0.3.5.dist-info/top_level.txt,sha256=BlrOQOOyORuClc1Nfigd7EXXswcP-gMp-MqCx1W-eko,30
+code_mixed_text_toolkit-0.3.5.dist-info/RECORD,,
