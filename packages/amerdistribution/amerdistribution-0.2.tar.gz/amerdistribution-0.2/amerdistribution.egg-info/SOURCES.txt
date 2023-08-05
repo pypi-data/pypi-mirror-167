@@ -1,0 +1,10 @@
+setup.py
+amerdistribution/Binomialdistribution.py
+amerdistribution/Gaussiandistribution.py
+amerdistribution/Generaldistribution.py
+amerdistribution/__init__.py
+amerdistribution.egg-info/PKG-INFO
+amerdistribution.egg-info/SOURCES.txt
+amerdistribution.egg-info/dependency_links.txt
+amerdistribution.egg-info/not-zip-safe
+amerdistribution.egg-info/top_level.txt
