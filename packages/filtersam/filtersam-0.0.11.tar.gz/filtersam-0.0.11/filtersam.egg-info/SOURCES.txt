@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+filtersam/__init__.py
+filtersam/cli.py
+filtersam/filtersam.py
+filtersam/utils.py
+filtersam.egg-info/PKG-INFO
+filtersam.egg-info/SOURCES.txt
+filtersam.egg-info/dependency_links.txt
+filtersam.egg-info/entry_points.txt
+filtersam.egg-info/requires.txt
+filtersam.egg-info/top_level.txt
