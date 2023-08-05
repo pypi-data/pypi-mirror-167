@@ -1,0 +1,11 @@
+README.md
+setup.py
+PlotDot.egg-info/PKG-INFO
+PlotDot.egg-info/SOURCES.txt
+PlotDot.egg-info/dependency_links.txt
+PlotDot.egg-info/requires.txt
+PlotDot.egg-info/top_level.txt
+plotdot/__init__.py
+plotdot/_static_version.py
+plotdot/_version.py
+plotdot/rdkit.py
