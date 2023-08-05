@@ -1,0 +1,9 @@
+pango_collapse/__init__.py,sha256=rEHvDUSW2dBQpC78Sqo2HAULTGK9z3G3dB8oGDgo4Ng,33
+pango_collapse/__main__.py,sha256=dgHros_fLwUM6doAPESNAS4Z84tsWlLfZnF87PAIM0Q,55
+pango_collapse/collapse.txt,sha256=Qg8pJpLGvpiz6KgzDWagr6iGWqYJiHO9hhezVi_kBhw,220
+pango_collapse/collapsor.py,sha256=Dxl6_HwiNSuHxcPZbDPS_Rj87v5G13gJK3po52weFZs,952
+pango_collapse/main.py,sha256=xkZRFFfvPWm7BCvAEMyMerO5y6k7r5BlbFSdLFOggoo,3895
+pango_collapse-0.3.4.dist-info/entry_points.txt,sha256=q6Uqz3VuEdoYIzCy_c_lqG44ZuJ7tncF0HbUsfYk4rc,58
+pango_collapse-0.3.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pango_collapse-0.3.4.dist-info/METADATA,sha256=xDCFY1j_rr5Msy_BNwySd4WK8mT34bUYgYZmk9fXO1s,2200
+pango_collapse-0.3.4.dist-info/RECORD,,

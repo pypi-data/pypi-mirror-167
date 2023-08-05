@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pango-collapse
+Version: 0.3.4
+Summary: 
+Author: wytamma
+Author-email: wytamma.wirth@me.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.21,<=1.23.2)
+Requires-Dist: pandas (>=1.3,<=1.4.4)
+Requires-Dist: pango-aliasor (>=0.2.0,<0.3.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Pango-collapse 
+
+[![](https://img.shields.io/pypi/v/pango-collapse.svg)](https://pypi.org/project/pango-collapse/)
+[![tests](https://github.com/MDU-PHL/pango-collapse/actions/workflows/tests.yaml/badge.svg)](https://github.com/MDU-PHL/pango-collapse/actions/workflows/tests.yaml)
+
+CLI to collapse Pango linages for reporting
+
+[![](collapse.gif)](https://mdu-phl.github.io/pango-watch/tree/)
+
+## Install 
+
+Install from pypi with pip.
+
+```
+pip install pango-collapse
+```
+
+## Usage
+
+`pango-collapse` takes a CSV file of SARS-CoV-2 samples (`input.csv`) with a column (default `Lineage`) indicating the pango lineage of the samples (e.g. output from pangoLEARN, nextclade, USHER, etc). 
+
+```
+# input.csv
+Lineage
+BA.5.2.1
+BA.4.6
+BE.1
+```
+
+`pango-collapse` will collapse lineages up to the first user defined parent lineage (specified in a text file with `--collapse-file`). If the sample lineage has no parent lineage in the user defined collapse file the lineage will be collapsed up to either `A` or `B`. By default `pango-collapse` uses the collapse file found [here](https://github.com/MDU-PHL/pango-collapse/blob/main/pango_collapse/collapse.txt).
+
+```
+# collapse.txt
+BA.5
+BE.1
+```
+
+`pango-collapse` will produce an output file which is a copy of the input file plus `Lineage_full` (the uncompressed lineage) and `Lineage_family` (the lineage compressed up to) columns. 
+
+
+```bash
+pango-collapse input.csv --collapse-file collapse.txt -o output.csv 
+```
+
+```
+# output.csv 
+Lineage,Lineage_full,Lineage_family
+BA.5.2.1,B.1.1.529.5.2.1,BA.5
+BA.4.6,B.1.1.529.4.6,B
+BE.1,B.1.1.529.5.3.1.1,BE.1
+```
+
