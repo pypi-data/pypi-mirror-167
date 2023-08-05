@@ -1,0 +1,12 @@
+__pycache__
+data
+*.t7
+*.pt
+betty_tensorboard
+_build
+*.sw*
+*.DS_Store
+betty.egg-info
+.env
+.venv
+venv/
