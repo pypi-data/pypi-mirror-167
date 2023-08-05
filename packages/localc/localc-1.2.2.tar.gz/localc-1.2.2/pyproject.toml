@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localc"
+version = "1.2.2"
+authors = [
+    {name="rankrev", email="307532500@qq.com"},
+]
+description = "A simple logic calculator"
+readme = "README.md"
+license = {file="LICENSE"}
+dependencies = [
+    "prettytable",
+    "ipython"
+]
+
+[project.urls]
+"Homepage" = "https://gitee.com/rankrev/localc"
+"Bug Tracker" = "https://gitee.com/rankrev/localc/issues"
