@@ -1,0 +1,2 @@
+[console_scripts]
+stk = streamlit_kickoff_cli.entrypoint:stk
