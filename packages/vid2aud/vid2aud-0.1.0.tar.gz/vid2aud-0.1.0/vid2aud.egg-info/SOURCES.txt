@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+vid2aud/__init__.py
+vid2aud/main.py
+vid2aud.egg-info/PKG-INFO
+vid2aud.egg-info/SOURCES.txt
+vid2aud.egg-info/dependency_links.txt
+vid2aud.egg-info/requires.txt
+vid2aud.egg-info/top_level.txt
