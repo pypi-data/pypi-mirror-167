@@ -1,0 +1,1 @@
+from vicarispackagetest.run import hello
