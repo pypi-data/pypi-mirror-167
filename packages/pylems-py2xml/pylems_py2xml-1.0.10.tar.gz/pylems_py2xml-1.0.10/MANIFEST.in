@@ -1,0 +1,2 @@
+include *.txt *.xml
+recursive-include examples *.txt *.py *.xml
