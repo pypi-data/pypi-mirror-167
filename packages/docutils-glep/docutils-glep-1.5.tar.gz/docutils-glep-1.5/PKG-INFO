@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: docutils-glep
+Version: 1.5
+Summary: docutils modules & wrapper to process Gentoo Linux Enhancement Proposals
+Author: Gentoo Authors
+Author-email: Michał Górny <mgorny@gentoo.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Requires-Dist: docutils
+Requires-Dist: PyYAML
+Project-URL: Homepage, https://github.com/mgorny/docutils-glep/
+
+=============
+docutils-glep
+=============
+
+A simple docutils wrapper that supports rendering `Gentoo Linux
+Enhancement Proposals`_ as defined in `GLEP 1`_.  The ``glep``
+executable accepts the same arguments as ``rst2html``.
+
+
+.. _Gentoo Linux Enhancement Proposals: https://www.gentoo.org/glep/
+.. _GLEP 1: https://www.gentoo.org/glep/glep-0001.html#glep-formating-and-template
+
