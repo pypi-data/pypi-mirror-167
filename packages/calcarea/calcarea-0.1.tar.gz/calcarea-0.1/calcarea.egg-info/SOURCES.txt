@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+calcarea/__init__.py
+calcarea/sample.py
+calcarea.egg-info/PKG-INFO
+calcarea.egg-info/SOURCES.txt
+calcarea.egg-info/dependency_links.txt
+calcarea.egg-info/top_level.txt

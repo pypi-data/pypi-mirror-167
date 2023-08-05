@@ -1,0 +1,1 @@
+This is a simple package which provides area of circle and rectangle
