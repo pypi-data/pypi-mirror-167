@@ -1,0 +1,7 @@
+azcam_imageserver/__init__.py,sha256=7f2TIMVR3k_dnD_P7O2tybuKf2TgZegWGFfLRAs4m1U,160
+azcam_imageserver/imageserver.py,sha256=itIVi9Go_d2Uo-c2rTz0m-zOotCtQc6Qhnv59QLI7dg,11449
+azcam_imageserver/sendimage.py,sha256=DCCnUCsUFSG7Q5UYYu5k8wy0gPwrE5t1Zne0ghFeF6E,13298
+azcam_imageserver-22.3.2.dist-info/LICENSE,sha256=PS_ZlV-IPpFrsMJ3UKgSaOC-2jpMsH-qO5h_IImZdCM,1092
+azcam_imageserver-22.3.2.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+azcam_imageserver-22.3.2.dist-info/METADATA,sha256=rM5DZlUrgSsipqw0xrqnpOx98N-dkVst9imZ5-hSefw,964
+azcam_imageserver-22.3.2.dist-info/RECORD,,
