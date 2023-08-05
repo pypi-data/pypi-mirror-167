@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: extract-img-txt
+Version: 1.0.0
+Summary: A simple text extractor from image
+Author: Iyanuoluwa Akinwumi
+Author-email: akinwumikaliyanu@gmail.com
+License: LICENSE.txt
+License-File: LICENSE.txt 
+Requires-Dist: pytesseract
+Requires-Dist: python-docx
+Requires-Dist: pillow
+
