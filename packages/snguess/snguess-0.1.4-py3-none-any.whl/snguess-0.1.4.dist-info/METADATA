@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: snguess
+Version: 0.1.4
+Summary: SNGuess
+Home-page: https://github.com/nmiranda/SNGuess
+Author: nmiranda
+Author-email: nicolas.miranda@hu-berlin.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ampel-hu-astro (>=0.8.3a1)
+Requires-Dist: ampel-ztf (>=0.8.3a2)
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: seaborn
+Requires-Dist: ipykernel
+Requires-Dist: notebook
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# SNGuess
+
+SNGuess is a machine learning supervised classification model designed to find young extragalactic astronomical transients from astronomical alert data.
+
+## Install SNGuess
+
+SNGuess can be installed from PyPI:
+
+```bash
+pip install snguess
+```
+
+## Notebooks
+
+The [notebooks folder](notebooks/) contains Jupyter notebooks with examples and code for generating the results shown in the SNGuess article.
+
+## Article
+
+Please see:
+
+N. Miranda, J.C. Freytag, J. Nordin, R. Biswas, V. Brinnel, C. Fremling, M. Kowalski, A. Mahabal, S. Reusch and J. van Santen
+**SNGuess: A method for the selection of young extragalactic transients**
+_Astronomy & Astrophysics_, Forthcoming article.
+[doi:10.1051/0004-6361/202243668](https://doi.org/10.1051/0004-6361/202243668).
+_arXiv preprint_ [arXiv:2208.06534](https://arxiv.org/abs/2208.06534).
