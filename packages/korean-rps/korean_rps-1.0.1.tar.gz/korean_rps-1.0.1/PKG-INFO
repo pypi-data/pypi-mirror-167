@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: korean_rps
+Version: 1.0.1
+Summary: 가위바위보 라이브러리
+Home-page: UNKNOWN
+Author: VoidAsMad
+Author-email: voidasmad@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
