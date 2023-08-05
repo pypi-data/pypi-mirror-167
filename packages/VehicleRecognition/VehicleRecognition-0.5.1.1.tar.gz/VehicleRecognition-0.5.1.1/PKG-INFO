@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: VehicleRecognition
+Version: 0.5.1.1
+Summary: Viscan vehicle recognition packages
+Home-page: http://192.168.0.73/data_analytics/vehicle-recognition
+Author: Onyonka Clifford (vmmr, vehicle colour classification), Rex Mudanya (ANPR, OCR), Jecinta Mulongo (ANPR, OCR)
+Author-email: 
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# To use the package:
+i). Clone the vehicle recognition repository
+```
+git@192.168.1.32:Data_Analytics/Vehicle_Recognition.git
+```
+ii). Navigate into the folder housing the newly created clone repository
+```
+cd Vehicle_Recognition/
+```
+iii). Build wheel
+```
+python3 setup.py bdist_wheel
+```
+iv). Pip install wheel (wheel located in <code>Vehicle_Recognition/dist/</code> directory that's created during the build process)
+```
+pip3 install wheel_file_path.whl
+```
+
+NOTE: models have been removed from the library and hence the resultant wheel generated incorporates no models. The models are contained in the <code>models/</code> directory. Copy them to a suitable location and pass the paths to these models as arguments when using the library.
+
+[For full documentation](http://192.168.0.72:7081/redmine/projects/data-science-da-and-ml/wiki/Vehicle_Recognition_Library)

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+VehicleRecognition.egg-info/PKG-INFO
+VehicleRecognition.egg-info/SOURCES.txt
+VehicleRecognition.egg-info/dependency_links.txt
+VehicleRecognition.egg-info/requires.txt
+VehicleRecognition.egg-info/top_level.txt
+number_plate/__init__.py
+number_plate/anpr.py

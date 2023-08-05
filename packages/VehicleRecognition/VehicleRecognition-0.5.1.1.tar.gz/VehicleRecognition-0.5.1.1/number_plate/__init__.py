@@ -1,0 +1,2 @@
+from .anpr import NumberPlateRecognizer
+
