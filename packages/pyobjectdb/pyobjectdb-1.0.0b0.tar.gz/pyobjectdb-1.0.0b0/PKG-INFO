@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyobjectdb
+Version: 1.0.0b0
+Summary: simple python database
+Home-page: https://github.com/Jefferson5286/PyobjectDB
+Author: Jefferson Lima
+Author-email: jeffersonlima5286@gmail.com
+License: MIT
+Download-URL: https://codeload.github.com/Jefferson5286/PyobjectDB/zip/refs/heads/main
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+This is a simple non-relational database for python. It was created for facilitate portable data storage like SQLite.
+

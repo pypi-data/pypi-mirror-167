@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pyobjectdb/__init__.py
+pyobjectdb/core.py
+pyobjectdb.egg-info/PKG-INFO
+pyobjectdb.egg-info/SOURCES.txt
+pyobjectdb.egg-info/dependency_links.txt
+pyobjectdb.egg-info/top_level.txt
