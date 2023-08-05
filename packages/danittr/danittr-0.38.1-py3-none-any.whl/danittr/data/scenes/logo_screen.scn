@@ -1,0 +1,69 @@
+{
+  "can_skip"  : true,
+  "background_color": [245, 245, 245],
+  "mood" : "tense",
+  "objects": [
+    {
+      "obj_type": "simple",
+      "kwargs": {
+        "image_name": "python_logo.png",
+        "tasks": [
+          {
+            "name" : "visibility_on",
+            "frames" : 30
+          },
+          {
+            "name": "visibility_off",
+            "frames": 105
+          }
+        ]
+      }
+    },
+    {
+      "obj_type": "simple",
+      "kwargs": {
+        "image_name": "pygame_logo.png",
+        "tasks": [
+          {
+            "name": "visibility_on",
+            "frames": 105
+          },
+          {
+            "name": "visibility_off",
+            "frames": 180
+          }
+        ]
+      }
+    },
+    {
+      "obj_type": "animated",
+      "kwargs": {
+        "anim_data_key": "indie_python_logo",
+        "tasks" : [
+          {
+            "name": "switch_anim",
+            "anim_name": "invisible",
+            "frames": 0
+          },
+          {
+            "name": "switch_anim",
+            "anim_name": "appearing",
+            "frames": 180
+          },
+          {
+            "name": "switch_anim",
+            "anim_name": "idle",
+            "frames": 225
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "switch_level",
+      "level_name": "main_menu",
+      "milliseconds": 8700
+    }
+  ]
+}

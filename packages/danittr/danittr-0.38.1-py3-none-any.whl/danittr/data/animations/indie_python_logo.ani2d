@@ -1,0 +1,111 @@
+{
+  "name": "indie_python_logo",
+  "geometry_map": {
+  },
+  "nodes": {
+    "logo": {
+      "geometry": {
+        "dimensions": [382, 302]
+      }
+    }
+  },
+  "structure_map": {
+  },
+  "structure": {
+    "idle": {
+      "tree": {"name": "logo"}
+    },
+    "appearing": {
+      "tree": {"name": "logo"}
+    },
+    "invisible": {
+      "tree": {
+        "name": "logo",
+        "reference_data": {
+          "surface_data": "default",
+          "position_data": "default",
+          "surface_indices": "default",
+          "position_indices": "default"
+        }
+      }
+    }
+  },
+  "surface_map": {
+    "disappearing": {
+      "name": "load_spritesheet",
+      "image_name": "indie_python_logo.png",
+      "sprite_size": [382, 302],
+      "how_many_sprites": 15
+    },
+    "default": {
+      "name": "invisible"
+    }
+  },
+  "surface_map_post": {
+    "appearing": {
+      "name": "slice",
+      "surface_data": {
+        "name": "retrieve_from_map",
+        "key": "disappearing"
+      },
+      "step": -1
+    }
+  },
+  "position_map": {
+    "default": [
+      [0, 0]
+    ]
+  },
+  "values": {
+    "idle": {
+      "logo": {
+        "surface_data": {
+          "name": "slice",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "disappearing"
+          },
+          "stop": 1
+        }
+      }
+    },
+    "appearing": {
+      "logo": {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "appearing"
+        }
+      }
+    }
+  },
+  "timing_map": {
+    "default": {
+      "name": "get_walking_deque",
+      "index_data": [0]
+    }
+  },
+  "timing": {
+    "idle": {
+      "logo": {
+        "surface_indices": {
+          "name": "retrieve_from_map",
+          "key": "default"
+        }
+      }
+    },
+    "appearing": {
+      "logo": {
+        "surface_indices": {
+          "name": "multiply",
+          "sequence": {
+            "name": "range",
+            "stop": 15
+          },
+          "multiplier": 3
+        }
+      }
+    }
+  },
+  "metadata": {
+  }
+}

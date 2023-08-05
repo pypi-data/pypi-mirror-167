@@ -1,0 +1,32 @@
+{
+  "name" : "thorn_shooter",
+  "nodes" : {
+    "body" : {
+      "geometry": {"dimensions" : [64, 64]}
+    }
+  },
+  "structure" : {
+    "idle" : {
+      "tree": {"name": "body"}
+    }
+  },
+  "values" : {
+    "idle" : {
+      "body" : {
+        "surface_data": {
+          "name": "load_from_disk",
+          "image_names" : [
+            "thorn_shooter.png"
+          ]
+        }
+      }
+    }
+  },
+  "timing" : {
+    "idle" : {
+      "body" : {
+        "surface_indices" : [0]
+      }
+    }
+  }
+}

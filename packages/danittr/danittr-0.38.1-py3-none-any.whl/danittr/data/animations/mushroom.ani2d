@@ -1,0 +1,181 @@
+{
+  "name" : "mushroom",
+  "nodes" : {
+    "mushroom" : {
+      "geometry" : {
+        "dimensions": [32, 32],
+        "collision_data" : {
+          "dimensions" : [28, 28]
+        }
+      }
+    }
+  },
+  "structure" : {
+    "idle" : {
+      "tree" : {"name": "mushroom"}
+    },
+    "thrown" : {
+      "tree" : {"name": "mushroom"}
+    },
+    "thrown_reverse" : {
+      "tree" : {"name": "mushroom"}
+    },
+    "growing" : {
+      "tree" : {"name": "mushroom"}
+    },
+    "bursting" : {
+      "tree" : {"name": "mushroom"}
+    }
+  },
+  "surface_map": {
+    "idle": {
+      "name": "load_from_disk",
+      "image_names": [
+        "mushroom_topleft.png"
+      ]
+    },
+    "thrown": {
+      "name": "load_from_disk",
+      "image_names": [
+        "mushroom_topleft.png",
+        "mushroom_topright.png",
+        "mushroom_bottomright.png",
+        "mushroom_bottomleft.png"
+      ]
+    },
+    "growing": {
+      "name": "load_from_disk",
+      "image_names": [
+        "mushroom_growing01.png",
+        "mushroom_growing02.png",
+        "mushroom_growing03.png",
+        "mushroom_growing04.png",
+        "mushroom_growing05.png",
+        "mushroom_growing06.png",
+        "mushroom_growing07.png",
+        "mushroom_growing08.png"
+      ]
+    },
+    "bursting": {
+      "name": "load_from_disk",
+      "image_names": [
+        "mushroom_bursting01.png",
+        "mushroom_bursting02.png",
+        "mushroom_bursting03.png",
+        "mushroom_bursting04.png",
+        "mushroom_bursting05.png",
+        "mushroom_bursting06.png",
+        "mushroom_bursting07.png",
+        "mushroom_bursting08.png",
+        "mushroom_bursting09.png",
+        "mushroom_bursting10.png",
+        "mushroom_bursting11.png",
+        "mushroom_bursting12.png",
+        "mushroom_bursting13.png"
+      ]
+    }
+  },
+  "values" : {
+    "idle" : {
+      "mushroom" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    },
+    "thrown" : {
+      "mushroom" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "thrown"
+        }
+      }
+    },
+    "thrown_reverse" : {
+      "mushroom" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "thrown"
+          },
+          "flip_x": true
+        }
+      }
+    },
+    "growing" : {
+      "mushroom" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "growing"
+        }
+      }
+    },
+    "bursting" : {
+      "mushroom" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "bursting"
+        }
+      }
+    }
+  },
+  "timing_map": {
+    "thrown": {
+      "name": "multiply",
+      "multiplier": 2,
+      "sequence": {
+        "name": "range",
+        "stop": 4
+      }
+    },
+    "growing": {
+      "name": "multiply",
+      "multiplier": 3,
+      "sequence": {
+        "name": "range",
+        "stop": 8
+      }
+    }
+  },
+  "timing" : {
+    "idle" : {
+      "mushroom" : {
+        "surface_indices" : [0]
+      }
+    },
+    "thrown" : {
+      "mushroom" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "thrown"
+        }
+      }
+    },
+    "thrown_reverse" : {
+      "mushroom" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "thrown"
+        }
+      }
+    },
+    "growing" : {
+      "mushroom" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "growing"
+        }
+      }
+    },
+    "bursting" : {
+      "mushroom" : {
+        "surface_indices" : [
+          0, 2, 4, 6, 8, 10, 12
+        ],
+        "comments" : "Unused surfaces must be removed."
+      }
+    }
+  }
+}

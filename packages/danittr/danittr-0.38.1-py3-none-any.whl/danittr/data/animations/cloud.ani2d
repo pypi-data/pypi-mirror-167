@@ -1,0 +1,374 @@
+{
+  "name" : "cloud",
+  "nodes" : {
+    "cloud" : {
+      "geometry": {
+        "dimensions" : [320, 192]
+      }
+    }
+  },
+  "structure" : {
+    "idle01" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud01",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle02" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud02",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle03" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud03",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle04" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud04",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle05" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud05",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle06" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud06",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle07" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud07",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle08" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud08",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle09" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud09",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle10" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud10",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle11" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud11",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle12" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud12",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle13" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud13",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle14" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud14",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle15" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud15",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle16" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud16",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle17" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud17",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle18" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud18",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle19" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud19",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    },
+    "idle20" : {
+      "tree": {
+        "name": "cloud",
+        "reference_data": {
+          "surface_data": "cloud20",
+          "position_data": "default",
+          "surface_indices": "idle",
+          "position_indices": "default"
+        }
+      }
+    }
+  },
+  "surface_map": {
+    "cloud01": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud01_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud02": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud02_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud03": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud03_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud04": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud04_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud05": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud05_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud06": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud06_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud07": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud07_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud08": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud08_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud09": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud09_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud10": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud10_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud11": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud11_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud12": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud12_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud13": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud13_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud14": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud14_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud15": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud15_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud16": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud16_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud17": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud17_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud18": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud18_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud19": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud19_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    },
+    "cloud20": {
+      "name": "load_spritesheet",
+      "image_name" : "cloud20_idle.png",
+      "sprite_size": [320, 192],
+      "how_many_sprites": 16
+    }
+  },
+  "position_map": {
+    "default": [
+      [0, 0]
+    ]
+  },
+  "values" : {},
+  "timing_map": {
+    "idle": {
+      "name": "get_walking_deque",
+      "index_data": {
+        "name": "back_and_forth",
+        "original_length": 16
+      }
+    },
+    "default": {
+      "name": "get_walking_deque",
+      "index_data": [0]
+    }
+  },
+  "timing" : {}
+}

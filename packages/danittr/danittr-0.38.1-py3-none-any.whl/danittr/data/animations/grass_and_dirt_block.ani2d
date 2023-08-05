@@ -1,0 +1,127 @@
+{
+  "name" : "grass_and_dirt_block",
+  "nodes" : {
+    "block" : {
+      "geometry": {
+        "dimensions" : [64, 64]
+      }
+    },
+    "grass_patch01" : {
+      "geometry": {
+        "dimensions" : [16, 31]
+      }
+    },
+    "grass_patch02" : {
+      "geometry": {
+        "dimensions" : [16, 31]
+      }
+    },
+    "grass_patch03" : {
+      "geometry": {
+        "dimensions" : [16, 31]
+      }
+    },
+    "grass_patch04" : {
+      "geometry": {
+        "dimensions" : [16, 31]
+      }
+    }
+  },
+  "structure" : {
+    "idle" : {
+      "tree": {
+        "name": "block",
+        "children": [
+          {"name": "grass_patch01"},
+          {"name": "grass_patch02"},
+          {"name": "grass_patch03"},
+          {"name": "grass_patch04"}
+        ]
+      }
+    }
+  },
+  "surface_map": {
+    "block": {
+      "name": "load_from_disk",
+      "image_names" : [
+        "dirt_block01.png"
+      ]
+    },
+    "grass": {
+      "name": "load_from_disk",
+      "image_names" : [
+        "grass01.png",
+        "grass02.png"
+      ]
+    }
+  },
+  "values" : {
+    "idle" : {
+      "block" : {
+        "surface_data" : {
+          "name": "retrieve_from_map",
+          "key": "block"
+        }
+      },
+      "grass_patch01" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "grass"
+        },
+        "position_data" : [
+          [-24, -30]
+        ]
+      },
+      "grass_patch02" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "grass"
+        },
+        "position_data" : [
+          [-8, -30]
+        ]
+      },
+      "grass_patch03" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "grass"
+        },
+        "position_data" : [
+          [ 8, -30]
+        ]
+      },
+      "grass_patch04" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "grass"
+        },
+        "position_data" : [
+          [ 24, -30]
+        ]
+      }
+    }
+  },
+  "timing" : {
+    "idle" : {
+      "block" : {
+        "surface_indices" : [0]
+      },
+      "grass_patch01" : {
+        "surface_indices" : [0, 1],
+        "position_indices" : [0, 0]
+      },
+      "grass_patch02" : {
+        "surface_indices" : [0, 1],
+        "position_indices" : [0, 0]
+      },
+      "grass_patch03" : {
+        "surface_indices" : [0, 1],
+        "position_indices" : [0, 0]
+      },
+      "grass_patch04" : {
+        "surface_indices" : [0, 1],
+        "position_indices" : [0, 0]
+      }
+    }
+  }
+}

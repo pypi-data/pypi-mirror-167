@@ -1,0 +1,160 @@
+{
+  "name" : "toxic_pollen_cloud",
+  "nodes" : {
+    "body" : {
+      "geometry": {
+        "dimensions" : [192, 192],
+        "collision_data" : {
+          "dimensions" : [180, 180]
+        }
+      }
+    }
+  },
+  "structure" : {
+    "appearing" : {
+      "tree": {"name": "body"}
+    },
+    "disappearing" : {
+      "tree": {"name": "body"}
+    },
+    "idle" : {
+      "tree": {"name": "body"}
+    },
+    "idle_reverse" : {
+      "tree": {"name": "body"}
+    }
+  },
+  "surface_map": {
+    "appearing": {
+      "name": "load_from_disk",
+      "image_names": [
+        "toxic_pollen_cloud_app01.png",
+        "toxic_pollen_cloud_app02.png",
+        "toxic_pollen_cloud_app03.png",
+        "toxic_pollen_cloud_app04.png",
+        "toxic_pollen_cloud_app05.png"
+      ]
+    },
+    "idle": {
+      "name": "load_from_disk",
+      "image_names": [
+        "toxic_pollen_cloud_idle01.png",
+        "toxic_pollen_cloud_idle02.png",
+        "toxic_pollen_cloud_idle03.png",
+        "toxic_pollen_cloud_idle04.png",
+        "toxic_pollen_cloud_idle05.png",
+        "toxic_pollen_cloud_idle06.png",
+        "toxic_pollen_cloud_idle07.png",
+        "toxic_pollen_cloud_idle08.png",
+        "toxic_pollen_cloud_idle09.png",
+        "toxic_pollen_cloud_idle10.png"
+      ]
+    }
+  },
+  "values" : {
+    "appearing" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "appearing"
+        }
+      }
+    },
+    "disappearing" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "appearing"
+        }
+      }
+    },
+    "idle" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    },
+    "idle_reverse" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    }
+  },
+  "timing_map": {
+    "appearing": {
+      "name": "multiply",
+      "sequence": {
+        "name": "range",
+        "stop": 5
+      },
+      "multiplier": 3
+    },
+    "idle": {
+      "name": "multiply",
+      "sequence": {
+        "name": "range",
+        "stop": 10
+      },
+      "multiplier": 2
+    }
+  },
+  "timing" : {
+    "appearing" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "get_walking_deque",
+          "index_data": {
+            "name": "retrieve_from_map",
+            "key": "appearing"
+          }
+        }
+      }
+    },
+    "disappearing" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "get_walking_deque",
+          "index_data": {
+            "name": "slice",
+            "index_data": {
+              "name": "retrieve_from_map",
+              "key": "appearing"
+            },
+            "step": -1
+          }
+        }
+      }
+    },
+    "idle" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "get_walking_deque",
+          "index_data": {
+            "name": "retrieve_from_map",
+            "key": "idle"
+          }
+        }
+      }
+    },
+    "idle_reverse" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "get_walking_deque",
+          "index_data": {
+            "name": "slice",
+            "index_data": {
+              "name": "retrieve_from_map",
+              "key": "idle"
+            },
+            "step": -1
+          }
+        }
+      }
+    }
+  }
+}

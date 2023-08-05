@@ -1,0 +1,248 @@
+{
+  "name" : "satellite_dish",
+  "nodes" : {
+    "body" : {
+      "geometry": {"dimensions" : [128, 128]}
+    },
+    "leaves" : {
+      "geometry": {"dimensions" : [128, 128]}
+    },
+    "signal" : {
+      "geometry": {"dimensions" : [32, 32]}
+    },
+    "static" : {
+      "geometry": {"dimensions" : [64, 64]}
+    }
+  },
+  "structure" : {
+    "idle" : {
+      "tree": {
+        "name": "body",
+        "reference_data": {
+          "surface_data": "body",
+          "position_data": "default",
+          "surface_indices": "default",
+          "position_indices": "default"
+        },
+        "children": [
+          {
+            "name":"signal",
+            "reference_data": {
+              "surface_data": "signal",
+              "position_data": "signal",
+              "surface_indices": "default",
+              "position_indices": "default"
+            }
+          },
+          {
+            "name":"leaves",
+            "reference_data": {
+              "surface_data": "leaves",
+              "position_data": "default",
+              "surface_indices": "leaves_back_and_forth",
+              "position_indices": "default"
+            }
+          }
+        ]
+      }
+    },
+    "activating" : {
+      "tree": {
+        "name": "body",
+        "reference_data": {
+          "surface_data": "body",
+          "position_data": "default",
+          "surface_indices": "default",
+          "position_indices": "default"
+        },
+        "children": [
+          {
+            "name":"signal",
+            "reference_data": {
+              "surface_data": "signal_activating",
+              "position_data": "signal",
+              "surface_indices": "signal_activating",
+              "position_indices": "default"
+            }
+          },
+          {
+            "name":"leaves",
+            "reference_data": {
+              "surface_data": "leaves",
+              "position_data": "default",
+              "surface_indices": "leaves_back_and_forth",
+              "position_indices": "default"
+            }
+          },
+          {
+            "name":"static",
+            "reference_data": {
+              "surface_data": "static_activating",
+              "position_data": "static",
+              "surface_indices": "static_activating",
+              "position_indices": "default"
+            }
+          }
+        ]
+      }
+    },
+    "activated" : {
+      "tree": {
+        "name": "body",
+        "reference_data": {
+          "surface_data": "body",
+          "position_data": "default",
+          "surface_indices": "default",
+          "position_indices": "default"
+        },
+        "children": [
+          {
+            "name":"signal",
+            "reference_data": {
+              "surface_data": "signal_activated",
+              "position_data": "signal",
+              "surface_indices": "default",
+              "position_indices": "default"
+            }
+          },
+          {
+            "name":"leaves",
+            "reference_data": {
+              "surface_data": "leaves",
+              "position_data": "default",
+              "surface_indices": "leaves_back_and_forth",
+              "position_indices": "default"
+            }
+          },
+          {
+            "name":"static",
+            "reference_data": {
+              "surface_data": "static_activated",
+              "position_data": "static",
+              "surface_indices": "static_activated",
+              "position_indices": "default"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "surface_map": {
+    "body": {
+      "name": "load_from_disk",
+      "image_names": [
+        "satellite_dish.png"
+      ]
+    },
+    "signal": {
+      "name": "load_from_disk",
+      "image_names": [
+        "satellite_dish_signal_idle01.png"
+      ]
+    },
+    "leaves": {
+      "name": "load_from_disk",
+      "image_names": [
+        "satellite_dish_leaves_idle01.png",
+        "satellite_dish_leaves_idle02.png",
+        "satellite_dish_leaves_idle03.png",
+        "satellite_dish_leaves_idle04.png"
+      ]
+    },
+    "signal_activating": {
+      "name": "load_from_disk",
+      "image_names": [
+        "satellite_dish_signal_activating01.png",
+        "satellite_dish_signal_activating02.png",
+        "satellite_dish_signal_activating03.png"
+      ]
+    },
+    "signal_activated": {
+      "name": "load_from_disk",
+      "image_names": [
+        "satellite_dish_signal_activated01.png"
+      ]
+    },
+    "static_activating": {
+      "name": "concatenate",
+      "surface_sequences": [
+        {"name": "invisible"},
+        {
+          "name": "load_from_disk",
+          "image_names": [
+            "satellite_dish_static_activating01.png",
+            "satellite_dish_static_activating02.png"
+          ]
+        }
+      ]
+    },
+    "static_activated": {
+      "name": "load_from_disk",
+      "image_names": [
+        "satellite_dish_static_activated01.png",
+        "satellite_dish_static_activated02.png"
+      ]
+    }
+  },
+  "position_map": {
+    "default": [
+      [0, 0]
+    ],
+    "signal": [
+      [-26, 48]
+    ],
+    "static" : [
+      [-56, -64]
+    ]
+  },
+  "values": {
+  },
+  "timing_map": {
+    "default" : {
+      "name": "get_walking_deque",
+      "index_data": [0]
+    },
+    "leaves_back_and_forth": {
+      "name": "get_walking_deque",
+      "index_data": {
+        "name": "multiply",
+        "sequence": {
+          "name": "back_and_forth",
+          "original_length": 4
+        },
+        "multiplier": 5
+      }
+    },
+    "signal_activating": {
+      "name": "get_walking_deque",
+      "index_data": {
+        "name": "multiply",
+        "sequence": {
+          "name": "range",
+          "stop": 3
+        },
+        "multiplier": 15
+      }
+    },
+    "static_activating": {
+      "name": "get_walking_deque",
+      "index_data": {
+        "name" : "multiply",
+        "sequence": [0, 1, 0, 2],
+        "multiplier" : 9
+      }
+    },
+    "static_activated": {
+      "name": "get_walking_deque",
+      "index_data": {
+        "name" : "multiply", 
+        "sequence": {
+          "name" : "range", "stop" : 2
+        },
+        "multiplier" : 5
+      }
+    }
+  },
+  "timing" : {
+  }
+}

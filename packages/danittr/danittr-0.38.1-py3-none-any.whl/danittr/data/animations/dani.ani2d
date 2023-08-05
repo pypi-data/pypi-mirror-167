@@ -1,0 +1,287 @@
+{
+  "name": "Dani",
+  "nodes" : {
+    "body" : {
+      "geometry": {
+        "dimensions" : [52, 78],
+        "collision_data" : {
+          "dimensions" : [22, 64],
+          "offset" : [0, 7]
+        }
+      }
+    },
+    "crouch" : {
+      "geometry": {
+        "dimensions" : [52, 62],
+        "collision_data" : {
+          "dimensions" : [22, 48],
+          "offset" : [0, 7]
+        }
+      }
+    }
+  },
+  "structure" : {
+    "idle" : {
+      "tree" : {"name": "body"}
+    },
+    "idle_reverse" : {
+      "tree" : {"name": "body"}
+    },
+    "walk" : {
+      "tree" : {"name": "body"}
+    },
+    "walk_reverse" : {
+      "tree" : {"name": "body"}
+    },
+    "decelerate" : {
+      "tree" : {"name": "body"}
+    },
+    "decelerate_reverse" : {
+      "tree" : {"name": "body"}
+    },
+    "jump" : {
+      "tree" : {"name": "body"}
+    },
+    "jump_reverse" : {
+      "tree" : {"name": "body"}
+    },
+    "crouched_idle" : {
+      "tree" : {"name": "crouch"}
+    },
+    "crouched_idle_reverse" : {
+      "tree" : {"name": "crouch"}
+    }
+  },
+  "surface_map" : {
+    "idle": {
+      "name": "load_from_disk",
+      "image_names": [
+        "dani_idle01.png",
+        "dani_idle02.png"
+      ]
+    },
+    "walk": {
+      "name": "load_from_disk",
+      "image_names": [
+        "dani_walk01.png",
+        "dani_walk02.png",
+        "dani_walk03.png",
+        "dani_walk04.png",
+        "dani_walk05.png"
+      ]
+    },
+    "decelerate": {
+      "name": "load_from_disk",
+      "image_names": [
+        "dani_decelerate01.png"
+      ]
+    },
+    "jump": {
+      "name": "load_from_disk",
+      "image_names": [
+        "dani_jump01.png"
+      ]
+    },
+    "crouched_idle": {
+      "name": "load_from_disk",
+      "image_names": [
+        "dani_crouched_idle01.png",
+        "dani_crouched_idle02.png"
+      ]
+    }
+  },
+  "values" : {
+    "idle" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    },
+    "idle_reverse" : {
+      "body" : {
+        "surface_data" : {
+          "name": "flip",
+          "surface_data" : {
+            "name":"retrieve_from_map",
+            "key": "idle"
+          },
+          "flip_x": true
+        }
+      }
+    },
+    "walk" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "walk"
+        }
+      }
+    },
+    "walk_reverse" : {
+      "body" : {
+        "surface_data" : {
+          "name": "flip",
+          "surface_data" : {
+            "name":"retrieve_from_map",
+            "key": "walk"
+          },
+          "flip_x": true
+        }
+      }
+    },
+    "decelerate" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "decelerate"
+        }
+      }
+    },
+    "decelerate_reverse" : {
+      "body" : {
+        "surface_data" : {
+          "name": "flip",
+          "surface_data" : {
+            "name":"retrieve_from_map",
+            "key": "decelerate"
+          },
+          "flip_x": true
+        }
+      }
+    },
+    "jump" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "jump"
+        }
+      }
+    },
+    "jump_reverse" : {
+      "body" : {
+        "surface_data" : {
+          "name": "flip",
+          "surface_data" : {
+            "name":"retrieve_from_map",
+            "key": "jump"
+          },
+          "flip_x": true
+        }
+      }
+    },
+    "crouched_idle" : {
+      "crouch" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "crouched_idle"
+        }
+      }
+    },
+    "crouched_idle_reverse" : {
+      "crouch" : {
+        "surface_data" : {
+          "name": "flip",
+          "surface_data" : {
+            "name":"retrieve_from_map",
+            "key": "crouched_idle"
+          },
+          "flip_x": true
+        }
+      }
+    }
+  },
+  "timing_map": {
+    "idle": {
+      "name": "concatenate",
+      "sequences":[
+        {"name" : "repeat",
+         "sequence" : [0], "how_many_times" :23},
+        {"name" : "repeat",
+         "sequence" : [1], "how_many_times" : 7}
+      ]
+    },
+    "walk": {
+      "name" : "multiply",
+      "multiplier" : 3,
+      "sequence" : {"name" : "range", "stop" : 5}
+    }
+  },
+  "timing" : {
+    "idle" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    },
+    "idle_reverse" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    },
+    "walk" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "walk"
+        }
+      }
+    },
+    "walk_reverse" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "walk"
+        }
+      }
+    },
+    "decelerate" : {
+      "body" : {
+        "surface_indices" : [0]
+      }
+    },
+    "decelerate_reverse" : {
+      "body" : {
+        "surface_indices" : [0]
+      }
+    },
+    "jump" : {
+      "body" : {
+        "surface_indices" : [0]
+      }
+    },
+    "jump_reverse" : {
+      "body" : {
+        "surface_indices" : [0]
+      }
+    },
+    "crouched_idle" : {
+      "crouch" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    },
+    "crouched_idle_reverse" : {
+      "crouch" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      }
+    }
+  },
+  "metadata" : {
+    "root_pos_exchange_map": {
+      "body": {"crouch": ["midbottom", "midbottom"]},
+      "crouch": {"body": ["midbottom", "midbottom"]}
+    }
+  }
+}

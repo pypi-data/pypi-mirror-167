@@ -1,0 +1,6428 @@
+{
+  "actors": [
+    {
+      "coordinates": [
+        2368,
+        832
+      ],
+      "health": 100,
+      "prop_name": "thorn_shooter",
+      "revive_countdown": 0
+    },
+    {
+      "coordinates": [
+        2432,
+        896
+      ],
+      "health": 100,
+      "prop_name": "thorn_shooter",
+      "revive_countdown": 0
+    },
+    {
+      "coordinates": [
+        2432,
+        1344
+      ],
+      "health": 100,
+      "prop_name": "thorn_shooter",
+      "revive_countdown": 0
+    },
+    {
+      "coordinates": [
+        1664,
+        960
+      ],
+      "health": 100,
+      "prop_name": "thorn_shooter",
+      "revive_countdown": 0
+    },
+    {
+      "coordinates": [
+        3584,
+        1344
+      ],
+      "prop_name": "rocket_scorpion"
+    },
+    {
+      "coordinates": [
+        3072,
+        1344
+      ],
+      "prop_name": "rocket_scorpion"
+    },
+    {
+      "coordinates": [
+        3200,
+        768
+      ],
+      "health": 100,
+      "prop_name": "thorn_shooter",
+      "revive_countdown": 0
+    },
+    {
+      "coordinates": [
+        3520,
+        768
+      ],
+      "health": 100,
+      "prop_name": "thorn_shooter",
+      "revive_countdown": 0
+    }
+  ],
+  "back_props": [
+    {
+      "coordinates": [
+        1984,
+        1088
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1984,
+        1024
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1024
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1088
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1088
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1024
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        960
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        960
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        896
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        960
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        960
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        896
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        2048,
+        1088
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        2112,
+        1152
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        2112,
+        1216
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        2048,
+        1216
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        2048,
+        1152
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        2176,
+        1216
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        960
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        896
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        896
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        1984,
+        960
+      ],
+      "prop_name": "dirt_darker_back_prop"
+    },
+    {
+      "coordinates": [
+        0,
+        704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        0,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        64,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        128,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        192,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        256,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        320,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        384,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        448,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        512,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        576,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        640,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        704,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        768,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        832,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        896,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        960,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1024,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1088,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1152,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1216,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2176,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1984,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2048,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2112,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2112,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2048,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1984,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1984,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1024
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        960
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        960
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        896
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        896
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        896
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        896
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1856,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1920,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1984,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2048,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2112,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2176,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2240,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2304,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2368,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2432,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2496,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2560,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2624,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2688,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2752,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2816,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2880,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2944,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3008,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3072,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3136,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3200,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3264,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3328,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3392,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3456,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3520,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3584,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3648,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3712,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3776,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4288,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4352,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4416,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4480,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4544,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4608,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4672,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4736,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4800,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4864,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4928,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4992,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5056,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5056,
+        1472
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1792,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1728,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        960
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        960
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1024
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1024
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        960
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1280,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1344,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1408,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1344
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1408
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1664,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1216
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1280
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1024
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1600,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1536,
+        1024
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1024
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1088
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        1472,
+        1152
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6336,
+        704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5120,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5184,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5248,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5312,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5376,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5440,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5504,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5568,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5632,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5696,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5760,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5824,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5888,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5952,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6016,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6080,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6144,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6208,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6272,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6336,
+        768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2560,
+        -896
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2560,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3776,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        5056,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        6336,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2560,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3776,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2624,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2688,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2752,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2816,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2880,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2880,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2816,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2752,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2688,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2624,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2560,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        2560,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3328,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3328,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3392,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3456,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3520,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3584,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3648,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3712,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3776,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3392,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3456,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3520,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3584,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3648,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3712,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3776,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -832
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -768
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -704
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        -64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        0
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        64
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        128
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        192
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        256
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        320
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        384
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        448
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        512
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        576
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3840,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3904,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        3968,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4032,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4096,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4160,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    },
+    {
+      "coordinates": [
+        4224,
+        640
+      ],
+      "prop_name": "dirt_back_prop"
+    }
+  ],
+  "background_color": [
+    108,
+    166,
+    205
+  ],
+  "blocks": [
+    {
+      "coordinates": [
+        64,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        128,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        192,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        256,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        320,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        384,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        448,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        512,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        576,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        640,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        704,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        768,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        832,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        896,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        960,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1024,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1088,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1152,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1216,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1280,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1344,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1408,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1472,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1472,
+        768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        1472,
+        832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        1600,
+        896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1536,
+        896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1600,
+        960
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        1664,
+        1024
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1728,
+        1024
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1792,
+        1024
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1792,
+        1088
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        1856,
+        1152
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1920,
+        1152
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1984,
+        1152
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2048,
+        1280
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2112,
+        1280
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2176,
+        1280
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2240,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2304,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2368,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2432,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2496,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        1984,
+        1216
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2176,
+        1344
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2624,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2688,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2752,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2816,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2880,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2944,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3008,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3072,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3136,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3200,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3264,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3328,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3392,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3456,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3520,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3584,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3648,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3712,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3776,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3840,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3904,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3968,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4032,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4096,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4160,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4224,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4288,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4352,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4416,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4480,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4544,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4608,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4672,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4736,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4800,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4864,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4928,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4992,
+        1408
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5056,
+        1344
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        1280
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        1216
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        1152
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        1088
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        1024
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        960
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        896
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2624,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4224,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4160,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4096,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4032,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3968,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3904,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3840,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3712,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3648,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3584,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3520,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3456,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3392,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3328,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3264,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3200,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3136,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3072,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3008,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2944,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2880,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2816,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2752,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2688,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        0,
+        0
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2432,
+        832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2432,
+        768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2432,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2496,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        0
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5184,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5248,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5312,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5376,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5440,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5504,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5568,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5632,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5696,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5760,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5824,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5888,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5952,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6016,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6080,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6144,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6208,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6272,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        0
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6336,
+        640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        6272,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        6208,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        6144,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        6080,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        6016,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5952,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5888,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5824,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5632,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5696,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5760,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5568,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5504,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5440,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5376,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5312,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5248,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5184,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5120,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        5056,
+        704
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4288,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5120,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4224,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4160,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4096,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        4032,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3968,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3904,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3840,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3776,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3712,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3648,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3584,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3520,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3456,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3392,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3328,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3264,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2944,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2880,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2816,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2752,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2688,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2624,
+        -896
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2560,
+        -960
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1024
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1088
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1152
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1216
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1280
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1344
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1408
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2624,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2688,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2752,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2816,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2880,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2944,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3008,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3072,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3136,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3200,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3264,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3328,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3392,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3456,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3520,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3584,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3648,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3712,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3840,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3904,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3968,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4032,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4096,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4160,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4224,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4288,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4352,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4416,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4480,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4544,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4608,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4672,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4736,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4800,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4864,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4928,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        4992,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1472
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -896
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -960
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1024
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1088
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1152
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1216
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1280
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1344
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        5056,
+        -1408
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2944,
+        -832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2944,
+        -768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2944,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2880,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2816,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2752,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2688,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2624,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        2560,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -64
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -128
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -192
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -256
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -320
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -384
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -448
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -512
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -576
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3776,
+        -640
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3712,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3648,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3584,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3520,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3456,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3392,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3328,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3264,
+        -704
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3264,
+        -768
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3264,
+        -832
+      ],
+      "prop_name": "dirt_block01"
+    },
+    {
+      "coordinates": [
+        3712,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3648,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3584,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3520,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3456,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3392,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3328,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3264,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3200,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3136,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3072,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        3008,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2944,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2880,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2816,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2752,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2688,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    },
+    {
+      "coordinates": [
+        2624,
+        0
+      ],
+      "prop_name": "grass_and_dirt_block"
+    }
+  ],
+  "middle_props": [
+    {
+      "coordinates": [
+        1856,
+        1088
+      ],
+      "destination": "lvl01_entrance",
+      "next_level": "level01.lvl",
+      "portal_name": "lvl02_entrance",
+      "prop_name": "cave_entrance"
+    },
+    {
+      "coordinates": [
+        320,
+        640
+      ],
+      "prop_name": "satellite_dish"
+    },
+    {
+      "coordinates": [
+        4928,
+        1344
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        1280
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        1216
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        1152
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        1088
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        1024
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        960
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        896
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        832
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        768
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        704
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        640
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        576
+      ],
+      "prop_name": "vines_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        512
+      ],
+      "prop_name": "vines_top"
+    },
+    {
+      "coordinates": [
+        6144,
+        640
+      ],
+      "prop_name": "satellite_dish"
+    },
+    {
+      "coordinates": [
+        4672,
+        640
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        640
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        576
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        576
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        640
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        640
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        576
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        576
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        512
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        448
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        448
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        512
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        448
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        0
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        0
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4672,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4736,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4736,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4800,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4864,
+        -192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        -192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        -256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        0
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        0
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4800,
+        -192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4864,
+        -256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        -320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4992,
+        -320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4992,
+        -384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4928,
+        -384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4736,
+        -192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4736,
+        -256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4672,
+        -256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        -320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        -320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        -384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        -448
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -448
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -512
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -512
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        -384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        -256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -576
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -576
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -640
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -704
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -704
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -640
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -768
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -768
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -832
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -832
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        -192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4608,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4672,
+        -192
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4672,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4544,
+        -256
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        -320
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -384
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -448
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        5312,
+        640
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        5440,
+        640
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        4096,
+        -960
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        3968,
+        -960
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        3648,
+        -960
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        2688,
+        -960
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        2816,
+        -960
+      ],
+      "has_mushroom": true,
+      "prop_name": "mushroom_plant"
+    },
+    {
+      "coordinates": [
+        3392,
+        -960
+      ],
+      "prop_name": "satellite_dish"
+    },
+    {
+      "coordinates": [
+        4352,
+        -896
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4416,
+        -896
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4480,
+        -512
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4544,
+        -448
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4608,
+        -384
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4672,
+        -320
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4736,
+        -320
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4800,
+        -256
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4864,
+        -320
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4928,
+        -448
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4992,
+        -448
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4544,
+        -192
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4352,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        0
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4416,
+        -64
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4352,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        -128
+      ],
+      "prop_name": "vines_grid_climbable"
+    },
+    {
+      "coordinates": [
+        4480,
+        -192
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4416,
+        -192
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4352,
+        -192
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4480,
+        384
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4544,
+        512
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4608,
+        512
+      ],
+      "prop_name": "vines_grid_top"
+    },
+    {
+      "coordinates": [
+        4672,
+        576
+      ],
+      "prop_name": "vines_grid_top"
+    }
+  ]
+}
