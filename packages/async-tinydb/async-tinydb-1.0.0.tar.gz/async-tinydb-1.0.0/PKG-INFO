@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: async-tinydb
+Version: 1.0.0
+Summary: Yet Another Async TinyDB
+Home-page: https://github.com/VermiIIi0n/async-tinydb
+License: MIT
+Keywords: database,nosql,async
+Author: Markus Siemens
+Author-email: markus@m-siemens.de
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: aiofiles (>=22.1.0,<23.0.0)
+Requires-Dist: nest-asyncio (>=1.5.5,<2.0.0)
+Requires-Dist: typing-extensions (>=3.10.0,<5.0.0); python_version <= "3.10"
+Requires-Dist: ujson (>=5.4.0,<6.0.0)
+Project-URL: Issues, https://github.com/VermiIIi0n/async-tinydb/issues
+Description-Content-Type: text/markdown
+
+![logo](https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png)
+
+## What's This?
+
+"An asynchronous IO version of `TinyDB` based on `aiofiles`."
+
+Almost every method is asynchronous. And it's based on `TinyDB 4.7.0+`.  
+I will try to keep up with the latest version of `TinyDB`.
+
+Since I modified it in just a few hours, I'm not sure if it's stable enough for production.  
+But hey! It passed all the tests anyways.
+
+## A few extra minor differences from the original `TinyDB`:
+
+* **lazy-load:** When access-mode is set to `'r'`, `FileNotExistsError` is not raised until the first read operation.
+* **ujson:** Using `ujson` instead of `json`. Some arguments aren't compatible with `json`
+
+## How to use IT?
+
+#### Installation
+
+```Bash
+pip install async-tinydb
+```
+
+#### Importing
+```Python
+from asynctinydb import TinyDB, where
+```
+
+
+Basically, all you need to do is insert an `await` before every method that needs IO.
+
+Notice that some parts of the code are blocking, for example when calling `len()` on `TinyDB` or `Table` Objects.
+
+## Example Codes:
+
+```Python
+import asyncio
+from asynctinydb import TinyDB, Query
+
+async def main():
+    db = TinyDB('test.json')
+    await db.insert({"answer": 42})
+    print(await db.search(Query().answer == 42))  # >>> [{'answer': 42}] 
+
+asyncio.run(main())
+```
+
