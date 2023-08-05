@@ -1,0 +1,2 @@
+[console_scripts]
+borys_ninja = borys_peex.main:main
