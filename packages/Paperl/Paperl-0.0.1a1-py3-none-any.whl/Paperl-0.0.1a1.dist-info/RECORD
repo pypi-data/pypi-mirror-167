@@ -1,0 +1,15 @@
+Paperl/__init__.py,sha256=VWBEYwhJTULWqkX8R2W_BvC5vGuKo0Oso7Oe9qtcQtk,169
+Paperl/Paperc/__init__.py,sha256=wedcnt2fpmou-r7rUHMiWC77UUlRsZeNgrDVrECuh2g,1570
+Paperl/Paperui/__init__.py,sha256=wp4d_dlzwReT1t5htv5OGUaziF6pNHe-kwAypmrFAd0,36
+Paperl/Paperui/Widgets/__init__.py,sha256=hdCIIFJaGDmdFTUo_IfskC7IuZz-hiICPPdM5ETJSqo,282
+Paperl/Paperui/Widgets/button.py,sha256=3ZTLBVQDzun1JCK5ptGmzMPN29XzgI-RjYU4ysQeQaY,394
+Paperl/Paperui/Widgets/constant.py,sha256=dpCw_zwMlfMgVArXc4MpsjjFa5gdayJB1k3lUwofO3g,586
+Paperl/Paperui/Widgets/eventHandle.py,sha256=9UWVD2yZOxZUeCYlHF4TPf9kOKkwK-RdljsgbM3ajn8,1777
+Paperl/Paperui/Widgets/themes.py,sha256=u_681_PuHbs06jrlNrqTCXK4racb0GOUYGV_xcZK1wU,2451
+Paperl/Paperui/Widgets/widget.py,sha256=wAzMwqXvWr0pwcb6kX98iWZpoJai1KJtJvQlv2qFPj8,2591
+Paperl/Paperui/Widgets/window.py,sha256=bDfGxnxcZ-Ia_lLbMpSyHGgiCDjQUNpamgEnPLM6HIo,2883
+Paperl/Paperui/Widgets/windowDevelop.py,sha256=KJo-GtikupQCRLhLHGF93KpCQo3NAZRRsUa-GKYjMXo,3375
+Paperl-0.0.1a1.dist-info/METADATA,sha256=kerI-u50Fzb1Sc1Io6RJ6CJ1t6ENQ7MuDFy6wdqOBII,429
+Paperl-0.0.1a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Paperl-0.0.1a1.dist-info/top_level.txt,sha256=-Pomvbk2yUKRufJlLfmLa2XICHZXiGTaS8_XwiZCMsQ,7
+Paperl-0.0.1a1.dist-info/RECORD,,
