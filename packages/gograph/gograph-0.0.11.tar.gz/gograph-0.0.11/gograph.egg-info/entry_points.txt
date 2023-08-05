@@ -1,0 +1,2 @@
+[nbdev]
+gograph = gograph._modidx:d
