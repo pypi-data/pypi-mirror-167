@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=MklauBnxpAT4i_wx1j-9lSh5yAYRAMEuKtNlKO98rVM,312
+cointainer_scraper_ecb/__init__.py,sha256=HmxYIyQIxO16gzkzVBUlR82VIYtOncf69bILD2fjhZ0,114
+cointainer_scraper_ecb/coins.py,sha256=nd65DSaBoxuoL0-IEtghkvkHzPCKEDeso_lCGa-BGD8,18004
+cointainer_scraper_ecb/data/countries.json,sha256=38Zsi68t5w42IkiEr1dMqW5GF3hp0F6FNj-uxZzQ2Ck,154737
+cointainer_scraper_ecb/data/LICENSE,sha256=VOXahfdiQrqwBcil5nkkaKpTSY5BewVXgB_N2ch-gHQ,25312
+cointainer_scraper_ecb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cointainer_scraper_ecb-0.1.0.dist-info/LICENSE,sha256=prssVe82fF34xzh2_n9R4ljsKLKdvqqoJi3EFUVznKY,11337
+cointainer_scraper_ecb-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+cointainer_scraper_ecb-0.1.0.dist-info/METADATA,sha256=9Hv23AtBxyiOadnzMsVcmfdow0_zLtand9ZlVEfCc6g,5730
+cointainer_scraper_ecb-0.1.0.dist-info/RECORD,,
