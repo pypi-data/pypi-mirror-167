@@ -1,0 +1,10 @@
+README.md
+setup.py
+oxdomains/__init__.py
+oxdomains/main.py
+oxdomains.egg-info/PKG-INFO
+oxdomains.egg-info/SOURCES.txt
+oxdomains.egg-info/dependency_links.txt
+oxdomains.egg-info/entry_points.txt
+oxdomains.egg-info/requires.txt
+oxdomains.egg-info/top_level.txt
