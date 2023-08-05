@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "runtime-config-py"
+version = "0.0.2"
+description = "Library for runtime updating project settings."
+license = "MIT"
+authors = ["Aleksey Petrunnik <petrunnik.a@mail.ru>"]
+maintainers = ["Aleksey Petrunnik <petrunnik.a@mail.ru>"]
+repository = "https://github.com/aleksey925/runtime-config-py"
+packages = [{ include = "runtime_config", from = "src" }]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+aiohttp = {version = "^3.8.1", extras = ["speedups"]}
+pydantic = "^1.10.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-asyncio = "^0.18.3"
+pytest-mock = "^3.8.2"
+pytest-cov = "^3.0.0"
+autopep8 = "^1.6.0"
+black = "^22.8.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "0.971"
+pre-commit = "^2.19.0"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+pythonpath = ['./src']
+testpaths = ["tests"]
+
+[tool.black]
+target_version = ['py38']
+line-length = 119
+skip_string_normalization = true
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.8"
+disallow_any_generics = true
+disallow_untyped_defs = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
