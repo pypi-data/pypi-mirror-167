@@ -1,0 +1,7 @@
+mango-agents==0.3.0
+numpy
+overrides
+pandapipes==0.6.0
+pandapower
+pandas
+simbench
