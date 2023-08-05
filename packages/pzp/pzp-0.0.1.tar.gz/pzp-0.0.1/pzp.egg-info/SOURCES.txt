@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pzp/__init__.py
+pzp/pzp.py
+pzp.egg-info/PKG-INFO
+pzp.egg-info/SOURCES.txt
+pzp.egg-info/dependency_links.txt
+pzp.egg-info/top_level.txt
+pzp.egg-info/zip-safe
