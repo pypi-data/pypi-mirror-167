@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+send.py
+setup.cfg
+setup.py
+Auto_Announcements.egg-info/PKG-INFO
+Auto_Announcements.egg-info/SOURCES.txt
+Auto_Announcements.egg-info/dependency_links.txt
+Auto_Announcements.egg-info/entry_points.txt
+Auto_Announcements.egg-info/top_level.txt
