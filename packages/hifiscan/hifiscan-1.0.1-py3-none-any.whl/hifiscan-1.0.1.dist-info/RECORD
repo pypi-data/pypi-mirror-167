@@ -1,0 +1,11 @@
+hifiscan/__init__.py,sha256=o2fNFmZRID07HJeDnlBYcnBtVqHYr4swHvclRzY25M4,231
+hifiscan/__main__.py,sha256=xo7wAS3AMQzfwk3FuMeUuDehZNAyUr7VrKpdp3xS8Dg,69
+hifiscan/analyzer.py,sha256=SBCGRPohfEDi_BujvrcOKUKeoPxJj9Ae7JLXws2rsyY,9480
+hifiscan/app.py,sha256=XraWmZ4kfMaGNtNHeKKsZ4uqPKziEXxeZ1Tcui2I3J4,12548
+hifiscan/audio.py,sha256=8Qa7M5bhnBzlZ3CXfdcDMvPodCudNlyjnMAg54ZCH2M,3029
+hifiscan-1.0.1.dist-info/LICENSE,sha256=dfPn0I0kShN-NjTK_3yECyoWMDnq5Rp6NrZehMvIM7o,1317
+hifiscan-1.0.1.dist-info/METADATA,sha256=k0dTo3bIgdzbXTl95hHoEdLFyNk9GZUrFKrcFvLo7Gw,9792
+hifiscan-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hifiscan-1.0.1.dist-info/entry_points.txt,sha256=L-QYB5XuY9zrbBBssqd0M5bhwlqNWoBCKLVUEXPwKKo,44
+hifiscan-1.0.1.dist-info/top_level.txt,sha256=wxuGp2IIl2jqdyIeQk5V0tVB_IbnorJ6aWDCZ8uMklA,9
+hifiscan-1.0.1.dist-info/RECORD,,
