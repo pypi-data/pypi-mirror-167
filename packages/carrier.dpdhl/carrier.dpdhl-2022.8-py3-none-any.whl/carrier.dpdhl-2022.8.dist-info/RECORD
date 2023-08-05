@@ -1,0 +1,8 @@
+dpdhl_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dpdhl_lib/business_interface.py,sha256=kQIpeCEfIeWQmL-Al3lRYzbMPyhITF23T-nAc1JFsRk,948034
+dpdhl_lib/customer_interface.py,sha256=8dm1Rd7cGAMRq7kzfr3u-9H_mo_2eCIfp0Alock62GI,358101
+dpdhl_lib/tracking_request.py,sha256=s9HTp56-qSzY_Wx4AYhDLJTvYoRCq_yx8jaREolsMZ0,55924
+dpdhl_lib/tracking_response.py,sha256=adQ8bgbIEwOwoOQ6Eiqt9Q1tiANI41oEyGmlXm3rczc,127869
+carrier.dpdhl-2022.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+carrier.dpdhl-2022.8.dist-info/METADATA,sha256=WaULWNisbb29UOK295VC42sMXrXtn8KZH0xNEWIjphA,1260
+carrier.dpdhl-2022.8.dist-info/RECORD,,
