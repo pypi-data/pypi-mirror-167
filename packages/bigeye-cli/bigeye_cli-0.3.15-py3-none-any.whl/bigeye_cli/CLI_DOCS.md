@@ -1,0 +1,67 @@
+# **Bigeye CLI**
+Version: 0.3.15
+
+## Install
+Bigeye CLI is a pip installable package.  Run the following:
+```console
+pip3 install bigeye-cli
+```
+## Credential
+Run the following command to get logged into your Bigeye workspace from the CLI:
+
+```console
+bigeye credential
+```
+
+There are two ways to authenticate: basic authentication and browser authentication.
+
+### Basic Authentication
+If you select basic authentication, the CLI will prompt you to enter your Bigeye username and password. This will
+create a default credential file at ~/.bigeye/default_cred.json. This credential will be used for all CLI commands
+calls unless an environment variable is explicitly provided.
+
+```yaml
+base_url: "https://app.bigeye.com",
+user: "some_user+some_company@bigeye.com",
+password: "fakepassword1234"
+```
+
+You can create an environment variable for your workspace credential file, this is helpful if you are managing
+multiple workspaces and need to flip between them. Add the following to your ~/.bashrc or ~/.zshrc file:
+
+```shell
+export BIGEYE_API_CRED_FILE=/some/path/to/bigeye_cred_file.json
+```
+
+Lastly, if you want to specify the credential per command, you can always pass a -b parameter with the file path for
+the desired credential.
+
+### Browser Authentication
+Alternatively, you can use browser authentication. Login to your bigeye workspace on a Chrome, Chromium or
+Firefox browser. Run **bigeye credential** and select browser_auth when prompted in the CLI and follow the
+instructions. If you use Chrome profiles, make sure to specify the profile email address you are logged into.
+
+Note: your authentication will only be valid so long as your browser session is active.
+
+## Basic Usage
+```console
+$ bigeye --help
+```
+## Tab/Auto Completion
+Bigeye supports tab/auto completion for many different shells.  For example, run:
+```console
+$ bigeye --install-completion zsh
+```
+### ZSH Completion
+Verify that the following has been added to your shell rc file:
+```shell
+autoload -Uz compinit
+zstyle :completion:* menu select
+fpath+=~/.zfunc
+```
+If you are having trouble with auto complete then add the following below the 3 lines above.
+```shell
+compinit
+```
+# CLI Documentation
+
