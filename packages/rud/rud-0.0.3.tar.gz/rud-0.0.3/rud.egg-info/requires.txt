@@ -1,0 +1,12 @@
+aiofiles
+aiohttp
+asyncpraw
+pfedit
+
+[docs]
+sphinx
+sphinxcontrib_trio
+sphinxcontrib-websupport
+typing-extensions
+myst_parser
+sphinx-argparse
