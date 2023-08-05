@@ -1,0 +1,2 @@
+[console_scripts]
+kamtube = KamTube.cli:main
