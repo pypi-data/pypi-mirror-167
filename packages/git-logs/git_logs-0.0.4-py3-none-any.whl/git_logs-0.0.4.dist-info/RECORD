@@ -1,0 +1,14 @@
+gitlogs/__init__.py,sha256=ZUHLBKf1ZOXImucC4ziDxl9q23tHqbP5coc3KHypGX8,766
+gitlogs/gitstats.py,sha256=sEjFpVKVDftid38RvJK1pOGcJj1kjCh2VKmv5g5-GXo,4192
+gitlogs/main.py,sha256=TcM5rjYtVKRWoopUmJc0aAtEBv78wuadl6XlvjaUc30,1435
+gitlogs/parser.py,sha256=8SSyNcDFjqRqMAjzGIZNN3t8GgjQg7MrBhi_48dqYUc,1209
+gitlogs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitlogs/utils/bcolors.py,sha256=4nRwng51TZYiSYuyz92eMkf7dVYRVJK-ddIwke5bhwc,1698
+gitlogs/validate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitlogs/validate/check_args.py,sha256=9h4KIizo4gIpWYIuPSFyN_bCEHlci3QDoKgdtQt2JbM,1496
+git_logs-0.0.4.dist-info/LICENSE,sha256=utWeq7Aqy4HPfHYgo_NiVv4UR7XBPWq7gxcd2r4dd3s,1091
+git_logs-0.0.4.dist-info/METADATA,sha256=Bl-N6IK5AZpXCrxNcTzImJ4FNMqugQWsNvWocbgVZ9M,1392
+git_logs-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+git_logs-0.0.4.dist-info/entry_points.txt,sha256=4nhh4R4IL-nG780BXLUDIKGcuOJ2T_iZkptOuQxdfy8,75
+git_logs-0.0.4.dist-info/top_level.txt,sha256=yFY39k1guosEh-KLMd4ZouuNli7KVJSdWSiTrUFWZaQ,8
+git_logs-0.0.4.dist-info/RECORD,,
