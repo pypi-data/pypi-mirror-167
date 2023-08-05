@@ -1,0 +1,12 @@
+unittest_specs/__init__.py,sha256=dINwK3ZPjKVW8XZ287JlNZ4toBIEIpp8v_W3SgKtrgA,363
+unittest_specs/fun_test_spec.py,sha256=_g-zZnbKdOjquQp1GeEnFAKWcBGmz3T37spBNOuuEfU,4975
+unittest_specs/simple_test_spec.py,sha256=o8b7QOYMsTMiQBK0vRNXkODluu02J_RjTJYk7qYBIpU,3950
+unittest_specs/test_fun_test_spec_dsl.py,sha256=G-gwd9TpVAXyMbF0OkpOgYBTjE8-RB683ag8EJ5OGks,3251
+unittest_specs/test_simple_test_spec_dsl.py,sha256=oSrAqmDNX9pdIaJGP6JwWX2YorccTUsq2yB7JLzxBAg,3818
+unittest_specs/test_with_test_spec.py,sha256=06ZJQWuKE6M0HaLlLvSuw7f5l2ZH2N1egY-cZk_8G00,4980
+unittest_specs/with_test_spec.py,sha256=Z6MaEGRe7jQq5EMvtmWay059OODSlwxI2wSzGASwVlk,3889
+unittest_specs-1.2.0.dist-info/LICENSE,sha256=HEB4aNoXC8qNfjGVeRnUKD-roaT0X6lluyZRr96YKVg,1524
+unittest_specs-1.2.0.dist-info/METADATA,sha256=6Ps5aFt7v00QQAISNoC5KCXJUBQVXgM_ZPmHS3SPu5c,10703
+unittest_specs-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+unittest_specs-1.2.0.dist-info/top_level.txt,sha256=LBm-70u2-FMtx1YDxhA2yD1Qve_16xDstkwuhPoGbOI,15
+unittest_specs-1.2.0.dist-info/RECORD,,
