@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: honeybee-ph
+Version: 1.2.2
+Summary: Plugin for Honeybee to enable Passive House modeling.
+Home-page: https://github.com/PH-Tools/honeybee_ph
+Author: PH-Tools
+Author-email: phtools@bldgtyp.com
+License: GPLv3+
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: alabaster (>=0.7.12)
+Requires-Dist: attrs (>=21.2.0)
+Requires-Dist: Babel (>=2.10.3)
+Requires-Dist: bleach (>=5.0.1)
+Requires-Dist: certifi (>=2022.5.18.1)
+Requires-Dist: charset-normalizer (>=2.0.7)
+Requires-Dist: colorama (>=0.4.4)
+Requires-Dist: docopt (>=0.6.2)
+Requires-Dist: docutils (>=0.17)
+Requires-Dist: honeybee-core (>=1.51.13)
+Requires-Dist: honeybee-energy (>=1.91.24)
+Requires-Dist: honeybee-schema (>=1.50.3)
+Requires-Dist: honeybee-standards (>=2.0.5)
+Requires-Dist: idna (>=3.3)
+Requires-Dist: imagesize (>=1.3.0)
+Requires-Dist: iniconfig (>=1.1.1)
+Requires-Dist: Jinja2 (>=3.0.3)
+Requires-Dist: keyring (>=23.2.1)
+Requires-Dist: ladybug-core (>=0.39.56)
+Requires-Dist: ladybug-geometry-polyskel (>=1.3.55)
+Requires-Dist: ladybug-rhino (>=1.32.0)
+Requires-Dist: MarkupSafe (>=2.0.1)
+Requires-Dist: packaging (>=21.3)
+Requires-Dist: pkginfo (>=1.8.3)
+Requires-Dist: pluggy (>=1.0.0)
+Requires-Dist: py (>=1.11.0)
+Requires-Dist: pydantic (>=1.8.2)
+Requires-Dist: pydantic-openapi-helper (>=0.2.9)
+Requires-Dist: Pygments (>=2.10.0)
+Requires-Dist: pyparsing (>=2.4.7)
+Requires-Dist: pytz (>=2021.3)
+Requires-Dist: readme-renderer (>=35.0)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Requires-Dist: rfc3986 (>=2.0.0)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: snowballstemmer (>=2.2.0)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: tqdm (>=4.64.0)
+Requires-Dist: typing-extensions (>=4.2.0)
+Requires-Dist: urllib3 (>=1.26.9)
+Requires-Dist: webencodings (>=0.5.1)
+Requires-Dist: zipp (>=3.6.0)
+
+# Honeybee-PH v1 (Release | ______ _, 2022)
+Honeybee-PH is a free plugin for [Ladybug Tools](https://www.ladybug.tools/) which enables users to add detailed "Passive House" style attributes to their models in addition to the normal Honeybee inputs. Both Passive House Institute (PHI) and Passive House Institute US (Phius) model data can be added to the Ladybug-Tools models using the plugin.
+
+This plugin is designed to be used as a plugin for Honeybee v1.5 or higher. It can also be utilized by a toolkit for building up models using [Rhino 3D](https://www.rhino3d.com/) and Grasshopper using the [honeybee_grasshopper_ph](https://github.com/PH-Tools/honeybee_grasshopper_ph) tools.
+
+Packages:
+- **honeybee_energy_ph:** Extend the Honeybee-Energy package with new Passive House style attributes for elements such as windows, hvac and construction assemblies. 
+
+- **honeybee_ph:** Extend the basic Honeybee package with important new Passive House specific elements such as interior spaces and Passive House certification thresholds.
+
+- **honeybee_ph_standards:** Helpful new standards for programs and assemblies which are especially relevant to Passive House practitioners.
+
+- **honeybee_ph_utils:** Some additional misc. utilities used by the above packages.
+
+# Install
+for detailed installation instructions,
+* Check out the website for detailed instructions here: http://www.passivehousetools.com/honeybee_ph.html
+* Watch a detailed walk-through of the download/install process here: _______________
+
+# How-To
+For more information on the use of these tools, check out the YouTube playlist here:
+____________
+
+and the Passive House Tools website:
+http://www.PassiveHouseTools.com
+
+In most cases, once the detailed Passive House style data has been added to the Ladybug-Tools / Honeybee model, practitioners will then want to export the model data out to either the Passive House Planning Package (PHPP) or WUFI-Passive. The Passive House Exchange (PHX) library has been created for this purpose. For more information on model data input / output, see the [PHX package](https://github.com/PH-Tools/PHX).
