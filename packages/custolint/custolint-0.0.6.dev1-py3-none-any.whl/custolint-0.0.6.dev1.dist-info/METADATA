@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: custolint
+Version: 0.0.6.dev1
+Summary: Another custom linter layer
+License: MIT License
+Keywords: ["static code analysis","linter","python","lint","coverage","flake8"]
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: bash (==0.6)
+Requires-Dist: isort (==5.10.1)
+Provides-Extra: deploy_to_pip
+Requires-Dist: twine ; extra == 'deploy_to_pip'
+Requires-Dist: build ; extra == 'deploy_to_pip'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+
+=========================
+custolint - custom linter
+=========================
+
+.. make badges available https://docs.readthedocs.io/en/stable/badges.html
+
+**Custolint** is a small library that help you
+customize your existing code-validation pipeline.
