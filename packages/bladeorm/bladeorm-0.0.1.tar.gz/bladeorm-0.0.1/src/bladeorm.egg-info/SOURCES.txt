@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/bladeorm.egg-info/PKG-INFO
+src/bladeorm.egg-info/SOURCES.txt
+src/bladeorm.egg-info/dependency_links.txt
+src/bladeorm.egg-info/requires.txt
+src/bladeorm.egg-info/top_level.txt
