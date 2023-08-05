@@ -1,0 +1,10 @@
+[version]
+path = "src/python_pptx_text_replacer/TextReplacer.py"
+
+[build.targets.sdist]
+exclude = [
+  "/.github",
+]
+
+[build.targets.wheel]
+packages = ["src/python_pptx_text_replacer"]
