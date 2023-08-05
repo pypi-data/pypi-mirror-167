@@ -1,0 +1,16 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+jampp_reporting_api_client.egg-info/PKG-INFO
+jampp_reporting_api_client.egg-info/SOURCES.txt
+jampp_reporting_api_client.egg-info/dependency_links.txt
+jampp_reporting_api_client.egg-info/not-zip-safe
+jampp_reporting_api_client.egg-info/requires.txt
+jampp_reporting_api_client.egg-info/top_level.txt
+reporting_api_client/VERSION
+reporting_api_client/__init__.py
+reporting_api_client/client.py
+reporting_api_client/oauth/__init__.py
+reporting_api_client/oauth/transport.py
