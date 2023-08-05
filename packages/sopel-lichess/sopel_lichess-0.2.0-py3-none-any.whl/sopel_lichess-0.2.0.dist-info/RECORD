@@ -1,0 +1,10 @@
+sopel_lichess/__init__.py,sha256=00U4mqegyZJcYU_FMS4csPdsxikrfyzpQxWBKhBz6tA,175
+sopel_lichess/config.py,sha256=oRjYQ-0BS1-xgMoUWkYyTvm6e1mSGcsj8AaqVbuDVH4,321
+sopel_lichess/parsers.py,sha256=wl4Q_MV4Xn_Wos9YhJkfNXY-HAGTH1-QQvDUpe_vKhw,3903
+sopel_lichess/plugin.py,sha256=MSqUvzTLj0JEX9pK4PMkzmEt0tVVyo-Q80h8-rSolZk,3553
+sopel_lichess-0.2.0.dist-info/LICENSE.txt,sha256=B28MobwoaBcC8nRlPff7vKLsyscFayZGE8W647ZejQc,1021
+sopel_lichess-0.2.0.dist-info/METADATA,sha256=a4kZnK2n2kN_hYaeTNlNGyqH5U5Y0aqpDg3BfOENBxI,2167
+sopel_lichess-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sopel_lichess-0.2.0.dist-info/entry_points.txt,sha256=k29h5tzl6tPH2QcOhF9r9FmRql4NdQP5xpIsW9GxHV8,48
+sopel_lichess-0.2.0.dist-info/top_level.txt,sha256=yx97IYu8jq0xwNv4Hv0M2k5X3vnWzSBM4TWLGM6U0Rg,14
+sopel_lichess-0.2.0.dist-info/RECORD,,
