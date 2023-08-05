@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: countergen
+Version: 0.1
+Summary: A counterfactual dataset generator to evaluate language model.
+Author: SaferAI
+Author-email: saferai.audit@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: licence.txt
+
+UNKNOWN
+
