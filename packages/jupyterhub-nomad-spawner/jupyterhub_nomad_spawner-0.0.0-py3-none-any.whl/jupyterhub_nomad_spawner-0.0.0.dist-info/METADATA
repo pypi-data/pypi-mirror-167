@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jupyterhub-nomad-spawner
+Version: 0.0.0
+Summary: 
+Author: Max Fröhlich
+Author-email: maxbruchmann@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: attrs (>=21.4.0,<22.0.0)
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: jupyterhub (>=2.2.2,<3.0.0)
+Requires-Dist: notebook (>=6.4.11,<7.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: tenacity (>=8.0.1,<9.0.0)
+Requires-Dist: traitlets (>=5.1.1,<6.0.0)
