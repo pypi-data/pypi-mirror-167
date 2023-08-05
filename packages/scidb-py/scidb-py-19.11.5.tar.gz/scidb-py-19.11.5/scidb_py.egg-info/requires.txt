@@ -1,0 +1,7 @@
+backports.weakref
+enum34
+numpy
+pandas<1.4.0
+pyarrow<=9.0.0,>=3.0.0
+requests
+six
