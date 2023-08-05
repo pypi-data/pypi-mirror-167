@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+bofa_scraper/__init__.py
+bofa_scraper/account.py
+bofa_scraper/scrape_session.py
+bofa_scraper/util.py
+bofa_scraper.egg-info/PKG-INFO
+bofa_scraper.egg-info/SOURCES.txt
+bofa_scraper.egg-info/dependency_links.txt
+bofa_scraper.egg-info/requires.txt
+bofa_scraper.egg-info/top_level.txt
