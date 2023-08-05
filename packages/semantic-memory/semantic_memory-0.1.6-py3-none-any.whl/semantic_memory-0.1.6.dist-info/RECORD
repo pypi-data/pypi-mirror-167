@@ -1,0 +1,10 @@
+semantic_memory/__init__.py,sha256=kBM8jwQ9r_ZMq7P43-SvMT6w6DhdPd9jFFTBA3HEZdg,21
+semantic_memory/list_utils.py,sha256=0fmMqpkK93wFptdeFZkMOWgqwKEjyU5gymnVp31_ssk,520
+semantic_memory/memory.py,sha256=q2Grf3swMcC19fcoUFdIWOAEsyYw0eS3BsZJ2En7jJY,6673
+semantic_memory/taxonomy.py,sha256=Keb7xA0IlsjIa52Ff05NsMx7NA6e_7l3xSWchNOtf_U,3783
+semantic_memory/vsm.py,sha256=bKvqSLeqHEihz0AM0OgnCSQDfJgLtqoCpLyF1nVhZ_4,5607
+semantic_memory/vsm_utils.py,sha256=6o7GVf7aYZd9znnXyAxJTPMZ7bUubCWuE9lCNhFPHlk,710
+semantic_memory-0.1.6.dist-info/LICENSE,sha256=U8imzJf4XFz-BYTOqhpmTIN4k9ZEm-wyLHuswk2UrSQ,1065
+semantic_memory-0.1.6.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+semantic_memory-0.1.6.dist-info/METADATA,sha256=WtItuBjwm0CikElWYyBcqk32aAbkHdciAssrbjhLTMk,1011
+semantic_memory-0.1.6.dist-info/RECORD,,
