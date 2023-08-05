@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tempmailx"
+version = "1.1"
+authors = [
+  { name="godwhitelight", email="godwhitelightdis@gmail.com" },
+]
+description = "Temp email wrapper using 1secmail.com api"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Godwhitelight/tempmailx"
+"Bug Tracker" = "https://github.com/Godwhitelight/tempmailx/issues"
