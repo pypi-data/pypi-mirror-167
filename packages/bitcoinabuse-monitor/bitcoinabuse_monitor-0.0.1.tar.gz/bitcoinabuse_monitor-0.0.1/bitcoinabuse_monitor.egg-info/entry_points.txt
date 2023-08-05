@@ -1,0 +1,2 @@
+[nbdev]
+bitcoinabuse_monitor = bitcoinabuse_monitor._modidx:d

@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+bitcoinabuse_monitor/__init__.py
+bitcoinabuse_monitor/_modidx.py
+bitcoinabuse_monitor/analyzer.py
+bitcoinabuse_monitor/reader.py
+bitcoinabuse_monitor.egg-info/PKG-INFO
+bitcoinabuse_monitor.egg-info/SOURCES.txt
+bitcoinabuse_monitor.egg-info/dependency_links.txt
+bitcoinabuse_monitor.egg-info/entry_points.txt
+bitcoinabuse_monitor.egg-info/not-zip-safe
+bitcoinabuse_monitor.egg-info/requires.txt
+bitcoinabuse_monitor.egg-info/top_level.txt
