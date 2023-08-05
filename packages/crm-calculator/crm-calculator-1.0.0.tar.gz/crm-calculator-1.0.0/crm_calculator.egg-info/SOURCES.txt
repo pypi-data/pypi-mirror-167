@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+crm_calculator/__init__.py
+crm_calculator/cli.py
+crm_calculator/domain.py
+crm_calculator.egg-info/PKG-INFO
+crm_calculator.egg-info/SOURCES.txt
+crm_calculator.egg-info/dependency_links.txt
+crm_calculator.egg-info/top_level.txt
