@@ -1,0 +1,12 @@
+tfrecord_dataset/__init__.py,sha256=xM1I9Ry5qyD_hwOo_CGAtmiZsgLD4bq7VGLjCokPQKI,76
+tfrecord_dataset/iterator_utils.py,sha256=wDb6LySZM9XDzGQZgUfPYUMkK3F--73ER3fvAlNFwnk,2595
+tfrecord_dataset/reader.py,sha256=aokdIiuJEbbrGUH7_YEYLv3ma8wsaWCNNKCpgcosnFc,4789
+tfrecord_dataset/torch.py,sha256=mCh4Ohfl8X1TEEpovxjCQjkiUO6BDgsE0yVxctYJm3k,4839
+tfrecord_dataset/writer.py,sha256=Dswk3qlwdvIQtz7wtmD152T3hQy9fwcpeIDwrY5OvTM,1137
+tfrecord_dataset/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfrecord_dataset/tools/tfrecord2idx.py,sha256=PubesNgz1KcG9jl356OHxFfw09vkYDO3hkeeermoxOc,1171
+tfrecord_dataset-0.1.1.dist-info/LICENSE,sha256=9ABRZ3wrBsn96nmFgUxlug92AIVoZ_QdwxWyFkYCa2Y,1095
+tfrecord_dataset-0.1.1.dist-info/METADATA,sha256=p1eDTNs1MTJdE4_eSrkg2cPubO2G8o07TQz_98teVDM,3476
+tfrecord_dataset-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tfrecord_dataset-0.1.1.dist-info/top_level.txt,sha256=Ksh38WWKJbAYws6qeSj7r_sWo-W9Ii0m13Mm3L_zeUc,17
+tfrecord_dataset-0.1.1.dist-info/RECORD,,
