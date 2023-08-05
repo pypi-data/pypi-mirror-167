@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: karrio.amazon-mws
+Version: 2022.8
+Summary: AmazonMws karrio extension
+Home-page: https://github.com/karrioapi/karrio/tree/main/sdk/vendors/amazon_mws
+License: Apache-2.0
+Author: Karrio
+Author-email: hello@karrio.io
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: karrio
+Project-URL: Repository, https://github.com/karrioapi/karrio
+Description-Content-Type: text/markdown
+
+# karrio.amazon_mws
+
+This package is a amazon_mws extension of the [karrio](https://pypi.org/project/karrio) multi carrier shipping SDK.
+
+## Requirements
+
+`Python 3.7+`
+
+## Installation
+
+```bash
+pip install karrio.amazon_mws
+```
+
+## Usage
+
+```python
+import karrio
+from karrio.mappers.amazon_mws.settings import Settings
+
+
+# Initialize a carrier gateway
+amazon_mws = karrio.gateway["amazon_mws"].create(
+    Settings(
+        ...
+    )
+)
+```
+
+Check the [karrio Mutli-carrier SDK docs](https://docs.karrio.io) for Shipping API requests
+
