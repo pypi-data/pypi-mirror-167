@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: disbase
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: VincentRPS
+Author-email: vincentbusiness55@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: boost
+Requires-Dist: Brotli (>=1.0.9,<2.0.0); extra == "boost"
+Requires-Dist: aiodns (>=3.0.0,<4.0.0); extra == "boost"
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: cchardet (>=2.1.7,<3.0.0); extra == "boost"
+Requires-Dist: colorlog (>=6.6.0,<7.0.0)
+Requires-Dist: discord-typings (>=0.5.0,<0.6.0)
+Requires-Dist: uvloop (>=0.16.0,<0.17.0); extra == "boost"
