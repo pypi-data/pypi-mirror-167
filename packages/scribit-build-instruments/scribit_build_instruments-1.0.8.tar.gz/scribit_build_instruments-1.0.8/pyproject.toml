@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scribit_build_instruments"
+version = "1.0.8"
+authors = [
+  { name="Dave De Breuck", email="dave.debreuck@twikit.com" },
+]
+description = "A core module to help the scribit build system"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://git.twikit.com/research/laddy/scribit"
+"Bug Tracker" = "https://git.twikit.com/research/laddy/scribit/-/issues"
