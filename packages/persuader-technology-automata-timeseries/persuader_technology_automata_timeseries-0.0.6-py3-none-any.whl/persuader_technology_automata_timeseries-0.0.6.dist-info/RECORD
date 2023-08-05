@@ -1,0 +1,12 @@
+timeseries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timeseries/holder/InfluxDBHolder.py,sha256=1h4CJms5tohnJdrliMQ76dOsI8zEa1BRhufgH8xYH64,882
+timeseries/holder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timeseries/provider/InfluxDBProvider.py,sha256=jHxtPlBhfo3T72-pFjaR6x-8lZuDFNQnkGGJ_GmtwH4,5467
+timeseries/provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timeseries/provider/point/PointBuilder.py,sha256=-6Bj74h3CRU5qam5SfInQb4Jgi28AZXyzb2iFrdtaEc,657
+timeseries/provider/point/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persuader_technology_automata_timeseries-0.0.6.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+persuader_technology_automata_timeseries-0.0.6.dist-info/METADATA,sha256=gHj6AiAm0-en0VjBFOZpTERLsNKYo0BFprC-mOHlZ58,604
+persuader_technology_automata_timeseries-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+persuader_technology_automata_timeseries-0.0.6.dist-info/top_level.txt,sha256=k7hhFnicS3HWWwPCe3PnKDE5oGi_9bSU-KaUy_RtIyI,11
+persuader_technology_automata_timeseries-0.0.6.dist-info/RECORD,,
