@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: exdimred
+Version: 0.0.2
+Summary: Toybox for intuitive evaluation of dimensionality reduction
+Author: Alex Davies
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: umap-learn
+Requires-Dist: tqdm
+
+# ExDimRed
+### Examples for Dimensionality Reduction
+
+ExDimRed is a simple visualisation tool, aimed and understanding and evaluating dimensionality reduction methods, using human-intuitive examples.
+
+Examples are 3D point data which are reduced via dimensionality reduction methods to 2D.
+
+### Usage
+
+Novel methods, or methods not encluded by default, should follow the standard Scikit-Learn syntax, i.e. have the methods
+
+`model.fit_transform(X)` to fit to and project input data `X`.
+
+Toybox is accessed as follows:
+
+```
+from sklearn.manifold import Isomap
+from exdimred import run
+
+run(Isomap)
+```
+
+This will attempt to generate a pdf of the visualisation in the root directory.
+If pdf generation fails then a png is generated instead.
+
+### Requirements
+
+Toybox requires `Python >= 3.8` and the packages `numpy`, `matplotlib`, `scikit-learn`, and `umap-learn` to be installed.
+
