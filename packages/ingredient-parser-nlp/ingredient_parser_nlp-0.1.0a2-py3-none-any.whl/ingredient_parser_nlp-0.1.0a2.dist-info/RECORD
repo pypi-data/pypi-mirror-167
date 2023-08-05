@@ -1,0 +1,11 @@
+ingredient_parser/__init__.py,sha256=DmAKP6SH0fQbircTPPQz0z9Wvs3s9s3_fDxImxON_Mc,305
+ingredient_parser/model.crfsuite,sha256=08jQLg2DHINgq67I65eWHzPRJu-VcU1X9HNxO2JSJmw,1725368
+ingredient_parser/parsers.py,sha256=jE2tsiI2xvdFZi9AxkaGglx43HCunT3Es2xkmNuWD3I,5718
+ingredient_parser/preprocess.py,sha256=5ZhLYnVtPgfrzdQuUGYB0XNHWCzeNXTozUAxNHk2ju0,20604
+ingredient_parser/regex_parser.py,sha256=_PCEt614qkDmzjUcawJU0lZo-pYl9mFSCxc6AmAMewM,6478
+ingredient_parser/utils.py,sha256=TqAX0I8UltvleEo16xVOMRCY5oSY5aJ6UztNu7S-ljY,5851
+ingredient_parser_nlp-0.1.0a2.dist-info/LICENSE,sha256=ZE-7KGqFd4nm3EIpKzhYtOUH3nviAdkucyegLSP4CQo,1068
+ingredient_parser_nlp-0.1.0a2.dist-info/METADATA,sha256=33rlWDvXh8mA1M1oS34w-AB18qNVrbh2mrKarPUhL6Y,4291
+ingredient_parser_nlp-0.1.0a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ingredient_parser_nlp-0.1.0a2.dist-info/top_level.txt,sha256=Pf4DPjUlmdeWeJSvbzZsbPNvrktj9wjOOBaNHju-lY8,18
+ingredient_parser_nlp-0.1.0a2.dist-info/RECORD,,
