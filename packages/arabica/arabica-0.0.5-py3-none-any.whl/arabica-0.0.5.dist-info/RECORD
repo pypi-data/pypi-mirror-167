@@ -1,0 +1,13 @@
+arabica/__init__.py,sha256=q26dDwkP50Wqvdun-I60Ey9f5Ctq3U3jyZc6uugzG5I,52
+arabica/arabica_freq.py,sha256=GBjQrOJFTL1Pa-Ug66VQrsJCMiOUDo6eyNO7B3xfhvk,4152
+arabica/clean_numbers.py,sha256=LrR6_r3QeRRedkzo_N8OG4bMA02iudOmgd4vLKaGbAg,146
+arabica/clean_tokens.py,sha256=_ido_wYf7McWi2bD-IQlt1tzlZGuEYShJdaPtQOxqFM,472
+arabica/finalize.py,sha256=TfJm3Ny21CngiTLxyULdb_XnFgURaT3dHpdLOrHhOrs,473
+arabica/group.py,sha256=ZYY5Sz1OunJTQudw6XFzw5la3PkbhwQQOJ7HoUdmYtw,1381
+arabica/preprocess.py,sha256=s6yFq8_3aFXnLgQqW3vJmjQWcFWGa8nxwhByZ8C_eXU,245
+arabica/stopwords.py,sha256=b_5EhEUShBGpFoOL2neZhqqeL3XfRGjgpZXygOaLXk8,448
+arabica-0.0.5.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arabica-0.0.5.dist-info/METADATA,sha256=X2jU1g-kY0URri5oKRt21oV39QRYuIU1rNk3YhDHxtM,3340
+arabica-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+arabica-0.0.5.dist-info/top_level.txt,sha256=CVDjDxZI2dE0ArvaFNI79Q44eV2XhvADGo7aA8nxxoc,8
+arabica-0.0.5.dist-info/RECORD,,
