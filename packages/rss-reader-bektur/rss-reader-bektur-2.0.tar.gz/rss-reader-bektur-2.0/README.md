@@ -1,0 +1,1 @@
+<h2>CLI utility for reading RSS news from given URL</h2>
