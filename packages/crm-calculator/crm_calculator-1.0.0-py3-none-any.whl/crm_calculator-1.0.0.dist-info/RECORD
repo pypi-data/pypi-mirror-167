@@ -1,0 +1,8 @@
+crm_calculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crm_calculator/cli.py,sha256=0HBpGbpItDUigTmKNm4Jh3FWM6yWlqa90myicz-k6aY,498
+crm_calculator/domain.py,sha256=V3NAoPZHe6F-go7djfYu1bFCXte3cLxoCFg_H_L9YYA,867
+crm_calculator-1.0.0.dist-info/LICENSE,sha256=PtRkjOE0nYoIF_1Snmc-BcCob8qqkjlSAfad4c4wFSM,1065
+crm_calculator-1.0.0.dist-info/METADATA,sha256=zH9eXswnFZS6HC-OTdwxsy5288ey88O73-Hpl1RyZ0U,81
+crm_calculator-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+crm_calculator-1.0.0.dist-info/top_level.txt,sha256=zgfVI7XUBHlUifY7ngZkKebKxbfycW9RGa4X5y_zKPU,15
+crm_calculator-1.0.0.dist-info/RECORD,,
