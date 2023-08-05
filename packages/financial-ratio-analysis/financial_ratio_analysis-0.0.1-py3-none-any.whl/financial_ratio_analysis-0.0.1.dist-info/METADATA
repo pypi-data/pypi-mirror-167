@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: financial-ratio-analysis
+Version: 0.0.1
+Summary: A python package that computes ratios that are used for financial statement analysis. The package can be used to evaluate a company's liquidity,solvency,and profitability. 
+Home-page: https://github.com/babamovandrej/Ratio_Analysis_Tool
+Author: Andrej Babamov
+Author-email: andrejbabamov@gmail.com
+License: UNKNOWN
+Keywords: python,finance,statements,liquidity,earnings,profitability,turnover,capital
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
