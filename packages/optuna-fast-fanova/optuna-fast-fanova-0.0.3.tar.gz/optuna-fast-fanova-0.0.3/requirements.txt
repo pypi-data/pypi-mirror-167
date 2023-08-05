@@ -1,0 +1,10 @@
+numpy
+optuna
+cython>=3.0.0a10
+scikit-learn
+
+black
+isort
+flake8
+pytest
+gprof2dot

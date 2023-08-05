@@ -1,0 +1,26 @@
+# Python
+build/
+dist/
+wheelhouse/
+venv/
+__pycache__/
+.eggs/
+*.egg-info/
+*.pyc
+
+## setuptools_scm
+optuna_fast_fanova/_version.py
+
+## Cython
+*.c
+*.so
+*.html
+
+# SQLite3
+*.db
+
+# Profile
+*.stats
+*.png
+
+tmp/
