@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+aiogram_calendar_rus/__init__.py
+aiogram_calendar_rus/dialog_calendar.py
+aiogram_calendar_rus/simple_calendar.py
+aiogram_calendar_rus.egg-info/PKG-INFO
+aiogram_calendar_rus.egg-info/SOURCES.txt
+aiogram_calendar_rus.egg-info/dependency_links.txt
+aiogram_calendar_rus.egg-info/not-zip-safe
+aiogram_calendar_rus.egg-info/top_level.txt
