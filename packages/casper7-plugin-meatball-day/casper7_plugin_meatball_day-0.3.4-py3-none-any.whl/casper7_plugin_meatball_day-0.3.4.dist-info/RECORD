@@ -1,0 +1,9 @@
+casper7_plugin_meatball_day/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+casper7_plugin_meatball_day/db.py,sha256=2RZO62MrzpjF-5gCgifrgbu4H1zQz3Kn2FjgjDeyOEs,583
+casper7_plugin_meatball_day/run.py,sha256=SBT8Qt6-V7MlKnucLATazrp6IObw8gYt8cNOasZvFK0,12361
+casper7_plugin_meatball_day/settings.py,sha256=sBssgWlvLGGpqwtfldWUZ2P4cxQskvfaM1F_N185m18,282
+casper7_plugin_meatball_day/tables.py,sha256=Gy5wlqwzdfqzUIvdTfVVFhs0FH0KQPXYW0KQwVMQ0c0,931
+casper7_plugin_meatball_day-0.3.4.dist-info/entry_points.txt,sha256=NxqZFIPcDCLfSDTy68py7_k-lzDYEJig7JVRR7pi-4U,86
+casper7_plugin_meatball_day-0.3.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+casper7_plugin_meatball_day-0.3.4.dist-info/METADATA,sha256=BCfjNJje4UyjK7kqYzFkC_FWF02K9GG-7J0uE1kJVVY,557
+casper7_plugin_meatball_day-0.3.4.dist-info/RECORD,,
