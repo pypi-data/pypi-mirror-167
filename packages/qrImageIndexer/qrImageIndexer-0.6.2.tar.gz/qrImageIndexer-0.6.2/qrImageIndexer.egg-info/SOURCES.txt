@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+qrImageIndexer/__init__.py
+qrImageIndexer/__main__.py
+qrImageIndexer/photo_sorter.py
+qrImageIndexer/qr_generator.py
+qrImageIndexer/write_pdf_fpf2.py
+qrImageIndexer.egg-info/PKG-INFO
+qrImageIndexer.egg-info/SOURCES.txt
+qrImageIndexer.egg-info/dependency_links.txt
+qrImageIndexer.egg-info/requires.txt
+qrImageIndexer.egg-info/top_level.txt
+test/test_pdf_build_fpdf2.py
+test/test_photo_sorter.py
+test/test_qr_generator.py
