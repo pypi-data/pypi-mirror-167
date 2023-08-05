@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyschematron
+Version: 0.1.0
+Summary: Schematron validation in Python.
+Author-email: Robbert Harms <robbert@xkls.nl>
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: xmlschema (==2.0.2)
+Requires-Dist: elementpath (==3.0.2)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: typer[all] (==0.6.1)
+Requires-Dist: appdirs (==1.4.4)
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest (==7.1.3) ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+############################
+Python Schematron
+############################
+
+Schematron validation in Python.
+
+
+*******
+Summary
+*******
+* Free software: GPL v3 license
+* Full documentation: https://pyschematron.readthedocs.io
+* Project home: https://github.com/robbert-harms/pyschematron
+
+
+************************
+Quick installation guide
+************************
+
+
+**Linux**
+
+
+**Windows**
+
+
+**Mac**
