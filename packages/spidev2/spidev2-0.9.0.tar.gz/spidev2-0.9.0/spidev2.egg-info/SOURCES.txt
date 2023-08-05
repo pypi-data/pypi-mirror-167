@@ -1,0 +1,14 @@
+COPYING
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+spidev2/__init__.py
+spidev2/_version.py
+spidev2/linux_spidev.py
+spidev2.egg-info/PKG-INFO
+spidev2.egg-info/SOURCES.txt
+spidev2.egg-info/dependency_links.txt
+spidev2.egg-info/requires.txt
+spidev2.egg-info/top_level.txt
