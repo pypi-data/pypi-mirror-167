@@ -1,0 +1,10 @@
+superintendent/__init__.py,sha256=lx7zw2e6KGb7Ujw6e2E7W9BWvmbOMG6D4OL3Lg_9uCI,15653
+superintendent/_compatibility.py,sha256=h2YJTgfKsNN-Fo05k0Aonz6ghKClbWSfbPlzk4-zQ2c,310
+superintendent/db_queue.py,sha256=Lj1z9svur5X-hbmUjVuEC5INGSLfI75Ndo2pbF-jE_E,12115
+superintendent/queueing_utils.py,sha256=9nzqL_laKMyUi9q5B0-gR2Zyc5eSJAdCJtb7wGoMHcc,1004
+superintendent/serialization.py,sha256=sVMo16QpgqVmpRrT67_SsZNS9NqmyzB9M3Z1YZFuvio,1953
+superintendent/acquisition_functions/__init__.py,sha256=iL5FKm5mYGU1SMoYKcQX3qU3YO739iUathWci-mvvoA,2720
+superintendent/acquisition_functions/decorators.py,sha256=lR373WbOaIy7VkdPCBb3TcJdyhTh-y0PWVpimVqFqng,2898
+superintendent-0.6.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+superintendent-0.6.0.dist-info/METADATA,sha256=-k705_tXinGD6Fi8igGUh7OVgVLXMAI6P2hy2QkA5KI,4757
+superintendent-0.6.0.dist-info/RECORD,,
