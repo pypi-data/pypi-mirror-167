@@ -1,0 +1,3 @@
+[console_scripts]
+cnareader = src.__main__:cli
+

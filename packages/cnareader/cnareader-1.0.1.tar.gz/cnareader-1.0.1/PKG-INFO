@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cnareader
+Version: 1.0.1
+Summary: cnareader is a distraction-free terminal user interface client for reading the latest news from Channel News Asia.
+Home-page: https://github.com/theresurgence/cnareader
+Author: Atticus T
+Author-email: theresurgence2@proton.me
+License: GPLv3
+Keywords: CNA tui python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
