@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+exdimred/src/exdimred.py
+exdimred/src/exdimred.egg-info/PKG-INFO
+exdimred/src/exdimred.egg-info/SOURCES.txt
+exdimred/src/exdimred.egg-info/dependency_links.txt
+exdimred/src/exdimred.egg-info/requires.txt
+exdimred/src/exdimred.egg-info/top_level.txt
