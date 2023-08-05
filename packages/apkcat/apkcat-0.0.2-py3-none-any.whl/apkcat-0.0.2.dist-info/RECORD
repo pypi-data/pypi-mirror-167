@@ -1,0 +1,9 @@
+apkcat/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+apkcat/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apkcat/cli/cli.py,sha256=k9ELNTgds8HGNvz3IQRNiu2P2SnkfPOis5ispxmcGjo,419
+apkcat-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+apkcat-0.0.2.dist-info/METADATA,sha256=VVByUI9w0PrugYWm3F4Dtwm_59NE0SABqSvpOKqdPes,551
+apkcat-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apkcat-0.0.2.dist-info/entry_points.txt,sha256=Xs81RWjG380klejOGe51CaBpJD7esQQMtXVGg3Z3Zlw,50
+apkcat-0.0.2.dist-info/top_level.txt,sha256=8nH3SQkgHTAvzp9zMJgDxU1Pq_Fk2S5g-fXvKebyBI0,7
+apkcat-0.0.2.dist-info/RECORD,,
