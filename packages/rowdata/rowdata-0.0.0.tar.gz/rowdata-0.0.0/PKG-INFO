@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rowdata
+Version: 0.0.0
+Summary: 
+Author: Yibu Ma
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+
