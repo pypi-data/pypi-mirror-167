@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: colocarte-api
+Version: 0.2.1
+Requires-Dist: flask (<3,>=2)
+Requires-Dist: flask-sqlalchemy (<3,>=2)
+
