@@ -1,0 +1,23 @@
+[project]
+name = "azcam-arc"
+version = "22.3.2"
+description = "Azcam extension for Astronomical Research Cameras (ARC) gen1, gen2, and gen3 controllers"
+license = {file ="LICENSE"}
+readme = "README.md"
+requires-python = ">=3.9"
+keywords=["ccd", "imaging", "astronomy", "sensors"]
+authors = [{name="Michael Lesser"},{email = "mlesser@arizona.edu"}]
+dependencies = [
+    "azcam",
+]
+
+[project.urls]
+Documentation = "https://mplesser.github.io/azcam/"
+Repository = "https://github.com/mplesser/azcam-arc/"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "azcam_arc"
