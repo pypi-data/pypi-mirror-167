@@ -1,0 +1,62 @@
+- name: Ghanshyam Mann
+  irc: gmann
+  email: gmann@ghanshyammann.com
+  memberid: 6461
+  date: September 2021
+  role: chair
+
+- name: Jay Bryant
+  irc: jungleboyj
+  email: jsbryant@electronicjungle.net
+  memberid: 8348
+  date: September 2021
+  role: null
+
+- name: Dan Smith
+  irc: dansmith
+  email: dms@danplanet.com
+  memberid: 5478
+  date: September 2021
+  role: null
+
+- name: Kendall Nelson
+  irc: diablo_rojo
+  email: knelson@openstack.org
+  memberid: 35859
+  date: September 2021
+  role: null
+
+- name: Arne Wiebalck
+  irc: arne_wiebalck
+  email: Arne.Wiebalck@cern.ch
+  memberid: 18496
+  date: February 2022
+  role: null
+
+- name: Sławek Kapłoński
+  irc: slaweq
+  email: skaplons@redhat.com
+  memberid: 19377
+  date: February 2022
+  role: vice-chair
+
+- name: Kristi Nikolla
+  irc: knikolla
+  email: knikolla@bu.edu
+  memberid: 35202
+  date: February 2022
+  role: null
+
+- name: Brian Rosmaita
+  irc: rosmaita
+  email: rosmaita.fossdev@gmail.com
+  memberid: 1778
+  date: February 2022
+  role: null
+
+- name: Amy Marrich
+  irc: spotz
+  email: amy@demarco.com
+  memberid: 33567
+  date: February 2022
+  role: null
