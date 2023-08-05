@@ -1,0 +1,5 @@
+[console_scripts]
+peptdeep = peptdeep.cli:run
+
+[nbdev]
+peptdeep = peptdeep._modidx:d
