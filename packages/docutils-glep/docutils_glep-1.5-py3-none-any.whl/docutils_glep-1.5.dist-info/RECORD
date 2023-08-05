@@ -1,0 +1,11 @@
+docutils_glep/__init__.py,sha256=Ha8UWISRg8rDIjQYDNmq-RsNLSczC7oIaF5bgazxNOI,187
+docutils_glep/cli.py,sha256=1yV2zmyUXZzVEanr0tdxQ9TC9834odqPdR8WKvDjQok,1076
+docutils_glep/reader.py,sha256=2gY2YIel8oQxr_ZIGVJ5pQUn07Vh4xfWQFBCq8DwnBQ,2264
+docutils_glep/transforms.py,sha256=Nd-9jxkA7jprc4OAzh8ya_NaQ_MvgBhaK5wA-geo23s,6520
+docutils_glep/html_writer/__init__.py,sha256=eSzyDMViGtN5jCdXey4KgoOdvLdZxj2CYgX78n65cJ8,1047
+docutils_glep/html_writer/glep.css,sha256=90uHr-e5S5toGQheTIin0ZK28hGe9pWD2h_gbAqNRoM,2663
+docutils_glep/html_writer/template.txt,sha256=EWX_ntA9VFl6wBejLCZYklt-1BWJ1Ugbg5RZyG8wNG4,3092
+docutils_glep-1.5.dist-info/entry_points.txt,sha256=TUSOxgL2x8_k30dt_rQI0yPfzKg7gdF4nxzutGuPndk,47
+docutils_glep-1.5.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+docutils_glep-1.5.dist-info/METADATA,sha256=ZmhG_NCGdwmbPEQx3lB2ykXT3WkUhXPFSvT0iBWsI5Y,1061
+docutils_glep-1.5.dist-info/RECORD,,
