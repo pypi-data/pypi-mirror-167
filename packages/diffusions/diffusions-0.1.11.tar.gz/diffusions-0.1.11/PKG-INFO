@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: diffusions
+Version: 0.1.11
+Summary: Diffusion models
+Home-page: https://github.com/yuta0306/diffusions
+License: MIT
+Author: yuta0306
+Author-email: yuta20010306@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: einops (>=0.4.1,<0.5.0)
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: torch (>=1.12.0,<2.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Project-URL: Repository, https://github.com/yuta0306/diffusions
+Description-Content-Type: text/markdown
+
+# diffusions
+Diffusion models
+
