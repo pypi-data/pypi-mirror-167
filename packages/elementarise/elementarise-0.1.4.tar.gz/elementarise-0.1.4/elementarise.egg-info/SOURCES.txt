@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+elementarise/__init__.py
+elementarise/__main__.py
+elementarise/definitions.py
+elementarise/drawing.py
+elementarise/helpers.py
+elementarise/metrics.py
+elementarise/param_generation.py
+elementarise/runtime.py
+elementarise/utils.py
+elementarise.egg-info/PKG-INFO
+elementarise.egg-info/SOURCES.txt
+elementarise.egg-info/dependency_links.txt
+elementarise.egg-info/requires.txt
+elementarise.egg-info/top_level.txt
