@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: ipl-config
+Version: 0.1.7
+Summary: InPlat config adapters
+Home-page: https://github.com/koi8-r/ipl-config
+License: MIT
+Keywords: config,settings,pydantic,json,toml,yaml,hcl2
+Author: InPlat
+Requires-Python: >=3.7.2,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: dotenv
+Provides-Extra: hcl2
+Provides-Extra: toml
+Provides-Extra: yaml
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0); extra == "dotenv"
+Requires-Dist: python-hcl2 (>=3.0.5,<4.0.0); extra == "hcl2"
+Requires-Dist: pyyaml (>=6.0,<7.0); extra == "yaml"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "toml"
+Requires-Dist: typing-extensions (>=4.3.0,<5.0.0); python_version < "3.8"
+Project-URL: Repository, https://github.com/koi8-r/ipl-config
+Description-Content-Type: text/markdown
+
+[![tests](https://github.com/koi8-r/ipl-config/actions/workflows/ci.yml/badge.svg)](https://github.com/koi8-r/ipl-config/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/koi8-r/ipl-config/branch/master/graph/badge.svg?token=OKURU75Y7A)](https://codecov.io/gh/koi8-r/ipl-config)
+[![pypi](https://img.shields.io/pypi/v/ipl-config.svg)](https://pypi.python.org/pypi/ipl-config)
+[![versions](https://img.shields.io/pypi/pyversions/ipl-config.svg)](https://github.com/koi8-r/ipl-config)
+
+
+# Config adapters with pydantic behavior
+- json
+- yaml
+- toml
+- hcl2
+- environ
+- .env
+- TODO: multiline PEM keys load with cryptography
+
+## Examples
+### .env
+```dotenv
+APP_VERSION=v0.0.1a1
+APP_HTTP_HOST=myname.lan
+HTTP_2=true
+APP_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----
+MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQg8M4vd2AmKTW0/nqc
+YQBi/bRZjkVezdGHi+zH5kYvm/2hRANCAATxEs1e8hqwpYCTk3amfq/UnGyvViPZ
+Midz4nFzQvcq7A9Ju/wvEfLDjA131kh2Sk+x3dgLxhTf7yKJXZC0jg3d
+-----END PRIVATE KEY-----"
+```
+### config.yaml
+```yaml
+http:
+  port: 10001
+  transport:
+    timeout: 60.0
+    buffer_size: 65535
+  interfaces:
+    - 127.0.0.1
+    - 192.168.0.1
+version: 1
+```
+### yaml with env, dotenv and args overrides
+```python
+from datetime import datetime
+from ipaddress import IPv4Address
+from os import environ
+from pathlib import Path
+
+from pydantic import BaseModel, Field
+
+from ipl_config import BaseSettings
+
+
+class TcpTransport(BaseModel):
+    timeout: float  # from config file
+    buffer_size: int = Field(0.01, env='BUFF_SIZE')  # from env
+
+
+class Http(BaseModel):
+    host: str  # from dotenv
+    bind: str  # from env
+    port: int  # from config file
+    interfaces: list[IPv4Address]  # from config file
+    transport: TcpTransport
+    http2: bool = Field(env='HTTP_2')  # from dotenv
+
+
+class IplConfig(BaseSettings):
+    version: str  # from kwargs
+    created: datetime  # from env
+    http: Http  # env also works for complex objects
+    private_key: str  # from dotenv
+
+
+if __name__ == "__main__":
+    environ['app_http_bind'] = '1.1.1.1'
+    environ['buff_size'] = '-1'
+    environ['app_created'] = '2000-01-01T00:00:00Z'
+
+    root = Path('.')
+
+    cfg = IplConfig(
+        version='v0.0.1a1',
+        env_file=root / '.env',
+        config_file=root / 'config.yaml',
+    )
+    cfg.write_json(indent=4)
+    print()
+```
+
