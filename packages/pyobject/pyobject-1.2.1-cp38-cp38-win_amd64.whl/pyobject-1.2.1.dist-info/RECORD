@@ -1,0 +1,10 @@
+pyobj_extension.cp38-win_amd64.pyd,sha256=MpRe1OOP3T65OBWMUodpl0uaGhKd3s0Fd3miaB26xPo,12288
+pyobject/__init__.py,sha256=cjiKf5uLsnq7DPcAfwEQ6OZzprhVmWGif80Y54zrZUs,4274
+pyobject/browser.py,sha256=1BV7mnqszr4za8tQrOBElgU4b9bEnwejXa-gCFCB17g,8476
+pyobject/code_.py,sha256=ZGe83vhuXHUPJdjaqLRE0fuRobnCGvqaUhZxfNk-Wg0,7335
+pyobject/newtypes.py,sha256=aLaM4AhTr8UkfH_h4VltJQWbseILPZJV_cmKfI8BHiQ,4467
+pyobject/search.py,sha256=mhtWSrs9AoB78sFsOHnxV28V1wbGZvB2cuXD5lGYtT0,5272
+pyobject-1.2.1.dist-info/METADATA,sha256=Zx6d5vtLQTdob4FNV2gqDw7cg7MRW9DJUu4xkj_plVM,4740
+pyobject-1.2.1.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+pyobject-1.2.1.dist-info/top_level.txt,sha256=g-KOoINUgM_Iu98mqsGhpuAWQm52aqB4QyGE21g9V3s,25
+pyobject-1.2.1.dist-info/RECORD,,
