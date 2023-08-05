@@ -1,0 +1,9 @@
+README.md
+setup.py
+borys_peex/__init__.py
+borys_peex/main.py
+borys_peex.egg-info/PKG-INFO
+borys_peex.egg-info/SOURCES.txt
+borys_peex.egg-info/dependency_links.txt
+borys_peex.egg-info/entry_points.txt
+borys_peex.egg-info/top_level.txt
