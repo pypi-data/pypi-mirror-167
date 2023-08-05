@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: stv-lebanon
+Version: 0.99.3
+Summary: Library for the Single Transferrable Vote version for Lebanon
+License: GNU GPLv3
+Author: Robert Trad
+Author-email: roberttrad@gmail.com
+Requires-Python: >=3.7
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10

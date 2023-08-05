@@ -1,0 +1,3 @@
+[console_scripts]
+stvlebanon=stv_lebanon.cli_interface:main
+

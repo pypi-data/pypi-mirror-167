@@ -1,0 +1,14 @@
+stv_lebanon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stv_lebanon/cli_interface.py,sha256=eSlVRAZ8Ebp1StuoNOkU0S8247RhfV8dwKCMxRF0rCA,7088
+stv_lebanon/lambda_function.py,sha256=pFA9I7HfyR7XNWtHS5LUokeoQp4oWrjsVl9uaw_wHyE,3625
+stv_lebanon/samples/Candidates.csv,sha256=zVHne3waWLh89r0i8eZ6_0_uLv2mTx6hu7nyya9j3XI,402
+stv_lebanon/samples/Groups.csv,sha256=LaifBpWThPzCHmGKhi7aoEPbFykP0918IKLcW2U4Zl0,28
+stv_lebanon/samples/Votes.csv,sha256=YWMSsW0k76oSXy-RiXXmTBRh3hXKrgkoR_VCStlSL1A,753
+stv_lebanon/samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stv_lebanon/stv.py,sha256=ty1iVvdm6TZ21KSxqnMwMy1DndHvDp4t9XMPtmMrrok,14431
+stv_lebanon/stv_progress.py,sha256=2UJtqE-v5lzkKcNw_HBYS_Ce_6tEDxIfRG2UP9HacPw,4135
+stv_lebanon-0.99.3.dist-info/entry_points.txt,sha256=XWRfQkP9o_bLrm9YZz_CuCRhE4zftFpUEcP_2j4Y_OM,61
+stv_lebanon-0.99.3.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+stv_lebanon-0.99.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+stv_lebanon-0.99.3.dist-info/METADATA,sha256=BH1bEOT8Hv6mUsFe6-Q_efCL36BOxM8IKhct3BVwpFY,522
+stv_lebanon-0.99.3.dist-info/RECORD,,
