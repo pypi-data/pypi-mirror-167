@@ -1,0 +1,17 @@
+#!/user/bin/env python
+# -*- coding: utf-8 -*-
+import pathlib
+
+from py_mono_tools.goals.linters import DEFAULT_PYTHON
+
+
+path = pathlib.Path(__file__).parent
+
+NAME = "py_mono_tools"
+BACKEND = "system"
+
+LINT = [
+    *DEFAULT_PYTHON,
+]
+TEST = []
+DEPLOY = []
