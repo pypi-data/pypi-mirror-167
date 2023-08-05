@@ -1,0 +1,13 @@
+nsnet2_denoiser/__init__.py,sha256=bRjidCaarnBOaECNaBAtY5KCoQ1nWwzSOuAqH_oynks,71
+nsnet2_denoiser/denoise.py,sha256=xzQ0XUIqknvMDTGRAjE_zuql5R-XCJ95DJQ5BegmfSI,2538
+nsnet2_denoiser/enhance_onnx.py,sha256=yk_Zu3j0pZZK13_h94nykQA_MBo-NwzoFxEXGpmDles,4686
+nsnet2_denoiser/featurelib.py,sha256=XhPpzXJNtDZgyCIFZNXArx-RmGGX_LOXc2KZmSNw6s8,3304
+nsnet2_denoiser/nsnet2-20ms-48k-baseline.onnx,sha256=5zhoVejLmbi1Au7biRokPodGwBm20pMnYz4jRMpSBFM,24674693
+nsnet2_denoiser/nsnet2-20ms-baseline.onnx,sha256=iEKbYlNgC-hAq4FvRvRmgR0gB4FC-xK_-Mr-Kye9TKk,10752263
+nsnet2_denoiser-0.2.3.dist-info/LICENSE,sha256=1iOa-pGJYbRlsHv3QRy-NP9mhYVPWFU9t5ZvSIGgIR8,19047
+nsnet2_denoiser-0.2.3.dist-info/LICENSE-CODE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+nsnet2_denoiser-0.2.3.dist-info/METADATA,sha256=bE4ixVngByXTkwjEjPhY5pc0pi-b9l5iNtplbP14r6o,2346
+nsnet2_denoiser-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nsnet2_denoiser-0.2.3.dist-info/top_level.txt,sha256=7fWk4U8v1PfXFyjX1dNcSyNEJ3rRCOcsX1YKDMwoyzw,16
+nsnet2_denoiser-0.2.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nsnet2_denoiser-0.2.3.dist-info/RECORD,,
