@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyclocklib
+Version: 0.0.1
+Summary: Very Simple/Advanced PyClock
+Author: HM
+Author-email: huntermikesell84@gmail.com
+License: BSD
+Keywords: None
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
