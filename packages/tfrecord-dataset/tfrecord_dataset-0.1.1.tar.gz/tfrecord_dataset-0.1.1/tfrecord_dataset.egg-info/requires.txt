@@ -1,0 +1,2 @@
+numpy
+crc32c
