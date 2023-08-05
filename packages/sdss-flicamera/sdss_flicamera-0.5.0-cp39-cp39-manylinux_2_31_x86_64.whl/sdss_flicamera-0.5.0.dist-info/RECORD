@@ -1,0 +1,14 @@
+flicamera/__init__.py,sha256=IY1rncF87TAllWDUZvPldiABB5ehqWRkj9rq09fSm6M,417
+flicamera/__main__.py,sha256=DyF2vLBrROAiGyzDlveLo3_sLwn9X_XI2rWyrxh2Tiw,8522
+flicamera/actor.py,sha256=ulXCJtcFZDSi1EBIVdDLjcTgXuhkj6PUuouAOIH0VVQ,3683
+flicamera/camera.py,sha256=ur-XfLtqVr--uwDJu8qCBcNvz5M9ys4DHxysZ-FDNmM,10129
+flicamera/etc/flicamera.yaml,sha256=ev6NN9DVYqf1tIZyKkfxWgFeGqL8I1LYJOUfe1FNYU0,4621
+flicamera/lib.py,sha256=xG-ofkrl0KiC_5hayWiWScoDFyrzVp5cghGmrK_u6CE,24152
+flicamera/libfli.cpython-39-x86_64-linux-gnu.so,sha256=mHBIXM9I2zVRo6KJ_6a0gh_5d7Gmy0Thc8LkuIb7mFo,494952
+flicamera/mock.py,sha256=SmlRAkvez84mtXi29h9bYUd4XGfrM3eNRF9n3Pj2TxE,16413
+flicamera/model.py,sha256=uiZNTMkkvYfdG5pYc0lf93A3T_7sp4IKwCR7VUTopHo,16809
+sdss_flicamera-0.5.0.dist-info/entry_points.txt,sha256=yY7au3N_G-2BVVHtzBZz29aTIrDYbS4QmD6FbboKhN4,53
+sdss_flicamera-0.5.0.dist-info/LICENSE.md,sha256=_7dAUQQ5Ph_x1hcFXhi9aHBcqq9H11zco12eO4B3Cyg,1504
+sdss_flicamera-0.5.0.dist-info/WHEEL,sha256=0Yi74fZOmznUwGTQbIWeURdjW-MziTAlKBQ7p9Ze72E,108
+sdss_flicamera-0.5.0.dist-info/METADATA,sha256=8lSRFni7tmxo5CQmeSiitX_nrndOduk6-FDz2uJ8ND4,3576
+sdss_flicamera-0.5.0.dist-info/RECORD,,
