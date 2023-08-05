@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_easy_sort/DashEasySort.py
+dash_easy_sort/__init__.py
+dash_easy_sort/_imports_.py
+dash_easy_sort/dash_easy_sort.min.js
+dash_easy_sort/dash_easy_sort.min.js.map
+dash_easy_sort/metadata.json
+dash_easy_sort/package-info.json
+dash_easy_sort.egg-info/PKG-INFO
+dash_easy_sort.egg-info/SOURCES.txt
+dash_easy_sort.egg-info/dependency_links.txt
+dash_easy_sort.egg-info/top_level.txt

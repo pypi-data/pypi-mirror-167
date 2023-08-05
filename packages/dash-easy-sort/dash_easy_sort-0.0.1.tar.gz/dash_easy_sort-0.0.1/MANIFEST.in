@@ -1,0 +1,11 @@
+include dash_easy_sort/dash_easy_sort.min.js
+include dash_easy_sort/dash_easy_sort.min.js.map
+include dash_easy_sort/async-*.js
+include dash_easy_sort/async-*.js.map
+include dash_easy_sort/*-shared.js
+include dash_easy_sort/*-shared.js.map
+include dash_easy_sort/metadata.json
+include dash_easy_sort/package-info.json
+include README.md
+include LICENSE
+include package.json
