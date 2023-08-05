@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/tell_a_vision/__init__.py
+src/tell_a_vision/main.py
+src/tell_a_vision/narrator.py
+src/tell_a_vision/ruler.py
+src/tell_a_vision.egg-info/PKG-INFO
+src/tell_a_vision.egg-info/SOURCES.txt
+src/tell_a_vision.egg-info/dependency_links.txt
+src/tell_a_vision.egg-info/requires.txt
+src/tell_a_vision.egg-info/top_level.txt
