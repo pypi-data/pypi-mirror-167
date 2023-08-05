@@ -1,0 +1,5 @@
+# Base requirements
+einops
+numpy
+scipy
+torch
