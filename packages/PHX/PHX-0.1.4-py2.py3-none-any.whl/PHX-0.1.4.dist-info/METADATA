@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: PHX
+Version: 0.1.4
+Summary: Input / Output Passive House building energy model data.
+Home-page: https://github.com/PH-Tools/PHX
+Author: PH-Tools
+Author-email: phtools@bldgtyp.com
+License: GPLv3+
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appscript
+Requires-Dist: attrs (>=21.4.0)
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: commonmark (>=0.9.1)
+Requires-Dist: coverage (>=6.3.3)
+Requires-Dist: honeybee-core (>=1.51.11)
+Requires-Dist: honeybee-energy (>=1.91.16)
+Requires-Dist: honeybee-schema (>=1.50.2)
+Requires-Dist: honeybee-standards (>=2.0.5)
+Requires-Dist: importlib-metadata (>=4.11.4)
+Requires-Dist: iniconfig (>=1.1.1)
+Requires-Dist: ladybug-core (>=0.39.55)
+Requires-Dist: ladybug-geometry (>=1.24.2)
+Requires-Dist: ladybug-geometry-polyskel (>=1.3.55)
+Requires-Dist: lxml (>=4.8.0)
+Requires-Dist: packaging (>=21.3)
+Requires-Dist: pluggy (>=1.0.0)
+Requires-Dist: psutil (>=5.9.1)
+Requires-Dist: py (>=1.11.0)
+Requires-Dist: pydantic (>=1.9.1)
+Requires-Dist: pydantic-openapi-helper (>=0.2.9)
+Requires-Dist: Pygments (>=2.12.0)
+Requires-Dist: pyparsing (>=3.0.9)
+Requires-Dist: pytest (>=7.1.2)
+Requires-Dist: rich (>=12.4.1)
+Requires-Dist: tomli (>=2.0.1)
+Requires-Dist: typing-extensions (>=4.2.0)
+Requires-Dist: xlwings (>=0.27.8)
+Requires-Dist: zipp (>=3.8.0)
+
+# PHX v0.1 (Beta Release | ______ _, 2022)
+The Passive House Exchange (PHX) model standard and libraries are free plugins which enable users to move their building model data in and out of the energy modeling software packages such as the Passive House Planning Package (PHPP) and WUFI-Passive. 
+
+This library can be used as part of a [Honeybee-PH plugin](https://github.com/PH-Tools/honeybee_ph) workflow, or on its own using the command-line or other GUI tools. Some workflows have been created for use within the [Rhino-3D](https://www.rhino3d.com/) software which are the most typical workflow.
+
+Packages:
+- **from_HBJSON:** Modules used to create a new PHX model from an existing HBJSON file which has been created using the [Honeybee-PH plugin](https://github.com/PH-Tools/honeybee_ph).
+
+- **from_WUFI_XML:** Modules used to create a new PHX model from an existing WUFI-Passive XML file.
+
+- **from_PHPP:** Modules used to create a new PHX model from an existing PHPP file.'
+
+- **model:** The PHX model classes and structures. These objects are designed to be built by one of the 'from_*' libraries above.
+
+- **to_PHPP:** Libraries to allow for the export of PHX data to a PHPP Microsoft Excel spreasheet.
+
+- **to_WUFI_XML:** Libraries to allow for the export of a WUFI-Passive XML file with all of the PHX model data. This XML file can then be opened from within the WUFI-Passive application.
+
+# Install
+for detailed installation instructions,
+* Check out the website for detailed instructions here: http://www.passivehousetools.com/honeybee_ph.html
+* Watch a detailed walkthrough of the download/install process here: _____________________
+
+# How-To
+For more information on the use of these tools, check out the YouTube playlist here:
+_______________
+
+and the Passive House Tools website:
+http://www.PassiveHouseTools.com
