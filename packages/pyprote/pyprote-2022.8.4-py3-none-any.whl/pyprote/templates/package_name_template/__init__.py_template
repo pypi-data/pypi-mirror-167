@@ -1,0 +1,3 @@
+"""{package_name}."""
+
+__version__ = "{package_version}"

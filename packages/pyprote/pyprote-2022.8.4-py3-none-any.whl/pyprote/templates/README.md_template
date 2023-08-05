@@ -1,0 +1,95 @@
+# {package_name}: {package_description}
+
+# Installation - development
+
+Create a virtual environment.
+
+## Pipenv:
+```shell
+pipenv install
+```
+
+## Poetry:
+```shell
+poetry install
+```
+
+# Testing
+
+Running the tests requires to run the following command in the root folder (of course in the virtual environment):
+
+```shell
+pipenv run pytest
+```
+
+```shell
+poetry run pytest
+```
+
+
+# CLI app
+
+```shell
+{package_name} --help
+```
+
+# Formatting
+
+```shell
+pipenv run black . && \
+pipenv run isort . && \
+pipenv run flake8 . && \
+pipenv run mypy .
+```
+
+```shell
+poetry run black . && \
+poetry run isort . && \
+poetry run flake8 . && \
+poetry run mypy .
+```
+
+## Versioning
+
+Update (calendar) version with [bumpver](https://github.com/mbarkhau/bumpver):
+
+```
+pipenv run bumpver update --dry --patch
+```
+`--dry` just shows how the version WOULD change.
+```
+pipenv run bumpver update --patch
+```
+
+```
+poetry run bumpver update --dry --patch
+```
+`--dry` just shows how the version WOULD change.
+```
+poetry run bumpver update --patch
+```
+
+
+## How to build a Python package?
+
+To build the package, you need to go to the root folder of the package and run the following command:
+
+```shell
+poetry build
+```
+
+The built package is now located in the dist/ folder.
+
+## Publishing your package in PyPi
+
+Publishing is done automatically using GitHub actions.
+
+Commit to master creates test-pypi release.
+
+Tagged Commit creates real pypi release.
+
+## Installation from PyPi
+
+```shell
+pip install {package_name}
+```
