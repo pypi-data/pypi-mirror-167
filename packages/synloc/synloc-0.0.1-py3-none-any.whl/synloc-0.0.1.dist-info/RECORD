@@ -1,0 +1,9 @@
+synloc/__init__.py,sha256=QMZk--TZp2RpmRpgDpQA52WVDHbh9a6ENiKwjrjkGgU,88
+synloc/dists.py,sha256=ii8y8TeNk30p-6DTI9nbNgiHPcPUw7mpqSeST8t798k,2088
+synloc/kNNResampler.py,sha256=UrJ6tDAth6z8Hhh1FD6eamVvn1eGouQz0N_jRXTpAtc,2622
+synloc/tools.py,sha256=amwPesFXN1k0VMHILU_Nz5bgcBrN_krTKrC5JptVWDw,3486
+synloc-0.0.1.dist-info/LICENSE,sha256=NH-WSqw4iDHonrQzwkf8kJnScNyU1ZTG7cbiVSKCjp4,1094
+synloc-0.0.1.dist-info/METADATA,sha256=blwSNyxJYLbxKxGZk9lNlR3ewcHnFBSchYBhV4KpVf0,7657
+synloc-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+synloc-0.0.1.dist-info/top_level.txt,sha256=aNw_Zqvpx2rb6ZZY_F5R53XaeIDHK443pqU5LoYYaqQ,7
+synloc-0.0.1.dist-info/RECORD,,
