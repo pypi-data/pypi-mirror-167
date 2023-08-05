@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+requirements/base.txt
+src/anomasota/__init__.py
+src/anomasota.egg-info/PKG-INFO
+src/anomasota.egg-info/SOURCES.txt
+src/anomasota.egg-info/dependency_links.txt
+src/anomasota.egg-info/top_level.txt

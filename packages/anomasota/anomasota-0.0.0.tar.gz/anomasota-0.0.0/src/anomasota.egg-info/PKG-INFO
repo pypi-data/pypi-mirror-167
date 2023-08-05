@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: anomasota
+Version: 0.0.0
+Summary: ANOMAly detection in State-Of-The-Art (anomasota)
+Home-page: https://github.com/jpcbertoldo/anomasota
+Author: jpcbertoldo
+Author-email: jpcbertoldo@minesparis.psl.eu
+License: MIT License. Copyright (c) 2022 Joao P C Bertoldo. See LICENSE file for more details.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ANOMAly detection in State-Of-The-Art (anomasota)
