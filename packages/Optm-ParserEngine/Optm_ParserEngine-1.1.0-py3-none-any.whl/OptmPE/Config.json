@@ -1,0 +1,199 @@
+{
+    "Parser":["CiscoASAFirewall","FortigateFirewall"],
+    "regex": {
+        "CiscoASAFirewall": {
+            "All": [
+                "%ASA-(?P<severity>\\d+)-(?P<messageid>\\d+): (?P<message>[^$]+)",
+                "%FTD-(?P<severity>\\d+)-(?P<messageid>\\d+): (?P<message>[^$]+)"
+            ],
+            "Conditional": {
+                "ConditionField": "messageid",
+                "ParseField": "message",
+                "Regexes": {
+                    "InterfaceRegex":"interface (?P<interface_number>[^\\s]+)",
+                    "ReasonCode":"\\(reason code = (?P<reason_code>[^\\)]+)\\)",
+                    "ReasonString":"Reason: (?P<reason_string>[^$]+)",
+                    "ActiveStatus":"(?P<status>OK|ACTIVE|STANDBY|FAILED|BACKUP)",
+                    "Cause":"\\(cause: (?P<cause>[^\\)]+) \\)",
+                    "Result":"(?P<result>Passed|Failed)",
+                    "StateChange":"change from (?P<oldstate>[^\\s]+) to (?P<newstate>[^\\s]+)",
+                    "PeerIPPort":"peer (?P<peerip>[^:]+):(?P<peerport>\\d+)",
+                    "Port":"port (?P<port>\\d+)",
+                    "ErrorString":"error: (?P<errorstring>[^$]+)",
+                    "User":"user '?(?P<User>[^\\s]+)'?",
+                    "InsideOutside":"from (?P<inside_address>[^\\/]+)/(?P<inside_port>[^\\s]+) to (?P<outside_address>[^\\/]+)/(?P<outside_port>\\d+)",
+                    "AuthStatus":"(?P<authstatus>Authentication failed|Authorization permitted|Authorization denied|failed|Auth start|Authen Session Start|Authen Session End|denied)",
+                    "ACLID":"ACL (?P<aclid>[^\\s]+)",
+                    "Direction":"(?P<direction>inbound|outbound)",
+                    "srcdstuserinterface":"src \\[(?P<src_interface_name>[^\\:]+):(?P<source_address>[^\\/]+)\\/(?P<source_port>[^\\]]+)\\] \\[\\(\\[(?P<src_idfw_user>[^\\|]+)\\|(?P<src_FQDN_string>[^\\]]+)\\],(?P<src_sg_info>[^\\)]+)\\)\\] dst \\[(?P<dst_interface_name>[^:]+):(?P<dest_address>[^\\/]+)\\/(?P<dest_port>[^\\]]+)\\] \\[\\(\\[(?P<dst_idfw_user>[^\\|]+)\\|(?P<dst_FQDN_string>[^\\]]+)\\],(?P<dst_sg_info>[^\\)]+)\\)\\]",
+                    "srcdstinterface":"src (?P<src_interface_name>[^:]+):(?P<source_address>[^\\/]+)\\/(?P<source_port>[^ ]+) dst (?P<dst_interface_name>[^:]+):(?P<dest_address>[^\\/]+)\\/(?P<dest_port>[^ ]+)",
+                    "Status":"(?P<status>Deny|Allow)",
+                    "InsideoutsideInterface":"from (?P<src_interface_name>[^:]+):(?P<inside_address>[^\\/]+)\\/(?P<inside_port>[^\\s]+) to (?P<dst_interface_name>[^:]+):(?P<outside_address>[^\\/]+)\\/(?P<outside_port>[^\\s]+)"
+                },
+                "Conditions": {
+                    "103003":[
+                        "InterfaceRegex"
+                    ],
+                    "103001":[
+                        "ReasonCode"
+                    ],
+                    "103002":[
+                        "InterfaceRegex"
+                    ],
+                    "103004":[
+                        "ReasonString"
+                    ],
+                    "103005":[
+                        "ReasonString"
+                    ],
+                    "104001":[
+                        "ActiveStatus",
+                        "Cause"
+                    ],
+                    "104002":[
+                        "ActiveStatus",
+                        "Cause"
+                    ],
+                    "104003":[
+                        "ActiveStatus"
+                    ],
+                    "104004":[
+                        "ActiveStatus"
+                    ],
+                    "104500":[
+                        "ActiveStatus",
+                        "Cause"
+                    ],
+                    "104501":[
+                        "ActiveStatus",
+                        "Cause"
+                    ],
+                    "105003":[
+                        "InterfaceRegex"
+                    ],
+                    "105004":[
+                        "InterfaceRegex"
+                    ],
+                    "105005":[
+                        "InterfaceRegex"
+                    ],
+                    "105006":[
+                        "InterfaceRegex"
+                    ],
+                    "105007":[
+                        "InterfaceRegex"
+                    ],
+                    "105008":[
+                        "InterfaceRegex"
+                    ],
+                    "105009":[
+                        "InterfaceRegex",
+                        "Result"
+                    ],
+                    "105502":[
+                        "ReasonString"
+                    ],
+                    "105503":[
+                        "StateChange"
+                    ],
+                    "105504":[
+                        "PeerIPPort"
+                    ],
+                    "105505":[
+                        "PeerIPPort"
+                    ],
+                    "105506":[
+                        "Port",
+                        "ErrorString"
+                    ],
+                    "105507":[
+                        "Port",
+                        "ErrorString"
+                    ],
+                    "105508":[
+                        "Port"
+                    ],
+                    "105509":[
+                        "ErrorString"
+                    ],
+                    "105510":[
+                        "ErrorString"
+                    ],
+                    "109001":[
+                        "User",
+                        "InsideOutside",
+                        "AuthStatus"
+                    ],
+                    "109002":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "AuthStatus"
+                    ],
+                    "109003":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "AuthStatus"
+                    ],
+                    "109005":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "User",
+                        "AuthStatus"
+                    ],
+                    "109006":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "User",
+                        "AuthStatus"
+                    ],
+                    "109007":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "User",
+                        "AuthStatus"
+                    ],
+                    "109008":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "AuthStatus",
+                        "User"
+                    ],
+                    "109010":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "AuthStatus"
+                    ],
+                    "109011":[
+                        "AuthStatus",
+                        "User"
+                    ],
+                    "109012":[
+                        "AuthStatus",
+                        "User"
+                    ],
+                    "109014":[
+                        "AuthStatus"
+                    ],
+                    "109016":[
+                        "ACLID",
+                        "User"
+                    ],
+                    "109023":[
+                        "InsideOutside",
+                        "InterfaceRegex"
+                    ],
+                    "109024":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "AuthStatus"
+                    ],
+                    "109025":[
+                        "InsideOutside",
+                        "InterfaceRegex",
+                        "AuthStatus"
+                    ]
+                }
+            }
+        }
+    }
+}
