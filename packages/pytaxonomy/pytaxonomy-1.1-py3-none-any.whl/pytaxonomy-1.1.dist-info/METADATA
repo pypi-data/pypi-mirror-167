@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pytaxonomy
+Version: 1.1
+Summary: pytaxonomy
+Author: Vaishali Ravindranath
+Author-email: rvaishali4@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+UNKNOWN
+
