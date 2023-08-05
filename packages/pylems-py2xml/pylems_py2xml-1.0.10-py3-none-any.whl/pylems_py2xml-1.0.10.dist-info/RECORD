@@ -1,0 +1,11 @@
+pylems_py2xml/__init__.py,sha256=-VqPe3nPl2SToTXAztjAJPP9B4XrjS3c1Ch2n1fHZsQ,128
+pylems_py2xml/main.py,sha256=2aiEslITFZwQEM3mp5z_b8YKUZgveguOsVoQ14kUi8k,5145
+pylems_py2xml/models.py,sha256=Erk_CxtIz3aVVFohlIG-S9joqpyJgqb4Laa-VRZv0NI,7979
+pylems_py2xml/utils.py,sha256=AtAvtVMu5UycIyxITBJvRloay3yWVT5AZ4JY-oS97d4,2278
+pylems_py2xml/data/hindmarshrose.xml,sha256=5tO5T5nZurgJoc61uOrgSTXENpVJnug8wmBBdnassTg,9401
+pylems_py2xml/data/oscillator.xml,sha256=0GPFIHq8zfgUKKMAqTehBJ1xi9Gz2WXsRvpUhc1DhlY,4425
+pylems_py2xml-1.0.10.dist-info/LICENSE,sha256=flDYz9ML4Lkri-7-wCyArNAex3pOkjjnj_H5ITxcsCQ,1098
+pylems_py2xml-1.0.10.dist-info/METADATA,sha256=IjgiZqDP1l8UvZ_dV0jjdQZ28nK0LAVnLVf4yzxf2B4,2327
+pylems_py2xml-1.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylems_py2xml-1.0.10.dist-info/top_level.txt,sha256=mJpIofTl-zYnsi3AwJPpP_xdH6BsY3SRwRPidgIdzxY,14
+pylems_py2xml-1.0.10.dist-info/RECORD,,
