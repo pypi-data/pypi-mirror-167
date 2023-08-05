@@ -1,0 +1,45 @@
+{
+  "update_manager"   : {
+      "prop_name" : "slideshow",
+      "can_skip"  : true
+  },
+  "instructions": [
+    {
+      "action" : "instantiate",
+      "kwargs" : {
+        "coordinates": [
+          510,
+          480
+        ],
+        "prop_name": "image_display",
+        "image_name":  "python_logo.png",
+        "use_alpha" : false,
+        "appear_time": 1000,
+        "disappear_time": 4000
+      }
+    },
+    {
+      "action" : "instantiate",
+      "kwargs" : {
+        "coordinates": [
+          450,
+          540
+        ],
+        "prop_name": "image_display",
+        "image_name": "kennedy_richard_games.png",
+        "use_alpha" : false,
+        "appear_time": 4000,
+        "disappear_time": 7000
+      }
+    },
+    {
+      "action" : "execute",
+      "execute" : "switch_level",
+      "kwargs" : {
+        "after" : 7500,
+        "level_name" : "main_menu.sclvl"
+      }
+    }
+  ],
+  "mood" : "tense"
+}

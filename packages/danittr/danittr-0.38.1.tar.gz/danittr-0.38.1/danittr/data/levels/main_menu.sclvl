@@ -1,0 +1,7 @@
+{
+  "background_color" : [0, 0, 0],
+  "update_manager"   : {
+      "prop_name" : "main_menu"
+  },
+  "mood" : "tense"
+}

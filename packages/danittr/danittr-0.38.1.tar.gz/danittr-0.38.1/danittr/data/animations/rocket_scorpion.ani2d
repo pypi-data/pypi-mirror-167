@@ -1,0 +1,809 @@
+{
+  "name" : "rocket_scorpion",
+  "geometry_map": {
+    "common00": {
+      "dimensions" : [32, 32],
+      "collision_data" : {
+        "dimensions" : [22, 22]
+      }
+    }
+  },
+  "nodes" : {
+    "body" : {
+      "geometry": {
+        "dimensions" : [108, 42],
+        "collision_data" : {
+          "dimensions" : [88, 32],
+          "offset" : [0, 5]
+        }
+      }
+    },
+    "head" : {
+      "geometry": {
+        "dimensions" : [32, 32],
+        "collision_data" : {
+          "dimensions" : [28, 28]
+        }
+      }
+    },
+    "pincer01" : {
+      "geometry": {"dimensions" : [32, 32]}
+    },
+    "pincer02" : {"geometry": "common00"},
+    "joint01" : {"geometry": "common00"},
+    "joint02" : {"geometry": "common00"},
+    "joint03" : {"geometry": "common00"},
+    "joint04" : {"geometry": "common00"},
+    "stinger" : {
+      "geometry": {
+        "dimensions" : [64, 38],
+        "collision_data" : {
+          "dimensions" : [52, 30]
+        }
+      }
+    }
+  },
+  "structure_map": {
+    "idle": {
+      "tree" : {
+        "name": "body",
+        "children": [
+          {"name": "joint01"},
+          {"name": "joint02"},
+          {"name": "joint03"},
+          {"name": "joint04"},
+          {"name": "stinger"},
+          {"name": "pincer01"},
+          {"name": "pincer02"},
+          {"name": "head"}
+        ]
+      },
+      "is_aligned": true,
+      "drawing_order" : [
+        "joint01", "joint02", "joint03", "joint04",
+        "stinger", "body", "head", "pincer01", "pincer02"
+      ]
+    }
+  },
+  "structure" : {
+    "idle" : "idle",
+    "idle_left" : "idle"
+  },
+  "surface_map": {
+    "idle": {
+      "name": "load_from_disk",
+      "image_names": [
+        "rocket_scorpion_master_idle01.png",
+        "rocket_scorpion_master_idle02.png"
+      ]
+    },
+    "head": {
+      "name": "load_from_disk",
+      "image_names": [
+        "rocket_scorpion_head_idle01.png",
+        "rocket_scorpion_head_idle02.png"
+      ]
+    },
+    "pincer": {
+      "name": "load_from_disk",
+      "image_names": [
+        "rocket_scorpion_pincer01_idle01.png",
+        "rocket_scorpion_pincer01_idle02.png"
+      ]
+    },
+    "joint": {
+      "name": "load_from_disk",
+      "image_names": [
+        "rocket_scorpion_joint01_idle01.png"
+      ]
+    },
+    "stinger": {
+      "name": "load_from_disk",
+      "image_names": [
+        "rocket_scorpion_stinger_idle01.png"
+      ]
+    }
+  },
+  "position_map": {
+    "head": [
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -10],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14],
+      [ 28, -14]
+    ],
+    "pincer01": [
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 5],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0],
+      [5, 0]
+    ],
+    "pincer02": [
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 5],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0],
+      [56, 0]
+    ],
+    "joint01": [
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -25],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22],
+      [-40, -22]
+    ],
+    "joint02": [
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -42],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39],
+      [-33, -39]
+    ],
+    "joint03" : [
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -55],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50],
+      [-18, -50]
+    ],
+    "joint04" : [
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -60],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55],
+      [0, -55]
+    ],
+    "stinger" : [
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -55],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50],
+      [28, -50]
+    ]
+  },
+  "values" : {
+    "idle" : {
+      "body" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      },
+      "head" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "head"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "head"
+          }
+        }
+      },
+      "pincer01" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "pincer"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "pincer01"
+          }
+        }
+      },
+      "pincer02" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "pincer"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "pincer02"
+          }
+        }
+      },
+      "joint01" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint01"
+          }
+        }
+      },
+      "joint02" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint02"
+          }
+        }
+      },
+      "joint03" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint03"
+          }
+        }
+      },
+      "joint04" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint04"
+          }
+        }
+      },
+      "stinger" : {
+        "surface_data": {
+          "name": "retrieve_from_map",
+          "key": "stinger"
+        },
+        "position_data" : {
+          "name": "deepcopy",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "stinger"
+          }
+        }
+      }
+    },
+    "idle_left" : {
+      "body" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "idle"
+          },
+          "flip_x": true
+        }
+      },
+      "head" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "head"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "head"
+          },
+          "invert_x": true
+        }
+      },
+      "pincer01" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "pincer"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "pincer01"
+          },
+          "invert_x": true
+        }
+      },
+      "pincer02" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "pincer"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "pincer02"
+          },
+          "invert_x": true
+        }
+      },
+      "joint01" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "joint"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint01"
+          },
+          "invert_x": true
+        }
+      },
+      "joint02" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "joint"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint02"
+          },
+          "invert_x": true
+        }
+      },
+      "joint03" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "joint"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint03"
+          },
+          "invert_x": true
+        }
+      },
+      "joint04" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "joint"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "joint04"
+          },
+          "invert_x": true
+        }
+      },
+      "stinger" : {
+        "surface_data": {
+          "name": "flip",
+          "surface_data": {
+            "name": "retrieve_from_map",
+            "key": "stinger"
+          },
+          "flip_x": true
+        },
+        "position_data": {
+          "name": "invert",
+          "sequence": {
+            "name": "retrieve_from_map",
+            "key": "stinger"
+          },
+          "invert_x": true
+        }
+      }
+    }
+  },
+  "timing_map": {
+    "idle": {
+      "name": "multiply",
+      "sequence": {
+        "name": "range",
+        "stop": 2
+      },
+      "multiplier": 12
+    },
+    "head": {
+      "name": "concatenate",
+      "sequences": [
+         {
+           "name" : "repeat",
+           "sequence" : [0], "how_many_times" : 17
+         },
+         {
+           "name" : "repeat",
+           "sequence" : [1], "how_many_times" : 7
+         }
+      ]
+    },
+    "pincer": {
+      "name": "concatenate",
+      "sequences": [
+         {
+           "name" : "repeat",
+           "sequence" : [0], "how_many_times" : 15
+         },
+         {
+           "name" : "repeat",
+           "sequence" : [1], "how_many_times" : 9
+         }
+      ]
+    },
+    "joint": {
+       "name" : "repeat",
+       "sequence" : [0], "how_many_times" : 24
+    },
+    "stinger": {
+       "name" : "repeat",
+       "sequence" : [0], "how_many_times" : 24
+    }
+  },
+  "timing" : {
+    "idle" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      },
+      "head" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "head"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "pincer01" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "pincer"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "pincer02" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "pincer"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint01" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint02" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint03" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint04" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "stinger" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "stinger"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      }
+    },
+    "idle_left" : {
+      "body" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "idle"
+        }
+      },
+      "head" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "head"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "pincer01" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "pincer"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "pincer02" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "pincer"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint01" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint02" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint03" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "joint04" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "joint"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      },
+      "stinger" : {
+        "surface_indices" : {
+          "name": "retrieve_from_map",
+          "key": "stinger"
+        },
+        "position_indices": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+          15, 16, 17, 18, 19, 20, 21, 22, 23
+        ]
+      }
+    }
+  }
+}
