@@ -1,0 +1,15 @@
+README.md
+__init__.py
+setup.py
+./__init__.py
+./setup.py
+./lexas.egg-info/PKG-INFO
+./lexas.egg-info/SOURCES.txt
+./lexas.egg-info/dependency_links.txt
+./lexas.egg-info/requires.txt
+./lexas.egg-info/top_level.txt
+lexas.egg-info/PKG-INFO
+lexas.egg-info/SOURCES.txt
+lexas.egg-info/dependency_links.txt
+lexas.egg-info/requires.txt
+lexas.egg-info/top_level.txt
