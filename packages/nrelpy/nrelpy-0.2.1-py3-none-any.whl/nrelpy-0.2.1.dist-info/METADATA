@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: nrelpy
+Version: 0.2.1
+Summary: nrelpy: A tool for accessing NREL's rich library of data.
+Home-page: http://github.com/samgdotson/nrelpy
+Download-URL: 
+Author: Samuel Dotson
+Author-email: samgdotson@gmail.com
+Maintainer: Samuel Dotson
+Maintainer-email: samgdotson@gmail.com
+License: BSD-3
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires: pandas
+Requires: matplotlib
+Requires: pytest
+Requires: dill
+Requires: openpyxl
+Requires: pathlib
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: dill
+Requires-Dist: openpyxl
+Requires-Dist: pathlib
+
+[![Build Status](https://github.com/samgdotson/nrelpy/actions/workflows/python-app.yml/badge.svg)](https://github.com/samgdotson/nrelpy/actions/workflows/python-app.yml)
+# nrelpy
+Simple API to interact with the National Renewable Energy Laboratory's Annual Technology Baseline
+
+## Features and Datasets
+
+`nrelpy` currently enables access to the following datasets:
+* Annual Technology Baseline
+    - Transportation (2020)
+    - Electricity (2019 - 2022)
+* GIS Renewable Energy Potential (state-level resolution)
+
+### Installing
+
+This package may be installed from [PyPI](https://pypi.org/project/nrelpy/) with 
+
+`pip install nrelpy`
+
+### Using
+
+The motivation for this API is to relieve researchers of the need to carry datasets
+in their repositories. Therefore, the most basic function of `nrelpy` returns a 
+dataset as a pandas dataframe. This basic usage is shown below.
+
+
+#### ATB
+
+```py
+import nrelpy.atb as ATB
+
+year = 2022
+database = 'electricity'
+
+df = ATB.as_dataframe(year=year, database=database)
+```
+
+#### Renewable Potential
+
+```py
+import nrelpy.re_potential as REP
+
+df = REP.as_dataframe()
+```
+
+### Testing
+
+From the top-level `nrelpy` directory, run `pytest`.  
+
+You can also check the testing coverage with
+
+```bash
+pytest --cov-config=.coveragerc --cov=nrelpy
+coverage html
+```
+`coverage html` creates a nicely formatted html page with 
+the entire coverage report. Simply open the `htmlcov/index.html` file in your browser.
+
+### Contributing
+
+Contributors should clone the repository and install an editable installation.
+
+```bash
+git clone https://github.com/samgdotson/nrelpy.git
+
+cd nrelpy
+
+pip install -e .
+```
+
+*All pull requests must include appropriate, passing, tests.*
+
+Issues and feature requests are welcome.
