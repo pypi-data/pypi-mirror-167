@@ -1,0 +1,6 @@
+[auth]
+mode = "noauth"
+
+[uvicorn]
+port = "37185"
+open_browser = "False"

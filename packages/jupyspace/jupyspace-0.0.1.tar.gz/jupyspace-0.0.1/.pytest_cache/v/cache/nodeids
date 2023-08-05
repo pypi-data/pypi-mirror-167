@@ -1,0 +1,4 @@
+[
+  "tests/test_localspace.py::test_environment",
+  "tests/test_localspace.py::test_server"
+]
