@@ -1,0 +1,3 @@
+[console_scripts]
+sane_identity=sane_python.io:array_identity
+
