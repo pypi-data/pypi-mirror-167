@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cites-vr
+Version: 1.2
+Summary: Fetches class names of scientific names
+Home-page: https://github.com/vaishaliravindranath
+Author: Vaishali Ravindranath
+Author-email: rvaishali4@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+This module provides one function that determines whether the provided number is either odd, even, or neither (in the cases of 0)
+
