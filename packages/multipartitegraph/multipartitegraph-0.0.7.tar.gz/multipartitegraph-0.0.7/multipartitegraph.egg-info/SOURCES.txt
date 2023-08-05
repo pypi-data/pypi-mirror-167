@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+multipartitegraph/__init__.py
+multipartitegraph/api.py
+multipartitegraph.egg-info/PKG-INFO
+multipartitegraph.egg-info/SOURCES.txt
+multipartitegraph.egg-info/dependency_links.txt
+multipartitegraph.egg-info/requires.txt
+multipartitegraph.egg-info/top_level.txt

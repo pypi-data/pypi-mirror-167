@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: multipartitegraph
+Version: 0.0.7
+Summary: This package draws multipartite graph with fixed levels from a list of matrix dataframes
+Home-page: https://github.com/yuryatin/multipartitegraph
+Download-URL: https://github.com/yuryatin/multipartitegraph/archive/refs/tags/v0.0.7.tar.gz
+License: MIT
+Keywords: multipartite,graph,fixed,levels,plotting
+Platform: UNKNOWN
+
+UNKNOWN
+
