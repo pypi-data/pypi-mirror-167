@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: OctoPrint-HeaderAnnouncements
+Version: 0.0.1
+Summary: Add announcements to the header of your octoprint install for use in a shared environment
+Home-page: https://github.com/wwsean08/OctoPrint-HeaderAnnouncements
+Author: Sean Smith
+Author-email: sean@wwsean08.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3,<4
+License-File: LICENSE
+
+UNKNOWN
+
