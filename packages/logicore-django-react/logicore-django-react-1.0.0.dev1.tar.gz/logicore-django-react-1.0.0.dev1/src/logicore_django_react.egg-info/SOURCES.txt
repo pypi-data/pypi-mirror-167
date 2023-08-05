@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/logicore_django_react/__init__.py
+src/logicore_django_react/context_processors.py
+src/logicore_django_react.egg-info/PKG-INFO
+src/logicore_django_react.egg-info/SOURCES.txt
+src/logicore_django_react.egg-info/dependency_links.txt
+src/logicore_django_react.egg-info/top_level.txt
