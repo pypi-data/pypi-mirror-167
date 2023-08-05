@@ -1,0 +1,13 @@
+comathon/__init__.py,sha256=p2Hja89bx5ViKNUTE0PRDFWCvyvK0qh8IcxSrRaAm54,41
+comathon/cmt_exchange.py,sha256=rH98jboDeGY01XIOmEPT0lDiP8CJ_y32kEmgLL5VM2Q,24333
+comathon/cmt_quotation.py,sha256=T-OUOJeqzoCqMQIAtuzSmw7on8UcIgXAppMxcApTOf4,15250
+comathon/myfunctions.py,sha256=hhE6iPf4OGWedsEQZjDyUbcvSTYdl71mGZUshYkHRa4,283
+comathon/simple_addition.py,sha256=pqP-vMDlKQEL-eK18bIzUwvd01LJI_tUljusxTnluHE,411
+comathon/test_restAPI.py,sha256=bgPmyIav3truzRxDx0z2-s8Hjv_QSJBjeb1Y0SG1Fdk,246
+comathon_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comathon_test/test_myfunctions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comathon-0.0.6.dist-info/LICENSE.rst,sha256=ogqZImH5e0QPxVcwonCtLUGKEFUxFIifb3aK9JHysE8,1088
+comathon-0.0.6.dist-info/METADATA,sha256=ubxeDlQ13EfOudExMpeegDW6oauTQOmpzXB8k4rOW_o,268
+comathon-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+comathon-0.0.6.dist-info/top_level.txt,sha256=yoNhE8mDf5F4aOmVsKykTN51Rj-zX6PCF_m2DmHe7EE,23
+comathon-0.0.6.dist-info/RECORD,,
