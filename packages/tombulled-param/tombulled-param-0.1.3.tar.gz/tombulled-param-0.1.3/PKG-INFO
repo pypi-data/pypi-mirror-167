@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tombulled-param
+Version: 0.1.3
+Summary: Enhanced function parameters
+Home-page: https://pypi.org/project/param/
+License: MIT
+Keywords: python,param
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: roster (>=0.1.8,<0.2.0)
+Project-URL: Repository, https://github.com/tombulled/param
+Description-Content-Type: text/markdown
+
+# param
+Enhanced function parameters
+
+## Installation
+```console
+pip install git+https://github.com/tombulled/param.git@main
+```
+
+## Usage
+```python
+from param import Param, params
+
+@params
+def get(url: str, params: dict = Param(default_factory=dict)):
+    print("GET", url, params)
+```
+```python
+>>> get("https://httpbin.com/get")
+GET https://httpbin.com/get {}
+```
