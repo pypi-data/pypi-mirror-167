@@ -1,0 +1,2 @@
+[console_scripts]
+resotodata-updateregions = resotodata.__main__:update_regions
