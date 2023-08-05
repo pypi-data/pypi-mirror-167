@@ -1,0 +1,4 @@
+[console_scripts]
+DragonPy=dragodwload_servernpy.core.gui_starter:gui_mainloop
+devshell=dwload_server.dev_shell:devshell_cmdloop
+
