@@ -1,0 +1,3 @@
+[console_scripts]
+pysims = pysims.cli.main:main
+sims = pysims.cli.main:main

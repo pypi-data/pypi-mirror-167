@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+src/PySIMS.egg-info/PKG-INFO
+src/PySIMS.egg-info/SOURCES.txt
+src/PySIMS.egg-info/dependency_links.txt
+src/PySIMS.egg-info/entry_points.txt
+src/PySIMS.egg-info/requires.txt
+src/PySIMS.egg-info/top_level.txt
+src/pysims/__init__.py
+src/pysims/cli/__init__.py
+src/pysims/cli/_base.py
+src/pysims/cli/config.py
+src/pysims/cli/main.py
