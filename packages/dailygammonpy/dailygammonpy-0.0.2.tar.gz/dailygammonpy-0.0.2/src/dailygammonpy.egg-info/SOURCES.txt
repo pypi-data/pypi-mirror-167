@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dailygammonpy/__init__.py
+src/dailygammonpy/connect.py
+src/dailygammonpy/fileio.py
+src/dailygammonpy.egg-info/PKG-INFO
+src/dailygammonpy.egg-info/SOURCES.txt
+src/dailygammonpy.egg-info/dependency_links.txt
+src/dailygammonpy.egg-info/top_level.txt
