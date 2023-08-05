@@ -1,0 +1,7 @@
+google_recaptcha/__init__.py,sha256=1ylZ0dxYq_NfA9aStD7chaAw4ptV1mkoMdqzI1OhtdY,32
+google_recaptcha/recaptcha.py,sha256=y5DjQdTQVLgp-8K7kWAFxt2NfjAmeWiIKtLPegM0FXg,2756
+google_recaptcha/templates/recaptcha.html,sha256=ke1eK7bnumVVyPad65ccgWQmyIut76hBoZV-OAwVZo4,803
+google_recaptcha-1.1.5.dist-info/LICENSE,sha256=8tpSMNkqXSWaOh6TSmtyqZquUseOY20Ki1UyxqkpgEI,1100
+google_recaptcha-1.1.5.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+google_recaptcha-1.1.5.dist-info/METADATA,sha256=uVDmSPUmMiD1iefT_4IGDs0Ilw6_q1SfkbNybC7oytI,3540
+google_recaptcha-1.1.5.dist-info/RECORD,,
