@@ -1,0 +1,11 @@
+ud_ted/CostModel.py,sha256=LSCKycWdpfOmttt43VLtq8kwQco9mgHnYr1jC3CVxsw,3805
+ud_ted/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ud_ted/cli.py,sha256=pjuS8hrQu7BZFKK7QNImtdqodm58UI_FJA8OFAx6veI,3923
+ud_ted/distance.py,sha256=3sluG8-UQnwRp0K00gqTTN6GMhJPlTTpUqL-OXiwdqs,7156
+ud_ted/uted.py,sha256=HMJ-Yi9oHzLl6SnxG8TjROKygroJoi07rK7GLfBv308,16929
+ud_ted-0.1.0.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+ud_ted-0.1.0.dist-info/METADATA,sha256=8zHtG0tEuJk8DgDEO9u2OcW5PTZJSKtwONPun3Lu1qo,2974
+ud_ted-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ud_ted-0.1.0.dist-info/entry_points.txt,sha256=eiFfH2jKQvquT0asVZ0Y4VI_t5zaiLToT7glV9VXzTk,43
+ud_ted-0.1.0.dist-info/top_level.txt,sha256=iJWQIM56OGtUHCgRYq-1VJjD593iZAbrPBme1Am44gk,7
+ud_ted-0.1.0.dist-info/RECORD,,

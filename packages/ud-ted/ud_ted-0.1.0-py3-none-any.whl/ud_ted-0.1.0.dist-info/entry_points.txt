@@ -1,0 +1,2 @@
+[console_scripts]
+ud-ted = ud_ted.cli:main
