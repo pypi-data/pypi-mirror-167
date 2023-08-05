@@ -1,0 +1,2 @@
+[console_scripts]
+funing = funing:run
