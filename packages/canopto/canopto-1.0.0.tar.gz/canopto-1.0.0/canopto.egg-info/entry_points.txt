@@ -1,0 +1,3 @@
+[console_scripts]
+canopto = canopto.__main__:cli
+
