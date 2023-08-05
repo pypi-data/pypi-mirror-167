@@ -1,0 +1,4 @@
+[console_scripts]
+PythonlandZh = PythonlandZh.__main__:main
+pythonland-zh = PythonlandZh.__main__:main
+
