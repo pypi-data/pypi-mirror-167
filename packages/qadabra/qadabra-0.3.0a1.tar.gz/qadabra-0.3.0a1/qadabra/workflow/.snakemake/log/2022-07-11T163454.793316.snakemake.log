@@ -1,0 +1,3 @@
+WorkflowError in line 1 of /home/grahman/projects/qadabra/workflow/Snakefile:
+Workflow defines configfile config/config.yaml but it is not present or accessible.
+  File "/home/grahman/projects/qadabra/workflow/Snakefile", line 1, in <module>

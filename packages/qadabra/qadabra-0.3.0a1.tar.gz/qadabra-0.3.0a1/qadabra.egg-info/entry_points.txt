@@ -1,0 +1,2 @@
+[console_scripts]
+qadabra = qadabra.qadabra:qadabra
