@@ -1,0 +1,12 @@
+azure-core>=1.23.0
+azure-identity>=1.10.0
+azure-mgmt-containerinstance>=9.2.0
+azure-monitor-query>=1.0.2
+click<8.0.0,>=7.1.2
+msal-extensions==0.3.1
+opencensus-ext-azure>=1.0.4
+pandas
+requests>=2.11
+requests_toolbelt>=0.9.1
+tabulate>=0.7.5
+websocket-client>=0.40.0
