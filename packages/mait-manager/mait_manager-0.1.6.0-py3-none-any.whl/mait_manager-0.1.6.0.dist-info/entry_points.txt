@@ -1,0 +1,3 @@
+[console_scripts]
+mait=mait_manager.main:app
+
