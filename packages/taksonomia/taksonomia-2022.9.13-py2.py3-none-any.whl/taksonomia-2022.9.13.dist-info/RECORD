@@ -1,0 +1,11 @@
+taksonomia/__init__.py,sha256=T6XoeUM9fzdce3P6ULBuUlMDQnpF6-F0JTynXfRrzAU,2195
+taksonomia/__main__.py,sha256=Stx1c6s-ge3ragGmOOyXOZ2uWue0TKOtOTUZCZqPXws,125
+taksonomia/cli.py,sha256=_xl3-sZbktSeOdtggw6M-JBy-JzUyVO1LpS24OjxUjc,3810
+taksonomia/machine.py,sha256=6tHQOlHpYL2V8sScEVeKtnqoYeCL1E10bmY-xPHjxOU,4299
+taksonomia/taksonomia.py,sha256=yd6N_peRGyxCVlZX8s-cYCvAgDWzIrholcjRNaAJrok,13261
+taksonomia-2022.9.13.dist-info/LICENSE,sha256=7xgn1qW4kKTaB163LiE9nqy5u7ddEv-GDesuxK-SW58,1069
+taksonomia-2022.9.13.dist-info/METADATA,sha256=iM5JwPCa1xPHFJsyqqQP8dOByXqm6kvCJEiQghmxTPE,3248
+taksonomia-2022.9.13.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+taksonomia-2022.9.13.dist-info/entry_points.txt,sha256=ajK6LPaOAC7OyrcrmXwyv0T6ZEwIRn_RTXZEcICLm5k,51
+taksonomia-2022.9.13.dist-info/top_level.txt,sha256=ayhzuKmovG896wTBMRcYAQ6cANE3D6viQCdMuunagyk,11
+taksonomia-2022.9.13.dist-info/RECORD,,
