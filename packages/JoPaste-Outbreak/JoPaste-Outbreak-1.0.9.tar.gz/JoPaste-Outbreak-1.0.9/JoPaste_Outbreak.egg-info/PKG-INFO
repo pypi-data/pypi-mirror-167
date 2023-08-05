@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: JoPaste-Outbreak
+Version: 1.0.9
+Summary: Simulating covid outbreak
+Author: JoshuaPaste (Joshua Payte)
+Author-email: Joshua@peerlogic.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+A package that supplys the classes to simulate a covid out break based on events
