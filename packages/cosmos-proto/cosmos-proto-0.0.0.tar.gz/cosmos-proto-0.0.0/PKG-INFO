@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: cosmos-proto
+Version: 0.0.0
+Summary: The Python Protobuf implementation for Cosmos SDK chains
+Home-page: https://github.com/AstroTech-Labs/cosmos_proto
+License: MIT
+Keywords: jigu,blockchain,cosmos,defi,crypto
+Author: AstroTech Labs, PTE.
+Author-email: buidl@astrotechlabs.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: betterproto (==2.0.0b4)
+Project-URL: Repository, https://github.com/AstroTech-Labs/cosmos_proto
+Description-Content-Type: text/markdown
+
+# Python implementation for cosmos.proto
+
+Currently, this repo contains generated python files for Terra 2 and Osmosis Blockchains supported Modules.
+
+### Setup
+
+1. Create virtual environment 
+
+```
+$ python3 -m venv env
+$ source env/bin/activate
+```
+
+2. Install poetry
+```
+$ pip install poetry
+```
+
+3. Install packages,
+
+```
+$ pip install poetry
+$ poetry install
+```
+
+If you encounter "version solving failed." error, try `poetry add <package_name>`, followed by `poetry lock` and then `poetry install`
+
+### Generating python files for new proto files
+
+We use `betterproto[compiler]` for generating python code from proto files, and it is party a manual process. Here are a few pointers to help you through the process - 
+
+
+- `cd` into each module and make sure all *.proto files are in one place.
+- For each .proto file, check the import paths and update them if needed. 
+- Once the paths are corrected, use the following command to generate python files. 
+
+```
+$ protoc -I . --python_betterproto_out=<OUTPUT DIR NAME> <PROTO FILE NAMES>
+```
+
+For eq - protoc -I . --python_betterproto_out=py genesis.proto query.proto gov.proto feetoken.proto
+
+To install `betterproto[compiler]`, use - 
+
+```
+pip install "betterproto[compiler]"
+```
+
+
+
+
+TO DO : Update the scripts
