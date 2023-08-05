@@ -1,0 +1,5 @@
+reportlab
+pytest
+pytest-check
+python-docx
+jsmin
