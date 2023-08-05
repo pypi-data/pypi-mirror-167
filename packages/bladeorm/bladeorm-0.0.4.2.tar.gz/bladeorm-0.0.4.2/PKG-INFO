@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bladeorm
+Version: 0.0.4.2
+Home-page: https://github.com/witer33/bladeorm
+Author: Witer33
+Author-email: dev@witer33.com
+License: MIT
+Keywords: postgres psql orm
+License-File: LICENSE
