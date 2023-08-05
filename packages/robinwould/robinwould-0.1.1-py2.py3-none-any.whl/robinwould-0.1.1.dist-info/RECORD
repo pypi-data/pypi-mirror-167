@@ -1,0 +1,11 @@
+robinwould/__init__.py,sha256=WiXlARGt7CoFWiaoA2T6KLWOmoRMB9OkSGRHAPdUyIw,233
+robinwould/_utils.py,sha256=ziGtStXN_AmrRWmK13kUtE5MYBN1r5JFtfR_XJslDZw,3260
+robinwould/crawler.py,sha256=U76KtwW68Vap61KPQFNWenREHpbLiitRNOl3HKhS8-4,4428
+robinwould/exceptions.py,sha256=v0Bf1mHbIiHwATihRfzq6V9hlG9nT7cS7GrOc9Y6awM,265
+robinwould/fields.py,sha256=UKoZP9I7PmZ51gjpC2SFHTwWLxe89EVSNVcE9MsgdrA,896
+robinwould/interfaces.py,sha256=jnTsp7ZjSkbMNXRpyJ04a-WR3qYWlZvTscS5mOV1ZxI,1938
+robinwould/spider.py,sha256=6JFN1Jg6rGPNjOZht87XX3HBW49hmtDGdNqgO_PR1pw,734
+robinwould-0.1.1.dist-info/LICENSE,sha256=_XS3tXWP5FDTSm-YOYR6yhrKTpJwkTKHqG5Fq-9V4og,1072
+robinwould-0.1.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+robinwould-0.1.1.dist-info/METADATA,sha256=hHkP886-WTvKKdhBHY0MdSSoz_D5xCxcC3FCiojc1FU,3275
+robinwould-0.1.1.dist-info/RECORD,,
