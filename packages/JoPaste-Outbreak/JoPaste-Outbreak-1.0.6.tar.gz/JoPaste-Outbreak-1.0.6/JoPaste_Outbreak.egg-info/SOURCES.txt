@@ -1,0 +1,13 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+Classes/Event_Card.py
+Classes/__init__.py
+Classes/city.py
+Classes/virus.py
+JoPaste_Outbreak.egg-info/PKG-INFO
+JoPaste_Outbreak.egg-info/SOURCES.txt
+JoPaste_Outbreak.egg-info/dependency_links.txt
+JoPaste_Outbreak.egg-info/top_level.txt
