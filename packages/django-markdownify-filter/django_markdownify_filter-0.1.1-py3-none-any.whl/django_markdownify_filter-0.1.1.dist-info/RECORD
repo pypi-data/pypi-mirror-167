@@ -1,0 +1,8 @@
+markdownify_filter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdownify_filter/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdownify_filter/templatetags/markdownify_filter.py,sha256=8KLuhDz-9fUVpnqXonOT5alRe1QD-1jLsMR52KRvgss,331
+django_markdownify_filter-0.1.1.dist-info/LICENSE,sha256=UjL5gpWwSPaCURPKGLFM1ZKZHFjqbSareKQ0J8F2sGo,1072
+django_markdownify_filter-0.1.1.dist-info/METADATA,sha256=1fTm9SI352-GleFjzkP4M8gFRRvMq8uipLtJldlb2qQ,853
+django_markdownify_filter-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_markdownify_filter-0.1.1.dist-info/top_level.txt,sha256=PnWcjLdLkGtFKIYCO3nRcNpyhwZxjNKxDsuWsq5tn_A,19
+django_markdownify_filter-0.1.1.dist-info/RECORD,,

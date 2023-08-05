@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-markdownify-filter
+Version: 0.1.1
+Summary: A Django filter to turn HTML strings into Markdown using Markdownify
+Home-page: https://github.com/johannesdewit/django-markdownify-filter
+Author: Johannes de Wit
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: Django
+Requires-Dist: markdownify
+
