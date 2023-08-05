@@ -1,0 +1,12 @@
+karrio/mappers/royalmail/__init__.py,sha256=z7FWTv-MJKPaqQajhTUvvGPrGv5lBuuW6OVSB0jyHjY,564
+karrio/mappers/royalmail/mapper.py,sha256=qT1NhwfYQgncGV3MsXvmRLBuY97w9NfGHntiMtF3MhQ,4251
+karrio/mappers/royalmail/proxy.py,sha256=UhWm1pnDIAB97YQyHOtMX9k4dOKC1GWu_sCVz8lvM0I,1122
+karrio/mappers/royalmail/settings.py,sha256=ZVvy9P2VSxRJklcCCDR8iRuCBB1vCbcCKR5cNW-UlLA,460
+karrio/providers/royalmail/__init__.py,sha256=qffDByM43WA2dHiclXLtuLmU35EqHwEDuUvGyKSnlNM,781
+karrio/providers/royalmail/error.py,sha256=gyCmKZU9V2PDsH0PTmKXSRL-ve83Kt41fYKZMuHzacA,728
+karrio/providers/royalmail/tracking.py,sha256=YanmUFgbxGZN-CJOhEcOWudjAMeTQ1jU9Z___Bkpg5M,1712
+karrio/providers/royalmail/units.py,sha256=GzCOD-DZSBKE8_McIE8pDNfz1AVE6dwdFqAM-72jZmY,1336
+karrio/providers/royalmail/utils.py,sha256=U_mmAnbzYYoULaOhyGOFdcSPEF9mikOIeI0Ewesc5CQ,534
+karrio.royalmail-2022.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+karrio.royalmail-2022.8.dist-info/METADATA,sha256=qssMpxkzd79KSKBRx6SG9RxLRBN3XXI72KK3fsc5bM8,1338
+karrio.royalmail-2022.8.dist-info/RECORD,,
