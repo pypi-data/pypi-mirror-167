@@ -1,0 +1,5 @@
+py_ed25519_zebra_bindings-1.0.1.dist-info/METADATA,sha256=ebI2TGURTS_ApC89WzZ01hDFJ9sdjL_J_5caG80qeEY,2116
+py_ed25519_zebra_bindings-1.0.1.dist-info/WHEEL,sha256=2ujy088yQ1_zCoupJNbd179lZ5JpvC18pJaSWvL9asg,103
+ed25519_zebra/__init__.py,sha256=beOVSLBnp5S9fG6bp5HJtftLBXIvR8ayBQPp9ytcIzY,62
+ed25519_zebra/ed25519_zebra.cpython-39-darwin.so,sha256=8XloWPQd776lD5YoJJLAiO5m1pDvYORB6YNNbYbGql0,599903
+py_ed25519_zebra_bindings-1.0.1.dist-info/RECORD,,
