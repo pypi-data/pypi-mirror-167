@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rud
+Version: 0.0.4
+Summary: python cli and async library to selectively download a reddit user's posts
+Home-page: https://github.com/anytarseir67/RedditUserDownloader
+Author: anytarseir67
+License: GPLv3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: asyncpraw
+Requires-Dist: pfedit
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-trio ; extra == 'docs'
+Requires-Dist: sphinxcontrib-websupport ; extra == 'docs'
+Requires-Dist: typing-extensions ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: sphinx-argparse ; extra == 'docs'
+
+![logo](https://github.com/anytarseir67/RedditUserDownloader/blob/main/docs/source/images/logo.png?raw=True)
+# RedditUserDownloader
+ python cli and library to selectively download a reddit users posts
+
+ ## documentation can be found at https://reddituserdownloader.readthedocs.io/
+
