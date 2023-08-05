@@ -1,0 +1,17 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/test.py,sha256=hajyabowTyF_JoGvnWOvYqF4Yv1FbwMK2vDVuw93onU,790
+gsxform/__init__.py,sha256=PKO681F08WI-JRCmiEOg1dXUniWfr4_TfFfVHPqBdSo,656
+gsxform/graph.py,sha256=tPxi8oo_Ttn3dmCgkYYhuZSXjzr8R5mB09jZe-UNcus,2444
+gsxform/kernel.py,sha256=EkSvCOZn2cis_c3ZvWlkNBTCjK4PiXZDqjb_UDt0qmE,2758
+gsxform/scattering.py,sha256=XnQbCZ3p8r3BMv5FsLTHAqslZFN4jkVHwRHY3L40yMU,8401
+gsxform/wavelets.py,sha256=DwsomLgmy9m29wRcUfPkdwJURDJk-mHdD3u4ZCwwnis,2651
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_graph.py,sha256=e40R1ioTiRqcz5QjuSYpxSkTSmjSHn3Lxr8MvKWKVAs,1337
+tests/test_kernel.py,sha256=cFEaKukdZX9mD50VhyVjhUtK3bgXodnpMpSa6kobEyk,1190
+tests/test_scattering.py,sha256=iHMteuf9Ni8PLxiaW0O1vokxpOhC6mjXy3H8Lu1fwiU,2906
+tests/test_utils.py,sha256=n7xUCXmNOPHteakj5D9g8rOrEpo-64lO8a7HcwvwpZc,207
+gsxform-0.1.0.dist-info/LICENSE,sha256=bb1AtXZJGTPgnsTP6wPubSF2VkVu-qQ4cefcdm_OCXA,1514
+gsxform-0.1.0.dist-info/METADATA,sha256=7HCwBy9cFlCsNx5zbijSSfbBB00uGbtl3ONjnPA8nnY,2699
+gsxform-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gsxform-0.1.0.dist-info/top_level.txt,sha256=WAtWgRBVWePI5oe6SjU9KgNdzMjMjReJ8S5lAtX3i08,23
+gsxform-0.1.0.dist-info/RECORD,,
