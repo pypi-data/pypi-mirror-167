@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: vertebrae
+Version: 0.1.0
+Summary: A backend framework for async Python microservices
+Author: privateducky
+Author-email: coldduck@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Vertebrae
+
+An async application framework for Python microservices.
+
+## Get started
+
+Start by loading your application properties into the ```Config``` object. 
+Next, create a server object containing ```applications``` and ```services```.
+An application is an API that serves a list of routes at a specified port. A service is a standalone
+Python class that contains business logic.
+
+```python
+from vertebrae import Config, Server, Application
+
+if __name__ == '__main__':
+    Config.load(Config.strip(env='conf/env.yml'))
+    server = Server(
+        applications=[
+            Application(port=8081, routes=[MyRoutes()])
+        ],
+        services=[
+            BasicService(),
+            NotifyService()
+        ])
+    server.run()
+```
+
+### Example service
+
+Each service must create a logger. Optionally, they can attach a handler to the database.
+
+```python
+class BasicService(vertebrae.Service):
+    """ General functionality for this app """
+
+    def __init__(self):
+        self.log = self.logger('basic')
+        self.database = self.db()
+
+    def get_account(self, request):
+        pass
+```
+
+### Example route
+
+A route class must contain a ```routes``` function which returns a list of ```Route``` objects.
+These represent your API handlers.
+
+```python
+class UniversalRoutes:
+
+    def routes(self) -> [vertebrae.Route]:
+        return [
+            vertebrae.Route(method='GET', route='/account', handle=self._get_account)
+        ]
+
+    async def _get_account(self, request: web.Request) -> web.json_response:
+        resp = await vertebrae.Service.service('basic').get_account(request)
+        return web.json_response(resp)
+```
