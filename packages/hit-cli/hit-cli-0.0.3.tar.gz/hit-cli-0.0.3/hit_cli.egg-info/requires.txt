@@ -1,0 +1,2 @@
+click>=7.0.0
+PyGithub>=1.54.0
