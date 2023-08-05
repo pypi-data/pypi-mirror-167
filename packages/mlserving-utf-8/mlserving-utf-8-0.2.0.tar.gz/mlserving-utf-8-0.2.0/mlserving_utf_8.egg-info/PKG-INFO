@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: mlserving-utf-8
+Version: 0.2.0
+Summary: 'A framework for developing a realtime model-inference service.'
+Home-page: https://github.com/orlevii/mlserving
+Author: Or Levi
+Author-email: orlevi128@gmail.com
+Maintainer: Or Levi
+Maintainer-email: orlevi128@gmail.com
+License: MIT
+Project-URL: Code, https://github.com/orlevii/mlserving
+Project-URL: Documentation, https://mlserving.readthedocs.io/en/latest/
+Description: # ML Serving
+        [![PyPI version](https://badge.fury.io/py/mlserving.svg)](https://badge.fury.io/py/mlserving)
+        [![Build](https://github.com/orlevii/mlserving/workflows/build/badge.svg)]()
+        
+        **mlserving** is a framework for developing a realtime model-inference service.
+        
+        Allows you to easily set-up an inference-endpoint for your ML Model.
+        
+        **mlserving** emphasizes on high performance and allows easy integration with other model servers such as **TensorFlow Serving**
+        
+        Docs can found here:
+        https://mlserving.readthedocs.io/en/latest/
+        
+        ## Motivation
+        Data Scientists usually struggle with integrating their ML-models to production.
+        
+        **mlserving** is here to make the development of model-servers easy for everyone.
+        
+        ## Installation
+        ```bash
+        $ pip install mlserving
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
