@@ -1,0 +1,10 @@
+clingo_lpx-1.2.0.dist-info/top_level.txt,sha256=b9n0d58tZljKslFS9aOPaivOPHUW5eoK6_kjcx8-KSU,10
+clingo_lpx-1.2.0.dist-info/WHEEL,sha256=MPEMjpQzN-8LJSm9HGfQyg3ifXm_o7NUD1EhvqmnYXo,144
+clingo_lpx-1.2.0.dist-info/METADATA,sha256=VZYvu6x5U6MIDIsS63eeL3YpgGm3d7dCZzrtbyhEJQI,563
+clingo_lpx-1.2.0.dist-info/RECORD,,
+clingo_lpx-1.2.0.dist-info/LICENSE,sha256=Xn_GLMCpm5CYLVPW0INBUOeNFMHg6L8CW9P4qb0LyJs,1072
+clingolpx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clingolpx/_clingolpx.cpython-36m-x86_64-linux-gnu.so,sha256=yfCJDfSaNqtTF58grgmtOuv9d-PpP-PMCVGwzJa3OtI,560856
+clingolpx/__main__.py,sha256=V4pUQtS6sE1N5vtXMTbAFR1-ItCW9Ifb1iKPppvd_N0,1993
+clingolpx/clingo-lpx.h,sha256=9Dny0HqehcQxk8Nld1wG1CgspObiSVLb5DPaAOtQyJ0,6047
+clingolpx/__init__.py,sha256=bQMCEThQBCbCbe1Q8rqdaFhzkVP6BG7pfnERsze856U,324
