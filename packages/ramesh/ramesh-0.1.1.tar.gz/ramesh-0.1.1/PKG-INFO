@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: ramesh
+Version: 0.1.1
+Summary: A helper module with greatest power 
+Home-page: UNKNOWN
+Author: Ramesh
+Author-email: rr188351@gmail.com
+License: MIT
+Description: They are funcion
+        1-diamond
+        /2-ramgenrator
+        /3-csvhelper.main()
+        /4-BBF
+        /5-ramgui
+        /6-i_sort
+        /7-b_sort
+        /8-s_sort
+        /9-b_search
+        /10-position
+        /11-mergesort
+        /12-lineasearch
+        /13-pattern 1-12
+        /14-notepad
+        /15-dice
+        /16-cube
+        /17-csvreaderop
+        /18-table
+        /19-ramhasher.main()
+        launch on 23/05/2022
+Keywords: tkinter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
