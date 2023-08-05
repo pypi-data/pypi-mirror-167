@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: mmisdk
+Version: 0.0.3
+Summary: A Python library to create and submit EVM transactions to custodians connected with MetaMask Institutional.
+Home-page: https://gitlab.com/ConsenSys/codefi/products/mmi/mmi-sdk-py/-/issues
+Author: Xavier Brochard
+Author-email: xavier.brochard@consensys.net
+Project-URL: Documentation, https://consensys.gitlab.io/codefi/products/mmi/mmi-sdk-py/sdk-python/
+Project-URL: Changelog, https://gitlab.com/ConsenSys/codefi/products/mmi/mmi-sdk-py/-/blob/main/CHANGELOG.rst
+Project-URL: Issue Tracker, https://gitlab.com/ConsenSys/codefi/products/mmi/mmi-sdk-py/-/issues
+Keywords: python sdk custodian interact get create transaction
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.6
+Provides-Extra: dev
+
+# MMI Custodian SDK
+
+A Python library to create and submit EVM transactions to custodians connected with MetaMask Institutional.
+
+## User documentation and examples
+
+For documentation on how to use the library, please visit the page [MetaMask Institutional SDK](https://consensys.gitlab.io/codefi/products/mmi/mmi-sdk-py/sdk-python/), or [`docs/sdk-python.md`](docs/sdk-python.md).
+
+You can also explore various usage examples in the directory [`./examples`](./examples).
+
+## Developer documentation
+
+🚨 The commands we list below use `python` and `pip`. Depending on your local setup, you might need to replace them by `python3` and `pip3`.
+
+### Requirements
+
+- Python 3.7 or above
+
+### Installing dependencies
+
+To install `mmisdk`, along with the tools you need to develop and run tests, run the following:
+
+```bash
+pip install -e .[dev]
+```
+
+### Unit tests
+
+```bash
+./run_tests.sh
+```
+
+Testing against various Python versions, listed in `./tox.ini`:
+
+```
+tox
+```
+
+### Building the package
+
+```bash
+python3 setup.py bdist_wheel sdist
+```
+
+### Creating / Updating the manifest
+
+```bash
+check-manifest --create
+```
+
+### Publishing to PyPI
+
+```bash
+twine upload dist/*
+```
+
+
+Changelog
+=========
+
+0.0.1 (2022-09-09)
+------------------
+
+* First release on PyPI.
