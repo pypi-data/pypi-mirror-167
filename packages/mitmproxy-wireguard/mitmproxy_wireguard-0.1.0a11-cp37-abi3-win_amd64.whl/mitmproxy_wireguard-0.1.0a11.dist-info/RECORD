@@ -1,0 +1,8 @@
+mitmproxy_wireguard-0.1.0a11.dist-info/METADATA,sha256=L4CShWeRWPUnhliMEsdGOLyreBKUfiHoZBw0u1MqMek,5371
+mitmproxy_wireguard-0.1.0a11.dist-info/WHEEL,sha256=FO8o1r0eyt-bhlsPyvVD1A6xMfUYh5Ii6LSlsTszXn4,95
+mitmproxy_wireguard-0.1.0a11.dist-info/license_files/LICENSE,sha256=ibt5qIgbCfLhuk7lt3yn4pbu-VILHJBnx3V7Kd_fK68,1099
+mitmproxy_wireguard/__init__.py,sha256=zoaIEA6A-GLVE-CiJZPYWv0TMvXU1Gk8SHWyd6TwJok,159
+mitmproxy_wireguard/__init__.pyi,sha256=nXha_J07sppWEtnA_op5NYEptKzwDOSW-05zFMa3MBw,1332
+mitmproxy_wireguard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mitmproxy_wireguard/mitmproxy_wireguard.pyd,sha256=RakmQbkfshp0nEPQTcI8F816QuW-fkfZ_AXid9ZEmeI,1810432
+mitmproxy_wireguard-0.1.0a11.dist-info/RECORD,,
