@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+GifRunner.egg-info/PKG-INFO
+GifRunner.egg-info/SOURCES.txt
+GifRunner.egg-info/dependency_links.txt
+GifRunner.egg-info/top_level.txt
