@@ -1,0 +1,32 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mitts"
+version = "0.0.2"
+description = "Don't get burned with common torch training errors"
+readme = "README.md"
+authors = [{ name = "Jake Williams", email = "jakew@duck.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+# dynamic = ["dependencies"]
+dependencies = ["torch"]
+requires-python = ">=3.6"
+
+# [tool.setuptools.dynamic]
+# dependencies = {file = ["requirements.txt"]}
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://jakemwilliams.com"
+Repository = "https://github.com/JakeWilliams22/mitts"
