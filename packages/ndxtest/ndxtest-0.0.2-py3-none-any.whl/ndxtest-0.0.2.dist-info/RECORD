@@ -1,0 +1,10 @@
+ndxtest/__init__.py,sha256=-7Q4xAPkIewZ7wAef5h261LkruKNtNw7ic4JRLXhcqM,435
+ndxtest/backtest.py,sha256=t3EHqDgnkbSOlzqqcSwzwG17pM3fAxhrSY5yfgMEpYs,43017
+ndxtest/dev.py,sha256=mkJbqtC6Ae7ig8F4IcvVu9eNXE0AzANFaIRUzt5ffUg,184
+ndxtest/indicators.py,sha256=iUIxJg3KG9W8Ydyyz9pZjMNCTPhX5wjz96FCM3zbvBk,18067
+ndxtest/utils.py,sha256=AbMfdVHmyj27gJCzDHDwSb249_NRs12synGEKAQ5P8k,34033
+ndxtest-0.0.2.dist-info/LICENSE,sha256=E9y1qQOmApRI4go7OzrZeMFQWL45qk_ZrvT3F41R73A,1084
+ndxtest-0.0.2.dist-info/METADATA,sha256=BWONAOh63vA67N662OpkWkMonvI8GXehd6CF6UIoSj0,7417
+ndxtest-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ndxtest-0.0.2.dist-info/top_level.txt,sha256=dykL5Ur39GWj24emBFYPjpgX17pC6H14mPx8fzIgiVk,8
+ndxtest-0.0.2.dist-info/RECORD,,
