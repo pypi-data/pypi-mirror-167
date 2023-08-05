@@ -1,0 +1,6 @@
+nonebot_plugin_datastore
+nonebot_plugin_chatrecorder
+nonebot-adapter-onebot
+nonebot_plugin_guild_patch
+pygal
+cairosvg
