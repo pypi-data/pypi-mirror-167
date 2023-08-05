@@ -1,0 +1,9 @@
+
+[dev]
+black
+build
+glom
+isort
+mypy
+pytest
+pytest-cov
