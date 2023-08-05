@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: syncbyte
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: SQLALchemy
+Requires-Dist: alembic
+Requires-Dist: boto3
+Requires-Dist: celery
+Requires-Dist: eventlet
+Requires-Dist: fastapi
+Requires-Dist: psycopg2-binary
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: redis
+Requires-Dist: uvicorn
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+UNKNOWN
+
+
