@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/joelclui/__init__.py
+src/joelclui/joelclui.py
+src/joelclui.egg-info/PKG-INFO
+src/joelclui.egg-info/SOURCES.txt
+src/joelclui.egg-info/dependency_links.txt
+src/joelclui.egg-info/top_level.txt
