@@ -1,0 +1,24 @@
+[project]
+name = "azcam-ds9"
+version = "22.3.2"
+description = "Azcam extension for SAO's ds9 image display"
+license = {file ="LICENSE"}
+readme = "README.md"
+keywords=["ccd", "imaging", "astronomy", "sensors"]
+authors = [{name="Michael Lesser"},{email = "mlesser@arizona.edu"}]
+dependencies = [
+    "azcam",
+    "numpy",
+    "astropy",
+]
+
+[project.urls]
+Documentation = "https://mplesser.github.io/azcam/"
+Repository = "https://github.com/mplesser/azcam-ds9/"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "azcam_ds9"
