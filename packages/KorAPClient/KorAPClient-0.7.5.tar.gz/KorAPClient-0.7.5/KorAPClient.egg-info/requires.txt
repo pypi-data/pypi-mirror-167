@@ -1,0 +1,4 @@
+rpy2>=3.3
+pandas>=1.2
+packaging
+markdown
