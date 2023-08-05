@@ -1,0 +1,5 @@
+onnxruntime
+torch
+numpy
+soundfile
+scipy

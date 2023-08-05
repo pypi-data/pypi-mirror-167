@@ -1,0 +1,17 @@
+LICENSE
+LICENSE-CODE
+MANIFEST.in
+README.md
+setup.py
+nsnet2_denoiser/__init__.py
+nsnet2_denoiser/denoise.py
+nsnet2_denoiser/enhance_onnx.py
+nsnet2_denoiser/featurelib.py
+nsnet2_denoiser/nsnet2-20ms-48k-baseline.onnx
+nsnet2_denoiser/nsnet2-20ms-baseline.onnx
+nsnet2_denoiser.egg-info/PKG-INFO
+nsnet2_denoiser.egg-info/SOURCES.txt
+nsnet2_denoiser.egg-info/dependency_links.txt
+nsnet2_denoiser.egg-info/requires.txt
+nsnet2_denoiser.egg-info/top_level.txt
+nsnet2_denoiser.egg-info/zip-safe
