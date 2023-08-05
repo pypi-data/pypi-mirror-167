@@ -1,0 +1,9 @@
+bofa_scraper/__init__.py,sha256=F5GLXxQt6pk2QLpVPkUzUvvSZiUXmvGCn46bDk_POUc,2335
+bofa_scraper/account.py,sha256=tZG1DDT1HjArc6JBHzWsNcjDeMryEzGG7U1qm5FlfKg,1040
+bofa_scraper/scrape_session.py,sha256=Fjf2cMnDbn6k072dStkrL8NnzxNpqUJMmsp2JjyOsTQ,2200
+bofa_scraper/util.py,sha256=NyFAejnmpIVlwMc-wLjseiNvXP4YxnLN6UuXD2mtVBo,263
+bofa_scraper-1.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bofa_scraper-1.0.1.dist-info/METADATA,sha256=wc-ZMyuGNXZ3MoaExGfPSU2OBRzloUWD_ggN8aDkZTM,2743
+bofa_scraper-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bofa_scraper-1.0.1.dist-info/top_level.txt,sha256=OCqRay353bReg6CBboaMEus7JnlxoL42EJmdLRjrtDY,13
+bofa_scraper-1.0.1.dist-info/RECORD,,
