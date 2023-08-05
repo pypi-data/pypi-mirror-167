@@ -1,0 +1,4 @@
+coverage==6.4.2
+testtools==2.5.0
+mock==4.0.3
+stestr==3.2.1
