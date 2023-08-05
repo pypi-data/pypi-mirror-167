@@ -1,0 +1,13 @@
+cftcli/attach.py,sha256=LHJLvVzxz3KcMKqZHUodmFlVPCUTda7DRDLA4eqyE80,3129
+cftcli/common.py,sha256=xGBKjv0wOx03zeAc5VCyAONSXSfam4mTJCE3LFp9VJE,854
+cftcli/deploy.py,sha256=YhRMxLHUhHUkqkCFnORd3d25mqadqNvLtJbzVi6DA0w,9259
+cftcli/destroy.py,sha256=-ye13F76i97ItEvHms4h-ysEGbc9S0prncLv-sR-ioA,3279
+cftcli/detail.py,sha256=WzLHOhrPX7d12Q9wQ8cpB6zzHS-_qqQWtPcErz5VDgQ,9291
+cftcli/list.py,sha256=0ZNqxlumYpnBp_XkaaBQtpJZOIhIAIULX5bflYP7NEc,3882
+cftcli/list_pipelines.py,sha256=3jeVW1qY1Ovp3ChIUNfLdTqGFmAfX7xXtmUKzt1vTfs,4144
+cftcli-2.1.0.dist-info/LICENSE.txt,sha256=vTZisD_3JDyNERlNmSIi7I6gXkxchSGKQNwk60Idb8Y,520
+cftcli-2.1.0.dist-info/METADATA,sha256=MWuFS7VpGlMZ5SmZph22xCRbz9VCmeW9eP4oGtXQuE8,834
+cftcli-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cftcli-2.1.0.dist-info/entry_points.txt,sha256=7HezVcTRm-ljkbI7hHdHzNrrIK62N5hB6IlgsYWCuYw,384
+cftcli-2.1.0.dist-info/top_level.txt,sha256=yFTZkcZ_FaeQ_8Awnfvr1ThRTW86Mpzuj8FktjIEo2w,7
+cftcli-2.1.0.dist-info/RECORD,,
