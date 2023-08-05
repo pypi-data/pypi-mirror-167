@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/pygreet.py
+src/pygreet.egg-info/PKG-INFO
+src/pygreet.egg-info/SOURCES.txt
+src/pygreet.egg-info/dependency_links.txt
+src/pygreet.egg-info/requires.txt
+src/pygreet.egg-info/top_level.txt
