@@ -1,0 +1,10 @@
+construct>=2.10.68
+Jinja2>=3.1.2
+xmltodict>=0.12.0
+
+[dev]
+black
+flake8
+flake8-isort
+mypy
+pytest
