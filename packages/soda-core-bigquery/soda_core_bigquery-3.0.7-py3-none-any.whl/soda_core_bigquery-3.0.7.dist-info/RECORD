@@ -1,0 +1,5 @@
+soda/data_sources/bigquery_data_source.py,sha256=OKxOrw2I6JLYhdm46LxUwvXk_iKbEBRjbDgrjiCUQDI,8527
+soda_core_bigquery-3.0.7.dist-info/METADATA,sha256=WYF_Q8gTJtU_g8mzXxIr7FFDxg3AO7DqmLuqwMEgf4Y,151
+soda_core_bigquery-3.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+soda_core_bigquery-3.0.7.dist-info/top_level.txt,sha256=nh9kmM9ZWOtIXfwHLUKLl7m6xAFti83JVa2Rcxm6Zck,5
+soda_core_bigquery-3.0.7.dist-info/RECORD,,
