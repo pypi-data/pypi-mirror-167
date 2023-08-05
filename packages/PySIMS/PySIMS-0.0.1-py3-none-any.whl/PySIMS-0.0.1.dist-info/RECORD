@@ -1,0 +1,11 @@
+pysims/__init__.py,sha256=uRlIR599pIz8r387D8wZ8wa-Ww_Q8WHH5a28H_3Z90c,676
+pysims/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysims/cli/_base.py,sha256=utmUXUce01H93lk567sCjLaFTqDRsFVU5PQIl5VNarg,1110
+pysims/cli/config.py,sha256=_2AVuIjVzZq2E3cOCxCtmP-AyFK4bAW7qy8bSrWiCIg,935
+pysims/cli/main.py,sha256=ic-qhu49oWCSTUB-b4RRRwbg0yBMK9Djukg3OZJPz4E,704
+PySIMS-0.0.1.dist-info/LICENSE,sha256=YIfoAojMqoNTK4VVqCBFjPQGKkPPGHkNCzshd3Kt2UI,1090
+PySIMS-0.0.1.dist-info/METADATA,sha256=Tu1N9JF9kgdY_Cw-WBZnrWVtAj3kJ9nTSu-nqwQmkzY,3155
+PySIMS-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PySIMS-0.0.1.dist-info/entry_points.txt,sha256=hAlMGVoclqA4jvOh5Upc9HiDmGSDaL1tkHi9yf7TiV0,76
+PySIMS-0.0.1.dist-info/top_level.txt,sha256=De095r7I1Cv5qigbxOxoGnJ8Pm1HX6Wxsm4NkEtpqmk,7
+PySIMS-0.0.1.dist-info/RECORD,,
