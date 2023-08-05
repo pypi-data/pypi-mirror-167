@@ -1,0 +1,11 @@
+markdown_frames/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdown_frames/pandas_dataframe.py,sha256=zO9SmZUritOImYnAwyZ8eDAOAb1QRSIBDwpauAG1dU8,1117
+markdown_frames/spark_dataframe.py,sha256=U_2dNUoytolxqMxxNkZymYRhF_RrkOTVP3PIWsxEJOM,1316
+markdown_frames/table.py,sha256=evTHsiXWuvopshXbp5WMTnhim1Rfv4S3vBzxFXTUsLs,2720
+markdown_frames/type_definitions.py,sha256=1wCeyS6indzPD_eqRrpOma33XdT7kvq8bMU6GaGfNqg,5852
+markdown_frames/utils.py,sha256=PF4pGWfLt8WCKNY0mYxNE8c8x6nw2Y66FjGXjnI_Es8,1770
+markdown_frames-1.0.6.dist-info/LICENSE,sha256=kSveXi7tzb7JDxXeTs6eJLC1lD5J3VvScXgSuaKGuLA,1065
+markdown_frames-1.0.6.dist-info/METADATA,sha256=TuSbO9t3pkdM5y5DF_R0yWcQxdS6WGaIQbFsGhrcryE,3434
+markdown_frames-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+markdown_frames-1.0.6.dist-info/top_level.txt,sha256=O-g2ZALwPU_M_u4Q6tKyFdAJg2212wl4_iyLzBx7KnI,16
+markdown_frames-1.0.6.dist-info/RECORD,,
