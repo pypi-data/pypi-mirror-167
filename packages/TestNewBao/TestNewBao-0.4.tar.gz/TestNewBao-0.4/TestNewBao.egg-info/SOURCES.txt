@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+TestNewBao/__init__.py
+TestNewBao/putText.cp310-win_amd64.pyd
+TestNewBao.egg-info/PKG-INFO
+TestNewBao.egg-info/SOURCES.txt
+TestNewBao.egg-info/dependency_links.txt
+TestNewBao.egg-info/requires.txt
+TestNewBao.egg-info/top_level.txt
