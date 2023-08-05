@@ -1,0 +1,2 @@
+[console_scripts]
+jupyspace = fps_uvicorn.cli:app
