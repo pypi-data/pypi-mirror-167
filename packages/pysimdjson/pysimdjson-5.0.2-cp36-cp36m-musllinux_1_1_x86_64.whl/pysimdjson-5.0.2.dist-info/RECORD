@@ -1,0 +1,11 @@
+csimdjson.cpython-36m-x86_64-linux-gnu.so,sha256=HGc7CSdodfbe20e7nZHe-IsmQoAUoY0tl8iwm31fZ_I,6922952
+simdjson/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+simdjson/__init__.pyi,sha256=k9Dwfs2aqKF93J6I3Ht1XlNK7E-ljJIhYjcXJUmidMA,2643
+simdjson/__init__.py,sha256=53_eEId5yidf9QbKSg9-0WY8deFCGSMoEji8e1ZYNUw,1495
+pysimdjson.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+pysimdjson.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+pysimdjson-5.0.2.dist-info/top_level.txt,sha256=llYcylPIrtsro1ULjUe-uLEK435CizKAsMAixqQStyI,19
+pysimdjson-5.0.2.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+pysimdjson-5.0.2.dist-info/METADATA,sha256=GBITKHe6CowC4hzjB1o3702yApGjGqjrBxx6TATf6Yo,1904
+pysimdjson-5.0.2.dist-info/RECORD,,
+pysimdjson-5.0.2.dist-info/LICENSE,sha256=EGfDCmkqUvZsO4wb1t8m7919hKQ--OvhDMs5X3553ew,1208
