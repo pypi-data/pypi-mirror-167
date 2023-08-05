@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: risk_model_maidou
+Version: 0.0.7
+Summary: 自动评分卡建模工具-Automatic scorecard modeling tool
+Home-page: https://github.com/maidoudoujiushiwo/risk_model
+Author: maidoudoujiushiwo
+Author-email: fengyuguohou2010@hotmail.com
+License: MIT
+Download-URL: https://github.com/maidoudoujiushiwo/risk_model.git
+Keywords: Automatic,scorecard,woe
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+UNKNOWN
+
