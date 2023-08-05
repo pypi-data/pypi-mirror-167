@@ -1,0 +1,8 @@
+README.md
+setup.py
+responsive/__init__.py
+responsive/http.py
+responsive_http.egg-info/PKG-INFO
+responsive_http.egg-info/SOURCES.txt
+responsive_http.egg-info/dependency_links.txt
+responsive_http.egg-info/top_level.txt
