@@ -1,0 +1,16 @@
+duckdb_engine/__init__.py,sha256=oHU4mJsFQ6nbMQ_zhBKkaGG6GiBiMeQx9rZ4R3ht7fQ,7260
+duckdb_engine/config.py,sha256=oMRkJbxB8y0DE3xzkD5qEdICB2rghKunEm1xgSwZhQ4,985
+duckdb_engine/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_engine/datatypes.py,sha256=ousKJDLoa2nKUQiBSt7R3um566YxFVVPEtyG7h74dEU,172
+duckdb_engine/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_engine/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_engine/tests/conftest.py,sha256=XpCu-nNVTlF6zV6o9uZnUe0lYcXvr7Ja8yEP_5Q243U,1765
+duckdb_engine/tests/test_basic.py,sha256=SDzn0N4nN9jbXuZL9i0BiapBSHOyV6GJ0WUXcZBsmnM,9053
+duckdb_engine/tests/test_datatypes.py,sha256=DqoSFuACFDX9RbA-WrP7vc14-8HoRWkqTjvEDjAXPVs,546
+duckdb_engine/tests/test_integration.py,sha256=Cxo8G8L9GQymaHuYES0hPjMGUEsZsNI8pFWFvtJz0YI,220
+duckdb_engine/tests/test_pandas.py,sha256=OLUnbUBIZKo8wjpfUOE-wb_UTVtwooGMt2j64dYrYzc,3877
+duckdb_engine-0.6.4.dist-info/entry_points.txt,sha256=MXtx4z31EbL3u4PWXRdxfopqDi3gS8rFtBT8TE_4cSU,52
+duckdb_engine-0.6.4.dist-info/LICENSE.txt,sha256=nhRQcy_ZV2R-xzl3MPltQuQ53bcURavT0N6mC3VdDE8,1076
+duckdb_engine-0.6.4.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+duckdb_engine-0.6.4.dist-info/METADATA,sha256=PUsR_iTfla133TzjmcRny8c1mU1Ny9qTPJ6fUZZOR9E,6515
+duckdb_engine-0.6.4.dist-info/RECORD,,
