@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mitts
+Version: 0.0.1
+Summary: Don't get burned with common torch training errors
+Author-email: Jake Williams <jakew@duck.com>
+Project-URL: Homepage, https://jakemwilliams.com
+Project-URL: Repository, https://github.com/JakeWilliams22/mitts
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+Mitts
+
+- TorchedHops - great beer ML name
+- Mitts
+- Torch oopsie
+- Fire safety
+- Smoke alarm
+
+Goal: Prevent “oopsies” with PyTorch
+
+Examples
+- All of an input or output are the same (or missing)
+- Gradients aren’t updating
+- Inputs aren’t normalized
+- Vanishing/Exploding gradient?
+- Training/Test Overlap
+
+
+
+To Deploy
+python3 -m build
+python3 -m twine upload dist/*
