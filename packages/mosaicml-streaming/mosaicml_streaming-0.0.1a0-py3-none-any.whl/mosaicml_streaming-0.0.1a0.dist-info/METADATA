@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: mosaicml-streaming
+Version: 0.0.1a0
+Summary: Streaming datasets
+Home-page: https://github.com/mosaicml/streaming/
+Author: MosaicML
+Author-email: team@mosaicml.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: boto3 (==1.24.37)
+Requires-Dist: Brotli (==1.0.9)
+Requires-Dist: datasets (==2.4.0)
+Requires-Dist: matplotlib (==3.5.2)
+Requires-Dist: paramiko (==2.11.0)
+Requires-Dist: python-snappy (==0.6.1)
+Requires-Dist: torch (<2,>=1.10)
+Requires-Dist: torchtext (>=0.10)
+Requires-Dist: torchvision (>=0.10)
+Requires-Dist: tqdm (==4.64.0)
+Requires-Dist: transformers (==4.21.3)
+Requires-Dist: xxhash (==3.0.0)
+Requires-Dist: zstd (==1.5.2.5)
+Provides-Extra: all
+Requires-Dist: docformatter (==1.4) ; extra == 'all'
+Requires-Dist: sphinxemoji (==0.2.0) ; extra == 'all'
+Requires-Dist: pre-commit (<3,>=2.18.1) ; extra == 'all'
+Requires-Dist: toml (==0.10.2) ; extra == 'all'
+Requires-Dist: sphinx-panels (==0.6.0) ; extra == 'all'
+Requires-Dist: sphinxcontrib-images (==0.9.4) ; extra == 'all'
+Requires-Dist: sphinx-copybutton (==0.5.0) ; extra == 'all'
+Requires-Dist: sphinxcontrib.katex (==0.8.6) ; extra == 'all'
+Requires-Dist: nbsphinx (==0.8.8) ; extra == 'all'
+Requires-Dist: sphinx-argparse (==0.3.1) ; extra == 'all'
+Requires-Dist: pytest (==7.1.2) ; extra == 'all'
+Requires-Dist: myst-parser (==0.16.1) ; extra == 'all'
+Requires-Dist: sphinx (==4.4.0) ; extra == 'all'
+Requires-Dist: yamllint (==1.26.3) ; extra == 'all'
+Requires-Dist: pypandoc (==1.8.1) ; extra == 'all'
+Requires-Dist: GitPython (==3.1.27) ; extra == 'all'
+Requires-Dist: docutils (==0.17.1) ; extra == 'all'
+Requires-Dist: sphinxext.opengraph (==0.6.1) ; extra == 'all'
+Requires-Dist: furo (==2022.3.4) ; extra == 'all'
+Requires-Dist: pandoc (==2.2) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: docformatter (==1.4) ; extra == 'dev'
+Requires-Dist: pytest (==7.1.2) ; extra == 'dev'
+Requires-Dist: toml (==0.10.2) ; extra == 'dev'
+Requires-Dist: yamllint (==1.26.3) ; extra == 'dev'
+Requires-Dist: pre-commit (<3,>=2.18.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: GitPython (==3.1.27) ; extra == 'docs'
+Requires-Dist: docutils (==0.17.1) ; extra == 'docs'
+Requires-Dist: furo (==2022.3.4) ; extra == 'docs'
+Requires-Dist: myst-parser (==0.16.1) ; extra == 'docs'
+Requires-Dist: nbsphinx (==0.8.8) ; extra == 'docs'
+Requires-Dist: pandoc (==2.2) ; extra == 'docs'
+Requires-Dist: pypandoc (==1.8.1) ; extra == 'docs'
+Requires-Dist: sphinx-argparse (==0.3.1) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (==0.5.0) ; extra == 'docs'
+Requires-Dist: sphinx (==4.4.0) ; extra == 'docs'
+Requires-Dist: sphinx-panels (==0.6.0) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-images (==0.9.4) ; extra == 'docs'
+Requires-Dist: sphinxcontrib.katex (==0.8.6) ; extra == 'docs'
+Requires-Dist: sphinxemoji (==0.2.0) ; extra == 'docs'
+Requires-Dist: sphinxext.opengraph (==0.6.1) ; extra == 'docs'
+
