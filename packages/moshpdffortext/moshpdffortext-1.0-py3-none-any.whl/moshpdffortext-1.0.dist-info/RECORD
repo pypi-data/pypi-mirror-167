@@ -1,0 +1,9 @@
+ecommerce/__init__.py,sha256=me4pTh0m4RwzRAiKBgOn9JxsxNiaW4DvdddjkjvUssY,31
+ecommerce/customer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecommerce/customer/revenue.py,sha256=onzy7DwxoCBFC3JfDvq-C1s8ABIEHT9JadEeMZN-hA0,31
+ecommerce/shopping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecommerce/shopping/sales.py,sha256=HubaR1DQOtVBu9Dm1ZGpSWaDJmO_SYMOBa8jK05A9P4,128
+moshpdffortext-1.0.dist-info/METADATA,sha256=f5FaFSPkSSAkYIW1KeE9ZNU77PdwsX0kaqNuFAk9Ib0,94
+moshpdffortext-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+moshpdffortext-1.0.dist-info/top_level.txt,sha256=BDbj-xV2OOFtgXLVzZyNpSRtjolaWVxUdb7zEMUqD1Y,10
+moshpdffortext-1.0.dist-info/RECORD,,
