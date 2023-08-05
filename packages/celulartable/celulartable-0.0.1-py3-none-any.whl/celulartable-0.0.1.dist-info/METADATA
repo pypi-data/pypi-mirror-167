@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: celulartable
+Version: 0.0.1
+Summary: Tables made of cells for console.
+Home-page: https://github.com/Kyostenas/celulartable
+Download-URL: 
+Author: Kyostenas
+Author-email: kyostenas@gmail.com
+License: MIT
+Keywords: console,table,cell
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+# Celulartable
+
+Package inspired in [prettyTables](https://github.com/Kyostenas/prettyTables) that uses the concept of cells as a class.
+
+> It's just an experiment for now.
