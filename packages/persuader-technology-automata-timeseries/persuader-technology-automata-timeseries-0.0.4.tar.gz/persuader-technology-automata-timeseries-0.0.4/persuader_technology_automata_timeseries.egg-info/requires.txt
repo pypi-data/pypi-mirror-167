@@ -1,0 +1,4 @@
+influxdb-client>=1.32.0
+persuader-technology-automata-core>=0.6.0
+persuader-technology-automata-utilities>=0.2.1
+persuader-technology-automata-logger>=0.0.5
