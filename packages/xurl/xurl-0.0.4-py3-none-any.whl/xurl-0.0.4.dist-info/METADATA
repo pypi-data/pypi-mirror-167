@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xurl
+Version: 0.0.4
+Summary: extract urls from html files
+Home-page: https://github.com/aasmpro/xurl
+Download-URL: https://pypi.org/project/xurl/
+Author: Abolfazl Amiri
+Author-email: aa.smpro@gmail.com
+License: MIT
+Keywords: url extract html tag webpage
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
