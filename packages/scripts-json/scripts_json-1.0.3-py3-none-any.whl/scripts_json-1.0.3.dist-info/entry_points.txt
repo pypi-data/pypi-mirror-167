@@ -1,0 +1,3 @@
+[console_scripts]
+scripts-json=scripts_json.main:main
+
