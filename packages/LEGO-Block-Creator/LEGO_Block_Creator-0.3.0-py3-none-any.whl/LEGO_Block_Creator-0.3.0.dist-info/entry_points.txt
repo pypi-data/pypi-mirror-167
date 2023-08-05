@@ -1,0 +1,2 @@
+[console_scripts]
+lego-block-creator = main:lego_cmd
