@@ -1,0 +1,15 @@
+prometheus_http_sd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prometheus_http_sd/app.py,sha256=wJYvZKaxUuU9zvGkjOaqv39GdNmZyqfuQ-ffXH9aeAY,3272
+prometheus_http_sd/cli.py,sha256=RuBwRML1JO_FZHU2SYxHBkXQWnbRFofi3eNAYVr-4jM,1976
+prometheus_http_sd/config.py,sha256=G-9_lqWy2nFCFdGWnwrRJ2awhss_xWlqYKizNXz-9wE,110
+prometheus_http_sd/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prometheus_http_sd/sd.py,sha256=5As4DggXjRNBRnkkE_mXl4foe6asa8k5cT7b8zdvEnI,3794
+prometheus_http_sd/targets.py,sha256=kARzDHQoULO4qa4fTl1OkRk-Hvh0PsPn1JESpRcx6nU,147
+prometheus_http_sd/templates/admin.html,sha256=gxz8jVR4LGua8UqjfE5afHZKXRANP5myAAAaNMdzwKw,1148
+prometheus_http_sd/validate.py,sha256=pxFqKG8XKmJJEYm7HBTTK8rFXmhrVjO52gV7S5qplIs,1945
+prometheus_http_sd/version.py,sha256=GPX0GA6w6CgE_Nlr1lTr6e2UERw45gCZMMp81Vy8dJA,18
+prometheus_http_sd-1.1.6.dist-info/entry_points.txt,sha256=7I4HJcw-l6fg78i51GG6TRuwufjmLR0OCKf0CJ6Ktxk,66
+prometheus_http_sd-1.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+prometheus_http_sd-1.1.6.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+prometheus_http_sd-1.1.6.dist-info/METADATA,sha256=PjQrv-3YRYkYY42IOilXK-V34CPjYaV9axPrrZ5n4Os,9792
+prometheus_http_sd-1.1.6.dist-info/RECORD,,
