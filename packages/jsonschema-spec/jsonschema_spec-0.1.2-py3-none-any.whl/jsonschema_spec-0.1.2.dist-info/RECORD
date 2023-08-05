@@ -1,0 +1,17 @@
+jsonschema_spec/__init__.py,sha256=5WoXCeAWogtJWXwYmMDpgQ6p12QV6YZ9Xs7iGxDwyPY,318
+jsonschema_spec/accessors.py,sha256=SCjItDWbyxatGDtcLOIUQ-fHnmm8L-UEpYcLHFTCcaI,1362
+jsonschema_spec/handlers/__init__.py,sha256=9307LmVSbP2KA-GHIAyjoFpOobc-kjuHUqEQUReKg1I,761
+jsonschema_spec/handlers/compat.py,sha256=FcsfDpPgf7Za1pFKOgYix-l3pQ2oYLRNbIOhnTlbaYw,273
+jsonschema_spec/handlers/file.py,sha256=XgQ6TZvYzK1v47XUdYXwjRXhVh6IhD8eSw12OmzSCUU,1582
+jsonschema_spec/handlers/protocols.py,sha256=XPI9F2N2VRFTD8uoYlXzLuyG79QVIALE7TmA2F_1PJA,515
+jsonschema_spec/handlers/requests.py,sha256=BzQi4mXKSxTki69-8LegvSjKnU9wQyN84aulOVw58so,747
+jsonschema_spec/handlers/urllib.py,sha256=wqE7P3T8EI1XQj87eBZGash9sKK-Ihvpgr7YNONUgi4,587
+jsonschema_spec/handlers/utils.py,sha256=i_G2KK0lQH5_ZZp2x5PQp7NdTbxTn0C4-LNLYFhyXZk,361
+jsonschema_spec/paths.py,sha256=xH1KFMxAKqj-WISUYmqNcmNo7qY6wSq5XHn9ZqeuknA,1545
+jsonschema_spec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema_spec/readers.py,sha256=O2X_0V3jKiCDfn1cOaJcclozC5ogvQkif56hUeU30uw,1082
+jsonschema_spec/utils.py,sha256=FA8B1DwuGSQzLJGVtR_P6_ybMj86QeikaQOKfJSgrdE,247
+jsonschema_spec-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jsonschema_spec-0.1.2.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+jsonschema_spec-0.1.2.dist-info/METADATA,sha256=rZ2TWQ9XCJHvowsGa-3nk_osFwArokxlWdsDdun01wA,3902
+jsonschema_spec-0.1.2.dist-info/RECORD,,
