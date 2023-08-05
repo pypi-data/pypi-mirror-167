@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tscratchapiget
+Version: 0.2.6
+Summary: A library can get scratch api
+Author-email: Tony <tonyvu4913@gmail.com>
+License: Copyright (c) 2022 Tony        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/Tony14261/tscratchapiget
+Project-URL: Bug Tracker, https://github.com/Tony14261/tscratchapiget/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This project gets the scratch api. Everything in this project code by me (except some needed library). Big credit to TimMcCool(Scratcher) for example codes.
+
+This can do:
+    User features(v0.2.5):
+        - Get a user unread-message-count ```message_count('[user]')```     EX: ```user.message_count('TimMcCool')```
+        - Get a user id ```user_id('[user]')```     EX: ```user.user_id('griffpatch')```
+        - Get if a user is a scratchteam ```user_scratchteam('[user]')```     EX: ```user.user_scratchteam('ScratchCat')``` #Return 'True'
+        - Get user join date ```user_join('[user]')```     EX: ```user.user_join('Will_Wam')```#Return '2013-11-25T19:52:29.000Z'
+        - Get a user pfp(link) ```user_pfp_link('[user]')```     EX: ```user.user_pfp_link('Scratch_Tony_14261')```          +Bonus Feature: Open that pfp link in browser. Change that to ```user_pfp_link_open('[Username]')```
+        - Get user About-Me section ```user_aboutme('[user]')``` EX: ```user.user_aboutme('WazzoTV')```
+        - Get user What-I'm-Working-On section ```user_wiwo('[username]')```     EX: ```user.user_wiwo('ceebee')```
+        - Get user country ```user_country(['user]')```     EX: ```user.user_country(['')```
+        - Get user follower count ```user_followers('[user]')```     Ex: ```user.user_followers('sharkyshar')```
+        - Get user following count ```user_following('[user]')```     EX: ```user.user_followers('atomicmagicnumber')```
