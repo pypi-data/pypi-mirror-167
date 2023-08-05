@@ -1,0 +1,5 @@
+
+[project]
+name = "ImgAnn"
+authors = [{name = "nipdep", email = "nipun1deelaka@gmail.com"}]
+dynamic = ["version", "description"]
