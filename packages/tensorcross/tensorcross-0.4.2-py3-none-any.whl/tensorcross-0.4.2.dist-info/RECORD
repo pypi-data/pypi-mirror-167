@@ -1,0 +1,13 @@
+tensorcross/__init__.py,sha256=4CWYRH38KC0t5jeSbLT6LmpKXab9Ov4AyCibhGjMaSw,65
+tensorcross/_types.py,sha256=-2PUmnquDAimL-5eyC9O4Q4kE9zJntbj2ru3nafzd4M,245
+tensorcross/version.py,sha256=6fbhlJpSCHhbEgnXa9Y3-1DhheoIUBV900vpMNv9wnw,23
+tensorcross/model_selection/__init__.py,sha256=5EIOwR24j7k821Cou6rYQBV54dVjNERYIhrAncUMVYk,355
+tensorcross/model_selection/search.py,sha256=BmqkJCS3DphDDxKYm9JOA93VnwrSfJMjV_2LXNQm5VA,11329
+tensorcross/model_selection/search_cv.py,sha256=aQYiUfKtPv0MSoibAGE96e2IDr50aeEtNsbpW9RpI7M,11708
+tensorcross/utils/__init__.py,sha256=WMSSSKXLQirYlO8ugT14ngQ-OMrprKjR91H9IaOKz1c,120
+tensorcross/utils/dataset.py,sha256=0CO4kMDn-vv7HqOncTngZD_O-m54eXw-nLpJ1bK5ezM,1248
+tensorcross-0.4.2.dist-info/LICENSE,sha256=b_NeGevKHFFCWAmReXV49UIHkK-46hzfjpaySDKSlrs,1110
+tensorcross-0.4.2.dist-info/METADATA,sha256=lezMZYRMq-OSbDhYj4YWADoIgO2IvZSk5ZWsgtTNqPg,860
+tensorcross-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tensorcross-0.4.2.dist-info/top_level.txt,sha256=j4Lkcu6wLnKxi-6lFmq42wBqViPMa7yO1X0azTLlP_k,12
+tensorcross-0.4.2.dist-info/RECORD,,
