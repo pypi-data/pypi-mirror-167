@@ -1,0 +1,10 @@
+clingodl/__init__.py,sha256=MXKQOoLh2QPSXlLrUq7dssWyS5QVoGxBHKSvSIgwRos,319
+clingodl/__main__.py,sha256=HnRHdq9EWXPrfrex2BvRHHJm4XqPgv1d7v6SpESgLi0,2101
+clingodl/_clingodl.cpython-37m-darwin.so,sha256=9EDlkVr6wWON_I9Yt1zoqB4CYXqvn8vLC590Y415KQY,329304
+clingodl/clingo-dl.h,sha256=qhc7oDnUh5V5sTXMUaHgaj-Pqxi2rAJd2wMFuc9kFgw,5997
+clingodl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clingo_dl-1.4.0.dist-info/LICENSE.md,sha256=FkS__z6N7hEwdWeIE0v3bs56yAcOxcvoAdRrOig5O-s,1101
+clingo_dl-1.4.0.dist-info/METADATA,sha256=xRMLgMqdS-8NkNuS8sGvH7Rd6FWm-xlF0-5JwcQZRWs,534
+clingo_dl-1.4.0.dist-info/WHEEL,sha256=sd5G8C5L9cUJU7mNEjY9RR9vZrZR60rEUEQv38zw530,104
+clingo_dl-1.4.0.dist-info/top_level.txt,sha256=0gvC0C9AqC1c40t9uqwsrFcNu0kUas8VoudB8kGNLU0,9
+clingo_dl-1.4.0.dist-info/RECORD,,
