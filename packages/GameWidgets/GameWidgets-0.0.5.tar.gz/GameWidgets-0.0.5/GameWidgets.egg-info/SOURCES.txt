@@ -1,0 +1,8 @@
+pyproject.toml
+GameWidgets/__init__.py
+GameWidgets/setup.py
+GameWidgets.egg-info/PKG-INFO
+GameWidgets.egg-info/SOURCES.txt
+GameWidgets.egg-info/dependency_links.txt
+GameWidgets.egg-info/requires.txt
+GameWidgets.egg-info/top_level.txt
