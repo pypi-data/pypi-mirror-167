@@ -1,0 +1,15 @@
+
+global-include *.mo
+global-exclude *.po
+global-exclude *.po~
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+graft funing/data
+prune venv
+prune funing/_home
+prune funing/.lwcp
+prune tests
+
+
