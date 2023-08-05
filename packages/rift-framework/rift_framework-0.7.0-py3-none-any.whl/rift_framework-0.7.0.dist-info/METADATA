@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rift-framework
+Version: 0.7.0
+Summary: A magical Python3 -> FunC portal
+Home-page: https://github.com/decentralized-builder/rift
+Author: Amin Rezaei
+Author-email: AminRezaei0x443@gmail.com
+License: MIT
+License-File: LICENSE
+
