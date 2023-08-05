@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+EthAlexandria/EthAlexandria.py
+EthAlexandria/__init__.py
+EthAlexandria.egg-info/PKG-INFO
+EthAlexandria.egg-info/SOURCES.txt
+EthAlexandria.egg-info/dependency_links.txt
+EthAlexandria.egg-info/requires.txt
+EthAlexandria.egg-info/top_level.txt
