@@ -1,0 +1,11 @@
+logicore_django_react/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logicore_django_react/models.py,sha256=TCHn1c-HaHPHUVtcdvsA0p1VGHQAyaYYr9AnyvSt5oM,20
+logicore_django_react/urls.py,sha256=xTPD0-gkKU8qZIPpY_2IFeF17GIKQY3-XHzkbd4rpUY,640
+logicore_django_react/views.py,sha256=VjBXjyfP-rAcgkoRP7QqmN_SjhXEEdqJHVLVPHceF40,767
+logicore_django_react/templatetags/react_tags.py,sha256=ro91QpzUTeYgXDXmTBsnWdV-g5Z0RLXuMfkLTMExyGg,534
+logicore_django_react/templatetags/react_tags_dev.py,sha256=RHLNiwqtrdIsKlYgvWa7OhUPeU-PbM7wvWeCd5jlj7k,552
+logicore_django_react-1.0.0.dev7.dist-info/LICENSE,sha256=IAwC7-_ExWH1e31Mx0buus6TB42NOAkopirU0qH5J10,1072
+logicore_django_react-1.0.0.dev7.dist-info/METADATA,sha256=EBeURsh695FbKMUPIrHT80ijAqqkF9s-ez_lskvMsM8,7529
+logicore_django_react-1.0.0.dev7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logicore_django_react-1.0.0.dev7.dist-info/top_level.txt,sha256=-QvoWsq584H_gXz8-4HoFcwoqHzXfh2sAJu-88W7x6w,22
+logicore_django_react-1.0.0.dev7.dist-info/RECORD,,
