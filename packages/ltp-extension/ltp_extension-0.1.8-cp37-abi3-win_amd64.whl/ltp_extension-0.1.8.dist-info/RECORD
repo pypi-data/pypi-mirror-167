@@ -1,0 +1,10 @@
+ltp_extension-0.1.8.dist-info/METADATA,sha256=2vJiyPtEQhaGy3A9-or-vEjmP9hAPrvaVyzd1Uju-UQ,6695
+ltp_extension-0.1.8.dist-info/WHEEL,sha256=FO8o1r0eyt-bhlsPyvVD1A6xMfUYh5Ii6LSlsTszXn4,95
+ltp_extension/algorithms/algorithms.pyi,sha256=db99XUu5_gwkgelR1zRcqcGF-pGuig4YOciMdmfLGBg,1638
+ltp_extension/algorithms/__init__.py,sha256=Sd1APciH2fh0FQhGjqPjtAI4tVoUuXgQgGwh282akiU,254
+ltp_extension/ltp_extension.pyi,sha256=Iq7VaXxEtv4dh5vBbc_4Q1JKk8MXNPKLirnA1bwyeMA,33
+ltp_extension/perceptron/perceptron.pyi,sha256=tjxma5Wt-ISXcs2zFz8GzZ1b5ENdnLN1J5YqOmPF4wo,8653
+ltp_extension/perceptron/__init__.py,sha256=CQpvjwGnvb9N0ZUloHfntsPKzUwHkyID-jVlV6HoC4A,390
+ltp_extension/__init__.py,sha256=QbHuZY4Px4uzmebPkpT_eYchbtCxexcekp669Hwz7zM,150
+ltp_extension/ltp_extension.pyd,sha256=KaGbxmN735DW1Lv-oM1khrxiAM6ze01E1_8lxd0L5fo,1653760
+ltp_extension-0.1.8.dist-info/RECORD,,
