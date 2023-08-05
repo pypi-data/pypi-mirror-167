@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/didself/__init__.py
+src/didself/registry.py
+src/didself.egg-info/PKG-INFO
+src/didself.egg-info/SOURCES.txt
+src/didself.egg-info/dependency_links.txt
+src/didself.egg-info/requires.txt
+src/didself.egg-info/top_level.txt
