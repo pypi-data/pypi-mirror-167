@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+WebFiles.egg-info/PKG-INFO
+WebFiles.egg-info/SOURCES.txt
+WebFiles.egg-info/dependency_links.txt
+WebFiles.egg-info/requires.txt
+WebFiles.egg-info/top_level.txt
+web_files/_WebFile.py
+web_files/_WebFrame.py
+web_files/_WebMatrix.py
+web_files/__init__.py
