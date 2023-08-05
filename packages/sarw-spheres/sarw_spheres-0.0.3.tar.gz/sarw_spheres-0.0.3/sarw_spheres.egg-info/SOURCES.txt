@@ -1,0 +1,13 @@
+Generator.cc
+MANIFEST.in
+Point.cc
+README.md
+Utils.cc
+sarw_spheres.cpp
+setup.py
+span.cc
+sarw_spheres.egg-info/PKG-INFO
+sarw_spheres.egg-info/SOURCES.txt
+sarw_spheres.egg-info/dependency_links.txt
+sarw_spheres.egg-info/requires.txt
+sarw_spheres.egg-info/top_level.txt
