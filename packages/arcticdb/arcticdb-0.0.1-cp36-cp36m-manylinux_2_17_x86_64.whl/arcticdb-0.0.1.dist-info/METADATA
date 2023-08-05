@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: arcticdb
+Version: 0.0.1
+Summary: ArcticDB DataFrame Database
+Home-page: UNKNOWN
+Author: Man Alpha Technology
+Author-email: arctic@man.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: decorator
+Requires-Dist: enum-compat
+Requires-Dist: mock
+Requires-Dist: mockextras
+Requires-Dist: pandas (<1.1.0)
+Requires-Dist: numpy (<1.19.0)
+Requires-Dist: pymongo (<=3.11.0,>=3.6.0)
+Requires-Dist: pytz
+Requires-Dist: tzlocal
+Requires-Dist: lz4
+
+# ArcticDB
+
+ArcticDB is Man Group's next generation timeseries database, designed as the successor to Arctic.
+
+Please note that this is currently equivalent to version 1.80.5 of [Arctic](https://pypi.org/project/arctic/) and serves as a placeholder prior to the official release of ArcticDB.
+
+For more information please contact the team at arctic@man.com.
+
+
