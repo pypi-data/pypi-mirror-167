@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tempmailx
+Version: 1.1
+Summary: Temp email wrapper using 1secmail.com api
+Project-URL: Homepage, https://github.com/Godwhitelight/tempmailx
+Project-URL: Bug Tracker, https://github.com/Godwhitelight/tempmailx/issues
+Author-email: godwhitelight <godwhitelightdis@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## TempMailX
+A python lib for reciving emails using 1secmail.com api.
+
+---
+### Example
+```python
+import time
+from tempmailx import TempMail
+
+mail = TempMail()
+print(mail.email)
+
+while True:
+    emails = mail.fetch_emails()
+
+    for email in emails:
+        dat = email.fetch_data()
+        print(dat['text'])
+    time.sleep(5)
+```
