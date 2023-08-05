@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: natclip
+Version: 0.4
+Summary: tanshicheng's tools
+Home-page: https://github.com/aitsc
+Author: tanshicheng
+License: GPLv3
+Keywords: tools
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.5
+License-File: LICENSE
+
+
+作者:
+    tanshicheng
+包括:
+    用于win,macos局域网内共享剪切板, 适用于moonlight
+
+
