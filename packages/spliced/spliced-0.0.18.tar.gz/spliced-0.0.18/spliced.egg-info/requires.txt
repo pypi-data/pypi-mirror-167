@@ -1,0 +1,15 @@
+pyaml
+requests
+jsonschema
+clingo
+elfcall
+smeagle
+
+[all]
+pyaml
+requests
+jsonschema
+clingo
+elfcall
+smeagle
+pytest>=4.6.2
