@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simpleusers"
+version = "0.0.1"
+authors = [
+  { name="Matt C", email="matt@tar.black" },
+]
+description = "A small user db library"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencuies = [
+    "PyYAML",
+    "passlib"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SomethingGeneric/simpleusers"
+"Bug Tracker" = "https://github.com/SomethingGeneric/simpleusers/issues"
