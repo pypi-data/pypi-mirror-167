@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helpers.py,sha256=1RneylUfy7hSC9CJhyOcqwfy_BiMkWaCP9Exf70QPbk,5124
+main.py,sha256=Xbf2fsH055j39ZO-ltaUqKNecBjczkch6bc7-P2_JeA,1772
+oracle.py,sha256=mO7Nb23gQEaeztMf1wkMsTmamg-wz4i7sftRUaPdO9M,1575
+processors.py,sha256=G_zFDjGgSEptoVPkyWunwbwFwYp5gyjyDmH9IVOTpPY,2580
+oracle_nft-0.1.1.dist-info/LICENSE,sha256=BrLW0Dbm5rQgQIWoomKx_KnL1r5LMmZKIWCo_TOYLWg,1086
+oracle_nft-0.1.1.dist-info/METADATA,sha256=8o0bZIh--7xMNAFfzyyTI6QRv3YYXKa0IHf1FBBGT14,1814
+oracle_nft-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oracle_nft-0.1.1.dist-info/top_level.txt,sha256=uWLT7i1tuIUuXZUg8VUkBZGdQplMV1ety8IlcgCmFk4,40
+oracle_nft-0.1.1.dist-info/RECORD,,
