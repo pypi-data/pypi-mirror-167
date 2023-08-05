@@ -1,0 +1,8 @@
+jetblack_asgi_sspi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jetblack_asgi_sspi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jetblack_asgi_sspi/session_manager.py,sha256=DDta178w1V6BXgrGEYEkwG-3ncNAVeuF-AN_6fCQr5o,4186
+jetblack_asgi_sspi/spnego_middleware.py,sha256=oXT_V5drP5_ZlGl_rG0vn2pqQ4xlVQcl4Q8q8fxtW6Q,11471
+jetblack_asgi_sspi-1.0.0rc0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jetblack_asgi_sspi-1.0.0rc0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jetblack_asgi_sspi-1.0.0rc0.dist-info/METADATA,sha256=5F-5IltEZiIB0uL5EZ86ndYFDwAawjYv5X5w1kiea5o,4147
+jetblack_asgi_sspi-1.0.0rc0.dist-info/RECORD,,
