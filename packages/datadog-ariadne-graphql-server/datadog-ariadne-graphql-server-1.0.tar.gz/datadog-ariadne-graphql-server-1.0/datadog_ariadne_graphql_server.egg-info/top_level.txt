@@ -1,0 +1,1 @@
+datadog_ariadne_graphql_server

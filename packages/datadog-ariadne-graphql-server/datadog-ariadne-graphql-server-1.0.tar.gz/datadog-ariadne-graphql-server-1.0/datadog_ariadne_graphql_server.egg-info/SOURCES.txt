@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.Apache
+LICENSE.BSD3
+setup.py
+datadog_ariadne_graphql_server/__init__.py
+datadog_ariadne_graphql_server/asgi.py
+datadog_ariadne_graphql_server.egg-info/PKG-INFO
+datadog_ariadne_graphql_server.egg-info/SOURCES.txt
+datadog_ariadne_graphql_server.egg-info/dependency_links.txt
+datadog_ariadne_graphql_server.egg-info/requires.txt
+datadog_ariadne_graphql_server.egg-info/top_level.txt

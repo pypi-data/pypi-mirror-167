@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datadog-ariadne-graphql-server
+Version: 1.0
+Summary: Includes the GraphQL operation name in the datadog APM resource name if one is present.
+Home-page: UNKNOWN
+Author: Butch Marshall
+Author-email: butch.a.marshall@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+License-File: LICENSE.Apache
+License-File: LICENSE.BSD3
+
+UNKNOWN
+
