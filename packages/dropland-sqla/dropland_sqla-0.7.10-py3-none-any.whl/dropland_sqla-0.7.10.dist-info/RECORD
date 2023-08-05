@@ -1,0 +1,8 @@
+dropland_sqla/__init__.py,sha256=yDniQ0XMYyXTl9AyH9Sr2sBx5o3HhQZmldHel-_qTEc,23
+dropland_sqla/engine.py,sha256=VlixArNZSue7kvVv8wbIKwi6MSyQQYIuXBge9KUK5FQ,6403
+dropland_sqla/main.py,sha256=pD0KWoOJPPDSWHWlffA7eI02mj9YKkvV99T44FiGLNA,173
+dropland_sqla/model.py,sha256=q_yNL1RMb_-A1meLc5af1iClsGE-nVcse_eBDlhhV9c,13631
+dropland_sqla-0.7.10.dist-info/entry_points.txt,sha256=G1N2ninAd_uF162YL-TGil5ZccibPXFz11XMTiQRmS4,47
+dropland_sqla-0.7.10.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+dropland_sqla-0.7.10.dist-info/METADATA,sha256=VGrNvhP6T0ApQwatvSE3Amwde6DG4VJ0OvjhoM4URUY,485
+dropland_sqla-0.7.10.dist-info/RECORD,,
