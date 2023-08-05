@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Python_Logo_Widgets.egg-info/PKG-INFO
+Python_Logo_Widgets.egg-info/SOURCES.txt
+Python_Logo_Widgets.egg-info/dependency_links.txt
+Python_Logo_Widgets.egg-info/entry_points.txt
+Python_Logo_Widgets.egg-info/top_level.txt
