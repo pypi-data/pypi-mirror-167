@@ -1,0 +1,61 @@
+name: zugbruecke test suite
+
+on:
+    push: {}
+    schedule:
+        - cron: '30 9 7 * *'
+
+jobs:
+  build:
+
+    strategy:
+      matrix:
+        os: ["ubuntu-20.04"]
+        python-version: [3.7, 3.8, 3.9, "3.10"]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Wine
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo sh -c "curl https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor > /etc/apt/trusted.gpg.d/winehq.gpg"
+          sudo sh -c "apt-add-repository \"https://dl.winehq.org/wine-builds/ubuntu\""
+          sudo apt update
+          sudo apt-get install -yqq --allow-downgrades libgd3/focal libpcre2-8-0/focal libpcre2-16-0/focal libpcre2-32-0/focal libpcre2-posix2/focal
+          sudo apt-get purge -yqq libmono* moby* mono* php* libgdiplus libpcre2-posix3 libzip4
+          echo "/opt/wine-staging/bin" >> $GITHUB_PATH
+          sudo apt install -y --install-recommends wine-staging
+      - name: Install compiler
+        run: |
+          sudo apt-get install -y gcc-mingw-w64-i686
+          sudo apt-get install -y gcc-mingw-w64-x86-64
+      - name: Install Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Update Python infrastructure
+        run: |
+          python -m pip install --upgrade pip
+          pip install -U setuptools
+      - name: Install zugbruecke package
+        run: |
+          make install
+      - name: Pre-check
+        run: |
+          wine --version
+          wine64 --version
+          i686-w64-mingw32-gcc --version
+          x86_64-w64-mingw32-gcc --version
+          python --version
+          pytest --version
+          uname -a
+          lsb_release -a
+          wenv --version
+      - name: Build docs
+        run: |
+          make docs
+      - name: Run tests
+        run: |
+          ZUGBRUECKE_LOG_LEVEL=100 make test
