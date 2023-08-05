@@ -1,0 +1,2 @@
+[console_scripts]
+resumy = resumy.resumy:main
