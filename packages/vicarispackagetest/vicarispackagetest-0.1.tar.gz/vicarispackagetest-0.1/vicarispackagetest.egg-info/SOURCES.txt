@@ -1,0 +1,12 @@
+README.md
+setup.py
+extras/__init__.py
+extras/extra_script.py
+subpackage/__init__.py
+subpackage/check.py
+vicarispackagetest/__init__.py
+vicarispackagetest/run.py
+vicarispackagetest.egg-info/PKG-INFO
+vicarispackagetest.egg-info/SOURCES.txt
+vicarispackagetest.egg-info/dependency_links.txt
+vicarispackagetest.egg-info/top_level.txt

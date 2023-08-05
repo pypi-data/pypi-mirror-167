@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vicarispackagetest
+Version: 0.1
+Summary: First testing package
+Home-page: UNKNOWN
+Author: Vicaris
+Author-email: vicarisfsc@gmail.com
+License: UNKNOWN
+Keywords: python,testing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+First package, long description, ohoho very long
+
