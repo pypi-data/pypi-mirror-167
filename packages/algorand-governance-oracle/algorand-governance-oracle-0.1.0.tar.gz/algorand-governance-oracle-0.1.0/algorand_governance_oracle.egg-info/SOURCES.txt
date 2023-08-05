@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+algorand_governance_oracle/api.py
+algorand_governance_oracle/application.py
+algorand_governance_oracle/clients.py
+algorand_governance_oracle/deployment.py
+algorand_governance_oracle.egg-info/PKG-INFO
+algorand_governance_oracle.egg-info/SOURCES.txt
+algorand_governance_oracle.egg-info/dependency_links.txt
+algorand_governance_oracle.egg-info/requires.txt
+algorand_governance_oracle.egg-info/top_level.txt
