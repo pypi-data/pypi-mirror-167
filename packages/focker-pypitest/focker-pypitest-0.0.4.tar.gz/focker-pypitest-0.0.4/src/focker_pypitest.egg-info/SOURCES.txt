@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/focker_pypitest.egg-info/PKG-INFO
+src/focker_pypitest.egg-info/SOURCES.txt
+src/focker_pypitest.egg-info/dependency_links.txt
+src/focker_pypitest.egg-info/top_level.txt
+src/pypitest/__init__.py
+src/pypitest/_about.py
+src/pypitest/pypitest.py

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: focker-pypitest
+Version: 0.0.4
+Summary: intended for testing release automation
+Home-page: https://github.com/felixocker/focker-pypitest
+Download-URL: https://github.com/felixocker/focker-pypitest/archive/refs/tags/v0.0.4.tar.gz
+Author: Felix Ocker
+Author-email: felix.ocker@googlemail.com
+Project-URL: Bug Tracker, https://github.com/felixocker/focker-pypitest/issues
+Keywords: release,pypi,test
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![test and build](https://github.com/felixocker/focker-pypitest/actions/workflows/publish-to-testpypi.yml/badge.svg)
+![pypi release](https://github.com/felixocker/focker-pypitest/actions/workflows/publish-to-pypi.yml/badge.svg)
+[![PyPI](https://img.shields.io/pypi/v/focker-pypitest)](https://pypi.org/project/focker-pypitest/)
+[![License](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
+
+# pypitest
+
+this repo serves as a reference and for testing CI/CD pipelines, especially via GitHub actions 
