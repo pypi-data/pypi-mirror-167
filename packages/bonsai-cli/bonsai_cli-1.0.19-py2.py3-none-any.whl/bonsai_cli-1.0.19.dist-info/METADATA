@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: bonsai-cli
+Version: 1.0.19
+Summary: A python library for making API calls to the Bonsai Platform.
+Home-page: https://github.com/BonsaiAI/bonsai-cli
+Author: Microsoft Bonsai
+Author-email: opensource@bons.ai
+License: MIT
+Keywords: bonsai
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Requires-Dist: azure-core (>=1.23.0)
+Requires-Dist: azure-identity (>=1.10.0)
+Requires-Dist: azure-mgmt-containerinstance (>=9.2.0)
+Requires-Dist: azure-monitor-query (>=1.0.2)
+Requires-Dist: click (<8.0.0,>=7.1.2)
+Requires-Dist: msal-extensions (==0.3.1)
+Requires-Dist: opencensus-ext-azure (>=1.0.4)
+Requires-Dist: pandas
+Requires-Dist: requests (>=2.11)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Requires-Dist: tabulate (>=0.7.5)
+Requires-Dist: websocket-client (>=0.40.0)
+
+Bonsai CLI
+==========
+A python library for making API calls to Bonsai BRAIN.
+
+Documentation for the Bonsai CLI can be found on the Bonsai Docs website.
+
+**Guide to CLI installation and usage:** https://docs.microsoft.com/en-us/bonsai/cli/#installation
+
+**Full CLI Reference Documentation:** https://docs.microsoft.com/en-us/bonsai/cli/
+
+Quick Installation
+------------------
+
+Install the latest stable from PyPI:
+`$ pip install bonsai-cli`
+
+Install the latest in-development version:
+`$ pip install https://github.com/BonsaiAI/bonsai-cli`
+
