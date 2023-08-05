@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/logicore_django_react/__init__.py
+src/logicore_django_react/models.py
+src/logicore_django_react.egg-info/PKG-INFO
+src/logicore_django_react.egg-info/SOURCES.txt
+src/logicore_django_react.egg-info/dependency_links.txt
+src/logicore_django_react.egg-info/top_level.txt
+src/logicore_django_react/templatetags/react_tags.py
+src/logicore_django_react/templatetags/react_tags_dev.py
