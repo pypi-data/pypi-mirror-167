@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/textchart/__init__.py
+src/textchart/textchart.py
+src/textchart.egg-info/PKG-INFO
+src/textchart.egg-info/SOURCES.txt
+src/textchart.egg-info/dependency_links.txt
+src/textchart.egg-info/top_level.txt
