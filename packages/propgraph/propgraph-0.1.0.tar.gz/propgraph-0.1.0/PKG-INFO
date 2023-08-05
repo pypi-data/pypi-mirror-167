@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: propgraph
+Version: 0.1.0
+Summary: A graph structure that can take arbitrary properties.
+Author: Rob Reid
+License-File: LICENSE
+Keywords: data,graph,structure
+Description-Content-Type: text/markdown
+
+# prop-graph
+A graph structure that can take arbitrary properties.
