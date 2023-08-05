@@ -1,0 +1,12 @@
+secrets_mgmt_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secrets_mgmt_cli/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+secrets_mgmt_cli/aws.py,sha256=wj1mIOQyfwm1JsUy3s6nvBa68iQHZLTVz2UQ6NtOr_8,9910
+secrets_mgmt_cli/cli.py,sha256=FexblNs832IuCmkIwSL-oZIP_BQCyyRSnYt7BpSAHAc,3779
+secrets_mgmt_cli/config.py,sha256=7N01srxhlLIB1kx06Ak_iwvQy31jwMwYWpxD0uJdHWI,3790
+secrets_mgmt_cli/utils.py,sha256=QfwNZ-gPnqzquLHPSfxf36huEoFir_M7tyIvBgBfsjw,1008
+secrets_mgmt_cli-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+secrets_mgmt_cli-0.5.0.dist-info/METADATA,sha256=kbMnL6eFet3jXnuSJlRgvmDwywGi1gne9O9jx4lWFDE,2422
+secrets_mgmt_cli-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+secrets_mgmt_cli-0.5.0.dist-info/entry_points.txt,sha256=6puFjdcJ0hsnXsgCUDQaXb9Zb1_gGK34PPARjskW-Uw,51
+secrets_mgmt_cli-0.5.0.dist-info/top_level.txt,sha256=s99vKYPtktL1xSAsfYPWR6tfxOMb58WNQjQwsIYp7e0,17
+secrets_mgmt_cli-0.5.0.dist-info/RECORD,,
