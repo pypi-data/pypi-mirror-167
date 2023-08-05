@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: azcam-imageserver
+Version: 22.3.2
+Summary: Azcam extension to suuport a remote image server
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Description-Content-Type: text/markdown
+Requires-Dist: azcam
+Project-URL: Documentation, https://mplesser.github.io/azcam/
+Project-URL: Repository, https://github.com/mplesser/azcam-imageserver/
+
+# azcam-imageserver
+
+*azcam-imageserver* is an *azcam* extension which supports sending an image to a remote host running an image server which receives the image.
+
+## Installation
+
+`pip install azcam-imageserver`
+
+Or download from github: https://github.com/mplesser/azcam-imageserver.git.
+
+## Usage
+
+```python
+from azcam_imageserver.sendimage import SendImage
+sendimage = SendImage()
+remote_imageserver_host = "10.0.0.1"
+remote_imageserver_port = 6543
+sendimage.set_remote_imageserver(remote_imageserver_host, remote_imageserver_port, "azcam")
+```
+
