@@ -1,0 +1,11 @@
+setup.py
+BIGCrawler.egg-info/PKG-INFO
+BIGCrawler.egg-info/SOURCES.txt
+BIGCrawler.egg-info/dependency_links.txt
+BIGCrawler.egg-info/entry_points.txt
+BIGCrawler.egg-info/requires.txt
+BIGCrawler.egg-info/top_level.txt
+src/BIGCrawler.py
+src/__init__.py
+src/gsa.py
+src/gwh.py
