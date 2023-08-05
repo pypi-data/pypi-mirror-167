@@ -1,0 +1,13 @@
+apsw/__init__.cpython-36m-darwin.so,sha256=YTUrtG8bMaEg_IBMJDiy3kfN3Qp62Gzz8E2TNzptD2w,2203048
+apsw/__init__.pyi,sha256=lDYnD35tvmK-9P6NFFLQ6gy6Z4KJCUAFJS_K5DuFIww,93543
+apsw/__main__.py,sha256=fU3oLvilCWjpCeO7FWgNI71ubHIxatkHYMOOQiU8-sk,60
+apsw/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apsw/shell.py,sha256=qLo_xi22EulhcRfvfdR1zgq2klt72fqtXk35vsiZAcY,121045
+apsw/speedtest.py,sha256=fb6h5ePN3C0Koaj-wcfD1cZzJCy6lxI-IKfTinvgypQ,19409
+apsw/tests.py,sha256=Z9yAKMPlktu6ygfRArAolNcpyaDatBKWnyXSV3nPBAA,341501
+apsw/trace.py,sha256=TLCS7tFReO2262LYbKgxUROC8Sd02r3YHcyLMHL_VkM,12814
+apsw-3.39.3.0.dist-info/LICENSE,sha256=l-Jy1jKT1ktt2XFckJ4_afcILjcJ4ABq6hdmoucgrzQ,1131
+apsw-3.39.3.0.dist-info/METADATA,sha256=OkQjOcUD69o5uKCmuJvFixOq_Prn4Ae_Ar_awn1dmlE,864
+apsw-3.39.3.0.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+apsw-3.39.3.0.dist-info/top_level.txt,sha256=AMSo16bHvRC7F5I0KBCKqv4WM4--RyHwQj3g2YbN30g,5
+apsw-3.39.3.0.dist-info/RECORD,,
