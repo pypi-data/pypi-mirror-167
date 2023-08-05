@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=pyNaDtw8cH-_5xkyWuDhk1tJbhnJBQ7WVL-TIassWTg,20
+tests/rpx_tests.py,sha256=LPtztHzBhtiQUCC6M7g5vmUSZ3YSEX-mHi9NSMbegb4,1341
+rpx_cli-0.0.5.dist-info/LICENCE,sha256=TAhX9uuNf9MI7g8xJ7K1yARufhMup6TiZqxHM3gEtQ4,1080
+rpx_cli-0.0.5.dist-info/METADATA,sha256=vllnEGuwJt-mdd6i9EoxNU24wZKC_MxkEh4--_qMkds,251
+rpx_cli-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpx_cli-0.0.5.dist-info/entry_points.txt,sha256=H7N_vo4aEsayM28fbuuJI10hrxDp_Mzrs06yC9TmLvQ,32
+rpx_cli-0.0.5.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+rpx_cli-0.0.5.dist-info/RECORD,,
