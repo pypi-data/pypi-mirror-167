@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pixels2svg/__init__.py
+pixels2svg/__main__.py
+pixels2svg/__version__.py
+pixels2svg/cli.py
+pixels2svg/main.py
+pixels2svg.egg-info/PKG-INFO
+pixels2svg.egg-info/SOURCES.txt
+pixels2svg.egg-info/dependency_links.txt
+pixels2svg.egg-info/requires.txt
+pixels2svg.egg-info/top_level.txt
