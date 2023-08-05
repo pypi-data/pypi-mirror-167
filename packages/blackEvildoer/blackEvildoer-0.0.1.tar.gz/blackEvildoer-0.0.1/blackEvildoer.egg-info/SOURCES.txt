@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+blackEvildoer.egg-info/PKG-INFO
+blackEvildoer.egg-info/SOURCES.txt
+blackEvildoer.egg-info/dependency_links.txt
+blackEvildoer.egg-info/top_level.txt
