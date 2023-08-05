@@ -1,0 +1,6 @@
+pycairo
+pytest
+scipy
+numpy
+matplotlib
+PyGObject

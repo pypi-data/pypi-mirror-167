@@ -1,0 +1,2 @@
+[console_scripts]
+nemo_bldc = nemo_bldc.nemo:nemo_main
