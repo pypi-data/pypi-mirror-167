@@ -1,0 +1,3 @@
+[console_scripts]
+camt-to-erpnext=camt_to_erpnext.main:app
+

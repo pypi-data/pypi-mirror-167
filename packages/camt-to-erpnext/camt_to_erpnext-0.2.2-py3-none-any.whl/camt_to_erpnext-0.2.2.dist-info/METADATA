@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: camt-to-erpnext
+Version: 0.2.2
+Summary: Convert a CAMT CSV file into a normal CSV file that can be used for importing Bank Transactions into ERPNext.
+Home-page: https://github.com/barredterra/camt-to-erpnext
+Author: barredterra
+Author-email: 14891507+barredterra@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: German
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Project-URL: Repository, https://github.com/barredterra/camt-to-erpnext
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/camt-to-erpnext.svg)](https://badge.fury.io/py/camt-to-erpnext)
+
+This CLI can convert a CAMT CSV file (provided by your bank) into a normal CSV file that can be used for importing **Bank Transactions** into ERPNext.
+
+### Installation
+
+It is easiest to install `camt-to-erpnext` with [`pipx`](https://github.com/pypa/pipx), a tool to "install and run python applications in isolated environments":
+
+```
+pipx install camt-to-erpnext
+```
+
+### Usage
+
+```
+camt-to-erpnext convert INPUT_PATH OUTPUT_PATH
+```
+
+### Input format
+
+- Delimiter: `;`
+- Quoting: all columns quoted
+- Date Format: `28.02.99`
+- Number Format: `-1234,56`
+- Encoding: `cp1252`
+- Columns:
+    - Auftragskonto
+    - Buchungstag
+    - Valutadatum
+    - Buchungstext
+    - Verwendungszweck
+    - Glaeubiger ID
+    - Mandatsreferenz
+    - Kundenreferenz (End-to-End)
+    - Sammlerreferenz
+    - Lastschrift Ursprungsbetrag
+    - Auslagenersatz Ruecklastschrift
+    - Beguenstigter/Zahlungspflichtiger
+    - Kontonummer/IBAN
+    - BIC (SWIFT-Code)
+    - Betrag
+    - Waehrung
+    - Info
+
+### Output format:
+
+- Delimiter: `,`
+- Quoting: where necessary
+- Date Format: `1999-02-28`
+- Number Format: `1234.56`
+- Encoding: `utf-8`
+- Columns:
+    - Date
+
+        "Buchungstag" of the input file, converted to ISO-format
+
+    - Deposit
+
+        "Betrag" of the input file (if > 0)
+
+    - Withdrawal
+
+        Absolute "Betrag" of the input file (if < 0)
+
+    - Description
+
+        The following columns of the input file: "Beguenstigter/Zahlungspflichtiger", "Verwendungszweck", "Kontonummer/IBAN", "BIC (SWIFT-Code)", "Glaeubiger ID", "Mandatsreferenz", "Kundenreferenz (End-to-End)", "Valutadatum"
+
+    - Reference Number
+
+        Hash of the following columns of the input file "Buchungstag", "Betrag", "Verwendungszweck", "Kontonummer/IBAN", "BIC (SWIFT-Code)".
+
+    - Bank Account
+
+        "Auftragskonto" of the input file
+
+    - Currency
+
+        "Waehrung" of the input file
+
