@@ -1,0 +1,11 @@
+logsloth/__init__.py,sha256=xQzmKmcD1xjcnwWm5q5bvv66Yubq6xttmtsKL7DUMCM,175
+logsloth/__main__.py,sha256=vjixjuqrWs6VPX4L3lg7qPuFrC5V9ESTThU4N8JZj7A,546
+logsloth/common_import.py,sha256=xA9CLv4OxjS2c-Vel0EalHgZYk7ZjBrceNSgPI9h2D0,336
+logsloth/logsloth.py,sha256=gLnRIEhn9kjr7NeIg7oxucqBdrdmIRZZBKZHKzT76CE,11321
+logsloth/ls_color_selector.py,sha256=dmSAldss8KGfwwiZv3j2k9SP0iNj6LqJ5vx8TyvKfRo,765
+logsloth/ls_hook_base.py,sha256=ZIFQS1kdrYThk8_zT70lEZMoZoh8Olm8CSUHW0uHxEA,211
+logsloth-1.1.0.dist-info/LICENSE,sha256=ekN2L2Cc8kGhClhyNMT92AbcNZWWA0mD7Q44r1tvBog,1092
+logsloth-1.1.0.dist-info/METADATA,sha256=srejcRQrkndHm1b2MvPljTue8UetuHMm8iBohjrkZ8s,473
+logsloth-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logsloth-1.1.0.dist-info/top_level.txt,sha256=t-L-FwC0IdueST9aiAVsB8RaU9xzBA6J10QKhK0rRwA,9
+logsloth-1.1.0.dist-info/RECORD,,
