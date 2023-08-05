@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/input-parser/__init__.py
+src/input-parser/parser.py
+src/input_parser.egg-info/PKG-INFO
+src/input_parser.egg-info/SOURCES.txt
+src/input_parser.egg-info/dependency_links.txt
+src/input_parser.egg-info/top_level.txt

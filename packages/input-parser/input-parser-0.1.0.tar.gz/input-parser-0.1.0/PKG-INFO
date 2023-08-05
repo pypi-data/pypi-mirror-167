@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: input-parser
+Version: 0.1.0
+Summary: Argparse for input(): enables easy validation of user inputs
+Home-page: https://github.com/JolonB/input-parser
+Author: Jolon Behrent
+Author-email: 
+License: MIT
+Project-URL: Bug Tracker, https://github.com/JolonB/input-parser/issues
+Description: # Input Parser
+        
+        The input-parser module allows you to easily write scripts requiring user interaction.
+        
+        The input function allows you to define the response it expects from the user so it can parse out any incorrect responses and request a new one.
+        It automatically generates failure messages for the user.
+        
+        ## Compatibility
+        
+        input-parser is being developed with Python 3.8, but is likely to work on older versions (and will be tested when completed).
+        
+        ## Installation
+        
+        This package currently isn't on PyPi so cannot be installed.
+        This will be available soon.
+        In the meantime, simply copy the `src/input-parser/parser.py` file to your project.
+        
+        ## Usage
+        
+        The module contains only one function called `parse_input()`.
+        This has two required arguments, the message and the type.
+        The message will be shown to the user when requesting an input.
+        The class represents the type of the input required.
+        At the moment, you can only specify one type, but I plan to allow more to be set in a future update.
+        
+        ## Bugs
+        
+        If you find a bug in input-parser, probably just create a GitHub issue, bearing in mind that this is still a work in progress, so I've probably already spotted the bug but haven't got around to fixing it.
+        
+        
+Keywords: input,parser,arguments,stdin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
