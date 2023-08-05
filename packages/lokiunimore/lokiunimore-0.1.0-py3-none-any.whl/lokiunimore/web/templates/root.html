@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title_tab %}Home{% endblock %}
+{% block title_main %}Home{% endblock %}
+
+{% block content %}
+    <p>
+        <b>Loki</b> è un chat bot che regola l'accesso alla <b>Zona Studenti</b> dello spazio <a href="https://matrix.org">Matrix</a> non-ufficiale dell'Unimore.
+    </p>
+    <p>
+        Per evitare che messaggi con contenuto potenzialmente sensibile vengano letti da soggetti che potrebbero usarli per effettuare <u>abusi di potere</u>, viene richiesta la <b>verifica delle proprie credenziali universitarie</b> a tutti gli studenti che desiderano accedere alla Zona Studenti.
+    </p>
+    <hr/>
+    <p>
+        Se <b>non sei ancora membro</b> dello spazio Matrix pubblico, puoi usare questo link per entrare a farne parte:
+    </p>
+    <p class="center xl">
+        <a href="https://matrix.to/#/{{ config.MATRIX_PUBLIC_SPACE_ALIAS }}?client=element.io" class="btn"><code>{{ config.MATRIX_PUBLIC_SPACE_ALIAS }}</code></a>
+    </p>
+    <p>
+        Se <b>sei già membro</b>, dovresti aver ricevuto un messaggio privato da Loki con il link per collegare i tuoi account:
+    </p>
+    <p class="center xl">
+        <a href="https://matrix.to/#/{{ config.MATRIX_USER_ID }}?client=element.io" class="btn"><code>{{ config.MATRIX_USER_ID }}</code></a>
+    </p>
+{% endblock %}
