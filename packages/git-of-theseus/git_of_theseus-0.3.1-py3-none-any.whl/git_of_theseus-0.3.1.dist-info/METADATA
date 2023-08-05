@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: git-of-theseus
+Version: 0.3.1
+Summary: Plot stats on Git repositories
+Home-page: https://github.com/erikbern/git-of-theseus
+Author: Erik Bernhardsson
+Author-email: mail@erikbern.com
+License-File: LICENSE
+Requires-Dist: gitpython
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: wcmatch
+Requires-Dist: pygments
+Requires-Dist: matplotlib
+
