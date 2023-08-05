@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cxo-relay
+Version: 1.0.4
+Summary: Python based CLI for running a Cargo X Relayer.
+Home-page: https://github.com/Beastly418/CargoXPythonRelayerCLI
+Author: Beastly418
+Keywords: Cargo X,Relayer,web3,CXO
+Requires-Python: >=3.6
+License-File: LICENSE
