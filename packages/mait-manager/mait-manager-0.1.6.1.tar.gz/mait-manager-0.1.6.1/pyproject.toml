@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mait-manager"
+version = "0.1.6.1"
+description = ""
+authors = ["Zayne Marsh <you@example.com>"]
+readme = "README.md"
+packages = [{include = "mait_manager"}]
+
+[tool.poetry.scripts]
+mait = "mait_manager.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
