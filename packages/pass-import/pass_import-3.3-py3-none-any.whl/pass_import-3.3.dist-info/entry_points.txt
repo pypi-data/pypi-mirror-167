@@ -1,0 +1,2 @@
+[console_scripts]
+pimport = pass_import.__main__:main
