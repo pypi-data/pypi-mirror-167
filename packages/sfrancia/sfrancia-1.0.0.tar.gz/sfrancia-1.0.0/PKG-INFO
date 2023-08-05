@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: sfrancia
+Version: 1.0.0
+Summary: Shapiro-Francia normality test
+Home-page: UNKNOWN
+Author: Luiz Paulo Fávero
+Author-email: lpfavero@usp.br
+License: MIT
+Description: UNKNOWN
+Keywords: shapiro,francia,normality,test
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
