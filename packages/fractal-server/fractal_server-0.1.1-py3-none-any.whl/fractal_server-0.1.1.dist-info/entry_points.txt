@@ -1,0 +1,3 @@
+[console_scripts]
+fractal-server=scripts.testserver:run_testserver
+
