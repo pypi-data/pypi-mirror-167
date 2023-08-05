@@ -1,0 +1,11 @@
+gena/__init__.py,sha256=4qZzMkVOjI28zwlvEllN_WkHH4K1F4ApPzfNrT9yX7w,109
+gena/api_generator.py,sha256=VQMorIYwtpl-NqTFLww4HaXRQzz7DDaUPxTwFF7IaAo,17475
+gena/app_generator.py,sha256=c9Nx-iys-4Qi4mLWTxl4FwbNocJKL91YVT_o1d8Z1nI,1734
+gena/client.py,sha256=_dPY6VITHXNcRFP8Zfv9KkyVsp-ICngG46moPlHcRjY,3378
+gena/custom_fields.py,sha256=oIzBoFYBqHb-iCPSTvfrcdfpK1fdJF09uU4ubZwzA-4,2025
+gena/deserializer.py,sha256=sYLZdNXTLeIh1eB-DOmNLpZ9xuCP72qfnLUyvDMBvVY,11420
+gena/serializer.py,sha256=KDeSeHIzg-6RKGYSgDNp8er5Ha-jUMt_Z0hyo4u5dSs,7510
+gena-1.2.0.dist-info/LICENSE,sha256=brmJ1GyPsyFm-KQo59ncA1Bd9lrhzsO7-l9ap6TZ1_0,1064
+gena-1.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+gena-1.2.0.dist-info/METADATA,sha256=RlE80PNteb-iI2ARnIz42J0nKHDnQ2WwOw0ixPVg-04,12186
+gena-1.2.0.dist-info/RECORD,,
