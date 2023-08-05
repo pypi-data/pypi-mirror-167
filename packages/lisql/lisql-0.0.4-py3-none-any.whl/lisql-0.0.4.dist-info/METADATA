@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: lisql
+Version: 0.0.4
+Summary: Python sql companion
+Home-page: https://github.com/li812/lisql
+Author: Ali Ahammad
+Author-email: aliahammad0812@outlook.com
+Project-URL: Bug Tracker, https://github.com/li812/lisql/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lisql
+
+# Make sure you have upgraded version of pip
+Windows
+```
+py -m pip install --upgrade pip
+```
+
+Linux/MAC OS
+```
+python3 -m pip install --upgrade pip
+```
+
+# Make sure you mysql connector installed
+Windows
+```
+py -m pip install mysql-connector-python
+```
+
+Linux/MAC OS
+```
+python3 -m pip install mysql-connector-python
+
+
+
+## INSTALATION
+Run the following to install
+
+'''python
+pip install lisql
+'''
+
+##Usage
+'''python
+import lisql
+
+#To create default connection
+
+    lisql.creacon()
+
+#To create custom connection
+
+    lisql.creacuscon(host, username, password)
+
+#To create a database
+
+    lisql.creadb(databasename)
+
+#To drop a database
+
+    lisql.dropdb(databasename)
+
+#To connect a database in default connection
+
+    lisql.condb(database_name)
+
+#To connect a database in custom connection
+
+    lisql.cuscondb(host, username, password, name)
+
+
