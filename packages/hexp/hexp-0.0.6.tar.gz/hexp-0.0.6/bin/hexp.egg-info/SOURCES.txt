@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+bin/hexdump.py
+bin/hexp
+bin/hexp.egg-info/PKG-INFO
+bin/hexp.egg-info/SOURCES.txt
+bin/hexp.egg-info/dependency_links.txt
+bin/hexp.egg-info/requires.txt
+bin/hexp.egg-info/top_level.txt
