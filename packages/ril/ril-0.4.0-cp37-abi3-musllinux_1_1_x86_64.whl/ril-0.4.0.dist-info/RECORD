@@ -1,0 +1,9 @@
+ril-0.4.0.dist-info/WHEEL,sha256=iNd9sT3QMCnd92x-qJ71aFqxZdgT0mYQYbOEZ1hWugM,107
+ril-0.4.0.dist-info/METADATA,sha256=IcFe6vvOR-g7ugzGlFiiYIDDuIErtTWpBU1PSr1sqwg,3190
+ril-0.4.0.dist-info/RECORD,,
+ril-0.4.0.dist-info/license_files/LICENSE,sha256=BhtPfP1zkTjHWazDvtIoHSOqJ8tiWglzq3W3qwhnqSQ,1085
+ril/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ril/ril.abi3.so,sha256=ru6ex19ad3KSonE1_IMijnTo9n4RmUqg_CWTnqXMRN8,6851496
+ril/__init__.pyi,sha256=hz3Ejh1-njHH6kuDc4tKlVWQ75ssVIdbeFg7rYNiERI,32139
+ril/__init__.py,sha256=O0TWZZtyaB2d1Fk7TMIl4FiXKsUvKTyx_jPl0qpbfDw,95
+ril.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
