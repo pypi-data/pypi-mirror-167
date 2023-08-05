@@ -1,0 +1,7 @@
+pflake8/__init__.py,sha256=T52YPLE-XA_iR4OubfHICRcBqI9bZKMhWvhCeHba7SI,1940
+pflake8/__main__.py,sha256=fr-CFAsvUaq-F1nICslExsfLggcTfrfCuU_MUBrHZdQ,58
+pyproject_flake8-3.8.2a1.dist-info/entry_points.txt,sha256=u54muizn5j0vVJbd9psJVxN3endB-hluiy4qUvVTkJ0,49
+pyproject_flake8-3.8.2a1.dist-info/LICENSE,sha256=fhLl30uuEsshWBuhV87SDhmGoFCN0Q0Oikq5pM-U6Fw,1211
+pyproject_flake8-3.8.2a1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+pyproject_flake8-3.8.2a1.dist-info/METADATA,sha256=tmFbDN6aDRhPD0CksEyzg6y5t_q6ZcOU9at1hJA51L4,3313
+pyproject_flake8-3.8.2a1.dist-info/RECORD,,
