@@ -1,0 +1,12 @@
+gym
+numpy
+loguru
+
+[:python_version < "3.9"]
+importlib-resources
+
+[cvxpy]
+cvxpy
+
+[widget]
+ipympl
