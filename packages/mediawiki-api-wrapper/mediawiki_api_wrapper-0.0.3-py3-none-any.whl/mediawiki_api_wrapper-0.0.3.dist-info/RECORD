@@ -1,0 +1,11 @@
+mediawiki_api_wrapper/__init__.py,sha256=vejEmA3pmOvOFnB3CNrDGTiuw3-bteN8FpLN1ydRZ2Y,170
+mediawiki_api_wrapper/api_query.py,sha256=jqXU92JrXJdjGkJu3cul28M9gLMC4rQJpsE3y1b1YN0,16558
+mediawiki_api_wrapper/interface.py,sha256=K_55MSgK5EuIw0jyihluuXwfESiJkGt7KPl-X-l42gQ,990
+mediawiki_api_wrapper/login_and_editing.py,sha256=TXfxWpm1y-RW66rcM7ETz_F9zvGnoMNAl1IGL0mPlxU,9836
+mediawiki_api_wrapper/query.py,sha256=y1n1AwXELnX7D9Lz9gM7y2B_0e2tHE7RVvTiHsbqZ4c,16603
+mediawiki_api_wrapper/retrying_connection.py,sha256=leEPqtXrtlpfhct7rB6KvTm_45nOpWCi-nURmSEShSo,2621
+mediawiki_api_wrapper-0.0.3.dist-info/LICENSE,sha256=LveK7S_LBIG0nwa5D0RwNUcEaNbqy8jznE3eGAQlE_s,1075
+mediawiki_api_wrapper-0.0.3.dist-info/METADATA,sha256=vhyiGi18NX2Id9XAvc_PiWdLTGjA5TKR-293j4rEfHM,1014
+mediawiki_api_wrapper-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mediawiki_api_wrapper-0.0.3.dist-info/top_level.txt,sha256=Y1yuHW1RBOGT9hsu5ZSFZyymxYlbVG67qynLt8lL1qQ,22
+mediawiki_api_wrapper-0.0.3.dist-info/RECORD,,
