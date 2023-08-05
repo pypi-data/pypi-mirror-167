@@ -1,0 +1,13 @@
+# MultiLink SDK
+
+`pip install multilink`
+
+#### Under Development
+
+Publish package:
+`python setup.py sdist bdist_wheel`
+`python -m twine upload dist/*`
+
+#### Notes:
+- If issue with `bdist_wheel`, install wheel: `pip install wheel`.
+- First time isntall twine: `python install --upgrade twine`.

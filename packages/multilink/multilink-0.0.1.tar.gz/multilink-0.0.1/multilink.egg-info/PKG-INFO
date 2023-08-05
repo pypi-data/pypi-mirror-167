@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: multilink
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# MultiLink SDK
+
+`pip install multilink`
+
+#### Under Development
+
+Publish package:
+`python setup.py sdist bdist_wheel`
+`python -m twine upload dist/*`
+
+#### Notes:
+- If issue with `bdist_wheel`, install wheel: `pip install wheel`.
+- First time isntall twine: `python install --upgrade twine`.
+
+
