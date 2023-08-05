@@ -1,0 +1,18 @@
+# Arquivo necessário para distribuição do package do projeto
+# Inclui comandos de inclusão e exclusão de pastas e arquivos na distribuição
+
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./modelo_regressao/*
+
+include modelo_regressao/modelos_treinados/*.pkl
+include modelo_regressao/config.yml
+
+include ./requerimentos/requerimentos.txt
+include ./requerimentos/requerimentos_teste.txt
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

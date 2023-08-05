@@ -1,0 +1,7 @@
+-r requerimentos.txt
+
+pytest>=6.2.3,<6.3.0
+black==22.3.0 # Para Ubuntu, manter versão >=22.3.0
+flake8>=3.9.0,<3.10.0
+mypy==0.812
+isort==5.8.0

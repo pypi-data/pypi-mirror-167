@@ -1,0 +1,64 @@
+# Package Overview
+nome_package: modelo_regressao
+
+# arquivos de dados para pipeline
+arquivo_treinamento: train.csv
+arquivo_teste: test.csv
+
+# a variável a ser predita
+alvo: valor
+
+# relevantes para o salvamento da pipeline
+nome_pipeline: modelo
+arq_salvamento_pipeline: modelo_output_v
+
+# autenticação para API e identificação da pasta contendo os arquivos no drive
+chave_de_API: AIzaSyBsIGCTbPl4B9GDtXbA3YNt5PKwWmss1kc 
+ID_pasta: 1UqJ1Uu0FPJjkZLkJlOzpljB4vI3mxUqd
+
+# identificação e nome dos datasets constituintes do conjunto de dados principal
+arquivos_drive:
+  train.csv: 1ELDIevch4pGzRRJ0mGlmK5RY_it6YMue
+  test.csv: 1JOuljcHvXnHc80OUul-kdFpG9gNPHwYg
+  
+#variaveis preditoras
+atributos:
+  - area
+  - quartos
+  - banheiros
+  - vagas
+  - V001
+  - V002
+  - V003
+  - V004
+  - V005
+  - V006
+  - V007
+  - V008
+  - V009
+  - V010
+  - V011
+  - V012
+
+#parametros de capping do dataset
+capping_params:
+  capping_method: quantiles
+  fold: 0.02
+  tail: both
+
+# hiperparametros do modelo
+regressao_params:
+  n_estimators: 150
+  max_depth: 5
+  min_samples_split: 50
+  learning_rate: 0.1
+  loss: squared_error
+  min_samples_leaf: 80
+  subsample: 0.5 
+  random_state: 42
+    
+# train/test split
+tam_teste: 0.2
+
+# random_seed
+estado: 42
