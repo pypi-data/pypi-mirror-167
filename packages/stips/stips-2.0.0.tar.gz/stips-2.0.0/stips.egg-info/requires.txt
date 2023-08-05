@@ -1,0 +1,10 @@
+astropy
+numpy
+scipy
+photutils
+synphot
+stsynphot
+webbpsf==1.0.0
+pandeia.engine==1.7
+montage-wrapper
+pyyaml
