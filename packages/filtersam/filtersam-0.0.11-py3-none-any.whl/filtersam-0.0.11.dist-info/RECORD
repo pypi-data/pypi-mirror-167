@@ -1,0 +1,10 @@
+filtersam/__init__.py,sha256=N6xpOSvsHe77J-LBabaGrN7O499-3-YoJVYG-OrATto,24
+filtersam/cli.py,sha256=R3xn84eCdMtKD0gKol35ji0nT4SmnqgL1fu8UGX1A28,2932
+filtersam/filtersam.py,sha256=eyBXuc8w8KAXNp6eDoFVvSBQWY0DUnqdmVHmW6ozz7s,6263
+filtersam/utils.py,sha256=KckSVAGIzdzV-YOmVGGl5wU5Ptzeik-yeBcjABBBs8c,720
+filtersam-0.0.11.dist-info/LICENSE,sha256=W9T6NG_UkU8M4m5ca8obwwjfQ3vuhbEq_KRClxJXvrI,19046
+filtersam-0.0.11.dist-info/METADATA,sha256=Dj9ms0koyvUSGn_6e4f3Ao5FJgoQnAtwfoPD_nbBHBc,1876
+filtersam-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+filtersam-0.0.11.dist-info/entry_points.txt,sha256=bzSZJJX5U5pMlZAUgBzyfbGsRKoViHcLe2narLppYBU,50
+filtersam-0.0.11.dist-info/top_level.txt,sha256=4jnyulLMCkSiEWJRDOyGzjTsJ0IoiNMiYmbCmwTrhI4,10
+filtersam-0.0.11.dist-info/RECORD,,
