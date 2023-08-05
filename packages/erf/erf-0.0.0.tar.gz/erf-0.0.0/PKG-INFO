@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: erf
+Version: 0.0.0
+Summary: easy error handling tool
+Home-page: https://github.co.jp/
+Author: le_lattelle
+Author-email: g.tiger.ml@gmail.com
+License: CC0 v1.0
+Description: # error
+        
+        under construction
+        下の方に日本語の説明があります
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
