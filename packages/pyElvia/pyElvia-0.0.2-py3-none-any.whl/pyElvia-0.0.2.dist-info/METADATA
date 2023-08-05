@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyElvia
+Version: 0.0.2
+Summary: A python3 library to read meter from Elvia
+Home-page: https://github.com/bskjon/pyElvia
+Author: Brage Skjønborg
+Author-email: bskjon@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9.0
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: urllib3 (>=1.26.12)
+Requires-Dist: pykson (>=0.9.9.8.7)
+
+UNKNOWN
+
