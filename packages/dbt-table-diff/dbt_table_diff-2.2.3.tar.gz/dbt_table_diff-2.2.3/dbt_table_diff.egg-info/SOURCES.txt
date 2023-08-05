@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+dbt_table_diff/__init__.py
+dbt_table_diff/__main__.py
+dbt_table_diff/arg_parser.py
+dbt_table_diff/run_sql_checks.py
+dbt_table_diff.egg-info/PKG-INFO
+dbt_table_diff.egg-info/SOURCES.txt
+dbt_table_diff.egg-info/dependency_links.txt
+dbt_table_diff.egg-info/requires.txt
+dbt_table_diff.egg-info/top_level.txt
