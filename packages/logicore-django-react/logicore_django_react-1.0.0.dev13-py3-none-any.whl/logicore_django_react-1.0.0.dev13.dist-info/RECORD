@@ -1,0 +1,15 @@
+logicore_django_react/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logicore_django_react/commons.py,sha256=Y4NjpH9ueMQDC-1yGrpdoX2ZjvaFUvcaK6pA0_STSeg,309
+logicore_django_react/models.py,sha256=TCHn1c-HaHPHUVtcdvsA0p1VGHQAyaYYr9AnyvSt5oM,20
+logicore_django_react/urls.py,sha256=sfzl5kOJS_mvTvFrEi9ONGVBsa4oGQ5di05g_NARX7g,587
+logicore_django_react/views.py,sha256=VjBXjyfP-rAcgkoRP7QqmN_SjhXEEdqJHVLVPHceF40,767
+logicore_django_react/templates/logicore_django_react/home.html,sha256=hLTbOAVqRW5MIuHogkwuaxUSUIbHydodMpOXURTgmhs,353
+logicore_django_react/templates/logicore_django_react/include_react_css.html,sha256=Yxs3yujkGFCQLh-7P0mfeSLQNsArR_yoc3paUZ4qjgU,82
+logicore_django_react/templates/logicore_django_react/include_react_js.html,sha256=5PDTz35DD0KTIkI77As9zJTvkD655Cf2V3M6dPB5jek,142
+logicore_django_react/templatetags/react_tags.py,sha256=bLFmv4IHFMox0DuR4vb65hHfQNgJt90Owc_JqP_z-rc,502
+logicore_django_react/templatetags/react_tags_dev.py,sha256=wEd4x2BC5CalDk7TEja6DpImu1d6H_yxBBc2Jll-wfg,554
+logicore_django_react-1.0.0.dev13.dist-info/LICENSE,sha256=IAwC7-_ExWH1e31Mx0buus6TB42NOAkopirU0qH5J10,1072
+logicore_django_react-1.0.0.dev13.dist-info/METADATA,sha256=VVI36FvIb6HsuqaNbZVncaqXM5l8rn1-wf40WLnZAmE,8747
+logicore_django_react-1.0.0.dev13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logicore_django_react-1.0.0.dev13.dist-info/top_level.txt,sha256=-QvoWsq584H_gXz8-4HoFcwoqHzXfh2sAJu-88W7x6w,22
+logicore_django_react-1.0.0.dev13.dist-info/RECORD,,
