@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+django_q_slack/__init__.py
+django_q_slack/core.py
+django_q_slack.egg-info/PKG-INFO
+django_q_slack.egg-info/SOURCES.txt
+django_q_slack.egg-info/dependency_links.txt
+django_q_slack.egg-info/requires.txt
+django_q_slack.egg-info/top_level.txt

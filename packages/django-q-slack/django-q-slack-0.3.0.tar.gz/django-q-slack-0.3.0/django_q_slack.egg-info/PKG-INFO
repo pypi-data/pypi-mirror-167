@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: django-q-slack
+Version: 0.3.0
+Summary: A Slack support plugin for Django Q
+Home-page: https://django-q.readthedocs.org
+Author: Goran Vrbaški
+Author-email: vrbaski.goran@gmail.com
+License: MIT
+Keywords: django distributed task queue worker scheduler cron redis disque ironmq sqs orm mongodb multiprocessing slack
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# django-q-slack
+
+A Django Q Error Reporter plugin adding Slack support.
+
+---
+
+## Installation
+
+
+## Usage
+Configure Sentry via the Django Q Q_CLUSTER dictionary in your Django project's settings.py. It is important that the sentry key be set in the error_reporter dictionary, as this name aligns with the project's entry point for this plugin. The only required configuration entry is your Sentry DSN.
+
+```bash
+Q_CLUSTER = {
+    'error_reporter': {
+        'slack': {
+            'web_hook': 'https://hooks.slack.com/services/...../..../....'
+        }
+    }
+```
