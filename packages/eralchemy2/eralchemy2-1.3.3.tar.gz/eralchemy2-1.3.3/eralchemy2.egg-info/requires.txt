@@ -1,0 +1,9 @@
+SQLAlchemy
+pygraphviz
+
+[dev]
+black
+isort
+tox
+Flask-SQLAlchemy
+psycopg2
