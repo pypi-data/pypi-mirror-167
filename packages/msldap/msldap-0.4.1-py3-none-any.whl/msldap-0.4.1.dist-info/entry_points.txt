@@ -1,0 +1,3 @@
+[console_scripts]
+msldap = msldap.examples.msldapclient:main
+msldapcompdns = msldap.examples.msldapcompdnslist:main
