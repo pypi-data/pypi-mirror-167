@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pysh
+Version: 2.0.0
+Summary: A library of small functions that simplify scripting in python
+Home-page: https://github.com/Ovsyanka83/pysh
+License: MIT
+Keywords: python,shell,bash,script,scripting,pysh
+Author: Stanislav Zmiev
+Author-email: szmiev2000@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/Ovsyanka83/pysh
+Description-Content-Type: text/markdown
+
+
