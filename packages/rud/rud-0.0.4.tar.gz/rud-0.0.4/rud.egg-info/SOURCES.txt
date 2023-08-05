@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+rud/__init__.py
+rud/__main__.py
+rud/cli.py
+rud/config.py
+rud/downloaded.py
+rud/downloader.py
+rud.egg-info/PKG-INFO
+rud.egg-info/SOURCES.txt
+rud.egg-info/dependency_links.txt
+rud.egg-info/entry_points.txt
+rud.egg-info/requires.txt
+rud.egg-info/top_level.txt
