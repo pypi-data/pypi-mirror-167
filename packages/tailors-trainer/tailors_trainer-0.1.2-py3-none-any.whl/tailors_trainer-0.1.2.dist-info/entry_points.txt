@@ -1,0 +1,5 @@
+[console_scripts]
+tailors-corpus-from-eb=tailors_trainer.corpus_from_eb:process
+tailors-train=tailors_trainer.train:train
+tailors-train-fast=tailors_trainer.fast.train:train
+
