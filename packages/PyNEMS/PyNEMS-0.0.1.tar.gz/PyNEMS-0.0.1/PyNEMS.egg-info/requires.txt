@@ -1,0 +1,11 @@
+numpy>=1.21.5
+scipy>=1.9.0
+matplotlib>=3.5.2
+
+[dev]
+build
+twine
+pytest
+
+[tf]
+tensorflow>=2.9
