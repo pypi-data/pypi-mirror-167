@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: GameWidgets
+Version: 0.0.7
+Summary: Pygame becomes easier
+Home-page: https://github.com/SuperGuy123456/GameWidgets
+Author: Manomay tyagi
+Author-email: tyagimanomay57@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+GameWidgets
+Check PyPi for download
+
+Install
+
+Mac
+
+* pip3 install GameWidgets==0.0.7
+
+Windows
+
+* pip install GameWidgets==0.0.7
+
+Specs
+
+* 42 Files
+* ~2Kilobytes
+Files:
+
+* Btn
+* Clock
+* Colors
+* Cursor
+* Sound
+* Animatrix
+* Draw (in progress)
+* Sprite (In progress)
+* Tile (In progress)
+* ScreenCommands
+* Joystick (In progress)
+* Hat (In progress)
+* R1_R2 (In progress)
+More info:
+
+https://GameWidgets-Website.superguy123456.repl.co
