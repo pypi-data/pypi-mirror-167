@@ -1,0 +1,8 @@
+ns.py
+pyproject.toml
+korean_rps/__init__.py
+korean_rps/game.py
+korean_rps.egg-info/PKG-INFO
+korean_rps.egg-info/SOURCES.txt
+korean_rps.egg-info/dependency_links.txt
+korean_rps.egg-info/top_level.txt
