@@ -1,0 +1,2 @@
+[console_scripts]
+pybritive = pybritive.cli_interface:safe_cli
