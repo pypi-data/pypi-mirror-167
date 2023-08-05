@@ -1,0 +1,48 @@
+.. Manipylator - a Python-driven manipulator controller                   
+    Authors: Arthur Michaut                                                
+    Copyright 2020-2022 Institut Pasteur and CNRS–UMR3738                  
+    See the COPYRIGHT file for details                                     
+                                                                           
+    This file is part of manipylator package.                              
+                                                                           
+    Manipylator is free software: you can redistribute it and/or modify    
+    it under the terms of the GNU General Public License as published by   
+    the Free Software Foundation, either version 3 of the License, or      
+    (at your option) any later version.                                    
+                                                                           
+    Manipylator is distributed in the hope that it will be useful,         
+    but WITHOUT ANY WARRANTY; without even the implied warranty of         
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the           
+    GNU General Public License for more details .                          
+                                                                           
+    You should have received a copy of the GNU General Public License      
+    along with Manipylator (COPYING).                                      
+    If not, see <https://www.gnu.org/licenses/>.                           
+
+
+Welcome to manipylator's documentation!
+=======================================
+
+**Manipylator** is Python-based controller used to run a motorized manipulator through a user-friendly graphical interface. 
+This package offers several mechanical assays to physically manipulate a sample.  
+In particular, **Manipylator** provides in real time controller to exert controlled forces through a cantilever-based force sensor and actuator. 
+
+**Manipylator** currently supports PI ([Physik Instrumente](https://www.physikinstrumente.com/en/)) motorized stages to drive the manipulator.
+
+
+==========
+User Guide
+==========
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   user_guide/index
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

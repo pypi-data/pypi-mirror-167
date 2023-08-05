@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: manipylator
+Version: 0.1rc2
+Summary: a Python-driven manipulator controller
+Home-page: https://gitlab.pasteur.fr/amichaut/manipylator/
+Author: Arthur Michaut
+Author-email: arthur.michaut@gmail.com
+License: GPLv3
+Download-URL: https://pypi.org/project/manipylator/
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: COPYING
+
+<!---
+
+[![Doc](https://img.shields.io/badge/doc-master-blue.svg)](http://track-analyzer.pages.pasteur.fr/track-analyzer)
+[![Open Source License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![PyPI](https://img.shields.io/pypi/v/track-analyzer)](https://pypi.org/project/track-analyzer/)
+![Conda](https://img.shields.io/conda/pn/bioconda/track_analyzer)
+
+-->
+
+
+# Manipylator
+A Python-driven manipulator controller
+
+**Manipylator** is Python-based controller used to run a motorized manipulator through a user-friendly graphical interface. 
+This package offers several mechanical assays to physically manipulate a sample.  
+In particular, **Manipylator** provides in real time controller to exert controlled forces through a cantilever-based force sensor and actuator. 
+
+**Manipylator** currently supports PI ([Physik Instrumente](https://www.physikinstrumente.com/en/)) motorized stages to drive the manipulator.
+
+

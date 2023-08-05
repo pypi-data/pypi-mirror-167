@@ -1,0 +1,13 @@
+ipyfilechooser
+ipywidgets
+jupyter
+numpy
+pandas
+matplotlib
+scikit-image
+seaborn
+pipython
+scipy
+lmfit
+simple_pid
+joblib
