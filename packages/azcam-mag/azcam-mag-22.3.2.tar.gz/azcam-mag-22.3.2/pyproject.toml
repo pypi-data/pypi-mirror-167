@@ -1,0 +1,22 @@
+[project]
+name = "azcam-mag"
+version = "22.3.2"
+description = "Azcam extension for OCIW Magellan ITL camera controllers"
+license = {file ="LICENSE"}
+readme = "README.md"
+keywords=["ccd", "imaging", "astronomy", "sensors"]
+authors = [{name="Michael Lesser"},{email = "mlesser@arizona.edu"}]
+dependencies = [
+    "azcam",
+]
+
+[project.urls]
+Documentation = "https://mplesser.github.io/azcam/"
+Repository = "https://github.com/mplesser/azcam-mag/"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "azcam_mag"
