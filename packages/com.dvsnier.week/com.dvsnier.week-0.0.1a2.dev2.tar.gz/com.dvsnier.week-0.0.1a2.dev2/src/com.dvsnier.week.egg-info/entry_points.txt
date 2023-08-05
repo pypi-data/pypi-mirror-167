@@ -1,0 +1,2 @@
+[console_scripts]
+dvs-week = com.dvsnier.week.command.dvs_week:execute
