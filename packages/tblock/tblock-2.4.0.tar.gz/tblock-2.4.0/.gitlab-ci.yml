@@ -1,0 +1,69 @@
+stages:
+  - test
+
+on_setup:
+  image: curlimages/curl:7.77.0
+  stage: .pre
+  variables:
+    INSTANCE: "https://codeberg.org"
+    MAIN_REPO: tblock/tblock
+    STATE: pending
+    MESSAGE: "Pipeline is running"
+    NTFY_SECRET: $NTFY_SECRET
+  only:
+    - main
+    - dev
+    - tags
+  script:
+    - ./scripts/gitlab-ci.sh
+    - ./scripts/ntfy.sh
+
+test:
+  image: alpine
+  stage: test
+  only:
+    - main
+    - dev
+    - tags
+  before_script:
+    - apk add make python3 py3-pip py3-setuptools py3-colorama py3-requests
+    - pip install bandit pycodestyle
+  script:
+    - make test
+
+on_success:
+  image: curlimages/curl:7.77.0
+  stage: .post
+  only:
+    - main
+    - dev
+    - tags
+  variables:
+    INSTANCE: "https://codeberg.org"
+    MAIN_REPO: tblock/tblock
+    STATE: success
+    MESSAGE: "Pipeline passed successfully"
+    NTFY_SECRET: $NTFY_SECRET
+  script:
+    - ./scripts/gitlab-ci.sh
+    - ./scripts/ntfy.sh
+  when: on_success
+
+on_failure:
+  image: curlimages/curl:7.77.0
+  stage: .post
+  only:
+    - main
+    - dev
+    - tags
+  variables:
+    INSTANCE: "https://codeberg.org"
+    MAIN_REPO: tblock/tblock
+    STATE: failure
+    MESSAGE: "Pipeline failed"
+    NTFY_SECRET: $NTFY_SECRET
+  script:
+    - ./scripts/gitlab-ci.sh
+    - ./scripts/ntfy.sh
+  when: on_failure
+
