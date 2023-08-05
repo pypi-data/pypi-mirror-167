@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: py-refacto
+Version: 0.0.9
+Summary: Refacto
+Home-page: https://github.com/nymann/refacto
+Maintainer: Kristian Nymann Jakobsen
+Maintainer-email: kristian@nymann.dev
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygls
+Requires-Dist: libcst
+Requires-Dist: typer
+Provides-Extra: all
+Requires-Dist: add-trailing-comma ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: nitpick ; extra == 'all'
+Requires-Dist: wemake-python-styleguide ; extra == 'all'
+Requires-Dist: devtools ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-mock ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: add-trailing-comma ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: nitpick ; extra == 'dev'
+Requires-Dist: wemake-python-styleguide ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: devtools ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+
+# Refacto 🪄
+
+A Python3 refactoring Language Server implemented via code-actions, powered by [LibCST](https://github.com/Instagram/LibCST) and [pygls](https://github.com/openlawlibrary/pygls).
+
+[refactoring_inline_variable_and_extract_variable_scope.webm](https://user-images.githubusercontent.com/7005867/188514352-137651d0-cce7-4d64-a1ab-eb38eef9141d.webm)
+
+
+## Installation
+
+```sh
+pip install py-refacto
+```
+
+### Example Client Integration
+
+##### Neovim
+
+Until Refacto is in the official nvim-lspconfig repository, you can use my fork [nymann/nvim-lspconfig](https://github.com/nymann/nvim-lspconfig/).
+
+## Development
+
+For help getting started developing check [DEVELOPMENT.md](DEVELOPMENT.md)
