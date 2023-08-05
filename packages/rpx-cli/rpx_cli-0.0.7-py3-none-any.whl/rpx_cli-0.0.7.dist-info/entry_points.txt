@@ -1,0 +1,2 @@
+[console_scripts]
+rpx = rpx.__main__:rpx
