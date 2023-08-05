@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+blobber/__init__.py
+blobber/blobber.py
+blobber/blobber_constants.py
+blobber.egg-info/PKG-INFO
+blobber.egg-info/SOURCES.txt
+blobber.egg-info/dependency_links.txt
+blobber.egg-info/requires.txt
+blobber.egg-info/top_level.txt
