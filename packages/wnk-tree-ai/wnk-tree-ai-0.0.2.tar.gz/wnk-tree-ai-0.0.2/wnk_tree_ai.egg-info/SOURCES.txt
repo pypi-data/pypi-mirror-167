@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+wnk_tree_ai/__init__.py
+wnk_tree_ai/example.py
+wnk_tree_ai.egg-info/PKG-INFO
+wnk_tree_ai.egg-info/SOURCES.txt
+wnk_tree_ai.egg-info/dependency_links.txt
+wnk_tree_ai.egg-info/top_level.txt
