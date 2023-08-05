@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+imgs/length.gif
+imgs/logo.gif
+imgs/width.gif
+imgs/Python_Logo_Widgets.egg-info/PKG-INFO
+imgs/Python_Logo_Widgets.egg-info/SOURCES.txt
+imgs/Python_Logo_Widgets.egg-info/dependency_links.txt
+imgs/Python_Logo_Widgets.egg-info/entry_points.txt
+imgs/Python_Logo_Widgets.egg-info/top_level.txt
