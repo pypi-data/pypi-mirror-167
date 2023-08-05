@@ -1,0 +1,4 @@
+- DELETE FROM has no effect unless persist=True, should it?
+- Problem calling MyPandas(URI, persist=True) twice, probably logic error of creating/deleting database twice?
+- Fix remaining two pytest tests from pandasql
+- Add MySQL syntax specific pytest tests in `test_mypandas.py`
