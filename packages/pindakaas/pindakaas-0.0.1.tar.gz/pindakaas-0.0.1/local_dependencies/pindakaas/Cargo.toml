@@ -1,0 +1,18 @@
+[package]
+name = "pindakaas"
+description = "Encoding Integer and Pseudo Boolean constraints into CNF"
+version = "0.1.0"
+authors = [
+	"Jip J. Dekker <jip.dekker@monash.edu>",
+	"Hendrik 'Henk' Bierlee <hendrik.bierlee@monash.edu>"
+]
+license = "MPL-2.0"
+
+edition = "2021"
+
+[dependencies]
+num = "^0.4"
+itertools = "^0.10"
+
+[dev-dependencies]
+splr = { version = "0.16", features = ["incremental_solver"] }
