@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+h5py
+hdf5storage
+patsy
+sklearn
+matplotlib
+pyfftw
