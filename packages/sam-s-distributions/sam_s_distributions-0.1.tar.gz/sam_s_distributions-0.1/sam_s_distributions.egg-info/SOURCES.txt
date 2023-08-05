@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+sam_s_distributions.egg-info/PKG-INFO
+sam_s_distributions.egg-info/SOURCES.txt
+sam_s_distributions.egg-info/dependency_links.txt
+sam_s_distributions.egg-info/not-zip-safe
+sam_s_distributions.egg-info/top_level.txt
