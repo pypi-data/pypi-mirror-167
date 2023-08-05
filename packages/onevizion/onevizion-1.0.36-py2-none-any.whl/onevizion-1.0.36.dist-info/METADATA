@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: onevizion
+Version: 1.0.36
+Summary: onevizion wraps the version 3 API for a OneVizion system, and provides a few optional other utilities.
+Home-page: https://github.com/Onevizion/API-v3
+Author: OneVizion
+Author-email: development@onevizion.com
+License: MIT
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Requires-Dist: requests
+Requires-Dist: urllib
+Requires-Dist: json
+Requires-Dist: smtplib
+Requires-Dist: os
+Requires-Dist: sys
+Requires-Dist: datetime
+Requires-Dist: time
+Requires-Dist: base64
+Requires-Dist: OrderedDict
+Requires-Dist: Enum
+Requires-Dist: re
+Requires-Dist: mimetypes
+Requires-Dist: optparse
+Requires-Dist: abc
+Requires-Dist: fcntl
+
+UNKNOWN
+
+
