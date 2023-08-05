@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+Persinator.egg-info/PKG-INFO
+Persinator.egg-info/SOURCES.txt
+Persinator.egg-info/dependency_links.txt
+Persinator.egg-info/requires.txt
+Persinator.egg-info/top_level.txt
+persinator/__init__.py
+persinator/main.py
+persinator/person_generator.py
+persinator/data/MOCK_DATA.json
