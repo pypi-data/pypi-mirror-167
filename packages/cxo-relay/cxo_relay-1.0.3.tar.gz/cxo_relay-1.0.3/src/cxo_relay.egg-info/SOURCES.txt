@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/cxo_relay.egg-info/PKG-INFO
+src/cxo_relay.egg-info/SOURCES.txt
+src/cxo_relay.egg-info/dependency_links.txt
+src/cxo_relay.egg-info/entry_points.txt
+src/cxo_relay.egg-info/top_level.txt
+src/pkg/CXORelayer.py
+src/pkg/__init__.py
