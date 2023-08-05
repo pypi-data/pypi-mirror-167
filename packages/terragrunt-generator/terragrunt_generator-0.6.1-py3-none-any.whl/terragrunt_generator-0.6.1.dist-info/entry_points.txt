@@ -1,0 +1,3 @@
+[console_scripts]
+terragrunt-generator=generator.main:main
+
