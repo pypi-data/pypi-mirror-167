@@ -1,0 +1,10 @@
+pytest_httpserver/__init__.py,sha256=a0TGt29_kd-4xhMOqJmh370EjpujzDY0c7ZLK2DplW4,835
+pytest_httpserver/blocking_httpserver.py,sha256=oXTIivx9gp5irWdvlgFeR9AnqpsaE-LX36S5tDk82uY,7214
+pytest_httpserver/httpserver.py,sha256=gCRKvhwbmWepNe2XtfnfL-EKQK4GBObPdarNajE3cyI,46859
+pytest_httpserver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_httpserver/pytest_plugin.py,sha256=ie3HJf3J0E5tO04cYdYVqz00Ii2oTMvA_s_ZadI-tzo,1525
+pytest_httpserver-1.0.6.dist-info/entry_points.txt,sha256=bsXb6tjhUsMGU1mzPAjf92HukEHrLB0TebYnXbhY9rw,62
+pytest_httpserver-1.0.6.dist-info/LICENSE,sha256=KUr7ZKG_73p9_Z8ODdU7FI-Tw6CHVhcxNjXJhUzUpak,1069
+pytest_httpserver-1.0.6.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pytest_httpserver-1.0.6.dist-info/METADATA,sha256=3_d6SwEo6185wGz5tY1poc6JTAjLwjaCmRJ_YI1IzpY,5897
+pytest_httpserver-1.0.6.dist-info/RECORD,,
