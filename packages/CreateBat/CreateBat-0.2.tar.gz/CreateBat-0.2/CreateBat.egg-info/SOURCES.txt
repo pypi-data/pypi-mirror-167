@@ -1,0 +1,9 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+CreateBat/__init__.py
+CreateBat.egg-info/PKG-INFO
+CreateBat.egg-info/SOURCES.txt
+CreateBat.egg-info/dependency_links.txt
+CreateBat.egg-info/top_level.txt
