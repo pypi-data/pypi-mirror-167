@@ -1,0 +1,11 @@
+include VERSION
+include aiords/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include aiords VERSION
+recursive-include aiords **.html
+recursive-include aiords **.j2
+recursive-include aiords **.json
+recursive-include aiords **.yaml
+recursive-include aiords **.xml

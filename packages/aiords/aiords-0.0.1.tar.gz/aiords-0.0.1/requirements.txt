@@ -1,0 +1,5 @@
+cbra>=0.118.0
+gunicorn
+research-data-services-common
+pydantic
+uvicorn
