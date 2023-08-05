@@ -1,0 +1,8 @@
+azcam_ascom/__init__.py,sha256=7f2TIMVR3k_dnD_P7O2tybuKf2TgZegWGFfLRAs4m1U,160
+azcam_ascom/controller_ascom.py,sha256=3gGaiWFF59gFfCI0NqD6JS4n4iP9ARkd13bob6hXUng,4632
+azcam_ascom/exposure_ascom.py,sha256=uIJoVYDfSa99cZ7rVr5-kV17XFuV92dhDdtyzN8PMpU,5542
+azcam_ascom/tempcon_ascom.py,sha256=_61Ua41kgYnVfOoEYTUygCwHdbuXkSP5388BHmxD7T8,3396
+azcam_ascom-22.3.1.dist-info/LICENSE,sha256=PS_ZlV-IPpFrsMJ3UKgSaOC-2jpMsH-qO5h_IImZdCM,1092
+azcam_ascom-22.3.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+azcam_ascom-22.3.1.dist-info/METADATA,sha256=lFOcjX1WqCVlAbq0hLxCvWVaAUDwqqTFtuypvn_EaDE,1257
+azcam_ascom-22.3.1.dist-info/RECORD,,
