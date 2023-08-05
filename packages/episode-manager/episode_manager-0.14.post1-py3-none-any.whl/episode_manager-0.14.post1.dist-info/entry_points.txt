@@ -1,0 +1,4 @@
+[console_scripts]
+epm=episode_manager.epm:main
+test=test:run
+
