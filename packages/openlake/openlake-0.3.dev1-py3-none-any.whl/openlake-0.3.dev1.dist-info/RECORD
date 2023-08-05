@@ -1,0 +1,13 @@
+openlake/__init__.py,sha256=FKGwUhkRjaMQQ3tqNEkzJ4hVYmYy4kzqPGMvD0VVxGo,1845
+openlake/cache.py,sha256=JtKh8N_BCgbDO1CININTBdvsUjLFLWaSX7artZZpFDI,1570
+openlake/fetcher.py,sha256=bq7ETig2z-K85_t-dS4twu4IRj4cUuBYeX5vH-cWVh4,1884
+openlake/parser.py,sha256=D0b9Dk5qTYJ_p70TeP-YDtDdRRvyVotl0gJIeGh7_AM,2031
+openlake/provider/__init__.py,sha256=qD1n8Qf4dvc_itEL-WlBZdPUwMvSodEjeT-FojCfLiI,3372
+openlake/provider/kaggle.py,sha256=vkJr6llir5h9ryNrGBbN-fbBxwV5FYhkq_PdoKQxo10,3346
+openlake/provider/sklearn.py,sha256=JABZYL5RrIsFr_FVub8VX5-sTg7OKz6lQ_fIH_ogspU,2213
+openlake-0.3.dev1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+openlake-0.3.dev1.dist-info/METADATA,sha256=j6tWH4w0WLCeddtxhN0D24FuUHxUYwMufiZpj6mpTsI,3888
+openlake-0.3.dev1.dist-info/NOTICE,sha256=kwChl7b0aCl8-8tgy1_PaTksgIT1CHnj5FNAQ7kamlY,122
+openlake-0.3.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+openlake-0.3.dev1.dist-info/top_level.txt,sha256=6fErH5pvLeHk3GGkil1pdqWd09Mw0y_L4kKlxB0jQ1s,9
+openlake-0.3.dev1.dist-info/RECORD,,
