@@ -1,0 +1,10 @@
+napkinxc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napkinxc/_napkinxc.cp310-win_amd64.pyd,sha256=0uikOFHdhzBEAGd4QWJtCUG0EsslkZc_73jOXy3Snz0,667136
+napkinxc/datasets.py,sha256=R6FJMGD_iOcI6o0BqboQ2nYjmOuhwDq6Pkvpcp0v5ms,37266
+napkinxc/measures.py,sha256=PRiLu7hu2w0Q8b4rYOBu6P3MFymAqEvTFtYGXT__pnY,28768
+napkinxc/models.py,sha256=L9XB0-es8JWcntkMrnB9VWAc4KbUHMCiZxR4KbGXg6Q,40068
+napkinxc-0.6.1.dist-info/LICENSE.md,sha256=2dXM9b4OKaDxx9t2VsnX-aBRau8xfsT6900V-4JTYcQ,1091
+napkinxc-0.6.1.dist-info/METADATA,sha256=0MK_1DdyY6DB4uwfJOGukR2XfgIWsdalvOUL-3sG82E,5534
+napkinxc-0.6.1.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+napkinxc-0.6.1.dist-info/top_level.txt,sha256=nLs0hZJ0o1ldhb8i35RhLz-upJmKIilsbSapxmmLo-M,9
+napkinxc-0.6.1.dist-info/RECORD,,
