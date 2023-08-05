@@ -1,0 +1,12 @@
+nextcord==2.0.0
+dnspython
+psutil
+requests
+pymongo
+motor>=3.0.0
+devgoldyutils
+pytz
+dateparser
+pdoc
+pathlib
+nest_asyncio
