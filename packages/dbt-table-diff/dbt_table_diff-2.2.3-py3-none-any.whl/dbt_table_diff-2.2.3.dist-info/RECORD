@@ -1,0 +1,9 @@
+dbt_table_diff/__init__.py,sha256=e_1kvu0IJ0AJUl3BrKrMbCu7KN94kGP7-6dz3xn6rzs,119
+dbt_table_diff/__main__.py,sha256=PE5XoGYSWUMKK-Zc3nuJD3G6GyAm-LePM3hROAhlreQ,218
+dbt_table_diff/arg_parser.py,sha256=1ybWb3oE0S3y9yK-ujDfwA0FYdnCCH2pX1aDKYfMpJU,1622
+dbt_table_diff/run_sql_checks.py,sha256=AJ_9x-mveAyXtuu5NhSdubeaVsqxzN-XhqhSSENxSlI,11790
+dbt_table_diff-2.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dbt_table_diff-2.2.3.dist-info/METADATA,sha256=RFxu8JOZVIwM2gAGzc5oHVi3SOcOxvczwEgtxqHn0SM,10786
+dbt_table_diff-2.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dbt_table_diff-2.2.3.dist-info/top_level.txt,sha256=yfAxruNvYO1chHNPiKTNCbu1C3cGV7uBTzzQGZH_8rI,15
+dbt_table_diff-2.2.3.dist-info/RECORD,,
