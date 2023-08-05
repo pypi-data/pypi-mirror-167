@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_fargate_secretsmanager/__init__.py,sha256=Ddb9C4tjdxq93aq5uGklpc56jAOK2tIygujStHEcA8c,31711
+aws_solutions_constructs/aws_fargate_secretsmanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_fargate_secretsmanager/_jsii/__init__.py,sha256=CmapJWJPvpom1OI3IfbKEEjMlRo7PRSh_pN5eDph5Tg,503
+aws_solutions_constructs/aws_fargate_secretsmanager/_jsii/aws-fargate-secretsmanager@2.22.0.jsii.tgz,sha256=oHmrpx-uPgPCpNtW1NV3gv0afue-m5rPDmQYHJZ9hQY,138053
+aws_solutions_constructs.aws_fargate_secretsmanager-2.22.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_fargate_secretsmanager-2.22.0.dist-info/METADATA,sha256=XPqIM36WR5UaHfiBGWGVq41wQdVf21CfgqIyd0qOr1o,10050
+aws_solutions_constructs.aws_fargate_secretsmanager-2.22.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_solutions_constructs.aws_fargate_secretsmanager-2.22.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_fargate_secretsmanager-2.22.0.dist-info/RECORD,,
