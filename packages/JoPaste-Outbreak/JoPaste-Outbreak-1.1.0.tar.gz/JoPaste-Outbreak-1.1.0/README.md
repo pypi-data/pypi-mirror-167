@@ -1,0 +1,1 @@
+Event cards, Cities, and virus classes designed for a simulation fo a Covid virus outbreak.
