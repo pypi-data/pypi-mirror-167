@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PrettyTool/PrettyTool.py
+PrettyTool/__init__.py
+PrettyTool/PrettyTool.egg-info/PKG-INFO
+PrettyTool/PrettyTool.egg-info/SOURCES.txt
+PrettyTool/PrettyTool.egg-info/dependency_links.txt
+PrettyTool/PrettyTool.egg-info/requires.txt
+PrettyTool/PrettyTool.egg-info/top_level.txt

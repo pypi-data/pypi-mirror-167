@@ -1,0 +1,4 @@
+yaspin
+termcolor
+pyfiglet
+tabulate

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PrettyTool
+Version: 0.0.4
+Summary: Create gorgeous command line interfaces with this all-in-one module!
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pretty Tool
+
+
