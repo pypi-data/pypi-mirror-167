@@ -1,0 +1,9 @@
+psf/__init__.py,sha256=dzMxYcvOWwrR4LWT4tFQRE31NsV90ZEEFB8Ff9p-mVk,89
+psf/_psf.cp38-win_amd64.pyd,sha256=GmxX7pJhZB4k1VfJZxYS-HC6Dh6YcYt3G6WVVG_7JyI,35328
+psf/psf.py,sha256=R358YSJrTKy-Y-h_jnVGaD5ajdjojAyf7unf16xpdYM,29785
+psf/examples/psf_example.py,sha256=OLvPyXrHdvfTniI3E5BPyO0H_K63wBddonfJ-p8bBcM,4372
+psf-2022.9.12.dist-info/LICENSE,sha256=_LOipKuIgzczgwpYm9RYDMEwiAOFDobAzzXmcCn5z6A,1576
+psf-2022.9.12.dist-info/METADATA,sha256=MKZdsvFhrBp9FxmyQ8hF_Nfsyp7X2jtfLqyVjtB5l1k,4404
+psf-2022.9.12.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+psf-2022.9.12.dist-info/top_level.txt,sha256=hl58iBs6un3SxETzKo6Ms6vdkMftKZwQ6FaNJhCbiJU,4
+psf-2022.9.12.dist-info/RECORD,,
