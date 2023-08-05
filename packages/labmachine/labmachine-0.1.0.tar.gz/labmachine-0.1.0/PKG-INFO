@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: labmachine
+Version: 0.1.0
+Summary: A simple creator of machines with Jupyterlab
+Home-page: https://github.com/nuxion/labmachine
+License: Apache-2.0
+Keywords: jupyter,cloud
+Author: nuxion
+Author-email: nuxion@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: gcs
+Requires-Dist: apache-libcloud (>=3.6.0,<4.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: cryptography (>=37.0.4,<38.0.0)
+Requires-Dist: google-cloud-storage (>=1.31.0,<2.0.0); extra == "gcs"
+Requires-Dist: nanoid (>=2.0.0,<3.0.0)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: smart-open (>=6.0.0,<7.0.0); extra == "gcs"
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: tomli-w (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/nuxion/labmachine
+Description-Content-Type: text/markdown
+
+# labmachine
+
+This a POC about creating a jupyter instance on demand and registering it into a dns provider and HTTPS. 
+
+Right now only works for Google Cloud but should be easy expand to other providers. 
+
+
+For examples, see [examples](examples/)
+There you can see `infra_[cpu|gpu].py` and `lab_[cpu|gpu].py`
+
+infra files are raw implementacion of the cluster library. 
+lab files are abstractions built over this library for jupyter lab provisioning. 
+
+
+For authentication the google app cred variable should be defined:
+```
+./scripts/gce_auth_key.sh <ACCOUNT>@<PROJECT_ID>.iam.gserviceaccount.com
+mv gce.json ${HOME}/.ssh/gce.json
+export GOOGLE_APPLICATION_CREDENTIALS=${HOME}/.ssh/gce.json
+```
+
+Run `gcloud iam service-accounts list` to see SA available in your project. 
+
+### Suggested approach:
+
+If you don't have a SA already created, you can take this strategy to create one and asign permissions to it.
+
+```
+gcloud iam service-accounts create labcreator
+    --description="Jupyter lab creator" \
+    --display-name="lab-creator"
+```
+
+Then add the following roles to the account:
+
+	- `roles/compute.instanceAdmin.v1`
+	- `roles/iam.serviceAccountUser`
+  - `roles/dns.admin` check https://cloud.google.com/dns/docs/access-control
+
+DNS role is needed only if the google dns provider is used
+
+**Warning**: those roles can be too permissive, please check [this for more information](https://cloud.google.com/compute/docs/access/iam)
+
+```
+roles="roles/compute.instanceAdmin.v1 roles/iam.serviceAccountUser"
+for $perm in `cat $roles`; do
+	gcloud projects add-iam-policy-binding PROJECT_ID \
+  	  --member="serviceAccount:labcreator@PROJECT_ID.iam.gserviceaccount.com" \
+    	--role=$perm
+done
+``` 
+
+## Destroy lab
+
+```
+python3 examples/destroy_lab.py
+```
+
+## Next work
+
+See https://trello.com/b/F2Smw3QO/labmachine
+
+
