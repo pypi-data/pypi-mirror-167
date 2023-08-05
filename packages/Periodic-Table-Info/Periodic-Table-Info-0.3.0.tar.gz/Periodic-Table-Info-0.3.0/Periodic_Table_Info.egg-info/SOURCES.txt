@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+elements.py
+main.py
+print.py
+pyproject.toml
+setup.cfg
+setup.py
+Periodic_Table_Info.egg-info/PKG-INFO
+Periodic_Table_Info.egg-info/SOURCES.txt
+Periodic_Table_Info.egg-info/dependency_links.txt
+Periodic_Table_Info.egg-info/entry_points.txt
+Periodic_Table_Info.egg-info/top_level.txt

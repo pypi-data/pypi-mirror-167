@@ -1,0 +1,2 @@
+[console_scripts]
+periodic-table-info = elements:element_print_out
