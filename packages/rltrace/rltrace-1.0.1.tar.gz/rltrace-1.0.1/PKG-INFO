@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rltrace
+Version: 1.0.1
+Summary: Simple python logging with option to log direct to elastic search
+Home-page: UNKNOWN
+Author: Mark Parris
+Author-email: parris3141@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/rltrace/1.0.0/
+Project-URL: Source, https://github.com/parrisma/trace
+Project-URL: Tracker, https://github.com/parrisma/trace/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: numpy
+Provides-Extra: python-kubernetes
+Provides-Extra: pytz
+Provides-Extra: elasticsearch
+Provides-Extra: setuptools
