@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: thesaurus-lib
+Version: 0.0.2
+Summary: Implemented thesaurus library using SOM
+Author: Karam Shbeb
+Author-email: karam.shbeb1@hotmail.com
+Keywords: thesaurus,NLP
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
