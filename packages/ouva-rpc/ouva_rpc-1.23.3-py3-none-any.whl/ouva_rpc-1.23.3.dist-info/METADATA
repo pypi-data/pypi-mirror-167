@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ouva-rpc
+Version: 1.23.3
+Summary: Ouva RPC package
+Home-page: https://gitlab.com/ouvaco/ouva-protos
+Author: Cagdas Bas
+Author-email: cagdasbs@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: protobuf
+Provides-Extra: grpc
+Requires-Dist: grpcio ; extra == 'grpc'
+
+# ouva-protos
+
+A helper library containing all Protobuf messages used in Kafka, gRPC & Redis.
+
+## How to Build
+
+```shell
+# Update version if necessary by running this command:
+# make set-version VERSION=<NEW_VERSION>
+make build
+```
+
+## How to Release
+
+Release process means the library passed all its tests & ready to be deployed on both PyPi and Maven registries. We use [semantic versioning](https://semver.org/) for each release so keep that in mind while setting a new version.
+
+```shell
+make release NEXUS_USER=<YOUR_NEXUS_USERNAME> NEXUS_PWD=<YOUR_NEXUS_PASSWORD> VERSION=<NEW_VERSION>
+```
+
+## How to Generate Proto Descriptor File
+
+```shell
+make generate-proto-desc
+```
+
+## Messages
+
+### Commands
+
+* **attribute**: Attribute detection command
+* **change_room_state**: Enables/disables a room with sensor when a patient is admitted to a room (or a patient left a room after discharge)
+
+### Events
+
+* **frame**: Frame events with person crops
+* **notification**: (info, warning or alert level) notification events or cancellation events.
+* **patient-risk**: Published only when a risk flag (fall risk, wander risk, etc.) of any patient changes.
+* **patient-session**: Patient session or standby events.
+* **patient-status**: Patient status events regarding latest patient action in the room.
+* **person-count**: Published only when person counts in a room change.
+* **person-metadata**: Person metadata event containing all pose data & related person counts.
+* **room-metadata**: Persisted in Redis with up-to-date sensor metadata only when related data changes or on service startups.
+* **room-status**: Room status events regarding patient ADT actions.
+* **segment-metadata**: Segmentation metadata events regarding room objects (chair, bed, etc.)
+* **timeline**: Timeline events that provides historical data of a patient or room.
+
+
