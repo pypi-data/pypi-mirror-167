@@ -1,0 +1,7 @@
+pyproject.toml
+boolshit/__init__.py
+boolshit/maybe.py
+boolshit.egg-info/PKG-INFO
+boolshit.egg-info/SOURCES.txt
+boolshit.egg-info/dependency_links.txt
+boolshit.egg-info/top_level.txt

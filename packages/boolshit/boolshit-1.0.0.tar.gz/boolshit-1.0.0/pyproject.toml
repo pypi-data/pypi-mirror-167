@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boolshit"
+description = "https://github.com/hirsimaki-markus/boolshit"
+readme = "https://github.com/hirsimaki-markus/boolshit"
+dynamic = ["version"]
+
+[tool.setuptools]
+py-modules = [
+  "boolshit.maybe"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "boolshit.__version__"}
