@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: full
+Version: 0.0.3
+Project-URL: Documentation, https://github.com/unknown/full#readme
+Project-URL: Issues, https://github.com/unknown/full/issues
+Project-URL: Source, https://github.com/unknown/full
+Author-email: maximedb <maximedebruyn@gmail.com>
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: torch
+Requires-Dist: transformers
+Description-Content-Type: text/markdown
+
+# FULL
+
+Unsupervised evaluation of open-domain conversations using follow-ups likelihood.
+
+-----
+
+## Installation
+
+```console
+pip install full
+```
+
+## Example
+We provide an example script using FULL which reproduces the results of the paper.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maximedb/full/blob/master/examples/results_reproduction.ipynb)
+
+## Turn evaluation
+
+```python
+from full import FULL
+eval_model = FULL()
+conversation = ["Hi", "What's your name"]
+response = "None of your business"
+evaluation = eval_model.evaluate_turn(convesation, response)
+print(evaluation)
+```
+
+## Conversation evaluation
+
+```python
+from full import FULL
+eval_model = FULL()
+conversation = ["Hi", "What's your name", "None of your business"]
+evaluation = eval_model.evaluate_turn(convesation)
+print(evaluation)
+```
+
+## License
+
+`full` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
