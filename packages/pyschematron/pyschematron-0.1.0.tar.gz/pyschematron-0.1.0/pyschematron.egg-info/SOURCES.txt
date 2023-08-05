@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+pyschematron/__init__.py
+pyschematron/__version__.py
+pyschematron/cli.py
+pyschematron/config.py
+pyschematron/pyschematron.py
+pyschematron.egg-info/PKG-INFO
+pyschematron.egg-info/SOURCES.txt
+pyschematron.egg-info/dependency_links.txt
+pyschematron.egg-info/entry_points.txt
+pyschematron.egg-info/requires.txt
+pyschematron.egg-info/top_level.txt
+pyschematron/cli_scripts/__init__.py
