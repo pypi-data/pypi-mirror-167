@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: sarw-spheres
+Version: 0.0.1
+Summary: Genrate self avoiding random walks (SARW) for spheres of given sizes.
