@@ -1,0 +1,10 @@
+click<9,>=8
+pycryptodome==3.15.0
+yachalk<0.2.0,>=0.1.0
+notebook
+analytics-python
+
+[dev]
+isort
+black
+pre-commit
