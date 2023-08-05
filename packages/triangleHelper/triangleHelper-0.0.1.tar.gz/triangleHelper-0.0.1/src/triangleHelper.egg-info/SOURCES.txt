@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/__init__.py
+src/triangle.py
+src/triangleHelper.egg-info/PKG-INFO
+src/triangleHelper.egg-info/SOURCES.txt
+src/triangleHelper.egg-info/dependency_links.txt
+src/triangleHelper.egg-info/top_level.txt
