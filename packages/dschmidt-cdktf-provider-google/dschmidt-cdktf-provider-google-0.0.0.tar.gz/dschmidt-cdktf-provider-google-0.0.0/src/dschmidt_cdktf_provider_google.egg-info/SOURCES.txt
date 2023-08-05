@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/dschmidt_cdktf_provider_google/__init__.py
+src/dschmidt_cdktf_provider_google/py.typed
+src/dschmidt_cdktf_provider_google.egg-info/PKG-INFO
+src/dschmidt_cdktf_provider_google.egg-info/SOURCES.txt
+src/dschmidt_cdktf_provider_google.egg-info/dependency_links.txt
+src/dschmidt_cdktf_provider_google.egg-info/requires.txt
+src/dschmidt_cdktf_provider_google.egg-info/top_level.txt
+src/dschmidt_cdktf_provider_google/_jsii/__init__.py
+src/dschmidt_cdktf_provider_google/_jsii/provider-google@0.0.0.jsii.tgz
