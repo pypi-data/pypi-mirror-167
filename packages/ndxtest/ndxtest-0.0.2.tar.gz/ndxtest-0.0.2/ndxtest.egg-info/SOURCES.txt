@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ndxtest/__init__.py
+ndxtest/backtest.py
+ndxtest/dev.py
+ndxtest/indicators.py
+ndxtest/utils.py
+ndxtest.egg-info/PKG-INFO
+ndxtest.egg-info/SOURCES.txt
+ndxtest.egg-info/dependency_links.txt
+ndxtest.egg-info/requires.txt
+ndxtest.egg-info/top_level.txt
