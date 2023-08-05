@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: metku
+Version: 0.1.5
+Summary: Module for structural analysis and optimization
+Home-page: https://github.com/kuisidu/metku
+Author: Kristo Mela, Jaakko Huusko, Viktor Haimi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# *metku* is a module for analysing and optimizing steel and timber frame structures
+
+## Installation (Work In Progress)
+
+```
+pip install metku
+```
+
+
+
