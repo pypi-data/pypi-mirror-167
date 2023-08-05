@@ -1,0 +1,16 @@
+resumy/config.example.yaml,sha256=y9sH3a9qFdmDMZaSQg1Tcb4RdccTKywGeFjV8OjPDu4,1466
+resumy/resumy.py,sha256=uJkCZ2UkuFczGpv0R1HHy2KBlfQLAtLmsJYocVRecR4,12905
+resumy/schemas/jsonresume.yaml,sha256=e6pjUfwyw9EKlI_PnlN4bg8oozMgd_xftVjNYypkNFI,11368
+resumy/schemas/resumy.yaml,sha256=4ryOBhD4Pqa7LkzAz5lSFGVMuVlxvo5ISZFt7W9l3fU,4870
+resumy/themes/prairie/icons.css,sha256=OmJM8i3zS5uWaHp6xDFIwMLFG1M_gwm8k8dyCWTntaw,644
+resumy/themes/prairie/theme.css,sha256=z8esVV_2Yp7Yt5Aj7uez7OenIry4gqBhBpsE5qBUH_k,1476
+resumy/themes/prairie/theme.html,sha256=HhksIIWu2klRnBCJDMbdammYg9vTqFMJVLoGAYOsMcg,3524
+resumy/themes/prairie/fonts/Roboto-Bold.woff2,sha256=-xPDocusYGSbdvfX-FwWRdNaxpuFzl9OsGklBezCzUU,63920
+resumy/themes/prairie/fonts/Roboto-Regular.woff2,sha256=QB1BgojC_xmg_3tfnN2-nzuRsyQ2LyIj_dDN6mlP63Y,63692
+resumy/themes/prairie/fonts/prairie.woff2,sha256=3GOsKqcn8_YANyEZkBhLVAK5RyiGueFBdc3wX1yhY6U,1308
+resumy-0.1.0.dist-info/LICENSE,sha256=fvOn5zB9BlcaMqt_rhzOyZA988XDXjr-aMlKmx_bNs0,1069
+resumy-0.1.0.dist-info/METADATA,sha256=MxncmegRlyLPPVYDpOZ64-xP56klvhnfjXCbHHFbyQo,3608
+resumy-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resumy-0.1.0.dist-info/entry_points.txt,sha256=19QOYD6zpfnl31eIfgg-a-xWZC_3xCSaBtz45JS_D44,46
+resumy-0.1.0.dist-info/top_level.txt,sha256=3QsaBQfiEMnBpgC1SioKrVYQ0zxGk6Mqh93u6_AA38I,7
+resumy-0.1.0.dist-info/RECORD,,
