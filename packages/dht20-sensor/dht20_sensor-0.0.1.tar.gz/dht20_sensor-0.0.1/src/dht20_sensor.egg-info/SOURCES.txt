@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dht20_sensor/__init__.py
+src/dht20_sensor/sensor.py
+src/dht20_sensor.egg-info/PKG-INFO
+src/dht20_sensor.egg-info/SOURCES.txt
+src/dht20_sensor.egg-info/dependency_links.txt
+src/dht20_sensor.egg-info/requires.txt
+src/dht20_sensor.egg-info/top_level.txt
