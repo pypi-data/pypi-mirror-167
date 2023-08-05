@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: WebFiles
+Version: 0.0.0
+Summary: Download and read files from the web.
+Home-page: 
+Author: Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard
+Author-email: mvinyard@broadinstitute.org
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WebFiles
+Download files hosted on the internet and parse with python
+
+
+### Core class construct:
+
+```python
+import wget
+
+class WebFile:
+    def __init__(self, http_address, local_path=None):
+        
+        self.http_address = http_address
+        if local_path:
+            self.local_path = local_path
+        else:
+            self.local_path = os.path.basename(http_address)
+            
+    def download(self):
+        if not os.path.exists(self.local_path):
+            wget.download(self.http_address, self.local_path, bar=False)
+            
+```

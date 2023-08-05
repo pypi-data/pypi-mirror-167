@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+WebFiles/__init__.py
+WebFiles.egg-info/PKG-INFO
+WebFiles.egg-info/SOURCES.txt
+WebFiles.egg-info/dependency_links.txt
+WebFiles.egg-info/requires.txt
+WebFiles.egg-info/top_level.txt
