@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: monoid
+Version: 0.1.0a0
+Summary: Monorepo Workspace Manager for Python-based Microservices
+Home-page: https://github.com/SebastiaanZ/wx
+License: MIT
+Author: Sebastiaan Zeeff
+Author-email: sebastiaan.zeeff@gmail.com
+Maintainer: Sebastiaan Zeeff
+Maintainer-email: sebastiaan.zeeff@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/SebastiaanZ/wx
+Description-Content-Type: text/markdown
+
+# Monoid: A Monorepo Workspace Manager
+
