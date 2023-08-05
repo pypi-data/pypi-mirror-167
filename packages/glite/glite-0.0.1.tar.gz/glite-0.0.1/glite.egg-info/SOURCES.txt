@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+glite/__init__.py
+glite.egg-info/PKG-INFO
+glite.egg-info/SOURCES.txt
+glite.egg-info/dependency_links.txt
+glite.egg-info/top_level.txt
