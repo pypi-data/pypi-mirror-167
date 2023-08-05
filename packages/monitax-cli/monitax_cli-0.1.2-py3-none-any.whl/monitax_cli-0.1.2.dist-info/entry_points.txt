@@ -1,0 +1,3 @@
+[console_scripts]
+mon-cli=monitax_cli.main:app
+
