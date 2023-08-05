@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: xklb
+Version: 1.16.10
+Summary: xk library
+Home-page: https://github.com/chapmanjacobd/lb/
+License: BSD-3-Clause
+Author: Jacob Chapman
+Author-email: 7908073+chapmanjacobd@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: catt
+Requires-Dist: ffmpeg-python
+Requires-Dist: humanize
+Requires-Dist: ipython
+Requires-Dist: joblib
+Requires-Dist: mutagen
+Requires-Dist: natsort
+Requires-Dist: protobuf (<4)
+Requires-Dist: pysubs2 (>=1.4.3,<2.0.0)
+Requires-Dist: python-mpv-jsonipc (>=1.1.13,<2.0.0)
+Requires-Dist: rich
+Requires-Dist: sqlite-utils
+Requires-Dist: subliminal
+Requires-Dist: tabulate
+Requires-Dist: tinytag
+Project-URL: Documentation, https://github.com/chapmanjacobd/lb/wiki/Usage
+Description-Content-Type: text/markdown
+
+
