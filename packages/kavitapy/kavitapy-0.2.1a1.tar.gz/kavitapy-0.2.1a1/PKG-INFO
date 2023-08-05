@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: kavitapy
+Version: 0.2.1a1
+Summary: A python wrapper for the Kavita API
+Project-URL: Homepage, https://gitlab.com/RealStickman/kavitapy
+Project-URL: Bug Tracker, https://gitlab.com/RealStickman/kavitapy/issues
+Author-email: RealStickman <mrc@frm01.net>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Requires-Dist: requests>=2.27.0
+Description-Content-Type: text/markdown
+
+# A python wrapper for the Kavita API
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Plugin authentication](#authentication)
+    - [HTTP Status Code](#status_code)
+    - [Returned Contents](#returned_contents)
+    - [/api/Reader endpoints](#api_reader)
+    - [/api/Library endpoints](#api_library)
+    - [/api/Series endpoints](#api_series)
+- [Versioning](#versioning)
+
+## Installation <a name="installation"></a>
+Use pip in your terminal of choice.  
+`$ python -m pip install kavitapy`  
+
+This library requires Python 3. Testing is done on Python 3.10  
+
+## Usage <a name="usage"></a>
+Import the package using  
+```python
+import kavitapy
+```
+
+### Plugin authentication <a name="authentication"></a>
+Plugin authentication is done automatically whenever you call an object or one of its methods.  
+For example:  
+```python
+kavitapy.Reader("url","apikey")
+```
+
+Your token can also be accessed.  
+```python
+kavitapy.Reader("url","apikey").token
+```
+
+Replace `url` with your server address. Make sure to include `http://` or `https://`.  
+Replace `apikey` with your user's API key. You can find it under the 3rd Party Clients tab in your user settings in the webinterface.  
+
+### HTTP Status Code <a name="status_code"></a>
+Any method returns the full http response. Use `.status_code` to view the returned status code  
+```python
+kavitapy.Reader("url","apikey").status_code
+```
+```python
+kavitapy.Reader("url","apikey").chapter_info(Chapter ID(Int)).status_code
+```
+
+### Returned Contents <a name="returned_contents"></a>
+Many of the methods return not only as status code, but also other content. For example, a list of Books or Manga matching a particular query.  
+Use `.content` to view the raw response  
+``` python
+kavitapy.Library("url","apikey").search(Query(String)).content
+```
+
+Often times the response content can also be parsed by decoding it with `.json()`  
+``` python
+...
+import json
+...
+kavitapy.Library("url","apikey").search(Query(String)).json()
+```
+
+### /api/Reader endpoints <a name="api_reader"></a>
+#### Return information about a single chapter
+```python
+kavitapy.Reader("url","apikey").chapter_info(Chapter(Int))
+```
+Return content: Json  
+
+#### Mark all series in the list as read or unread
+```python
+kavitapy.Reader("url","apikey").mark_multiple_series("operation",Series(List))
+```
+`operation` can be either `read` or `unread`.  
+Return content: None  
+
+#### Mark all series in the list as read
+```python
+kavitapy.Reader("url","apikey").mark_multiple_series_read(Series(List))
+```
+Return content: None  
+
+#### Mark all series in the list as unread
+```python
+kavitapy.Reader("url","apikey").mark_multiple_series_unread(Series(List))
+```
+Return content: None  
+
+#### Return progress for a chapter
+```python
+kavitapy.Reader("url","apikey").get_progress(Chapter(Int))
+```
+Return content: Json  
+
+#### Set reading progress on chapter
+```python
+kavitapy.Reader("url","apikey").progress(Series(Int),Volume(Int),Chapter(Int),Page(Int),[Bookscroll(String)])
+```
+*Setting `Bookscroll` is optional*  
+Return content: Json  
+
+#### Return the current progress on a series
+```python
+kavitapy.Reader("url","apikey").continue_point(Series(Int))
+```
+Return content: Json  
+
+### /api/Library endpoints <a name="api_library"></a>
+#### Scan the given library
+``` python
+kavitapy.Library("url","apikey").scan(Library(int))
+```
+Return content: None  
+
+#### Return all libraries
+``` python
+kavitapy.Library("url","apikey").libraries()
+```
+
+Alternatively, you can also use the method named `default`  
+``` python
+kavitapy.Library("url","apikey").default()
+```
+Return content: Json  
+
+#### Search series by name
+``` python
+kavitapy.Library("url","apikey").search(Query(String))
+```
+Return content: Json  
+
+### /api/Series endpoints <a name="api_series"></a>
+#### Return all series. Allows you to specify a variety of filters
+``` python
+kavitapy.Series("url","apikey").default([Library(Int)],[PageNumber(Int)],[PageSize(Int)],[ReadStatus(Dict)],[RequestBody(Dict)])
+```
+This method does not require any parameters.  
+The Parameters RequestBody and ReadStatus are mutually exclusive.  
+
+This is the format for ReadStatus  
+```
+{"unread": True,
+ "in_progress": True,
+ "read": True}
+```
+
+See the official API Documentation for RequestBody  
+Return content: Json  
+
+#### Return all volumes, chapters and page progress for a series
+``` python
+kavitapy.Series("url","apikey").volumes(Series(Int))
+```
+Return content: Json  
+
+#### Return information about the given volume
+``` python
+kavitapy.Series("url","apikey").volume(Volume(Int))
+```
+Return content: Json  
+
+## Versioning <a name="versioning"></a>
+This project aims to follow the [PEP 440 specification](https://peps.python.org/pep-0440/) versioning.  
