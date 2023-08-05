@@ -1,0 +1,14 @@
+vsdpir_ncnn/__init__.py,sha256=hWYrDzbQVyK9uGQlGfYItGbCYccdMBbfdrLIhQTBCvE,8618
+vsdpir_ncnn/__main__.py,sha256=Jc_zgCpM3MaZKyinrWrOasZRxhCnZD4czAcBoXbiv3U,1087
+vsdpir_ncnn/drunet_color.bin,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir_ncnn/drunet_color.param,sha256=1iLsfkt6vPHCH-AYTZL62mAZ1zJbM7sa4Lkz4PC4rZo,13367
+vsdpir_ncnn/drunet_deblocking_color.bin,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir_ncnn/drunet_deblocking_color.param,sha256=1iLsfkt6vPHCH-AYTZL62mAZ1zJbM7sa4Lkz4PC4rZo,13367
+vsdpir_ncnn/drunet_deblocking_gray.bin,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir_ncnn/drunet_deblocking_gray.param,sha256=_tB-AXWc1XIzbSef9xQxTyvpKJO6NGEXSoAivJl3dQg,13366
+vsdpir_ncnn/drunet_gray.bin,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdpir_ncnn/drunet_gray.param,sha256=_tB-AXWc1XIzbSef9xQxTyvpKJO6NGEXSoAivJl3dQg,13366
+vsdpir_ncnn-2.0.0.dist-info/METADATA,sha256=2-uW3lsT__yGmuuzVcdbsQMHxyQ56MDVPOdcutjlM0o,2827
+vsdpir_ncnn-2.0.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+vsdpir_ncnn-2.0.0.dist-info/licenses/LICENSE,sha256=gvMfpJKzr0WNuuQwyx3u8blx2NljSI6UAPBbKmUDqnQ,1084
+vsdpir_ncnn-2.0.0.dist-info/RECORD,,
