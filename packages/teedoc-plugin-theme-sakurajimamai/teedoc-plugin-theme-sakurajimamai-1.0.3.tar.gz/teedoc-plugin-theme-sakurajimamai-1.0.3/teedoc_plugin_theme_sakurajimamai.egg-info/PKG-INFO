@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: teedoc-plugin-theme-sakurajimamai
+Version: 1.0.3
+Summary: sakurajimamai theme for teedoc
+Home-page: https://github.com/SakurajimaMaii/teedoc
+Author: VastGui
+Author-email: guihy2019@foxmail.com
+License: MIT
+Keywords: doc website markdown jupyter notbook generator teedoc theme
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+teedoc-plugin-theme-sakurajimamai
+===========
+
+sakurajimamai theme for [teedoc](https://github.com/Neutree/teedoc). 
+If you want to preview, please visit [VastDocs](https://sakurajimamaii.github.io/VastDocs/).
