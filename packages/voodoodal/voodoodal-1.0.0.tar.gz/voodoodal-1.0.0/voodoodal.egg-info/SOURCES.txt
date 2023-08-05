@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+voodoodal/__init__.py
+voodoodal/voodoodal.py
+voodoodal.egg-info/PKG-INFO
+voodoodal.egg-info/SOURCES.txt
+voodoodal.egg-info/dependency_links.txt
+voodoodal.egg-info/requires.txt
+voodoodal.egg-info/top_level.txt
