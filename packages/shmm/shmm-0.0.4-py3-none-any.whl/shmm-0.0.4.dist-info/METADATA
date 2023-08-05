@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: shmm
+Version: 0.0.4
+Summary: Sequential Hidden Markov Models
+Home-page: UNKNOWN
+Author: Lei Fu
+Author-email: <leifu@intrinsicresearch.com>
+License: UNKNOWN
+Keywords: python,regression,classification,hidden markov model,machine learning,time series
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: jaxtyping
+
+
+# Sequential-Hidden-Markov-Regression
+
+
+
