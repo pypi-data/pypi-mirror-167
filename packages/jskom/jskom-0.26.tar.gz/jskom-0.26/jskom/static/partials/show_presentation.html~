@@ -1,0 +1,40 @@
+<div ng-show="conf" ng-cloak>
+  <h2>{{ conf|confType }}: {{ conf | confTitle }}</h2>
+
+
+  <div class="row">
+    <div class="twelve columns">
+      <dl class="tabs">
+        <dd ng-class="isTabActive('presentation')">
+          <a ng-click="selectTab('presentation')">Presentation</a>
+        </dd>
+        <dd ng-class="isTabActive('details')">
+          <a ng-click="selectTab('details')">Details</a>
+        </dd>
+        <dd ng-class="isTabActive('membership')" ng-hide="isLoadingMembership">
+          <a ng-click="selectTab('membership')">Membership</a>
+        </dd>
+      </dl>
+
+      <ul class="tabs-content">
+
+        <li ng-class="isTabActive('presentation')">
+          <ng-switch on="conf.presentation">
+            <div ng-switch-default>
+              <jskom:loading ng-show="isLoadingPresentation"></jskom:loading>
+              <div ng-show="text">
+                <ng-include src="'text.html'|jskomTemplate"></ng-include>
+              </div>
+            </div>
+            <div ng-switch-when="0">
+              <em>{{ conf.name }} has no presentation.</em>
+            </div>
+          </ng-switch>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="jskomControlBar">
+  </div>
+</div>
