@@ -1,0 +1,25 @@
+"""Entry point to the cli commands."""
+import argparse
+import logging
+from logging.config import dictConfig
+
+from {package_name}.logging_config.logger_config import get_logger_config
+from {package_name}.{package_name} import funone
+
+dictConfig(get_logger_config())
+
+
+def main():
+    """Main example."""
+    logging.info("Running {package_name} on the command line: ")
+    funone_res = funone(1)
+    logging.info(f"This is f1(): LEFT_CURLY_BRACKETfunone_resRIGHT_CURLY_BRACKET")
+
+
+if __name__ == "__main__":
+    # add argparse to the main function to handle cli input
+    parser = argparse.ArgumentParser(description="Pyprote")
+    parser.add_argument("-v", "--verbose", action="store_true", help="Increase output verbosity")
+    args = parser.parse_args()
+
+    main()

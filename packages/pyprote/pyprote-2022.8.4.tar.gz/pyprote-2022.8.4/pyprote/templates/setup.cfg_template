@@ -1,0 +1,40 @@
+[darglint]
+strictness = long
+
+[isort]
+include_trailing_comma = True
+multi_line_output = 3
+use_parentheses = True
+ensure_newline_before_comments = True
+
+[mypy]
+ignore_missing_imports = True
+
+[flake8]
+format = wemake
+show-source = True
+enable-extensions = G
+radon-no-assert = True
+radon-show-closures = True
+max-string-usages = 5
+max-line-length = 120
+show-violation-links = True
+ignore =  D401,   # ignore imperative mood check in docstring
+        WPS323,   # allow % in string for datetime formatting
+        WPS305,   # allow f-strings
+; See https://wemake-python-styleguide.readthedocs.io/en/latest/pages/usage/violations/index.html for all error codes
+per-file-ignores =
+    # allow __version__ in app init.py
+    {package_name}/__init__.py: WPS412,WPS410
+    # allow pre-commit script
+    hooks/*:W,E,S,D
+    # allow assert in tests
+    tests/*:S101
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist
+inline-quotes = "

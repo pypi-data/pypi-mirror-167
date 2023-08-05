@@ -1,0 +1,107 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "pyprote"
+
+version = "2022.08.4"
+
+description = "A tool for creating python packages."
+authors = [
+    "Sebastian Cattes <sebastian.cattes@inwt-statistics.de>",
+]
+maintainers = [
+    "Sebastian Cattes <sebastian.cattes@inwt-statistics.de>",
+]
+license = "LICENSE"
+
+readme = "README.md"
+
+packages = [
+    { include = "pyprote", from = "." }
+]
+
+homepage = "https://github.com/Cattes/pypote"
+repository = "https://github.com/Cattes/pypote"
+documentation = "https://github.com/Cattes/pypote"
+
+keywords = ["template", "package", "python"]
+
+classifiers = [
+            'Development Status :: 3 - Alpha',
+            'Intended Audience :: Developers',
+            "Operating System :: OS Independent",
+            'Programming Language :: Python :: 3',
+            "Programming Language :: Python :: 3.10",
+            'Programming Language :: Python :: 3 :: Only',
+            ]
+
+[tool.poetry.build]
+generate-setup-file = true
+
+[tool.poetry.scripts]
+pyprote = "pyprote.__main__:main"
+
+# Requirements
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+
+
+[tool.poetry.dev-dependencies]
+black = "22.6.0"
+bumpver = "2022.1118"
+wemake-python-styleguide = "0.16.1"
+isort = "5.10.1"
+mypy = "0.961"
+build = "0.8.0"
+twine = "4.0.1"
+pytest = "7.1.2"
+
+##############################################################################
+
+
+[tool.bumpver]
+current_version = "2022.08.4"
+version_pattern = "YYYY.0M.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+"pyprote/__init__.py" = [
+    '__version__ = "{version}"',
+]
+
+[tool.flakehell]
+base = "https://raw.githubusercontent.com/life4/flakehell/master/pyproject.toml"
+baseline = ".flakehell_baseline"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+  | pyprote_output_dir/*
+)
+'''

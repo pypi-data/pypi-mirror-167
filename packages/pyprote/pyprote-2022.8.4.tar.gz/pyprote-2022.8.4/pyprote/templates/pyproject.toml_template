@@ -1,0 +1,105 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "{package_name}"
+
+version = "{package_version}"
+
+description = "{package_description}"
+authors = [
+    "{package_author_name} <{package_author_email}>",
+]
+maintainers = [
+    "{package_author_name} <{package_author_email}>",
+]
+license = "LICENSE"
+
+readme = "README.md"
+
+packages = [
+    LEFT_CURLY_BRACKET include = "{package_name}", from = "." RIGHT_CURLY_BRACKET
+]
+
+homepage = "{package_link}"
+repository = "{package_link}"
+documentation = "{package_link}"
+
+keywords = ["template", "package", "python"]
+
+classifiers = [
+            'Development Status :: 3 - Alpha',
+            'Intended Audience :: Developers',
+            "Operating System :: OS Independent",
+            'Programming Language :: Python :: 3',
+            "Programming Language :: Python :: 3.10",
+            'Programming Language :: Python :: 3 :: Only',
+            ]
+
+[tool.poetry.build]
+generate-setup-file = true
+
+[tool.poetry.scripts]
+package_name = "{package_name}.__main__:main"
+
+# Requirements
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+
+
+[tool.poetry.dev-dependencies]
+black = "22.6.0"
+bumpver = "2022.1118"
+wemake-python-styleguide = "0.16.1"
+isort = "5.10.1"
+mypy = "0.961"
+build = "0.8.0"
+twine = "4.0.1"
+pytest = "7.1.2"
+
+##############################################################################
+
+[tool.bumpver]
+current_version = "{package_version}"
+version_pattern = "YYYY.0M.PATCH"
+commit_message = "bump version LEFT_CURLY_BRACKETold_versionRIGHT_CURLY_BRACKET -> LEFT_CURLY_BRACKETnew_versionRIGHT_CURLY_BRACKET"
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "LEFT_CURLY_BRACKETversionRIGHT_CURLY_BRACKET"',
+]
+"{package_name}/__init__.py" = [
+    '__version__ = "LEFT_CURLY_BRACKETversionRIGHT_CURLY_BRACKET"',
+]
+
+[tool.flakehell]
+base = "https://raw.githubusercontent.com/life4/flakehell/master/pyproject.toml"
+baseline = ".flakehell_baseline"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
