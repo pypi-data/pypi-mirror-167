@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+showip/__init__.py
+showip/cli.py
+showip/showip.py
+showip.egg-info/PKG-INFO
+showip.egg-info/SOURCES.txt
+showip.egg-info/dependency_links.txt
+showip.egg-info/entry_points.txt
+showip.egg-info/requires.txt
+showip.egg-info/top_level.txt

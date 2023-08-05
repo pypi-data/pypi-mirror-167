@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: showip
+Version: 1.1.5
+Summary: Get information about your IP or any other IP
+Home-page: https://github.com/varvaruk-v/showip
+Author: Viktor Varvaruk
+Author-email: 
+License: MIT
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Get information about your IP or any other IP

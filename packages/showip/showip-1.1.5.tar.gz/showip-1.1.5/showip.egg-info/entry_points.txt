@@ -1,0 +1,3 @@
+[console_scripts]
+myip = showip.cli:main
+showip = showip.cli:main
