@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=x4dGYgAi1qPcQLw6Yc-S4utAv0rxm6IqMh-MXFjPBOA,1808
+torchconvquality/__init__.py,sha256=miznEuxCawJDJfV2aB-1n9AYuOkWE7HhSEjQYhGh9n4,1745
+torchconvquality-0.2.1.dist-info/LICENSE,sha256=er4Z7Ju3OzYUG5mbhh0krYVegIuv4PgehMzihVb2wpc,20131
+torchconvquality-0.2.1.dist-info/METADATA,sha256=h4f3_7Ztl39qKOU_o0Y0163TvAd_6Laay5uNZJ66Zgk,5568
+torchconvquality-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torchconvquality-0.2.1.dist-info/top_level.txt,sha256=YZGPNntOn8Na0FwCyip1m9XQGrmuY6Qo4cRlgGkRiQM,23
+torchconvquality-0.2.1.dist-info/RECORD,,
