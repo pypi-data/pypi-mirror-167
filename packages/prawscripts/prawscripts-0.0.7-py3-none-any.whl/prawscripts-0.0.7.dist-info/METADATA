@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: prawscripts
+Version: 0.0.7
+Summary: Wrapper for PRAW scripts built over the years by the community and mods
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: praw
+
+UNKNOWN
+
