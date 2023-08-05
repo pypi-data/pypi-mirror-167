@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: flaskriver
+Version: 0.0.1
+Summary: A package to easily use Flask together with River
+Author-email: Sebastian Wette  <mail@sebastianwette.de>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: flask
+Project-URL: Home, https://deduce.de
+
+# Flask-River:
+This is a repository for an experimental project where I will try to combine the online ML capabilities of the library "River" with the lightweight web framework "Flask".
+
+Example usage:
+
+```sh
+
+```
+
+```python
+
+```
+
+
