@@ -1,0 +1,7 @@
+chronopost_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chronopost_lib/quickcostservice.py,sha256=4H2ajQ03y8h_b7qR72Nu5XNCDgCD_Tnxzx8pGpZF-S0,151165
+chronopost_lib/shippingservice.py,sha256=F-GWuXYZJMgkaA-1vsxm15ithxtJqdImosELMkij6dM,1459947
+chronopost_lib/trackingservice.py,sha256=9ss775x3Tj3hlesgCKxuwZpvgSrCa-YYRYt-2HnGwdI,280494
+carrier.chronopost-2022.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+carrier.chronopost-2022.8.dist-info/METADATA,sha256=CGa9LbGoroSzZsWNnkjGwfUQ1uV7ObRvMrB7p5ihWzE,1272
+carrier.chronopost-2022.8.dist-info/RECORD,,
