@@ -1,0 +1,2 @@
+[console_scripts]
+programver = main:ProgramVer
