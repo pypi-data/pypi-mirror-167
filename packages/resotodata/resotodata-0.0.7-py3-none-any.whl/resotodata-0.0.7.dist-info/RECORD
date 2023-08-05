@@ -1,0 +1,11 @@
+resotodata/__init__.py,sha256=K6zjMSaKz0FtFc0lypP_wZTML-CAhyMuGwnFoRTeBD0,404
+resotodata/__main__.py,sha256=H4pqlmx1AclUNDuZi3GqeUe4S2KsxE0pzahsErrJHpI,5567
+resotodata/cloud.py,sha256=uWGkQzpHsiETNM0mMezh256J4w8P3ydPVEHU6as2ZlQ,176
+resotodata/colors.py,sha256=zyfqmA94OokQbHi-zwGyPJpsZiZVh0jBGbIdFV3MXcU,174
+resotodata/data/colors.json,sha256=G34tpV4142UOHGs_aBwMN4kbAzZCwkzCVrBzPplFyyU,1670
+resotodata/data/regions.json,sha256=7L_zhXU6wbfAs1QhbBo-JyvAVdEuSLJ4wUkSx9uPfp0,11119
+resotodata-0.0.7.dist-info/METADATA,sha256=9hpz--SBq9A2qPLrRw4zFpBsLSSDRj69zPc7_axkAxw,1114
+resotodata-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resotodata-0.0.7.dist-info/entry_points.txt,sha256=rx37vRptnYx4lnfSTaQ_apA89D57FfYinrp7mrUmcp0,142
+resotodata-0.0.7.dist-info/top_level.txt,sha256=FO2DummqDTYRli1-EoePl0KmYS1spASwCHR3p7zIfpE,11
+resotodata-0.0.7.dist-info/RECORD,,

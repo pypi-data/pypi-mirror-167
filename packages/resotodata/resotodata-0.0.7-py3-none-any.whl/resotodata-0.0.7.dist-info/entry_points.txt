@@ -1,0 +1,3 @@
+[console_scripts]
+resotodata-update-colors = resotodata.__main__:update_colors
+resotodata-update-regions = resotodata.__main__:update_regions
