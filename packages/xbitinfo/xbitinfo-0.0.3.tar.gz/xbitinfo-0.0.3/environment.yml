@@ -1,0 +1,34 @@
+name: bitinfo
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - julia
+  - pyjulia
+  - matplotlib-base
+  - numpy
+  - pooch
+  - xarray
+  - dask-core
+  - distributed
+  - jupyterlab
+  - netcdf4
+  - zarr
+  - cfgrib
+  - prefect>=1.0.0,<2.0
+  - graphviz
+  - pytest
+  - nb_conda_kernels
+  - cmcrameri
+  - tqdm
+  - asv
+  - sphinx!=4.4.0
+  - sphinxcontrib-napoleon
+  - sphinx-copybutton
+  - sphinx-book-theme
+  - myst-nb
+  - numcodecs>=0.10.0
+  - pytest-lazy-fixture
+  - pip
+  - pip:
+    - -e .
