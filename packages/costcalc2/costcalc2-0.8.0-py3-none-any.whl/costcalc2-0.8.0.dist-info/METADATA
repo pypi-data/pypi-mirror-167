@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: costcalc2
+Version: 0.8.0
+Summary: Calculate raw material costs for chemical synthetic route
+Author-email: Ryan Nelson <rnelsonchem@gmail.com>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/rnelsonchem/costcalc2
+Keywords: Chemical,Synthesis,Route,Cost,Pricing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: openpyxl (>=3.0)
+
+# costcalc
+
+*costcalc* is a Python library for calculating the overall raw materials costs 
+of a user-defined synthetic route. This package is intended for Python 
+versions >= 3.
+
+## Requirements
+
+* Python >= 3
+* Numpy >= 1.0
+* Pandas >= 1.0
+* Matplotlib >= 3.0
+* Openpyxl >= 3.0
