@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: adfp
+Version: 0.0.1
+Summary: auto differential framework
+Home-page: 
+Author: Takumi Enomoto
+Author-email: eno.sleepy.zzz.zz.z@gmail.com
+License: MIT License
+Keywords: auto differential
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# adfp
+'adfp' (Auto DiFferential for Python) is the framework for auto diffenretials.
+This project imtates the implemetation of latest deep learning framework.
