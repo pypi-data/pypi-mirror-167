@@ -1,0 +1,14 @@
+stateplane/__init__.py,sha256=J_nGaZ1M8eMW-1cLzAQuwAQy3PldzX5hk0I3gHcWEzs,453
+stateplane/cli.py,sha256=FOb1SLfFvD31x-cuDa3XxoExbTeJPYYwJ8mPhfJIy4U,786
+stateplane/dicts.py,sha256=47t5vVsAJVwxTZoIRYQnpiuLocNVdxo41P8fhqRJNvo,27100
+stateplane/stateplane.py,sha256=nXGK06GJsHl818_N-KqvqtbSuGmn9GfIFoFpLJLZdDM,4612
+stateplane/data/countyfp.csv,sha256=nJldnAPn0HDpVNGSWqAVSaPqEIuJZ0rtadRDYjm8j2s,38801
+stateplane/data/stateplane.geojson,sha256=aQCLQzOkOaUAfOucne8vzPHxIu4MxBb3sNfSshmCPbo,1014378
+tests/__init__.py,sha256=WWzT0Nt7YFNeVZUJN0d2v7HvV8vjxTYd2LYfe2IqSeI,307
+tests/test_stateplane.py,sha256=RxGIMY9E7tblk4PoYorMS3nxRpnbiCaJYVTE5870_2M,3604
+stateplane-0.3.2.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+stateplane-0.3.2.dist-info/METADATA,sha256=vYGvsFyBwm9JofV1VU1aE22545d0QQNgWWTPVHUJ3cE,3798
+stateplane-0.3.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stateplane-0.3.2.dist-info/entry_points.txt,sha256=05N_rv28b1lkvzaHXDCAfzB-6vAr7Syhzj9Zr9w8qHw,51
+stateplane-0.3.2.dist-info/top_level.txt,sha256=KsdTto7JwDKbpHI32-LCJfjPYx54hE82IhyoYirfNiI,17
+stateplane-0.3.2.dist-info/RECORD,,
