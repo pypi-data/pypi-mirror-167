@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datajson/__init__.py
+datajson/datajson.py
+datajson.egg-info/PKG-INFO
+datajson.egg-info/SOURCES.txt
+datajson.egg-info/dependency_links.txt
+datajson.egg-info/requires.txt
+datajson.egg-info/top_level.txt
