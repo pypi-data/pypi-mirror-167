@@ -1,0 +1,10 @@
+excel_operate/__init__.py,sha256=9dQO3CLd3CDRsSRdEscoTJavkog5AnxVrAjLfLFW1KI,264
+excel_operate/excel_operate.py,sha256=NoB96Ds7pZT1fwnITVvhV_aumUTqpc5_eetpRNtJRqA,15568
+excel_operate/list_operate.py,sha256=znSwqF0wkj_DxTpyb7i9Jbl5RhX-Y_PL2fCXq2OnxFo,3243
+excel_operate/sheet_comparison.py,sha256=tQk93kFBCNmsXXiiIBJkoLMx4HtzaNn1-fJVktsyWHQ,14656
+excel_operate/sheet_copy.py,sha256=eX7QIWc26arrrelA83KuCPy5IfTGCd3jWMrpyLKYqTU,4910
+excel_operate_light22-2.0.1.dist-info/LICENSE,sha256=DgehMzgMAeDRDJR1N2qamYnP15SKfqOxPYrzj9kSu-k,1052
+excel_operate_light22-2.0.1.dist-info/METADATA,sha256=qS36O9AVQVbNv9DzBHxvukj9nBi2_8f2cQN6c6ENqOA,10152
+excel_operate_light22-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+excel_operate_light22-2.0.1.dist-info/top_level.txt,sha256=HaHD2oI1x5gDAVbBIs9CHE53f3A01bWrDEQ24b4YtMY,14
+excel_operate_light22-2.0.1.dist-info/RECORD,,
