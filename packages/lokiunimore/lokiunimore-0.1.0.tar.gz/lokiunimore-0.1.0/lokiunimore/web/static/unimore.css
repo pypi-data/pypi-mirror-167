@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --body-background: #260909;
+    --body-foreground: #ffffff;
+    --interactive-default: #d14224;
+    --interactive-hover: #d15238;
+    --interactive-text: #ffffff;
+}
+
+body {
+    background-color: var(--body-background);
+    color: var(--body-foreground);
+
+    font-family: sans-serif;
+}
+
+hgroup > *:not(:first-child) {
+    margin-top: 0;
+}
+
+hgroup > *:not(:last-child) {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .center {
+    text-align: center;
+}
+
+main {
+    max-width: 612px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: var(--interactive-default);
+}
+
+a:hover, a:active {
+    color: var(--interactive-hover);
+}
+
+hr {
+    border: 1px solid var(--body-foreground);
+}
+
+details {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+summary {
+    cursor: pointer;
+    color: var(--interactive-default);
+}
+
+summary:hover, summary:active {
+    color: var(--interactive-hover);
+}
+
+.btn {
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 4px;
+
+    border-style: outset;
+
+    background-color: var(--interactive-default);
+    border-color: var(--interactive-default);
+    color: var(--interactive-text);
+}
+
+.btn:hover, .btn:active {
+    background-color: var(--interactive-hover);
+    border-color: var(--interactive-hover);
+
+    color: var(--interactive-text);
+}
+
+.btn:active {
+    border-style: inset;
+}
+
+a.btn {
+    text-decoration-line: none;
+}
+
+.xl {
+    font-size: x-large;
+}
+
+.xxl {
+    font-size: xx-large;
+}
