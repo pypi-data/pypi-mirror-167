@@ -1,0 +1,13 @@
+[
+  "test_extensions.py::test_extensions[loading_normal_extension-not set]",
+  "test_extensions.py::test_extensions[modifying_context-True]",
+  "test_extensions.py::test_extensions[not_updating_context_for_prompts-True]",
+  "test_extensions.py::test_extensions[not_using_loader-not set]",
+  "test_extensions.py::test_extensions[updating_context-True]",
+  "test_extensions.py::test_extensions[using_loader-True]",
+  "test_extensions.py::test_extensions_raising_exceptions[cant_find_extension_class-UserMessageError]",
+  "test_extensions.py::test_extensions_raising_exceptions[cant_find_extension_file-UserMessageError]",
+  "test_extensions.py::test_extensions_raising_exceptions[cant_find_extension_module-UserMessageError]",
+  "test_extensions.py::test_extensions_raising_exceptions[cant_find_extension_package-UserMessageError]",
+  "test_extensions.py::test_extensions_raising_exceptions[raising_exception_while_loading-RuntimeError]"
+]

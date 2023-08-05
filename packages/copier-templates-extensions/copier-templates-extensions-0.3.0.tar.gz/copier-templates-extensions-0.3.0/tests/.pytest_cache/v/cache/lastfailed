@@ -1,0 +1,5 @@
+{
+  "test_extensions.py::test_extensions_raising_exceptions[cant_find_extension_class-AttributeError]": true,
+  "test_extensions.py::test_extensions_raising_exceptions[cant_find_extension_file-ImportError]": true,
+  "test_extensions.py::test_extensions_raising_exceptions[raises_exception_while_loading-RuntimeError]": true
+}
