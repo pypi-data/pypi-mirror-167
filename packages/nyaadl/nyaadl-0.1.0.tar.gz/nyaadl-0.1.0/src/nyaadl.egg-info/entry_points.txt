@@ -1,0 +1,2 @@
+[console_scripts]
+nyaadl = nyaadl.__main__:main
