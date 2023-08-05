@@ -1,0 +1,3 @@
+[console_scripts]
+RF_Batch = riskflow_batch:main
+RF_Bootstrap = bootstrap:main
