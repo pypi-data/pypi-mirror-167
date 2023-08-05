@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "validargs"
+version = "0.1.0"
+description = ""
+authors = ["christos.liontos <christos.liontos.pr@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kolitiri/validargs"
+repository = "https://github.com/kolitiri/validargs"
+keywords = ["validation", "valid", "arguments", "args", "parameters"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
