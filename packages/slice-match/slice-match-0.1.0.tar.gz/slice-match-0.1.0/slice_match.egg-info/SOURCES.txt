@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+slice-match/__init__.py
+slice-match/slice_match.py
+slice_match.egg-info/PKG-INFO
+slice_match.egg-info/SOURCES.txt
+slice_match.egg-info/dependency_links.txt
+slice_match.egg-info/top_level.txt
