@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+win_wildcard/__init__.py
+win_wildcard.egg-info/PKG-INFO
+win_wildcard.egg-info/SOURCES.txt
+win_wildcard.egg-info/dependency_links.txt
+win_wildcard.egg-info/requires.txt
+win_wildcard.egg-info/top_level.txt
