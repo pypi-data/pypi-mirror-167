@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+PyAvatar/images.py
+PyAvatar/links.py
+PyAvatar/Python_Avatar.egg-info/PKG-INFO
+PyAvatar/Python_Avatar.egg-info/SOURCES.txt
+PyAvatar/Python_Avatar.egg-info/dependency_links.txt
+PyAvatar/Python_Avatar.egg-info/entry_points.txt
+PyAvatar/Python_Avatar.egg-info/top_level.txt
+PyAvatar/images/placeholder.gif
