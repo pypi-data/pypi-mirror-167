@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nrelpy
+Version: 0.2
+Summary: nrelpy: A tool for accessing NREL's rich library of data.
+Home-page: http://github.com/samgdotson/nrelpy
+Download-URL: 
+Author: Samuel Dotson
+Author-email: samgdotson@gmail.com
+Maintainer: Samuel Dotson
+Maintainer-email: samgdotson@gmail.com
+License: BSD-3
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires: pandas
+Requires: matplotlib
+Requires: pytest
+Requires: dill
+Requires: openpyxl
+Requires: pathlib
+Requires-Python: >= 3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: dill
+Requires-Dist: openpyxl
+Requires-Dist: pathlib
+
+
+Simple API to interact with NREL's Annual Technology Baseline (ATB) and other datasets.
