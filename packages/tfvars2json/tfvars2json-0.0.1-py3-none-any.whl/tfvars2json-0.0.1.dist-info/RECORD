@@ -1,0 +1,7 @@
+tfvars2json/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+tfvars2json/__main__.py,sha256=aI4cS6g9VNfLDv9RvQxahGJqbtHLpAvZwGlAQLl8SKI,69
+tfvars2json/tfvars2json.py,sha256=1q9HwMSFwjtPCagc9gBjnEMUaaMYD9k42Ct511TcKjA,2442
+tfvars2json-0.0.1.dist-info/entry_points.txt,sha256=aIQBz49ViT6ZZBpRYZrkh-vohu40T6BJ1t0IuedRIgg,57
+tfvars2json-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tfvars2json-0.0.1.dist-info/METADATA,sha256=os0yg8hTmBTl6oYD8-0w5x1TvpWNcRERTqTUEfYR-C4,419
+tfvars2json-0.0.1.dist-info/RECORD,,

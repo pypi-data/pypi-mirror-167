@@ -1,0 +1,3 @@
+[console_scripts]
+tfvars2json=tfvars2json.__main__:main
+

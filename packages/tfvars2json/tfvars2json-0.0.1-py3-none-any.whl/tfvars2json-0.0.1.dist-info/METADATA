@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tfvars2json
+Version: 0.0.1
+Summary: TFvars 2 Json
+Author: Flavio Augusto Rodrigues Tavares
+Author-email: flaviotvrs@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyhcl (>=0.4.4,<0.5.0)
