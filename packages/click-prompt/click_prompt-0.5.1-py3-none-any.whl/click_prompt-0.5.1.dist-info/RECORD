@@ -1,0 +1,10 @@
+click_prompt/__init__.py,sha256=onx3tgWLR5MeAud9MNY4GBd4sPzpJZaHron7k8svnJ8,290
+click_prompt/argument.py,sha256=RVFoJxQl_r6TjX_2e9xY3iO0MPKDswX3ekf4T3DGmgE,1459
+click_prompt/argument_decorators.py,sha256=NT3UapLM2njTgDcLzwUAAUMOQVejjE2NSUMDjb3KofY,874
+click_prompt/option.py,sha256=dAW7UApV8xR2KYEUWRiw595jF8k6PdCBzeWrhAMQoZw,493
+click_prompt/option_decorators.py,sha256=G2GoCTAuTME1WgrVU4LPEKgvYGoSgl0rkJFNFEufQMI,834
+click_prompt/parameter.py,sha256=uVBY7UteMHKXnyMNF8Ti3Asv0C14-G6rTAw-Uz6nfWY,3320
+click_prompt-0.5.1.dist-info/LICENSE.md,sha256=UGGvxrqdgoTH5xIHIVqcmo2Jkpzy5RhI55hNgrcMIcA,1070
+click_prompt-0.5.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+click_prompt-0.5.1.dist-info/METADATA,sha256=voj4VEWjbBmLOQmwOM4568yMNKxFaj67h_RuNcbax20,2607
+click_prompt-0.5.1.dist-info/RECORD,,
