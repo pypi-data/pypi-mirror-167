@@ -1,0 +1,33 @@
+import typing
+
+from .._detail import PolicySpecBase
+
+
+class PolicySpec(PolicySpecBase):
+    """Contains all policy parameters, if any."""
+
+    def __init__(self: "PolicySpec") -> None:
+        """Construct the policy spec."""
+
+    def __eq__(self: "PolicySpec", other: typing.Any) -> bool:
+        return isinstance(other, self.__class__)
+
+    def __repr__(self: "PolicySpec") -> str:
+        return f"""{
+            self.GetAlgoIdentifier()
+        }.{
+            PolicySpec.__qualname__
+        }()"""
+
+    def __str__(self: "PolicySpec") -> str:
+        return self.GetAlgoTitle()
+
+    @staticmethod
+    def GetAlgoIdentifier() -> str:
+        """Get programatic name for underlying retention algorithm."""
+        return __package__.split(".")[-1]
+
+    @staticmethod
+    def GetAlgoTitle() -> str:
+        """Get human-readable name for underlying retention algorithm."""
+        return "Stochastic Stratum Retention Algorithm"
