@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tfvars2json"
+version = "0.0.1"
+description = "TFvars 2 Json"
+authors = ["Flavio Augusto Rodrigues Tavares <flaviotvrs@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyhcl = "^0.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+tfvars2json = "tfvars2json.__main__:main"
