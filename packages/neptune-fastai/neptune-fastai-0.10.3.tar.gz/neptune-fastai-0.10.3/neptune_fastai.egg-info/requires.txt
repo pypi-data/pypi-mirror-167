@@ -1,0 +1,13 @@
+neptune-client>=0.16.7
+fastai>=2.4
+
+[all]
+
+[dev]
+pylint==2.9.6
+pylintfileheader
+pytest>=5.0
+pytest-tap==3.2
+pytest-cov==2.10.1
+pytest-xdist==2.2.0
+tox==3.6.1
