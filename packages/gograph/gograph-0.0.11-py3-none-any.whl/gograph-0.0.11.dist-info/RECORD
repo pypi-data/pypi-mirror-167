@@ -1,0 +1,11 @@
+gograph/__init__.py,sha256=OaIl7v-6zEWEY90Jlh6yoBjO3zWX1oX7RsvqrK3o1TU,23
+gograph/_modidx.py,sha256=zb_G3yUdv5ixAGbo2ggP6gSR3SQWSOQrYMrkVS_9HIg,1005
+gograph/algorithm.py,sha256=hIgPpeRP1DWsvXkSS3gLbvsLP2wNfM5ETs3wd7xeaUw,221
+gograph/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+gograph/graph.py,sha256=x9yubyxyw4OGl507ZM8bcum1XHHRAjjD9thR5fMOO0g,836
+gograph-0.0.11.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gograph-0.0.11.dist-info/METADATA,sha256=ckarUb0uxtbe0TikYqKHnBOMbzeQeq_hArEMJsYS2pQ,1192
+gograph-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gograph-0.0.11.dist-info/entry_points.txt,sha256=PNs3vKD98aBhCB3KLEoDq9_EOh-R-xQU57w-Uq_-Sa8,36
+gograph-0.0.11.dist-info/top_level.txt,sha256=MYqPlSmxhkouAFrTSpuTAzq0DdXo0OXHn9WCNoE0z3o,8
+gograph-0.0.11.dist-info/RECORD,,
