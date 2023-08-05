@@ -1,0 +1,16 @@
+com/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/week/__init__.py,sha256=jAk7vudkHMwIY2O8O8YsJgj5tLe-lzcK0CLNSMlJK9Y,170
+com/dvsnier/week/summary.py,sha256=q5qXAFv38y02BjHsUcYUU2LGC2c4rph5bXvaRuAB0Y4,38620
+com/dvsnier/week/command/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/week/command/dvs_week.py,sha256=Aub0Iy3TFQjKagl2Y_o0cI8Nas-2A9ah23rGtkz2NnU,17650
+com/dvsnier/week/util/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/week/util/dvs_logging.py,sha256=BYvZVJS7mOgY4qNZuVfVohXqIIz88Mn9JqPHEPY4i6A,2254
+com/dvsnier/week/util/utils.py,sha256=MSJhVV6tekM-6NLitmVzalUgOt4xpa5OFEEyckdJ97U,11791
+com.dvsnier.week-0.0.1a2.dev2.dist-info/LICENSE,sha256=StpMSjNT1gT9aCtPczefoy487A8YhQMMuLdKnnqYa_g,1086
+com.dvsnier.week-0.0.1a2.dev2.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+com.dvsnier.week-0.0.1a2.dev2.dist-info/METADATA,sha256=8LIXaLTDu1JwbrxV6l5ReG-iWWvGZkFT2DUKx4t1TsA,9184
+com.dvsnier.week-0.0.1a2.dev2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+com.dvsnier.week-0.0.1a2.dev2.dist-info/entry_points.txt,sha256=pWWzKlz_dDQKyVhFKSHtcWpWCeEgVH9dOY4dlj6rI5Q,71
+com.dvsnier.week-0.0.1a2.dev2.dist-info/top_level.txt,sha256=A7eVUp0bsHtbJ7vD4f_Ju79_mDJojU9deED6-LV9_s0,4
+com.dvsnier.week-0.0.1a2.dev2.dist-info/RECORD,,
