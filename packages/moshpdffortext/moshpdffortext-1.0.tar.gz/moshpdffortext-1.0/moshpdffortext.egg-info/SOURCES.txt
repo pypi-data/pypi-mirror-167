@@ -1,0 +1,11 @@
+README.md
+setup.py
+ecommerce/__init__.py
+ecommerce/customer/__init__.py
+ecommerce/customer/revenue.py
+ecommerce/shopping/__init__.py
+ecommerce/shopping/sales.py
+moshpdffortext.egg-info/PKG-INFO
+moshpdffortext.egg-info/SOURCES.txt
+moshpdffortext.egg-info/dependency_links.txt
+moshpdffortext.egg-info/top_level.txt
