@@ -1,0 +1,14 @@
+LICENSE.md
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+imgs/dfdlogo.gif
+imgs/pythonpoweredlengthgif.gif
+imgs/ProgramVer.egg-info/PKG-INFO
+imgs/ProgramVer.egg-info/SOURCES.txt
+imgs/ProgramVer.egg-info/dependency_links.txt
+imgs/ProgramVer.egg-info/entry_points.txt
+imgs/ProgramVer.egg-info/top_level.txt
