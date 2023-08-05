@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: distkv-akumuli
+Version: 0.4.2
+Summary: A distributed no-master key-value store
+Home-page: https://github.com/M-o-a-T/distakumuli
+Author: Matthias Urlichs
+Author-email: matthias@urlichs.de
+License: MIT -or- Apache License 2.0
+Keywords: async,key-values,distributed
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Trio
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Home Automation
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.7
+
+===========
+DistAkumuli
+===========
+
+DistAkumuli is a simple link between Akumuli and DistKV.
+
+It will update an Akumuli series whenever a DistKV value changes.
