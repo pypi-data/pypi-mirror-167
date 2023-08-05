@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "monitax-cli"
+version = "0.1.2"
+description = "Monitax Client"
+authors = ["ekalaya2015 <ekalaya2015@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.6.1"}
+requests = "^2.28.1"
+pathlib = "^1.0.1"
+pendulum = "^2.1.2"
+
+[tool.poetry.scripts]
+mon-cli = "monitax_cli.main:app"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
