@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3
+  - biopython
+  - samtools
+  - bcftools >= 1.13
+  - htslib >= 1.13
+  - cat
