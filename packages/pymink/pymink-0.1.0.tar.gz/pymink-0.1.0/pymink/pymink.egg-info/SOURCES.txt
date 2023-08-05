@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+main.py
+setup.py
+version.py
+workflow.md
+pymink/__init__.py
+pymink/_exceptions.py
+pymink/cleaner.py
+pymink/ngram.py
+pymink/pymink.egg-info/PKG-INFO
+pymink/pymink.egg-info/SOURCES.txt
+pymink/pymink.egg-info/dependency_links.txt
+pymink/pymink.egg-info/requires.txt
+pymink/pymink.egg-info/top_level.txt
