@@ -1,0 +1,13 @@
+src/__init__.py,sha256=p2Hja89bx5ViKNUTE0PRDFWCvyvK0qh8IcxSrRaAm54,41
+src/cmt_exchange.py,sha256=rH98jboDeGY01XIOmEPT0lDiP8CJ_y32kEmgLL5VM2Q,24333
+src/cmt_quotation.py,sha256=T-OUOJeqzoCqMQIAtuzSmw7on8UcIgXAppMxcApTOf4,15250
+src/myfunctions.py,sha256=hhE6iPf4OGWedsEQZjDyUbcvSTYdl71mGZUshYkHRa4,283
+src/simple_addition.py,sha256=pqP-vMDlKQEL-eK18bIzUwvd01LJI_tUljusxTnluHE,411
+src/test_restAPI.py,sha256=bgPmyIav3truzRxDx0z2-s8Hjv_QSJBjeb1Y0SG1Fdk,246
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_myfunctions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comathon-0.0.5.dist-info/LICENSE.rst,sha256=ogqZImH5e0QPxVcwonCtLUGKEFUxFIifb3aK9JHysE8,1088
+comathon-0.0.5.dist-info/METADATA,sha256=ej-H18E-HlNkulyteglfhDZfRA0-LIlCpz56r8T7kAQ,266
+comathon-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+comathon-0.0.5.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+comathon-0.0.5.dist-info/RECORD,,
