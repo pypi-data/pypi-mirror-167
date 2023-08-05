@@ -1,0 +1,12 @@
+rud/__init__.py,sha256=DVX9-h5zJBTYggqT42vksXyAvSsHN1wnptSUR4p4Lf4,100
+rud/__main__.py,sha256=EmTeqdVk7hLVIdcinYlAjaeiG3iwxl9Hn9ORXJsK-GQ,29
+rud/cli.py,sha256=eTVzKpd6DTla7KbJgHXyM7GbhQ5Yukd72yRgbaf64Ok,2842
+rud/config.py,sha256=KKZxCeduYH2dg-g2JcTyasdWkwe4_bI9JKoW_-Se3Lg,23
+rud/downloaded.py,sha256=zWJK6uQqpvCkGFc2Q9B9S7ZcLR8TWtSDI_emfLoT_FU,12
+rud/downloader.py,sha256=WBCwomgjPrPnbviFi0nbA-SaJZsttmMlekMhrhIgE1k,5638
+rud-0.0.3.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+rud-0.0.3.dist-info/METADATA,sha256=Ek7xgYPguVQkJrxrbBxbuh4p3JtxYQ9lHy0nMZtxPhs,987
+rud-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rud-0.0.3.dist-info/entry_points.txt,sha256=pVDdqUROLz_Zk2a42vlem4FZSgsXylB_OiGMWKXfoUE,37
+rud-0.0.3.dist-info/top_level.txt,sha256=94weqB01EQNYgDQKRQrQD8m_4rMzkC3r2xl_QiqwHFo,4
+rud-0.0.3.dist-info/RECORD,,

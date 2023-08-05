@@ -1,0 +1,2 @@
+[console_scripts]
+rud = rud.cli:main
