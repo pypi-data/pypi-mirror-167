@@ -1,0 +1,8 @@
+ufwio/__init__.py,sha256=9wd87g6_KsFWAoqrCGrAGQjL6c96reMEcKsio3vIKws,43
+ufwio/blob_pb2.py,sha256=efcJAbSABdMkYG4ptDvDFyFK7qKA11NysJXAeMqfA_M,34561
+ufwio/io.py,sha256=tPzkAFcsqXUuxSzNnTw-M15QU4FzUxfCSYgReB9D8ZM,17774
+ufwio/lmdb_info.py,sha256=LMQoxldujuaZb-rfxERPYN_HnWn9ruyEKgz-dURVlLA,576
+ufwio-0.0.1.dist-info/METADATA,sha256=Sotcs8oA1Nh8vWDdQJD87RF8ngb_gPV2ZYVDWfbUuy8,904
+ufwio-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ufwio-0.0.1.dist-info/top_level.txt,sha256=AdywpVvJAuGeC4hYsC4V_w0l2dwkszj8GwP3qYHKME0,6
+ufwio-0.0.1.dist-info/RECORD,,
