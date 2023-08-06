@@ -1,0 +1,7 @@
+postgres_csv_uploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postgres_csv_uploader/uploader.py,sha256=bBGVP0VFuwuvMXV7stVLdrJdRZUTT_lOOs8sBtm9grc,6359
+postgres_csv_uploader-0.1.0.dist-info/LICENSE,sha256=9jigy6BO2jlocEyR0CMxN5zYGTjPK4OgPpOYOWD9dic,1070
+postgres_csv_uploader-0.1.0.dist-info/METADATA,sha256=kxroo8tsuw8xI5quIXlbfnJG9V_cmmimaUg-HC_Keso,2074
+postgres_csv_uploader-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+postgres_csv_uploader-0.1.0.dist-info/top_level.txt,sha256=5MV6Qp5YgReNocEQ6D4aqmxxgX_9mudrsJnGGAbd8Vg,22
+postgres_csv_uploader-0.1.0.dist-info/RECORD,,
