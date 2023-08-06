@@ -1,0 +1,7 @@
+README.md
+setup.py
+sitepath/__init__.py
+sitepath.egg-info/PKG-INFO
+sitepath.egg-info/SOURCES.txt
+sitepath.egg-info/dependency_links.txt
+sitepath.egg-info/top_level.txt
