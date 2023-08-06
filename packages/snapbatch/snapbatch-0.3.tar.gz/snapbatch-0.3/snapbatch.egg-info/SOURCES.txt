@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+snapbatch_purge
+snapbatch/__init__.py
+snapbatch/cli.py
+snapbatch/tools.py
+snapbatch.egg-info/PKG-INFO
+snapbatch.egg-info/SOURCES.txt
+snapbatch.egg-info/dependency_links.txt
+snapbatch.egg-info/entry_points.txt
+snapbatch.egg-info/requires.txt
+snapbatch.egg-info/top_level.txt
