@@ -1,0 +1,3 @@
+[console_scripts]
+colubrid = colubrid_helpers.__main__:main
+
