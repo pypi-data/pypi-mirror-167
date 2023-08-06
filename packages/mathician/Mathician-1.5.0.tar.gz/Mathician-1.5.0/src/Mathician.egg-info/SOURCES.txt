@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/Mathician.egg-info/PKG-INFO
+src/Mathician.egg-info/SOURCES.txt
+src/Mathician.egg-info/dependency_links.txt
+src/Mathician.egg-info/top_level.txt
+src/mathician/__init__.py
