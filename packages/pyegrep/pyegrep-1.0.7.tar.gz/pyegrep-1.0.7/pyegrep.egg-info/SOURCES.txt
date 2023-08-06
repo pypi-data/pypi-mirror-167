@@ -1,0 +1,11 @@
+LICENSE
+README.md
+README.rst
+setup.cfg
+setup.py
+pyegrep/__init__.py
+pyegrep/greps.py
+pyegrep.egg-info/PKG-INFO
+pyegrep.egg-info/SOURCES.txt
+pyegrep.egg-info/dependency_links.txt
+pyegrep.egg-info/top_level.txt
