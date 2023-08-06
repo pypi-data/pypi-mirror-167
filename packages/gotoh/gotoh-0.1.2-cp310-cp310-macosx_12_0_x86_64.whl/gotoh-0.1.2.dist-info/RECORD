@@ -1,0 +1,8 @@
+gotoh/__init__.py,sha256=IvzIykC_hYJhKbYIXESLyXKQM2Yq11afpUMZhBuJXJ0,133
+gotoh/gotoh.c,sha256=ATg-nUue-9i8hqNL_fb7cjlja2W_xRAFJqACGtdAsvE,699215
+gotoh/gotoh.pyx,sha256=O-W_MWJnf0hQ7FRZ9uxUkmnzVQjr7-duXFa62av0Pfo,19553
+gotoh/gotoh.cpython-39-darwin.so,sha256=ioQiOXb2BrsE-IDqSWmQ22bo-NJYW6yUbli_xh9mP0I,209088
+gotoh-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gotoh-0.1.2.dist-info/WHEEL,sha256=fiHVU6tLIfjN4Bymhsr-kQJlwYd_vqLoi33Np5w_2Z4,107
+gotoh-0.1.2.dist-info/METADATA,sha256=ursl3h9OMFF5qG5hFKzJozzlvaEgpu8yL7FvC7bM6MY,1683
+gotoh-0.1.2.dist-info/RECORD,,
