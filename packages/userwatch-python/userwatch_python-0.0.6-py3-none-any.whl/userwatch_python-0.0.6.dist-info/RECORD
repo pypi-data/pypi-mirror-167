@@ -1,0 +1,15 @@
+google/type/postal_address_pb2.py,sha256=AK5kkvaSSrAUBwulNm7CjfWeMKPrTCwEMEY0jJRxMJM,2030
+google/type/postal_address_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+userwatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userwatch/userwatch.py,sha256=D-mSk3B5QsUsHbtNgJeNRatemfkGMSeQoRq-vRKnynE,6695
+userwatch/userwatch_historian_pb2.py,sha256=cWPLNWj2CdzTtZ9YBxBt4jrm3KfEzBhLWE3-30_HcoM,4405
+userwatch/userwatch_historian_pb2_grpc.py,sha256=8EKEuVQc72-OYiKF0_3BWFL-V3mTCk_fMo1-isDktDs,2640
+userwatch/userwatch_public_pb2.py,sha256=Wxo9sUN0tEgSdpEP_BARb5y-qbd_J2lW8ZWIXshfLZ8,20204
+userwatch/userwatch_shadow_pb2.py,sha256=PJbkh0XY-rzU9IJe4hR7WVwuZXdpI7F64Z2y9IJT4FQ,2336
+userwatch/userwatch_shepherd_pb2.py,sha256=eivlgo2DTheVd2JQ9CVam1ZfzwUBZU64BWH4s8dM5QA,11956
+userwatch/userwatch_shepherd_pb2_grpc.py,sha256=ml3aNCxBxzlQGeQt5HJPDO-kxkzHA_ArqDjJCO6bC2U,13774
+userwatch_python-0.0.6.dist-info/LICENSE.md,sha256=8eAeJ2exiPHw6i7ashsuVeELARYI1sN87kxSD4iSC2A,11347
+userwatch_python-0.0.6.dist-info/METADATA,sha256=AbEEWBMwwN9ijy9Gt8nlfjmsJgaFh_I9yMCEgZ98faw,2245
+userwatch_python-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+userwatch_python-0.0.6.dist-info/top_level.txt,sha256=WA130uDrHHNo7YwYPeQwZfbZDQ061QuijjgdXEAJXNE,22
+userwatch_python-0.0.6.dist-info/RECORD,,
