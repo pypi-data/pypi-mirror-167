@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: configuration-maker
+Version: 0.1.0
+Summary: Create configuration files for Python modules that can be updated by CLI
+Home-page: https://github.com/nadahlberg/configuration-maker
+Author: Nathan Dahlberg
+Author-email: nadahlberg@gmail.com
+Requires-Dist: pathlib
+Requires-Dist: click
+Requires-Dist: python-dotenv
+
