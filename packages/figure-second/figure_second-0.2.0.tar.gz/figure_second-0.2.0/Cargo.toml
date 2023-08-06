@@ -1,0 +1,32 @@
+[package]
+name = "figure_second"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+name = "figure_second"
+crate-type = ["cdylib", "rlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.62"
+xshell = "0.2.2"
+
+
+[dependencies.inkscape]
+git = "https://github.com/VanillaBrooks/inkscape.git"
+rev = "9cbdd6e55a94ae958fe45a29618f43778885dbb6"
+
+[dependencies.pyo3]
+version = "0.17.1"
+optional = true
+features = ["extension-module"]
+#default_features = false
+
+[features]
+default = ["python"]
+python = ["pyo3"]
+
+[package.metadata.maturin]
+python-source = "python"
