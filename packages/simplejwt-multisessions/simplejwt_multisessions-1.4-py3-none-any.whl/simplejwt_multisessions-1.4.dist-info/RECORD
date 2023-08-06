@@ -1,0 +1,12 @@
+simplejwt_multisessions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplejwt_multisessions/admin.py,sha256=rcVtqdJV66Uo23oMeh8LQD1aOP0T4iXnlqqYN6_tKcM,654
+simplejwt_multisessions/apps.py,sha256=wUKjsYC7Ozs075AVBDsIksfcflTcMMUP_0WA_LEEzOY,176
+simplejwt_multisessions/models.py,sha256=q6gQaobvAZVwS-TlcDdKkiw1GIiMdxsq5zQLnhM2pEg,2195
+simplejwt_multisessions/tests.py,sha256=o5pNiOXbOQEhdA1RbbM9ktHCD5LMUTycp1EYeQB6boo,53848
+simplejwt_multisessions/api/serializers.py,sha256=sGu8HrmetAI8p9jBdvNigkdeRtYodKyWOSylEh9osKE,9904
+simplejwt_multisessions/api/views.py,sha256=9p10z5Z5KQl5RhbKSwcOZteXGuaNM7NLF99ZnTJFHOQ,26479
+simplejwt_multisessions-1.4.dist-info/LICENSE,sha256=6VjavZXO0tcxgBgr0tukI0QPsrK8X1LuoxZwzRFnNHg,1079
+simplejwt_multisessions-1.4.dist-info/METADATA,sha256=5yhPY6-cLexrK_Zh4wr3ubZw_VvzukGsxuogBosjmFQ,25864
+simplejwt_multisessions-1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simplejwt_multisessions-1.4.dist-info/top_level.txt,sha256=V3IQnOwcufVXgyUxERO7oQRumGNxyuzIw8oEh0KLLMM,24
+simplejwt_multisessions-1.4.dist-info/RECORD,,
