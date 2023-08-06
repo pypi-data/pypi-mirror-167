@@ -1,0 +1,12 @@
+README.md
+setup.py
+tablo/__init__.py
+tablo/combinators.py
+tablo/format.py
+tablo/parse.py
+tablo/serializers.py
+tablo/table.py
+tablo_fyi.egg-info/PKG-INFO
+tablo_fyi.egg-info/SOURCES.txt
+tablo_fyi.egg-info/dependency_links.txt
+tablo_fyi.egg-info/top_level.txt
