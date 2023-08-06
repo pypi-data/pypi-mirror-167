@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "aws-kms-crypt"
+version = "2.0.0"
+description = "Utility for encrypting and decrypting secrets with the AWS KMS service"
+authors = ["Sami Jaktholm <sjakthol@outlook.com>"]
+license = "MIT"
+packages = [
+  {include = "kmscrypt"},
+  {include = "py.typed"}
+]
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+cryptography = ">=3.4,<38.0"
+boto3 = "<2"
+
+[tool.poetry.dev-dependencies]
+bandit = "^1.7.1"
+black = "^22.6"
+boto3-stubs = {extras = ["kms"], version = "^1.24.35"}
+mypy = "^0.971"
+pylint = "^2.13.9"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+safety = "^2.1.1"
+tox = "^3.25.1"
+moto = {extras = ["kms"], version = "^4.0.1"}
+typing-extensions = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
