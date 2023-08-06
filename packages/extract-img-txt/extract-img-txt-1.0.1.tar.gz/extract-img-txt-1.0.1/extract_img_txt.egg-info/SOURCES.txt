@@ -1,0 +1,10 @@
+LICENSE.txt 
+README.md
+setup.py
+extract_img_txt.egg-info/PKG-INFO
+extract_img_txt.egg-info/SOURCES.txt
+extract_img_txt.egg-info/dependency_links.txt
+extract_img_txt.egg-info/requires.txt
+extract_img_txt.egg-info/top_level.txt
+image_extract/__init__.py
+image_extract/ext.py
