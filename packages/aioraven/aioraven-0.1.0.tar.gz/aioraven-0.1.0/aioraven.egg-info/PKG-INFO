@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aioraven
+Version: 0.1.0
+Summary: Asynchronous communication with Rainforest RAVEn devices.
+Home-page: UNKNOWN
+Author: Scott K Logan
+Author-email: logans@cottsay.net
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+aioraven
+========
+
+Asynchronous communication with RAVEn devices made by Rainforest Automation.
+
+
