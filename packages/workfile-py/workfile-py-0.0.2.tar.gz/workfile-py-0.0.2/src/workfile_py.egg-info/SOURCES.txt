@@ -1,0 +1,10 @@
+LICENSE.rst
+README.rst
+setup.cfg
+setup.py
+src/workfile/__init__.py
+src/workfile/workfile.py
+src/workfile_py.egg-info/PKG-INFO
+src/workfile_py.egg-info/SOURCES.txt
+src/workfile_py.egg-info/dependency_links.txt
+src/workfile_py.egg-info/top_level.txt
