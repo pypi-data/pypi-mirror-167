@@ -1,0 +1,4 @@
+[console_scripts]
+TaiyangXingyunQuanshu = TaiyangXingyunQuanshu.__main__:main
+taiyang-xingyun-quanshu = TaiyangXingyunQuanshu.__main__:main
+
