@@ -1,0 +1,11 @@
+README.md
+setup.py
+ufwio/__init__.py
+ufwio/blob_pb2.py
+ufwio/io.py
+ufwio/lmdb_info.py
+ufwio.egg-info/PKG-INFO
+ufwio.egg-info/SOURCES.txt
+ufwio.egg-info/dependency_links.txt
+ufwio.egg-info/requires.txt
+ufwio.egg-info/top_level.txt

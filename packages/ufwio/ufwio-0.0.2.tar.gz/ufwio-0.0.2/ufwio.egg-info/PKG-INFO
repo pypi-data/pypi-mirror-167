@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ufwio
+Version: 0.0.2
+Summary: A package for LMDB database operations
+Home-page: https://github.com/pypa/sampleproject
+Author: Wangyang.zuo
+Author-email: wangyang.zuo@sophon.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ufwio 
+
+This is a simple package for making lmdbs for ufwio. It is a simple wrapper around the `ufwio` package.
+
+
+## Installation
+
+```bash
+pip install ufwio
+```
+
+<!-- python3 -m pip install --user --upgrade twine -->
+<!-- setuptools wheel -->
+<!-- python3 setup.py sdist bdist_wheel -->
+<!-- twine upload dist/* -->

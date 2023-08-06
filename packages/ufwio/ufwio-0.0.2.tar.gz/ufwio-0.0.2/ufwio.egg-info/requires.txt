@@ -1,0 +1,6 @@
+numpy
+lmdb
+scipy
+scikit-image
+google
+protobuf==3.19.0
