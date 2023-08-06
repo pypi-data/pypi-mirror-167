@@ -1,0 +1,9 @@
+model_w/preset/django/__init__.py,sha256=zKj207_rH2h6yPae2VhywxZGN6b6Xgyou8FhzlqkaL8,22421
+model_w/preset/django/env_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_w/preset/django/env_helper/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_w/preset/django/env_helper/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_w/preset/django/env_helper/management/commands/list_used_env_vars.py,sha256=mAdm5ohUijh9lUGWD8SB1g4rEjN4M5Ppl1Bks_kD8GM,2994
+modelw_preset_django-2022.10.0b2.dist-info/LICENSE,sha256=djc4a1-B6KcZyjNiMxSQBeX6KLXmBU6ntn3kk1WwrUA,484
+modelw_preset_django-2022.10.0b2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+modelw_preset_django-2022.10.0b2.dist-info/METADATA,sha256=WVo6vrEHUFrF2G5Il8do565J8GQyCch7KkeLokwIo1E,1739
+modelw_preset_django-2022.10.0b2.dist-info/RECORD,,
