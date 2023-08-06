@@ -1,0 +1,10 @@
+dcsi/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+dcsi/_modidx.py,sha256=lw58VkT13LblWSjHTWTcVApF7iQJ-vfT7La44vZYE1k,747
+dcsi/core.py,sha256=nkOpYUJEK37GDpcvQGJg31s2wmJvNH382cAbOIiEm9A,134
+dcsi/helper.py,sha256=aHJnUVFDdFFRvz8aE5wWs1Og44BVrJWeABrQ9G-yvIg,903
+dcsi-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+dcsi-0.0.1.dist-info/METADATA,sha256=LYM_gvD12KfkvyEL1kI-6D1PfBVDzBqofsSTal1L6fw,1150
+dcsi-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dcsi-0.0.1.dist-info/entry_points.txt,sha256=vbEDGFfxZJ5Pxfpw4AfhwKDnj2Q62zFWWXvXkVve7bo,30
+dcsi-0.0.1.dist-info/top_level.txt,sha256=9JPgDLxxA0bE-uAERemaE93rrYdSERxJIGzpzvpIvWg,5
+dcsi-0.0.1.dist-info/RECORD,,
