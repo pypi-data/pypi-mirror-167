@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pdc_event_autodoc"
+version = "0.0.2"
+description = "Autodoc for socket"
+authors = ["Mukhtar <mukhtar.syariefudin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+socketio = "^0.2.1"
+fastapi = "^0.85.0"
+pydantic = "^1.10.2"
+python-i18n = {extras = ["yaml"], version = "^0.3.9"}
+fastapi-socketio = "^0.0.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
