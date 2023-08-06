@@ -1,0 +1,11 @@
+fastcrc-0.2.1.dev6.dist-info/METADATA,sha256=2GEbya246wTyyIhGCBKdG35Iq6hfuruoAM3OL9WzXe8,1723
+fastcrc-0.2.1.dev6.dist-info/WHEEL,sha256=j6Jg5Y8qM46prVKJRAmal7kJw25m2xdwyrSaWCP7YuU,95
+fastcrc/crc16.py,sha256=rfxuCVhaYVSCJsGg9OCIGQS_jQ7LjpenPFhyvu0mpUY,16728
+fastcrc/crc32.py,sha256=SzFjElv87-d00-BImo4lQblFxd6z_GMJ_wLWtnALscY,6691
+fastcrc/crc64.py,sha256=Z6R2fdy7e-MkxxmwjwBXzcrk8SbjGocHY0WNZp-OIPk,2275
+fastcrc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcrc/utils.py,sha256=GCP9Csmt_bm9cbWfcnjog90znBAdOQtPAFlwSKWQpwU,251
+fastcrc/__info__.py,sha256=SB1ir_Q3YQ28x6BzkoFOwGKpOWM2oi4E5Co5Xd3adEY,315
+fastcrc/__init__.py,sha256=OEjrHe8BE1Gvp_BA0FcG0rXmrHM8gAztVWdijp_7X1A,208
+fastcrc/fastcrc.cp38-win_amd64.pyd,sha256=sGU9lboSKoPXIGsAJCWvgBKZqU8kyBPomCvCexIKT0I,339968
+fastcrc-0.2.1.dev6.dist-info/RECORD,,
