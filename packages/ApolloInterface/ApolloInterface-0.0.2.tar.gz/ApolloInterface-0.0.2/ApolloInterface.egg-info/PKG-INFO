@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ApolloInterface
+Version: 0.0.2
+Summary: 实现apollo命名空间下items字段的增删改查及版本回溯的接口文件
+Home-page: https://github.com/hts559734/ApolloInterface
+Author: XvXiao
+Author-email: 2081981735@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# apolloInterface
+python实现对apollo命名空间下item字段的crud
+
+##### 1、命名空间下items的增删改查
+
+通过浏览器抓包的方式，抓取发生的网络事件、请求方法、header、url、标头、载荷，经postman接口验证后，可以正常实现增删改查。
+
+##### 2、命名空间下面的版本回滚
+
+python实现apollo目标版本的回滚，因为apollo的每个版本都是基于不同维度发布的，所有要执行版本回滚，需要同事输入应用名称application、命名空间namespaces、集群名称clusters、环境名称env,以及最重要的要回滚的版本号release_version
+
+##### 3、当前已经添加的接口
+
+| 接口                 |        |
+| -------------------- | ------ |
+| key-value字段增减    | ✔      |
+| key-value字段更新    | ✔      |
+| key-value字段删除    | ✔      |
+| 命名空间所有字段查询 | ✔      |
+| 已发布版本查询       | ✔      |
+| 版本回滚             | ✔      |
+| 配置中心数据回滚     | ✔      |
+| 不同版本数据对比     | **✔**  |
+| 版本发布             | ✔      |
+| ......后续视情况追加 | ...... |
+
