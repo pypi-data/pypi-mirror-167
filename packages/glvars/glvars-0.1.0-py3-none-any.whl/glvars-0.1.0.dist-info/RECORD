@@ -1,0 +1,10 @@
+glvars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glvars/config.py,sha256=i5JEFk3mwf8RJUdWG50f4YMXEL2wZtXsqGrgKv_b2gs,901
+glvars/main.py,sha256=w2QX7JzmL1vtl4nyI2j60HTw4QZYYQWMnnBgX4ZJJ1M,767
+glvars/schemas.py,sha256=UbvuQB9qb7V90HclnaBfVqmkNQVU6W_bqNuxZscwGF0,1042
+glvars/synchronizer.py,sha256=ZHSRlamDrdx89ts5aisVICz1yRhKgCTuo_t9bo5xdO0,3187
+glvars-0.1.0.dist-info/entry_points.txt,sha256=N-Ih1XNsDf9tcuqLhU469pV5Jeyp3SxdkvbGtvQ3bJo,42
+glvars-0.1.0.dist-info/LICENSE,sha256=chlQVoR0xta4D-4ju3JM3e7kPJYFzvXeKOYDo7RuuQQ,1066
+glvars-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+glvars-0.1.0.dist-info/METADATA,sha256=-I2_b3S2mbAUmkOPAzWcZJ-RibNqbu6e71BHgcUClVE,519
+glvars-0.1.0.dist-info/RECORD,,
