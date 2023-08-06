@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: netunicorn-library
+Version: 0.0.1
+Summary: Dummy description
+Author: Roman Beltiukov
+Author-email: rbeltiukov@ucsb.edu
+License: MIT
+Keywords: netunicorn
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: netunicorn-base
+
