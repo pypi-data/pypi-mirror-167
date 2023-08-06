@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kolawole-hello-world
+Version: 0.2.0
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
