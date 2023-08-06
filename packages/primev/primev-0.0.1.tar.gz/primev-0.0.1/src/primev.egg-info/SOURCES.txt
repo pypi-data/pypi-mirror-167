@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/primev/__init__.py
+src/primev/main_prime.py
+src/primev.egg-info/PKG-INFO
+src/primev.egg-info/SOURCES.txt
+src/primev.egg-info/dependency_links.txt
+src/primev.egg-info/top_level.txt
