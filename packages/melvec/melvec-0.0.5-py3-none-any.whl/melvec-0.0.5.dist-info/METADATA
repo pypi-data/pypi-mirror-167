@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: melvec
+Version: 0.0.5
+Summary: A small vector library
+Home-page: https://github.com/memagu/melvec
+Author: Melker Widén
+Author-email: melker.widen@gmail.com
+Project-URL: Bug Tracker, https://github.com/memagu/melvec/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# melvec
+A vector library for python
