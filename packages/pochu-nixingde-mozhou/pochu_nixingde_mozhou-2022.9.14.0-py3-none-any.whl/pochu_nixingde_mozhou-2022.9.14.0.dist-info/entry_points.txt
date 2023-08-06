@@ -1,0 +1,4 @@
+[console_scripts]
+PochuNixingdeMozhou = PochuNixingdeMozhou.__main__:main
+pochu-nixingde-mozhou = PochuNixingdeMozhou.__main__:main
+
