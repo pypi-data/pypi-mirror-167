@@ -1,0 +1,8 @@
+# include data files
+
+# include single file
+include web/requirements.txt
+
+# include multiple files
+# recursive-include web/doc *
+# recursive-include web/examples *
