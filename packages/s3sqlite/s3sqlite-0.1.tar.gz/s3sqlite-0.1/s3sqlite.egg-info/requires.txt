@@ -1,0 +1,4 @@
+fsspec
+apsw
+s3fs
+boto3
