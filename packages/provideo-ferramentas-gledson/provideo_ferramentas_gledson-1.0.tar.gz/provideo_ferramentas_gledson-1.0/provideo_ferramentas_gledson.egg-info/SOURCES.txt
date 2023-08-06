@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+provideo_ferramentas_desk/__init__.py
+provideo_ferramentas_desk/camera.py
+provideo_ferramentas_desk/video.py
+provideo_ferramentas_gledson.egg-info/PKG-INFO
+provideo_ferramentas_gledson.egg-info/SOURCES.txt
+provideo_ferramentas_gledson.egg-info/dependency_links.txt
+provideo_ferramentas_gledson.egg-info/top_level.txt
