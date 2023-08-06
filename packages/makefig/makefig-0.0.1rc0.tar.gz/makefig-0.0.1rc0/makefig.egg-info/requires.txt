@@ -1,0 +1,15 @@
+fire
+numpy
+pandas
+matplotlib
+fancylog
+
+[dev]
+black
+pytest
+pytest-cov
+gitpython
+bump2version
+pre-commit
+flake8
+coverage
