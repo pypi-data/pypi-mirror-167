@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sms-tool
+Version: 0.0.1
+Summary: sms sdk
+Home-page: 
+Author: zgl
+Author-email: 
+License: MIT
+Keywords: sms sdk
+License-File: LICENSE.txt
+Requires-Dist: colorama (~=0.4.4)
+Requires-Dist: requests (~=2.28.1)
+
+sms sdk by python
