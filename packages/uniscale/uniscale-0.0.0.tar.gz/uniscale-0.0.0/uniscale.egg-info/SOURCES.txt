@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+uniscale.egg-info/PKG-INFO
+uniscale.egg-info/SOURCES.txt
+uniscale.egg-info/dependency_links.txt
+uniscale.egg-info/not-zip-safe
+uniscale.egg-info/requires.txt
+uniscale.egg-info/top_level.txt
