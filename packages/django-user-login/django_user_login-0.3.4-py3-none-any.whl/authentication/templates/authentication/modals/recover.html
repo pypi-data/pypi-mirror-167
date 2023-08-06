@@ -1,0 +1,45 @@
+<div style="display: none;">
+    <!-- Button trigger recover modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recoverModal" id="recoverModalBtn">
+        Launch demo modal
+    </button>
+
+    <!-- Button trigger recovery email verification modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recoveryEmailVerificationModal" id="recoveryEmailVerificationModalBtn">
+        Launch demo modal
+    </button>
+
+    <!-- Button trigger recover Success modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recoverSuccessModal" id="recoverSuccessModalButton">
+        Recover Success
+    </button>
+
+    <!-- Button trigger change password modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#changePasswordModal" id="changePasswordModalButton">
+        change password
+    </button>
+</div>
+
+
+<div id="recoverModalDiv"></div>
+<div id="verifyRecoveryEmailModalDiv"></div>
+<div id="passwordChangeModalDiv"></div>
+
+
+<!-- Change Password Success Modal -->
+<div class="modal fade" id="recoverSuccessModal" tabindex="-1" aria-labelledby="recoverSuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="recoverSuccessModalLabel">Account Recovery Successful</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+            You have successfully changed your password.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
