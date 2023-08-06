@@ -1,0 +1,17 @@
+xradar/__init__.py,sha256=ImjVlSrIJ3NBI2s3Lc4Z4cJtwNwQK5RdXgkWvo7RQ5o,502
+xradar/model.py,sha256=XljpALf6lxrwd3_LqSxlUAmvFoO5nRBRMY1wCR7Ou8I,23334
+xradar/util.py,sha256=moI1GhM-MAuPKDYhl0Exxve4sba5pO5nxBZrOiBThG0,409
+xradar/version.py,sha256=EivbSCh5ex60JlECLbZ0YLuk2H7SdgNi_RS5L5QARmM,176
+xradar/xradar.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+xradar/io/__init__.py,sha256=mrYjJOowmXruLFrWqGN0rhj28k55NjsL2soJpkhrlmM,322
+xradar/io/backends/__init__.py,sha256=qXXIZh0dGa0osI06Ow6YQ9I0rmruEyovd8d79-mVqF8,406
+xradar/io/backends/cfradial1.py,sha256=dcNU8gATVa84ZY6KLF94v4Gler4KdVckX0TgC0LxN7U,8007
+xradar/io/backends/common.py,sha256=LgHpzk28B9HN4Pifnr3c-vpggiZduiWInkgnu1t7dJY,4398
+xradar/io/backends/odim.py,sha256=qCzc1tgxJOCiEuQGumso7-UkXjWmhetC5N_WDrn-ONw,28772
+xradar-0.0.5.dist-info/AUTHORS.md,sha256=qh8xe5Pfi0SjmycpWBqPCseWuvnOCpkYVTgk1S-ExLY,205
+xradar-0.0.5.dist-info/LICENSE,sha256=dhPqMwPPuTwGV1rAydASb4al_2_7-hgyLABH0lqEKXM,1090
+xradar-0.0.5.dist-info/METADATA,sha256=Kc7BX6E53f70eaiSg-vdeKQN8wzYMbVHH69eZ3QGEzQ,3385
+xradar-0.0.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+xradar-0.0.5.dist-info/entry_points.txt,sha256=O6zQ-uGv4xr1XaBDTRGPfojafD_e0_bElmk2Lo_7oKk,124
+xradar-0.0.5.dist-info/top_level.txt,sha256=XRua6CxzkhJFMr1jpIVsIuncJDz-BMs4HqZfitrQLs8,7
+xradar-0.0.5.dist-info/RECORD,,
