@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bjgrader
+Version: 0.0.2
+Summary: Grade a solution using baekjoon online sample inputs and outputs.
+Home-page: https://github.com/BlueYellowGreen/bjgrader
+Author: Dooho Lee
+Author-email: dhdev5ba@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+bjgrader
