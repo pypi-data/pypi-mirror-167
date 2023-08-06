@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: easy-ioc
+Version: 0.1.4
+Summary: Python Dependencies Injection Library
+Home-page: https://github.com/BingoXuan/easy_ioc
+Author: BingoXuan
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Typing :: Typed
+Requires-Python: >=3.5
+License-File: LICENSE
+
+
+      a simple dependency-injection python library,       which implemented with pure python and meta-programming.       It is non-invasive and progressive to refactor        your code without learning complex concepts.       visit https://github.com/BingoXuan/easy_ioc for        more information
+      
