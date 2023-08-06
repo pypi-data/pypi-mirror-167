@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dragon-form-validator
+Version: 1.0.0
+Summary: The dragon form validator module is the best way to validate your form elements and is suitable for every web app framework like a flask, Django, and other uses. It will check the form values, whether its fit your form or not.
+Home-page: https://github.com/sureshpandiyan1/dragon-form-validator
+Author: Suresh P
+Author-email: suresh.pandiyan1@outlook.com
+License: MIT
