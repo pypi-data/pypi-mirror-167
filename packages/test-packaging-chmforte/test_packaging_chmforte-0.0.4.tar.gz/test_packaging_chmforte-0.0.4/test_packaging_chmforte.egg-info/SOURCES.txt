@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+test_packaging_chmforte/__init__.py
+test_packaging_chmforte/example.py
+test_packaging_chmforte.egg-info/PKG-INFO
+test_packaging_chmforte.egg-info/SOURCES.txt
+test_packaging_chmforte.egg-info/dependency_links.txt
+test_packaging_chmforte.egg-info/top_level.txt
