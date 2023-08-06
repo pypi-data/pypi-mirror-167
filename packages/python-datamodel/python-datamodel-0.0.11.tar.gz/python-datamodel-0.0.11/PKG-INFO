@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: python-datamodel
+Version: 0.0.11
+Summary: simple library based on python +3.7 to use Dataclass-syntaxfor interacting with Data
+Home-page: https://github.com/phenobarbital/python-datamodel
+Author: Jesus Lara
+Author-email: jesuslarag@gmail.com
+License: BSD
+Project-URL: Source, https://github.com/phenobarbital/datamodels
+Project-URL: Funding, https://paypal.me/phenobarbital
+Project-URL: Say Thanks!, https://saythanks.io/to/phenobarbital
+Keywords: asyncio,dataclass,dataclasses,data models
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Classifier: Environment :: Web Environment
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DataModel
+DataModel is a simple library based on python +3.7 to use Dataclass-syntax for interacting with
+Data, using the same syntax of Dataclass, users can write Python Objects
+and work with Data in the same way, is a reimplementation of python Dataclasses supporting true inheritance (without decorators), true composition and other good features.
+
+The key features are:
+* **Easy to use**: No more using decorators, concerns abour re-ordering attributes or common problems with using dataclasses with inheritance.
+
+
+
+## Requirements
+
+Python 3.7+
+
+## Installation
+
+<div class="termy">
+
+```console
+$ pip install python-datamodel
+---> 100%
+Successfully installed datamodel
+```
+
+</div>
+
+
+## License
+
+This project is licensed under the terms of the BSD v3. license.
