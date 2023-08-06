@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sensi
+Version: 0.1.4
+Summary: analisis sentimen bahasa Indonesia menggunakan Naive-Bayes
+Home-page: https://github.com/GazDuckington/nbc-sentimen
+License: MIT
+Author: GazDuckington
+Author-email: dianghazy@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SQLAlchemy (>=1.4.40,<2.0.0)
+Requires-Dist: Sastrawi (>=1.0.1,<2.0.0)
+Requires-Dist: nltk (>=3.7,<4.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Project-URL: Repository, https://github.com/GazDuckington/nbc-sentimen
+Description-Content-Type: text/markdown
+
+<p align=center>Framework analisis sentiment teks Bahasa Indonesia, menggunakan Klasifikasi Naive-Bayes</p>
+
+## Dependensi
+
+```python
+sastrawi nltk numpy pandas sqlalchemy
+```
+
+## Instalasai
+```bash
+pip install sensi
+```
+
+## Penggunaan
+- Contoh penerapan dapat dilihat pada directory 'apis' pada repository [flask-sk](https://github.com/GazDuckington/flask-sk)
+
+- Contoh sederhana:
+  ```python
+  from sensi.database.query import read_log_likelihood, read_log_prior
+  from sensi.resources.sentiment import predict_nbc
+  
+  logprior = read_log_prior()
+  loglikelihood = read_log_likelihood()
+  text = "contoh text yang ingin di analisis."
+  
+  print(predict_nbc(text, logprior, loglikelihood))
+  ```
+- Baca ```resources/predictor.py``` untuk berbagai contoh lainnya.
+
