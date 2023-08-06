@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: transfa
+Version: 0.1.3
+Summary: This is the official python SDK for the Transfa API.
+Home-page: https://transfapp.com
+Author: Kolawole Mangabo
+Author-email: kolawole.mangabo@transfapp.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Transfa Python SDK
+
+The Transfa Python SDK provides methods and resources to the Transfa API for applications written in Python. 
+
+## Documentation
+
+You can check the[Python API documentation](https://docs.transfapp.com/sdk/python/) for more details about the API. 
+
+## Installation
+
+Run the following command:
+
+```shell
+pip install --upgrade transfa
+```
+
+## Requirements
+- Python 3.8+ 
+
+## Usage
+
+```python
+from transfa.api_client import client
+
+client.api_key = "ak_test_..."
+
+response = client.Payment.request_payment({
+        "account_alias": "60201010",
+        "amount": 5000,
+        "mode": "mtn-benin"
+    })
+
+print(response.text)
+```
