@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quarkapi
+Version: 1.0
+Summary: The Quark API for Python developers.
+Home-page: https://github.com/anafro/quark-api-python
+Author: Anatoly Frolov (anafro)
+Author-email: contact@anafro.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# quark-api-python
+рџ“љ The Quark API for Python developers. 

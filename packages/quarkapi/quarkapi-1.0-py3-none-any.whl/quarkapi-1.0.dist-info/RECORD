@@ -1,0 +1,13 @@
+quarkapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quarkapi/__main__.py,sha256=6-jWIPHwCT9ist_RipAi1TpLsDgfwB4LnUxkFEHTE_c,122
+quarkapi/client.py,sha256=YA3c0O6U3E0RUV-xtk-HWp2z-ssAzYv5n9U8gDGqn00,846
+quarkapi/console.py,sha256=gNthzrgOZ558jdR7ehz0Rf45ZnlZb9UZd01BLluz7rk,5888
+quarkapi/constants.py,sha256=z4R0-AMz7BVdbevXy6eK1q-em4OIOWcxNoPeAMxXf60,214
+quarkapi/dataclass_json_encoder.py,sha256=denhbf8Y8KpDzL0wM0gPGj9taWayFaFoa-HYPQXFOuE,237
+quarkapi/entities.py,sha256=3JxGt46BHve_nlj5Rqh5C7epamF5ZYkx2uTZNN9NrDs,2828
+quarkapi/tcp.py,sha256=p776XIgoiWQgaNKbBUhDcWZBzHrk7bbIp40IDOiHSes,1449
+quarkapi-1.0.dist-info/LICENSE,sha256=yWbpMKk-k7o0ahhuEdWVSAMUnVt-R_oh3AS8jYrCfFA,1092
+quarkapi-1.0.dist-info/METADATA,sha256=QniuTXui_nA7hnMlg4WQ5hOejeb3wXHScyAG9mCTANI,490
+quarkapi-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quarkapi-1.0.dist-info/top_level.txt,sha256=KaJao5dZHPqne5-J-2VsMT58Zw1nIHWrdtqARApFQxA,9
+quarkapi-1.0.dist-info/RECORD,,
