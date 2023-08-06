@@ -1,0 +1,4 @@
+[console_scripts]
+YuexiangMofaQuanshu = YuexiangMofaQuanshu.__main__:main
+yuexiang-mofa-quanshu = YuexiangMofaQuanshu.__main__:main
+
