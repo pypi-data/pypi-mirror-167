@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: uniscale
+Version: 0.0.0
+Summary: uniscale provides universal APIs for distributed Python applications.
+Author: Uniscale Team
+Author-email: uniscale-dev@pjlab.org.cn
+License: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: ray (==1.13.0)
+
