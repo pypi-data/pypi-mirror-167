@@ -1,0 +1,2 @@
+[console_scripts]
+dockerdev = mtlibs.cli.dockerdev:main
