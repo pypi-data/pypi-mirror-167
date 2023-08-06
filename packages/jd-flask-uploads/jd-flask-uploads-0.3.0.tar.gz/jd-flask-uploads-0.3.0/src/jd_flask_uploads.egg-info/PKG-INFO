@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: jd-flask-uploads
+Version: 0.3.0
+Summary: replace for flask-uploads
+Author-email: wxg001 <wxg001@21cn.com>
+License: MIT
+Project-URL: Homepage, https://pypi.org/project/jd-flask-uploads/
+Project-URL: Bug Tracker, https://pypi.org/project/jd-flask-uploads/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jd-flask-uploads
+
+作为 flask-uploads 的替代品，因为 flask-uploads 在 Pypi上没有更新版本，从github上源码安装不太方便。
+
+
+## 安装
+
+```
+pip install jd-flask-uploads
+```
+
+## 用法
+```
+from jd_tools import *
+
+print(JdTools.trim("  12b   "))
+
+dd = JdTools.str_to_datetime('2022-09-10 8:10:15')
+print(dd)
+
+输出
+12b
+2022-09-10 08:10:15
+```
+
+
+# 模块内方法说明
+
+| 函数、对象名称            | 类型    | 说明                          |
+|---------------------------|---------|-------------------------------|
+| UploadSet                 | 对象    | 文件上传主对象                |
+| configure_uploads         | 函数    | 配置本上传对象，在 Flask App 创建之后 |
+| patch_request_class       | 函数    | 配置 Flask App 内置测试服务的文件上传大小限制 |
+| extension                 | 函数    | 返回文件扩展名 |
+| lowercase_ext             | 函数    | 返回文件扩展名（小写格式） |
+| addslash                  | 函数    | url、路径后添加反斜杠 '/'，若存在则不添加 |
