@@ -1,0 +1,8 @@
+python-docx
+openpyxl
+python-pptx
+PyPDF4
+reportlab
+playsound
+xlwings
+pillow

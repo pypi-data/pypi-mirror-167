@@ -1,0 +1,8 @@
+# include data files
+
+# include single file
+include office/requirements.txt
+
+# include multiple files
+recursive-include office/doc *
+recursive-include office/examples *
