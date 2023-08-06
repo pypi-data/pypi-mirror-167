@@ -1,0 +1,13 @@
+name:
+  test
+dependencies:
+  - cxx-compiler
+  # - clangdev
+  - transonic
+  - pythran
+  - cython
+  - fftw
+  - pyfftw
+  - fluiddyn
+  - pandas
+  - pytest
