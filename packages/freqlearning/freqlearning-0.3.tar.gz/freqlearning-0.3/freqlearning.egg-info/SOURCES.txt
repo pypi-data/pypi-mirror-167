@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+freqlearning/__init__.py
+freqlearning/freqlearning.py
+freqlearning.egg-info/PKG-INFO
+freqlearning.egg-info/SOURCES.txt
+freqlearning.egg-info/dependency_links.txt
+freqlearning.egg-info/not-zip-safe
+freqlearning.egg-info/top_level.txt
