@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: loadconf
+Version: 0.0.0b1
+Summary: Give users an easy way to define settings and personalize their use of your program.
+License: GNU General Public License v3 (GPLv3)
+Project-URL: repository, https://codeberg.org/johndovern/loadconf
+Keywords: shell,scripting
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
