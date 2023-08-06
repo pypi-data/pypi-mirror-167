@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ios_battery
+Version: 1.0.4
+Summary: get ios battery
+Home-page: UNKNOWN
+Author: cfr
+Author-email: 1354592998@qq.com
+License: MIT
+Platform: all
+License-File: LICENSE
+
+get ios battery temp and level
+
