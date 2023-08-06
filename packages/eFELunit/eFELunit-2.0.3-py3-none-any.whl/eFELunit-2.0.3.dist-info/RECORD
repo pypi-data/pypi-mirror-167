@@ -1,0 +1,16 @@
+eFELunit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eFELunit/utils.py,sha256=yxRjS3hyI-Qm12ywxZ_qDmrYaGpuFG0ysx9JsmRtlVA,5559
+eFELunit/capabilities/__init__.py,sha256=XhgZ7eY6Y4b4vABBZ3AlMzHDBF3leyBqOLQCDF9F4xM,380
+eFELunit/capabilities/cap_SomaReceivesCurrentProducesMembranePotential.py,sha256=RyGhWvPs3jgWcz_CBZdG7nyfmLMswLN9ttlsUcOZmZo,1388
+eFELunit/plots/__init__.py,sha256=WEEbBSLuf_mxmGJTTs5vQYJjV-KAf_tGqyJMt4mKFn0,370
+eFELunit/scores/__init__.py,sha256=Gr2abqIqHFs3qH7bKL6zWZlPEdTx7QZeslAOviPpn_o,374
+eFELunit/scores/score_RMS.py,sha256=rkfBRn2JycwnF9xZwG9S3km85I8lFVbnXOCbiGISykc,1272
+eFELunit/tests/__init__.py,sha256=n3MrJFdACG-IzD1v8j3wdG_DzKWeWhOCfj0a7FINpp8,370
+eFELunit/tests/test_Ferg2014_APFrequency.py,sha256=Ox-zNKC7IclcBKuBiUihfkSijxAap6uyzygTHq3XyPg,11433
+eFELunit/tests/test_eFELfeatureTest.py,sha256=kNBlfgZ2sdpj5Y5eG3_MfVPWOvjh8wBiE8G9Hgsg3B4,16043
+eFELunit-2.0.3.dist-info/LICENSE.txt,sha256=METHLuG8dtWM33Vcl2JqgepwPVYHIrMWpB0kj18ASKE,1493
+eFELunit-2.0.3.dist-info/METADATA,sha256=ilrlkFQqRbmDqMWypMEhA63xABiIEaMbhkh8SNROoGw,485
+eFELunit-2.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eFELunit-2.0.3.dist-info/dependency_links.txt,sha256=ugc00wZpO0aHs72uU26Wi8TaWyCQ08JTsSauIKHuchM,116
+eFELunit-2.0.3.dist-info/top_level.txt,sha256=HTuMnYSWs1YsxWChypvUKpUBrLzQJQpbDQWbXErN0VI,9
+eFELunit-2.0.3.dist-info/RECORD,,
