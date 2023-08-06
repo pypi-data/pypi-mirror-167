@@ -1,0 +1,10 @@
+nandini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nandini/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nandini/models/liner_model.py,sha256=5GwvvKjvD25acA0Xfv0a5Lx9g8V4gT-esG4qtpB8rPU,3348
+nandini/sequence/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nandini/sequence/gensim_vectorizers.py,sha256=gno_cL_w2ETWLzuzexDQcfFkIhRR8hlMBWRUWWkeSaE,2850
+nandini/sequence/text.py,sha256=AjKVuV9YdXu-xEnWMd8cfF96l600lAqGRPeFpBThDEU,2403
+nandini-0.0.2.1.dist-info/METADATA,sha256=u9ZqQGK4j1fSdDj-gGg-xSIULbdzVLuwy3nS0DnphRs,973
+nandini-0.0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nandini-0.0.2.1.dist-info/top_level.txt,sha256=9Awq9Iy81PrtbOFJPyTRL6BOQ0r6FNs6Bze3rGKE4DI,8
+nandini-0.0.2.1.dist-info/RECORD,,
