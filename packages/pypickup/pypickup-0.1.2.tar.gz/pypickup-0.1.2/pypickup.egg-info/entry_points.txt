@@ -1,0 +1,7 @@
+[console_scripts]
+pypickup = pypickup.cli:cli
+
+[pypickup.cmd]
+add = pypickup.cmd:Add
+rm = pypickup.cmd:Remove
+update = pypickup.cmd:Update
