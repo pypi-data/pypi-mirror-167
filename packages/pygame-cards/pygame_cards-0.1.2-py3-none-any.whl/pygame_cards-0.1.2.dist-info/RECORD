@@ -1,0 +1,21 @@
+pygame_cards/__init__.py,sha256=SBuY0-404krKKuHdUNsn08FiQDB13t5agoXus9zDhQw,163
+pygame_cards/abstract.py,sha256=QNLlgnvwPMTdg2xku7kn-PVPKgYSSaFEZUDwH18z3Fk,3973
+pygame_cards/back.py,sha256=YQOk-mzbs1KsuftGMK-qjf8pZKkG_XNa6AiWUziS8jo,1108
+pygame_cards/classics.py,sha256=QiYJa-niYg9kY6wN9IwInAt-VrqYb_1TOPPdCWehmKc,9772
+pygame_cards/deck.py,sha256=UeXpB0GnKFzVWQOBDKAd2UW-A7wpQy9yXa_6jszmgRU,4318
+pygame_cards/effects.py,sha256=LW6sJhwHofowmGsGEHyE0O3FxE8AARvbCqocdhh2FcY,4338
+pygame_cards/events.py,sha256=_TI8q2fQwFjry6FjQo9tO4ix_jMmQg_YqfJWGKxZCNM,1014
+pygame_cards/hands.py,sha256=IswbY6krQozTjpr7qJmn6d1KM6t0TlGAuNgkMOfwBig,16746
+pygame_cards/manager.py,sha256=SGO97B-qLPTmaN5DxS4lREoyJqnfjh1qQhS1KpKsLK0,10764
+pygame_cards/set.py,sha256=m1AorXwLPi6uwtlqLoaJW7BNSMNEELGibaXjlF1gdf0,7155
+pygame_cards/utils.py,sha256=DXf22fcvhB0Agg70Xa9D7TdiLsnNm8qwwrJWaz-yW74,1048
+pygame_cards/images/DALL·E 2022-08-25 13.56.20 - funny happy python, digital art.png,sha256=C6N66jOJ3-rQxqlMP6qDUxr4JY_GovA8Mx9MNVN4_eM,1649238
+pygame_cards/images/readme.md,sha256=BW40J_TdfOfAYFH28xCn62Yml_RNI112a5v9TZlFCOM,163
+pygame_cards/io/__init__.py,sha256=W6_cKNx1F9vKvp1YGKKl9AJB2UlNNb8BSGgG1MsKn8M,106
+pygame_cards/io/__main__.py,sha256=F1K496AyiIpgpRUguOWWnXNB14qa6WXfoAKqp3qBMVw,452
+pygame_cards/io/json.py,sha256=smMXKglcKnxtZlEhVBy0479ORfeWnDAiYsHZyzVEA8U,2833
+pygame_cards/io/utils.py,sha256=cca_k-uzxb4IKRY2AfyRLQzENrzTdxQvRxmS5GjzVMw,2164
+pygame_cards-0.1.2.dist-info/METADATA,sha256=n1MxNvudaC3z5yMDiZnLkd1yGdo6YdZ2aOtO2olalJ4,2198
+pygame_cards-0.1.2.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+pygame_cards-0.1.2.dist-info/licenses/LICENSE,sha256=HNlkd0e2W8whX4N_PneP3Nxm4mb5wZCyODNcnA43PEI,1069
+pygame_cards-0.1.2.dist-info/RECORD,,
