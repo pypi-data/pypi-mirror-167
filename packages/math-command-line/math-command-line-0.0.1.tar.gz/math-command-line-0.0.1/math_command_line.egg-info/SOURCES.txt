@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+math_command_line.egg-info/PKG-INFO
+math_command_line.egg-info/SOURCES.txt
+math_command_line.egg-info/dependency_links.txt
+math_command_line.egg-info/entry_points.txt
+math_command_line.egg-info/top_level.txt
+src/__init__.py
+src/main.py
