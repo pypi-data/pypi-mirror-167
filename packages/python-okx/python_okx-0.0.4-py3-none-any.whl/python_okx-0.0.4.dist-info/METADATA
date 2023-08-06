@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-okx
+Version: 0.0.4
+Summary: Python SDK for OKX OpenAPI
+Home-page: https://okx.com/docs-v5/
+Author: okxv5api
+Author-email: api@okg.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: h2
+
