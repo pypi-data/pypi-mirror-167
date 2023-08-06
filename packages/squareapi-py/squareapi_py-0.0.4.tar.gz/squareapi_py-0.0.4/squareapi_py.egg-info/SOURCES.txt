@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+squareapi_py/__init__.py
+squareapi_py/app.py
+squareapi_py/connection_API.py
+squareapi_py/square_erro.py
+squareapi_py.egg-info/PKG-INFO
+squareapi_py.egg-info/SOURCES.txt
+squareapi_py.egg-info/dependency_links.txt
+squareapi_py.egg-info/requires.txt
+squareapi_py.egg-info/top_level.txt
