@@ -1,0 +1,4 @@
+[console_scripts]
+snapbatch = snapbatch.cli:main
+snapbatch-dryrun = snapbatch.cli:dryrun
+snapbatch-rsc = snapbatch.cli:rscrun
