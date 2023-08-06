@@ -1,0 +1,3 @@
+[console_scripts]
+cow-web-ext = cow_web_ext:cli
+cow-web-ext-host = cow_web_ext:host
