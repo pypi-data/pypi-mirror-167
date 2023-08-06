@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pysurreal"
+version = "1.0.0a0"
+description = "Community-created Python connector and ORM for SurrealDB."
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vcokltfre/pysurreal"
+keywords = ["pysurreal", "surreal", "db", "orm", "database"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
+taskipy = "^1.10.3"
+
+[tool.taskipy.tasks]
+lint = "isort --profile black . && black ."
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
