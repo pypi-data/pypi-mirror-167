@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: lapis-mimeparse
+Version: 0.1.4
+Summary: A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges.
+License: MIT
+Keywords: mime-type
+Author: Joe Gregorio
+Author-email: joe@bitworking.org
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+This module provides basic functions for parsing mime-type names and matching them against a list of media-ranges.
+
+See section 14.1 of RFC 2616 (the HTTP specification) for a complete explanation.
+
+Testing
+=======
+The format of the JSON test data file is as follows:
+A top-level JSON object which has a key for each of the functions to be tested. The value corresponding to that key is a list of tests. Each test contains: the argument or arguments to the function being tested, the expected results and an optional description.
+
+
+Python
+======
+The Python tests require either Python 2.6 or the installation of the SimpleJSON library.
+
+Installing SimpleJson can be done by:
+sudo easy_install simplejson
+
+Run the tests by typing:
+PYTHONPATH=. python tests/mimeparse_test.py
+
