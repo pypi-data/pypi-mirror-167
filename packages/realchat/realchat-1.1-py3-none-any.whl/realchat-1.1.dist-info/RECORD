@@ -1,0 +1,13 @@
+realchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+realchat/admin.py,sha256=jgOwXW_DJ-dIfl_1Zl7zLqmbokWXcX5M8B3IX9AOjXU,119
+realchat/apps.py,sha256=f1o-7rUCIeXSofyD0nD0Od0uBQEHOgE3dMGaWsGOfyM,144
+realchat/models.py,sha256=TtqrlOTaItSKhRXDCKQqs_W2wBDPxmhx2gyfNnlYA_g,4165
+realchat/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+realchat/urls.py,sha256=1j0y_9i1OKh87-ySxv0SqfGgI8UpvfNa5zPb6m_gdWc,329
+realchat/views.py,sha256=cgdOY22LNH9vj-s6gaDgni4A_lOiXPgh-F8BxLvLl_M,4243
+realchat/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+realchat-1.1.dist-info/LICENSE,sha256=KVWIDWcVKiz4PmCKySKJkcKrJQOMB2PlZlqB6JfRxN8,1070
+realchat-1.1.dist-info/METADATA,sha256=87b_3aGGa1n0VE2-x-Hxx9nBzbE0JKoMfkAl44g1uGc,5269
+realchat-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+realchat-1.1.dist-info/top_level.txt,sha256=Cms91x3iIrW5j6ui7wcfukL-drKSMaNu558NlXq4lF4,9
+realchat-1.1.dist-info/RECORD,,
