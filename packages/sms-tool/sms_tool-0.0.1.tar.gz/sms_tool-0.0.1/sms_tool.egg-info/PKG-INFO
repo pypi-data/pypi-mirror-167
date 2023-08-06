@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sms-tool
+Version: 0.0.1
+Summary: sms sdk
+Home-page: 
+Author: zgl
+Author-email: 
+License: MIT
+Keywords: sms sdk
+License-File: LICENSE.txt
+
+sms sdk by python
