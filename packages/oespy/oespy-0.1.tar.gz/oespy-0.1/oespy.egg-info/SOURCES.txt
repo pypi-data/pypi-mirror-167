@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+oespy/__init__.py
+oespy.egg-info/PKG-INFO
+oespy.egg-info/SOURCES.txt
+oespy.egg-info/dependency_links.txt
+oespy.egg-info/top_level.txt
