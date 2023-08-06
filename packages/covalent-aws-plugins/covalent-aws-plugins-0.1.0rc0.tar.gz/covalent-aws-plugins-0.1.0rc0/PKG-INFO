@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: covalent-aws-plugins
+Version: 0.1.0rc0
+Summary: Covalent AWS Plugins
+Home-page: https://github.com/AgnostiqHQ/covalent-aws-plugins
+Download-URL: https://github.com/AgnostiqHQ/covalent-aws-plugins/archive/v0.1.0rc0.tar.gz
+Author: Agnostiq
+Author-email: support@agnostiq.ai
+Maintainer: Agnostiq
+License: GNU Affero GPL v3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Distributed Computing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+&nbsp;
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/AgnostiqHQ/covalent/master/doc/source/_static/covalent_readme_banner.svg" width=150%>
+
+[![covalent](https://img.shields.io/badge/covalent-0.177.0-purple)](https://github.com/AgnostiqHQ/covalent)
+[![agpl](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+</div>
+
+## Covalent AWS Plugins
+
+To use this plugin with Covalent, install it with `pip`:
+
+```bash
+pip install covalent-aws-plugins
+```
+
+import with
+
+```python
+from covalent_aws_plugins import AWSExecutor
+```
+
+## Release Notes
+
+Release notes are available in the [Changelog](https://github.com/AgnostiqHQ/covalent-aws-plugins/blob/main/CHANGELOG.md).
+
+## Citation
+
+Please use the following citation in any publications:
+
+> W. J. Cunningham, S. K. Radha, F. Hasan, J. Kanem, S. W. Neagle, and S. Sanand.
+> *Covalent.* Zenodo, 2022. https://doi.org/10.5281/zenodo.5903364
+
+## License
+
+Covalent is licensed under the GNU Affero GPL 3.0 License. Covalent may be distributed under other licenses upon request. See the [LICENSE](https://github.com/AgnostiqHQ/covalent-braket-plugin/blob/main/LICENSE) file or contact the [support team](mailto:support@agnostiq.ai) for more details.
+
+
