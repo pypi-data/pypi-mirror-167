@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: rippler
+Version: 1.0.0
+Summary: An interface to the Ripples drink printer platform
+Author-email: Pierre-Nicolas Durette <pndurette@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Pierre Nicolas Durette
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/pndurette/rippler
+Project-URL: documentation, https://github.com/pndurette/rippler/blob/main/docs/README.md
+Project-URL: repository, https://github.com/pndurette/rippler
+Project-URL: changelog, https://github.com/pndurette/rippler/blob/main/CHANGELOG.md
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: dev
+License-File: LICENSE.md
+
+# Rippler
+
+> A Python interface to the [Ripples drink printer platform](https://www.drinkripples.com). It reproduces the flow of the Ripples WebApp, allowing for images ("Ripples") to be sent programmatically to a Ripple Maker's mobile queue.
+
+## Features
+
+* Get location of Ripple Maker printers near a latitude/longitude
+* Send an image (either a file, file-like object or public URL) to a printer's mobile images queue
+
+## Usage
+
+```bash
+pip install rippler
+```
+
+See [examples/](./examples) & [docs/](./docs)
+
+## About
+
+This library is meant as a replacement for end-users who wish to create custom designs instead of using the Ripples WebApp. User-generated designs persist on a printer for 10 minutes.
+
+## Image requirements
+
+High contrast images with bold lines, 1700 x 1700 pixels, JPEG or PNG, Grayscale, 8 bit.
+
+See [How to Make the Perfect Ripple](https://support.drinkripples.com/hc/en-us/articles/360018489672-How-to-Make-the-Perfect-Ripple).
+
+## Disclaimer
+
+This library is provided "as is" (see [LICENSE.md](LICENSE.md)) and is in no way associated with Ripples Ltd.

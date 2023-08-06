@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+rippler/__init__.py
+rippler/main.py
+rippler/test_main.py
+rippler.egg-info/PKG-INFO
+rippler.egg-info/SOURCES.txt
+rippler.egg-info/dependency_links.txt
+rippler.egg-info/requires.txt
+rippler.egg-info/top_level.txt
