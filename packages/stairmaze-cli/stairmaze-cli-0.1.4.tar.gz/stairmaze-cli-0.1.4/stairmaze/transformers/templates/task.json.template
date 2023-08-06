@@ -1,0 +1,9 @@
+{
+    "Type": "Task",
+    "Resource": "arn:aws:states:::batch:submitJob.sync",
+    "Parameters": {
+      "JobDefinition": "{{ job_definition }}",
+      "JobName": "TestJob",
+      "JobQueue": "{{ job_queue }}"
+    }
+}
