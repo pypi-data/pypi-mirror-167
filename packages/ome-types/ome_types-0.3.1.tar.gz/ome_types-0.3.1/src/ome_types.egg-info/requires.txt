@@ -1,0 +1,15 @@
+Pint>=0.15
+lxml>=4.8.0
+pydantic[email]>=1.0
+xmlschema<2,>=1.4.1
+
+[autogen]
+autoflake
+black
+isort>=5.0
+numpydoc
+
+[test]
+pytest
+pytest-benchmark
+tox
