@@ -1,0 +1,12 @@
+jaxtyping/__init__.py,sha256=-DzMns0JmLVBkR5-QS07mIhbgdinavRnj7esC27GgRo,1656
+jaxtyping/array_types.py,sha256=plOT7t03SBXMj475VtDxNrO5-m7DidPg3Bo1oyiICFs,18933
+jaxtyping/decorator.py,sha256=Z8BWIHNOEGJ07Ib9kT3hCewubRNydksyP1D_Gd5gJIE,1428
+jaxtyping/import_hook.py,sha256=GKNyxwvEk7LSPV_6mh69X1YkoYBQPTT9Onn--tSUhqo,10475
+jaxtyping/pytest_plugin.py,sha256=WtWaZ_UlrgsSdjXPe3H7BNTAcTAe5u8yTfCqfSrUI14,2220
+jaxtyping/pytree_type.py,sha256=ikpkvR2BVy7zhb5lCQIl90V7JEkxKUUQm0AExxGq0lM,3039
+jaxtyping-0.2.1.dist-info/LICENSE,sha256=LvZ3UfeuH6jRdlxJTVkXZ_po3B4SqwQ90Pu_vB_9pbw,2279
+jaxtyping-0.2.1.dist-info/METADATA,sha256=2FoA6vj9U1zm1g76xLOg39G6IwEf9-qXvpDncyA9I48,2689
+jaxtyping-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jaxtyping-0.2.1.dist-info/entry_points.txt,sha256=6DU4_M2xpFIma8tzaka2a6mDQ7ZKbaTj0cFajyDAh_Q,48
+jaxtyping-0.2.1.dist-info/top_level.txt,sha256=U9-7PxOfzUxUKriZit_bgR-Puxn31OyUAj1XKtMR3fQ,10
+jaxtyping-0.2.1.dist-info/RECORD,,
