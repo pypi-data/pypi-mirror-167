@@ -1,0 +1,16 @@
+pypickup/__init__.py,sha256=1u2iHT_CH7NFzE6io78V2_-l6mDz-ZQrkKiOV_tc0QI,20
+pypickup/__main__.py,sha256=kIRwlaro0EMq14wbcJrTuvPl6kPRwxYAwleksBEe2Rw,36
+pypickup/cli.py,sha256=KvgUFY0Qx7Lf5dxH2WsITWZnL8Z7EUHvDAh-yqaWtEU,772
+pypickup/controller.py,sha256=w4sfZMf-DfyHtvpHhJj7XZ4KSz-GDHGN_zGYHki_TRg,14197
+pypickup/cmd/__init__.py,sha256=vxVKY8oqdMpQ71rdPpYjiTKl8gFHrDhqJ_J4iXKQp2E,75
+pypickup/cmd/add.py,sha256=_PvAP_5iT-h8VpMV1S14r10SUeGP1rhT-8uSLhQgLPE,2505
+pypickup/cmd/remove.py,sha256=YhtsLXWnHhVp8BYYxix_gSCyDGoipbn6Mbrfm7yue7w,1647
+pypickup/cmd/update.py,sha256=ckG1BUtgjxXNHTIVN8SwPAjxPDJHoMXU1pz9SWZWEcs,2156
+pypickup/settings/wheelFilters.py,sha256=BGg_GZ4Fv3-ibJjLjrCipICdQdWS1tAtDmXJtZLXp8A,3628
+pypickup/utils/htmlManager.py,sha256=4MjBs9ZdglISoSIFpngfiyZroagWxOlPiYBuZKGut40,14995
+pypickup-0.1.1.dist-info/LICENSE,sha256=qadezRoXU1p666utuMmQDUdE_AG3fAiNhPdWafALddo,11599
+pypickup-0.1.1.dist-info/METADATA,sha256=p7v0eb_GgTORJtrkqxrXXW0jIvmSIcmUg8lT1f4_Fzs,15554
+pypickup-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypickup-0.1.1.dist-info/entry_points.txt,sha256=an9tlhFWSNalbzR_YpOZltA_dKmKjlGJV6D4EPqRl7c,139
+pypickup-0.1.1.dist-info/top_level.txt,sha256=BKCebIYdWA8XjhgDJXI_oW5L3ha3lzHEfZ3Kou8I5Fo,9
+pypickup-0.1.1.dist-info/RECORD,,
