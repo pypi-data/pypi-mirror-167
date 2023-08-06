@@ -1,0 +1,15 @@
+google-auth
+google-cloud-secret-manager
+cloudpathlib[all]
+toml
+frozendict
+coloredlogs
+
+[test]
+pytest
+pytest-mock
+
+[workflows]
+hail
+networkx
+sample-metadata
