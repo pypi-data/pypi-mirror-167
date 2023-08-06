@@ -1,0 +1,7 @@
+maskay
+pytorch_lightning
+segmentation_models_pytorch
+gdown
+pystac
+dill
+shapely
