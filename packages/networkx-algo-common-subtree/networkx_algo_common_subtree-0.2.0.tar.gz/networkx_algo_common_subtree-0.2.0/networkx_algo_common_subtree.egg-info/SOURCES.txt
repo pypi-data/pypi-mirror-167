@@ -1,0 +1,16 @@
+README.rst
+pyproject.toml
+setup.py
+networkx_algo_common_subtree/__init__.py
+networkx_algo_common_subtree/_types.py
+networkx_algo_common_subtree/balanced_embedding.py
+networkx_algo_common_subtree/balanced_isomorphism.py
+networkx_algo_common_subtree/balanced_sequence.py
+networkx_algo_common_subtree/tree_embedding.py
+networkx_algo_common_subtree/tree_isomorphism.py
+networkx_algo_common_subtree/utils.py
+networkx_algo_common_subtree.egg-info/PKG-INFO
+networkx_algo_common_subtree.egg-info/SOURCES.txt
+networkx_algo_common_subtree.egg-info/dependency_links.txt
+networkx_algo_common_subtree.egg-info/requires.txt
+networkx_algo_common_subtree.egg-info/top_level.txt
