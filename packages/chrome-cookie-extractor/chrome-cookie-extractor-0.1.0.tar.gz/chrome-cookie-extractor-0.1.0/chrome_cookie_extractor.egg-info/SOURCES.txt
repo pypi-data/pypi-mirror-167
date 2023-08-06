@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+chrome_cookie_extractor.egg-info/PKG-INFO
+chrome_cookie_extractor.egg-info/SOURCES.txt
+chrome_cookie_extractor.egg-info/dependency_links.txt
+chrome_cookie_extractor.egg-info/entry_points.txt
+chrome_cookie_extractor.egg-info/top_level.txt
+src/chrome_cookie_extractor/__init__.py
+src/chrome_cookie_extractor/__main__.py
+src/chrome_cookie_extractor/chrome_cookie_extractor.py

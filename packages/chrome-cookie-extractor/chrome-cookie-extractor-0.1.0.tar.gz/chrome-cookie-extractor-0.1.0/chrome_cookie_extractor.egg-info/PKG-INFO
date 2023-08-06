@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chrome-cookie-extractor
+Version: 0.1.0
+Summary: exports your cookies to the Netscape cookie file format which is compatible with wget, curl, youtube-dl and more.
+Home-page: https://github.com/KroneCorylus/chrome-cookie-extractor
+Author: a.Krone
+Author-email: ahustinkrone@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+# chrome-cookie-extractor
+Exports your cookies to the Netscape cookie file format which is compatible with wget, curl, youtube-dl and more.
+
+
