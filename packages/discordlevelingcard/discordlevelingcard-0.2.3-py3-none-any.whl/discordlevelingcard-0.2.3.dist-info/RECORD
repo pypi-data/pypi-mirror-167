@@ -1,0 +1,11 @@
+DiscordLevelingCard/__init__.py,sha256=LqYdTHpNnzJcmRHIOIL5isg8mAi_E07Ow3nrz3rTQD4,38
+DiscordLevelingCard/assets/curvedoverlay.png,sha256=U904d5jadyBUwWe8VBhLtZXWm76n_Iv8mMj6oxOnTj4,2596
+DiscordLevelingCard/assets/levelfont.otf,sha256=2Xk9Oryv4dhlOEQuHjEWYBoW9ivo2w1TE2R5JGyN6Ug,60288
+DiscordLevelingCard/assets/mask_circle.jpg,sha256=6ugtjSw04mc64DwVN4I1BKh6STyd_PiiMBYevdo0otI,9742
+DiscordLevelingCard/assets/overlay1.png,sha256=3ieJKlnGFzFVVamr35v41537t5d3Cqds4qPyW1v5O3A,6394
+DiscordLevelingCard/discord_card.py,sha256=o7gGIID0zmawsVX4OJTGdAU1TiIjWEWxONgVFfhjeXU,7576
+DiscordLevelingCard/error.py,sha256=k6dj316aU4REpnVaAW5W3Mfb6VqzJXPYOaU0rRXCBpQ,531
+discordlevelingcard-0.2.3.dist-info/LICENSE,sha256=7Cuq83nQV-47TuHIyI4sQMMbOdsPfl3oi6V1lMV14os,1083
+discordlevelingcard-0.2.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+discordlevelingcard-0.2.3.dist-info/METADATA,sha256=DI0893ycRtV2gSMxovjjn_Ajyt44ckfj54wN950OvPo,3860
+discordlevelingcard-0.2.3.dist-info/RECORD,,
