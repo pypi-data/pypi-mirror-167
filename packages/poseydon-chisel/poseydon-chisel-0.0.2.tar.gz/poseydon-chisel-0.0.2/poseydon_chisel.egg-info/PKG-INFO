@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: poseydon-chisel
+Version: 0.0.2
+Summary: Chisel package part of the Poseydon suite
+Home-page: https://github.com/Husam94/poseydon-chisel
+Author: Husam Abdulnabi
+Author-email: husam.abdulnabi@gmail.com
+License: MIT license
+Keywords: poseydon_chisel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
