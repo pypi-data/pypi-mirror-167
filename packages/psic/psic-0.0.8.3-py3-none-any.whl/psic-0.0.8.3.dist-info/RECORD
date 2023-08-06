@@ -1,0 +1,11 @@
+psic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psic/calc_fraction.py,sha256=zmE5_DjHx3YgbZt64k5GDBYeY-Pw6fDA1pgJpW0Gg6w,4334
+psic/create_mesh.py,sha256=5c9ebE8RuOi8uREy4jLFIzLhK76X_mNBg2vIlt8QuKo,13847
+psic/create_submodel.py,sha256=JJtn-o1BVCetuoAPHS0uwxmnOtJ1Y8JT9ynsVMuvV5E,5096
+psic/packing_spheres_in_cube.py,sha256=dtN-FGJyRrVOGzdNKp7Av_xHRl5-uNtMZ30qxPr2zw8,15693
+psic/plot_model.py,sha256=wbR77kVF3hOz28Y9HwwJwuihjfQnw5S_8XD0Am8tTqo,1857
+psic-0.0.8.3.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+psic-0.0.8.3.dist-info/METADATA,sha256=UCbBbYUWI3JQs20oirPiTpAj9g0s1PJGyvwC-A6pQjo,875
+psic-0.0.8.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+psic-0.0.8.3.dist-info/top_level.txt,sha256=FkkxmDb8bWpw5fQXHM8hCv3MEDtP1sODF8N9u0wK0sQ,5
+psic-0.0.8.3.dist-info/RECORD,,
