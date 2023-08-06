@@ -1,0 +1,16 @@
+notify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notify/addict.py,sha256=F11NCLtQd92KPhzzVjXQTNRZqFQWATr1NaZ_ZJ9IhAY,4973
+notify/channels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notify/channels/bark.py,sha256=tMCGcHUX0Akn9VtSNrgt0fYHdGYHRzXh4FW68KawmHo,648
+notify/channels/chanify.py,sha256=ddbOCzZLf8K2J4LyRt3u-zMZfBAlR4gdAiFu9oI6T1o,740
+notify/channels/ding.py,sha256=3uAuOLFSqERgyUerpUJ_hRi9-rLxFwsr0f-7uLCXMrU,1149
+notify/channels/email.py,sha256=bpgixv4pT-pmMd9szORHngiDfUiL2VtNrDkYJEU3ve8,1316
+notify/channels/pushdeer.py,sha256=nWiALSp3fI9ddcVV5uiDh9NEvVSsLK3qG2nksKB0XJw,720
+notify/channels/pushover.py,sha256=tNheTglWN1Tn2PDeXlLbTcaEZ5cJ2wf-AWMGZSXYfQw,867
+notify/channels/wechat.py,sha256=mZcjdRWLqgD_qJHyQcXr_hxhS_El09iSs6FTuDXOa_Y,823
+notify/default_settings.py,sha256=47OZ5725VdHXWIRPmSDcrLTgOj0JiO9Lsjp5Ri998q4,630
+notify/notification.py,sha256=8n00AjaeGhu0VogGcgsw3ZYdcCmNVUibTY_zm2_02Bw,1463
+notify/utils.py,sha256=5l6TjuVsrgfLpYLnwS3u7hjaeytO6jWUZjRsUaHWJUk,520
+ml_simple_notify-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ml_simple_notify-0.1.1.dist-info/METADATA,sha256=KscVWSV6dCFEcq1S2np03usSDYT437S1-9WIggFv1L4,1700
+ml_simple_notify-0.1.1.dist-info/RECORD,,
