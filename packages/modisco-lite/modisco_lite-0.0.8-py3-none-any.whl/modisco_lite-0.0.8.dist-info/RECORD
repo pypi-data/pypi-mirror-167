@@ -1,0 +1,16 @@
+modisco_lite-0.0.8.data/scripts/modisco,sha256=l6uQjOy0Hsljr4qCYjrJjtH2bhC1LrrLXSB_v_tv7cs,12446
+modiscolite/__init__.py,sha256=R4NNvqrGY_dFrfInrnOaN0EUVJQYZUV5AMwhcCAftT4,234
+modiscolite/affinitymat.py,sha256=NekVhcjIVSobD4IKj4h0RT6s8tAvj0-YXvGsptxx3PE,7406
+modiscolite/aggregator.py,sha256=Exkiov_0w3iD64FIPHqawHnySdyEjgwloI2h2pyhrd8,17218
+modiscolite/cluster.py,sha256=15UndB_Ac58RoXm_saGAU7dNraA9uryNVqt7JoqyKwg,1254
+modiscolite/core.py,sha256=Ac2y2AWXq0_CujrKgOcGC2t7_OzN2BnyBaqEtbrobBM,7460
+modiscolite/extract_seqlets.py,sha256=WERqKh6oKeh2ozAEZj20rG3LiO02Uba7k4fzejo8Ap0,6769
+modiscolite/gapped_kmer.py,sha256=cP36Dacm9nmQBkrRrT7Wv7bYJ-ZEnMoTnXCGHqSgDUs,3837
+modiscolite/report.py,sha256=T_dDzjfHr2U1W1F7q9KYcFZut_7rmeEKaQ8PVNrLj9o,8749
+modiscolite/tfmodisco.py,sha256=RcAoag70vSavvSMSKozSFDEqLDuEMqxgA71Ezz1BrVc,14069
+modiscolite/util.py,sha256=jBgU59nJ9f4LY3iQOpb1-hcxMli_Z2FWu154yWznlog,3384
+modisco_lite-0.0.8.dist-info/LICENSE,sha256=RNmYRebI0EI9xJhWp050okTegGQVatTr2SK27pZo6kI,1068
+modisco_lite-0.0.8.dist-info/METADATA,sha256=k4HAVj-NThkYSVlM9TDBoJR4viRiHoybLcIMq-JgZ_E,673
+modisco_lite-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modisco_lite-0.0.8.dist-info/top_level.txt,sha256=J6C3Pi4xTRInVzrZwaOdLfNV0OOakCrMGAnVGXOzDAI,12
+modisco_lite-0.0.8.dist-info/RECORD,,
