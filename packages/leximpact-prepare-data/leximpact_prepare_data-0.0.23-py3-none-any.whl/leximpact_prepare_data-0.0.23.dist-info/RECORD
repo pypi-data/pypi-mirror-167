@@ -1,0 +1,11 @@
+leximpact_prepare_data/__init__.py,sha256=CO0VmekjZ_r8LBYVaUXTM3i08rEVwYKhjb9sy0X7vz0,23
+leximpact_prepare_data/_modidx.py,sha256=EvQx2eZAQydsxUmDFdJE6arcqrQgV0EGXYotrTmJVyM,10598
+leximpact_prepare_data/aging_tools.py,sha256=EuhPT4CC2yXD77hsA42H61NiGSKgEoQ6Dri1HL3yT1U,12447
+leximpact_prepare_data/calib_and_copules.py,sha256=wmM6S8g3jwKvK9_vDRo4mjFkr33Oxh1QTWarlDtL3VQ,47600
+leximpact_prepare_data/enlargement.py,sha256=EsreNKOUWJnfnFTc8CDBdT5AIvTuLvzt8fspsr8zabE,2630
+leximpact_prepare_data/reduce_data.py,sha256=iyAoluVhZvE7TOonlevSU_lRRX3XJlzZyE7K9oqgCgc,3842
+leximpact_prepare_data/toolbase.py,sha256=raZoIMRjwtDyYyw44UBPLRUvsJ0DZcgKIyIkWG3wlas,11854
+leximpact_prepare_data-0.0.23.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+leximpact_prepare_data-0.0.23.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+leximpact_prepare_data-0.0.23.dist-info/METADATA,sha256=KxVxNlWbMNL-4k6tauc9as0u4DiiCPF9y9hes8-N7fI,3274
+leximpact_prepare_data-0.0.23.dist-info/RECORD,,
