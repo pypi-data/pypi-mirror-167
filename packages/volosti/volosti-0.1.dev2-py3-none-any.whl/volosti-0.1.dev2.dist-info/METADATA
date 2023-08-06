@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: volosti
+Version: 0.1.dev2
+Summary: Метапакет разрабатываемого проекта
+Home-page: https://pypi.org/project/volosti
+License: MIT
+Author: Ruslan Ilyasovich Gilfanov
+Author-email: ri.gilfanov@yandex.ru
+Maintainer: Ruslan Ilyasovich Gilfanov
+Maintainer-email: ri.gilfanov@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: all
+Provides-Extra: gui-kivy
+Provides-Extra: gunicorn
+Provides-Extra: hypercorn
+Provides-Extra: openssl
+Provides-Extra: postgresql
+Provides-Extra: pycryptodome
+Provides-Extra: server-sanic
+Provides-Extra: server-sanic-wui
+Provides-Extra: server-starlette
+Provides-Extra: server-starlette-wui
+Provides-Extra: sqlite
+Provides-Extra: uvicorn
+Requires-Dist: aiosqlite (>=0.17.0); extra == "sqlite" or extra == "all"
+Requires-Dist: asyncpg (>=0.26.0); extra == "postgresql" or extra == "all"
+Requires-Dist: cryptography (>=37.0.4,<38.0.0); extra == "openssl" or extra == "all"
+Requires-Dist: gunicorn (>=20.1.0,<21.0.0); extra == "gunicorn" or extra == "all"
+Requires-Dist: hypercorn (>=0.13.2); extra == "hypercorn" or extra == "all"
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0); extra == "server-sanic-wui" or extra == "server-starlette-wui" or extra == "all"
+Requires-Dist: pycryptodome (>=3.15.0,<4.0.0); extra == "pycryptodome" or extra == "all"
+Requires-Dist: python-multipart; extra == "server-starlette-wui" or extra == "all"
+Requires-Dist: uvicorn (>=0.18.2); extra == "uvicorn" or extra == "all"
+Requires-Dist: volosti-gui-kivy (>=0,<1); extra == "gui-kivy" or extra == "all"
+Requires-Dist: volosti-server-sanic (>=0,<1); extra == "server-sanic" or extra == "server-sanic-wui" or extra == "all"
+Requires-Dist: volosti-server-starlette (>=0,<1); extra == "server-starlette" or extra == "server-starlette-wui" or extra == "all"
+Project-URL: Repository, https://github.com/volosti/volosti
+Description-Content-Type: text/x-rst
+
+#######
+Волости
+#######
+Метапакет разрабатываемого проекта
+
