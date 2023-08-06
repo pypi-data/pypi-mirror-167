@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+deepnlp/__init__.py
+deepnlp/constant.py
+deepnlp/inference_pipeline.py
+deepnlp/preprocess_load.py
+deepnlp/utils/__init__.py
+deepnlp/utils/data_struct.py
+deepnlp/utils/print_out.py
+deepnlp/utils/tokenizer.py
+deepnlp_cerelab.egg-info/PKG-INFO
+deepnlp_cerelab.egg-info/SOURCES.txt
+deepnlp_cerelab.egg-info/dependency_links.txt
+deepnlp_cerelab.egg-info/requires.txt
+deepnlp_cerelab.egg-info/top_level.txt

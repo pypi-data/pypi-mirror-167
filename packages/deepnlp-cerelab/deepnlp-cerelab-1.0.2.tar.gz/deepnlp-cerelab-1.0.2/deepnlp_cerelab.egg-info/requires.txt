@@ -1,0 +1,4 @@
+transformers>=4.21.3
+tensorflow>=2.8.2
+numpy
+gdown>=4.4.0
