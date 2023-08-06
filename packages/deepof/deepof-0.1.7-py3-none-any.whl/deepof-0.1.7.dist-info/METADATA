@@ -1,0 +1,296 @@
+Metadata-Version: 2.1
+Name: deepof
+Version: 0.1.7
+Summary: A suite for postprocessing time-series extracted from videos of freely moving rodents using DeepLabCut
+Home-page: https://gitlab.mpcdf.mpg.de/lucasmir/deepof/
+Author: Lucas Miranda
+Author-email: lucas_miranda@psych.mpg.de
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py (==1.1.0)
+Requires-Dist: alabaster (==0.7.12)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: av (==9.2.0)
+Requires-Dist: Babel (==2.10.1)
+Requires-Dist: bayesian-optimization (==1.2.0)
+Requires-Dist: bleach (==5.0.0)
+Requires-Dist: Brotli (==1.0.9)
+Requires-Dist: brotlipy (==0.7.0)
+Requires-Dist: cachetools (==5.2.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: cloudpickle (==2.1.0)
+Requires-Dist: ConfigArgParse (==1.5.3)
+Requires-Dist: connection-pool (==0.0.3)
+Requires-Dist: coverage (==6.4.1)
+Requires-Dist: dash (==2.4.1)
+Requires-Dist: dash-core-components (==2.0.0)
+Requires-Dist: dash-html-components (==2.0.0)
+Requires-Dist: dash-table (==5.0.0)
+Requires-Dist: dask (==2022.5.2)
+Requires-Dist: dask-image (==2021.12.0)
+Requires-Dist: datrie (==0.8.2)
+Requires-Dist: debugpy (==1.6.0)
+Requires-Dist: distlib (==0.3.4)
+Requires-Dist: distributed (==2022.5.2)
+Requires-Dist: dm-tree (==0.1.7)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: dpath (==2.0.6)
+Requires-Dist: et-xmlfile (==1.1.0)
+Requires-Dist: execnet (==1.9.0)
+Requires-Dist: filelock (==3.7.1)
+Requires-Dist: Flask (==2.1.2)
+Requires-Dist: Flask-Compress (==1.12)
+Requires-Dist: flatbuffers (==1.12)
+Requires-Dist: fonttools (==4.33.3)
+Requires-Dist: fsspec (==2022.5.0)
+Requires-Dist: gast (==0.4.0)
+Requires-Dist: gitdb (==4.0.9)
+Requires-Dist: GitPython (==3.1.27)
+Requires-Dist: google-auth (==2.6.6)
+Requires-Dist: google-auth-oauthlib (==0.4.6)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: grpcio (==1.46.3)
+Requires-Dist: gym (==0.25.2)
+Requires-Dist: gym-notices (==0.0.8)
+Requires-Dist: h5py (==3.7.0)
+Requires-Dist: HeapDict (==1.0.1)
+Requires-Dist: hypothesis (==6.46.11)
+Requires-Dist: imageio (==2.19.3)
+Requires-Dist: imagesize (==1.3.0)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: ipykernel (==6.13.0)
+Requires-Dist: ipywidgets (==7.7.0)
+Requires-Dist: jsonschema (==4.6.0)
+Requires-Dist: jupyterlab-widgets (==1.1.0)
+Requires-Dist: kaggle (==1.5.12)
+Requires-Dist: keras (==2.9.0)
+Requires-Dist: Keras-Applications (==1.0.8)
+Requires-Dist: Keras-Preprocessing (==1.1.2)
+Requires-Dist: keras-tcn (==3.4.4)
+Requires-Dist: keras-tuner (==1.1.2)
+Requires-Dist: kt-legacy (==1.0.4)
+Requires-Dist: libclang (==14.0.1)
+Requires-Dist: llvmlite (==0.39.0)
+Requires-Dist: locket (==1.0.0)
+Requires-Dist: lockfile (==0.12.2)
+Requires-Dist: Markdown (==3.3.7)
+Requires-Dist: matplotlib-inline (==0.1.3)
+Requires-Dist: matrixprofile (==1.1.10)
+Requires-Dist: msgpack (==1.0.4)
+Requires-Dist: munkres (==1.1.4)
+Requires-Dist: nbclient (==0.6.4)
+Requires-Dist: nbconvert (==6.5.0)
+Requires-Dist: networkx (==2.8.3)
+Requires-Dist: numba (==0.56.0)
+Requires-Dist: numpy (==1.22.4)
+Requires-Dist: oauthlib (==3.2.0)
+Requires-Dist: opencv-python (==4.5.5.64)
+Requires-Dist: openpyxl (==3.0.10)
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: partd (==1.2.0)
+Requires-Dist: patsy (==0.5.2)
+Requires-Dist: Pillow (==9.2.0)
+Requires-Dist: PIMS (==0.6.1)
+Requires-Dist: pipenv (==2022.5.2)
+Requires-Dist: pipfile (==0.0.2)
+Requires-Dist: plac (==1.3.5)
+Requires-Dist: platformdirs (==2.5.2)
+Requires-Dist: plotly (==5.8.0)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: ply (==3.11)
+Requires-Dist: pockets (==0.9.1)
+Requires-Dist: POT (==0.8.2)
+Requires-Dist: prompt-toolkit (==3.0.29)
+Requires-Dist: protobuf (==3.20.0)
+Requires-Dist: PuLP (==2.6.0)
+Requires-Dist: py (==1.11.0)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: Pygments (==2.12.0)
+Requires-Dist: pylev (==1.3.0)
+Requires-Dist: pynndescent (==0.5.7)
+Requires-Dist: PyQt5-sip (==12.11.0)
+Requires-Dist: pytest (==7.1.2)
+Requires-Dist: pytest-cov (==3.0.0)
+Requires-Dist: pytest-forked (==1.4.0)
+Requires-Dist: pytest-xdist (==2.5.0)
+Requires-Dist: python-slugify (==6.1.2)
+Requires-Dist: PyWavelets (==1.3.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: QtPy (==2.1.0)
+Requires-Dist: ratelimiter (==1.2.0.post0)
+Requires-Dist: regex (==2022.6.2)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: retry (==0.9.2)
+Requires-Dist: rsa (==4.8)
+Requires-Dist: ruptures (==1.1.6)
+Requires-Dist: scikit-image (==0.19.2)
+Requires-Dist: scipy (==1.8.1)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: shap (==0.41.0)
+Requires-Dist: Shapely (==1.8.2)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: slicerator (==1.1.0)
+Requires-Dist: smart-open (==6.0.0)
+Requires-Dist: smmap (==5.0.0)
+Requires-Dist: snakemake (==7.8.1)
+Requires-Dist: snowballstemmer (==2.2.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: Sphinx (==5.0.1)
+Requires-Dist: sphinx-rtd-theme (==1.0.0)
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2)
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2)
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.0)
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1)
+Requires-Dist: sphinxcontrib-napoleon (==0.7)
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3)
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5)
+Requires-Dist: statannotations (==0.4.4)
+Requires-Dist: statsmodels (==0.13.2)
+Requires-Dist: stopit (==1.1.2)
+Requires-Dist: stumpy (==1.11.1)
+Requires-Dist: tables (==3.7.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: tblib (==1.7.0)
+Requires-Dist: tenacity (==8.0.1)
+Requires-Dist: tensorboard (==2.9.0)
+Requires-Dist: tensorboard-data-server (==0.6.1)
+Requires-Dist: tensorboard-plugin-wit (==1.8.1)
+Requires-Dist: tensorflow-addons (==0.17.1)
+Requires-Dist: tensorflow-estimator (==2.9.0)
+Requires-Dist: tensorflow-macos (==2.9.2)
+Requires-Dist: tensorflow-metal (==0.5.1)
+Requires-Dist: tensorflow-probability (==0.16.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: text-unidecode (==1.3)
+Requires-Dist: tifffile (==2022.5.4)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: toolz (==0.11.2)
+Requires-Dist: toposort (==1.7)
+Requires-Dist: traitlets (==5.2.2.post1)
+Requires-Dist: tsfresh (==0.19.0)
+Requires-Dist: typeguard (==2.13.3)
+Requires-Dist: umap-learn (==0.5.3)
+Requires-Dist: virtualenv (==20.14.1)
+Requires-Dist: virtualenv-clone (==0.5.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==2.1.2)
+Requires-Dist: widgetsnbextension (==3.6.0)
+Requires-Dist: wrapt (==1.14.1)
+Requires-Dist: yte (==1.5.1)
+Requires-Dist: zict (==2.2.0)
+
+[![Pipeline](https://gitlab.mpcdf.mpg.de/lucasmir/deepof/badges/master/pipeline.svg)](https://gitlab.mpcdf.mpg.de/lucasmir/deepof/-/pipelines)
+[![Coverage](https://gitlab.mpcdf.mpg.de/lucasmir/deepof/badges/master/coverage.svg)](https://coverage.readthedocs.io/en/coverage-5.3/)
+[![Documentation Status](https://readthedocs.org/projects/deepof/badge/?version=latest)](https://deepof.readthedocs.io/en/latest)
+[![CodeFactor](https://www.codefactor.io/repository/github/lucasmiranda42/deepof/badge)](https://www.codefactor.io/repository/github/lucasmiranda42/deepof)
+[![Version](https://img.shields.io/badge/release-v0.1.6-informational)](https://pypi.org/project/deepof/)
+[![MLFPM](https://img.shields.io/badge/funding-MLFPM-informational)](https://mlfpm.eu/)
+[![Black](https://img.shields.io/badge/code%20style-black-black)](https://github.com/psf/black)
+
+<br>
+
+<div align="center">
+  <img width="350" height="350" src="https://gitlab.mpcdf.mpg.de/lucasmir/deepof/-/raw/master/logos/deepOF_logo_w_text.png">
+</div>
+
+### A suite for postprocessing time-series extracted from videos of freely moving rodents using [DeepLabCut](http://www.mousemotorlab.org/deeplabcut)
+#
+
+You can use this package to either extract pre-defined motifs from the time series (such as time-in-zone, climbing, 
+basic social interactions) or to embed your data into a sequence-aware latent space to extract meaningful motifs in an
+unsupervised way! Both of these can be used within the package, for example, to automatically 
+compare user-defined experimental groups.
+
+### How do I start?
+##### Installation:
+open a terminal (with python>3.6 installed) and type: 
+``` pip install deepof ```
+
+##### Before we delve in:
+To start, create a folder for your project
+ with at least two subdirectories inside, called 'Videos' and 'Tables'. The former should contain the videos you're
+ working with (either you original data or the labeled ones obtained from DLC); the latter should have all the tracking 
+ tables you got from DeepLabCut, either in .h5 or .csv format. If you don't want to use DLC yourself, don't worry:
+ a compatible pre-trained model for mice will be released soon!
+```
+   my_project
+   ├── Videos -> all tagged videos
+   ├── Tables -> all tracking tables (.h5 or .csv)
+```
+IMPORTANT: You should make sure that the tables and videos correspond to the same experiments. While the names should 
+be compatible, this is handled by DLC by default.
+
+##### Basic usage:
+
+The main module with which you'll interact is called ```deepof.data```. Let's import it and create a project:
+```
+import deepof.data
+my_project = deepof.data.Project(path="./my_project",
+                                 arena_dims=380,        # diameter of the arena in milimeters
+                                 arena_type="circular", # type of the filmed arena (optional). So far, only "circular" is valid
+                                 smooth_alpha=2,        # smoothing coefficient (optional)
+                                 frame_rate=25)         # frame rate of the videos in Hz (optional)
+```
+This command will create a ```deepof.data.Project``` object storing all the necessary information to start. The ```smooth_alpha```
+parameter will control how much smoothing will be applied to your trajectories, using an exponentially weighted average.
+Values close to 0 apply a stronger smoothing, and values close to 1 a very light one. In practice, we recommend values
+between 0.95 and 0.99 if your trajectories are not too noisy. There are other things you can do here, but let's stick to
+the basics for now.  
+  
+One you have this, you can run you project using the ```.run()``` method, which will do quite a lot of computing under
+the hood (load your data, smooth your trajectories, compute distances and angles). The returned object belongs to the 
+```deepof.data.Coordinates``` class.
+```
+my_project = my_project.run(verbose=True)
+```
+
+Once you have this, you can do several things! But let's first explore how the results of those computations I mentioned
+are stored. To extract trajectories, distances and/or angles, you can respectively type:
+```
+my_project_coords = my_project.get_coords(center=True, polar=False, speed=0, align="Nose", align_inplace=True)
+my_project_dists  = my_project.get_distances(speed=0)
+my_project_angles = my_project.get_angles(speed=0)
+```
+Here, the data are stored as ```deepof.data.table_dict``` instances. These are very similar to python dictionaries
+with experiment IDs as keys and pandas.DataFrame objects as values, with a few extra methods for convenience. Peeping
+into the parameters you see in the code block above, ```center``` centers your data (it can be either a boolean or
+one of the body parts in your model! in which case the coordinate origin will be fixed to the position of that point);
+```polar``` makes the ```.get_coords()``` method return polar instead of Cartesian coordinates, and ```speed``` 
+indicates the derivation level to apply (0 is position-based, 1 speed, 2 acceleration, 3 jerk, etc). Regarding 
+```align``` and ```align-inplace```, they take care of aligning the animal position to the y Cartesian axis: if we
+center the data to "Center" and set ```align="Nose", align_inplace=True```, all frames in the video will be aligned in a
+way that will keep the Center-Nose axis fixed. This is useful to constrain the set of movements that one can extract
+with out unsupervised methods.
+
+As mentioned above, the two main analyses that you can run are supervised and unsupervised. They are executed by
+the ```.supervised_annotation()``` method, and the ```.deep_unsupervised_embedding()``` methods of the ```deepof.data.Coordinates``` 
+class, respectively.
+```
+supervised_annot = my_project.supervised_annotation()
+gmvae_embedding  = my_project.deep_unsupervised_embedding()
+```
+The former returns a ```deepof.data.TableDict``` object, with a pandas.DataFrame per experiment containing a series of 
+annotations. The latter is a bit more complicated: it returns an array containing the encoding of the data per animal, 
+another one with motif membership per time point (probabilities of the animal doing whatever is represented by each of 
+the clusters at any given time), an abstract distribution (a multivariate Gaussian mixture) representing the extracted
+ components, and a decoder you can use to generate samples from each of the extracted components (yeah, 
+ you get a generative model for free).
+ 
+ That's it for this (very basic) introduction. More detailed documentation, tutorials and method explanation will follow,
+ so stay tuned!
+
+---
+
+ This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No.  813533
+ <div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png">
+</div>
+
+---
