@@ -1,0 +1,4 @@
+pyside6==6.3.0
+pyserial==3.5
+diskcache==5.4.0
+crcmod==1.7
