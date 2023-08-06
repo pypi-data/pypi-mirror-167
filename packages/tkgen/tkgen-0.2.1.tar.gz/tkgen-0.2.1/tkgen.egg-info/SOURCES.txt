@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+test/test_complex.py
+test/test_opt.py
+tkgen/__init__.py
+tkgen/tooltip.py
+tkgen.egg-info/PKG-INFO
+tkgen.egg-info/SOURCES.txt
+tkgen.egg-info/dependency_links.txt
+tkgen.egg-info/requires.txt
+tkgen.egg-info/top_level.txt
