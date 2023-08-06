@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: collectschedulekgtt
+Version: 0.0.5
+Summary: Модуль который использует Google таблицу КГТТ , для получения расписания
+Author: DaniEruDai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pandas (==1.4.4)
+Requires-Dist: recipientgsheets (==0.0.5)
+Description-Content-Type: text/markdown
+
+# ***Получение расписания с Google Таблицы КГТТ***
+____
+### Установка
+```
+pip install collectschedulekgtt
+```
+### Импорт и инициализация
+```python
+from collectschedulekgtt import Collector
+
+collector = Collector("Название группы")
+```
+### Пример
+
+```python
+collector = Collector("1ИСИП-21-9")
+collector.get_image()  # Вернет расписание для группы 1ИСИП-21-9
+```
+## Примечание
+>Важно чтобы таблица была открытой для общего доступа!
+## Полезные ссылки
+>[Страница на GitHub](https://github.com/DaniEruDai/collectschedulekgtt)
+> | [Страница на PyPi](https://pypi.org/project/collectschedulekgtt)
+
+
+
