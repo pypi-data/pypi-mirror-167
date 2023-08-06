@@ -1,0 +1,3 @@
+[console_scripts]
+theta = theta.__main__:main
+
