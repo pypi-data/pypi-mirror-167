@@ -1,0 +1,8 @@
+beiboot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beiboot/api.py,sha256=EVCT5i2I8NBUI4hRi7aBb3nEDG9gtxMnXKrQ6tShHJc,4909
+beiboot/configuration.py,sha256=lxQ_nBegRBQybPYbNV5Lprz7ZcBJ0X7qsWxho9xOM68,3409
+beiboot/utils.py,sha256=I0mf72ZJJhOUp4qFjV1Rk0t4LNKXg6wup-qxG6HA8f4,6926
+beiboot-0.8.1.dist-info/entry_points.txt,sha256=_CBPRqAG8Nc83yF1QfyNE_OGhufPOAj6KMra1EeqEhE,132
+beiboot-0.8.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+beiboot-0.8.1.dist-info/METADATA,sha256=f_mjxJyJbsdI4QGv_1Sp2ImV0Q6BJu6KeG_Y08iWVRg,1569
+beiboot-0.8.1.dist-info/RECORD,,
