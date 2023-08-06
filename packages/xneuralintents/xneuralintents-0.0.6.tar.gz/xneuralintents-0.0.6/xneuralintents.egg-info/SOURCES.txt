@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+neuralintents/__init__.py
+neuralintents/main.py
+xneuralintents.egg-info/PKG-INFO
+xneuralintents.egg-info/SOURCES.txt
+xneuralintents.egg-info/dependency_links.txt
+xneuralintents.egg-info/requires.txt
+xneuralintents.egg-info/top_level.txt
