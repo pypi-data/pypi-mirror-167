@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------------------- 
+# setup.cfg.template for grib2io
+#
+# Notes:
+#
+# 1) Rename this file to setup.cfg to set grib2io build options. Follow instructions 
+#    below for editing.
+#
+# 2) Define the locations for the g2c library.
+# ---------------------------------------------------------------------------------------- 
+
+[directories]
+
+# ---------------------------------------------------------------------------------------- 
+# Define paths for g2c Library
+#
+# Please set g2c_dir is include and library files are within the same location.
+# If not, please set g2c_incdir and g2c_libdir.
+# ---------------------------------------------------------------------------------------- 
+# g2c_dir = /usr/local
+# g2c_incdir =
+# g2c_libdir =

@@ -1,0 +1,3 @@
+[xarray.backends]
+grib2io=grib2io.xarray_backend:GribBackendEntrypoint
+
