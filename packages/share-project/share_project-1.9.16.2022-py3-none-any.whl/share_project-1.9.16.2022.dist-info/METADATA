@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: share-project
+Version: 1.9.16.2022
+Summary: A sample template for testing python packages
+Author: Nii Golightly
+Author-email: nlli@pm.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# A sample template for testing python packages.
+
+
+
+
+
+
