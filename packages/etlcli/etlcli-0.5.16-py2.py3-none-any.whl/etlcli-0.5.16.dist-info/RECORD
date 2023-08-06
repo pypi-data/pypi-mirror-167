@@ -1,0 +1,12 @@
+etlcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etlcli/cli.py,sha256=Yd_SIwck2qigjoLrbnEyW1LExK4jY47EpTuRHZotM_s,1261
+etlcli/extractor.py,sha256=g2KmnsBP6uD_1WVHexNVpAY0aN_uu2ppx_sULnIz5sQ,951
+etlcli/loader.py,sha256=PBMXit-LQXUMUd6O7ucKPn5VsxlbG9MbI8RoIfhbZ8k,960
+etlcli/transformer.py,sha256=Jzxmh4kAJf1Zmyl0D0DNuVtbumhzDDOXExZHmo417Hc,470
+etlcli/utils.py,sha256=q6VcnxcXg8QnHgrTF8HMs-ANvCe1ISrjo7gYn92AEDk,333
+etlcli-0.5.16.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+etlcli-0.5.16.dist-info/METADATA,sha256=CPiues7UG_p-_aZ6VAG4z5UhlB0F24hddJmV0LPqzk8,784
+etlcli-0.5.16.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+etlcli-0.5.16.dist-info/entry_points.txt,sha256=hnP9nffPN71WewkJWxIFj2qqHeFbt_zaf2x8HGrfyYc,42
+etlcli-0.5.16.dist-info/top_level.txt,sha256=UWttjtoOszlbq5exnFfUcK1NjTbNor1aeDTpLB9y5XM,7
+etlcli-0.5.16.dist-info/RECORD,,
