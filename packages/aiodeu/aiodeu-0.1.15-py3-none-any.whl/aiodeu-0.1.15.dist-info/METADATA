@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiodeu
+Version: 0.1.15
+Summary: aio data engineering utils
+Home-page: https://github.com/s-block/aiodeu
+Author: Josh Rowe
+Author-email: s-block@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: aws
+Provides-Extra: faust
+Provides-Extra: faust-cython
