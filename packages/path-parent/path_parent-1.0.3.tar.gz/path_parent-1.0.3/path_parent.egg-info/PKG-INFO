@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: path-parent
+Version: 1.0.3
+Summary: Append '..' to path setting.
+Home-page: https://github.com/adf0001/path_parent
+Author: fwg
+Author-email: adf0001@163.com
+License: MIT Licence
+Keywords: path,parent
+Platform: any
+
+path_parent
+===========
+
+Append ‘..’ to path setting.
+
+This package append string ‘..’ to the path setting when being imported.
+
+Install
+=======
+
+::
+
+   pip install path_parent
+
+Usage
+=====
+
+.. code:: python
+
+   import path_parent.p        # append '..' to path setting;
+
+   import path_parent.pp       # append '../..' to path setting;
+
+   import path_parent.ppp      # append '../../..' to path setting;
+
+   import path_parent          # nothing happen;
+
+   path_parent.clear("../..")          # remove only '../..';
+
+   path_parent.clear("..\..\..")       # nothing removed, not backslash;
+
+   path_parent.clear()                 # remove all '..', '../..' and '../../..';
+
+
