@@ -1,0 +1,11 @@
+yaqd_omega/VERSION,sha256=-c553DospQEOncc7Of_TmUU6BAJOEYq0qnD7gNEUCS4,9
+yaqd_omega/__init__.py,sha256=K3iAG8p8XFo9vuEOkkxNW3uQZu6yEhJbXmyM6LeVGd4,77
+yaqd_omega/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_omega/_omega_platinum.py,sha256=T84j6bogaVkYMDXbXT4jKzsl6beuQ8EHLrulB8VV3-s,2227
+yaqd_omega/omega-platinum.avpr,sha256=YReyeb1eHgPAvLL8LQxS_vply1h-wXphMgs72Acing4,8469
+yaqd_omega/omega-platinum.toml,sha256=L5cow-RrSW4FsVwmFTr4tGpXGRXUZAWAw62OOBe46DA,548
+yaqd_omega-2022.9.0.dist-info/entry_points.txt,sha256=ODNgA5JJQ8GvMO99hV7inPKg_9y_I8fgDng6wHqVSUQ,85
+yaqd_omega-2022.9.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_omega-2022.9.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+yaqd_omega-2022.9.0.dist-info/METADATA,sha256=G38GVYLBBpHToXZiUacGPET5QN520f2TXnZjin_u4ZI,1836
+yaqd_omega-2022.9.0.dist-info/RECORD,,
