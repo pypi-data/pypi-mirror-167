@@ -1,0 +1,10 @@
+docsy/__init__.py,sha256=o7mRrCUiL_myUxyVVlOZkluh9xdVXOWodv_fOHec9QU,21
+docsy/__main__.py,sha256=YbMoYnk_xxzr963v0oEcaq5zeUnowUNrKFTepfEyRDk,3025
+docsy/sample/README.md,sha256=mNc9Ho59KK-BqcNMwtvqwhQxzG50h_R0Y4lJN65QHfw,482
+docsy/sample/__config__.yml,sha256=vpPOnhjuFSnmC1iNUcSIdOtewGV9QTkyOanpzL_UhMw,682
+docsy/sample/requirements.txt,sha256=PG00HkyZ_h_dJNCiWg31M0opZcgZeQOFRMSDitQ5mGI,24
+docsy-0.11.3.dist-info/METADATA,sha256=WJInFK6wXNACEMLQjLJuRh61D_B3gY-jcRDC4xsbc1k,1443
+docsy-0.11.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+docsy-0.11.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+docsy-0.11.3.dist-info/top_level.txt,sha256=unYtHNXJXEUc-8PJ4mILF91qxth4qa6FoV3O-KdM7z8,6
+docsy-0.11.3.dist-info/RECORD,,

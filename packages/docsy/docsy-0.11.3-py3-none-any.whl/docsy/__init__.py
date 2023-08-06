@@ -1,0 +1,1 @@
+import docsy.__main__
