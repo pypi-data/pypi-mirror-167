@@ -1,0 +1,17 @@
+seoaudit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seoaudit/__main__.py,sha256=eI_51Q3x1cGAH8E_9iRWNuBExh4WeLwC7QGuoUfW7dc,2268
+seoaudit/config.py,sha256=AY-PMXltpqmvWHbAlLTbFc0ltUiZuDDJQA1n_2eCIiM,2484
+seoaudit/analyzer/__init__.py,sha256=5jOsknlsV4fr36KYGK8S1JF0srQLFMRayBJhr8iRvns,155
+seoaudit/analyzer/page_parser.py,sha256=Fg_Dg9qNwgoWJ1fQNajn2q40wNQMHVABcCH8UboGNGU,9056
+seoaudit/analyzer/seo_auditor.py,sha256=8VmUzBZjlGCrrJ0h216Wzk_XOcMkasbI3eMSvk-JkEU,8686
+seoaudit/analyzer/site_parser.py,sha256=PM8sSBj9y6FPPHu0P6uas7M2w3czmAr_afntaK8Nc4M,5360
+seoaudit/checks/__init__.py,sha256=9lduVJNqWt-PpaczVTPR0ZLEUMBo6WXcuRsI24kXZi8,192
+seoaudit/checks/element.py,sha256=cP9xOLXRHaZJB3PFw3fOY8gq2-BSuXT_VmbZ5w2nMmk,4698
+seoaudit/checks/page.py,sha256=oHiy1uJdooUKRCqOuiumPx6bmQxx101om0KHWE_CNFk,10608
+seoaudit/checks/site.py,sha256=Go0Cie0WXakgIB7as09rIjSdqZ6FIzMzQMbrBn3dcIU,7140
+seoaudit-0.0.1.dev3.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+seoaudit-0.0.1.dev3.dist-info/METADATA,sha256=yVFTrWgv8hj1ymdQeUtZ6MTlw-2xao3fg1tYVydJfSo,2581
+seoaudit-0.0.1.dev3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+seoaudit-0.0.1.dev3.dist-info/entry_points.txt,sha256=YUcsYZJkcwNFI6NTBxZ0UpyToAn_o3auftmXA576Yvs,52
+seoaudit-0.0.1.dev3.dist-info/top_level.txt,sha256=QdMcsHSZEZJ2iqlRI7lsadzenfcVSW9ilVjyb1K69uc,9
+seoaudit-0.0.1.dev3.dist-info/RECORD,,

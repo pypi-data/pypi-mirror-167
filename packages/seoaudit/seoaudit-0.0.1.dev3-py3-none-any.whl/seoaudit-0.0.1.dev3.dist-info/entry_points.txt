@@ -1,0 +1,2 @@
+[console_scripts]
+seoaudit = seoaudit.__main__:main
