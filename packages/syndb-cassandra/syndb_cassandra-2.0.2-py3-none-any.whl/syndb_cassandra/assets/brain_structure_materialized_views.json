@@ -1,0 +1,10 @@
+{
+  "neuron": [
+    "polarity",
+    "neuron_type",
+    "direction"
+  ],
+  "vesicle": [
+    "neurotransmitter"
+  ]
+}

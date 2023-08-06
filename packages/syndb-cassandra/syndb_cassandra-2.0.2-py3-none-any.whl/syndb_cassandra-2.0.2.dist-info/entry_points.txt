@@ -1,0 +1,3 @@
+[console_scripts]
+sycass=syndb_cassandra.cli:syndb_cassandra_cli
+
