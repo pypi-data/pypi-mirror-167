@@ -1,0 +1,14 @@
+bitpin/__init__.py,sha256=I51j94C2fo6zA7Hy082QDW00roqkB5-owLQtxcEMjcc,291
+bitpin/enums.py,sha256=C_E_oGmXaTjSwPm6UuDwLN5r6veDlK-cAsQm6MXXDGo,6043
+bitpin/clients/__init__.py,sha256=rZXzkYoBt_RYZv8xzLCnSf8GMt0ADw38b_sKRSo6UEw,133
+bitpin/clients/base.py,sha256=4q3tc33CasIYOdL5OLgjJloH4RPqXZP-MQA553Zn5qc,8136
+bitpin/clients/exceptions.py,sha256=5FLJciK1ZdK4_iA7HeM7DKybzFcRQycUzDG9NXlFNhI,1180
+bitpin/clients/main.py,sha256=Cq7EaykDvdDevDjXSBw6M0FLwsuFbzG_on52xim3rsE,15022
+bitpin/deprecated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitpin/deprecated/exceptions.py,sha256=2fFI4p4Livtb55lVJLG4oJdFxKcxjfB6UAH3zeBpBA4,2533
+bitpin/deprecated/helpers.py,sha256=C_E_oGmXaTjSwPm6UuDwLN5r6veDlK-cAsQm6MXXDGo,6043
+bitpin/deprecated/main.py,sha256=5i31skuJaAJ-YoVD1XgcOcMtiqccQKp8gMT76aZKAc4,18936
+bitpin-0.4.3.dist-info/METADATA,sha256=74z7xbJzkyfrM8-xUN0n6XRtd21meOnDN7cj3S-aHQs,1066
+bitpin-0.4.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bitpin-0.4.3.dist-info/top_level.txt,sha256=FPnQ478KzZLnX6mcHfmFj5BSjdrCFpcomoIikTTzv1o,7
+bitpin-0.4.3.dist-info/RECORD,,
