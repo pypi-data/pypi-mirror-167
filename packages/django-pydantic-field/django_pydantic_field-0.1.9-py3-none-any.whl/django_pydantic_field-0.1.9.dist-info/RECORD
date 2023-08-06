@@ -1,0 +1,10 @@
+django_pydantic_field/__init__.py,sha256=M1Xwt5OKpUdACnEEobBAdLBMMYDaitNK3s8ukockVWM,22
+django_pydantic_field/base.py,sha256=6DEhqOnSJzVqGVPA-qnAlHlrZC3CXddWOuovb6DEM_4,3802
+django_pydantic_field/fields.py,sha256=HIY7IfoilMeH_E3cle8d5CrcodJxsuMFh4vkiK2NT8Y,8367
+django_pydantic_field/rest_framework.py,sha256=iIys8KzzMHWngSds7SWMfQVwKlAES3eMK3awJWbTeQo,8670
+django_pydantic_field/utils.py,sha256=dhgh0WLaJk5ITP3tMx5GNA7fnq93HxPuXIVDby1QlHU,691
+django_pydantic_field-0.1.9.dist-info/LICENSE,sha256=1N7hfZTrTainviK8eElsjf-d8bugaVwTAP_apig7L88,1071
+django_pydantic_field-0.1.9.dist-info/METADATA,sha256=6uXYKalGGHJG0VAV-hTWCGaTersvAp4-qLvX8uFerLE,5097
+django_pydantic_field-0.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_pydantic_field-0.1.9.dist-info/top_level.txt,sha256=0WFxeydLzhNtbW2qEkv5b_VgmOX4cn_1e9tsik7-CJY,22
+django_pydantic_field-0.1.9.dist-info/RECORD,,
