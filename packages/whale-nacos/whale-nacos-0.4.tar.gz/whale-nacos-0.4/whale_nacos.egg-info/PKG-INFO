@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: whale-nacos
+Version: 0.4
+Summary: whale nacos sdk
+Author: Joey
+Author-email: yizhao@whale.im
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Whale Nacos
+Python SDK for whale nacos 
