@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+palgen.egg-info/PKG-INFO
+palgen.egg-info/SOURCES.txt
+palgen.egg-info/dependency_links.txt
+palgen.egg-info/top_level.txt
