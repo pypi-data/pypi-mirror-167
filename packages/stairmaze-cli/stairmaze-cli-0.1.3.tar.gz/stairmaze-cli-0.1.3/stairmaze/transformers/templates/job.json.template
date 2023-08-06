@@ -1,0 +1,15 @@
+{
+  "command": {{ command | tojson }},
+  "image": "{{ image }}",
+  "fargatePlatformConfiguration": {
+    "platformVersion": "LATEST"
+  },
+  "resourceRequirements": [
+    {"type": "VCPU", "value": "{{ vpcu }}"},
+    {"type": "MEMORY", "value": "{{ memory }}"}
+  ],
+  "networkConfiguration": {
+    "assignPublicIp": "ENABLED"
+  },
+  "executionRoleArn": "${exec_role}"
+}
