@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kinpy"
+version = "0.2.0"
+description = ""
+authors = ["neka-nat <nekanat.stock@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.0"
+scipy = "^1.5.0"
+transformations = "^2020.1.1"
+absl-py = "^0.11.0"
+lxml = "^4.6.2"
+PyYAML = "^5.4.1"
+vtk = "^9.0.1"
+
+[tool.poetry.dev-dependencies]
+twine = "^3.3.0"
+isort = "^5.9.3"
+black = "^22.6.0"
+flake8 = "^5.0.4"
+flake8-bugbear = "^22.8.23"
+flake8-simplify = "^0.19.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools"]
+build-backend = "poetry.core.masonry.api"
