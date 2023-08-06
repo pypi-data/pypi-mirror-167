@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+iaflow/__init__.py
+iaflow.egg-info/PKG-INFO
+iaflow.egg-info/SOURCES.txt
+iaflow.egg-info/dependency_links.txt
+iaflow.egg-info/requires.txt
+iaflow.egg-info/top_level.txt

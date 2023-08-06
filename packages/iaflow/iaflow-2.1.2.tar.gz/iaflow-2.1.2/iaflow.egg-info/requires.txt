@@ -1,0 +1,4 @@
+requests
+tensorflow
+discord_webhook
+notifier-function
