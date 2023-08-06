@@ -1,0 +1,8 @@
+setup.py
+sunnyday-ferroni/__init__.py
+sunnyday-ferroni/sunnyday.py
+sunnyday_ferroni.egg-info/PKG-INFO
+sunnyday_ferroni.egg-info/SOURCES.txt
+sunnyday_ferroni.egg-info/dependency_links.txt
+sunnyday_ferroni.egg-info/requires.txt
+sunnyday_ferroni.egg-info/top_level.txt
