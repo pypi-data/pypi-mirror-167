@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: global-entry-notifier
+Version: 0.1.0
+Summary: Notifies you on newly available Global Entry appointment times
+Home-page: https://github.com/xylot/global-entry-notifier
+Author: Joseph Meriam
+Author-email: Joseph.meriam@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: twilio
+
+# global-entry-notifier
+Notifies you on newly available Global Entry appointment times
+
+
