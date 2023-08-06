@@ -1,0 +1,16 @@
+pystow
+requests
+click
+more_click
+class-resolver
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
