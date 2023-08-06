@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: dore
+Version: 1.1.1
+Summary: Schema based fake data generator
+Home-page: https://github.com/bkn-dore/dore-py
+License: Apache-2.0
+Author: Bhargav KN
+Author-email: bhargavkn.1996@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Faker (>=13.4.0)
+Requires-Dist: PyPika (>=0.48.9)
+Requires-Dist: elasticsearch7 (>=7.17.2,<8)
+Requires-Dist: elasticsearch8 (>=8.1.2,<9)
+Requires-Dist: jsonschema (>=4.6.1)
+Requires-Dist: mysqlclient (>=2.1.0)
+Requires-Dist: progressbar2 (>=4.0.0)
+Requires-Dist: psycopg (>=3.0.11)
+Requires-Dist: pymongo (>=4.1.1)
+Requires-Dist: pystache (>=0.6.0)
+Requires-Dist: redis (>=4.3.3)
+Project-URL: Repository, https://github.com/bkn-dore/dore-py
+Description-Content-Type: text/markdown
+
+```text
+
+8 888888888o.           ,o888888o.      8 888888888o.    8 888888888888
+8 8888    `^888.     . 8888     `88.    8 8888    `88.   8 8888
+8 8888        `88.  ,8 8888       `8b   8 8888     `88   8 8888
+8 8888         `88  88 8888        `8b  8 8888     ,88   8 8888
+8 8888          88  88 8888         88  8 8888.   ,88'   8 888888888888
+8 8888          88  88 8888         88  8 888888888P'    8 8888
+8 8888         ,88  88 8888        ,8P  8 8888`8b        8 8888
+8 8888        ,88'  `8 8888       ,8P   8 8888 `8b.      8 8888
+8 8888    ,o88P'     ` 8888     ,88'    8 8888   `8b.    8 8888
+8 888888888P'           `8888888P'      8 8888     `88.  8 888888888888
+
+
+                   SCHEMA BASED FAKE DATA GENERATOR
+```
+
+## Helpful Links
+
+* [Project Site](https://dore-datagen.github.io/)
+* [Example](https://dore-datagen.github.io/example/)
+* [GitHub](https://github.com/dore-datagen/dore-py)
+
+
+### Installation
+
+Optional, but recommended: Create a virtual env and activate it.
+
+```shell
+(venv)$ python3 -m venv venv && source venv/bin/activate
+```
+
+Install Dore
+
+```shell
+(venv)$ python -m pip install dore
+```
+
+### Usage
+Invoke Dore with a manifest
+
+```shell
+(venv)$ dore --manifest /path/to/manifest.json --var1=val1 --var2=val2 ...
+```
+
