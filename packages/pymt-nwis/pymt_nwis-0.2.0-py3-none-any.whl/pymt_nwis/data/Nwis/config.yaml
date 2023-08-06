@@ -1,0 +1,7 @@
+bmi-nwis:
+  sites: {{sites}}
+  service: {{service}}
+  start: {{start}}
+  end: {{end}}
+  parameterCd: {{parameterCd}}
+  output: {{output}}

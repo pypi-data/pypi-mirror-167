@@ -1,0 +1,4 @@
+name: pymt_nwis
+language: python
+package: pymt_nwis
+class: Nwis

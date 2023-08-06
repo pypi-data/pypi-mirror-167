@@ -1,0 +1,3 @@
+[pymt.plugins]
+Nwis = pymt_nwis.bmi:Nwis
+

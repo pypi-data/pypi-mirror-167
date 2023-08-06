@@ -1,0 +1,6 @@
+summary: This data component downloads the National Water Information System datasets for data analysis and visualization.
+url: https://github.com/gantian127/bmi_nwis/
+author: Tian Gan
+email: gantian127@gmail.com
+version: 0.2.0
+license: MIT
