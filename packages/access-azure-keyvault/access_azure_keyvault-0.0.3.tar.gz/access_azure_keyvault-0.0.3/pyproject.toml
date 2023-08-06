@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "access_azure_keyvault"
+version = "0.0.3"
+authors = [
+  { name="Wolfgang Hottgenroth", email="wolfgang.hottgenroth@icloud.com" },
+]
+description = "Simple tool to access secrets in Azure keyvaults"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "azure.keyvault>=4.2.0",
+  "azure.identity>=1.10.0",
+  "azure.core>=1.25.1",
+  "loguru>=0.6.0"
+]
+
+[project.urls]
+"Homepage" = "https://home.hottis.de/gitlab/wolutator/access-azure-keyvault"
+"Bug Tracker" = "https://home.hottis.de/gitlab/wolutator/access-azure-keyvault/-/issues"
