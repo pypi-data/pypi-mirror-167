@@ -1,0 +1,9 @@
+rail/estimation/algos/bpz_lite.py,sha256=SaeLDMM4i4SW6c633IAdnIVdGngvlJmn9HhhC0ax4YU,24491
+rail/estimation/algos/bpz_version/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+rail/estimation/algos/bpz_version/_version.py,sha256=aF6xn_jrG9wAwVzGhAolw9per6SJ61rYPa_YBtf9EEk,176
+rail/examples/estimation/configs/test_bpz.columns,sha256=oX-Nn3cvv1oHOlgqgxXvRAuInBDBkvRKmIuBz6vTF2M,701
+pz_rail_bpz-0.0.6.dist-info/LICENSE,sha256=1VD6_oqGN47860GXP9IJElBfGXFQa64HJEmAaFqbO-Q,1102
+pz_rail_bpz-0.0.6.dist-info/METADATA,sha256=lRw1d8AhCLO5W4KpAREDXvuNUUGQM7_WoDdP2X8JPbM,2182
+pz_rail_bpz-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pz_rail_bpz-0.0.6.dist-info/top_level.txt,sha256=6R6sqn-85I8YZTzmB9gv7sqckB2QaOTHbu-QLGTWBRE,5
+pz_rail_bpz-0.0.6.dist-info/RECORD,,
