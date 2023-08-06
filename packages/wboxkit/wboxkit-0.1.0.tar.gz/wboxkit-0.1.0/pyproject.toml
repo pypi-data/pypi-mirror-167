@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "wboxkit"
+version = "0.1.0"
+description = "White-box Synthesis & Cryptanalysis Kit"
+authors = ["Aleksei Udovenko"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
