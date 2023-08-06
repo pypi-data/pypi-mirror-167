@@ -1,0 +1,4 @@
+[console_scripts]
+XingzuoShirenVol2 = XingzuoShirenVol2.__main__:main
+xingzuo-shiren-vol2 = XingzuoShirenVol2.__main__:main
+
