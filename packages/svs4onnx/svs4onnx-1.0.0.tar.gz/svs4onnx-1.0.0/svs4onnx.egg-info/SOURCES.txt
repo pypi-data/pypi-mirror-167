@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+svs4onnx/__init__.py
+svs4onnx/__main__.py
+svs4onnx/onnx_model_variable_switch.py
+svs4onnx.egg-info/PKG-INFO
+svs4onnx.egg-info/SOURCES.txt
+svs4onnx.egg-info/dependency_links.txt
+svs4onnx.egg-info/entry_points.txt
+svs4onnx.egg-info/top_level.txt

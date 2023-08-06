@@ -1,0 +1,2 @@
+[console_scripts]
+svs4onnx = svs4onnx:main
