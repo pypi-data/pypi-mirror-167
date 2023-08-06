@@ -1,0 +1,9 @@
+black==22.3.0
+flake8==5.0.4
+flake8-bugbear==22.9.11
+flit==3.7.1
+hypothesis==6.54.5
+isort==5.10.1
+mypy==0.942
+pytest-cov==3.0.0
+tox==3.25.0
