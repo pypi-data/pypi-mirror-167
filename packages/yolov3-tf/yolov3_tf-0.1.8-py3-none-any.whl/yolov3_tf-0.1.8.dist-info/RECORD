@@ -1,0 +1,11 @@
+LICENSE,sha256=c16F8Xlw1Bz85nrNMQFcVw1KaSIugusvOsXn2YBOIjo,1070
+yolov3_tf/__init__.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+yolov3_tf/dataset.py,sha256=9WY7lAqmLU9MeEKPNV-HA-ysOMcCvaU1P_eOapDRYh0,4096
+yolov3_tf/evaluate.py,sha256=XrCnGfYEtDA8tag0W4N-erij27ioI8xvnXIK8gr3Ugc,8218
+yolov3_tf/faker.py,sha256=cFrPWh-bzfXsxsdukWLLSvguwUAamrVZbGxr4mmoU0w,3102
+yolov3_tf/models.py,sha256=WPhxiPQNR3PauvqLyGjAf4B0MZ48Tv8EH9vQ8fLa0Rs,13426
+yolov3_tf/utils.py,sha256=Gu6Dfbws8IT5ixpxGGr2klIZtY2Vxpz8hPFId3hDer4,9069
+yolov3_tf-0.1.8.dist-info/LICENSE,sha256=c16F8Xlw1Bz85nrNMQFcVw1KaSIugusvOsXn2YBOIjo,1070
+yolov3_tf-0.1.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+yolov3_tf-0.1.8.dist-info/METADATA,sha256=9JZHG_tcxSY0yHclPrtwMAu33DNeNvlvLqAuIdQTtqI,2424
+yolov3_tf-0.1.8.dist-info/RECORD,,
