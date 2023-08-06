@@ -1,0 +1,4 @@
+[console_scripts]
+FengshiWodeMuqin = FengshiWodeMuqin.__main__:main
+fengshi-wode-muqin = FengshiWodeMuqin.__main__:main
+
