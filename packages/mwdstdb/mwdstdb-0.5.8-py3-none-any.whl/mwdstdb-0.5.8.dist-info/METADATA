@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: mwdstdb
+Version: 0.5.8
+Summary: MWD STD Basic data storage and automation backend
+License: AGPL-3.0-or-later
+Author: MWD STD Inc.
+Author-email: info@mwdstd.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: gunicorn
+Requires-Dist: amqp (==2.6.1)
+Requires-Dist: anyio (==3.6.1)
+Requires-Dist: asgiref (==3.5.2)
+Requires-Dist: async-timeout (==4.0.2)
+Requires-Dist: billiard (==3.6.4.0)
+Requires-Dist: celery (==4.4.7)
+Requires-Dist: celery-pool-asyncio (==0.2.0)
+Requires-Dist: certifi (==2022.6.15)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: deprecated (==1.2.13)
+Requires-Dist: dnspython (==1.16.0)
+Requires-Dist: ecdsa (==0.18.0)
+Requires-Dist: fastapi (==0.70.1)
+Requires-Dist: gunicorn (==19.10.0); extra == "gunicorn"
+Requires-Dist: h11 (==0.9.0)
+Requires-Dist: httpcore (==0.10.2)
+Requires-Dist: httpx (==0.14.3)
+Requires-Dist: idna (==3.3)
+Requires-Dist: jsons (==1.6.3)
+Requires-Dist: kombu (==4.6.11)
+Requires-Dist: motor (==2.5.1)
+Requires-Dist: numpy (==1.23.2)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pint (==0.19.2)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pydantic (==1.10.2)
+Requires-Dist: pymongo (==3.12.3)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-jose (==3.3.0)
+Requires-Dist: python-multipart (==0.0.5)
+Requires-Dist: pytz (==2022.2.1)
+Requires-Dist: redis (==4.3.4)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: sse-starlette (==0.10.3)
+Requires-Dist: starlette (==0.16.0)
+Requires-Dist: typing-extensions (==4.3.0)
+Requires-Dist: typish (==1.9.3)
+Requires-Dist: uvicorn (==0.11.8)
+Requires-Dist: vine (==1.3.0)
+Requires-Dist: websockets (==8.1)
+Requires-Dist: wrapt (==1.14.1)
