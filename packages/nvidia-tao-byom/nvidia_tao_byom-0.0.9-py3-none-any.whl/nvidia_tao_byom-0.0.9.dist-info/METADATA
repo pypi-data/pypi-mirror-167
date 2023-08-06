@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nvidia-tao-byom
+Version: 0.0.9
+Summary: The deep learning models converter to TAO Toolkit. 
+Home-page: UNKNOWN
+Author: Sean Cha
+Author-email: scha@nvidia.com
+License: NVIDIA Proprietary Software
+Keywords: nvidia,tao,byom
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.*
+Requires-Dist: keras (==2.2.4)
+Requires-Dist: h5py (<3.0.0)
+Requires-Dist: numpy (<1.19.0,>=1.18.5)
+Requires-Dist: onnx (==1.10.2)
+Requires-Dist: onnxruntime (==1.10.0)
+Requires-Dist: pillow (<9.0.0,>=8.3.2)
+Requires-Dist: netron (<=6.0.2,>=6.0.0)
+Requires-Dist: scikit-learn (<1.0)
+Requires-Dist: skl2onnx (==1.10.4)
+Requires-Dist: nvidia-eff (==0.5.6)
+
+UNKNOWN
+
+

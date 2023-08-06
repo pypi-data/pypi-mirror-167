@@ -1,0 +1,3 @@
+[console_scripts]
+tao_byom = tao_byom.entrypoint.entrypoint:main
+
