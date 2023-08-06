@@ -1,0 +1,13 @@
+flexsolve/__init__.py,sha256=6GOxnpsMU3aY4URidqSM1Tm9jb2hSy8JJ79_WVn2OVg,711
+flexsolve/bounded_solvers.py,sha256=_xj8f-DlC5IXpzwdHD_RS5e4-X1ipx9DHqRIy6iWt1g,7069
+flexsolve/iterative_solvers.py,sha256=tGcTd3LKo-oQtNEkOvHlR48IknLlJYjgew4aj3pvDx0,4604
+flexsolve/open_solvers.py,sha256=SBvSh5Vx7FIPvVIaGQYspEaFpgxqRS0RzYSNwCIRSec,4472
+flexsolve/problem.py,sha256=PLMUHQqvmMwh_eI6sZYpKhc1RGEGb5D7uxjwdqCpoGE,1507
+flexsolve/problem_list.py,sha256=3nCUbCcPMGwvLbkJKay2O4Yj9ZiLdTBajyU6EIa2bgY,2816
+flexsolve/profiler.py,sha256=7yLQCi1Fehl9dcWcMi4py3OVmbSlrcYKPmvFh1R43_k,6015
+flexsolve/utils.py,sha256=FuuKONz5VcvJ3WBXZ0SeryPjXLMmsY9vpJqULhMW5vo,6344
+flexsolve-0.5.4.dist-info/LICENSE.txt,sha256=mMSIV7polqCZu4JMzIXw3O-NhNbZ94zckKx1Z-Y14x0,1120
+flexsolve-0.5.4.dist-info/METADATA,sha256=OJGBSXVvlMopAH-T7gnW22ez61Y9eheiTjq0iMCP8eA,9473
+flexsolve-0.5.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flexsolve-0.5.4.dist-info/top_level.txt,sha256=yw6Ky8vfhlTNvCeq-tnEiSWr1JZsXEUa1u3RKXWjiP4,10
+flexsolve-0.5.4.dist-info/RECORD,,
