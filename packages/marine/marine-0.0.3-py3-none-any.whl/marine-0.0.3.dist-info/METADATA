@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: marine
+Version: 0.0.3
+Summary: Marine: Multi-task learning based on Japanese accent estimation
+Author: Byeongseon Park
+Author-email: 6gsn.park@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: torch (>=1.7.0)
+Requires-Dist: hydra-core (>=1.1.0)
+Requires-Dist: hydra-colorlog (>=1.1.0)
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: torchmetrics ; extra == 'dev'
+Requires-Dist: scikit-learn ; extra == 'dev'
+Requires-Dist: joblib ; extra == 'dev'
+Requires-Dist: docstr-coverage ; extra == 'dev'
+Requires-Dist: tensorboard ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pysen ; extra == 'dev'
+Requires-Dist: black (<=20.8,>=19.19b0) ; extra == 'dev'
+Requires-Dist: flake8 (<4,>=3.7) ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: isort (<5.2.0,>=4.3) ; extra == 'dev'
+Requires-Dist: click (<8.1.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: nbsphinx (>=0.8.6) ; extra == 'docs'
+Requires-Dist: Jinja2 (>=3.0.1) ; extra == 'docs'
+Requires-Dist: pandoc ; extra == 'docs'
+Requires-Dist: ipython ; extra == 'docs'
+Requires-Dist: jupyter ; extra == 'docs'
+Provides-Extra: pyopenjtalk
+Requires-Dist: pyopenjtalk ; extra == 'pyopenjtalk'
+
+## **MARINE** : **M**ulti-task lea**R**n**I**ng-based Japa**N**ese accent **E**stimation
+
+## Get started
+
+### Install
+
+```shell
+$ pip install marine
+```
+
+### For develop
+
+```shell
+$ pip install -e ".[dev]"
+```
