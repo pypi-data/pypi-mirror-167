@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aquiche
+Version: 0.0.1
+Summary: Async cache in-memory
+License: MIT
+Author: Jakub Jantosik
+Author-email: jakub.jantosik@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# aquiche
+
+Async cache in-memory
+
+NOT READY FOR USE, JUST A PLACEHOLDER FOR THE NAME. REAL VERSION COMING SOON!
