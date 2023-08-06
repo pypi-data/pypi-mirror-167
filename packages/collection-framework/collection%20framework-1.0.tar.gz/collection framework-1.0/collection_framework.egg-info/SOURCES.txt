@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+collection_framework/__init__.py
+collection_framework/cli_interface.py
+collection_framework/collection.py
+collection_framework/file_handler.py
+collection_framework.egg-info/PKG-INFO
+collection_framework.egg-info/SOURCES.txt
+collection_framework.egg-info/dependency_links.txt
+collection_framework.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cli_interface.py
+tests/test_file_handler.py
+tests/test_find_unique_elements.py

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: collection framework
+Version: 1.0
+License-File: LICENSE
+
+# Task 5 - Create the python package
+
+Convert your previous application to the python package. Add README.md and describe how to use this package.
+
+Resources:
+Packaging Python Projects https://packaging.python.org/tutorials/packaging-projects/
+
+
+-- Added by Vadym Serdiuk 14.07.2022. Than
