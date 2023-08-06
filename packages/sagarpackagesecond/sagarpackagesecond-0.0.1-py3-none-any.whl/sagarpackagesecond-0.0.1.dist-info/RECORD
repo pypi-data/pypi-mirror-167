@@ -1,0 +1,10 @@
+sagarpackagesecond/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sagarpackagesecond/add.py,sha256=thh9V1tFIy81tGDEBOYAk-TIVxwIytQafmbk7GhrXsY,28
+sagarpackagesecond/subtract.py,sha256=UM0EgCej9-NOW6-WqzJg1AiaXDJ921Iqbo-HWF7thdg,33
+sagarpackagesecond/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sagarpackagesecond/extras/divide.py,sha256=rtyBrO1KfNVhsSHhOl4sUYOEqJ4kNkAaDmNklBHjDfU,31
+sagarpackagesecond/extras/multiply.py,sha256=kFXmceb5JmjKKpJ8K3w-vrJ96L03elDyXAnrXELnJqc,33
+sagarpackagesecond-0.0.1.dist-info/METADATA,sha256=jCKcZrnHakV2tnNWJzD9BjV5r6winrd-rnq06ZSuGBE,617
+sagarpackagesecond-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sagarpackagesecond-0.0.1.dist-info/top_level.txt,sha256=jdo4LrdM8GP3WIPeS-aAXX6RUhoFS0Hj7IDFzNrSY_g,19
+sagarpackagesecond-0.0.1.dist-info/RECORD,,
