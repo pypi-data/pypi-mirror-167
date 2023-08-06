@@ -1,0 +1,9 @@
+xia_cache/__init__.py,sha256=ZNQfhB_1Uu7q0FNiGew6616-_kCNMVeDNaYvBgfpohI,249
+xia_cache/base.cpython-310-x86_64-linux-gnu.so,sha256=jIGlqHz54rXT2zzGy54ZEFtSOtnovOuAd3uoqWmdU2w,817672
+xia_cache/cache.cpython-310-x86_64-linux-gnu.so,sha256=bMdaf2rPp9QnNh6r_08onCx-CxenAn4zWJqTWxHur2Y,805384
+xia_cache/fields.cpython-310-x86_64-linux-gnu.so,sha256=_2bMN_TiwXjpebWpaZ88_0kaS_lHFhp1uqet4TFMm0Q,756200
+xia_cache-0.0.19.dist-info/LICENSE,sha256=YA0dkO59VPr6IPUN0i99vX5AJLWKdAcr7kCsSuadR8g,159
+xia_cache-0.0.19.dist-info/METADATA,sha256=SZ1P0sgYu1i6odlb8FKSRnqohp0-oqsG6ZX-95otKUQ,357
+xia_cache-0.0.19.dist-info/WHEEL,sha256=Kn0XEVEprF3m5Ls7p1vDRSgmlko_ccaWbbQdh4VEEUE,108
+xia_cache-0.0.19.dist-info/top_level.txt,sha256=N_cfnGm3pKRtv7TKwqXDVSaSJCpJqzDi12AQf_bMgh0,10
+xia_cache-0.0.19.dist-info/RECORD,,
