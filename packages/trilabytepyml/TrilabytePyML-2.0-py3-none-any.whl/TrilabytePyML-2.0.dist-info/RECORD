@@ -1,0 +1,13 @@
+TrilabytePyML/AutoForecast.py,sha256=LMnn5wlSwMkk_9T2RXpWhA1DeuIeSYSi9d6OqownzkA,10595
+TrilabytePyML/FeatureSelectorSandbox.py,sha256=WWY5cDi2Hi4f2l4kcPYd7UNWwvQtNb_xCPBgWADzR5U,986
+TrilabytePyML/Forecast.py,sha256=CVnEGOzuvOu_3uS-HdPGwlwdcBt13kXQX9h1HNugfzk,22932
+TrilabytePyML/Ridge.py,sha256=xsLmDrrGkJ62tXItCQT_g21e1fJ3xszapMZtS7hh1ss,8123
+TrilabytePyML/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TrilabytePyML/stats/Statistics.py,sha256=oe3qxtzt3aWtyeYYDiyLwu7KkQrseyeg_faae5XsHd0,2324
+TrilabytePyML/stats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TrilabytePyML/util/Parameters.py,sha256=jD1cE4oPfFBZvcDdSOBrtdIJnrGrBoU6_AU-h4XTp4k,2094
+TrilabytePyML/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TrilabytePyML-2.0.dist-info/METADATA,sha256=KH0yJdTR1WzbnPq9m4A8BwZM_2Sl-Gw56arUvkYJI_g,365
+TrilabytePyML-2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TrilabytePyML-2.0.dist-info/top_level.txt,sha256=xOrjMspo4DbZk1hDI0yj4NOIGuQNMkQZHixbeSXdOAo,14
+TrilabytePyML-2.0.dist-info/RECORD,,
