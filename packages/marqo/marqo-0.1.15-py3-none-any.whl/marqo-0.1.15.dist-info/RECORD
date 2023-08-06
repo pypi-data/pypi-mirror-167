@@ -1,0 +1,15 @@
+marqo/__init__.py,sha256=ipB7AwaqSrYcJlqM2hy5UOpb0YeP2YYjMyyQaqz7Tac,167
+marqo/_httprequests.py,sha256=PUpAoQ7mvMucHb7SO9VZ1feNf78Q6PW-GNC43IknGHc,4929
+marqo/client.py,sha256=aEaSJaZsQ5UuHBnsm9-txPaVltCeBbEGJ2sQ89nGrU8,4148
+marqo/config.py,sha256=s1JKANfofAhIslmMUImoyU-GURHmbg6Lo3zkon-mcOY,1646
+marqo/enums.py,sha256=ZcAbCpVhTm6k8Ieh5qvdUMpRA06wWQo4UrxgNLG7vZY,177
+marqo/errors.py,sha256=V8CnYiWWfs1W0h_KCHDN1IIfU8C7FHOT2x5MOGtJuOM,4651
+marqo/index.py,sha256=1lg-LkljEvRCcYRLxHyf3zjIVhGHSzLoiPNt5WoX5Uk,10960
+marqo/marqo_logging.py,sha256=4Y6bVXIX2MLqPt_rv_HXSeoM566HqXPO-piMY0tZp_o,185
+marqo/utils.py,sha256=R4QPMEIIfMwf23tzugydooGoyVy0IdXYwTSHeOdasGI,1245
+marqo/version.py,sha256=U7ZTcWUom6rwgv0LuoJhsqbilK2q31rVpBFMTq4zJmY,152
+marqo-0.1.15.dist-info/LICENSE,sha256=BTMcwP-C0nkx_NFwOP6C_Nz3kfJLTPvbM3VF_fs-xCY,10151
+marqo-0.1.15.dist-info/METADATA,sha256=kAX_lA4di8kCgU8YCL62_q-ZJn03R4L8QG3DoEcbewo,9738
+marqo-0.1.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+marqo-0.1.15.dist-info/top_level.txt,sha256=cBMwFwpoAhPid-IH8eZ7O2kfJiuVRo6b_zkpfdU-xB4,6
+marqo-0.1.15.dist-info/RECORD,,
