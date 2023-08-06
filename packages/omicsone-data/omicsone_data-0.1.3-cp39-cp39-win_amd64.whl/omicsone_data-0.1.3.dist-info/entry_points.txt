@@ -1,0 +1,4 @@
+[console_scripts]
+omicsone_data = omicsone_data.main:main
+omicsone_idmap = omicsone_data.main:build_id_map
+
