@@ -1,0 +1,9 @@
+easymigration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easymigration/config.py,sha256=Rny4iIwKISd9VoVGtgbZMUHQmKJvWjbAuiklhELUJ-Q,1816
+easymigration/example-easy-migration-tools.yml,sha256=Aldxq4X5gM_mYZfSAPIbTyDf807u4Kuvh0tm01hP0_w,416
+easymigration/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easymigration/scripts/update_thematische_collecties.py,sha256=JhFJOXDET849uMp3Vlrgxq0wcsUJG1aqZ2BIj4Lmbww,4915
+easy_migration_tools-0.4.0.dist-info/entry_points.txt,sha256=h7oCCrjtKky_KaIMfP8bTqMGpDCghDOP-Zu0IYOClCo,106
+easy_migration_tools-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+easy_migration_tools-0.4.0.dist-info/METADATA,sha256=bt1DQJiD8kXU4ppV59ffCBrdA2k9aLFePfK3j2XouX0,623
+easy_migration_tools-0.4.0.dist-info/RECORD,,
