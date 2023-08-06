@@ -1,0 +1,3 @@
+btatt>=0.0.14
+pyclui>=0.0.17
+xpycommon>=0.0.12
