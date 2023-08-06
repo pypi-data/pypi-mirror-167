@@ -1,0 +1,16 @@
+dsa_downloader/__init__.py,sha256=MvQEsbUYR1LMjS5nE5PAHupMOhDTKb-JfLq6ZnOxlHI,139
+dsa_downloader/__main__.py,sha256=5Kd3dURAR3RcKXYCiw1M8qjg8P97Zs0K78SV8ZJcbWE,101
+dsa_downloader/asset_processor.py,sha256=gtE2fiAwNLdnBVRK60HQv2rw62MHstNixyUZ7ikvtLE,6740
+dsa_downloader/cli.py,sha256=Vn9C7dnx8WYtDUBTIWl4vsTJ9TZ85fASpsexNY5j1x8,3162
+dsa_downloader/config_extractor.py,sha256=eobYuhwqCKYurKgQinprHoYzluNhMLCkQK-B6Hu3Rsw,1009
+dsa_downloader/gamedata_downloader.py,sha256=HnjaFZvMIC1LG_GrsUFXPauLn8_Ie3xC-DlAA-fSwcA,803
+dsa_downloader/language_downloader.py,sha256=MO4xMilcYyS32ifZIZ3fQgTx4Rf14kFJJi-BzdHraNk,1394
+dsa_downloader/meta.py,sha256=231DlRLyt8mfAsCKduIoiNRBGwylF6lUm5WgVwRaTZE,920
+dsa_downloader/meta_pb2.py,sha256=ebzYGJB1u2IAf3kS-pcuubXjo8OcXfU57PZLp-dJLyM,17048
+dsa_downloader/metadata.py,sha256=zBt0XCW0YeQogMUcd8IxaBte4yMwb70jKPN6DhNu_lg,466
+dsa_downloader-0.0.6.dist-info/LICENSE,sha256=bEyJZ2-pPgXhWqcYZA6rOHn2UWVOukTbynQ2VNVUJj4,1063
+dsa_downloader-0.0.6.dist-info/METADATA,sha256=TIzQCse3gUzb9kLNjLYp3qfz3FvjDNCCDySo9Dz2GRs,3083
+dsa_downloader-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dsa_downloader-0.0.6.dist-info/entry_points.txt,sha256=W-cbEHqn8hzKmvY3y1C53HzAvrD8ApQhhSJ4O14_vOg,65
+dsa_downloader-0.0.6.dist-info/top_level.txt,sha256=bS2I0BpfKzMmLY9KexKLM70XOYfoVOmSmFdlMPt3l6A,15
+dsa_downloader-0.0.6.dist-info/RECORD,,
