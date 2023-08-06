@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+qlik/qlikutils.egg-info/PKG-INFO
+qlik/qlikutils.egg-info/SOURCES.txt
+qlik/qlikutils.egg-info/dependency_links.txt
+qlik/qlikutils.egg-info/requires.txt
+qlik/qlikutils.egg-info/top_level.txt
