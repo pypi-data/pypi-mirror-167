@@ -1,0 +1,4 @@
+[console_scripts]
+CelueZhanxing = CelueZhanxing.__main__:main
+celue-zhanxing = CelueZhanxing.__main__:main
+
