@@ -1,0 +1,8 @@
+jenfi_pipeline_data_app/__init__.py,sha256=4bQa81zLGlj2vP0nf3RxeuxQi0hkM02vdDbagW-8ewE,109
+jenfi_pipeline_data_app/app.py,sha256=FH1KYaw7DmlQt0ETxe-hdpz74aUFMKfWzHELcy_G0L4,5476
+jenfi_pipeline_data_app/config.py,sha256=6fy26jBMWEX9WavJPE0uDbtrPQV_1UOZ_vQwto2DbM0,1105
+jenfi_pipeline_data_app/db_models.py,sha256=kOUx0NZ01yt0yc63d6Rsr8PSKnYrKRqyi8hpxTCpDto,800
+jenfi_pipeline_data_app-0.2.1.dist-info/entry_points.txt,sha256=xQ2IDpXyaKBxzg5b6Quf3N_KOd70iXJwU98mZybeYYg,60
+jenfi_pipeline_data_app-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jenfi_pipeline_data_app-0.2.1.dist-info/METADATA,sha256=6_F7Wgl82373vvmYkmbhKPEsz4cs9_MpifRGwyWqnBs,760
+jenfi_pipeline_data_app-0.2.1.dist-info/RECORD,,
