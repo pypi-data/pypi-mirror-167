@@ -1,0 +1,11 @@
+datamodel/__init__.py,sha256=qeM3hu6UP1C5lVSoPX7furtLqHfcw780dxqUdEpdgXQ,318
+datamodel/base.py,sha256=Byo3FoOtWLSz4_yl7yqMeqAEJlqUQAWU8juFCr2no0E,19279
+datamodel/encoders.py,sha256=ITsRMjttDxLGEk0ZdIuVZLEI7xjfKktczAHuoRba3ZY,1866
+datamodel/version.py,sha256=D8PQKXKXokVimG9H0MY7Ai-zrTXQqL9pHbGogCzksD8,303
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/basic.py,sha256=6AbrTUHXBLbP7CrEQhvYavUZa3_5JzB8I_5T2vWvuSM,1807
+python_datamodel-0.0.5.dist-info/LICENSE,sha256=xa6l9d5pYDvDrpyrST55X_-NfBnsPVJbAbbFMGOuls4,1521
+python_datamodel-0.0.5.dist-info/METADATA,sha256=KVF8Ij9OLdlGsuz0adC4S9gHR1tfNoRrr68gDRpe4B4,2543
+python_datamodel-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_datamodel-0.0.5.dist-info/top_level.txt,sha256=Trr9CxQgPfmS6y38tWa1pUrEDz9-9g2tVfrkGDl0G_4,19
+python_datamodel-0.0.5.dist-info/RECORD,,
