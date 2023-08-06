@@ -1,0 +1,17 @@
+absl-py
+pytest
+sacrebleu==1.4.10
+six
+wheel
+progressbar
+sklearn
+torch
+transformers
+pyyaml
+nltk
+sentencepiece
+spacy
+gdown
+seaborn
+matplotlib
+pandas
