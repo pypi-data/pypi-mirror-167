@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/jd_flask_uploads/__init__.py
+src/jd_flask_uploads/flaks_uploads.py
+src/jd_flask_uploads.egg-info/PKG-INFO
+src/jd_flask_uploads.egg-info/SOURCES.txt
+src/jd_flask_uploads.egg-info/dependency_links.txt
+src/jd_flask_uploads.egg-info/requires.txt
+src/jd_flask_uploads.egg-info/top_level.txt

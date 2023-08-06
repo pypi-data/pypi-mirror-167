@@ -1,0 +1,52 @@
+# jd-flask-uploads
+
+作为 flask-uploads 的替代品，因为 flask-uploads 在 Pypi上没有更新版本，从github上源码安装不太方便。
+
+
+## 安装
+
+```
+pip install jd-flask-uploads
+```
+
+## 用法
+```
+from jd_flask_uploads import UploadSet, IMAGES
+
+# Upload Sets
+# An “upload set” is a single collection of files. You just declare them in the code:
+photos = UploadSet('photos', IMAGES)
+
+
+# And then you can use the save method to save uploaded files and path and url to access them. For example:
+
+@app.route('/upload', methods=['GET', 'POST'])
+def upload():
+    if request.method == 'POST' and 'photo' in request.files:
+        filename = photos.save(request.files['photo'])
+        rec = Photo(filename=filename, user=g.user.id)
+        rec.store()
+        flash("Photo saved.")
+        return redirect(url_for('show', id=rec.id))
+    return render_template('upload.html')
+
+@app.route('/photo/<id>')
+def show(id):
+    photo = Photo.load(id)
+    if photo is None:
+        abort(404)
+    url = photos.url(photo.filename)
+    return render_template('show.html', url=url, photo=photo)
+```
+
+
+# 模块内方法说明
+
+| 函数、对象名称            | 类型    | 说明                          |
+|---------------------------|---------|-------------------------------|
+| UploadSet                 | 对象    | 文件上传主对象                |
+| configure_uploads         | 函数    | 配置本上传对象，在 Flask App 创建之后 |
+| patch_request_class       | 函数    | 配置 Flask App 内置测试服务的文件上传大小限制 |
+| extension                 | 函数    | 返回文件扩展名 |
+| lowercase_ext             | 函数    | 返回文件扩展名（小写格式） |
+| addslash                  | 函数    | url、路径后添加反斜杠 '/'，若存在则不添加 |
