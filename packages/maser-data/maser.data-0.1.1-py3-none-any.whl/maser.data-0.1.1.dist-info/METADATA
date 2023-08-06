@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: maser.data
+Version: 0.1.1
+Summary: 
+License: CeCILL
+Author: Baptiste Cecconi
+Author-email: baptiste.cecconi@obspm.fr
+Requires-Python: >=3.8,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: all
+Provides-Extra: jupyter
+Provides-Extra: nenupy
+Provides-Extra: spacepy
+Requires-Dist: astropy (>=5.0.4,<6.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0); extra == "jupyter" or extra == "all"
+Requires-Dist: jupytext (>=1.13.8,<2.0.0); extra == "jupyter" or extra == "all"
+Requires-Dist: nenupy (>=2.1.0,<3.0.0); extra == "nenupy" or extra == "all"
+Requires-Dist: spacepy (>=0.3.0,<0.4.0); extra == "spacepy" or extra == "all"
+Requires-Dist: xarray (>=2022.3.0,<2023.0.0)
