@@ -1,0 +1,31 @@
+[project]
+name = "saxo-apy"
+version = "0.1.8"
+authors = [
+  { name="Gid van der Ven", email="me@gid.works" },
+]
+description = "Python Client for Saxo Bank OpenAPI"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English"
+]
+dependencies = [
+  "Flask==2.2.2",
+  "pydantic==1.10.2",
+  "requests==2.28.1",
+  "PyJWT==2.4.0",
+  "loguru==0.6.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gidven/saxo-openapi-client-python"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
