@@ -1,0 +1,15 @@
+_test_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_test_helpers/spam/__init__.py,sha256=mnMCJH_8JabRKAvsbJvX6v8JcskD7dkjyfjYDJfvRbM,115
+_test_helpers/spam_with_egg/__init__.py,sha256=YOaPyxLA__6Ql1HE_GJFL9zuLsJOsq9-fAy4Ex5qV8c,195
+cfx_typing/__init__.py,sha256=QWYnwlu3APleLfTyF3TmSPNovCywNyt_ifsDu_NEg5I,4509
+cfx_typing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfx_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfx_utils/decorators.py,sha256=VkhL4QNJmJwDPdA0blN32tPUb_McZ65iuIXluGwpWDM,611
+cfx_utils/drip.py,sha256=ErVXfjI2j7K9lO27hTrm1rcrqL5zBpkUfDzuZYdpB-4,424
+cfx_utils/exceptions.py,sha256=4LI-3CzGBtNyOrS5KO2FpP2HH-5lVBq4z1qgfkrRG_4,785
+cfx_utils/post_import_hook.py,sha256=A1x5sruTiVvNMvm3EbpZAFoUuMZDCOiG_f0_6c0Trcs,1398
+cfx_utils/types.py,sha256=5WJHGrszvD2nG_DAGFtvxc2RNF2028sx2liFlwNlReg,1942
+cfx_utils-1.0.0b8.dist-info/METADATA,sha256=B98HD3pgnncdBXeG7uRS7RTiEwitmMfqgbTLD38_Swo,1253
+cfx_utils-1.0.0b8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cfx_utils-1.0.0b8.dist-info/top_level.txt,sha256=SmLHntjOsaFiWDXfllVvLxqCSIHSn4_b-IwIv1Tj430,24
+cfx_utils-1.0.0b8.dist-info/RECORD,,
