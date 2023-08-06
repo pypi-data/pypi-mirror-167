@@ -1,0 +1,9 @@
+tessif_examples/__init__.py,sha256=O7wkginNPuCzjwIyWPMELJ7SKKtVPi_jtUDfvfGOomE,129
+tessif_examples/basic/__init__.py,sha256=r7ZsUAYtsHbt2-XeXuxT_CSesQ2pMVPP_3Vk0HVEtyU,146
+tessif_examples/basic/mwe.py,sha256=la4J-xJ8i8LiUzHTg1xPic1hWu95sovje1o1ZmELBNk,3189
+tessif_examples/scenarios/__init__.py,sha256=kgzO6WiU1a5zVDLAG0FImZ3b-lFSJU48dLc2WAuts0w,152
+tessif_examples/scenarios/generic_grid.py,sha256=DEb2d1Ul_IV5-MF-rWaiOirGaL8EiqK4bQx5q2TlCE4,37189
+tessif_examples-0.2.0.dist-info/LICENSE,sha256=IbNgWr69jTTFnG9z5imLjf_qz--OJENiIyDjOVUlLww,1062
+tessif_examples-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+tessif_examples-0.2.0.dist-info/METADATA,sha256=NxN_8Jx7P3qkPhgj0_FqjiA6n7cfIo50IBHzgmN8e74,6357
+tessif_examples-0.2.0.dist-info/RECORD,,
