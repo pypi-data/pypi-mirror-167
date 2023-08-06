@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: squareapi-py
+Version: 0.0.3
+Summary: Uma biblioteca que ultilizar a api da squarecloud
+Home-page: UNKNOWN
+Author: Astro
+Author-email: ericksantosyb@gmail.com
+License: MIT License
+Keywords: square_lib
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# â €â €â €â €â €â €â €â €â €â €â €â €Squareapi-py 0.0.3
+
+pt-br : biblioteca nÃ£o oficial da [squarecloud](https://squarecloud.app).
+en: [squarecloud](https://squarecloud.app) unofficial library.
+
+**Key_api:**
+--------
+
+- para a biblioteca funcionar e necessario ter a chave da api para isso vÃ¡ no site da [Squarecloud](https://squarecloud.app) e siga o tutorial abaixo: 
+
+> `dashbord -> My account -> API/CLI KEY`
+
+- Com a key_api em mÃ£os agora vocÃª estÃ¡ pronto para prosseguir
+
+**Instalando:**
+-----------
+
+ primeiramente voce ira digitar o seguinte codigo no terminal do seu projeto
+
+```
+$ pip install squareapi-py
+```
+apÃ³s a instalaÃ§Ã£o da biblioteca vocÃª ira seguir para proxima etapa
+
+**Usando:**
+-------
+- **Se conectando a api:**
+> para se conectar a api vocÃª ira importar a lib no seu projeto com `from squarecloud_py import app` logo apÃ³s, ira passar o id do seu bot junto com a ky_api que vocÃª pegou mais cedo.
+
+> Usando a funÃ§Ã£o `Client()` iremos enviar as informaÃ§Ãµes para se conectar.
+
+```py
+from squarecloud_py import app
+
+id_app = ''
+key_api = ''
+
+bot = app.Client(id_app= id_app, key_api= key_api) #Se conectando a API
+```
+
+- **Start/stop/restart:**
+> ultilizando as funÃ§Ãµes [`start() stop() restart()`] vocÃª controla o estado do seu bot com poucas linhas de codigos
+```py
+from squarecloud_py import app
+
+id_app = ''
+key_api = ''
+
+bot = app.Client(id_app= id_app, key_api= key_api) #Se conectando a API
+
+bot.start() #ligando o bot
+bot.stop() #parando o bot
+bot.restart() #reiniciando o bot
+```
+
+- **Coletando os logs:**
+
+> usando a funÃ§Ã£o `logs()` o sistema ira fazer um request na API e a funÃ§Ã£o ira retorna as ultimas 5 logs do seu bot
+
+- **Nota:**
+> ultilizando `log_complete()` a funÃ§Ã£o ira retorna um link pro site da squarecloud com todas as logs do bot
+
+```py
+from squarecloud_py import app
+
+id_app = ''
+key_api = ''
+
+bot = app.Client(id_app=id_app, key_api=key_api) #Se conectando a squarecloud
+
+print(bot.logs()) #ou log_complete
+```
+
+**Para mais exemplos veja esse [repositorio](https://github.com/4str0x/squareapi-py-exemplos-):**
+
