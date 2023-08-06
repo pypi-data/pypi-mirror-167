@@ -1,0 +1,1 @@
+(self.webpackChunkjupyter_ovito=self.webpackChunkjupyter_ovito||[]).push([[261],{261:(e,t,r)=>{var i=r(568),o=r(382);e.exports={id:"jupyter-ovito:plugin",requires:[o.IJupyterWidgetRegistry],activate:function(e,t){t.registerWidget({name:"jupyter-ovito",version:i.version,exports:i})},autoStart:!0}}}]);
