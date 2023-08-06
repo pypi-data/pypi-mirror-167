@@ -1,0 +1,9 @@
+README.md
+setup.py
+loick_multiply/__init__.py
+loick_multiply/multiply.py
+loick_multiply.egg-info/PKG-INFO
+loick_multiply.egg-info/SOURCES.txt
+loick_multiply.egg-info/dependency_links.txt
+loick_multiply.egg-info/requires.txt
+loick_multiply.egg-info/top_level.txt
