@@ -1,0 +1,8 @@
+pdc_event_autodoc/__init__.py,sha256=1S5GNBh7Nsazy_mzMqqDovhMkQJrR9a3LqWiNScPFG8,78
+pdc_event_autodoc/api/socket_api.py,sha256=IY2hTqfQoPwBAFcWWFpMnpJc-CEZM7BpAl-DfTaSgn0,621
+pdc_event_autodoc/doc_view.py,sha256=r32uvLLLxDVRYrjpY6kKJmuuufKMsn6jKh9rVbBLSz0,893
+pdc_event_autodoc/documentation.py,sha256=MJfK49q0oN9WZ2ALjfcWZD_e8CrE6y7Vm8i3B12TUe4,7887
+pdc_event_autodoc/schemas/doc_schema.py,sha256=znNgyWFU7pdqR96d4K7hsq2UNcbCCEMiksENOChm-40,1191
+pdc_event_autodoc-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pdc_event_autodoc-0.0.2.dist-info/METADATA,sha256=Bd7KpgZ0UotPdGhHrTDirxs5OF8d8IlO7gBiZ04YC4k,3510
+pdc_event_autodoc-0.0.2.dist-info/RECORD,,
