@@ -1,0 +1,15 @@
+oneface/__init__.py,sha256=US82078f2MqNiFfFlASRq6f2ZJn1ayztnJOK9HEo6Lw,72
+oneface/arg.py,sha256=rfpa7T3bttS5m1t536v9uL4yM0J8o9KNaM7bTr-d9xE,2624
+oneface/core.py,sha256=Zo8xTtPrs0R1JpqpxBRTxAkwbH8CvLHgAEatr8CGAU8,3843
+oneface/dash_app.py,sha256=9hccb2SWs0vHQsQQIGxcAtnni-i-i0rWFsRucyKOSxw,10048
+oneface/qt.py,sha256=DZgQWTZdKT0d6_X4Bd7-FwtVMckbIXBMZaLXskGq-Ro,8615
+oneface/types.py,sha256=slf6hFI_K9Us9gdWn4ZKoh0iQeBQUbPiTzkkIiwbLZk,1164
+oneface/wrap_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oneface/wrap_cli/__main__.py,sha256=JCR9imFP0zZ4DVvaQ4oUQf5Oyt8_6IbJcfEGbKdfdGQ,1299
+oneface/wrap_cli/example.yaml,sha256=OpDvuUUrDfHahi4qEUZ5QOOMdBHoRHI9pzDnhKSdn0E,475
+oneface/wrap_cli/wrap.py,sha256=rRSoGm8oKV4cg0uzGWb4vTQAemYU3nLnuCpi7YvxYmc,5810
+oneFace-0.1.5.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+oneFace-0.1.5.dist-info/METADATA,sha256=tgJjgPYWNADwp0XvNBoIIDjK62-OvZEtUIGfrqapmGw,2088
+oneFace-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oneFace-0.1.5.dist-info/top_level.txt,sha256=n7WJK-bosXzcMqh_TFszUol6dTaSjxz6tzV0LxT-0zo,8
+oneFace-0.1.5.dist-info/RECORD,,
