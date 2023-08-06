@@ -1,0 +1,8 @@
+requirements.txt
+setup.py
+pil_helper/__init__.py
+pil_helper.egg-info/PKG-INFO
+pil_helper.egg-info/SOURCES.txt
+pil_helper.egg-info/dependency_links.txt
+pil_helper.egg-info/not-zip-safe
+pil_helper.egg-info/top_level.txt
