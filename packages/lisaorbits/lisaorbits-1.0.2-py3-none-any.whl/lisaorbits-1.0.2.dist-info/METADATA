@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: lisaorbits
+Version: 1.0.2
+Summary: LISA Orbits generates orbit files containing spacecraft positions and velocities, proper pseudo-ranges, and spacecraft proper times.
+Home-page: https://gitlab.in2p3.fr/lisa-simulation/orbits
+Author: Jean-Baptiste Bayle, Aurelien Hees, Marc Lilley
+Author-email: j2b.bayle@gmail.com, aurelien.hees@obspm.fr, marc.lilley@obspm.fr
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: lisaconstants
+
+# LISA Orbits
+
+LISA Orbits is a Python package which generates orbit files compatible with [LISANode](https://gitlab.in2p3.fr/j2b.bayle/LISANode). An orbit file contains the spacecraft positions and velocities in the BCRS, as well as their proper times with respect to the TCB. It also contains the light travel times and the proper pseudo-ranges between each pair of spacecraft, as well as their time derivatives.
+
+The HDF5 orbit file has the following structure,
+```
+  |- group `tcb` for quantities evaluated on the TCB time grid
+  |    |
+  |    |- TCB time dataset `t`, of shape (tsize), in s
+  |    |
+  |    |- spacecraft datasets `sc_1`, `sc_2`, and `sc_3`, of shape (7, tsize),
+  |    |    |- `x`, `y`, `z`, for the position in m
+  |    |    |- `vx`, `vy`, `vz` for the velocity in m/s
+  |    |    |- `tau` for the spacecraft proper time (TPS) in s
+  |    |
+  |    |- link datasets `l_12`, `l_23`, `l_31`, `l_13`, `l_32`, and `l_21`, of shape (7, tsize),
+  |    |    |- `tt`, for the light travel time, in s
+  |    |    |- `ppr`, for the proper pseudo-range, in s
+  |    |    |- `d_tt`, for light travel time derivative, in s/s
+  |    |    |- `d_ppr`, for proper pseudo-range derivative, in s/s
+  |    |    |- `nx`, `ny`, `nz`, for the unit vector pointing from the emitter to the receiver   
+  |
+  |- group `tps` for quantities evaluated on the TPS time grid
+  |    |
+  |    |- TPS time dataset `tau`, of shape (tausize), in s
+  |    |
+  |    |- spacecraft datasets `sc_1`, `sc_2`, and `sc_3`, of shape (1, tausize),
+  |    |    |- `t`, for the barycentric coordinated time (TCB), in s
+  |    |
+  |    |- link datasets `l_12`, `l_23`, `l_31`, `l_13`, `l_32`, and `l_21`, of shape (2, tausize),
+  |    |    |- `ppr`, for the proper pseudo-range, in s
+  |    |    |- `d_ppr`, for proper pseudo-range derivative, in s/s
+```
+
+Metadata are saved as attributes of the orbit file.
+
+You can use pre-generated orbit files, or generate orbit files with fine-grain control over the parameters. You can also plot orbits or certain quantities for a given time or list of times. Please read carefully this README for more information.
+
+Documentation is available
+* hosted [in this project](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/blob/master/docs/LISA_Orbit_Simulation_Model.pdf) ([direct download](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/raw/master/docs/LISA_Orbit_Simulation_Model.pdf?inline=false) of the last stable version),
+* on [Atrium](https://atrium.in2p3.fr/9dc7bc5d-4ba8-49f8-8b8f-aa33ae537eb9) (last stable version),
+* on [Overleaf](https://www.overleaf.com/read/smnkbbbqhscj) (development version),
+* as [docstring](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/blob/master/lisaorbits/generators.py) (development version).
+
+### Use pre-generated orbit files
+
+In the table below, we list each orbit type currently supported. We provide the name of the associated orbit class, a download link for a pre-computed orbit file, and a link to quickly visualize the content of this orbit file with plots.
+
+| Orbit type | Orbit class | Orbit file | Plots and figures |
+|------------|-------------|------------|-------------------|
+| Equal-armlength orbits | `EqualArmlengthOrbits` | [equalarmlength-orbits.h5](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/jobs/artifacts/master/raw/equalarmlength-orbits.h5?job=equalarmlength-orbits) | [Figures](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/jobs/artifacts/master/browse?job=equalarmlength-orbits) |
+| Keplerian orbits | `KeplerianOrbits` | [keplerian-orbits.h5](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/jobs/artifacts/master/raw/keplerian-orbits.h5?job=keplerian-orbits) | [Figures](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/jobs/artifacts/master/browse?job=keplerian-orbits) |
+| ESA-file orbits (from [file](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/blob/master/tests/esa/LISA2500Mm.rv)) | `ESAOrbits` | [esa-orbits.h5](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/jobs/artifacts/master/raw/esa-orbits.h5?job=esa-orbits) | [Figures](https://gitlab.in2p3.fr/lisa-simulation/orbits/-/jobs/artifacts/master/browse?job=esa-orbits) |
+| Interpolated orbits | `InterpolatedOrbits` | None | None |
+| Resampled orbits | `ResampledOrbits` | None | None |
+
+### Generate a custom orbit file
+
+Make sure that Python 3.7 or newer is available, and install `lisaorbits` using [pip](https://pip.pypa.io/en/stable/),
+```
+pip install git+https://gitlab.in2p3.fr/lisa-simulation/python-constants.git@v0.0.3
+pip install git+https://gitlab.in2p3.fr/lisa-simulation/orbits.git
+```
+
+Pick an orbit generator class from the list of supported orbit types, initialize it with the default or custom parameters, and then generate your orbit file.
+```
+python -c "import lisaorbits; lisaorbits.KeplerianOrbits().write()"
+python -c "import lisaorbits; lisaorbits.KeplerianOrbits(dt=86400, size=365).write('regular-sampling.h5')"
+python -c "import lisaorbits; lisaorbits.EqualArmlengthOrbits(t=[0.1, 120.5, 121, 245]).write('custom-sampling.h5')"
+python -c "import lisaorbits; lisaorbits.ESAOrbits('esa-orbits.rv', t0=12160, tt_method='iterative').write('my-orbits.h5')"
+```
+
+You can also use the following methods on an orbit instance, with a time or an array of times as argument:
+* `compute_spacecraft_position(sc, t)`,
+* `compute_spacecraft_velocity(sc, t)`,
+* `compute_spacecraft_acceleration(sc, t)`,
+* `compute_spacecraft_proper_time(sc, t)`,
+* `compute_deriv_spacecraft_proper_time(sc, t)`,
+* `compute_spacecraft_tcb(sc, tau)`,
+* `compute_light_travel_times(emitter, receiver, t)`,
+* `compute_proper_pseudo_ranges(emitter, receiver, t)`,
+* `compute_deriv_light_travel_times(emitter, receiver, t)`,
+* `compute_deriv_proper_pseudo_range(emitter, receiver, t)`.
+
+### Plot orbits
+
+Use the functions `plot_spacecraft()` and `plot_links()` to generate figures showing the spacecraft-related quantities for a given spacecraft (positions, velocities, accelerations, and proper times) and the link-related quantities (light travel times, proper pseudo-ranges, and derivatives thereof).
+```
+python -c "import lisaorbits; lisaorbits.KeplerianOrbits().plot_spacecraft(0)"
+python -c "import lisaorbits; orbit = lisaorbits.ESAOrbits('my-orbits.txt'); orbits.plot_spacecraft(2); orbits.plot_links()"
+```
+
+## Contributing
+
+### Report an issue
+
+We use the issue-tracking management system associated with the project provided by Gitlab. If you want to report a bug or request a feature, open an issue at https://gitlab.in2p3.fr/lisa-simulation/orbits/-/issues. You may also thumb-up or comment on existing issues.
+
+### Development environment
+
+We strongly recommend to use [Python virtual environments](https://docs.python.org/3/tutorial/venv.html).
+
+To setup the development environment, use the following commands:
+```
+git clone git@gitlab.in2p3.fr:lisa-simulation/orbits.git
+cd orbits
+python -m venv .
+source ./bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Workflow
+
+The project's development workflow is based on the issue-tracking system provided by Gitlab, as well as peer-reviewed merge requests. This ensures high-quality standards.
+
+Issues are solved by creating branches and opening merge requests. Only the assignee of the related issue and merge request can push commits on the branch. Once all the changes have been pushed, the "draft" specifier on the merge request is removed, and the merge request is assigned to a reviewer. He can push new changes to the branch, or request changes to the original author by re-assigning the merge request to them. When the merge request is accepted, the branch is merged onto master, deleted, and the associated issue is closed.
+
+### Pylint and unittest
+
+We enforce [PEP 8 (Style Guide for Python Code)](https://www.python.org/dev/peps/pep-0008/) with Pylint syntax checking, and correction of the code using the unittest testing framework. Both are implemented in the continuous integration system.
+
+You can run them locally
+```
+pylint **/*.py
+python -m unittest -v
+```
+
+## Contact
+
+* Jean-Baptiste Bayle (j2b.bayle@gmail.com)
+* Aurelien Hees (aurelien.hees@obspm.fr)
+* Marc Lilley (marc.lilley@obspm.fr)
