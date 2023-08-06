@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: fastapi-wraps
+Version: 0.1.3
+Summary: 
+Home-page: https://github.com/pawelrubin/fastapi-wraps
+License: MIT
+Keywords: fastapi,decorator,functools
+Author: Paweł Rubin
+Author-email: pawelrubindev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Dist: fastapi (>=0.83.0,<0.84.0)
+Project-URL: Repository, https://github.com/pawelrubin/fastapi-wraps
+Description-Content-Type: text/markdown
+
+# fastapi-wraps
+
+
+## Installation
+
+```shell
+pip install fastapi-wraps
+```
+
+## Example
+
+```python
+def save_request(
+    endpoint: Callable[P, Awaitable[RT]],
+) -> Callable[P, Awaitable[RT]]:
+    @fastapi_wraps(endpoint)
+    async def wrapper(
+        *args: Any,
+        __request: Request = Depends(get_request),
+        __db: Db = Depends(get_db),
+        **kwargs: Any,
+    ) -> RT:
+        __db.save(__request)
+        response = await endpoint(*args, **kwargs)
+        return response
+
+    return wrapper
+
+
+app = FastAPI()
+
+
+@app.get("/")
+@save_request
+async def hello() -> str:
+    return "hello"
+```
+
+## Why?
+
+To use dependencies provided by FastAPI's DI framework all dependencies have to be declared in the signature of the endpoint.
+Hence, the decorator cannot simply use `functools.wraps`, as `functools.wraps` maintains the signature of the wrapped function. The `fastapi_wraps` decorator takes updates the resulting signature by merging parameters from the `wrapper` and the `wrapped` function.
+
