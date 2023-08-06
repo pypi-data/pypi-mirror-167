@@ -1,0 +1,3 @@
+[console_scripts]
+colubrid = src.__main__:main
+
