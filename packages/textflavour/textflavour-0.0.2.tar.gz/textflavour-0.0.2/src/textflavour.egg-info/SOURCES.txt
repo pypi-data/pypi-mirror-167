@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/textflavour/__init__.py
+src/textflavour/wo.py
+src/textflavour.egg-info/PKG-INFO
+src/textflavour.egg-info/SOURCES.txt
+src/textflavour.egg-info/dependency_links.txt
+src/textflavour.egg-info/top_level.txt
