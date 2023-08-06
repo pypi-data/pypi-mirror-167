@@ -1,0 +1,3 @@
+[console_scripts]
+agileetc=agileetc.cli:cli
+
