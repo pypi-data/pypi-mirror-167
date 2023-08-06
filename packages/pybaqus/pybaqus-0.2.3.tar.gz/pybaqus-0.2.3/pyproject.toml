@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pybaqus"
+version = "0.2.3"
+description = ""
+authors = ["Cristóbal Tapia Camú <crtapia@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/cristobaltapia/pybaqus"
+
+[tool.poetry.dependencies]
+python = "^3.7.7"
+numpy = "^1.18.2"
+scipy = "^1.4.1"
+matplotlib = "^3.2.1"
+pyvista = "^0.31.0"
+vtk = "^9.0.3"
+tqdm = "^4.62.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+yapf = "^0.31.0"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
