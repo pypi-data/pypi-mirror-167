@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: http2client
+Version: 0.0.4
+Summary: A simple HTTP/2 client for Cyber Security
+Home-page: https://github.com/cyal1/http2client
+Author: cyal1
+Author-email: dsq6115119@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# http2client
+A simple HTTP/2 client for Cyber Security
+
+Useage:
+```python
+
+body = b'0\r\n\r\nGET /404 HTTP/1.1\r\nx: x'
+
+headers = [
+    (':method', 'GET'),
+    (':path', "/"),
+    (':authority', "example.com"),
+    (':scheme', 'https'),
+    ('User-Agent', 'testet\r\nTransfer-Encoding: chunked'),
+    ('content-length', str(len(body))),
+]
+```
+
