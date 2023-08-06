@@ -1,0 +1,14 @@
+confusion/__init__.py,sha256=D8chJsTJXfEUd0xQHq0Qdbh6T6zOJ2Ab8HSAqBwn6LY,76
+confusion/config.py,sha256=ec8hLzGj8-frWMvyxd-zRbXJ1nX5AMnie2l8bj8GiHs,1872
+confusion/parser.py,sha256=1zjNedH85pw1Nk7Eokm12W4ocbDB5fkxCRz2wCT2wK8,2755
+confusion/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confusion/test/test_cfn2dot.py,sha256=Otl1lwQ_5ohelN4hSwfSk3oo0Wjt8DKKVjGC5o7Strk,4486
+confusion/test/test_config.py,sha256=yu-jFpQp0vllkwlkLVmu_dgDbYFK-wQYgzgjPfyRlwg,3063
+confusion/test/test_parser.py,sha256=RLOYC4nUkKRMYw4bW0Nl8nKjWSdEU4aRkPv_FNP-wuY,4948
+confusion/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confusion/utils/cfn2dot.py,sha256=XYsRg6GRhczNCKYp-M3OxdRriXNTamoufk2jVul3bhQ,11862
+confusion-0.4.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+confusion-0.4.0.dist-info/METADATA,sha256=85Z8dfH9WbxjLVDkEXEerxzo5a5SUbzK6wwBzc1fswU,35298
+confusion-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+confusion-0.4.0.dist-info/top_level.txt,sha256=HLrXWvOqsC8THWwQw8fvrwATHTqY4RjJNfoOCdty7eI,10
+confusion-0.4.0.dist-info/RECORD,,
