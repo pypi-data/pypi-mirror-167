@@ -1,0 +1,8 @@
+hexasphere/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hexasphere/geometry.py,sha256=ZxB3z4t2kkoV_F97rTIAPDdScXqrDCsHkYolP5NqsOc,5647
+hexasphere/hexgrid.py,sha256=p3ZEgIUQOx1TprwR5hl5sKSnlGiUMbyaQE413lf5vPY,19651
+hexasphere/projection.py,sha256=IpDjLxPKRfemGvAmslJYggmUmksnY6Qg0md2hm7Y3po,4445
+hexasphere-0.1.0.dist-info/METADATA,sha256=unvlEcTu8SBImvKhQ-6FCegI18dj-PDecfc9BPjTqKg,6076
+hexasphere-0.1.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+hexasphere-0.1.0.dist-info/licenses/LICENSE,sha256=wr5SDO8UiyFhWKN03oZTJyWCt-aB7Bit8dS-D3QK3pI,1065
+hexasphere-0.1.0.dist-info/RECORD,,
