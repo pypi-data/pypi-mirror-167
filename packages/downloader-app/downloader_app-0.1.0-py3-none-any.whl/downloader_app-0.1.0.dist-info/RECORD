@@ -1,0 +1,13 @@
+downloader_app/__init__.py,sha256=2otq5I39-nfbYLKpegwgRt-8ysn72mX5saBqslRGqVA,91
+downloader_app/celeryapp.py,sha256=G-an1S1J9i-14fNcDjpWnFBhCsfazxwRhbK8Dl6MNyo,555
+downloader_app/celeryconfig.py,sha256=cF1Zeo2gS9tPUboew3-Jp-Uz1Db9hXEOreK2PnZf3rU,372
+downloader_app/run_downloader_tasks.py,sha256=NKcdK9yzkeqcaRbNAKjBcmp0lojn8-xpWJ9vrEZjmVw,2013
+downloader_app/settings.py,sha256=y7b7cX8MurnPUMFi8jQe3bNQd1R5NJ22Nodb5FgMWnw,82
+downloader_app/shapefile_module.py,sha256=CRJWk50O-GQcZgtPfembL9ic-4t3rubvkbot5bi2_a4,15888
+downloader_app/tasks.py,sha256=dqasy2IvuGVJmX2ejcb93Bxfh1zyTZQHmEv98lp4QvU,915
+downloader_app/tiff_downloader.py,sha256=wWF3vfU62Ob5UfrpBpqntw-Cwy3QWkDQevZn59slTNk,53683
+downloader_app/utils.py,sha256=RHugn-cbnJw1BTzaTiaPx6N9f4-5G-WtA41UEm8lQfc,346
+downloader_app-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+downloader_app-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+downloader_app-0.1.0.dist-info/METADATA,sha256=hGuH6gU0y3N3hDsPKbX_PPewIQqWWXA3FliB1859Vug,471
+downloader_app-0.1.0.dist-info/RECORD,,
