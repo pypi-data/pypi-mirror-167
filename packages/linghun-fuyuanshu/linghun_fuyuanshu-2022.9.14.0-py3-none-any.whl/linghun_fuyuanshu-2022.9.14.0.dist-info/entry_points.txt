@@ -1,0 +1,4 @@
+[console_scripts]
+LinghunFuyuanshu = LinghunFuyuanshu.__main__:main
+linghun-fuyuanshu = LinghunFuyuanshu.__main__:main
+
