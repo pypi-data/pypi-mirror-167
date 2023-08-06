@@ -1,0 +1,8 @@
+{
+    "prog": "drf_fileupload_api",
+    "desc": "A file upload application for DjangoRestFramework",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "url": "https://github.com/suqingdong/drf_fileupload",
+    "version": "1.0.1"
+}
