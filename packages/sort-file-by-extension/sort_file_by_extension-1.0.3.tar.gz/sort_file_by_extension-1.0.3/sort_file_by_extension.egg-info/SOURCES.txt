@@ -1,0 +1,10 @@
+License
+README.md
+setup.py
+clean_folder/__init__.py
+clean_folder/sort.py
+sort_file_by_extension.egg-info/PKG-INFO
+sort_file_by_extension.egg-info/SOURCES.txt
+sort_file_by_extension.egg-info/dependency_links.txt
+sort_file_by_extension.egg-info/entry_points.txt
+sort_file_by_extension.egg-info/top_level.txt
