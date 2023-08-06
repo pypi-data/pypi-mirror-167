@@ -1,0 +1,10 @@
+setup.py
+distributions_vul3rmp/Binomialdistribution.py
+distributions_vul3rmp/Gaussiandistribution.py
+distributions_vul3rmp/Generaldistribution.py
+distributions_vul3rmp/__init__.py
+distributions_vul3rmp.egg-info/PKG-INFO
+distributions_vul3rmp.egg-info/SOURCES.txt
+distributions_vul3rmp.egg-info/dependency_links.txt
+distributions_vul3rmp.egg-info/not-zip-safe
+distributions_vul3rmp.egg-info/top_level.txt
