@@ -1,0 +1,12 @@
+datamodel/__init__.py,sha256=qeM3hu6UP1C5lVSoPX7furtLqHfcw780dxqUdEpdgXQ,318
+datamodel/base.py,sha256=UQ6Boomwt8H6lL0FbN00QFktShUfS86jQxFr9v1B_m0,19549
+datamodel/encoders.py,sha256=ITsRMjttDxLGEk0ZdIuVZLEI7xjfKktczAHuoRba3ZY,1866
+datamodel/version.py,sha256=74rFAMzW8iH2YBf8oFi31lrsu0gUsYXPgW-sRBiICJc,303
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/basic.py,sha256=6AbrTUHXBLbP7CrEQhvYavUZa3_5JzB8I_5T2vWvuSM,1807
+examples/payroll.py,sha256=j38DbF0CLh4bR3ntnuRixfqBEG7IKkUqniRmDmc63Co,3640
+python_datamodel-0.0.6.dist-info/LICENSE,sha256=xa6l9d5pYDvDrpyrST55X_-NfBnsPVJbAbbFMGOuls4,1521
+python_datamodel-0.0.6.dist-info/METADATA,sha256=JSmTBuGiVcSJRut1eFfBn-EFvFBAW8n-H1QaAUwHhXQ,2543
+python_datamodel-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_datamodel-0.0.6.dist-info/top_level.txt,sha256=Trr9CxQgPfmS6y38tWa1pUrEDz9-9g2tVfrkGDl0G_4,19
+python_datamodel-0.0.6.dist-info/RECORD,,
