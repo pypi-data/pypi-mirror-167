@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pdflaw/__init__.py
+pdflaw/pdf2image.py
+pdflaw/pdf2text.py
+pdflaw.egg-info/PKG-INFO
+pdflaw.egg-info/SOURCES.txt
+pdflaw.egg-info/dependency_links.txt
+pdflaw.egg-info/top_level.txt
