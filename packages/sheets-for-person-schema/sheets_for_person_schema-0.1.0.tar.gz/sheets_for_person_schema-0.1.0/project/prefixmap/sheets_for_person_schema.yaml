@@ -1,0 +1,11 @@
+{
+   "PATO": "http://purl.obolibrary.org/obo/PATO_",
+   "biolink": "https://w3id.org/biolink/",
+   "example": "https://example.org/",
+   "linkml": "https://w3id.org/linkml/",
+   "schema": "http://schema.org/",
+   "sheets_for_person_schema": "https://w3id.org/turbomam/sheets-for-person-schema/",
+   "NamedThing": {
+      "@id": "schema:Thing"
+   }
+}
