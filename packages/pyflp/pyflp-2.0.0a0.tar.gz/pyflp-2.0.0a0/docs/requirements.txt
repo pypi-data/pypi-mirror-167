@@ -1,0 +1,12 @@
+# Package deps
+bytesioex
+colour
+
+# Documentation deps
+furo
+myst-parser
+sphinx
+sphinx-copybutton
+sphinx-design
+sphinx-hoverxref
+sphinx-toolbox
