@@ -1,0 +1,6 @@
+dash_app
+dist
+docs
+pymatgen
+tests
+tutorials
