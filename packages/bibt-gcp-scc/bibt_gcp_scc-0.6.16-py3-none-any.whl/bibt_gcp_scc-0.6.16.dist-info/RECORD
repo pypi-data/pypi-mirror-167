@@ -1,0 +1,12 @@
+bibt/__init__.py,sha256=8tkdZMytST5vyHv-q2abYIZDQje16WBHsRLOKyHYIGA,1014
+bibt/gcp/__init__.py,sha256=YWEslxLEnJGeQb-YBJr4qrKfXGP-61VdNx0WlW_e9Vo,935
+bibt/gcp/scc/__init__.py,sha256=I6aOWLcD0GLIah6lGH2B-H39llNh9_JfCi6NCW1T08Y,949
+bibt/gcp/scc/classes.py,sha256=sjwMpQ0-O-h-VJXgWGGf6M3RyW4zEZodRwyWWf4eoXE,12894
+bibt/gcp/scc/scc.py,sha256=3Rw4DGZfHNiD8MImEn6iTh457ZrGQXd_WJgIfkEsh4A,24193
+bibt/gcp/scc/version.py,sha256=e4Op9_nABZKxg_vIqFvP7RFLUDKQYRk5rJQHHqsebUM,23
+bibt_gcp_scc-0.6.16.dist-info/LICENSE,sha256=epnB9a7mCEhC0EaX3ub51YmLFi_lWd6lhQ5Upted0NE,1054
+bibt_gcp_scc-0.6.16.dist-info/METADATA,sha256=-kxr0xpof8v8u1jOQ-GGTwpZ9l1cxNGLSxGLb9nKfBU,1632
+bibt_gcp_scc-0.6.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bibt_gcp_scc-0.6.16.dist-info/top_level.txt,sha256=ZqDLCsRwnDRsaxxBRwvvzOuZMpgN81krJnUJjPR2jwg,5
+bibt_gcp_scc-0.6.16.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bibt_gcp_scc-0.6.16.dist-info/RECORD,,
