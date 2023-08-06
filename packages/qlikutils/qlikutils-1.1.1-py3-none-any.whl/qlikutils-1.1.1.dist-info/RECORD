@@ -1,0 +1,12 @@
+qlikutils/__init__.py,sha256=q8_5C0f-8mHWNb6mMw02zlYPnEGXBqvOmP3z0CEwZKM,22
+qlikutils/__main__.py,sha256=ivEp11Mbf1RHBvANLCz-cITskbJmKB036BKDztQkvWU,983
+qlikutils/utils.py,sha256=ZI7p03Phdi3blcxIBgvhK8E9Deebc8Kh9CylYvcKgxs,1132
+qlikutils/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlikutils/assets/fonts/Arial Black.ttf,sha256=fX2zrZajE3PBQ3xqsUJm9mBUlVRMjmY1WLBHUhF0xC4,122556
+qlikutils/assets/fonts/Arial.ttf,sha256=Ull5giWRo0R8_EnZQ9b3aDUI4lVDQHhxwO2P7QX9K9k,773236
+qlikutils/assets/images/background.png,sha256=3sInw1Z60nYZbzHmW4UwLrtSwQDZm1qpMJghNz99GxQ,935040
+qlikutils-1.1.1.dist-info/LICENSE,sha256=ab-Q0DepK9knbq16F7cq8U_hy1PK1Jg7VSXeNkqNydM,1063
+qlikutils-1.1.1.dist-info/METADATA,sha256=vyNBPNPWI1vfchX_WMrG-h6Pdsim4d99ajgK27Z7RRM,354
+qlikutils-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qlikutils-1.1.1.dist-info/top_level.txt,sha256=hcJcJRTscUFfBo0myrbz9UPvL9RCsj-a-KrwjpRy1iw,10
+qlikutils-1.1.1.dist-info/RECORD,,
