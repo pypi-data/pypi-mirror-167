@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyrestissimo
+Version: 0.1.1
+Summary: An extremly fast sampler and symbolized music score renderer(standard midi file and msf supported for now).
+Author: Luo Zhongqi
+Author-email: luozhongqi@mail.com
+License: MIT Licence
+Keywords: audio-processing,sampler
+Platform: any
+
+UNKNOWN
+

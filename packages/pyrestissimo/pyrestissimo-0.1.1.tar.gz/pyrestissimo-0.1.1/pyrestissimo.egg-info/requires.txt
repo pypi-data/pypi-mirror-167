@@ -1,0 +1,4 @@
+numpy>=1.21
+h5py>=3.0
+hdf5plugin>=3.0
+protobuf>=4.21
