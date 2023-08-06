@@ -1,0 +1,3 @@
+include src/reddutils_test/exodus/data/tables/*.csv
+include src/reddutils_test/exodus/data/tables/*.dat
+include src/reddutils_test/exodus/data/images/*.png
