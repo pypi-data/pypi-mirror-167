@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jotpad
+Version: 0.0.18a0
+Summary: Jotpad is a cli tool for managing notes
+Home-page: https://github.com/scrussell24/jotpad
+Author: Scott Russell
+Author-email: me@scottrussell.net
+License: UNKNOWN
+Description: # pad
+        
+        A cli tool for managing notes.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

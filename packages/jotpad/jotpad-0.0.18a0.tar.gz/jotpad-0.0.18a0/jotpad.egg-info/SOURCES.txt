@@ -1,0 +1,11 @@
+README.md
+setup.py
+jotpad/__init__.py
+jotpad/cli.py
+jotpad/config.py
+jotpad.egg-info/PKG-INFO
+jotpad.egg-info/SOURCES.txt
+jotpad.egg-info/dependency_links.txt
+jotpad.egg-info/entry_points.txt
+jotpad.egg-info/requires.txt
+jotpad.egg-info/top_level.txt
