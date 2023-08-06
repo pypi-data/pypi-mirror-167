@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lazy-pink-pants
+Version: 1.0.1
+Summary: Log messages into DB and show them in console or create command line menu or sending e-mails or check subscribtion.
+Home-page: https://github.com/balazs-mark/lazy_pink_pants.git
+Author: Balazs Mark
+Author-email: contact+lazy_pink_pants@mark-balazs.com
+License: MIT
+License-File: LICENSE

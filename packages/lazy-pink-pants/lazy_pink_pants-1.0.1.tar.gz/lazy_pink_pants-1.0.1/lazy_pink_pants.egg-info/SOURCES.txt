@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ConsoleLog/__init__.py
+DBLog/__init__.py
+Menu/__init__.py
+SendMail/__init__.py
+SubscribeValidator/__init__.py
+lazy_pink_pants.egg-info/PKG-INFO
+lazy_pink_pants.egg-info/SOURCES.txt
+lazy_pink_pants.egg-info/dependency_links.txt
+lazy_pink_pants.egg-info/not-zip-safe
+lazy_pink_pants.egg-info/top_level.txt
