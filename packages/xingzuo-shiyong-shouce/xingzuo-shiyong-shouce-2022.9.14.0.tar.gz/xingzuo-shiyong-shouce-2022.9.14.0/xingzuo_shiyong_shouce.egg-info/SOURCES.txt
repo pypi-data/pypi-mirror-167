@@ -1,0 +1,12 @@
+README.md
+setup.py
+XingzuoShiyongShouce/README.md
+XingzuoShiyongShouce/__init__.py
+XingzuoShiyongShouce/__main__.py
+XingzuoShiyongShouce/file.pdf
+XingzuoShiyongShouce/index.html
+xingzuo_shiyong_shouce.egg-info/PKG-INFO
+xingzuo_shiyong_shouce.egg-info/SOURCES.txt
+xingzuo_shiyong_shouce.egg-info/dependency_links.txt
+xingzuo_shiyong_shouce.egg-info/entry_points.txt
+xingzuo_shiyong_shouce.egg-info/top_level.txt
