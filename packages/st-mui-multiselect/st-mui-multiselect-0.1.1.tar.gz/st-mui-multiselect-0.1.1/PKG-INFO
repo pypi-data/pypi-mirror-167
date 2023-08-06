@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: st-mui-multiselect
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/supern8ent/st-mui-multiselect
+Keywords: streamlit
+Author: Nathan Lloyd
+Author-email: nat272@gmail.com
+Requires-Python: >=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: streamlit (>=1.12.2,<2.0.0)
+Project-URL: Repository, https://github.com/supern8ent/st-mui-multiselect
+Description-Content-Type: text/markdown
+
+# Material UI Multiselect component for Streamlit
+
+## Development
+
+### Setup
+
+```
+$ poetry install
+$ cd st_mui_multiselect/frontend
+$ npm install
+```
+
+### Run dev
+
+You need to run *both* npm dev server for the JS component frontend as well as streamlit
+```
+$ cd st_mui_multiselect/frontend
+$ npm run start
+```
+```
+$ poetry run streamlit run app.py
+```
+
+### Tooling
+
+Install pre-commit hooks:
+```
+$ poetry run pre-commit install
+$ poetry run pre-commit install -t pre-push
+```
+
