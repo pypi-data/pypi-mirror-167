@@ -1,0 +1,16 @@
+aiowowapi/__init__.py,sha256=PZoBZERav2dtX54vvALL_2Es1IOF9Rzle7hmx-frWUU,521
+aiowowapi/api.py,sha256=qUCTBxUjXPK-dJFvXNnNY0nbUaTmfMD_daObBmjXpR8,12308
+aiowowapi/regions.py,sha256=m56vSpruqDuQXyABbm4wYv6qUCIHyBwBbLC-776JKaY,1185
+aiowowapi/wowapi.py,sha256=O_yC8FniWNDa_AiP4PiCijeEuJdEppaek3YIe3bCVdY,4812
+aiowowapi/classic/__init__.py,sha256=Ks-TGBToCJWmuclNqkVxn-5nldBCgdBNaW1r75WyzCo,299
+aiowowapi/classic/classic.py,sha256=0G078q0huuZKj406RCmc_GOZQzt8vxm2EDK6uKlK2nQ,390
+aiowowapi/classic/game_data_classic.py,sha256=Ybykswnt38Ba1ja-hQJUcC1W03HS3FRa8rSwx2180Us,24701
+aiowowapi/retail/__init__.py,sha256=7Gxu7MXPJyi0DeoQ_qoIv1Aviqo8SLyLvOfhbwdq1fU,314
+aiowowapi/retail/game_data.py,sha256=KRRfI_T95HDy9BP-DrLCvjl90jwEpL9mHpoRV_5xZSs,65471
+aiowowapi/retail/profile.py,sha256=rItYlJGRb3cdaSmsyG_ErabkZ96ATxyZIXqy69_f6oE,23687
+aiowowapi/retail/retail.py,sha256=cQedkQLFnhSxHTFUTkyPCFqaRZ_rBs8BhtQTHS_b1oo,447
+aiowowapi-2.0.3.dist-info/LICENSE,sha256=K2GaojxFCfj8f18Rpx9ijKfuDdhWtwjWTS3XY81MqWI,1082
+aiowowapi-2.0.3.dist-info/METADATA,sha256=31UsgUdfWv8qH7lo9Ej1zGok89I6rfnc9DPaRE8i8a4,3687
+aiowowapi-2.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiowowapi-2.0.3.dist-info/top_level.txt,sha256=tTfTbOKH2Qnmwg0OAGfYbMvF7qxm-oN2kXjCHoe27rM,10
+aiowowapi-2.0.3.dist-info/RECORD,,
