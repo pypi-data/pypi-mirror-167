@@ -1,0 +1,8 @@
+README.md
+setup.py
+suman_package/__init__.py
+suman_package/uppercase_string.py
+suman_package.egg-info/PKG-INFO
+suman_package.egg-info/SOURCES.txt
+suman_package.egg-info/dependency_links.txt
+suman_package.egg-info/top_level.txt
