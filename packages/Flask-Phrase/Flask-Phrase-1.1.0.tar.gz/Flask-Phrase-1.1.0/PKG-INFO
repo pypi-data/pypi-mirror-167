@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Flask-Phrase
+Version: 1.1.0
+Summary: Connect your Flask apps to Phrase, the powerful in-context-translation solution.
+Home-page: http://github.com/phrase/Flask-Phrase
+Author: Dynport GmbH
+Author-email: tobias.schwab@phrase.com
+License: MIT
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Localization
+License-File: LICENSE
