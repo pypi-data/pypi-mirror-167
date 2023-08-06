@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: edashboards
+Version: 0.1.4
+Summary: Electric engineering dashboards
+Author-email: Juan Manuel Mauricio <jmmauricio@us.es>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://personal.us.es/jmmauricio/
+
+# edashboards
+Dashboards for electric power machines and systems
+
