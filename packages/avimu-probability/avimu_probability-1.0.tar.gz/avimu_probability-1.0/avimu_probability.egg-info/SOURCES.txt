@@ -1,0 +1,10 @@
+setup.py
+avimu_probability/Binomialdistribution.py
+avimu_probability/Gaussiandistribution.py
+avimu_probability/Generaldistribution.py
+avimu_probability/__init__.py
+avimu_probability.egg-info/PKG-INFO
+avimu_probability.egg-info/SOURCES.txt
+avimu_probability.egg-info/dependency_links.txt
+avimu_probability.egg-info/not-zip-safe
+avimu_probability.egg-info/top_level.txt
