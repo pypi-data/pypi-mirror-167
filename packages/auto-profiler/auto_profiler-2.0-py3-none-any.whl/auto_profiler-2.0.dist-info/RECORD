@@ -1,0 +1,12 @@
+auto_profiler/__init__.py,sha256=8UQFaZDGo--W83liQdzLTm5dDDer17oMeTIx9cSK1Ac,114
+auto_profiler/profiler.py,sha256=7tQMOgtxGG_Luep3U0ESrfybSQGv30T6e3zwAZ6iRIg,14332
+auto_profiler/timer.py,sha256=b7gT4ErchrO8GbE7bpms_c83NsGtB78p-m_V5dupgWg,10318
+auto_profiler/tree.py,sha256=IitVzMrqwuPfIc-wE26ZWXeFngG5PifWWn_itnq1uoA,2317
+auto_profiler/ui.py,sha256=QSOh2xMPwJW2x-rrtR7M_66SU5LhP8SexuPqVFeb07I,3522
+auto_profiler/utils.py,sha256=WqNbXLXvsv9h9BFmt5xNf1e-l93ASFhefRVcoSvJihs,276
+auto_profiler/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_profiler/contrib/flask.py,sha256=oYUyW6HnIX3uBALeIBWG3QU9I1YC3AQ4BkQlMEcGe28,310
+auto_profiler-2.0.dist-info/METADATA,sha256=BhlYd1QCJiIYbANI5Do2Gh428R6rcpJfl2Mm2JEdjPg,4817
+auto_profiler-2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+auto_profiler-2.0.dist-info/top_level.txt,sha256=NPjbfQa5Ss_WwQ0bwtVbF4VCkMqLRPG4YZc4N0xRJuc,14
+auto_profiler-2.0.dist-info/RECORD,,
