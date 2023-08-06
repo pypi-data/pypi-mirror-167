@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: requisitor
+Version: 0.0.2
+Summary: Simple Python HTTP library utilizing only Python stdlib
+Home-page: https://github.com/sivel/requisitor
+Author: Matt Martz
+Author-email: matt@sivel.net
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/sivel/requisitor/issues
+Project-URL: Source Code, https://github.com/sivel/requisitor
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# requisitor
+
+![](https://github.com/sivel/requisitor/workflows/CI/badge.svg?branch=master)
+
+Simple HTTP library utilizing only Python stdlib
+
+## Examples
+
+```pycon
+>>> r = requisitor.get('http://httpbin.org/basic-auth/user/pass', auth=('user', 'pass'))
+>>> r.headers['content-type']
+'application/json'
+>>> r.text
+'{\n  "authenticated": true, \n  "user": "user"\n}\n'
+>>> r.json()
+{'authenticated': True, 'user': 'user'}
+>>>
+```
