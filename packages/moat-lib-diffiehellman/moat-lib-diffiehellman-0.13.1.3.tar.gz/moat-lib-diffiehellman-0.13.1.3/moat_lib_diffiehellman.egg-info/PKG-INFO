@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: moat-lib-diffiehellman
+Version: 0.13.1.3
+Summary: A Pythonic implementation of the Diffie-Hellman key exchange protocol
+Author-email: Chris von Csefalvay <chris@chrisvoncsefalvay.com>
+Maintainer-email: Matthias Urlichs <matthias@urlichs.de>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2016 Chris von Csefalvay
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+        
+Project-URL: homepage, https://github.com/chrisvoncsefalvay/diffiehellman/
+Project-URL: repository, https://github.com/M-o-a-T/moat-diffiehellman
+Keywords: MoaT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Classifier: Framework :: AnyIO
+Classifier: Framework :: Trio
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# diffiehellman
+![Travis CI](https://travis-ci.org/chrisvoncsefalvay/diffiehellman.svg?branch=master) [![PyPI version](https://badge.fury.io/py/diffiehellman.svg)](https://badge.fury.io/py/diffiehellman)
+
+The Python Diffie-Hellman key exchange library.
+
+
+## Usage
+
+```python
+from diffiehellman.diffiehellman import DiffieHellman
+
+alice = DiffieHellman()
+bob = DiffieHellman()
+
+alice.generate_public_key()    # automatically generates private key
+bob.generate_public_key()
+
+alice.generate_shared_secret(bob.public_key, echo_return_key=True)
+bob.generate_shared_secret(alice.public_key, echo_return_key=True)
+```
+
+## Install
+
+```shell
+pip install diffiehellman
+```
+
+## Features
+
+* Implements Diffie-Hellman key exchange
+* Pretty fast
+* Adjustable key size
+* Includes primes for groups 5 and 14-18
+* Currently works only with Python 3 (requires ssl). An OpenSSL compatible version is in the works.
+
+## Code of Misconduct
+
+By using this package, you pledge to use it for good, not for evil. In particular, you pledge never to use this code to limit the human mind or its natural rights, in particular freedom of expression.
