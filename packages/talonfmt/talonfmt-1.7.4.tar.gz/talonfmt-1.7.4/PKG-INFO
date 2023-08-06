@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: talonfmt
+Version: 1.7.4
+Summary: A code formatter for Talon files
+Home-page: https://github.com/wenkokke/talonfmt
+License: MIT
+Keywords: talon,formatter
+Author: Wen Kokke
+Author-email: wenkokke@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Compilers
+Provides-Extra: test
+Requires-Dist: bumpver; extra == "test"
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: doc_printer (>=0.13.1,<0.14.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0); extra == "test"
+Requires-Dist: pytest-benchmark (>=3.4.1,<4.0.0); extra == "test"
+Requires-Dist: pytest-golden (>=0.2.2,<0.3.0); extra == "test"
+Requires-Dist: tree_sitter_talon (>=1000.2.0.0)
+Project-URL: Repository, https://github.com/wenkokke/talonfmt
+Description-Content-Type: text/markdown
+
+# talonfmt
+
+![GitHub Workflow Status](https://github.com/wenkokke/talonfmt/actions/workflows/build.yml/badge.svg) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/wenkokke/talonfmt) ![PyPI](https://img.shields.io/pypi/v/talonfmt)
+
+Code formatter for Talon files.
+
