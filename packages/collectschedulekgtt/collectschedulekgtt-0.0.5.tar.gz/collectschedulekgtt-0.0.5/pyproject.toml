@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "collectschedulekgtt"
+version = "0.0.5"
+description = "Модуль который использует Google таблицу КГТТ , для получения расписания"
+readme = 'README.md'
+authors = ["DaniEruDai"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = {version = "1.4.4",optional = true}
+recipientgsheets = {version ="0.0.5",optional = true}
+
+
+[project.urls]
+'Homepage' = 'https://github.com/DaniEruDai/collectschedulekgtt'
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
