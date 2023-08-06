@@ -1,0 +1,15 @@
+mssev/__init__.py,sha256=oKzm_xNhXkYaCIN7sPdInYtAYO3v9Uxgkp-DKLdenYY,93
+mssev/armss.py,sha256=L2KDwcy3Q1fUDWNd1Q7Z75PytiUBSC7GeIjSegjv5EI,954
+mssev/irreversible_ds.py,sha256=Kvtzz1j7UAT8fLqvsHUkOcpqYHRYBGkXIgzF8XO9yB4,347
+mssev/msss.py,sha256=ZWEYLHlPan1zF39EQ58RcunBxHJ8aRMaQL3QS5czctk,1057
+mssev/pmsss.py,sha256=A8VuXxtku7Pw5QCJlJJxjVmZXSGncUzMvcWwdj-y7u8,989
+mssev/data/armss/manouchehrinia.tsv,sha256=5UnqdZAAkGfpEc31TDAEqu9W8drcU2bUpNylHVO0CdM,5760
+mssev/data/msss/manouchehrinia.tsv,sha256=6kgIwKplftI3xheaVzXtVHRw1wgaJKF3FfKva4VfHzc,3105
+mssev/data/msss/roxburgh.tsv,sha256=dLeeq_SqD7GVHyXcVjd73iTn8u5wgov20C3lEOVrH0I,3674
+mssev/data/msss/santoro.tsv,sha256=nWWyaUGZPDmgRvNNI2n9x6dn-nr9-CpATfhxabIQPDM,1193
+mssev/data/pmsss/narcoms.tsv,sha256=X6y03UyntPcIMLbMm_trEC7hJsW_imLvPoIkVo-mrt8,2309
+mssev-0.5.2.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mssev-0.5.2.dist-info/METADATA,sha256=eV8CswkBFFnHgu6dmGS-MakiX6Dbk5V4rpv_FM-K2Hs,3870
+mssev-0.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mssev-0.5.2.dist-info/top_level.txt,sha256=bWv7qpXY-skKaCsz2bLB7qrab13Jles1d5OgGqFncIg,6
+mssev-0.5.2.dist-info/RECORD,,
