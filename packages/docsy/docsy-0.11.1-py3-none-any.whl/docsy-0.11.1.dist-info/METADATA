@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: docsy
+Version: 0.11.1
+Summary: Client for docsy
+Home-page: https://github.com/ginoblog/docsy
+Author: GinoZhang
+Author-email: gino0922@163.com
+Maintainer: Gino Zhang
+License: see LICENSE
+Keywords: docsy,docs,render,html,markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Games/Entertainment :: Simulation
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+Requires-Dist: markdown (>=0.0.1)
+Requires-Dist: shutil (>=0.0.1)
+Requires-Dist: httpserver (>=0.0.1)
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Docsy
+
+A docs site generator written with Python.
+
+## Installation
+
+Install using Git or download manually
+
+**Git:**
+
+```bash
+git clone https://github.com/ginoblog/docsy.git (your site path)
+```
+
+Download manually:
+[Download here](https://docsy.inet2.org/download/ "Downloads")
+
+## How to use
+
+Use Python to run the program
+
+```bash
+cd my-site-path
+python scripts/render.py
+```
+
+## Development
+
+Still developing
+
+## Contributors
+
+@ginoblog
+@sclass53
+
+
