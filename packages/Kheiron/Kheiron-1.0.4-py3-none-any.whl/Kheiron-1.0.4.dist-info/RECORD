@@ -1,0 +1,16 @@
+kheiron/__init__.py,sha256=k560kfrAnfVaKhui6jrftrAEOgf48YpIEbo9TtUooRE,254
+kheiron/constants.py,sha256=vIFRJWmnjX7W1sZGRf94QL-71W90Kmz_FUEcGTS-xyY,289
+kheiron/early_stop.py,sha256=HAAgnMp2FkYQX4-02gQG_b7bI7scoc7Br-PpEe-a7RQ,598
+kheiron/opts.py,sha256=LxtFWOh4u4JNubYMTJbO0KcSVvP-NHDUdd0LLt0yUwI,6299
+kheiron/trainer.py,sha256=MmqHcKiInVY9MElu4FZQmPwADyeJU3XlM77q8S4xzBk,20180
+kheiron/utils/__init__.py,sha256=nAHJBGc3I7ElqX4SCGBOenb7nk7oyiCGVNfodnq4Q6w,535
+kheiron/utils/logging.py,sha256=ZmD_VMfeSBWdeuLGDvoGnEKflY-xQijOMZAAm0ml9Ec,294
+kheiron/utils/metrics.py,sha256=IWb5FiVjevJmVDfaKT959YuqgXi9tvA7pMxtk-L8bZ0,3444
+kheiron/utils/misc.py,sha256=NfCMXrjvcY8TV5h-hNx36W-Jo4RUWUh2zSFZpnFopfg,634
+kheiron/utils/optimizers.py,sha256=2btA2Lk5wYLyfy1lCyYCK2R_glLU-C0WmxhCdhY1o_Q,260
+kheiron/utils/schedulers.py,sha256=x6TIqc-NXUVny8yHJeGNaPHQM8tlCXzXcGfpv_yFZrM,892
+kheiron/utils/statistics.py,sha256=yZ_y-zSfdAk_8KJNx9_IwfT799K30qnGHd_JTbBm5c8,3774
+Kheiron-1.0.4.dist-info/METADATA,sha256=jTygQonPa7bKWi8qVUs0bFFWa27BaVCCiygxip2jp_c,1559
+Kheiron-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Kheiron-1.0.4.dist-info/top_level.txt,sha256=83EIYwRvzdmsn6sdcZv-6160xQ2jUK7CuvxxBaAzJN0,8
+Kheiron-1.0.4.dist-info/RECORD,,

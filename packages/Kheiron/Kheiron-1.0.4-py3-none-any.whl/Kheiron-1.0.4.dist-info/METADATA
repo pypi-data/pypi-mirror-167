@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: Kheiron
+Version: 1.0.4
+Summary: Kheiron: Train and evaluate libary for Pytorch model.
+Home-page: https://github.com/datnnt1997/Kheiron
+Author: DatNgo
+Author-email: datnnt97@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch (~=1.12.1)
+Requires-Dist: transformers (==4.21.2)
+Requires-Dist: loguru (~=0.6.0)
+Requires-Dist: jsonlines (~=3.1.0)
+Requires-Dist: datasets (~=2.4.0)
+Requires-Dist: tensorboard (~=2.10.0)
+
+<h2 align="center">Kheiron</h2>
+
+Kheiron: Train and evaluate libary for Pytorch model.
+
+Author: **Trong-Dat Ngo**.
+
+---
+
+## Examples
+<details>
+<summary>Text classification</summary>
+    
+```python
+options = TrainingOptions(task='text-classification',
+                          train_batch_size=8,
+                          eval_batch_size=8,
+                          metric_for_best_model='macro_f1',
+                          greater_is_better=True,
+                          track_metrics=True)
+
+trainer = Trainer(model=model,
+                  opts=options,
+                  train_set=tokenized_sets['train'],
+                  eval_set=tokenized_sets['test'],
+                  collate_fn=data_collator)
+
+trainer.train()
+```
+
+</details>
+
+<details>
+<summary>Token classification</summary>
+
+</details>
+
+<details>
+<summary>Sammarization</summary>
+
+</details>
+
+<details>
+<summary>Translation</summary>
+
+</details>
+
