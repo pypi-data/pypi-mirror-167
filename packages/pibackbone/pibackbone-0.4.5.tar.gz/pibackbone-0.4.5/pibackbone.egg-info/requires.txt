@@ -1,0 +1,5 @@
+docker-compose==1.29.2
+docker==6.0.0
+inquirerpy==0.3.4
+pbr==5.10.0
+plumbum==1.7.2
