@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Vlt-comm
+Version: 0.0.8
+Summary: FcBus library for Vlt drives
+Home-page: 
+Author: tangfei
+Author-email: fei.tang@danfoss.com
+License: MIT Licence
+Keywords: pip,vlt,drive control
+Platform: any
+License-File: LICENSE
+
+FcBus library for Vlt drives
