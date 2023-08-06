@@ -1,0 +1,7 @@
+aws_mfa_profiles/__init__.py,sha256=icKu-LQVJtnP9SMz7mIUhSpH8_uC5JCdqPmD7LLeGEQ,47
+aws_mfa_profiles/__main__.py,sha256=GjP3uJVL1GmkU4whDhhMNKlXJzzeIaeneNQ6U2Rus8E,5035
+aws_mfa_profiles-2.0.0.dist-info/METADATA,sha256=kTfuqRa1OflbdkmK0GIpnr5ay-2hOF3natqwoY0MOJg,3084
+aws_mfa_profiles-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_mfa_profiles-2.0.0.dist-info/entry_points.txt,sha256=hq4yrmhSIrxRPEcwcBqkeJfmXrUCN-jpjpRrtdasWps,68
+aws_mfa_profiles-2.0.0.dist-info/top_level.txt,sha256=ueMbZDx_dNd3_VImSqh6Nt_e4nPr9oS4TPD2ZLbxfHI,17
+aws_mfa_profiles-2.0.0.dist-info/RECORD,,
