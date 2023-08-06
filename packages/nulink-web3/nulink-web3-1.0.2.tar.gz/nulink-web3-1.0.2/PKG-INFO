@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: nulink-web3
+Version: 1.0.2
+Summary: Web3.py
+Home-page: https://github.com/NuLink-network/nulink-core
+Author: andi
+Author-email: iandy2233@gmail.com
+License: MIT
+Keywords: ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7,<3.11
+Description-Content-Type: text/markdown
+Provides-Extra: tester
+Provides-Extra: linter
+Provides-Extra: docs
+Provides-Extra: dev
+License-File: LICENSE
+
+# nulink-web3
+
+Fix Web3.py bugs for [nulink](https://www.nulink.org/). Forked by [web3.py](https://github.com/ethereum/web3.py/releases/tag/v6.0.0-beta.1) version 6.0.0b1.
+
+A Python library for interacting with Ethereum, inspired by [web3.js](https://github.com/ethereum/web3.js).
+
+* Python 3.6+ support
+
+---
+
+## Quickstart
+
+[Get started in 5 minutes](https://web3py.readthedocs.io/en/latest/quickstart.html) or
+[take a tour](https://web3py.readthedocs.io/en/latest/overview.html) of the library.
+
+## Documentation
+
+For additional guides, examples, and APIs, see the [documentation](https://web3py.readthedocs.io/en/latest/).
+
+
