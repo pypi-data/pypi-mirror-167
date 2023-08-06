@@ -1,0 +1,5 @@
+setup.py
+jemoeder.egg-info/PKG-INFO
+jemoeder.egg-info/SOURCES.txt
+jemoeder.egg-info/dependency_links.txt
+jemoeder.egg-info/top_level.txt
