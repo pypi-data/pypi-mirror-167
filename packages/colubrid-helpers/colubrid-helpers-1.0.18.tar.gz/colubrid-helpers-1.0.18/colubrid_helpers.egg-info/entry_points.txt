@@ -1,0 +1,3 @@
+[console_scripts]
+colubrid = __main__:options_command
+
