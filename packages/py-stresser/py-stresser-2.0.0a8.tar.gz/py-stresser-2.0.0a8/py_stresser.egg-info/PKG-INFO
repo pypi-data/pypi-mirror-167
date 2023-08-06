@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: py-stresser
+Version: 2.0.0a8
+Summary: package for stress testing
+Home-page: https://github.com/gingersamurai/stresser
+Author: gingersamurai
+Author-email: nazimmalyshev47@gmail.com
+Description-Content-Type: text/markdown
+
+# stresser
+Данная программа предназначенна для 
+стресс-тестирования различных файлов. \
+На данный момент поддерживается работа со скриптами
+на языках программирования`c, c++, python`
+
+---
+
+## принцип работы
+1. **пользователь передает на вход:**
+    + путь к правильному решению
+    + путь к решению с ошибкой
+    + путь к генератору тестов (пользователь создает его сам)
+    + необходимое количество тестов
+    + путь к конфигу (опционально) \
+    **и настраивает параметры:**
+    + нужно ли сохранять тесты
+    + какой чекер использовать
+2. программа запускает выбранные решения и 
+    прогоняет их по тестам
+3. с помощью чекера осуществляется сравнение
+4. вердикт
+
+
+
+--- 
+
+## установка и использование
+
++ **копируем репозиторий на компьютер**
+```
+git clone https://github.com/gingersamurai/stresser
+```
++ **Заходим в репозиторий**
+```
+cd stresser
+```
+
++ **запускаем `stresser.py` с нужными нам аргументами** \
+    список аргументов:
+    
+    ```
+    -h, --help            show this help message and exit
+    -c CONFIG_PATH, --CONFIG_PATH CONFIG_PATH
+                            путь к конфигурационному файлу. Если прописан, то все аргументы будут браться из него
+    -S SOLUTION_PATH, --SOLUTION_PATH SOLUTION_PATH
+                            путь к решению с ошибками
+    -D DUMMY_PATH, --DUMMY_PATH DUMMY_PATH
+                            путь к правильному решению
+    -G GENERATOR_PATH, --GENERATOR_PATH GENERATOR_PATH
+                            путь к программе, которая генерирует данные в stdout
+    -N NTESTS, --NTESTS NTESTS
+                            необходимое количество тестов. Базовое значение: 10000
+    -s SAVE_TESTS, --SAVE_TESTS SAVE_TESTS
+                            сохранять ли тесты. варианты: True/False. Базовое значение: false
+    -t CHECKER_TYPE, --CHECKER_TYPE CHECKER_TYPE
+                            тип чекера. варианты: ['base', 'base_with_format'] Базовое значение: base_with_format
+    ```
+---
+## использования конфигурационного файла
+конфигуруционный файл должен быть в формате .ini \
+все данные хранятся в секции `[settings]`
+
+## пример работы
+пример работы программы можно посмотреть [тут](https://drive.google.com/file/d/1nbGNT3kdivMwluu9zeI0xQV4J0nSoVTU/view?usp=sharing)
+
+**автор:** *@gingersamurai*
+
+
