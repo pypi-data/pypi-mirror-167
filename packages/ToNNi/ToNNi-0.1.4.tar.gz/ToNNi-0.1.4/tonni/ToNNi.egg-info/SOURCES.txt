@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+tonni/ToNNi.egg-info/PKG-INFO
+tonni/ToNNi.egg-info/SOURCES.txt
+tonni/ToNNi.egg-info/dependency_links.txt
+tonni/ToNNi.egg-info/requires.txt
+tonni/ToNNi.egg-info/top_level.txt
