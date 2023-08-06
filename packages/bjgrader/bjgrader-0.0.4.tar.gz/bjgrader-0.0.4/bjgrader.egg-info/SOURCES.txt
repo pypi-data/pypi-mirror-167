@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bjgrader/__init__.py
+bjgrader/__main__.py
+bjgrader/bjgrader.py
+bjgrader.egg-info/PKG-INFO
+bjgrader.egg-info/SOURCES.txt
+bjgrader.egg-info/dependency_links.txt
+bjgrader.egg-info/requires.txt
+bjgrader.egg-info/top_level.txt
