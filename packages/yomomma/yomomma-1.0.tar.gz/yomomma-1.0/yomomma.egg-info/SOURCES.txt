@@ -1,0 +1,5 @@
+setup.py
+yomomma.egg-info/PKG-INFO
+yomomma.egg-info/SOURCES.txt
+yomomma.egg-info/dependency_links.txt
+yomomma.egg-info/top_level.txt
