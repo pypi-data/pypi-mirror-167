@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwaretestingmaterialZh = SoftwaretestingmaterialZh.__main__:main
+softwaretestingmaterial-zh = SoftwaretestingmaterialZh.__main__:main
+
