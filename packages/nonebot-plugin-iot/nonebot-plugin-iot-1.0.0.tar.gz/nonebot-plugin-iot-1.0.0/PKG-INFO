@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: nonebot-plugin-iot
+Version: 1.0.0
+Summary: A nonebot2 plugin for IOT devices
+Home-page: https://github.com/littlebutt/nonebot-plugin-iot
+Author: littlebutt
+Author-email: luogan199686@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
