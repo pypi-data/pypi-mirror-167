@@ -1,0 +1,3 @@
+[console_scripts]
+colubrid = ModulosColubrid.__main__.py:options_command
+
