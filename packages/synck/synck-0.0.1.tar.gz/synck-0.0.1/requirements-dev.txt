@@ -1,0 +1,27 @@
+#
+# program dependencies
+ismain
+tomli
+pysimplegui
+psgtray
+pref
+appdirs
+#
+# build tools
+build
+twine
+#
+# testing
+pytest
+coverage
+pytest-cov
+pytest-pycharm
+#
+# formatting/linting
+black
+flake8
+mypy
+types-attrs
+#
+# CI/CD
+pre-commit
