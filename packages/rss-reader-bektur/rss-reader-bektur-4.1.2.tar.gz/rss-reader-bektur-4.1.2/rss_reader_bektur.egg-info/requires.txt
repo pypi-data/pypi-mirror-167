@@ -1,0 +1,2 @@
+feedparser==6.0.10
+fpdf==1.7.2
