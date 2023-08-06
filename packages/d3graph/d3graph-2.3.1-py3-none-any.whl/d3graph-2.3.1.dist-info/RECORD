@@ -1,0 +1,17 @@
+d3graph/__init__.py,sha256=SGcPfFDtUXuPkFbfzbPW1iKpXr9cAzs-P6RH24ERn9A,1449
+d3graph/adjmat_vec.py,sha256=qrxMwM8BnM_QBGzHXvbXVIbLR6kj377hTZrHrKr-xQY,3510
+d3graph/d3graph.py,sha256=JCsJnCZSSLPL9H_Noc2dZiUj3dG3BsHz-VEtjdzpewA,41878
+d3graph/examples.py,sha256=IBIn-LcKQ5rYFUOgXC0CdBkPwT4UbvHFjmnGgQFwRtY,12817
+d3graph/d3js/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+d3graph/d3js/d3.v3.js,sha256=rp6r3Tm8TrU5Bbon0raj6lbhZRR2gdmJXHEtbRQyZHg,347498
+d3graph/d3js/d3graphscript.js,sha256=pSCSkwhTu-ecQ_vqRLLThFB-m2ivW8y75gPtzPgF2MI,8707
+d3graph/d3js/index.html.j2,sha256=6Rpr5a-S83YaNfazEJGQpCic3ep2QpRwoGLU_1GFJZ4,1197
+d3graph/d3js/style.css,sha256=RctbI4yFh4uDYTGo6JhxbVZ11HN5UIVAZJLAMWouG-c,275
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=ox9McmxeUlzE6nGHfvugUfoGGp7JsDOXZqdtRT7SqVs,707
+tests/test_d3graph.py,sha256=Wdvp_vpZbGDuPZ42nUiJojNPa2cSzsEytQlGo-K_v1k,1066
+d3graph-2.3.1.dist-info/LICENSE,sha256=SVvDTqFw4Q3Jfg34XOCQVPeQHiX-mFSZuy2hcTKUDIw,1700
+d3graph-2.3.1.dist-info/METADATA,sha256=FAi6yYfslMtzzgWVCFu9PypdLfw7yYgBv1Q95nJeZEg,5870
+d3graph-2.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+d3graph-2.3.1.dist-info/top_level.txt,sha256=HozaQFoemn750R7rxdQ1vhBOepQJL4cvJ3jqwDv1CFc,14
+d3graph-2.3.1.dist-info/RECORD,,
