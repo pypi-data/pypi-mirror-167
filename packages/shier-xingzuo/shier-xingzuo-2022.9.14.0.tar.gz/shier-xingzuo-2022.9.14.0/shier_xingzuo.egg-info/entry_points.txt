@@ -1,0 +1,4 @@
+[console_scripts]
+ShierXingzuo = ShierXingzuo.__main__:main
+shier-xingzuo = ShierXingzuo.__main__:main
+
