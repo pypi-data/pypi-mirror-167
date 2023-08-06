@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+crossroads_description.egg-info/PKG-INFO
+crossroads_description.egg-info/SOURCES.txt
+crossroads_description.egg-info/dependency_links.txt
+crossroads_description.egg-info/requires.txt
+crossroads_description.egg-info/top_level.txt
+crossroadsdescription/config.py
+crossroadsdescription/description.py
+crossroadsdescription/model.py
+crossroadsdescription/segmentationReader.py
+crossroadsdescription/utils.py
