@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: nandini
+Version: 0.0.3
+Summary: A Scratch Module for Machine learning
+Home-page: 
+Author: Sanjaypranav
+Author-email: sanjaypriya195@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7,<3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.23.2)
+Requires-Dist: regex (==2022.9.13)
+Requires-Dist: tqdm (==4.64.1)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: nltk (==3.7)
+Requires-Dist: progressbar (==2.5)
+Requires-Dist: scipy (==1.9.1)
+Requires-Dist: gensim (==4.2.0)
+
+# To install  this package 
+##### Note : only supported for Python 3.7 to Python 3.9
+### run the following command in shell
+
+```bash
+export PYTHONPATH=./src
+python setup.py sdist bdist_wheel
+python setup.py install
+```
+
+
+here is the [PyPi link](https://pypi.org/project/nandini/0.0.3/) for the package
+
+
+
+
+for writing packages refer [link](https://towardsdatascience.com/how-to-publish-a-python-package-to-pypi-7be9dd5d6dcd)
