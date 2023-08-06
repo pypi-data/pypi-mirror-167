@@ -1,0 +1,13 @@
+setuptools
+yfinance
+matplotlib
+pandas
+plotly
+gensim
+datetime
+pmaw
+spacy
+vaderSentiment
+numpy
+nltk
+requests
