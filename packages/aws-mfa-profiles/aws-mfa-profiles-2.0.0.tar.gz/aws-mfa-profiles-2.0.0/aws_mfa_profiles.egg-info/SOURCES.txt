@@ -1,0 +1,10 @@
+README.md
+setup.py
+aws_mfa_profiles/__init__.py
+aws_mfa_profiles/__main__.py
+aws_mfa_profiles.egg-info/PKG-INFO
+aws_mfa_profiles.egg-info/SOURCES.txt
+aws_mfa_profiles.egg-info/dependency_links.txt
+aws_mfa_profiles.egg-info/entry_points.txt
+aws_mfa_profiles.egg-info/requires.txt
+aws_mfa_profiles.egg-info/top_level.txt
