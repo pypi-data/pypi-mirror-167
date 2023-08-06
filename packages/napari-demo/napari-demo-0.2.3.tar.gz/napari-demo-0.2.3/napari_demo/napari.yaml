@@ -1,0 +1,88 @@
+name: napari-demo
+display_name: Demo plugin ported from npe2 example
+on_activate: napari_demo:activate
+on_deactivate: napari_demo:deactivate
+contributions:
+  commands:
+    - id: napari-demo.about
+      title: About napari demo plugin
+      python_name: napari_demo:about
+    - id: napari-demo.hello_world
+      title: send
+      python_name: napari_demo:hello_world
+    - id: napari-demo.some_reader
+      title: Some Reader
+      python_name: napari_demo:get_reader
+    - id: napari-demo.url_reader
+      title: URL Reader
+      python_name: napari_demo:url_reader
+    - id: napari-demo.my_writer
+      title: My Multi-layer Writer
+      python_name: napari_demo:writer_function
+    - id: napari-demo.my_single_writer
+      title: My single-layer Writer
+      python_name: napari_demo:writer_function_single
+    - id: napari-demo.generate_random_data
+      title: Generate uniform random data
+      python_name: napari_demo:random_data
+    - id: napari-demo.image_arithmetic
+      title: Create widget from my function
+      python_name: napari_demo:image_arithmetic
+  configuration:
+    - title: My Plugin
+      properties:
+        napari_demo.reader.lazy:
+          type: boolean
+          default: false
+          title: Load lazily
+          description: Whether to load images lazily with dask
+  readers:
+    - command: napari-demo.some_reader
+      filename_patterns: ["*.fzy", "*.fzzy"]
+      accepts_directories: true
+    - command: napari-demo.url_reader
+      filename_patterns: ["http://*", "https://*"]
+      accepts_directories: false
+  writers:
+    - command: napari-demo.my_writer
+      filename_extensions: ["*.tif", "*.tiff"]
+      layer_types: ["image{2,4}", "tracks?"]
+    - command: napari-demo.my_writer
+      filename_extensions: ["*.pcd", "*.e57"]
+      layer_types: ["points{1}", "surface+"]
+    - command: napari-demo.my_single_writer
+      filename_extensions: ["*.xyz"]
+      layer_types: ["labels"]
+
+  widgets:
+    - command: napari-demo.image_arithmetic
+      display_name: calculate a new layer arithmetically from two existing layers
+      autogenerate: true
+  menus:
+    napari/layers/context: # FIXME move this somewhere else after more menu contribution is defined
+      - submenu: hello_world
+      - command: napari-demo.about
+    hello_world:
+      - command: napari-demo.hello_world
+  submenus:
+    - id: hello_world
+      label: Say hello to the world
+  themes:
+    - label: "SampleTheme"
+      id: "sample_theme"
+      type: "dark"
+      colors:
+        canvas: "#000000"
+        console: "#000000"
+        background: "#272822"
+        foreground: "#75715e"
+        primary: "#cfcfc2"
+        secondary: "#f8f8f2"
+        highlight: "#e6db74"
+        text: "#a1ef34"
+        warning: "#f92672"
+        current: "#66d9ef"
+  sample_data:
+    - display_name: Some Random Data (10 x 10 x 10)
+      key: random_data
+      command: napari-demo.generate_random_data
