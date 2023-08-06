@@ -1,0 +1,6 @@
+cycler-stubs
+hurst-stubs
+matplotlib-stubs
+numba-stubs
+scientific_plots
+scipy-stubs
