@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: isaacscript-lua
+Version: 1.0.3
+Summary: a script to manage IsaacScript libraries in a Lua mod
+License: GPL-3.0
+Author: Zamiell
+Author-email: 5511220+Zamiell@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
