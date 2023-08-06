@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nucle.cloud
+Version: 0.0.1
+Summary: The official python package for Nucle Cloud.
+Author-email: Nucle Cloud <contact@nucle.cloud>
+Project-URL: Homepage, https://github.com/nuclecloud/python
+Project-URL: Bug Tracker, https://github.com/nuclecloud/python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+Hello, this is the  nucle cloud read me   
