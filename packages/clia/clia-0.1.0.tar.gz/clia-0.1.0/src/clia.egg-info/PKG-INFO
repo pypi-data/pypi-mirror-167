@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: clia
+Version: 0.1.0
+Summary: CLIA - Command Line Intelligent Assistant
+Home-page: https://github.com/singhgautam7/CLIA---Command-Line-Intelligent-Assistant
+Author: Gautam Rajeev Singh
+Author-email: gautamsingh1997@gmail.com
+License: MIT
+Keywords: pyton cli assistant
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+A Command Line Intelligent Assistant (CLIA, pronounced as _clea_) build using Python.
+
+## Dependencies
+- [typer](https://pypi.org/project/typer/) - To create a CLI application
+- [rich](https://pypi.org/project/rich/) - Printing results and errors
+- [pytest](https://pypi.org/project/pytest/) - Test cases
+

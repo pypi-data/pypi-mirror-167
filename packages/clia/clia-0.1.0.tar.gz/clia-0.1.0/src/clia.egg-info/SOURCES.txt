@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/clia/__init__.py
+src/clia/__main__.py
+src/clia/cli.py
+src/clia/constants.py
+src/clia/constants_regex.py
+src/clia.egg-info/PKG-INFO
+src/clia.egg-info/SOURCES.txt
+src/clia.egg-info/dependency_links.txt
+src/clia.egg-info/requires.txt
+src/clia.egg-info/top_level.txt
