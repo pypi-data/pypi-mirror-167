@@ -1,0 +1,12 @@
+README.md
+setup.py
+TuxiMofa/README.md
+TuxiMofa/__init__.py
+TuxiMofa/__main__.py
+TuxiMofa/file.pdf
+TuxiMofa/index.html
+tuxi_mofa.egg-info/PKG-INFO
+tuxi_mofa.egg-info/SOURCES.txt
+tuxi_mofa.egg-info/dependency_links.txt
+tuxi_mofa.egg-info/entry_points.txt
+tuxi_mofa.egg-info/top_level.txt
