@@ -1,0 +1,8 @@
+mattermost_notify/__init__.py,sha256=R4y11b3nz-Tp5onQhgpFz2I_Q77kbYnSr3bKJfN12zc,53
+mattermost_notify/__version__.py,sha256=jiHu4HwlPV4VbbtdoaGj__8pabGdD6irqLWH6-USvqo,103
+mattermost_notify/git.py,sha256=0NXIGjwZ2rwToM8uZr9ha11kGOSVaUpHD1Jk5y0IaxE,5201
+mattermost_notify-22.9.0.dist-info/entry_points.txt,sha256=0NHMArd5LnaHI85KuY6Zs4w_XiZTtjzMxYMPO_NezWI,58
+mattermost_notify-22.9.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mattermost_notify-22.9.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+mattermost_notify-22.9.0.dist-info/METADATA,sha256=-ATeG0_E-fF9ZbX4Za9YcB0d0XpaMm1aSTeqdazroig,2837
+mattermost_notify-22.9.0.dist-info/RECORD,,
