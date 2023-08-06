@@ -1,0 +1,6 @@
+self_limiters-0.0.7.dist-info/METADATA,sha256=_fR6GT59hL5225wy7nKrTvEKhsDW__oShJFcOWv7EEk,9523
+self_limiters-0.0.7.dist-info/WHEEL,sha256=wUqu06vGFdbAv5QMtozKJtkxUOnG5tbT1j0ognrxrZk,95
+self_limiters-0.0.7.dist-info/license_files/LICENSE,sha256=kszpYUZRAsEF1HB1vwW37CcEoJKPG_25GzIWEom0eqk,1705
+self_limiters/__init__.py,sha256=ohkPLvBMVcU796sjenWJXZv95Nqon0_776L1D2oxlHA,135
+self_limiters/self_limiters.pyd,sha256=dxozCKma-OQGhE67oo_wsIHSM3EO9yuH8MkKHrNsJA0,1615360
+self_limiters-0.0.7.dist-info/RECORD,,
