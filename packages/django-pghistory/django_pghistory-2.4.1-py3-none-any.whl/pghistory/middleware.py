@@ -1,0 +1,49 @@
+from django.conf import settings
+from django.core.handlers.wsgi import WSGIRequest as DjangoWSGIRequest
+
+import pghistory
+
+
+class WSGIRequest(DjangoWSGIRequest):
+    """
+    Although Django's auth middleware sets the user in middleware,
+    apps like django-rest-framework set the user in the view layer.
+    This creates issues for pghistory tracking since the context needs
+    to be set before DB operations happen.
+
+    This special WSGIRequest updates pghistory context when
+    the request.user attribute is updated.
+    """
+
+    def __setattr__(self, attr, value):
+        if attr == "user":
+            pghistory.context(user=value.pk if value and hasattr(value, "pk") else None)
+
+        return super().__setattr__(attr, value)
+
+
+def HistoryMiddleware(get_response):
+    """
+    Annotates the user/url in the pghistory context.
+    """
+
+    def middleware(request):
+        middleware_methods = getattr(
+            settings, "PGHISTORY_MIDDLEWARE_METHODS", ("GET", "POST", "PUT", "PATCH", "DELETE")
+        )
+
+        if request.method in middleware_methods:
+            user = (
+                request.user.pk
+                if hasattr(request, "user") and hasattr(request.user, "pk")
+                else None
+            )
+            with pghistory.context(user=user, url=request.path):
+                if isinstance(request, DjangoWSGIRequest):  # pragma: no branch
+                    request.__class__ = WSGIRequest
+
+                return get_response(request)
+        else:
+            return get_response(request)
+
+    return middleware
