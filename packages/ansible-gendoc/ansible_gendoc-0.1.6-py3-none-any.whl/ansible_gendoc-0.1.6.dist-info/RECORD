@@ -1,0 +1,11 @@
+LICENSE,sha256=ZqMQfVrWoFiqt1PqrCBHzLLtDjlGXdD-WETaPjANUXI,16727
+ansible_gendoc/__init__.py,sha256=pjXJ4buAxLzHMTPcMepUqcPbgMUWYotFXdn3y8CEL5A,80
+ansible_gendoc/gendoc.py,sha256=wN3zcdHDKr_tkLcZXihJy97YETgmhBxWToINUm77th0,5116
+ansible_gendoc/helpers.py,sha256=qmXy9sZHFFz7Wm3TXUOOC4YL1f6rxAy_T5XR_1LruRU,3985
+ansible_gendoc/main.py,sha256=CSZFklAQHAcJOlUv65VUqMlQtP_DrkQvYHCPtmYH5RA,2495
+ansible_gendoc/templates/README.j2,sha256=1p-0AFSJfuj3zs-aYVLaLNZedQsQkAo_7Dj3stCxSGY,4827
+ansible_gendoc-0.1.6.dist-info/entry_points.txt,sha256=aCWbJluhY_pOzx-uhMCJXdeJbVMOEs3HAgRY4AgcilU,58
+ansible_gendoc-0.1.6.dist-info/LICENSE,sha256=ZqMQfVrWoFiqt1PqrCBHzLLtDjlGXdD-WETaPjANUXI,16727
+ansible_gendoc-0.1.6.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+ansible_gendoc-0.1.6.dist-info/METADATA,sha256=nQINlQnjI2AL_9D8MEZc4buTZ7sbgFm-BeIoTLV-E4c,4150
+ansible_gendoc-0.1.6.dist-info/RECORD,,
