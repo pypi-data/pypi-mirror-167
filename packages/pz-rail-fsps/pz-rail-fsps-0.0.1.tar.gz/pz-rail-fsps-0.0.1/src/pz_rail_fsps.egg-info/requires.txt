@@ -1,0 +1,9 @@
+fsps
+pz-rail
+
+[dev]
+coverage
+pylint
+pytest
+pytest-cov
+yamllint
