@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jungle_test_cli"
+description = "Jungle test CLI"
+readme = "jungle/README.md"
+version = "0.0.1"
+requires-python = ">=3.7"
+dependencies = [
+    "click",
+    "requests",
+    "pandas",
+]
+
+[project.scripts]
+junglexcli = "jungle.cli:execute_cli"

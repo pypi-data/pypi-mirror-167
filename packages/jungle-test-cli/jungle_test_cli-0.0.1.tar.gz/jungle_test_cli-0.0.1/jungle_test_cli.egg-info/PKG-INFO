@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: jungle-test-cli
+Version: 0.0.1
+Summary: Jungle test CLI
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+## JUNGLE INTERVIEW TEST
+
+The project follows the hexagonal architecture and the domain-driven design pattern.
+
+### Technologies used
+- Python: main application
+- Golang: messaging
+- Docker: containerization
+- FastAPI: to create APIs for communication with the main application
+- TimescaleDB: for timeseries data storage
+- RabbitMQ: message broker
+- gRPC: communication between services
+
+### Available functionalities
+- CRUD operations on customers' information
+- Timeseries data ingestion (data ingested is passed to a message queue through a gRPC connection, implemented with Golang and RabbitMQ - this implementation can be found in `./infrastructure/messaging`)
+- Raw timeseries data points retrieval from the database for an
+asset, list of timeseries names and date range
+- Deletion of datapoint
+- Availability of timeseries data within a date range
+- Statistics computation for a specific customer, timeseries and date
+range
+
+### Functionalities yet to be done
+- Caching Statistics
+- Storing configurations
+
+### Getting started
+- Clone this repo
+- Switch to the repo's directory and setup the application by executing `make`. This is going to create default environment variables, build the docker containers used in the app and start the app in a detached mode (to stop: `make stop`. To start again: `make start` or `make startd` to start in a detached mode)
+- In the same terminal, execute `make loadfixtures` to populate the database with the provided timeseries data files.
+- Go to http://127.0.0.1:8000/redoc to view API documentation.
+
+### CLI Usage
+> `junglexcli --help` for help
+> Note: Prompts are displayed for each required field without a flag option.
+
+- Data ingestion: `junglexcli --ingest <PATH_TO_CSV>`. Please take note that the asset name for the timeseries datapoints will be the filename of the file.
+- Saving timeseries to file: `junglexcli --datapoints_out <FOLDER_TO_SAVE_RECORD>` (e.g. `junglexcli --datapoints_out .` will save the result to the current directory).
+- Compute stats: `junglexcli --stats <JSON_CONFIGURATION>`. To view an example configuration, issue `junglexcli --conf_example`.
+

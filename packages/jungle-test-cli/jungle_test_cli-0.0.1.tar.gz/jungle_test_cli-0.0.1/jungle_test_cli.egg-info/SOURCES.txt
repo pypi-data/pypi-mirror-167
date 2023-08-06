@@ -1,0 +1,8 @@
+pyproject.toml
+jungle/cli.py
+jungle_test_cli.egg-info/PKG-INFO
+jungle_test_cli.egg-info/SOURCES.txt
+jungle_test_cli.egg-info/dependency_links.txt
+jungle_test_cli.egg-info/entry_points.txt
+jungle_test_cli.egg-info/requires.txt
+jungle_test_cli.egg-info/top_level.txt
