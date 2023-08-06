@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: COOMM
+Version: 0.0.1
+Summary: Control Oriented Muscle Model of an octopus arm
+Home-page: https://github.com/hanson-hschang/COOMM
+Author: Heng-Sheng Chang'
+Author-email: hschang2@illinois.edu
+License: MIT
+Download-URL: https://github.com/hanson-hschang/COOMM/archive/refs/tags/0.0.1.tar.gz
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (>=0.2.2.post2)
+
+
+<div align=center>
+  <h1>Control Oriented Octopus Muscle Model (COOMM)</h1>
+</div>
+
+## Project Description
+
+Control Oriented Muscle Model for an octopus arm.
+
+## Install
+
+The package can be installed using standard python package installer (pip):
+
+```bash
+pip install comm
+```
+
+or from source code:
+
+```bash
+cd <repository directory>
+git clone https://github.com/hanson-hschang/COMM
+pip install -e COMM
+```
+
+## References
+
+## Related Works
+
+
