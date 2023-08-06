@@ -1,0 +1,9 @@
+IPython
+soundfile
+matplotlib
+numpy
+scipy
+tabulate
+ipywidgets
+
+
