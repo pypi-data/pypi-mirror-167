@@ -1,0 +1,8 @@
+burgos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+burgos/mysql_handler.py,sha256=ow5L0IbAWyafdrkHzwThEx-lkfBC3cGT_psfeuquU6A,3284
+burgos/reqcheq.py,sha256=XrUAUMukXFRzpdxZ9pc6ai8h55swNYKLr_KPWpr8yTM,2008
+burgos/session.py,sha256=ZsxtEMXnvgHh7k7YLi86fBvkQXy656IBi89UDzFGCzo,2068
+burgos-1.0.2.dist-info/METADATA,sha256=cpPKzgqBvY_aBDyn5IVfPzZneQcKGEiPEHi4zaGCr_E,43625
+burgos-1.0.2.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+burgos-1.0.2.dist-info/licenses/LICENSE,sha256=6ZmiLm7niFJdBGCpuSzY0iX5nLuO-8_L5hF3eTOVEBY,35823
+burgos-1.0.2.dist-info/RECORD,,
