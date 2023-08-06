@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/hypnotic_bets_review.egg-info/PKG-INFO
+src/hypnotic_bets_review.egg-info/SOURCES.txt
+src/hypnotic_bets_review.egg-info/dependency_links.txt
+src/hypnotic_bets_review.egg-info/top_level.txt
