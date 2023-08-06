@@ -1,0 +1,14 @@
+PyOfficeRobot/__init__.py,sha256=hyNnPwMx-tx7GkdAT1Afjvu00MEWiqBrx1qpnPK2ZT4,256
+PyOfficeRobot/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyOfficeRobot/api/chat.py,sha256=9mMUiAaLscckzBqB4mclEB7nBXLPDN77DOAfU8d8kOY,429
+PyOfficeRobot/api/file.py,sha256=7PqsJuvBpcm9K0OlDXzv7EM46b8iZuqZFWWoKbqAZbw,572
+PyOfficeRobot/core/WeChatType.py,sha256=BS0O_3JWv_YOSkqZGwqSQk1Ypabr4OT1c-Cn4QqdUIo,11705
+PyOfficeRobot/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyOfficeRobot/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=FkwmgJLiHf4ds85eqI1Zq1G_s6aUWis1CLqdarluN78,189
+tests/test_file.py,sha256=Aq7y3PRWweSUtGqgYZJTXuSSG10_4azcdoah6V-34Ro,212
+PyOfficeRobot-0.0.6.dist-info/LICENSE,sha256=GQ6XaGbsxl2OlUBlk1jLBtkHC8U1p6Bw9E1P1XqYAlU,1093
+PyOfficeRobot-0.0.6.dist-info/METADATA,sha256=C6W2rGak-XlNsFu6XGyq9Kjtg7QUpMZmV_X4gXhZMSk,1648
+PyOfficeRobot-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyOfficeRobot-0.0.6.dist-info/top_level.txt,sha256=dDdp9uGgGnkdPbyVvTgmq8jYF94FdOUC6f-yLbdTBgI,20
+PyOfficeRobot-0.0.6.dist-info/RECORD,,
