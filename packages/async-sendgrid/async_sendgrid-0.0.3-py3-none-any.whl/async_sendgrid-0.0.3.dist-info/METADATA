@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: async-sendgrid
+Version: 0.0.3
+Summary: SendGrid simple async client based on httpx.
+Home-page: https://github.com/sensodevices/async-sendgrid
+License: MIT
+Keywords: sendgrid,utilities,async
+Author: Saltymakov Timofey
+Author-email: saltytimofey@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: httpx (>=0.21,<0.22)
+Project-URL: Repository, https://github.com/sensodevices/async-sendgrid
+Description-Content-Type: text/markdown
+
+# Async-Sendgrid
+
+SendGrid simple async client based on httpx.
+
+# Installation
+
+```bash
+pip install async-sendgrid
+```
+
+# Usage
+
+```python
+import async_sendgrid
+from sendgrid.helpers.mail import Content, Email, Mail, To
+import os
+
+API_KEY = os.environ.get('API_KEY')
+
+from_email = Email("test@example.com")
+to_email = To("test@example.com")
+subject = "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+content = Content("text/plain", "Sed varius ligula ac urna vehicula ultrices. Nunc ut dolor sem.")
+mail = Mail(from_email, to_email, subject, content)
+
+data = {
+    "personalizations": [
+        {
+            "to": [{"email": "test@example.com"}],
+            "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        }
+    ],
+    "from": {"email": "test@example.com"},
+    "content": [
+        {
+            "type": "text/plain",
+            "value": "Sed varius ligula ac urna vehicula ultrices. Nunc ut dolor sem."
+        }
+    ],
+}
+
+
+# Send email with context manager
+
+async with async_sendgrid.AsyncClient(api_key=API_KEY) as client:
+    response1 = await client.send(data)
+    response2 = await client.send(mail)
+
+# Send email without context manager
+
+client = async_sendgrid.AsyncClient(api_key=API_KEY)
+await client.open()
+response1 = await client.send(data)
+response2 = await client.send(mail)
+await client.close()
+
+```
+
