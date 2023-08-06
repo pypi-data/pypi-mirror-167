@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: NoApi
+Version: 0.1
+Summary: Use a part of your program remotely without making an api (in beta)
+License: MIT License
+Project-URL: Homepage, https://github.com/MrHole/NoApi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
