@@ -1,0 +1,11 @@
+itglue/__init__.py,sha256=B14zvxbSPm5BbObSzSf9VxC7JxnKmNhyynn4NEm0wRU,183
+itglue/connection.py,sha256=ZuCOpTVMay03ecrZsXIMq72InNyPREOLP2oo8yoNU0g,4478
+itglue/path_processor.py,sha256=huMptF0hNCKDoiAJGUnwYCQ5yoaqHtBpxt5Myd_dWqY,1137
+itglue/resources.py,sha256=BmQZSPY4ncNq1eRnDjcGl9ZrohT9XiVOTOP20Kids1U,16664
+itglue/utils.py,sha256=1dEeY5bQLaMle_t-j-ICd7iagwNyhdp7gSd-aEC5nFQ,1054
+itglue/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itglue/tests/test_resource.py,sha256=bRZC7howXMygzCcqe-5rsLFgghE3hvfG2YbeJPwzks8,18627
+itglue-0.2.0.dist-info/LICENSE.txt,sha256=a23ZJJsF0bxJboY5-Ns5LvU5j1x20x3nZSRaxDMJ8P8,1077
+itglue-0.2.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+itglue-0.2.0.dist-info/METADATA,sha256=oAzjmYPrpapzoxePFlIEd7sxQPS6gZYmHPY0rInllPo,2089
+itglue-0.2.0.dist-info/RECORD,,
