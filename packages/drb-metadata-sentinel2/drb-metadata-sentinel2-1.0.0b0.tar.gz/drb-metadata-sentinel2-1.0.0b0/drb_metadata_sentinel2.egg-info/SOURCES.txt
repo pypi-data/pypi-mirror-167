@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+drb_md_sentinel2/__init__.py
+drb_md_sentinel2/_version.py
+drb_metadata_sentinel2.egg-info/PKG-INFO
+drb_metadata_sentinel2.egg-info/SOURCES.txt
+drb_metadata_sentinel2.egg-info/dependency_links.txt
+drb_metadata_sentinel2.egg-info/entry_points.txt
+drb_metadata_sentinel2.egg-info/requires.txt
+drb_metadata_sentinel2.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+drb-topic-sentinel2<1.1.0,>=1.0.3
+drb-metadata<=1.1.0,>=1.0.0
+drb-impl-tar<=1.1.0,>=1.0.1
+drb-impl-xml<=1.1.0,>=1.0.3
+drb-xquery<=1.1.0,>=1.0.5

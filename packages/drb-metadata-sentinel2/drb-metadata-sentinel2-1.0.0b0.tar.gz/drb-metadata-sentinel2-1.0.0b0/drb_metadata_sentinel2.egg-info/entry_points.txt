@@ -1,0 +1,3 @@
+[drb.metadata]
+sentinel2 = drb_md_sentinel2
+
