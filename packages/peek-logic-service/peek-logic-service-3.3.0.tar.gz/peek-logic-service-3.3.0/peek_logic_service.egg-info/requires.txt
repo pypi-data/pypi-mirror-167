@@ -1,0 +1,4 @@
+peek-plugin-base==3.3.*,>=3.3.0
+peek-platform==3.3.*,>=3.3.0
+peek-admin-app==3.3.*,>=3.3.0
+peek-admin-doc==3.3.*,>=3.3.0
