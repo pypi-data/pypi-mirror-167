@@ -1,0 +1,4 @@
+[console_scripts]
+ChenggongZuoziji = ChenggongZuoziji.__main__:main
+chenggong-zuoziji = ChenggongZuoziji.__main__:main
+
