@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sinetstream-cmd
+Version: 1.7.0
+Summary: A simple producer using SINETStream
+License: Apache License, Version 2.0
+Project-URL: homepage, https://github.com/nii-gakunin-cloud/sinetstream-demo/tree/main/NumericalSensorData/Sensor
+Project-URL: repository, https://github.com/nii-gakunin-cloud/sinetstream
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Environment :: Console
+Requires-Python: >=3.7
