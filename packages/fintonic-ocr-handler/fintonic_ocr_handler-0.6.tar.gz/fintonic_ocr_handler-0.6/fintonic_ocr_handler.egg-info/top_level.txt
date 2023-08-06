@@ -1,0 +1,1 @@
+fintonic_ocr_handler
