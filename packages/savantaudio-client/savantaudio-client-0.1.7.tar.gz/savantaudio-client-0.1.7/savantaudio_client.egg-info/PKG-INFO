@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: savantaudio-client
+Version: 0.1.7
+Summary: A client library to interact with Savant Audio Switches (e.g. SSA-3220).
+Home-page: https://github.com/adam_kropp/savantaudio-client
+Author: Adam Kropp
+Author-email: adam_kropp@yahoo.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Savant Audio Switch Client
+
+[![image](https://img.shields.io/pypi/v/savantaudio-client.svg)](https://pypi.org/project/savantaudio-client/)
+
+The savantaudio-client package allows users to download the contents of this [GiHub repository](https://github.com/akropp/savantaudio-client),  containing a client library to control Savant Audio Switches such as the SSA-3220/SSA-3220D.
+
+## Installing
+
+Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+
+```bash
+pip3 install savantaudio-client
+```
+
+## Downloading a Python Package Template Project
+
+To down load the latest version of the Python Package Template project located in [this GiHub repository](https://github.com/akropp/savantaudio-client), execute the following command from the command line:
+
+```bash
+savantaudio-client install
+```
+
+This will be downloaded to the current directory and will contain the following directory structure:
+
+```bash
+savantaudio-client/
+ |-- docs/
+ |-- |-- build_html/
+ |-- |-- build_latex/
+ |-- |-- source/
+ |-- py-pkg/
+ |-- |-- __init__.py
+ |-- |-- __version__.py
+ |-- |-- client.py
+ |-- |-- entry_points.py
+ |-- tests/
+ |-- |   __init__.py
+ |-- |   test.py
+ |-- .env
+ |-- .gitignore
+ |-- README.md
+ |-- setup.cfg
+ |-- pyproject.toml
+ |-- LICENSE
+```
