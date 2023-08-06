@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "setuptools>=62",
+    "wheel",
+    "setuptools_scm[toml]>=6.0",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "pyocd_bitbang/_version.py"
+local_scheme = "dirty-tag"
