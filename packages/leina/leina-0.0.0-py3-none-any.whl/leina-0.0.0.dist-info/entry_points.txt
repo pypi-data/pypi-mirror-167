@@ -1,0 +1,3 @@
+[console_scripts]
+leina=leina.__main__:main
+
