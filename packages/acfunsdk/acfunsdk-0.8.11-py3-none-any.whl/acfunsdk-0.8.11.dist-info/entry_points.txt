@@ -1,0 +1,3 @@
+[console_scripts]
+acfun=acfunsdk.__main__:cli
+
