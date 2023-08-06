@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+host/cow_web_ext/__init__.py
+host/cow_web_ext.egg-info/PKG-INFO
+host/cow_web_ext.egg-info/SOURCES.txt
+host/cow_web_ext.egg-info/dependency_links.txt
+host/cow_web_ext.egg-info/entry_points.txt
+host/cow_web_ext.egg-info/not-zip-safe
+host/cow_web_ext.egg-info/requires.txt
+host/cow_web_ext.egg-info/top_level.txt
