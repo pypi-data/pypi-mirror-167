@@ -1,0 +1,17 @@
+pyfrigel_report_tool/__init__.py,sha256=-5WaywtVPexZulLQkIO99JteVUnOZPPxnf_aUspTjVg,211
+pyfrigel_report_tool/consts.py,sha256=MiBNj37t3Z5muoWuChOLEKGBLcnhbPAP_5JtFef38rQ,1452
+pyfrigel_report_tool/frigel_report_creator.py,sha256=KYVmqPqW1KomzLy6iIqtlnLVoU7HEITJVAW2p-LYrDo,6217
+pyfrigel_report_tool/syncro_report_creator.py,sha256=L_95SJnHyGlyvXj5JKwonTELiYsv61BmbTN285ls1OY,21876
+pyfrigel_report_tool/translations.py,sha256=Y-zK9tBcZrqdm4vdCzTeC_ftsRlXWAVVMq7I52gDkaI,2149
+pyfrigel_report_tool/assets/Calibri-Bold.ttf,sha256=Vd96F6JW1fnCWPvgz6Mmzv4M7rYcjQk_0KmoTNC5244,849640
+pyfrigel_report_tool/assets/Calibri.ttf,sha256=gxaxtcHkeq1iIOEMg1N80ycE6Z54haq_VqHYl7PT8e4,352736
+pyfrigel_report_tool/assets/RSY_con_display.jpeg,sha256=GtO01JEv3XdQjJS6rvQimwcAs1fFGQTtgsGVrKl1wuc,107896
+pyfrigel_report_tool/assets/Syncro.png,sha256=39AKI5b3MiY0gRJS8zDx--GQlpcH-ZfrqCVFol-aiP0,2166
+pyfrigel_report_tool/assets/frigel_logo.png,sha256=9o5upJPvxOFMWuNqQ7OzzHcWkGcuL_C_yu-r2WxFUPU,53399
+pyfrigel_report_tool/charts/__init__.py,sha256=jyTCTjtAMpcHlrHl2q7XPt5nZdH-IatM8mSFsHgqNRg,162
+pyfrigel_report_tool/charts/charts.py,sha256=R7xWKzHyo4p7ja3t94zpxAeYu0OKZ-_7-6I1EMKngKo,11841
+pyfrigel_report_tool-0.9.dist-info/LICENSE.txt,sha256=SyBGz2tx60rBg7MS5BsTlnxYiWCUCrs3yqw3prg-i8E,35
+pyfrigel_report_tool-0.9.dist-info/METADATA,sha256=xn63W0Vk09wI-pt4lIlutiL4pgEKcD_kQ3zyqY52wP8,296
+pyfrigel_report_tool-0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfrigel_report_tool-0.9.dist-info/top_level.txt,sha256=hY-X40spCm56hQyNUxfpOjd_VA3lRGBTLzsuDmRJnXo,21
+pyfrigel_report_tool-0.9.dist-info/RECORD,,
