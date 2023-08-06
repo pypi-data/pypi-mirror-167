@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tambotapi/__init__.py
+tambotapi/tambotapi.py
+tambotapi.egg-info/PKG-INFO
+tambotapi.egg-info/SOURCES.txt
+tambotapi.egg-info/dependency_links.txt
+tambotapi.egg-info/requires.txt
+tambotapi.egg-info/top_level.txt
