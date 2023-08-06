@@ -1,0 +1,185 @@
+Metadata-Version: 2.1
+Name: networkx-algo-common-subtree
+Version: 0.2.0
+Summary: A networkx implemention of algorithms to find common subtree minors and isomorphisms
+Home-page: https://github.com/Erotemic/networkx_algo_common_subtree
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: Apache 2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: networkx ; python_version < "3.7" and python_version >= "3.6"
+Requires-Dist: networkx ; python_version >= "3.7"
+Provides-Extra: all
+Requires-Dist: xdoctest ; extra == 'all'
+Requires-Dist: pytest-timeout ; extra == 'all'
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: ubelt ; extra == 'all'
+Provides-Extra: all-strict
+Requires-Dist: xdoctest (==0.14.0) ; extra == 'all-strict'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'all-strict'
+Requires-Dist: codecov (==2.0.15) ; extra == 'all-strict'
+Requires-Dist: ubelt (==1.1.2) ; extra == 'all-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: networkx (==2.5.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: networkx (==2.6.2) ; (python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: networkx ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: coverage ; (python_version >= "3.10") and extra == 'all'
+Requires-Dist: pytest ; (python_version >= "3.10.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version >= "3.6.0") and extra == 'all'
+Requires-Dist: networkx ; (python_version >= "3.7") and extra == 'all'
+Provides-Extra: optional
+Provides-Extra: optional-strict
+Provides-Extra: runtime-strict
+Requires-Dist: networkx (==2.5.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: networkx (==2.6.2) ; (python_version >= "3.7") and extra == 'runtime-strict'
+Provides-Extra: tests
+Requires-Dist: xdoctest ; extra == 'tests'
+Requires-Dist: pytest-timeout ; extra == 'tests'
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: ubelt ; extra == 'tests'
+Provides-Extra: tests-strict
+Requires-Dist: xdoctest (==0.14.0) ; extra == 'tests-strict'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'tests-strict'
+Requires-Dist: codecov (==2.0.15) ; extra == 'tests-strict'
+Requires-Dist: ubelt (==1.1.2) ; extra == 'tests-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'tests-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests'
+Requires-Dist: coverage ; (python_version >= "3.10") and extra == 'tests'
+Requires-Dist: pytest ; (python_version >= "3.10.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version >= "3.6.0") and extra == 'tests'
+
+The networkx_algo_common_subtree Module
+=======================================
+
+|Pypi| |PypiDownloads| |GithubActions| |Codecov|
+
+Networkx algorithms for maximum common ordered subtree minors (or embedding)
+and maximum common subtree isomorphism. Contains pure python and cython
+optimized versions.
+
+
+At its core the ``maximum_common_ordered_subtree_embedding`` function is an implementation of:
+
+.. code:: 
+
+    Lozano, Antoni, and Gabriel Valiente.
+        "On the maximum common embedded subtree problem for ordered trees."
+        String Algorithmics (2004): 155-170.
+        https://pdfs.semanticscholar.org/0b6e/061af02353f7d9b887f9a378be70be64d165.pdf
+
+
+And ``maximum_common_ordered_subtree_isomorphism`` is a variant of the above
+algorithm that returns common subtree ismorphism instead of subtree minors.
+
+
+Standalone versions of code were originally submitted as PRs to networkx
+proper:
+
+https://github.com/networkx/networkx/pull/4350
+https://github.com/networkx/networkx/pull/4327
+
+
+These algorithms are components of algorithms in torch_liberator, see related
+information:
+
++----------------------+------------------------------------------------------------+
+| TorchLiberator       | https://gitlab.kitware.com/computer-vision/torch_liberator |
++----------------------+------------------------------------------------------------+
+| Torch Hackathon 2021 | `Youtube Video`_ and `Google Slides`_                      |
++----------------------+------------------------------------------------------------+
+
+.. _Youtube Video: https://www.youtube.com/watch?v=GQqtn61iNsc
+.. _Google Slides: https://docs.google.com/presentation/d/1w9XHkPjtLRj29dw50WP0rSHRRlEfhksP_Sf8XldTSYE
+
+
+
+
+.. |Pypi| image:: https://img.shields.io/pypi/v/networkx_algo_common_subtree.svg
+    :target: https://pypi.python.org/pypi/networkx_algo_common_subtree
+
+.. |PypiDownloads| image:: https://img.shields.io/pypi/dm/networkx_algo_common_subtree.svg
+    :target: https://pypistats.org/packages/networkx_algo_common_subtree
+
+.. |GithubActions| image:: https://github.com/Erotemic/networkx_algo_common_subtree/actions/workflows/tests.yml/badge.svg?branch=main
+    :target: https://github.com/Erotemic/networkx_algo_common_subtree/actions?query=branch%3Amain
+
+.. |Codecov| image:: https://codecov.io/github/Erotemic/networkx_algo_common_subtree/badge.svg?branch=main&service=github
+    :target: https://codecov.io/github/Erotemic/networkx_algo_common_subtree?branch=main
