@@ -1,0 +1,4 @@
+[console_scripts]
+JiekaiXingzuoMima = JiekaiXingzuoMima.__main__:main
+jiekai-xingzuo-mima = JiekaiXingzuoMima.__main__:main
+
