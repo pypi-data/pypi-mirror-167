@@ -1,0 +1,10 @@
+deepl
+logzero
+PySide6
+xdg
+pyexcel
+pyexcel-odsr
+pyexcel-xls
+pyexcel-xlsx
+pyexcel-htmlr
+python_version>"3.10"
