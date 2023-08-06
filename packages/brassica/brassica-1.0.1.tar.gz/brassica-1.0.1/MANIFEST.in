@@ -1,0 +1,8 @@
+include CHANGELOG
+include LICENSE
+include README.md
+include setup.py
+include brassica/__init__.py
+include brassica/brassica.py
+include brassica/BASIC __init__.py
+recursive-include brassica/BASIC *.bas
