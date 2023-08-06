@@ -1,0 +1,8 @@
+torch>=1.12.1
+pytorch-lightning>=1.7.4
+scanpy>=1.9.1
+nb_black>=0.7
+torch-adata>=0.0.12
+vinplots>=0.0.72
+torch-composer>=0.0.3
+larry-dataset>=0.0.1
