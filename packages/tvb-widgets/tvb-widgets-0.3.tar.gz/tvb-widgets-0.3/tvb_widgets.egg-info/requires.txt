@@ -1,0 +1,15 @@
+colorcet
+ebrains_drive
+ipympl
+ipywidgets==7.7.1
+mne==0.24.1
+pythreejs
+pyvista>=0.34.0
+tvb-library>=2.5
+
+[examples]
+tvb-data
+
+[tests]
+pytest
+pytest-mock
