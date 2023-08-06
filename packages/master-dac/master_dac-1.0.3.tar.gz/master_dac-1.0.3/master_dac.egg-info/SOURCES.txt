@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+master_dac/__init__.py
+master_dac/__main__.py
+master_dac.egg-info/PKG-INFO
+master_dac.egg-info/SOURCES.txt
+master_dac.egg-info/dependency_links.txt
+master_dac.egg-info/entry_points.txt
+master_dac.egg-info/requires.txt
+master_dac.egg-info/top_level.txt
