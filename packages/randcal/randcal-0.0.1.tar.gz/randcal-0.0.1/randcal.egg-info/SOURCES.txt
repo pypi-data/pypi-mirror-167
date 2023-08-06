@@ -1,0 +1,7 @@
+LICENCE.txt
+MANIFEST.in
+setup.py
+randcal.egg-info/PKG-INFO
+randcal.egg-info/SOURCES.txt
+randcal.egg-info/dependency_links.txt
+randcal.egg-info/top_level.txt
