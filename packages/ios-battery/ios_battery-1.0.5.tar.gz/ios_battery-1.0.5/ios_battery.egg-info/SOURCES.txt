@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ios_battery/__init__.py
+ios_battery/battery.py
+ios_battery.egg-info/PKG-INFO
+ios_battery.egg-info/SOURCES.txt
+ios_battery.egg-info/dependency_links.txt
+ios_battery.egg-info/entry_points.txt
+ios_battery.egg-info/top_level.txt
