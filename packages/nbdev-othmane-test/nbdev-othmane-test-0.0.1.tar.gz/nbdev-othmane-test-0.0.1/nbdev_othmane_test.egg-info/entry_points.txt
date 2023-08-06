@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+nbdev_othmane_test = nbdev_othmane_test._modidx:d
+
