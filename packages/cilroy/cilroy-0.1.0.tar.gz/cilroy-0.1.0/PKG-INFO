@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cilroy
+Version: 0.1.0
+Summary: kilroy controller 🎛️
+Home-page: https://github.com/kilroybot/cilroy
+Author: kilroy
+Author-email: kilroymail@pm.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: pytest (>=7.0,<8.0); extra == "dev" or extra == "test"
+Requires-Dist: typer[all] (>=0.4,<0.5)
+Project-URL: Documentation, https://kilroybot.github.io/cilroy
+Project-URL: Repository, https://github.com/kilroybot/cilroy
+Description-Content-Type: text/markdown
+
+<h1 align="center">cilroy</h1>
+
+<div align="center">
+
+kilroy controller 🎛️
+
+[![Multiplatform tests](https://github.com/kilroybot/cilroy/actions/workflows/test-multiplatform.yml/badge.svg)](https://github.com/kilroybot/cilroy/actions/workflows/test-multiplatform.yml)
+[![Docker tests](https://github.com/kilroybot/cilroy/actions/workflows/test-docker.yml/badge.svg)](https://github.com/kilroybot/cilroy/actions/workflows/test-docker.yml)
+[![Docs](https://github.com/kilroybot/cilroy/actions/workflows/docs.yml/badge.svg)](https://github.com/kilroybot/cilroy/actions/workflows/docs.yml)
+
+</div>
+
+---
+
+TODO
+
