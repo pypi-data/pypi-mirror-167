@@ -1,0 +1,16 @@
+derivermodule/__init__.py,sha256=qb1awM2dCQnecxFnOl6gZgS-V3_HUcTsiyUQeC-Avds,166
+derivermodule/const.py,sha256=eolGXOht4UvuV56U5bd5hdQ-eZfdNsYBCOpg4kLIpjw,387
+derivermodule/files.py,sha256=8E97R4eC9gMO1XsVgX481acLp2ybxvPEy1hsSjXei0M,589
+derivermodule/imagestack.py,sha256=7e2Nf6byZ-4oaCX_eVy82bDFSh2ofcR1TKLq4r-bvuo,7415
+derivermodule/logger.py,sha256=OGofY4qr2K5fS-1vigGjnIj6BKgvCkvM0I3I1HWc8pw,1109
+derivermodule/metadata.py,sha256=XaVaQNr7cKa7GPJFnSiN1Fr3eUqE3mZ7xhTwFvLeOxk,10701
+derivermodule/scandata.py,sha256=CHoreSyCAuLUUw2ETND-cUMUsLSf_MLDzEKAeAXEdKc,3287
+derivermodule/task.py,sha256=2Cz7FdzlwA8-yTCrdWZPuUEU6nZ6yRcGSQFvLxXQXgk,2734
+derivermodule/version.py,sha256=ZTipNH6wyC6qsq1H_lZsvJyVruUa1nu3y4EysMdkpuU,22
+internetarchive_deriver_module-1.0.2.dist-info/AUTHORS,sha256=rYJmYee-zKrE_z8TGsj_63HRp2hdU3lKABkdKXFL0n8,82
+internetarchive_deriver_module-1.0.2.dist-info/COPYING,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+internetarchive_deriver_module-1.0.2.dist-info/LICENSE.TXT,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+internetarchive_deriver_module-1.0.2.dist-info/METADATA,sha256=83KQ_uF5jsDugOMTbTMhNtBxLEwJ159ohIkI7Qa6sCY,782
+internetarchive_deriver_module-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+internetarchive_deriver_module-1.0.2.dist-info/top_level.txt,sha256=zhKoSOwCDzjva4Q9OwwrVda5Ss_-9t99CeIsbwS1JQc,14
+internetarchive_deriver_module-1.0.2.dist-info/RECORD,,
