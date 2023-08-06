@@ -1,0 +1,15 @@
+databaseciservices/__init__.py,sha256=5VylbsLBa-jo92Hj7_WVqFno3jxcz1iKhmd4FxZjQ-w,193
+databaseciservices/call.py,sha256=nc-uah1mZAVV2w-E_KOcxgnIebkfHvTo-uY7l6b8Mrk,224
+databaseciservices/command.py,sha256=xUBqB1Byq87Rn_ZdVUbHveOmyCr82fPfZIN6n6goeK8,863
+databaseciservices/conn.py,sha256=ShQKNZGd7C7yJpWz4GoqEqXF3WwPbJ_TfD_6SgT4w50,1176
+databaseciservices/copy.py,sha256=VQHEMlv9f3F9CssuLdRaoM7sr4-KCzdFYxTxsVkGmwc,5744
+databaseciservices/do.py,sha256=5iz3DRp6JaKP8YkL8kQZuZppub20fWfeQU5tl5KuXAg,8487
+databaseciservices/paging.py,sha256=tDenPWbhiZ25b2Izmil5eyJf9PWrAfdcUYh_I1KmH7Y,5686
+databaseciservices/schema.py,sha256=jibj3nqT3gcmiAAeiZwJV5Hpkm97Lv14rvUO-Ivr4IU,744
+databaseciservices/summary.py,sha256=upA7pSy5f6hOFydC5NzNxaZPC9WscTqdTBh8ibItGLg,1417
+databaseciservices/util.py,sha256=KWEN_755y4_IqRLpB8NLFmqMqLDTEZtGy0wrlG1my3w,315
+databaseciservices-6.0.0.dist-info/entry_points.txt,sha256=VtVn2H9abqPMNe4icM5PvHnP5VYl9Ud-7OYc7K5nXbU,53
+databaseciservices-6.0.0.dist-info/LICENSE.md,sha256=pciCfjhoHUUh0D_1DrnZTPIQBHcHUH7e8Tnc3L5Cd-I,550
+databaseciservices-6.0.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+databaseciservices-6.0.0.dist-info/METADATA,sha256=w1meRUI4Pczlc-8QnIxy42in3UULY0InciszOIJKTAg,799
+databaseciservices-6.0.0.dist-info/RECORD,,
