@@ -1,0 +1,277 @@
+<!-- Account Details modal -->
+<script id="accountDetailsHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="card" style="width: 100%;">
+        <div class="card-header text-muted">
+            <div class="row">
+                <div class="col text-start">Date Joined</div>
+                <div class="col text-end">{{ date_joined }}</div>
+            </div>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{first_name}} {{last_name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{username}}</h6>
+            <p class="card-text">
+                <div>{{email}}</div>
+            </p>
+            <a href="" onclick="displayUpdateDetailsModal(event);" class="card-link link-danger-dark">Update Details</a>
+            <a href="" onclick="displayUpdateEmailModal(event, '{{id}}');" class="card-link link-danger-dark">Update Email</a>
+        </div>
+        <div class="card-footer text-muted">
+            <div class="row">
+                <div class="col text-start">Last Login</div>
+                <div class="col text-end">{{ last_login }}</div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>
+
+
+<!-- edit account details modal -->
+<script id="editAccountDetailsHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="modal fade" id="editAccountDetailsModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editAccountDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editAccountDetailsModalLabel">Edit Account Details</h5>
+                    <button type="button" class="btn-close disableButton" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3" onsubmit="editDetails(event, '{{id}}');" id="editDetailsForm">
+                        <div class="col-md-6">
+                            <label for="editAccountDetailsFormInputFirstName" class="form-label"><span class="requirement">*</span>First Name</label>
+                            <input type="text" class="form-control disableButton" id="editAccountDetailsFormInputFirstName" placeholder="First Name" value="{{first_name}}">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="editAccountDetailsFormInputLastName" class="form-label"><span class="requirement">*</span>Last Name</label>
+                            <input type="text" class="form-control disableButton" id="editAccountDetailsFormInputLastName" placeholder="Last Name" value="{{last_name}}">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="editAccountDetailsFormInputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="editAccountDetailsFormInputEmail" disabled placeholder="Email Address" value="{{email}}">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="editAccountDetailsFormInputUsername" class="form-label"><span class="requirement">*</span>Username</label>
+                            <input type="text" class="form-control disableButton" id="editAccountDetailsFormInputUsername" placeholder="Username" value="{{username}}" aria-describedby="editAccountDetailsUsernameHelp">
+                            <div id="editAccountDetailsUsernameHelp" class="form-text">6 to 20 alpha-numeric characters only</div>
+                        </div>
+                    </form>
+                    <div class="errormessage" id="editDetailsError"><br></div>
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-dark btn-sm me-auto w-25 disableButton" data-bs-dismiss="modal" id="editAccountDetailsModalCloseBtn">Close</button>
+                        <button type="submit" form="editDetailsForm" class="btn btn-outline-dark btn-sm ms-auto w-25 disableButton">
+                            <div class="spinner-border spinner-border-sm" hidden role="status"></div>
+                            Update
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>
+
+
+<!-- edit email modal -->
+<script id="editEmailHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="modal fade" id="editEmailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editEmailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editEmailModalLabel">Edit Email Address</h5>
+                    <button type="button" class="btn-close disableButton" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3" onsubmit="editEmail(event, '{{user_id}}');" id="editEmailForm">
+                        <div class="col-12">
+                            <label for="editEmailFormInputPassword" class="form-label"><span class="requirement">*</span>Confirm Password</label>
+                            <input type="password" class="form-control disableButton" id="editEmailFormInputPassword" placeholder="********">
+                        </div>
+                        <div class="col-12">
+                            <label for="editEmailFormInputNewEmail" class="form-label"><span class="requirement">*</span>New Email</label>
+                            <input type="email" class="form-control disableButton" id="editEmailFormInputNewEmail" placeholder="abc@example.com">
+                        </div>
+                    </form>
+                    <div class="errormessage mt-2" id="editEmailError"><br></div>
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-dark btn-sm me-auto w-25 disableButton" data-bs-dismiss="modal" id="editEmailModalCloseBtn">Close</button>
+                        <button type="submit" form="editEmailForm" class="btn btn-outline-dark btn-sm ms-auto w-25 disableButton">
+                            <div class="spinner-border spinner-border-sm" hidden role="status"></div>
+                            Update
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>
+
+
+<!-- change email verification Modal -->
+<script id="verifyEditEmailHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="modal fade" id="editEmailVerificationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editEmailVerificationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editEmailVerificationModalLabel">Verify</h5>
+                    <button type="button" class="btn-close" disabled data-bs-dismiss="modal" aria-label="Close" id="editEmailVerificationModalCloseBtn"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h5>{{new_email}}</h5>
+                    <h6>Your verification code is valid for: <span id="editEmail_countdown"></span></h6>
+                    <form id="editEmailVerificationForm" onsubmit="editEmailVerification(event, '{{new_email}}', '{{username}}', '{{current_email}}');">
+                        <div>
+                            <label for="editEmailVerificationCodeInput" class="form-label"><span class="requirement">*</span>Verification Code</label>
+                            <input type="text" class="form-control disableButton" id="editEmailVerificationCodeInput" placeholder="123456" aria-describedby="editEmailHelp">
+                            <div id="editEmailHelp" class="form-text">Check your Inbox / Spam folder for a verification code.</div>
+                        </div>
+                    </form>
+                    <a href="" class="link-danger-dark disableAnchorTag" onclick="resendEditEmailVerificationCode(event, '{{new_email}}');">Resend Verification Code</a>
+                    <div class="errormessage mt-2 mb-0" id="editEmailVerificationError"><br></div>
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" onclick="cancelEmailEditing();" class="btn btn-outline-dark btn-sm me-auto w-25 disableButton" data-bs-dismiss="modal" id="cancelEmailEditingBtn">Cancel</button>
+                        <button type="submit" form="editEmailVerificationForm" class="btn btn-outline-dark btn-sm ms-auto w-25 disableButton">
+                            <span class="spinner-border spinner-border-sm text-dark" role="status" aria-hidden="true" hidden></span>
+                            Verify
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>
+
+
+<!-- change password Modal -->
+<script id="changePasswordHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="modal fade" id="changePasswordModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="changePasswordModalLabel">Change Password</h5>
+                    <button type="button" class="btn-close disableButton" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3" onsubmit="changepassword(event, '{{user_id}}');" id="changePasswordForm">
+                        <div class="col-12">
+                            <label for="changePasswordFormInputCurrentPassword" class="form-label"><span class="requirement">*</span>Current Password</label>
+                            <input type="password" class="form-control disableButton" id="changePasswordFormInputCurrentPassword" placeholder="current password">
+                        </div>
+                        <div class="col-12">
+                            <label for="changePasswordFormInputNewPassword1" class="form-label"><span class="requirement">*</span>New Password</label>
+                            <input type="password" class="form-control disableButton" id="changePasswordFormInputNewPassword1" aria-describedby="setNewPassword1Help" placeholder="new password">
+                            <div id="setNewPassword1Help" class="form-text">8 to 20 characters</div>
+                        </div>
+                        <div class="col-12">
+                            <label for="changePasswordFormInputNewPassword2" class="form-label"><span class="requirement">*</span>Confirm New Password</label>
+                            <input type="password" class="form-control disableButton" id="changePasswordFormInputNewPassword2" aria-describedby="setNewPassword2Help" placeholder="confirm new password">
+                            <div id="setNewPassword2Help" class="form-text">must include an alphabet, a number, and a special character</div>
+                        </div>
+                    </form>
+                    <div class="errormessage mt-2" id="changePasswordError"><br></div>
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-dark btn-sm me-auto w-25 disableButton" data-bs-dismiss="modal" id="changePasswordModalCloseBtn">Close</button>
+                        <button type="submit" form="changePasswordForm" class="btn btn-outline-dark btn-sm ms-auto w-25 disableButton">
+                            <div class="spinner-border spinner-border-sm" hidden role="status"></div>
+                            Change
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>
+
+
+<!-- Close account Modal -->
+<script id="closeAccountHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="modal fade" id="closeAccountModal" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="closeAccountModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="closeAccountModalLabel">Close Account</h5>
+                <button type="button" class="btn-close disableButton" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <h5 class="text-danger">This action is irreversible</h5>
+                <form onsubmit="closeAccount(event, '{{user_id}}');" id="closeAccountForm">
+                    <div class="mb-3">
+                        <label for="closeAccountFormInputPassword" class="form-label"><span class="requirement">*</span>Confirm Password</label>
+                        <input type="password" class="form-control disableButton" id="closeAccountFormInputPassword" placeholder="current password">
+                    </div>
+                </form>
+                Press <strong>Cancel</strong> to return and <strong>Continue</strong> to proceed.
+                <div class="errormessage" id="closeAccountFormError"><br></div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group w-100" role="group">
+                    <button type="button" class="btn btn-outline-dark btn-sm me-auto w-25 disableButton" data-bs-dismiss="modal" id="closeAccountModalCloseBtn">Cancel</button>
+                    <button type="submit" form="closeAccountForm" class="btn btn-outline-dark btn-sm ms-auto w-25 disableButton">
+                        <div class="spinner-border spinner-border-sm" hidden role="status"></div>
+                        Continue
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>
+
+
+<!-- Close account verification Modal -->
+<script id="closeAccountVarificationHandlebars" type="text/x-handlebars-template">
+    {% verbatim %}
+    <div class="modal fade" id="closeAccountVerificationModal" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="closeAccountVerificationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="closeAccountVerificationModalLabel">Close Account</h5>
+                <button type="button" class="btn-close" disabled data-bs-dismiss="modal" aria-label="Close" id="closeAccountVerificationModalCloseBtn"></button>
+            </div>
+            <div class="modal-body text-center">
+                <h5 class="text-danger">This action is irreversible</h5>
+                <p>For security reasons we have sent a verification code on your registered email address.</p>
+                <h6>Your code is valid for: <span id="closeAccount_countdown"></span></h6>
+                <form onsubmit="close_account(event, '{{user_id}}')" id="closeAccountVerificationForm">
+                    <div class="mb-3">
+                        <label for="closeAccountVerificationFormInputCode" class="form-label"><span class="requirement">*</span>Verification Code</label>
+                        <input type="text" class="form-control disableButton" id="closeAccountVerificationFormInputCode" aria-describedby="closeAccountVerificationHelp">
+                        <div id="closeAccountVerificationHelp" class="form-text">Check your Inbox / Spam folder for a verification code.</div>
+                    </div>
+                </form>
+                <p>Press <strong>Cancel</strong> to return and <strong>Close</strong> to permanently close your account.</p>
+                <a href="" class="link-danger-dark disableAnchorTag" onclick="resendCloseAccountVerificationCode(event);">Resend Verification Code</a>
+                <div class="errormessage" id="closeAccountVerificationFormError"><br></div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group w-100" role="group">
+                    <button type="button" onclick="cancelAccountClosure();" class="btn btn-outline-dark btn-sm me-auto w-25 disableButton" data-bs-dismiss="modal" id="cancelAccountClosureBtn">Cancel</button>
+                    <button type="submit" form="closeAccountVerificationForm" class="btn btn-outline-dark btn-sm ms-auto w-25 disableButton">
+                        <div class="spinner-border spinner-border-sm" hidden role="status"></div>
+                        Close
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    {% endverbatim %}
+</script>

@@ -1,0 +1,42 @@
+<div style="display: none;">
+    <!-- Button trigger register modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal" id="registerModalBtn">
+        Launch demo modal
+    </button>
+
+    <!-- Button trigger verify registration email modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#verifyRegistrationEmailModal" id="verifyRegistrationEmailModalBtn">
+        Launch demo modal
+    </button>
+
+    <!-- Button trigger Registration Successful modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registrationSuccessModal" id="registrationSuccessModalBtn">
+        Launch demo modal
+    </button>
+
+    <!-- Button trigger Registration Unsuccessful modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registrationUnsuccessfulModal" id="RegistrationUnsuccessfulModalBtn">
+        Launch demo modal
+    </button>
+</div>
+
+<div id="registerModalDiv"></div>
+<div id="verifyRegistrationEmailModalDiv"></div>
+<div id="RegistrationUnsuccessfulModalDiv"></div>
+
+
+<!-- registration successful Modal -->
+<div class="modal fade" id="registrationSuccessModal" tabindex="-1" aria-labelledby="registrationSuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="registrationSuccessModalLabel">Congratulations</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">You have successfully registered your account.</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

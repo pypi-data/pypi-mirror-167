@@ -1,0 +1,21 @@
+{% extends "authentication/layout.html" %}
+{% load static %}
+
+
+{% block title %}{{request.user.first_name}}{% endblock %}
+{% block style %}{% endblock %}
+
+
+{% block body %}
+<div class="container text-center my-5">
+    <h5>Account Details</h5><hr>
+    <div id="userInfo"></div>
+    {% include "authentication/modals/account.html" %}
+</div>
+{% endblock %}
+
+
+{% block script %}
+<script src="{% static 'authentication/js/account.js' %}"></script>
+{% include 'authentication/handlebars/account.html' %}
+{% endblock %}
