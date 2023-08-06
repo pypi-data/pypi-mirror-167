@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+package_dir = \
+{'': 'src'}
+
+packages = \
+['datastation', 'datastation.scripts']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['dicttoxml>=1.7.4,<2.0.0',
+ 'lxml>=4.8.0,<5.0.0',
+ 'psycopg>=3.0.16,<4.0.0',
+ 'pyYAML>=6.0,<7.0',
+ 'requests>=2.26.0,<3.0.0']
+
+entry_points = \
+{'console_scripts': ['dv-dataset-add-role-assignment = '
+                     'datastation.scripts.add_role_assignments:main',
+                     'dv-dataset-delete-draft = '
+                     'datastation.scripts.delete_draft_datasets:main',
+                     'dv-dataset-delete-role-assignment = '
+                     'datastation.scripts.delete_role_assignments:main',
+                     'dv-dataset-destroy-migration-placeholder = '
+                     'datastation.scripts.dataset_destroy_migration_placeholder:main',
+                     'dv-dataset-find-with-role-assignment = '
+                     'datastation.scripts.find_datasets_with_roleassignment:main',
+                     'dv-dataset-publish = '
+                     'datastation.scripts.publish_datasets:main',
+                     'dv-dataset-reindex = '
+                     'datastation.scripts.reindex_datasets:main',
+                     'dv-dataset-replace-metadata-field-values = '
+                     'datastation.scripts.replace_metadata_field_values:main',
+                     'dv-dataset-retrieve-metadata = '
+                     'datastation.scripts.retrieve_dataset_metadata:main',
+                     'dv-dataset-retrieve-metadata-field = '
+                     'datastation.scripts.retrieve_dataset_metadata_field:main',
+                     'dv-dataset-unlock = '
+                     'datastation.scripts.unlock_datasets:main',
+                     'dv-dataset-update-datacite-record = '
+                     'datastation.scripts.update_datacite_records:main',
+                     'dv-dataverse-oai-harvest = '
+                     'datastation.scripts.oai_harvest:main',
+                     'dv-dataverse-retrieve-pids = '
+                     'datastation.scripts.retrieve_dataset_pids:main',
+                     'dv-file-prestage = '
+                     'datastation.scripts.prestage_files:main',
+                     'dv-user-import = datastation.scripts.import_user:main']}
+
+setup_kwargs = {
+    'name': 'dans-datastation-tools',
+    'version': '0.8.0',
+    'description': 'Command line utilities for Data Station application management',
+    'long_description': None,
+    'author': 'DANS-KNAW',
+    'author_email': None,
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': None,
+    'package_dir': package_dir,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.6,<4.0',
+}
+
+
+setup(**setup_kwargs)
