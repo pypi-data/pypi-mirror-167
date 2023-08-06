@@ -1,0 +1,3 @@
+[console_scripts]
+pyrolib-fm = pyrolib.cli_fuelmap:main_cli
+pyrolib-post = pyrolib.cli_post:main_cli
