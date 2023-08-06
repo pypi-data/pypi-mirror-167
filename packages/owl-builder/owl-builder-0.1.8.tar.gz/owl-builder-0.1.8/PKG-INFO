@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: owl-builder
+Version: 0.1.8
+Summary: Tools for Automating the Construction of an Ontology (OWL)
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Requires-Python: ==3.8.5
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: baseblock
+Requires-Dist: fuzzywuzzy (>=0.18.0,<0.19.0)
+Requires-Dist: nltk (>=3.7,<4.0)
+Requires-Dist: openai (>=0.20.0,<0.21.0)
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: python-Levenshtein
+Requires-Dist: rdflib (>=6.1.1,<7.0.0)
+Requires-Dist: regex (==2022.7.9)
+Requires-Dist: spacy (==3.3)
+Requires-Dist: tabulate
+Requires-Dist: textacy (==0.12.0)
+Requires-Dist: textblob (>=0.17.1,<0.18.0)
