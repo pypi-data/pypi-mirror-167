@@ -1,0 +1,10 @@
+aws_cdk/aws_globalaccelerator_endpoints/__init__.py,sha256=31HWODh4rXItwrkZSpXFa7PsW9Z21cs2aIpGhm1SC-I,21478
+aws_cdk/aws_globalaccelerator_endpoints/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_globalaccelerator_endpoints/_jsii/__init__.py,sha256=sE5kgOGo4ul-N9d2BeYqz3hrS_j7eU5sxZvHT37gyzc,580
+aws_cdk/aws_globalaccelerator_endpoints/_jsii/aws-globalaccelerator-endpoints@1.173.0.jsii.tgz,sha256=QJIxk8xkjrkdQVFCkQRZjDHiV_YA6pmuEH6SPG_3EDk,19697
+aws_cdk.aws_globalaccelerator_endpoints-1.173.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_globalaccelerator_endpoints-1.173.0.dist-info/METADATA,sha256=fC9d-mD-TbeMVNYtSLe77G3sqmNaOyHSkLaaMjz4W-k,1930
+aws_cdk.aws_globalaccelerator_endpoints-1.173.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_globalaccelerator_endpoints-1.173.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_globalaccelerator_endpoints-1.173.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_globalaccelerator_endpoints-1.173.0.dist-info/RECORD,,
