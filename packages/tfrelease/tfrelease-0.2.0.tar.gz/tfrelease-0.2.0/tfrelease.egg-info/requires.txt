@@ -1,0 +1,6 @@
+click
+packaging
+pyyaml
+requests
+semver
+typing
