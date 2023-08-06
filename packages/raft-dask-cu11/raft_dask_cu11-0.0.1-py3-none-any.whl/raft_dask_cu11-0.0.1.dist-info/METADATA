@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: raft-dask-cu11
+Version: 0.0.1
+Summary: A small example package
+Requires-Python: >=3.8
+
