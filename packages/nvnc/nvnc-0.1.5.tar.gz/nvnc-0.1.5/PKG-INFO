@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nvnc
+Version: 0.1.5
+Summary: A notevn.com command line interface
+Home-page: https://github.com/lesongvi/NoteVN_CLI
+Author: Le Song Vi
+Author-email: lesongvi@gmail.com
+License: GPLv3+
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+License-File: LICENSE
+
+Notevn quick save text CLI, save your text quickly
