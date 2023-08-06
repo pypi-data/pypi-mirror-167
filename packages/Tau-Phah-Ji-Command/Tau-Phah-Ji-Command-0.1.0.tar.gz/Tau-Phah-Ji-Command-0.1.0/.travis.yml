@@ -1,0 +1,32 @@
+dist: jammy
+language: python
+python:
+- '3.10'
+branches:
+  only:
+  - master
+  - pypi
+install:
+- pip install tox
+script:
+- tox -e $TOX_ENV
+jobs:
+  include:
+  - name: "test"
+    env: TOX_ENV=test
+  - name: "flake8"
+    env: TOX_ENV=flake8
+  - stage: "deploy"
+    name: "pypi"
+    install: skip
+    script: skip
+    before_deploy:
+    - pip install --upgrade setuptools build
+    - python -m build
+    deploy:
+      skip_cleanup: true
+      provider: pypi
+      username: "__token__"
+      password: ${PYPI_TOKEN}
+      on:
+        all_branches: true
