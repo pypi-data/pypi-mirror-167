@@ -1,0 +1,12 @@
+contributors_txt/__init__.py,sha256=CIc-q2s_wdhw6FVnplo-wKfi_FoEbHMNksRzCiZ4ntM,170
+contributors_txt/__main__.py,sha256=4CUg32_hSjnR8qRbrFKci3fal6P6MMEnzjL29tvjQAc,1914
+contributors_txt/const.py,sha256=otN3QrbtnjHqF9xvjI5H8uVUgJt-TAiJwU4HeyZs0NM,282
+contributors_txt/create_content.py,sha256=QC7-Fqhs4WqliDzvuQ4A5YHO2OoZn_1z8pljBoG4TfQ,7353
+contributors_txt/normalize.py,sha256=Jy-o_FaeTvtSD7xRoFZTkdRgY05TsBWjcnnbjDarx6I,1419
+contributors_txt/update_content.py,sha256=dMUKrLwOvv0u8HATM0Uznfx12QH6AhrZFLVNq0SebQs,8703
+contributors_txt-0.9.2.dist-info/LICENSE,sha256=czqNtBaNotRFQS5Z0OvAYGY5ipsIRQxh0yesckbV5Ak,1073
+contributors_txt-0.9.2.dist-info/METADATA,sha256=0EIOcG2dlN73MUeU3HUFCB5GGPd2d_QxOVK_VPedQZ0,1093
+contributors_txt-0.9.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+contributors_txt-0.9.2.dist-info/entry_points.txt,sha256=Hk6EF2dyF91_Ei5qgXQF-J-HRoXKjbvX7Fl_vYkUygU,143
+contributors_txt-0.9.2.dist-info/top_level.txt,sha256=FsJdyvw9rxmTku9LxEz6bR1obIp42zT_-x1MAN0W23s,17
+contributors_txt-0.9.2.dist-info/RECORD,,
