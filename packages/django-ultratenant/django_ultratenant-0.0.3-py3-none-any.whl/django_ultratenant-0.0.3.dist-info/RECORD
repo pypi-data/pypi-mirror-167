@@ -1,0 +1,10 @@
+ultratenant/__init__.py,sha256=bTXxDg4LazIvUJQJeq2jePC_HJ-8cKejtW47GvKGfhM,136
+ultratenant/middlewares.py,sha256=8NRrHDsGcY-FcuSq4GOXNNR6cZmIjUw0_Ak3qG7dz9E,950
+ultratenant/models.py,sha256=gwoTVUkyMf9ds_ODI2te1BaUo8EYguyzZQrGlMpaiGw,128
+ultratenant/multidb.py,sha256=CsaSqzqgf_8Ndzkd8Qpg1vvWmTLndS9H0BZ-PDk7Cdo,1249
+ultratenant/singledb.py,sha256=sZopGM2YtUkt_M6W5RzSR4_4WCJgTB8nqqkCjRKwCAU,931
+ultratenant/threadlocal.py,sha256=RFZ5pd-zAAPXChlqgZqc8HHxLZY6kbjuW-Z352kgfMI,299
+django_ultratenant-0.0.3.dist-info/LICENSE,sha256=BPyZ6Uyz5aiwloRDH3om6mGcYfRLFiTehbDOpVU_MxA,1066
+django_ultratenant-0.0.3.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+django_ultratenant-0.0.3.dist-info/METADATA,sha256=TsTEGV30hsw4ssK5GXV4yl_tgD77Eq-_r1Y5Ql8bHC0,5257
+django_ultratenant-0.0.3.dist-info/RECORD,,
