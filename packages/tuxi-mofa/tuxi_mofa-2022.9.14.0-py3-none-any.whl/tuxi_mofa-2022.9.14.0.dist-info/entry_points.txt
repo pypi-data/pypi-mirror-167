@@ -1,0 +1,4 @@
+[console_scripts]
+TuxiMofa = TuxiMofa.__main__:main
+tuxi-mofa = TuxiMofa.__main__:main
+
