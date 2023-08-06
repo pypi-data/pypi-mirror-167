@@ -1,0 +1,3 @@
+[console_scripts]
+susdes = main:cli
+
