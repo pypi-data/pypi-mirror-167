@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/soku.egg-info/PKG-INFO
+src/soku.egg-info/SOURCES.txt
+src/soku.egg-info/dependency_links.txt
+src/soku.egg-info/requires.txt
+src/soku.egg-info/top_level.txt
+src/soku_configuration/__init__.py
+src/soku_object/__init__.py
+src/soku_service/__init__.py
