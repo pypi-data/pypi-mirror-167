@@ -1,0 +1,9 @@
+[console_scripts]
+
+
+[mkdocs.plugins]
+rm_num_prefix = nbdev.mkdocs:RmNumPrefix
+
+[nbdev]
+tglcourse = tglcourse._modidx:d
+

@@ -1,0 +1,13 @@
+genai/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+genai/_modidx.py,sha256=CJHkztmC4-0H5jYMyUG-hA3YQqh_iMVgxcsO9W5FY2E,808
+genai/core.py,sha256=lbBAeUbzERpU1F8s1mphaONHCVVS6er2wuT-bFxk1fA,280
+genai/utils.py,sha256=XnaV9FRAQSptOwyK6Xu1BD2eZE8D9MNM5BtR3tzG4yM,1114
+tglcourse/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+tglcourse/_modidx.py,sha256=_e_HN5sWuzCL4hLij09lRq-npE0qr6mP7IohX87DfSY,669
+tglcourse/utils.py,sha256=GaHMjEalguRuTHk6HPtPF2VlYTG-S2URh64KgwZBYDU,1114
+tglcourse-0.0.1.dist-info/LICENSE,sha256=MaU6NBrndpo5qNktOBG5nuJqFDa7PUkYy6JcjDeiYjo,1074
+tglcourse-0.0.1.dist-info/METADATA,sha256=xMb_JvpzZRnM1jbQuBHbHFEifi3kF9s-mdlAPS371Jk,3323
+tglcourse-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tglcourse-0.0.1.dist-info/entry_points.txt,sha256=pcZxIvRDsvHYGvWdn2uw9_dsknsCOJEmTMIYOMCBML4,120
+tglcourse-0.0.1.dist-info/top_level.txt,sha256=TTWZxdTRj34JiCu4Pw4QOkjgNKPtyd7RDbgtonrTRrQ,10
+tglcourse-0.0.1.dist-info/RECORD,,
