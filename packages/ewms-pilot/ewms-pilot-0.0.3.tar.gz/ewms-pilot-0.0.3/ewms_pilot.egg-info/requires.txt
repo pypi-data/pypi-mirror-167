@@ -1,0 +1,14 @@
+asyncstdlib
+wipac-mqclient-pulsar
+
+[gcp]
+wipac-mqclient-gcp
+
+[nats]
+wipac-mqclient-nats
+
+[pulsar]
+wipac-mqclient-pulsar
+
+[rabbitmq]
+wipac-mqclient-rabbitmq
