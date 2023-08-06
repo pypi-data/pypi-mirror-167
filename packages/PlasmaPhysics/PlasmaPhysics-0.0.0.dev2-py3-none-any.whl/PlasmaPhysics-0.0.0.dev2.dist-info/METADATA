@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PlasmaPhysics
+Version: 0.0.0.dev2
+Summary: Plasma Physics in Python
+Home-page: https://github.com/bondeje/Plasma
+Author: Jeffrey Bonde
+Author-email: Jeffrey.Bonde@gmail.com
+Project-URL: Bug Tracker, https://github.com/bondeje/Plasma/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22)
+Requires-Dist: scipy (>=1.7)
+
+# Plasma
