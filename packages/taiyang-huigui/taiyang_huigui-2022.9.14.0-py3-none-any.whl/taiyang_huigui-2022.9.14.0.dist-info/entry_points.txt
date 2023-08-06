@@ -1,0 +1,4 @@
+[console_scripts]
+TaiyangHuigui = TaiyangHuigui.__main__:main
+taiyang-huigui = TaiyangHuigui.__main__:main
+
