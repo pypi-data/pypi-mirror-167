@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: NutrientRedOpt
+Version: 0.0.1
+Summary: Finds the optimal placement of BMPs and Technologies in a network in order to reduce the nutrient loadings at the lake
+Home-page: 
+Author: Ashim Khanal, Hanieh Rastegar
+Author-email: ashimkhanal18@gmail.com, hanieh.rastegar.m@gmail.com
+License: MIT
+Keywords: Optimization,Environment,Best Management Practices,Technologies,Nutrient Load Reduction,environemnt protection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+

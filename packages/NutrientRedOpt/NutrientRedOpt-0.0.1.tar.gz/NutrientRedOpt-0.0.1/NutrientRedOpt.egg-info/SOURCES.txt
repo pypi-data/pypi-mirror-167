@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+NutrientRedOpt/__init__.py
+NutrientRedOpt.egg-info/PKG-INFO
+NutrientRedOpt.egg-info/SOURCES.txt
+NutrientRedOpt.egg-info/dependency_links.txt
+NutrientRedOpt.egg-info/top_level.txt
