@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/Searchor/__init__.py
+src/searchor.egg-info/PKG-INFO
+src/searchor.egg-info/SOURCES.txt
+src/searchor.egg-info/dependency_links.txt
+src/searchor.egg-info/top_level.txt
