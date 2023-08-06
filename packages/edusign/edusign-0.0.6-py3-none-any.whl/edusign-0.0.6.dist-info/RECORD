@@ -1,0 +1,12 @@
+edusign/__init__.py,sha256=1BFxGNYOiInQNooQ8fdh0Rf7g2Oo49Pfa3e3bCZmDvs,324
+edusign/utils.py,sha256=oYrbEI7DVIAT26_N388J95eR8ko3WCQ4Mw6nqPc9zi4,1347
+edusign/models/__init__.py,sha256=wJXvfLBFun_6yzFckWpP6172MIx8E1rKzvBcGr0VBGs,238
+edusign/models/courses.py,sha256=gVXhdYv8OVeGIjSWegqXfU-UJviI5FMHXYZqWEGnqvk,3212
+edusign/models/groups.py,sha256=Ll1-BWWo08qgl4ZOSi0Dw033p48E2sZ2vO7ScS4CuIA,1066
+edusign/models/professors.py,sha256=Pt0d0LTsu9ddE4wvU6zV4GODgqdMZTphlF0aLg_dqIE,2292
+edusign/models/students.py,sha256=EG-G80ZvkLck7oVrDAKsW5oqJeDOkN4KwZXuMt2HZlY,2391
+edusign-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+edusign-0.0.6.dist-info/METADATA,sha256=napzJ-yJ5-BIikmmnPVh7LhCM2vil2UJatTbrOKUgTU,1144
+edusign-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+edusign-0.0.6.dist-info/top_level.txt,sha256=HXvoiwqqvjoS9qMV4cEaKUKzT8vwqomO3bTm33FWbhY,8
+edusign-0.0.6.dist-info/RECORD,,
