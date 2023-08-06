@@ -1,0 +1,17 @@
+tailors_trainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailors_trainer/callbacks.py,sha256=RS1ylVWAHf_MCvqrE5ZfmxSJHJHhQA-h9GTaTJC9rwI,7877
+tailors_trainer/corpus_from_eb.py,sha256=t-lFD0xf2-AehPXl7bkDhdRcqf1N33v45GJp01CItb8,8068
+tailors_trainer/data.py,sha256=absQgByZCE9L5aBWqF2qn-JerNTLiqxaM4dj7YYv5jY,8564
+tailors_trainer/domains.py,sha256=Dk7Bg-lD8pt3EITvd0Pr7elw2GNQ-sbeQr5WrtVsgZE,2572
+tailors_trainer/exceptions.py,sha256=tczWyTzGEF0m_Ai-IgrvuFTG_j9P4VMAC0KWAOMRT2Q,289
+tailors_trainer/fast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailors_trainer/fast/split.py,sha256=14op-5cTTKJ0ZVFvLzj3i3MyS35RqgDb_nkoXA1D2r8,2260
+tailors_trainer/fast/train.py,sha256=CwnMHaOomYbcBW9LQlJrogbtjrczpsTc72EfWRafbh4,4695
+tailors_trainer/optimizers.py,sha256=WV2kNbDOgE-By19G6P4cN0Ioqzxgbi6qoD7gkV63kh4,2564
+tailors_trainer/schedulers.py,sha256=A5JmJtdEVW5FPrHHEgtDkiRpkSWnlAKCjd4rVnoKLCw,10048
+tailors_trainer/train.py,sha256=iMG4XpTgqanTGuOkKEbGTOSDUaHIt8YTZ8pZIUe1Y_o,1645
+tailors_trainer/trainer.py,sha256=j4xrE4OvanTAfwkP6FtM6CTSSuTBi23jYhgSwdUCOEI,19884
+tailors_trainer-0.1.3.dist-info/entry_points.txt,sha256=XkOVblfrzrV1HPgAOrH_USWYxBGUTKlexwYszRjsUI4,175
+tailors_trainer-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tailors_trainer-0.1.3.dist-info/METADATA,sha256=7bNX9LI9PFJ1w-R6eOsFexVWwDmpz9KuGjzBYZ5x60w,575
+tailors_trainer-0.1.3.dist-info/RECORD,,
