@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: marine
+Version: 0.0.3
+Summary: Marine: Multi-task learning based on Japanese accent estimation
+Author: Byeongseon Park
+Author-email: 6gsn.park@gmail.com
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: pyopenjtalk
+License-File: LICENSE
+
+## **MARINE** : **M**ulti-task lea**R**n**I**ng-based Japa**N**ese accent **E**stimation
+
+## Get started
+
+### Install
+
+```shell
+$ pip install marine
+```
+
+### For develop
+
+```shell
+$ pip install -e ".[dev]"
+```
