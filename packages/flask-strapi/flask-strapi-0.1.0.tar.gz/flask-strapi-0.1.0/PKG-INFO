@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-strapi
+Version: 0.1.0
+Summary: a flask module to work with strapi-cms
+Home-page: https://github.com/toranova/flask-strapi/
+Download-URL: https://github.com/ToraNova/flask-strapi/archive/refs/tags/v0.1.0.tar.gz
+Author: Chia Jason
+Author-email: chia_jason96@live.com
+License: MIT
+Keywords: Flask,Strapi,CMS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+License-File: LICENSE.txt
