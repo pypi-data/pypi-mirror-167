@@ -1,0 +1,8 @@
+bigquery_operator/__init__.py,sha256=zGVuwlDX3xypZdZLdBNqoydEu7OcrDxlhBQYLBhuFSA,118
+bigquery_operator/operator.py,sha256=0-LdmfHXO7sHQdeV4QLp-yCh61E89dhejGDvDJc2Ok4,19061
+bigquery_operator/operator_quick_setup.py,sha256=YHOVuQjo-FAbffRKRv_DvjQEYX_1XgEP7987Gmms1Ak,1365
+bigquery_operator-1.0.dist-info/LICENSE,sha256=eeN6x7OsqN8wdrs-6v33g5hfE6ESQITO1IMeGInh2jo,1074
+bigquery_operator-1.0.dist-info/METADATA,sha256=Xn8k-ylXBbPut2PZKFZp1i7dMYhsXQ67dCEmu0AOrLw,1647
+bigquery_operator-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bigquery_operator-1.0.dist-info/top_level.txt,sha256=0dxQiESprzp1809hiLXMayXdiA0D_NT0Cg_QvY3jlXQ,18
+bigquery_operator-1.0.dist-info/RECORD,,
