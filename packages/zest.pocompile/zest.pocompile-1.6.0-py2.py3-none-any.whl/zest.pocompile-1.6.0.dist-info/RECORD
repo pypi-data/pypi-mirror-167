@@ -1,0 +1,9 @@
+zest.pocompile-1.6.0-py3.9-nspkg.pth,sha256=7-TpwZimGj8i1xDyDg3ayhxFl17Cq7ARcslfsF4C5aY,529
+zest/pocompile/__init__.py,sha256=wN4d7AAX-_FyY2BDh68NHiYBiPi8dz2_Vu9w2XlrxjA,37
+zest/pocompile/compile.py,sha256=_dkAp_EstDFFG3BEXlB3EOCI0EdlFJs4pUVlcbOz6tY,4070
+zest.pocompile-1.6.0.dist-info/METADATA,sha256=8o9EwrAhIcvOb1pYsqPSfZ_qlmVFHZZmPNTSdtVmZmQ,8035
+zest.pocompile-1.6.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+zest.pocompile-1.6.0.dist-info/entry_points.txt,sha256=4kA8jgjFL7ULNL2FW8allDKoVUPGJ1QJh7f5XTLqKd4,154
+zest.pocompile-1.6.0.dist-info/namespace_packages.txt,sha256=r3oeL57Oqg_1UwP-ZuW9FRwHLmQ3xpJZNtuyKayTDU0,5
+zest.pocompile-1.6.0.dist-info/top_level.txt,sha256=r3oeL57Oqg_1UwP-ZuW9FRwHLmQ3xpJZNtuyKayTDU0,5
+zest.pocompile-1.6.0.dist-info/RECORD,,
