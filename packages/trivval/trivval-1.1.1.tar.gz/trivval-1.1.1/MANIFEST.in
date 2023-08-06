@@ -1,0 +1,6 @@
+include CHANGES.md
+include .editorconfig
+include HACKING.md
+recursive-include stubs *.pyi
+include tox.ini tox.nix
+recursive-include unit_tests *.py
