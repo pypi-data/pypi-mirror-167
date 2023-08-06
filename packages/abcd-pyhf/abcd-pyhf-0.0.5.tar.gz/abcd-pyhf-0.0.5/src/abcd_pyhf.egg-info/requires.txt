@@ -1,0 +1,8 @@
+jsonschema<4.15
+numpy
+matplotlib
+pyhf[contrib,minuit]<0.7
+
+[test]
+flake8
+pytest
