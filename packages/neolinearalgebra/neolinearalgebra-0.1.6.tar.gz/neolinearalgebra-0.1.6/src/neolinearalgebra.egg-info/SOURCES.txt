@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/neolinearalgebra/Matrix.py
+src/neolinearalgebra/__init__.py
+src/neolinearalgebra.egg-info/PKG-INFO
+src/neolinearalgebra.egg-info/SOURCES.txt
+src/neolinearalgebra.egg-info/dependency_links.txt
+src/neolinearalgebra.egg-info/not-zip-safe
+src/neolinearalgebra.egg-info/top_level.txt
