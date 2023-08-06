@@ -1,0 +1,13 @@
+teiphy/__init__.py,sha256=XM6SMjMwDVV5xIjWk_d4_2CMT3RQT-e7AmkccDPYIBU,201
+teiphy/collation.py,sha256=G5dKsyiVxYlb4iSCPygvD3YmPvmvVEe_qUcrh3pm7OI,41648
+teiphy/common.py,sha256=sNnUJ2icrob-vSB-sg8DbtBmaO8gceGuKq7Col1GImE,141
+teiphy/format.py,sha256=9FKLsiLNQhjQbjFbRLxIur-UM5AsxqYAONEQPRFntp4,901
+teiphy/main.py,sha256=keTUmZzzc7WFMGjslOulYmDJd7fAzsi4oxoCa6VdpSo,3285
+teiphy/reading.py,sha256=r-MgykeeqQ-CfVIDG-xxjdVTb5-Wg3_6QDGVVrNzFco,13563
+teiphy/variation_unit.py,sha256=W0DjT8aNaJTFEr6sVPU0ddXpwVzbHPh-WX3pN5Ez4CQ,4783
+teiphy/witness.py,sha256=sPlnRDP-7wdJCNInzW7K4RO0zHegAnhTRoTK-q7nuMw,1361
+teiphy-0.1.0.dist-info/entry_points.txt,sha256=b-C7NyiOJ0LF0ALnY-ySe2TeuvXGc0SEDxSws_c4JfU,42
+teiphy-0.1.0.dist-info/LICENSE,sha256=Dj4M0v_mzaozmMNc13xjdSR3iiEcPdb_zY0scsJowoE,1091
+teiphy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+teiphy-0.1.0.dist-info/METADATA,sha256=KZpSArnVM6ngqEtFGY1pEpUr7vpU3iKlwKQHLSmsyEM,4326
+teiphy-0.1.0.dist-info/RECORD,,
