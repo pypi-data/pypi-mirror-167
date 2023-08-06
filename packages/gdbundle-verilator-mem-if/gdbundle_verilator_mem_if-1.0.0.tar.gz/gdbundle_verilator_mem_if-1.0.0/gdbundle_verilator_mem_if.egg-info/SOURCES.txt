@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+gdbundle_verilator_mem_if/__init__.py
+gdbundle_verilator_mem_if/gdb_loader.py
+gdbundle_verilator_mem_if.egg-info/PKG-INFO
+gdbundle_verilator_mem_if.egg-info/SOURCES.txt
+gdbundle_verilator_mem_if.egg-info/dependency_links.txt
+gdbundle_verilator_mem_if.egg-info/requires.txt
+gdbundle_verilator_mem_if.egg-info/top_level.txt
