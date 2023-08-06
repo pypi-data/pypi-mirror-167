@@ -1,0 +1,17 @@
+cq_server/__init__.py,sha256=rJD7eN6-PJ36E4qbhd_nDsGqvlTKGyauPRB_0M1rTEU,73
+cq_server/cli.py,sha256=8OFaMUv0nIhh-JJegsYSViE14ItaCL0A79qTPpxFJqk,7539
+cq_server/exporter.py,sha256=ap6IFSbQ1Fw-tBQ0-mIi5Zzblsf19CoDdwlIxHaXe8c,5861
+cq_server/module_manager.py,sha256=HEUhAeHOgutl3G27A1IC-TQJZhH3fmbbfHguuJcWMcE,8062
+cq_server/server.py,sha256=JOd0r0dZCiRLlGkAk95qSa2LZEkBHxNJ9ctts1EPk40,2645
+cq_server/static/images/icon_cq.png,sha256=WvQcrCwx6f-3J-JIOyYCNQF8r5IqQiYXJxT1fjNe-xg,3739
+cq_server/static/vendor/three-cad-viewer.css,sha256=af1jhCjF4DCh5R5AJTJgB2luVMn7rqGikuRfGiv4B2Q,11628
+cq_server/static/vendor/three-cad-viewer.js,sha256=ITT8zg_A_AKAikUg2c8dNGxTvuvoBhyPNClGTvMpEwE,1482424
+cq_server/static/viewer.css,sha256=s-lNxpTm23wHlXXIkcJG-P6enscH_1G6FbiWHrJiZ4A,824
+cq_server/static/viewer.js,sha256=1USRPfBwusuXP7WH0fHtAac7lunOELzYk0eABBUA8bU,5600
+cq_server/templates/viewer.html,sha256=UHKLbxxDxMff9o-tMDXzgJ_h2hHrvmepHPGCf_f49IA,1751
+cq_server/ui.py,sha256=KN8PrfcVXqtgI01sRlXBMgeZvNTEPFdkcLpSeCxrDcg,1616
+cadquery_server-0.4.0.dist-info/entry_points.txt,sha256=D48c_5d4RSTH0PkABLyVvHzqvmg9H6iBU5altQWP92g,48
+cadquery_server-0.4.0.dist-info/LICENSE,sha256=fQyM-6jRZpOV6U3KEGivH_lAbcJ-0IaaVdkKlCnKxCM,1068
+cadquery_server-0.4.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+cadquery_server-0.4.0.dist-info/METADATA,sha256=hPvkqVOEjBxJb-X_44APskjdkJMpY4kerB2Bl1QCW2M,10688
+cadquery_server-0.4.0.dist-info/RECORD,,
