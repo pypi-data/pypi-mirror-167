@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: scylla-cqlsh
+Version: 6.0.2
+Summary: cqlsh is a Python-based command-line client for running CQL commands on a scylla cluster.
+Home-page: https://github.com/scylladb/scylla-cqlsh
+Author: Israel Fruchter
+Author-email: fruch@scylladb.com
+Project-URL: Changelog, https://github.com/scylladb/scylla-cqlsh#changelog
+Project-URL: Documentation, https://cassandra.apache.org/doc/latest/tools/cqlsh.html
+Keywords: cql,scylladb,cassandra,cqlsh
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7
+Description-Content-Type: text/markdown
+
+# scylla-cqlsh
+
+A fork of the cqlsh from https://github.com/apache/cassandra
+
+## Creation of the repo:
+
+```bash
+git clone  -b trunk --single-branch git@github.com:apache/cassandra.git
+sudo apt-get install git-filter-repo
+cd cassandra
+
+git filter-repo --path bin/cqlsh --path bin/cqlsh.py --path pylib/
+```
+
+
+# Testing:
+
+```bash
+pip install -e .
+pip install -r pylib/requirements.txt
+
+# run scylla with docker
+docker run  -d scylladb/scylla:latest --cluster-name test
+
+export DOCKER_ID=$(docker run -d scylladb/scylla:latest --cluster-name test)
+export CQL_TEST_HOST=$(docker inspect --format='{{ .NetworkSettings.IPAddress }}' ${DOCKER_ID})
+while ! nc -z ${CQL_TEST_HOST} 9042; do   
+  sleep 0.1 # wait for 1/10 of the second before check again
+done
+          
+ 
+# run scylla with CCM
+ccm create cqlsh_cluster -n 1 --scylla --version unstable/master:latest
+ccm start
+
+pytest
+```
