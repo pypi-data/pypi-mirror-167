@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+grafana_dashboard/__init__.py
+grafana_dashboard/dashboard.py
+grafana_dashboard/model.py
+grafana_dashboard_templater.egg-info/PKG-INFO
+grafana_dashboard_templater.egg-info/SOURCES.txt
+grafana_dashboard_templater.egg-info/dependency_links.txt
+grafana_dashboard_templater.egg-info/requires.txt
+grafana_dashboard_templater.egg-info/top_level.txt
