@@ -1,0 +1,15 @@
+p3orm/__init__.py,sha256=cEnM2erd5Ax5khdJTYk6lGp6dwVhVEIce4ogTNv01bk,337
+p3orm/core.py,sha256=GT9PGyjgm7TMKAjjSnwOpNsHuslpk1dCfquC6cB_n0g,1126
+p3orm/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p3orm/drivers/base.py,sha256=iNSlYIcTPk9-XIzx_qU2BpcEITO_6aS_PpuQKuGWNmI,643
+p3orm/drivers/postgres.py,sha256=EGs_9nPHtwPIeVcAQKfpfV0y2JFp2yamyh5vXLL6JLQ,4022
+p3orm/drivers/sqlite.py,sha256=gy8vzE_6RTXzsZOWgcgeqcT2yHf6p8bG9diYEAej3hY,2837
+p3orm/exceptions.py,sha256=itXKL8p1hibsqaGmbT6l4wShwcSGbI1IQ-CnFoBGrLI,651
+p3orm/fields.py,sha256=p3pvUayUvwskDJLUSpGlzR2NmzWwEE6huxe3RcvM-pM,2308
+p3orm/table.py,sha256=Acp2KG2C8VPee0ZRZNNV_LtQBFV1GePr8iHbz9R1Cek,14352
+p3orm/types.py,sha256=6G-oCEs7-dU7ArfKvMCISVudeXxTDadtvVSF1X2JPHk,166
+p3orm/utils.py,sha256=mRN9kySPNva9Q4K9F7pCFU_ZFNu6tdPh218_60SkZY8,2728
+p3orm-0.6.1.dist-info/LICENSE,sha256=H9k0MV72efT98Qv8PdDw6ABcu6c1lGfXgzg92DDfUvU,1082
+p3orm-0.6.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+p3orm-0.6.1.dist-info/METADATA,sha256=H07O74XTpPhOlg-O57h0LhdwbwB7uGC9G4qtLWWXNIM,4553
+p3orm-0.6.1.dist-info/RECORD,,
