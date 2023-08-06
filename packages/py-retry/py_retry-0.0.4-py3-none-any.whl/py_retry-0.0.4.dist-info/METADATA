@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py-retry
+Version: 0.0.4
+Summary: A nice tool for retrying tasks when they are failed.
+Home-page: https://github.com/Abeautifulsnow/PyRetry
+License: MIT
+Keywords: pyretry,retry,python,python3
+Author: Abeautifulsnow
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mock (>=4.0.3,<5.0.0)
+Requires-Dist: poetry-core (>=1.0.7,<2.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/Abeautifulsnow/PyRetry
+Description-Content-Type: text/markdown
+
+# PyRetry
+
+A nice decorator tool for retrying tasks when they failed. Forked from [retry](https://github.com/invl/retry)
+
