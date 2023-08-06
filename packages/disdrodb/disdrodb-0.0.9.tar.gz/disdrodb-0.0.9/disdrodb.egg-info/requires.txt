@@ -1,0 +1,7 @@
+click
+h5py
+netCDF4
+pyarrow
+PyYAML
+setuptools
+xarray
