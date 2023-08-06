@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: clean-folder_homework
+Version: 1.1.1
+Summary: test package
+Author: Max
+Author-email: author@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

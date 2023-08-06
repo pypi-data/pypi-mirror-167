@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+clean_folder_homework.egg-info/PKG-INFO
+clean_folder_homework.egg-info/SOURCES.txt
+clean_folder_homework.egg-info/dependency_links.txt
+clean_folder_homework.egg-info/entry_points.txt
+clean_folder_homework.egg-info/top_level.txt
+src/clean_folder/__init__.py
+src/clean_folder/clean-folder_homework.py
