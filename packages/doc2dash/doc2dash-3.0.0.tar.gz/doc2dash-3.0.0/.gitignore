@@ -1,0 +1,15 @@
+.cache
+.coverage
+.coverage.*
+.direnv
+.DS_Store
+.envrc
+.nox
+.pytest_cache
+.vscode
+*.docset
+*.pyc
+dist
+site
+test_data
+build

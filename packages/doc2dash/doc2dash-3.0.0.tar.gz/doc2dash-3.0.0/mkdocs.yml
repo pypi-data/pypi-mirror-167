@@ -1,0 +1,71 @@
+---
+site_name: doc2dash
+site_author: Hynek Schlawack
+copyright: Copyright &copy; 2012 Hynek Schlawack
+
+watch:
+  - README.md
+  - CHANGELOG.md
+  - src/doc2dash/parsers/types.py
+
+nav:
+  - About: index.md
+  - Installation: installation.md
+  - Supported Formats: formats.md
+  - Usage: usage.md
+  - Extending: extending.md
+  - Changelog: https://github.com/hynek/doc2dash/blob/main/CHANGELOG.md
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+repo_url: https://github.com/hynek/doc2dash
+repo_name: hynek/doc2dash
+edit_uri: blob/main/docs
+
+extra:
+  social:
+    - icon: fontawesome/solid/person-circle-question
+      link: https://hynek.me/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/hynek
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/hynek
+  version:
+    provider: mike # liesssss
+
+markdown_extensions:
+  - admonition
+  - smarty
+  - attr_list
+  - mkdocs-click
+  - pymdownx.smartsymbols
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+plugins:
+  - include-markdown
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          import:
+            - https://docs.python.org/3/objects.inv

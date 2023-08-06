@@ -1,0 +1,50 @@
+---
+name: Build binaries using pyOxidizer
+
+on:
+  push:
+    tags: ["*"]
+  workflow_dispatch:
+
+env:
+  PIP_DISABLE_PIP_VERSION_CHECK: 1
+  PIP_NO_PYTHON_VERSION_WARNING: 1
+
+jobs:
+  build:
+    name: Build binary for ${{ matrix.runs-on }}
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        runs-on: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # get correct version
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - run: pip install nox
+      - run: nox -e oxidize
+
+      - name: check binary
+        shell: bash
+        run: |
+          cd build/*/release/install/
+          ./doc2dash --version
+        if: runner.os != 'Windows'
+
+      - name: check windows binary
+        shell: bash
+        run: |
+          cd build/*/release/install/
+          ./doc2dash.exe --version
+        if: runner.os == 'Windows'
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: binaries
+          path: build/*
