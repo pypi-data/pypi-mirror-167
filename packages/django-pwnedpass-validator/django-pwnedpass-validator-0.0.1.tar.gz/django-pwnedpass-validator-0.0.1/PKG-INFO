@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-pwnedpass-validator
+Version: 0.0.1
+Summary: Django module to validate compromised passwords.
+Home-page: https://github.com/migonsa/django-pwnedpass-validator/releases/tag/v0.0.1
+Author: Miguel González Saiz
+Author-email: 100346858@alumnos.uc3m.es
+License: MIT
+Download-URL: https://github.com/migonsa/django-pwnedpass-validator/releases/download/v0.0.1/django-pwnedpass-validator-0.0.1.tar.gz
+Keywords: django,installable django app,validator,pwned passwords
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Django :: 4
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+
+UNKNOWN
+
