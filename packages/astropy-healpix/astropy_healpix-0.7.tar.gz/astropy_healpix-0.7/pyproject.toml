@@ -1,0 +1,15 @@
+[build-system]
+
+requires = ["setuptools",
+            "setuptools_scm",
+            "wheel",
+            "extension-helpers",
+            "oldest-supported-numpy"]
+
+build-backend = 'setuptools.build_meta'
+
+[tool.cibuildwheel]
+skip = "*-musllinux_* pp*"
+
+[tool.cibuildwheel.macos]
+archs = ["x86_64", "universal2"]
