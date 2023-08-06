@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoYuanli = TaluoYuanli.__main__:main
+taluo-yuanli = TaluoYuanli.__main__:main
+
