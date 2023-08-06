@@ -1,0 +1,14 @@
+click==7.0
+colorama==0.4.3
+getversion==1.0.2
+PyYAML<7.0,>=6.0
+
+[:sys_platform == "win32" or sys_platform == "cygwin"]
+paramiko==2.10.1
+
+[tests]
+pytest
+pytest-cov
+coveralls
+flake8
+mypy
