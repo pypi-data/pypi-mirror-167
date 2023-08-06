@@ -1,0 +1,9 @@
+numpy
+xarray
+comet_maths
+
+[dev]
+pre-commit
+tox
+sphinx
+sphinx_rtd_theme
