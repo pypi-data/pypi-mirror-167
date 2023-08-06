@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/pytseg/__init__.py
+src/pytseg/__version__.py
+src/pytseg/data.py
+src/pytseg/plot.py
+src/pytseg/seg.py
+src/pytseg/seg_multi.py
+src/pytseg.egg-info/PKG-INFO
+src/pytseg.egg-info/SOURCES.txt
+src/pytseg.egg-info/dependency_links.txt
+src/pytseg.egg-info/requires.txt
+src/pytseg.egg-info/top_level.txt
