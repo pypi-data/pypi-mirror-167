@@ -1,0 +1,10 @@
+instabase/__init__.py,sha256=VLpz3tWxVS7ANHDP0ba-iHkdAk1-gBI6mOmiZHY1Y7k,204
+instabase/__version__.py,sha256=2U9w3rIH4j_l8BE5i4_Rc45RdUPmFDbRqEBj902Wqf8,1117
+instabase/_utils.py,sha256=OvFi8crrZeshfR_bPfh3_6LkCxW_ixG_TPQ2oH6qcIo,370
+instabase/enums.py,sha256=Gl6u_x6aOa-IV4jkUfUfCGhN3bDvZANGQWa11jV0tHY,185
+instabase/sdk.py,sha256=TiV0VsBb-lTFvoXLxZ2wh8um1LPPTvv4Hcqu6E0oQRg,2443
+instabase-0.0.1.dist-info/METADATA,sha256=r7fkQPeoC-FcTMoAc2sfM4jnO8cwTk3b5pyHvSIxEDY,14095
+instabase-0.0.1.dist-info/WHEEL,sha256=sb4ZHsmozXdkdXRvpMHZmhxsxQvL8DERDUEGA9tAfc8,83
+instabase-0.0.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instabase-0.0.1.dist-info/license_files/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+instabase-0.0.1.dist-info/RECORD,,
