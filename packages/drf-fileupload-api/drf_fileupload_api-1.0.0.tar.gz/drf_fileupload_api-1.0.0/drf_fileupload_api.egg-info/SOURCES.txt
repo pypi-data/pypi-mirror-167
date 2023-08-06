@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+drf_fileupload/__init__.py
+drf_fileupload/apps.py
+drf_fileupload/models.py
+drf_fileupload/serializers.py
+drf_fileupload/urls.py
+drf_fileupload/views.py
+drf_fileupload/migrations/0001_initial.py
+drf_fileupload/migrations/__init__.py
+drf_fileupload/version/version.json
+drf_fileupload_api.egg-info/PKG-INFO
+drf_fileupload_api.egg-info/SOURCES.txt
+drf_fileupload_api.egg-info/dependency_links.txt
+drf_fileupload_api.egg-info/requires.txt
+drf_fileupload_api.egg-info/top_level.txt
