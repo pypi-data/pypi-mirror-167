@@ -1,0 +1,7 @@
+setup.py
+LRLBOT/__init__.py
+LRLBOT.egg-info/PKG-INFO
+LRLBOT.egg-info/SOURCES.txt
+LRLBOT.egg-info/dependency_links.txt
+LRLBOT.egg-info/requires.txt
+LRLBOT.egg-info/top_level.txt
