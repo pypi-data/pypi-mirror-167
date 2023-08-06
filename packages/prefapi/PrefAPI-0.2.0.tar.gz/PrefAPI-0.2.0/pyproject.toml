@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "PrefAPI"
+version = "0.2.0"
+description = "API for Pref game servers"
+authors = ["Cubic"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+ursina = "^5.0.0"
+UrsinaNetworking = "^2.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
