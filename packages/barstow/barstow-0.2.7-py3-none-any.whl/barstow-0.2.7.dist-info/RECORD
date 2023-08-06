@@ -1,0 +1,9 @@
+barstow/__init__.py,sha256=Z89VOJ05YHys9nxuDrSHl6U5P4hp2FL6FT-1fim9yV8,104
+barstow/dataset.py,sha256=yJ3UzvuUc3oOn-_8AWBn8ITF3yM1kkMWPwZpzX9eeDE,9333
+barstow/io.py,sha256=ydTO3g0irsXFKd2hjNwtCm1r3WaB2EHqLzcr_6FoZKI,2792
+barstow/partitioning.py,sha256=mi_8sbUsYCGCCI67hD_-RDHAtgtpKijJEXE0wvk_buM,1061
+barstow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+barstow/stowage.py,sha256=mJwiXCRqpD09wBeswfSqI0495fUkfPsKisb3LjUKMiQ,4856
+barstow-0.2.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+barstow-0.2.7.dist-info/METADATA,sha256=Tf7LIt9e8BWDQr1w1tiHDUWmt5qG0sOQ8sknXIaHYko,452
+barstow-0.2.7.dist-info/RECORD,,
