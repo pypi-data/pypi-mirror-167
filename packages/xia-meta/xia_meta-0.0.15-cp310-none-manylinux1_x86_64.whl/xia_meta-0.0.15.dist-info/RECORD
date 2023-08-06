@@ -1,0 +1,10 @@
+xia_meta/__init__.py,sha256=wsmfWIFYbiumdTLJWF8TLbgr3WlbTtGi5p50kMar9Z4,285
+xia_meta/asset.cpython-310-x86_64-linux-gnu.so,sha256=eqesIoV1HHqvUIcmcjwJbI150hO1snURx0qf1DEjt7s,788968
+xia_meta/health.cpython-310-x86_64-linux-gnu.so,sha256=V_buPekvvxjsZwIxKHWLkbgeahLD1yKsdP27I3Ako90,809448
+xia_meta/meta.cpython-310-x86_64-linux-gnu.so,sha256=yCNMtsorKvo97KNuN6iKdKIbq81zpknrBu74oaDzOoA,838152
+xia_meta/tools.cpython-310-x86_64-linux-gnu.so,sha256=P4u98gAm7dCfe3BtolYqckV9XzQ2TntXs6bti6roa7Q,743880
+xia_meta-0.0.15.dist-info/LICENSE,sha256=6IJZU6MxRh9zrBB3mhBzWZBocZwh-egw1BB4XRWq2ns,155
+xia_meta-0.0.15.dist-info/METADATA,sha256=Z-7GZLsTHPwLIR5huG1-zAhNpq15u7nlBETow4VFA0o,352
+xia_meta-0.0.15.dist-info/WHEEL,sha256=Kn0XEVEprF3m5Ls7p1vDRSgmlko_ccaWbbQdh4VEEUE,108
+xia_meta-0.0.15.dist-info/top_level.txt,sha256=A1LHjfteOLrSw4HhYEPVd8UBy61ssU7xrQvEn7mM7HM,9
+xia_meta-0.0.15.dist-info/RECORD,,
