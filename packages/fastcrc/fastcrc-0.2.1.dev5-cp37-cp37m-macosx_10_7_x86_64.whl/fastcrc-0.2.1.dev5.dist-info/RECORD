@@ -1,0 +1,11 @@
+fastcrc-0.2.1.dev5.dist-info/METADATA,sha256=nXmPh1uDcojThnzDztHNDXMa8xdxQFkl6StQApbsdpQ,1670
+fastcrc-0.2.1.dev5.dist-info/WHEEL,sha256=ec8t4GmrE1xR_wXk-MArbPS7sUulIOWQmfq9-cZol1Y,105
+fastcrc/__info__.py,sha256=qA-gRgWCiVfDgxZS8a3derGuhT574BrMzRDAjq7zLSY,307
+fastcrc/crc32.py,sha256=Qa4qP8DJGaXBhtplGM0kigtMEkMtt-rSGzGnntcfd48,6476
+fastcrc/crc16.py,sha256=0zw4hjLN-4VG09smJWuFaQlfnPlpu8AtO9RUO67jiS4,16219
+fastcrc/__init__.py,sha256=CmxqJvxpY2YE5sOoHBMcApTdMBZnnWH4lZ0CpUGDhNI,197
+fastcrc/utils.py,sha256=emaZwfgB10x0injh0xqCElELmvkMfxt9FsuqifIfczw,244
+fastcrc/crc64.py,sha256=5icY5U7Q3yPzszZiqBIeT1AMpOgxhk-hyxeSbLrp8zM,2204
+fastcrc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcrc/fastcrc.cpython-37m-darwin.so,sha256=5MsSsVjzSAOQuTQuPcgeSqjngxDHO-sObRntCa556dc,715472
+fastcrc-0.2.1.dev5.dist-info/RECORD,,
