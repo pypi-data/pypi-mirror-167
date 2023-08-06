@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+DSSPparser/__init__.py
+DSSPparser/cmdline.py
+DSSPparser/parser.py
+DSSPparser/pdbToxssp.py
+DSSPparser.egg-info/PKG-INFO
+DSSPparser.egg-info/SOURCES.txt
+DSSPparser.egg-info/dependency_links.txt
+DSSPparser.egg-info/entry_points.txt
+DSSPparser.egg-info/requires.txt
+DSSPparser.egg-info/top_level.txt
+DSSPparser.egg-info/zip-safe
