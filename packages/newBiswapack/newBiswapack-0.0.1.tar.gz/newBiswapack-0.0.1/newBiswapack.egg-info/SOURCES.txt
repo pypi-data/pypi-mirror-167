@@ -1,0 +1,8 @@
+MANIFEST.in
+licence.txt
+setup.py
+newBiswapack.egg-info/PKG-INFO
+newBiswapack.egg-info/SOURCES.txt
+newBiswapack.egg-info/dependency_links.txt
+newBiswapack.egg-info/top_level.txt
+newFol/__init__.py
