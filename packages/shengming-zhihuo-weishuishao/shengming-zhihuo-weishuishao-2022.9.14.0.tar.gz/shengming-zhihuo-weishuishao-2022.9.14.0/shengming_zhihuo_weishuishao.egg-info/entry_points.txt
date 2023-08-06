@@ -1,0 +1,4 @@
+[console_scripts]
+ShengmingZhihuoWeishuishao = ShengmingZhihuoWeishuishao.__main__:main
+shengming-zhihuo-weishuishao = ShengmingZhihuoWeishuishao.__main__:main
+
