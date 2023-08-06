@@ -1,0 +1,13 @@
+jsonschema<4
+matplotlib
+numpy
+
+[jupyter]
+ipywidgets-jsonschema
+
+[mpi]
+mpi4py
+
+[tests]
+pytest
+pytest-mpi
