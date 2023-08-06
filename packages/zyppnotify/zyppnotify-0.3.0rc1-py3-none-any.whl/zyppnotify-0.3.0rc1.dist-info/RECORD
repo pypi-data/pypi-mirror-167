@@ -1,0 +1,11 @@
+notify/__init__.py,sha256=uGqmXbyBBTfp9BBwhbdd55KAT85BDrGPaqIavqAMgUk,377
+notify/exceptions.py,sha256=PSgw-hrxhkSQoo7Ub5VlhzFH1ntwybfUZrm5XTV8ixw,109
+notify/mail.py,sha256=1dwDiC4mWIkKaVPKKZ78Pl7Ru8w99C0bw2woipcAX9Q,3531
+notify/teams.py,sha256=F6pzZLxTdDBqQQb7pOVNMe86CZGkEjIioKjRv5xV60I,3599
+notify/types.py,sha256=OVmrbeW5iI-LcLtP1Xwt2lBno0P2TEyR_R8Z76ze2UM,94
+notify/utils.py,sha256=2lj7qS7AngMTf8otEXyXbAvJjPHi4o5kwuQq4Anq7Uo,3885
+zyppnotify-0.3.0rc1.dist-info/LICENSE,sha256=iQGrFtkbp5R0Ueu4IyNFis7MyeIhqEWIWZPcfg4Ll68,1061
+zyppnotify-0.3.0rc1.dist-info/METADATA,sha256=XuCCRaqTzd2PtcPBalCIKNwnlnDMw0D-1DU08I2AkSE,2898
+zyppnotify-0.3.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zyppnotify-0.3.0rc1.dist-info/top_level.txt,sha256=Kk6_ellnkvCS1o5NMa6G2vRgPmvON-4lzi9zajDOUfI,7
+zyppnotify-0.3.0rc1.dist-info/RECORD,,
