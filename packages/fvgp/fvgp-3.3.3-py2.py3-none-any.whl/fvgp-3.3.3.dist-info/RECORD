@@ -1,0 +1,17 @@
+fvgp/__init__.py,sha256=sV8LHfxUffgCdnKKb3JYj4lyjIBKePW0sav5Bc2bOAA,244
+fvgp/_version.py,sha256=7niZx4iNdbpHp7vvZZDVcBHPyWT7LVM8-5aLkLN1dGs,497
+fvgp/fvgp.py,sha256=H2iBt-dVHwHFXHlbtrrhQGct1JSdOJp6U-cOQPL_lOk,11016
+fvgp/gp.py,sha256=jnBh0QRrn69elheSXAzid71gS55nCudnGlZcbbgRtNg,79217
+fvgp/gp2Scale.py,sha256=OyUtn9S6O8OVZCdcJQBvZtthcOSr9W6Wc7D6Jxcs12U,26304
+fvgp/gpJAX.py,sha256=bkxIKShORTUsK-elCHE-ETM6tI2Kmya4jPOKigxHyms,32692
+fvgp/mcmc.py,sha256=mtexAIhWRzbztsebyqrt2NOgJ0VrE5croPSwc72vH-c,1751
+fvgp/misc.py,sha256=W-s36-B_nrElCZ8MqD7yYbh4hR5n_BktSMa1dDBFoss,2155
+fvgp/sparse_matrix.py,sha256=RVckUDNG4aBBkhYsBYVJLa4pFRrYnKvfCmx_RUwkgQQ,4749
+fvgp-3.3.3.dist-info/AUTHORS.rst,sha256=x8jdtzE0OxsyWJ51YFPvt6o673CYGzo-jE1eDug9b4Q,148
+fvgp-3.3.3.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fvgp-3.3.3.dist-info/LICENSE,sha256=tMWRXBiUdCmaHYwVqISiAsoJfsJD1ylcQz7zI3eq1Mk,1629
+fvgp-3.3.3.dist-info/METADATA,sha256=0ooHWA-EN1zvtw71e3zN7kh1rwaS2wEUOhmYLGk-uEA,3082
+fvgp-3.3.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+fvgp-3.3.3.dist-info/entry_points.txt,sha256=FGzxRmLD-YxlaWrYQRmPesy_pqFhQEBUXDuEey_55f8,39
+fvgp-3.3.3.dist-info/top_level.txt,sha256=V_lmgRZnKWNMoTsqAv7ngP2dSF3qh2xYnRKfc6UZIMw,5
+fvgp-3.3.3.dist-info/RECORD,,
