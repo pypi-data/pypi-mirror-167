@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: parafields
+Version: 0.0.1
+Summary: Parallel Parameter Fields for Uncertainty Quantification
+Maintainer-email: Dominic Kempf <dominic.kempf@iwr.uni-heidelberg.de>
+License: BSD-3
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: jupyter
+Provides-Extra: mpi
+Provides-Extra: tests
+License-File: LICENSE.md
+
+# Welcome to parafields
+
+*The Python libary is currently under development.*
