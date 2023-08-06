@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "retrievers"
+version = "0.1.0"
+description = "Retrieval algorithms for machine learning"
+authors = ["Patrick Barker <patrickbarkerco@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.12.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

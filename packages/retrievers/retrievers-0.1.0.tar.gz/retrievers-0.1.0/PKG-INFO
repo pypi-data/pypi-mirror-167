@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: retrievers
+Version: 0.1.0
+Summary: Retrieval algorithms for machine learning
+License: Apache 2.0
+Author: Patrick Barker
+Author-email: patrickbarkerco@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: torch (>=1.12.1,<2.0.0)
