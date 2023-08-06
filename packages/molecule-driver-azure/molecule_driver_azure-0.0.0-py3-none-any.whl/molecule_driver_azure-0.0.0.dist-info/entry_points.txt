@@ -1,0 +1,2 @@
+[molecule.driver]
+molecule-driver-azure = molecule_driver_azure.driver:MoleculeDriverAzure
