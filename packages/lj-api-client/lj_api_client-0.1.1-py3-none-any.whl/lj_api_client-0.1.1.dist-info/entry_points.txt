@@ -1,0 +1,3 @@
+[console_scripts]
+ljcli=lj_api_client.cli:app
+
