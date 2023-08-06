@@ -1,0 +1,5 @@
+[console_scripts]
+respotgui = respot:main
+
+[gui_scripts]
+respotgui = respot:main
