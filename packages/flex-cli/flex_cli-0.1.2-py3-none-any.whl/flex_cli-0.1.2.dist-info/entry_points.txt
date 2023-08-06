@@ -1,0 +1,4 @@
+[console_scripts]
+flex-cli=flex-cli.__main__:main
+lcli=lcli.__main__:main
+
