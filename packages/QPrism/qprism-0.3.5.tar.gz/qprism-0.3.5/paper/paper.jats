@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>Journal of Open Source Software</journal-title>
+<abbrev-journal-title>JOSS</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">2475-9066</issn>
+<publisher>
+<publisher-name>Open Journals</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">0</article-id>
+<article-id pub-id-type="doi">N/A</article-id>
+<title-group>
+<article-title>QPrism: A Python Library for Quality Assessment of Sensor
+Data Collected in Real-world Settings</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Halabi</surname>
+<given-names>Ramzi</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="corresp" rid="cor-1"><sup>*</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Lin</surname>
+<given-names>Zixiong</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Selvarajan</surname>
+<given-names>Rahavi</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Kabrit</surname>
+<given-names>Jana</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Herd</surname>
+<given-names>Calvin</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Li</surname>
+<given-names>Sophia</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Pratap</surname>
+<given-names>Abhishek</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-4"/>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Krembil Centre for Neuroinformatics, Centre for Addiction
+and Mental Health, Toronto, ON, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Department of Psychiatry, University of Toronto, ON,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Vector Institute for Artificial Intelligence, Toronto, ON,
+M5T 1R8, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>King’s College London, London, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Department of Biomedical Informatics and Medical Education,
+University of Washington, Seattle, WA, USA</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor-1">* E-mail: <email></email></corresp>
+</author-notes>
+<volume>¿VOL?</volume>
+<issue>¿ISSUE?</issue>
+<fpage>¿PAGE?</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>Visualising sensor data, videos and audios</kwd>
+<kwd>Analyzing sensor data, videos and audios</kwd>
+<kwd>Python toolbox</kwd>
+<kwd>Quality Assessment</kwd>
+<kwd>Wearable Sensors</kwd>
+<kwd>Sensor feature extraction</kwd>
+<kwd>time series analysis</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>With the growing ubiquity of smartphones and wearables there is
+  growing interest in using connected devices embedded with multimodal
+  sensing for health research. However, gathering sensor data at scale
+  in real world settings through a growing ecosystem of smart devices
+  can lead to variability in data collection. There could be intra- and
+  inter- device differences in data collected from a wide range of
+  device types and models e.g. Android, iOS, along with multiple sources
+  of variability across data acquisition and management
+  e.g. device/sensor configuration, environment.</p>
+  <p>In order to develop robust disease phenotypes and digital endpoints
+  there is an urgent need for assessment of sensor data quality,
+  collected from large populations in real-world settings. We developed
+  the QPrism Python package to serve as a quality assessment toolbox for
+  data collected using sensors in smartphones and wearables (eg.
+  accelerometer, gyroscope, audio and video). The package leverages
+  digital signal and image processing techniques along with machine
+  learning algorithms to assess the quality of sensor data covering data
+  availability, interpretability, noise contamination and consistency.
+  QPrism is completely data-driven, requiring no a priori data
+  assumptions or application-specific parameter tuning to generate a
+  comprehensive data quality report.</p>
+</sec>
+<sec id="statement-of-need">
+  <title>Statement of need</title>
+  <p>In 2022, the number of smartphone users reached 6.6 billion, and is
+  projected to reach 7.3 billion in 2025 (Statista
+  (<xref alt="2022b" rid="ref-statistaSmartphone" ref-type="bibr">2022b</xref>)).
+  In addition, the adoption of wearable devices doubled from 325 million
+  in 2016 to 722 million in 2019, and is projected to exceed 1 billion
+  by the end of 2022 (Statista
+  (<xref alt="2022a" rid="ref-statistaWearable" ref-type="bibr">2022a</xref>)).
+  With the increasingly high penetration of consumer focused smart
+  devices, there has been growing interest to assess the feasibility of
+  using such devices to better understand variations in individual-level
+  lifestyles and its impact on health outcomes. However the individual
+  level device/sensor data gathered in real-world settings may be
+  impacted by several sources of variability - from data acquisition
+  (e.g. device/sensor configuration, environment, meta-data), to data
+  management (e.g. missing data, device/sensor malfunction, sampling
+  irregularity) (Roussos et al.
+  (<xref alt="2022" rid="ref-Roussos" ref-type="bibr">2022</xref>)).</p>
+  <p>Prior to using the data for health research, there is an urgent
+  need for a comprehensive data-driven quality assessment on multimodal
+  real-world digital health data across multiple dimensions -
+  completeness, correctness, consistency. Data completeness assesses the
+  level of valid data availability, while correctness assesses the data
+  format and value integrity, and consistency evaluates representational
+  and value uniformity.</p>
+  <p>QPrism fills the current gap by allowing researchers and developers
+  to perform data-driven, multimodal, and multi-dimensional data quality
+  assessment. QPrism provides up to 21 robust multimodal sensor data
+  quality metrics (DQM) in a single package for comprehensive
+  data-driven quality assessment of real-word sensor data. These DQMs
+  are quality descriptors for smartphone and wearable sensor data,
+  allowing quantitative assessment of sensor data quality, including
+  video and audio data
+  (<xref alt="Figure 1" rid="figU003A1">Figure 1</xref>).</p>
+</sec>
+<sec id="methodology">
+  <title>Methodology</title>
+  <p>The DQMs are initially computed at an individual sensor data
+  observation level e.g. accelerometer output, video recording, or
+  image, up to a multimodal database level. The users may also select
+  input data of different sizes, as well as selecting the
+  application-specific DQMs of interest. Upon DQM computation, QPrism
+  aggregates and reports the summary level results in a .csv file
+  format. The full list of DQMs and descriptions are provided in the
+  <ext-link ext-link-type="uri" xlink:href="https://qprism.readthedocs.io/en/latest/glossary.html">glossary</ext-link>,
+  and their mathematical formulae are provided in the
+  <ext-link ext-link-type="uri" xlink:href="https://qprism.readthedocs.io/en/latest/inplementation.html">implementation</ext-link>.</p>
+  <sec id="sensor-data-quality">
+    <title>Sensor Data Quality</title>
+    <p>The Sensor submodule evaluates the quality of sensor data across
+    three dimensions: correctness, completeness, and consistency via
+    computation of nine data quality metrics.</p>
+    <p>Four completeness DQMs are provided to assess the level of data
+    availability i.e. completeness. First, the level of data validity is
+    computed as the valid data ratio (VDR) such that ‘nan’ data points
+    are regarded as invalid. Second, the interpretable record length
+    ratio (IRLR) assesses the ratio of sensor data observations
+    represented in less than two data points. Invalid and
+    uninterpretable data is excluded from further quality assessment.
+    Second, multichannel sensor data is assessed for the availability of
+    data channels e.g. 3-axis accelerometer via computation of sensor
+    channel ratio (SCR). Lastly, data point missingness is investigated
+    as a manifestation of irregular sensor data sampling via computation
+    of the missing data ratio (MDR), which is majorly affected by
+    inter-sensor and inter-device data sampling protocols, and external
+    and internal data collection factors.</p>
+    <p>On the sensor data correctness level, QPrism assesses the noise
+    contamination levels via two correctness DQMs: the signal-to-noise
+    ratio (SNR) and the anomalous point density (APD). First, the SNR is
+    computed as an approximation of noise levels in sensor data
+    observation rather than an accurate calculation since separate noise
+    recordings are unavailable. Second, the APD is computed via Feature
+    Bagging (Lazarevic &amp; Kumar
+    (<xref alt="2005" rid="ref-Lazarevic" ref-type="bibr">2005</xref>))
+    followed by decision score thresholding (Yang et al.
+    (<xref alt="2019" rid="ref-Yang" ref-type="bibr">2019</xref>)),
+    indicating the ratio of anomalies in sensor data observations.</p>
+    <p>And lastly, on the data consistency side, QPrism provides three
+    consistency metrics to assess the level of uniformity and regularity
+    of data: sampling rate consistency (SRC), record length consistency
+    (RLC), and value range consistency (VRC). First, SRC assesses the
+    uniformity of data sampling according to a data-driven sampling rate
+    requiring no prior input or parameter tuning. However, RLC and VRC
+    require multiple records to assess the level of data length and
+    dynamic range uniformity between records, respectively.</p>
+    <p>The sensor submodule accepts structured time series data inputs
+    having timestamps as the first column and record data as the rest of
+    the columns.</p>
+  </sec>
+  <sec id="video-data-quality">
+    <title>Video Data Quality</title>
+    <p>QPrism has a separate submodule to assess the quality of video
+    data using nine DQMs
+    (<xref alt="Figure 1" rid="figU003A1">Figure 1</xref>). The video
+    DQMs range from : total video length, resolution, format, bit rate,
+    detected objects, frame rate, creation date, to illumination and
+    assessment of artifact proportion. To quantify some of the video
+    DQMs, QPrism integrates open-source packages (Bradski
+    (<xref alt="2000" rid="ref-Bradski" ref-type="bibr">2000</xref>))(Zulko
+    (<xref alt="2020" rid="ref-moviepy" ref-type="bibr">2020</xref>)).
+    Video DQMs provide the main properties of a single or multiple video
+    recordings, to be further interpreted by the user according to their
+    application interest and intended use e.g length, frame rate. Some
+    of the advanced DQMs such as the detected objects use machine vision
+    concepts to investigate the content of the video(s) with respect to
+    the intended use. The percentage of distortion present in the video
+    can be calculated using the “check_artifacts’’ function. This
+    submodule also supports a YOLOv5 (Ayush &amp; Glenn
+    (<xref alt="2020" rid="ref-yolov5" ref-type="bibr">2020</xref>))
+    model pre-trained on the COCO dataset for video object detection and
+    list generation. The video data submodule accepts video data in mp4
+    format.</p>
+  </sec>
+  <sec id="audio-data-quality">
+    <title>Audio Data Quality</title>
+    <p>The audio data submodule in QPrism includes four audio data
+    quality metrics, including two data preprocessing/conversion helper
+    functions. This submodule makes use of a set of open-source
+    libraries such as Librosa (McFee et al.
+    (<xref alt="2015" rid="ref-McFee" ref-type="bibr">2015</xref>)),
+    Scipy (Virtanen et al.
+    (<xref alt="2020" rid="ref-Virtanen" ref-type="bibr">2020</xref>)),
+    Audioop, MoviePy, and Pydub. Standard audio data descriptors include
+    data length, root mean squared (RMS) value, and sampling rate. The
+    RMS value indicates the level or volume of the audio signal, which
+    reflects a level of interpretability of audio data when extremely
+    low. These descriptors are to be built upon by the user to be
+    transformed into application-specific DQMs. QPrism also performs
+    deep learning-based classification of present sounds in the input
+    audio file(s) via transfer learning from the YAMNet model (Plakal
+    &amp; Dan
+    (<xref alt="2020" rid="ref-YAMNet" ref-type="bibr">2020</xref>)).
+    Additionally, to make use of QPrism’s sensor data DQMs that are
+    fully compatible with audio data, we provided a function to convert
+    audio files into acceptable sensor submodule input data
+    i.e. structured data frames that can be used to generate the nine
+    sensor DQMs described above. The audio submodule accepts audio data
+    in mp3 and wav formats.</p>
+    <fig>
+      <caption><p>QPrism Submodules and Functions
+      <styled-content id="figU003A1"></styled-content></p></caption>
+      <graphic mimetype="image" mime-subtype="png" xlink:href="figures/Figure1.png" xlink:title="" />
+    </fig>
+  </sec>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>The development of QPrism package is supported by Krembil
+  Foundation.</p>
+  <p>The authors also like to acknowledge Aditi Surendra for designing
+  the module function illustration.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-yolov5">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Ayush</surname><suffix>Chaurasia</suffix></name>
+        <name><surname>Glenn</surname><given-names>Jocher</given-names></name>
+      </person-group>
+      <article-title>YOLOv5</article-title>
+      <source>GitHub repository</source>
+      <publisher-name>GitHub</publisher-name>
+      <year iso-8601-date="2020">2020</year>
+      <uri>https://github.com/ultralytics/yolov5</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bradski">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bradski</surname><given-names>Gary</given-names></name>
+      </person-group>
+      <article-title>The OpenCV library</article-title>
+      <source>Dr. Dobb’s Journal</source>
+      <year iso-8601-date="2000">2000</year>
+      <volume>25(11)</volume>
+      <fpage>120</fpage>
+      <lpage>125</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lazarevic">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lazarevic</surname><given-names>Aleksandar</given-names></name>
+        <name><surname>Kumar</surname><given-names>Vipin</given-names></name>
+      </person-group>
+      <article-title>Feature bagging for outlier detection</article-title>
+      <source>Proceedings of the Estonian Academy of Sciences. Biology, Ecology = Eesti Teaduste Akadeemia Toimetised. Bioloogia, Okoloogia.</source>
+      <year iso-8601-date="2005-08">2005</year><month>08</month>
+      <pub-id pub-id-type="doi">10.1145/1081870.1081891</pub-id>
+      <fpage>157</fpage>
+      <lpage>166</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-McFee">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>McFee</surname><given-names>Brian</given-names></name>
+        <name><surname>Raffel</surname><given-names>Colin</given-names></name>
+        <name><surname>Liang</surname><given-names>Dawen</given-names></name>
+        <name><surname>Ellis</surname><given-names>Daniel</given-names></name>
+      </person-group>
+      <article-title>Librosa: Audio and music signal analysis in python.</article-title>
+      <source>Conference on Knowledge Discovery in Data: Proceeding of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining</source>
+      <year iso-8601-date="2015-01">2015</year><month>01</month>
+      <pub-id pub-id-type="doi">10.25080/Majora-7b98e3ed-003</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-moviepy">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Zulko</surname></name>
+      </person-group>
+      <article-title>MoviePy</article-title>
+      <source>GitHub repository</source>
+      <publisher-name>GitHub</publisher-name>
+      <year iso-8601-date="2020">2020</year>
+      <uri>https://github.com/Zulko/moviepy</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Roussos">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Roussos</surname><given-names>George</given-names></name>
+        <name><surname>Herrero</surname><given-names>Teresa Ruiz</given-names></name>
+        <name><surname>Hill</surname><given-names>Derek L.</given-names></name>
+        <name><surname>Dowling</surname><given-names>Ariel V.</given-names></name>
+        <name><surname>Müller</surname><given-names>Martijn L. T. M.</given-names></name>
+        <name><surname>Evers</surname><given-names>Luc J. W.</given-names></name>
+        <name><surname>Burton</surname><given-names>Jackson</given-names></name>
+        <name><surname>Derungs</surname><given-names>Adrian</given-names></name>
+        <name><surname>Fisher</surname><given-names>Katherine</given-names></name>
+        <name><surname>Kilambi</surname><given-names>Krishna Praneeth</given-names></name>
+        <name><surname>Mehrotra</surname><given-names>Nitin</given-names></name>
+        <name><surname>Bhatnagar</surname><given-names>Roopal</given-names></name>
+        <name><surname>Sardar</surname><given-names>Sakshi</given-names></name>
+        <name><surname>Stephenson</surname><given-names>Diane</given-names></name>
+        <name><surname>Adams</surname><given-names>Jamie L.</given-names></name>
+        <name><surname>Dorsey</surname><given-names>E. Ray</given-names></name>
+        <name><surname>Cosman</surname><given-names>Josh</given-names></name>
+      </person-group>
+      <article-title>Identifying and characterizing sources of variability in digital outcome measures in parkinson’s disease.</article-title>
+      <source>NPJ digital medicine</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>5(1)</volume>
+      <pub-id pub-id-type="doi">10.1038/s41746-022-00643-4</pub-id>
+      <fpage>1</fpage>
+      <lpage>10</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-statistaSmartphone">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Statista</surname></name>
+      </person-group>
+      <article-title>Number of smartphone subscriptions worldwide from 2016 to 2021, with forecasts from 2022 to 2027.</article-title>
+      <source>Statista</source>
+      <publisher-name>Statista Research Department</publisher-name>
+      <year iso-8601-date="2022-08">2022</year><month>08</month>
+      <uri>https://www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-statistaWearable">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Statista</surname></name>
+      </person-group>
+      <article-title>Number of connected wearable devices worldwide from 2016 to 2022.</article-title>
+      <source>Statista</source>
+      <publisher-name>Statista Research Department</publisher-name>
+      <year iso-8601-date="2022-02">2022</year><month>02</month>
+      <uri>https://www.statista.com/statistics/487291/global-connected-wearable-devices/</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Virtanen">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Virtanen</surname><given-names>Pauli</given-names></name>
+        <name><surname>Gommers</surname><given-names>Ralf</given-names></name>
+        <name><surname>Oliphant</surname><given-names>Travis E</given-names></name>
+        <name><surname>Haberland</surname><given-names>Matt</given-names></name>
+        <name><surname>Reddy</surname><given-names>Tyler</given-names></name>
+        <name><surname>Cournapeau</surname><given-names>David</given-names></name>
+        <name><surname>Burovski</surname><given-names>Evgeni</given-names></name>
+        <name><surname>Peterson</surname><given-names>Pearu</given-names></name>
+        <name><surname>Weckesser</surname><given-names>Warren</given-names></name>
+        <name><surname>Bright</surname><given-names>Jonathan</given-names></name>
+        <name><surname>Walt</surname><given-names>Stéfan J van der</given-names></name>
+        <name><surname>Brett</surname><given-names>Matthew</given-names></name>
+        <name><surname>Wilson</surname><given-names>Joshua</given-names></name>
+        <name><surname>Millman</surname><given-names>K Jarrod</given-names></name>
+        <name><surname>Mayorov</surname><given-names>Nikolay</given-names></name>
+        <name><surname>Nelson</surname><given-names>Andrew R J</given-names></name>
+        <name><surname>Jones</surname><given-names>Eric</given-names></name>
+        <name><surname>Kern</surname><given-names>Robert</given-names></name>
+        <name><surname>Larson</surname><given-names>Eric</given-names></name>
+        <name><surname>Carey</surname><given-names>C J</given-names></name>
+        <name><surname>Polat</surname><given-names>İlhan</given-names></name>
+        <name><surname>Feng</surname><given-names>Yu</given-names></name>
+        <name><surname>Moore</surname><given-names>Eric W</given-names></name>
+        <name><surname>VanderPlas</surname><given-names>Jake</given-names></name>
+        <name><surname>Laxalde</surname><given-names>Denis</given-names></name>
+        <name><surname>Perktold</surname><given-names>Josef</given-names></name>
+        <name><surname>Cimrman</surname><given-names>Robert</given-names></name>
+        <name><surname>Henriksen</surname><given-names>Ian</given-names></name>
+        <name><surname>Quintero</surname><given-names>E A</given-names></name>
+        <name><surname>Harris</surname><given-names>Charles R</given-names></name>
+        <name><surname>Archibald</surname><given-names>Anne M</given-names></name>
+        <name><surname>Ribeiro</surname><given-names>Antônio H</given-names></name>
+        <name><surname>Pedregosa</surname><given-names>Fabian</given-names></name>
+        <name><surname>Mulbregt</surname><given-names>Paul van</given-names></name>
+      </person-group>
+      <article-title>SciPy 1.0: Fundamental algorithms for scientific computing in python</article-title>
+      <source>Nature methods</source>
+      <year iso-8601-date="2020">2020</year>
+      <volume>17(3)</volume>
+      <pub-id pub-id-type="doi">10.1038/s41592-019-0686-2</pub-id>
+      <fpage>261</fpage>
+      <lpage>272</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-YAMNet">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Plakal</surname><given-names>Manoj</given-names></name>
+        <name><surname>Dan</surname><given-names>Ellis</given-names></name>
+      </person-group>
+      <article-title>YAMNet</article-title>
+      <source>GitHub repository</source>
+      <publisher-name>GitHub</publisher-name>
+      <year iso-8601-date="2020-08">2020</year><month>08</month>
+      <uri>https://github.com/tensorflow/models/tree/master/research/audioset/yamnet</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Yang">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yang</surname><given-names>Jiawei</given-names></name>
+        <name><surname>Rahardja</surname><given-names>Susanto</given-names></name>
+        <name><surname>Fränti</surname><given-names>Pasi</given-names></name>
+      </person-group>
+      <article-title>Outlier detection: How to threshold outlier scores?</article-title>
+      <source>Proceedings of the International Conference on artificial intelligence, information processing and cloud computing</source>
+      <year iso-8601-date="2019">2019</year>
+      <pub-id pub-id-type="doi">10.1145/3371425.3371427</pub-id>
+      <fpage>1</fpage>
+      <lpage>6</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
