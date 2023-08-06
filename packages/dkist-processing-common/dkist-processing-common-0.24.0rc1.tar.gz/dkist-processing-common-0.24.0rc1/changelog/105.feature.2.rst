@@ -1,0 +1,6 @@
+Added the following keys to the 214 headers.
+- IDSPARID: Input Dataset Part Id for parameters
+- IDSOBSID: Input Dataset Part Id for observation frames
+- IDSCALID: Input Dataset Part Id for calibration frames
+- WKFLNAME: Workflow Name
+- WKFLVERS: Workflow Version
