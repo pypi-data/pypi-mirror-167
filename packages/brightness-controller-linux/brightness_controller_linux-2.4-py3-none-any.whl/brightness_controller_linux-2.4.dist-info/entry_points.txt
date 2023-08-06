@@ -1,0 +1,3 @@
+[console_scripts]
+brightness-controller=brightness_controller_linux.init:main
+
