@@ -1,0 +1,10 @@
+pz-rail
+sklearn
+xgboost
+
+[dev]
+coverage
+pylint
+pytest
+pytest-cov
+yamllint
