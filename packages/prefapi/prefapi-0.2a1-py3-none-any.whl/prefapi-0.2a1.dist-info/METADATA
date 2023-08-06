@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: prefapi
+Version: 0.2a1
+Summary: API for Pref game servers
+Author: Cubic
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: UrsinaNetworking (>=2.1.4,<3.0.0)
+Description-Content-Type: text/markdown
+
+No description yet. I will add it later :D
