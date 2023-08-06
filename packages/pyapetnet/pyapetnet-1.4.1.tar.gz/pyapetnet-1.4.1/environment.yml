@@ -1,0 +1,12 @@
+name: pyapetnet
+
+channels:
+- conda-forge
+
+dependencies:
+- python>=3.10
+- pip
+- pip:
+  - SimpleITK>=2.0
+  - pymirc>=0.22
+  - tensorflow-cpu>=2.2
