@@ -1,0 +1,2 @@
+[console_scripts]
+global-entry-notifier = global_entry_notifier.__main__:main
