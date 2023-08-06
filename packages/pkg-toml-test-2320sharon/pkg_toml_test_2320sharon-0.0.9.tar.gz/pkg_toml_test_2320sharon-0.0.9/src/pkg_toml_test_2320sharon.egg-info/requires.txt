@@ -1,0 +1,6 @@
+geopandas
+scikit-image
+matplotlib
+astropy
+notebook
+pyqt5
