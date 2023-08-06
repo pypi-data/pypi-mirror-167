@@ -1,0 +1,7 @@
+po3way.py
+pyproject.toml
+po3way.egg-info/PKG-INFO
+po3way.egg-info/SOURCES.txt
+po3way.egg-info/dependency_links.txt
+po3way.egg-info/entry_points.txt
+po3way.egg-info/top_level.txt

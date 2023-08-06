@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: po3way
+Version: 0.1
+Summary: Three way merge for gettext po file.
+Author-email: Julien Palard <julien@palard.fr>
+License: MIT License
+Project-URL: homepage, https://github.com/JulienPalard/po3way
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
