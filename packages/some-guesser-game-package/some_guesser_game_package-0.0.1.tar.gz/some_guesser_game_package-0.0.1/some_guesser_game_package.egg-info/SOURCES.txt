@@ -1,0 +1,9 @@
+README.md
+setup.py
+guesser_game/GuesserGame.py
+guesser_game/__init__.py
+guesser_game/numberGuesserGame.py
+some_guesser_game_package.egg-info/PKG-INFO
+some_guesser_game_package.egg-info/SOURCES.txt
+some_guesser_game_package.egg-info/dependency_links.txt
+some_guesser_game_package.egg-info/top_level.txt
