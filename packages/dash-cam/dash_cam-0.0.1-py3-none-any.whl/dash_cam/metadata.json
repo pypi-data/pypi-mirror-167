@@ -1,0 +1,153 @@
+{
+  "src/lib/components/DashCam.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashCam",
+    "methods": [
+      {
+        "name": "getScreenshot",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "updateIntervals",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "prevProps",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS class of video element",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "audio": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "enable/disable audio",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "height of video element",
+        "defaultValue": {
+          "value": "480",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "width of video element",
+        "defaultValue": {
+          "value": "640",
+          "computed": false
+        }
+      },
+      "screenshotWidth": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "width of screenshot",
+        "defaultValue": {
+          "value": "640",
+          "computed": false
+        }
+      },
+      "screenshotHeight": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "width of screenshot",
+        "defaultValue": {
+          "value": "480",
+          "computed": false
+        }
+      },
+      "screenshotFormat": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "format of screenshot",
+        "defaultValue": {
+          "value": "\"image/webp\"",
+          "computed": false
+        }
+      },
+      "screenshotQuality": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "quality of screenshot(0 to 1)",
+        "defaultValue": {
+          "value": "0.92",
+          "computed": false
+        }
+      },
+      "screenshotInterval": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "update interval of screenshot in milliseconds"
+      },
+      "screenshot": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "getScreenshot() returns a base64 encoded string of the current webcam\nimage. screenshot is the prop updated at fixed interval from calling\ngetScreenshot(). It is currently capped at 25 fps."
+      },
+      "videoConstraints": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Select Front and back",
+        "defaultValue": {
+          "value": "{\n    exact: \"environment\"\n}",
+          "computed": false
+        }
+      }
+    }
+  }
+}

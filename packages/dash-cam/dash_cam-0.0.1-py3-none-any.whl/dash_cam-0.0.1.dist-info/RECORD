@@ -1,0 +1,12 @@
+dash_cam/DashCam.py,sha256=sAlwizxuEZuS-Gj3m19_ebl8OBLAvTHhmhSe2fCQ4FU,2946
+dash_cam/__init__.py,sha256=2YHNfacTvj7uoLf5iVpX5E1_dDRNLEEBT_rivtWEvZU,2489
+dash_cam/_imports_.py,sha256=EtMMnkW7RTfW5Y-3RoocGuaPmPvmEeiDQrvJ4bQaYG0,57
+dash_cam/dash_cam.min.js,sha256=E7Ky6O4w8EHO_DDD89DhonvAmooJNqsyFIG7ImNS2bI,12528
+dash_cam/dash_cam.min.js.map,sha256=8AEn6bGjHTYLfPJIkDuXgiozuzAhGD7sFcbi44cU9pc,92
+dash_cam/metadata.json,sha256=iQNfvjj1UVVi9s3R4yUNc2L11I4tT816us_JksNmdwQ,3838
+dash_cam/package-info.json,sha256=dcq4fmD38WmnlJ3DOhp4-xvuPjkAF7l0pu1VdZvp6_8,1788
+dash_cam-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_cam-0.0.1.dist-info/METADATA,sha256=WeE9BTKejdjuEU7zifek_me8KWBSHdRONWPAMyu2vt8,183
+dash_cam-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dash_cam-0.0.1.dist-info/top_level.txt,sha256=zoUsNahcQg0fm1Dc57gsuC1C5m9JkZSZzlXLlvUp5zY,9
+dash_cam-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dash-cam
+Version: 0.0.1
+Summary: Project Description
+Author: Nikolay Frick <friknikolay>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
+
