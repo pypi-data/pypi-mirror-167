@@ -1,0 +1,17 @@
+znp/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+znp/__main__.py,sha256=o0B10BuKjVbtLW_fXKFMRtOsDUI59hV5cIf8gg65R1Y,4498
+znp/appdirs.py,sha256=bv3lwBYfZNtNPOva2Kg1hB-p2oyp8XXQnOtAGe662ps,24527
+znp/config.py,sha256=FoNZtPjXn6ja5yd4fjZkHK2Z7XGrW2JGRK2iSnbhmOU,2264
+znp/dmenu.py,sha256=vlIMCcKs83xs0c9r31xvc6hkZ1At2ZcxSmUPkVnWaoA,6401
+znp/fzf.py,sha256=GaAAS7P23QwVyesS5E6giBvyP3sCS3GlEVsAOaDrWuI,2661
+znp/options.py,sha256=KbJBlpaZ-ukVVBL4CRvCPYUmXYZnvMQza61sknU_SfA,1994
+znp/prompts.py,sha256=FLgZPAp83Ag6wNYTG3My1jAUdZOMPmrUelCGpYKRIz0,3805
+znp/utils.py,sha256=kA8ChlfwUhMSJdGgGjDAH6S5eOGmDmGAgBpxifRJqSY,3252
+znp/zathura.py,sha256=aKa7Rmwm5OB3QAWevjO5rKMQaYTTC3oquotJOXIzckA,7303
+znp/zsocket.py,sha256=muhAMpv36XMw8Ot2hywSyW-jXdkv9nc8nb_2H3HzMIs,3784
+znp-0.0.3.dist-info/LICENSE.md,sha256=EmqszgbL_VtN-V0rdkEy9OQOYFvcTm4SXQcOY0DyzOo,34846
+znp-0.0.3.dist-info/METADATA,sha256=uTZZA9XwXW5Ddhr1JlXR9hPsvRPjGEinVk0FkoUqT_Q,4395
+znp-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+znp-0.0.3.dist-info/entry_points.txt,sha256=UiZ2bsK8synbGiTFNnfC76cVmmHb9JBkO-sF1t2OKJw,42
+znp-0.0.3.dist-info/top_level.txt,sha256=154ne-TEMz4f66PLp0mtWGMaXrcqOvCwdPVGSBgHJqM,4
+znp-0.0.3.dist-info/RECORD,,
