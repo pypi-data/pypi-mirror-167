@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: vai_toolkit
+Version: 0.0.3
+Summary: VAI toolkit, to add data in our platform
+Author-email: VirtuousAI <info@virtuousai.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# VAI toolkit
+
+## Quickstart
+
+1. To add data to our platform use this package like below
+
+`pip install vai-toolkit`
+
+2. then add import statement like this
+
+`from vai_toolkit import vai`
+
+here is the code to use the plugin
+
+Data has to be in a dictionary. With time stamps in the indicated 'dd-mm-yr'
+
+    data = { "id": [11111, 1], "Capital Gain": [10000, 15000] }   # Columns data
+    dates = ["12-15-2021", "12-16-2021"]  # Dates
+    times = ["11:08:50", "11:09:50" ]  # Times
+
+We have implemented a series of security measurements including pipeline id and security secrets which can be accessed using the following.
+
+    pipeline = os.getenv("PIPELINE") # Pipeline
+    user_secret = os.getenv("USER_SECRET") # UserSecret
+
+Then finally, upload the data.
+
+    res = vai.upload_data(data, dates, times, pipeline, user_secret, allow_new_columns=True, allow_duplicate=True, allow_new_category=True)
+
+Note:
+
+Last 3 fields are optionals (allow_new_columns, allow_duplicate, allow_new_category)
