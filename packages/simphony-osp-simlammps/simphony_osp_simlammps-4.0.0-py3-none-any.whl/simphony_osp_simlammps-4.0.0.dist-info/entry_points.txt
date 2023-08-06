@@ -1,0 +1,2 @@
+[simphony_osp.wrappers]
+SimLAMMPS = simphony_osp_simlammps.wrapper:SimLAMMPS
