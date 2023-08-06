@@ -1,0 +1,4 @@
+[console_scripts]
+XuexingShengxiaoXingzuoQuanshu = XuexingShengxiaoXingzuoQuanshu.__main__:main
+xuexing-shengxiao-xingzuo-quanshu = XuexingShengxiaoXingzuoQuanshu.__main__:main
+
