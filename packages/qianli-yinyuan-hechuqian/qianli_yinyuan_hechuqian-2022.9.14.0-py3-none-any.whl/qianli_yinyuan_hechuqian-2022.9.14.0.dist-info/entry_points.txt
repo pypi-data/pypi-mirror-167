@@ -1,0 +1,4 @@
+[console_scripts]
+QianliYinyuanHechuqian = QianliYinyuanHechuqian.__main__:main
+qianli-yinyuan-hechuqian = QianliYinyuanHechuqian.__main__:main
+
