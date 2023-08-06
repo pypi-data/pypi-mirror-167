@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pravo-api
+Version: 0.0.7
+Summary: Get Russian laws, federal and regional decrees.
+Author-email: Kirill Bondar <ironbondar@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.27.1)
+Requires-Dist: aiohttp (>=3.8.1)
+Requires-Dist: aiosignal (>=1.2.0)
+Requires-Dist: backoff (>=1.11.1)
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Requires-Dist: colorama (>=0.4.5)
+Requires-Dist: natasha (>=1.4.0)
+Requires-Dist: navec (>=0.10.0)
+Requires-Dist: pydantic (>=1.9.1)
+Requires-Dist: pymorphy2 (>=0.9.1)
+Requires-Dist: pymorphy2-dicts-ru (>=2.4.417127.4579844)
+Requires-Dist: razdel (>=0.5.0)
+Requires-Dist: slovnet (>=0.5.0)
+Requires-Dist: SQLAlchemy (>=1.4.40)
+Requires-Dist: structlog (>=21.1.0)
+Requires-Dist: tqdm (>=4.64.0)
+Requires-Dist: urllib3 (>=1.26.11)
+Requires-Dist: aiohttp-retry (>=2.5.1)
+
