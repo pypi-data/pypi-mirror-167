@@ -1,0 +1,14 @@
+worstpractices/__init__.py,sha256=By8nVFpSZ3L_x88wa70gaMfkPPDAc5i8FGtDv-sPg4E,147
+worstpractices/cmd.py,sha256=P7d5wSj2l9gZSRlLrXxxz9-3WsI9yWPIVl0iGIJqHQA,101
+worstpractices/packaging.py,sha256=kuNBPllLb95yCVwHAL2Of4cl46FJVOVfqtQ3jobvfj0,604
+worstpractices/rl/__init__.py,sha256=7pR4enoSkmOKz6ph9I9FJ0SlWncszyE5ZziwzBlUAhY,45
+worstpractices/rl/rainbow.py,sha256=vVuC6MMFydViSJhyX33htWs0taIIg08UyjfadPBbP4w,7488
+worstpractices/rl/util.py,sha256=r9Er7F632Ug9ilmA94LXLYvOvOJsVuoFH9FoQhqgZi4,677
+worstpractices/serialize.py,sha256=4sKIp8pZMUNuSnHjnKXI8OpPQmjlbQLyEPOZlgLL3gk,985
+worstpractices/typing.py,sha256=qg783xsDyMIqPmBp-VWZ9poTU7sOv1R5pMeYp0C8Yl4,77
+worstpractices/util.py,sha256=gbS7viNb-8lZ4X6kqAdNPxgjQMHPgrsdeOcIzbPp9Tg,1734
+worstpractices-0.1.1.dist-info/entry_points.txt,sha256=-7s1b1urCv-8XtWIWlNNSdxDnDPhktVtovBwQR1_o3U,54
+worstpractices-0.1.1.dist-info/LICENSE,sha256=EWF-J9ScVXqpMHPT91pFWZBjoRW7oU2cPI_nZ0px-YI,1071
+worstpractices-0.1.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+worstpractices-0.1.1.dist-info/METADATA,sha256=i09CVnYEL3UUJybjoGvDcTi-vU3Rb5eRsKy8ZFPmhfk,673
+worstpractices-0.1.1.dist-info/RECORD,,

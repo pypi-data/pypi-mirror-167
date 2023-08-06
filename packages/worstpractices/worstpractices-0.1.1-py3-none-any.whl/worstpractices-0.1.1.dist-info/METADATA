@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: worstpractices
+Version: 0.1.1
+Summary: An opinionanted library of Python/ML practices
+License: MIT
+Author: Vadim Liventsev
+Author-email: dev@vadim.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: rl
+Requires-Dist: fire (<1.0.0)
+Description-Content-Type: text/markdown
+
+# Worst Practices
+
+This python package is a codification of my major opinions on how to do stuff in Python/AI/ML.
+Feel free to reuse it, but beware: my tastes are unconventional
