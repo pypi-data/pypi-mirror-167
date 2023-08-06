@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: kangas
+Version: 1.0.2
+Summary: Tool for exploring columnar data, including multimedia
+Home-page: https://github.com/comet-ml/datagrid
+Author: DataGrid Development Team
+License: MIT License
+Keywords: data science,python,machine learning
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tornado
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: scipy
+Requires-Dist: nodejs-bin
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: psutil
+
+# datagrid
+
+Open source DataGrid implementation
+
