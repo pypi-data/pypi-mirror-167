@@ -1,0 +1,3 @@
+[console_scripts]
+patterncounter=patterncounter.__main__:main
+
