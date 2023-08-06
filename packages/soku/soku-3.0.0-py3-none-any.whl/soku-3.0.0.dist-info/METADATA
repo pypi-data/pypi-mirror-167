@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: soku
+Version: 3.0.0
+Summary: Template for microservices
+Home-page: https://github.com/SergeyMokeyev/soku
+Author: Sergey Mokeyev
+Author-email: sergey.mokeyev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+License-File: LICENSE
+Requires-Dist: aiohttp (<4,>=3.8.1)
+
+UNKNOWN
+
