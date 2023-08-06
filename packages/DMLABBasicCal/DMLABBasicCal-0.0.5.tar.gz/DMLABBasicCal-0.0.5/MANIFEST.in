@@ -1,0 +1,2 @@
+global-include *.pyd *.txt *.py 
+recursive-include module *.pyd
