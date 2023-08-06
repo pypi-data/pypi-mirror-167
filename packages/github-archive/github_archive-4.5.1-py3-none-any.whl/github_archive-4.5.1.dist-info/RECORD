@@ -1,0 +1,10 @@
+github_archive/__init__.py,sha256=OO28O-ZErNV_ohWkxxFroj7s8pwRljm9Jn0OaaH8SwU,95
+github_archive/archive.py,sha256=SsroiI1GqIceIKMebQcD5RopX-iz2G4s1g0mD4VpzOE,18617
+github_archive/cli.py,sha256=-Wg5SsovGuM2vs4p1k7F_-Qwvz7ufXogtLUvIRT6-Nw,5556
+github_archive/constants.py,sha256=glzkb59t5xdY5kzeXUPxyhFGpfGzg_FR52i2mnuREhw,354
+github_archive-4.5.1.dist-info/LICENSE,sha256=eetzvdaAaPwdWbQ3lrIVNAsUEimMPZII2-W94pVigoI,1071
+github_archive-4.5.1.dist-info/METADATA,sha256=1lkiofzAqrIqbBhg5Orc9GwTPMJLunAVrDA_N3phiR0,6054
+github_archive-4.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+github_archive-4.5.1.dist-info/entry_points.txt,sha256=9B28zleWBGWxZEvKzLOxZJpXgyJzt6cXMo0s_rJIv6U,59
+github_archive-4.5.1.dist-info/top_level.txt,sha256=VsaMyLowBnsiknvf_gFho_0s-8zw01rhBOTYNMk5U2o,15
+github_archive-4.5.1.dist-info/RECORD,,
