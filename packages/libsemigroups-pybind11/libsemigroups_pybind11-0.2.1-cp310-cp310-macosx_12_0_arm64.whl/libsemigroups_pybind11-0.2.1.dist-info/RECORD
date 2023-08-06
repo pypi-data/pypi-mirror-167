@@ -1,0 +1,13 @@
+_libsemigroups_pybind11.cpython-310-darwin.so,sha256=nVXE6As_KZAiqJrSMirF2sHxJJ4VdHLv6xaY7UCxMZw,8965728
+libsemigroups_pybind11/matrix.py,sha256=1CC6GTbSGCt7M-EVOHkSBRHPC7I1Jv0lcGCqUUBqpyA,1769
+libsemigroups_pybind11/transf.py,sha256=4m08lHPYoGlRBA_1cFhu8kJsM6tpRdM01M5aFVc-g9Q,2673
+libsemigroups_pybind11/tools.py,sha256=ttnptRmaUtYnTqzjl0FA5P_WXJkITahShsUsjbe5BFU,1391
+libsemigroups_pybind11/__init__.py,sha256=u05D6w7elnxYsIzQVo8h_CUgEPhYn_ZZBlYJV3rbQXQ,913
+libsemigroups_pybind11/presentation.py,sha256=pN999DqlZB1YmVFW_itXs8SVjoaiZLwOMQ7zN24XudY,1929
+libsemigroups_pybind11/froidure_pin.py,sha256=850I32ZkHcfukhXB5rAa85OcFJASi5wcr_owzppFDKs,3393
+libsemigroups_pybind11/.dylibs/libsemigroups.2.dylib,sha256=vkrIiYETixUyS4lqmqFXkL85vvWfGb30RyNyfo5UckE,1027536
+libsemigroups_pybind11-0.2.1.dist-info/RECORD,,
+libsemigroups_pybind11-0.2.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+libsemigroups_pybind11-0.2.1.dist-info/WHEEL,sha256=xBRw0o-jUJvuKe0FuacfvvaiffCdrJXjhTli9LcE-Dk,110
+libsemigroups_pybind11-0.2.1.dist-info/top_level.txt,sha256=ioBcYB0HIR7IOuOfQQ9j7zGrabD5lCsxBFYuxYpFCeM,47
+libsemigroups_pybind11-0.2.1.dist-info/METADATA,sha256=MuYU64IMhyWeCRldP9QzizFO-5bB_wFXVMolcU2HVWk,4320
