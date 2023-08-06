@@ -1,0 +1,4 @@
+[console_scripts]
+YinianboLiaoyufa = YinianboLiaoyufa.__main__:main
+yinianbo-liaoyufa = YinianboLiaoyufa.__main__:main
+
