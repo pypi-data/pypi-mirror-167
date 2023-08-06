@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+templates/base.html
+templates/channel.html
+templates/index.html
+templates/video.html
+yark.egg-info/PKG-INFO
+yark.egg-info/SOURCES.txt
+yark.egg-info/dependency_links.txt
+yark.egg-info/entry_points.txt
+yark.egg-info/top_level.txt
