@@ -1,0 +1,9 @@
+var_printer/__init__.py,sha256=sOSEqJBe3rKN1KLART7TNl8tk-aEBkMhZ_-AJm50kzo,219
+var_printer/_version.py,sha256=Tyc0FUrVs_H1yGIdHbXyMq5zI2qm5hnVP-yutOPQe-0,24278
+var_printer/varPrinter.py,sha256=oIKADOFFwpmRLEAtdoeRAWCXfAdK_18qFVYEznLUbXw,35504
+var_printer/data/color_schemes.pickle,sha256=REEMut3GksSOOrhu3xaJlOgd2eXFMhN7KjtQbE7dkAk,6221
+var_print-0.0.1.dist-info/LICENSE,sha256=9HsmUbkMFZDTY_7eyGX6_7F-jwhNF1PxA_6J37d5YPA,1095
+var_print-0.0.1.dist-info/METADATA,sha256=Cl3mMs_EqABw5TrTQ3MGqM6AO_DloUQfWhuOmP6avUs,5685
+var_print-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+var_print-0.0.1.dist-info/top_level.txt,sha256=iBMTd14LFc1fB9Taj9ig4jcU8VzGB042hXJjICoT8Vo,12
+var_print-0.0.1.dist-info/RECORD,,
