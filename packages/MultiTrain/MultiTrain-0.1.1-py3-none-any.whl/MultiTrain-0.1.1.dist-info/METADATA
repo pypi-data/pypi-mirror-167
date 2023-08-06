@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: MultiTrain
+Version: 0.1.1
+Summary: MultiTrain allows you to train multiple machine learning algorthims on a dataset all at once to determine the best for that particular use case
+Home-page: https://github.com/LOVE-DOCTOR/train-with-models
+Author: Shittu Samson
+Author-email: tunexo885@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: xgboost
+Requires-Dist: catboost
+Requires-Dist: imbalanced-learn
+Requires-Dist: seaborn
+Requires-Dist: scikit-optimize
+Requires-Dist: lightgbm
+
+# MultiTrain
+
+MultiTrain is a python module for machine built with the aim of assisting you to find the machine learning model that works best on a particular dataset.
+
+## REQUIREMENTS
+
+MultiTrain requires:
+
+## INSTALLATION
+Install MultiTrain using:
+```
+pip install 
+```
+
+## USAGE
+**CLASSIFICATION*
+```
+
+```
+
+**REGRESSION**
+```
+
+```
+
+
+
+You can only use this code on classification problems
