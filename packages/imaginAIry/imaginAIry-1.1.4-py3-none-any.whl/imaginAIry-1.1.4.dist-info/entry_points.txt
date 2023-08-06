@@ -1,0 +1,3 @@
+[console_scripts]
+imagine = imaginairy.cmd_wrap:imagine_cmd
+
