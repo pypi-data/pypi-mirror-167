@@ -1,0 +1,2 @@
+[console_scripts]
+stairmaze = stairmaze.cli.app:app
