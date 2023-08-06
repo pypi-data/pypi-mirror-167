@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: exoclasma-fastq
+Version: 0.9.0
+Summary: Different file formats to FastQ, part of ExoClasma Suite
+Project-URL: Homepage, https://github.com/regnveig/exoclasma-fastq
+Project-URL: Bug Tracker, https://github.com/regnveig/exoclasma-fastq/issues
+Author-email: Emil Viesná <regnveig@yandex.ru>, Minja Fishman <minja-f@yandex.ru>
+License-File: LICENSE
+Keywords: bioinformatics,conversion,fastq,juicer,sra
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.10
+Requires-Dist: biopython
+Description-Content-Type: text/markdown
+
+# exoclasma-fastq
+
+## Description
+
+exoclasma-fastq is a tool for conversion different types of files to Illumina-like FastQ, a part of upcoming ExoClasma Suite.
+
+Features:
+
+- Convert [Juicer](https://github.com/aidenlab/juicer) `merged_nodups.txt` file to FastQ, keeping its annotation
+- Convert SRA to compressed FastQ via [fastq-dump](https://github.com/ncbi/sra-tools).
+
+**This is a pre-release. Use it at your own risk!**
+
+## Installation
+
+```bash
+python3 -m pip install exoclasma-fastq
+```
+
+## Command-line dependencies
+
+- [fastq-dump](https://github.com/ncbi/sra-tools)

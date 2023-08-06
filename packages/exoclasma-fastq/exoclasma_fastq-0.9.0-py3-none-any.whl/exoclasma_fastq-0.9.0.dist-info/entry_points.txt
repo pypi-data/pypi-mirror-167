@@ -1,0 +1,2 @@
+[console_scripts]
+exoclasma-fastq = exoclasma_fastq.exoclasma_fastq:main
