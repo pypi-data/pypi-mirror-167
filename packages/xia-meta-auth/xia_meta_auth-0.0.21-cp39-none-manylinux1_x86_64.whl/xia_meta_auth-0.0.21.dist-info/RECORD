@@ -1,0 +1,10 @@
+xia_meta_auth/__init__.py,sha256=-lxkQ5G43BwPaNHa43c-ebEnH9a5QYQhJKjZTyKZowk,219
+xia_meta_auth/acl.cpython-39-x86_64-linux-gnu.so,sha256=Y_0n5PiDq8ILqoOFQuVeYKwYNPjPoU5rGZ-LqlibHNw,829864
+xia_meta_auth/cache.cpython-39-x86_64-linux-gnu.so,sha256=e6DBwCQq1wrgGybPSKVtDepheDtJ5lKTTiASWFoTNM0,752008
+xia_meta_auth/permission.cpython-39-x86_64-linux-gnu.so,sha256=BY8p2vPOqoMWDrojBj9a49V6rKclKnInYwdbO7AjjD0,887208
+xia_meta_auth/user.cpython-39-x86_64-linux-gnu.so,sha256=5ejy8P30tqdHu6YeGjpYu6vO2r9n9NnNKi6Pj60YIZc,801192
+xia_meta_auth-0.0.21.dist-info/LICENSE,sha256=6IJZU6MxRh9zrBB3mhBzWZBocZwh-egw1BB4XRWq2ns,155
+xia_meta_auth-0.0.21.dist-info/METADATA,sha256=E83GDObmCXtOPIffOe56cvLRl0FOBlj1cvYnnkVpRAw,466
+xia_meta_auth-0.0.21.dist-info/WHEEL,sha256=qkSVf_2y_meuNtxjbahKGy4LKa5aE9SY7z8YZA90byg,107
+xia_meta_auth-0.0.21.dist-info/top_level.txt,sha256=qDynZ1JQs079EvpXrpGkMCkZGYYkgsvm6RhIsx4ftE8,14
+xia_meta_auth-0.0.21.dist-info/RECORD,,
