@@ -1,0 +1,8 @@
+README.md
+setup.py
+eventspy/__init__.py
+eventspy/events.py
+eventspy.egg-info/PKG-INFO
+eventspy.egg-info/SOURCES.txt
+eventspy.egg-info/dependency_links.txt
+eventspy.egg-info/top_level.txt

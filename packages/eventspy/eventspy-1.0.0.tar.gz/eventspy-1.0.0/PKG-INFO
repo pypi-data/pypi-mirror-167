@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: eventspy
+Version: 1.0.0
+Summary: Events in Python
+Home-page: https://github.com/nawafalqari/eventspy/
+Author: Nawaf Alqari
+Author-email: nawafalqari13@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/nawafalqari/eventspy#readme
+Project-URL: Bug Tracker, https://github.com/nawafalqari/eventspy/issues
+Project-URL: Source Code, https://github.com/nawafalqari/eventspy/
+Project-URL: Discord, https://discord.gg/cpvynqk4XT
+Keywords: events,event,pyevent,eventpy,eventspy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# EventsPy
+Events in Python
+
+Example:
+```python
+from threading import Thread
+import eventspy
+
+events = eventspy.EventsHandler()
+
+@events.on('message')
+def messageEvent(data):
+   print(f"{data['name']}> {data['message']}")
+
+@events.on("quit")
+def quitEvent(data):
+   print(f"{data['name']}> quit!")
+   exit()
+
+def terminal():
+   while True:
+      cmd = input("> ")
+      if cmd == "quit":
+         events.send("quit", {"name": "Nawaf"})
+      else:
+         events.send("message", {"name":"Nawaf", "message": cmd})
+
+thread = Thread(target=terminal, daemon=True)
+thread.start()
+
+events.listen()
+```
+
