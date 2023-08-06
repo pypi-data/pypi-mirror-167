@@ -1,0 +1,2 @@
+[console_scripts]
+wi-analyzer = analyzer.analyzer:main
