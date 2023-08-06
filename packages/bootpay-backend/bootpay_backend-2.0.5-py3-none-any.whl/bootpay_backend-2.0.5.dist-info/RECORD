@@ -1,0 +1,8 @@
+bootpay_backend/__init__.py,sha256=s-kaDxoYN39Ii9Ywndn1pekVdEhFs0oEaKXLaZ0o8Tk,70
+bootpay_backend/bankcode.py,sha256=l8ScHAr5YQWcuN2fWpU_ipwhMuKSEpoZCey7fuvUEWE,447
+bootpay_backend/rest_client.py,sha256=ovcgL_BdcPozBDxqSllOCUPOmi2CShnPLUFZtvDdzGQ,10089
+bootpay_backend-2.0.5.dist-info/LICENSE,sha256=KICdExRuTFIvOlM_gtgbsbZt_2EKe2Rzz46j7W2ArPs,1063
+bootpay_backend-2.0.5.dist-info/METADATA,sha256=ijp0yxU7kjZia4YRtPQ3zLPVuXuCbk1KnLgvsEHBjhQ,14281
+bootpay_backend-2.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bootpay_backend-2.0.5.dist-info/top_level.txt,sha256=MwX5-bUBPJk5IdHRi_AzXSSpmNwqqazypVp9oPwE0Hk,16
+bootpay_backend-2.0.5.dist-info/RECORD,,
