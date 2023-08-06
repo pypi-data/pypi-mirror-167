@@ -1,0 +1,10 @@
+h5py
+numpy
+scipy
+matplotlib
+lisaconstants
+oem
+lxml
+defusedxml
+astropy
+packaging
