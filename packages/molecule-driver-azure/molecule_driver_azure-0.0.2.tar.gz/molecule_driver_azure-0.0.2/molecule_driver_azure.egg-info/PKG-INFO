@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: molecule-driver-azure
+Version: 0.0.2
+Requires-Python: >=3.6
+Provides-Extra: test
+License-File: LICENSE
