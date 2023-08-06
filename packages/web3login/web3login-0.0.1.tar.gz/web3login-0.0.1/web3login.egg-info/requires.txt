@@ -1,0 +1,16 @@
+eip712
+eth-typing>=2.3.0
+web3>=5.30.0
+
+[dev]
+black
+mypy
+isort
+
+[distribute]
+setuptools
+twine
+wheel
+
+[fastapi]
+fastapi

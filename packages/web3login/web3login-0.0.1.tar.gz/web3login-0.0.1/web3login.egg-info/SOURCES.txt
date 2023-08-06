@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+web3login/__init__.py
+web3login/auth.py
+web3login/cli.py
+web3login/exceptions.py
+web3login/version.py
+web3login.egg-info/PKG-INFO
+web3login.egg-info/SOURCES.txt
+web3login.egg-info/dependency_links.txt
+web3login.egg-info/entry_points.txt
+web3login.egg-info/requires.txt
+web3login.egg-info/top_level.txt
+web3login/middlewares/__init__.py
+web3login/middlewares/fastapi.py
