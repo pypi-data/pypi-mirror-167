@@ -1,0 +1,7 @@
+matplotlib
+napari>=0.4.0
+napari-matplotlib>=0.2.1
+numpy>=1.17.3
+pandas
+pooch>=1
+vispy
