@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pybaqus
+Version: 0.2.1
+Summary: 
+Author: Cristóbal Tapia Camú
+Author-email: crtapia@gmail.com
+Requires-Python: >=3.7.7,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: matplotlib (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.18.2,<2.0.0)
+Requires-Dist: pyvista (>=0.31.0,<0.32.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Requires-Dist: vtk (>=9.0.3,<10.0.0)
