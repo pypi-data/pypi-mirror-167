@@ -1,0 +1,2 @@
+[console_scripts]
+blatt = blatt.cli:cli
