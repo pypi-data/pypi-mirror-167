@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cruscopoetry.core
+Version: 0.0.1
+Summary: Parser for poems in CruscoPoetry format
+Home-page: https://gitlab.com/kikulacho92/cruscopoetry
+Author: Emiliano Minerba
+Author-email: emi.nerba@gmail.com
+License: GPL
+Description: This is CruscoPoetry
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
