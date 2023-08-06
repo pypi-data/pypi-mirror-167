@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/rbf_otp/__init__.py
+src/rbf_otp/buildOTP.py
+src/rbf_otp.egg-info/PKG-INFO
+src/rbf_otp.egg-info/SOURCES.txt
+src/rbf_otp.egg-info/dependency_links.txt
+src/rbf_otp.egg-info/not-zip-safe
+src/rbf_otp.egg-info/requires.txt
+src/rbf_otp.egg-info/top_level.txt
