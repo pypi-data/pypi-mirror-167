@@ -1,0 +1,3 @@
+[console_scripts]
+ios_battey = ios_battery.get_tidevice_battery:main
+

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ios-battery
+Version: 1.0.3
+Summary: get ios battery
+Home-page: UNKNOWN
+Author: cfr
+Author-email: 1354592998@qq.com
+License: BSD License
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: tidevice
+
+UNKNOWN
+
