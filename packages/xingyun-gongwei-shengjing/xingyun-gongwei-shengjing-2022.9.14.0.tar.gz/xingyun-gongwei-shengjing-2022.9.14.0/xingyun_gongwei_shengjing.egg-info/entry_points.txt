@@ -1,0 +1,4 @@
+[console_scripts]
+XingyunGongweiShengjing = XingyunGongweiShengjing.__main__:main
+xingyun-gongwei-shengjing = XingyunGongweiShengjing.__main__:main
+
