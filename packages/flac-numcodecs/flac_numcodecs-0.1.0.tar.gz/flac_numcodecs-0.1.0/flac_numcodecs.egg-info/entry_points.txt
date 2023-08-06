@@ -1,0 +1,3 @@
+[numcodecs.codecs]
+flac = flac_numcodecs:Flac
+

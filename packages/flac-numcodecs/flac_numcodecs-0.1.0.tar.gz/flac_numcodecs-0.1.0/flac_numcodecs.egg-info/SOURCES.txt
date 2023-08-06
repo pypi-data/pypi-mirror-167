@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+flac_numcodecs/__init__.py
+flac_numcodecs/flac.py
+flac_numcodecs/version.py
+flac_numcodecs.egg-info/PKG-INFO
+flac_numcodecs.egg-info/SOURCES.txt
+flac_numcodecs.egg-info/dependency_links.txt
+flac_numcodecs.egg-info/entry_points.txt
+flac_numcodecs.egg-info/requires.txt
+flac_numcodecs.egg-info/top_level.txt

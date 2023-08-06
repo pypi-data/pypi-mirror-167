@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: flac_numcodecs
+Version: 0.1.0
+Summary: Numcodecs implementation of FLAC audio codec.
+Home-page: https://github.com/AllenNeuralDynamics/flac-numcodecs
+Author: Alessio Buccino
+Author-email: alessiop.buccino@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FLAC - numcodecs implementation
+
+[Numcodecs](https://numcodecs.readthedocs.io/en/latest/index.html) wrapper to the 
+[FLAC](https://xiph.org/flac/index.html) audio codec using [pyFLAC](https://github.com/sonos/pyFLAC).
+
+This implementation enables one to use WavPack as a compressor in 
+[Zarr](https://zarr.readthedocs.io/en/stable/index.html).
+
+## Installation
+
+Install via `pip`:
+
+```
+pip install flac-numcodecs
+```
+
+Or from sources:
+
+```
+git clone https://github.com/AllenNeuralDynamics/flac-numcodecs.git
+cd flac-numcodecs
+pip install .
+```
+
+## Usage
+
+This is a simple example on how to use the `Flac` codec with `zarr`:
+
+```
+from flac_numcodecs import Flac
+
+data = ... # any numpy array
+
+# instantiate Flac compressor
+flac_compressor = Flac(level=5)
+
+z = zarr.array(data, compressor=flac_compressor)
+
+data_read = z[:]
+```
+Available `**kwargs` can be browsed with: `Flac?`
+
+**NOTE:** 
+In order to reload in zarr an array saved with the `Flac`, you just need to have the `flac_numcodecs` package
+installed.
+
