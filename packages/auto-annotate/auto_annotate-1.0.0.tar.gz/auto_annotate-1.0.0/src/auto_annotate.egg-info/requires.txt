@@ -1,0 +1,5 @@
+Pillow==7.0.0
+numpy==1.22.3
+six==1.14.0
+tensorflow==2.8.2
+tqdm==4.64.0

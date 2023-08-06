@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: auto_annotate
+Version: 1.0.0
+Summary: Generate xml annotations for TensorFlow object detection models.
+Home-page: https://github.com/AlvaroCavalcante/auto_annotate
+Author: Alvaro Leandro Cavalcante Carneiro
+Author-email: alvaroleandro250@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/AlvaroCavalcante/auto_annotate
+Description: ![auto-annotate-logo](https://raw.githubusercontent.com/Lucs1590/auto_annotate/master/images/logo.png)
+        # Auto Annotation Tool for TensorFlow Object Detection
+        
+        Are you tired to label your images by hand to work with object detection? Have hundreds or thousands of images to label? Then this project will make your life easier, just create some annotations and let the machine do the rest for you!
+        
+        ## Contents
+        - [Requirements](#requirements)
+        - [How to run](#usage)
+            - [TensorFlow < 2.x](#minor)
+            - [TensorFlow >= 2.x](#greater)
+        - [Any trouble?](#trouble)
+        
+        
+        ## Requirements <a id="requirements"></a>
+        - You will need to [clone the TensorFlow repository](https://github.com/tensorflow/models)
+        - Install the [dependencies](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/tensorflow-1.14/install.html) for object detection
+        
+        ## How to run <a id="usage"></a>
+        - Copy and paste the files **generate_xml.py** and **visualization_utils.py** into the **research/object_detection/utils** in the tensorflow repo.
+        - Change the xml path in generate_xml.py to put your own local path.
+        - Add the images you want to label into the images folder
+        
+        ### TensorFlow < 2.x <a id="minor"></a>
+        - Add your pre-treined model (as a fronzen inference graph) and label map into the 'graphs' folder.
+        - Inside the auto_annotate folder run: **python3 scripts/detection_images.py**
+        ### TensorFlow >= 2.x <a id="greater"></a>
+        - If you have TF 2.x, just run the following command:
+        ```
+        python3 scripts/detection_img_tf2.py --saved_model /path-saved-model --labelmap /path-label-map.pbtxt --imgs /path-of-the-imgs
+        ```
+        
+        - If it runs correctly, you will see the inference results and the xml in your respective folders!
+        
+        ## Any trouble? <a id="trouble"></a>
+        If you have trouble or doubt check my [tutorial on medium](https://medium.com/@alvaroleandrocavalcante/auto-annotate-images-for-tensorflow-object-detection-19b59f31c4d9?sk=0a189a8af4874462c1977c6f6738d759). You can also open an issue and I'll hep you!
+        
+Keywords: tensorflow,python,python3,object-detection,annotation,dataset,semi-supervised,deep-learning,labeling
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
