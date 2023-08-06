@@ -1,0 +1,44 @@
+{
+    "version": "2",
+    "checks": {
+        "method-complexity": {
+            "enabled": false
+        }
+    },
+    "exclude_patterns": [
+        "versioneer.py",
+        "**/_version.py",
+        "config",
+        "db",
+        "dist",
+        "docs",
+        "features",
+        "**/node_modules",
+        "script",
+        "**/spec",
+        "**/test",
+        "**/tests",
+        "**/vendor",
+        "**/*.d.ts"
+    ],
+    "plugins": {
+        "bandit": {
+            "enabled": true
+        },
+        "csslint": {
+            "enabled": true
+        },
+        "duplication": {
+            "enabled": true
+        },
+        "fixme": {
+            "enabled": true
+        },
+        "pep8": {
+            "enabled": false
+        },
+        "radon": {
+            "enabled": true
+        }
+    }
+}
