@@ -1,0 +1,9 @@
+picologging/__init__.py,sha256=ygU8W869UotSLqPUwQnhGYDnQHYUmoU4ptL9ljd5s4g,14916
+picologging/_picologging.cp310-win32.pyd,sha256=jf55TTtw-lCXoI8MRwjR3FzlrUjppXAPk0vYnhAoId8,95232
+picologging/config.py,sha256=lsBr7yB2ZrqfY6ZRaVUP5dBqAgdEytLmgnvGlHukMg4,13255
+picologging/handlers.py,sha256=XYbvZXSi1BmuXKMGOxXFa_Bf2zMBu0nEC7cxbuwLG9s,37148
+picologging-0.8.1.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+picologging-0.8.1.dist-info/METADATA,sha256=VOUT0xSHLuCagozE5iUTYJpD7uEgKx6UbHufefW2hK4,6291
+picologging-0.8.1.dist-info/WHEEL,sha256=g4IiTSVvdEo2XXBPxeLe8pqALtzFvbYo19IfJLKXdVc,92
+picologging-0.8.1.dist-info/top_level.txt,sha256=6tTFxD0eMWuY7YICfAuDId2wyC9JnrwV4ms--9fNSWk,12
+picologging-0.8.1.dist-info/RECORD,,
