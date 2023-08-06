@@ -1,0 +1,4 @@
+[console_scripts]
+SanliuliuShengriShengmingLingshuQuanshu = SanliuliuShengriShengmingLingshuQuanshu.__main__:main
+sanliuliu-shengri-shengming-lingshu-quanshu = SanliuliuShengriShengmingLingshuQuanshu.__main__:main
+
