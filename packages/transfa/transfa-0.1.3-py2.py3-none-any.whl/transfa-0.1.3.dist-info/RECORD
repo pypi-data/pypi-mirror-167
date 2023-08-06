@@ -1,0 +1,13 @@
+transfa/__init__.py,sha256=v6lJFzJzykT4D7ATW-QW5IMh3h-H0HRSK8vsfari0qw,438
+transfa/api_client.py,sha256=knVwHNAdRNVGCeXhYK8YdIN5J5v7b7GwBYkGgj2L1p4,2107
+transfa/enums.py,sha256=jpcCgK8iILntoBwfKDv9IsFleVw_F4gEVQj_ubFfw4A,568
+transfa/utils.py,sha256=YFNVZmCaOg6W7YTRdiaCEHDin2MT0p4qIcVa5BXSt9Y,154
+transfa/version.py,sha256=qA_ig-3d4ScLQjxwXFLxPEzBLBn_Zw_V-Yb9JoQi8iU,18
+transfa/webhook.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transfa/api_resources/__init__.py,sha256=m6cHRNAPnRwqmi6SJuOGjPTiufkHbzRRVnzgalARqbA,50
+transfa/api_resources/payments.py,sha256=f7IGa-Q-GmCKbhmGgefETKSfC4p3nB4fzGBgmuQtqNc,2748
+transfa-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+transfa-0.1.3.dist-info/METADATA,sha256=QKUNvEf7qduSL95yoF_Tmbv6VmD4bA1039X50wBFzrM,1652
+transfa-0.1.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+transfa-0.1.3.dist-info/top_level.txt,sha256=HBNq35R4WB4e8yv28HFUNeczuOHJpkTce3_7-2OQ_MQ,8
+transfa-0.1.3.dist-info/RECORD,,
