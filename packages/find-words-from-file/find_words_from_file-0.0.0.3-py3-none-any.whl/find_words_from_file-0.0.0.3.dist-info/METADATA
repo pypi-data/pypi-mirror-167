@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: find-words-from-file
+Version: 0.0.0.3
+Summary: input words from file and save output file
+Home-page: UNKNOWN
+Author: HanByulLee
+Author-email: stargen@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: pandas
+
+UNKNOWN
+
+
