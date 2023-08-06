@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+DMLABBasicCal/AddFunc.cp310-win_amd64.pyd
+DMLABBasicCal/SubFunc.cp310-win_amd64.pyd
+DMLABBasicCal/__init__.py
+DMLABBasicCal.egg-info/PKG-INFO
+DMLABBasicCal.egg-info/SOURCES.txt
+DMLABBasicCal.egg-info/dependency_links.txt
+DMLABBasicCal.egg-info/top_level.txt
