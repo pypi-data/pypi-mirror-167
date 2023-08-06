@@ -1,0 +1,9 @@
+self/__init__.py,sha256=UX7h8KA1R9UtArGSrh3x6feXyY1dbiSWaa0ppEuIUHA,225
+self/geometry.py,sha256=aSiv4FSbvBohpaH8hAYna9K_QNLDIhw4pD5Gv3haz5g,1122
+self/lagrange.py,sha256=QRrk8mdNd00gkK5boOu_wDP43Eaea8EqBl-zyvMh-as,1520
+self/model2d.py,sha256=oaYbVNkBpahNfW8OlfNIXJQMgdBePlNtfhRV_VDlaxQ,1479
+pyself-0.0.0.dist-info/LICENSE,sha256=1XpXK0ZE8IjTZ7cDZZdhJ0C0Vak6YQUUD369hx77kkU,1411
+pyself-0.0.0.dist-info/METADATA,sha256=hAwaULB-c0tr-7HGR8MSnauyPjt6CNhlC1OorM3zdqE,565
+pyself-0.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pyself-0.0.0.dist-info/top_level.txt,sha256=N2hVn3T6sZajnqtpeXnSURrd11cmn9dHvkm6Ip8HVyg,5
+pyself-0.0.0.dist-info/RECORD,,
