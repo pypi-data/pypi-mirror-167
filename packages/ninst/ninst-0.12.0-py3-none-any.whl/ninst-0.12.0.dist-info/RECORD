@@ -1,0 +1,14 @@
+niftypet/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+niftypet/ninst/__init__.py,sha256=sTf2VUx__-JzvxeRbgDbUPuqqvQUtZY4zBA1Cpz585M,325
+niftypet/ninst/_dist_ver.py,sha256=qHJ_q-NtoZ98rdflBB5GKtBzx_sUvAVe96rJSun_DEU,23
+niftypet/ninst/cudasetup.py,sha256=TkRb8zyPazeDkCGPoDSCq4DDBSH3ibRTGFEWb-odikY,9911
+niftypet/ninst/dinf.py,sha256=hR6hSMkic1ZsrYeQIRD6KcOhYLO7GWPIhZbnQPAc3Ko,913
+niftypet/ninst/install_tools.py,sha256=fMGDovpUfcgJe0TaalfsKdcGyyGxY6X-Si6A8u7mcFQ,15746
+niftypet/ninst/tools.py,sha256=9YjzZOq3CL_dLBDcYf1dmMiu8G1KooFSZb9TDokq6Jo,1344
+niftypet/ninst/raw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niftypet/ninst/raw/resources.py,sha256=jwI5uizhiQO_IpcxMppSy6XzQpS0_865RsoeJc1eZkk,19797
+ninst-0.12.0.dist-info/LICENCE,sha256=nVX3RM-D9Qo-sp_V0fNHzhByI-TrF6A8shbzjEKg9Yo,10786
+ninst-0.12.0.dist-info/METADATA,sha256=Tkz7TJJJzUc1hnhbaM3AHjoAUAzkXs5lNwW8_kRPIlc,3994
+ninst-0.12.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ninst-0.12.0.dist-info/top_level.txt,sha256=qwT0BAG28Bkhiohl9xc3a64TyyYdWMvTYNxkt8rx-a8,9
+ninst-0.12.0.dist-info/RECORD,,
