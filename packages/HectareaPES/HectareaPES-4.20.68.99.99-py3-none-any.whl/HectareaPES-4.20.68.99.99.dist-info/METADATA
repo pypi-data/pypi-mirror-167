@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: HectareaPES
+Version: 4.20.68.99.99
+Summary: Hectarea Pizza Encryption Standard
+Home-page: https://hectarea.netlify.app/
+Author: Héctarea
+Author-email: gonzalez.craqenll@gmail.com
+License: MIT
+Download-URL: https://github.com/Hectarea/Hectarea-LES/archive/refs/tags/69.4.19.9.tar.gz
+Keywords: Encryption,Pizza,Hectarea,Panera
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+# Hectarea's Pizza Encryption Standard
+
+
+
+Pizza Encryption Standard is an encryption algorithm made by Hectarea and [Qrab & Nell](https://qrabnell.netlify.app), based on the steps that you need to make a pizza.
+
+The password is the Sauce, the Initial Value are the ingredients like cheese, pepperoni, peppers and onion, and the Plain Text is the Pizza Dough
+
+#The steps are simple
+
+* The Initial Value and the Password obfuscate each byte of the plain text
+
+It accepts a byte array as input and another byte array with the same length as output.
+
+
+## Installation
+
+```bash
+pip install HectareaPES
+```
+
+## Basic Example
+```python
+from HectareaPES import PaneraPizza
+
+#Initialize the LES class
+LES = LES()
+
+#Parameters:
+
+#Byte array to encrypt
+secret_message = b'i know what the dog is doing'
+
+#Any length password
+password = b'random length password'
+
+#Any length iv
+iv = b'random length initial value'
+
+#Any length nonce
+nonce = b'some random nonce'
+
+
+#Returns the encrypted byte array
+EncryptedBytes = LES.encrypt(secret_message, password, iv, nonce)
+
+print("\nEncrypted ByteArray: \n" + str(EncryptedBytes))
+
+#Returns the original byte array
+DecryptedBytes = LES.decrypt(EncryptedBytes, password, iv, nonce)
+
+print("\nDecrypted ByteArray: \n" + str(DecryptedBytes))
+```
+
