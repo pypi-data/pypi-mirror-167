@@ -1,0 +1,27 @@
+
+[:python_version < "3.8"]
+typing_extensions>=3.10.0
+
+[all]
+mypy==0.971
+sphinx_rtd_theme==1.0.0
+pylint==2.15.2
+pre-commit==2.20.0
+pytest==7.1.3
+coverage==6.4.4
+
+[all:python_version < "3.8"]
+typing_extensions>=3.10.0
+
+[dev]
+pytest==7.1.3
+pylint==2.15.2
+mypy==0.971
+coverage==6.4.4
+pre-commit==2.20.0
+
+[dev:python_version < "3.8"]
+typing_extensions>=3.10.0
+
+[docs]
+sphinx_rtd_theme==1.0.0
