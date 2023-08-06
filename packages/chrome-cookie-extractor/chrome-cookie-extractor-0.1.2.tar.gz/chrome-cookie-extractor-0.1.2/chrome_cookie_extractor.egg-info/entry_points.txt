@@ -1,0 +1,3 @@
+[console_scripts]
+chrome-cookie-extractor = src.chrome_cookie_extractor.chrome_cookie_extractor:main
+
