@@ -1,0 +1,15 @@
+gym_wofost/__init__.py,sha256=SGwXenMrhyFiQpSaeRRj0F4HQAH4GvWgrEwhyW_XNSI,673
+gym_wofost/default_data/WLP_NPK.conf,sha256=_JTilZZWzDoj-bsOY4qbbjIoqEj24XPWhD-rMQdL1Gw,2217
+gym_wofost/default_data/agro.yaml,sha256=-RQJk8HJHe_bNeRHG6VdLvGHAmkAt_XTDBakXPjn9ys,951
+gym_wofost/default_data/crop.cab,sha256=AlvVTZwhnTvbwmMHOAjKlx49fYSRuxYtCidUlceTZvE,10858
+gym_wofost/default_data/site.cab,sha256=XGgiskPF57ACGv_bHlPzrqn1QPmzEbWODp1Il-uKCq4,1261
+gym_wofost/default_data/soil.cab,sha256=IWE5fPK4obPOWD4Tn7kPb_DYTPWQWol6vWTiGumaBTU,1973
+gym_wofost/envs/__init__.py,sha256=-elbtHCBBjy0Lkgppt94AZv0I0myMohRi6rbJi-Ervk,599
+gym_wofost/envs/actions.py,sha256=CBCGLyFcy0GuxXp6nxEKF9nRYW72K2VVifQdBTazzFM,10570
+gym_wofost/envs/models.py,sha256=N0Dg-ws7Z-U5h58PYkA66qnXeRMt6t5ziGyy2JqLWbs,8041
+gym_wofost/envs/reward.py,sha256=ecKp0MfCUXZWzyY42mQZ5GfnwpXNJusonVaGf9Dj9tY,2187
+gym_wofost/envs/wofost_env.py,sha256=9xKadsCPj5iFYnOa836UypLKrHLlSzCN8a5g550Lu3E,9025
+gym_wofost-1.0.1.dist-info/METADATA,sha256=X7veWfQNyAoOfmo-ktc8UXAhD2R_SYzfUGAZ8rRVFNQ,5626
+gym_wofost-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gym_wofost-1.0.1.dist-info/top_level.txt,sha256=ZFfCWpKOdkn9_LfeopBiNDmHmxNn7YMDSTzcMo_Pc9g,11
+gym_wofost-1.0.1.dist-info/RECORD,,
