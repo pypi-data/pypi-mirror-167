@@ -1,0 +1,5 @@
+[
+  "test_example.py::test_example",
+  "test_example.py::test_plugin",
+  "test_example.py::test_that_needs_data"
+]
