@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mxdesign
+Version: 0.0.4
+Summary: A framework for eXperiment design specification
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pandas (>=1.4.4)
+Requires-Dist: SQLAlchemy (>=1.4.40)
+
+# MXDesign
+
+A framework for eXperiment Design specification in python for Machine Learning projects.
+
+This tool will support experimenting with machine learning models in a systematic method and work with many other
+popular tools and libraries that you use daily like `scikit-learn`, `keras`, `mlxtend`.
+
+![Architecture](static/images/arch_core.png)
