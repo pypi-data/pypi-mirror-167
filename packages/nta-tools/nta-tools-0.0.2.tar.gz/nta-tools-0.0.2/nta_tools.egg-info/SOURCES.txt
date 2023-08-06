@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+nta/__init__.py
+nta/cli.py
+nta/data.py
+nta/dataset/__init__.py
+nta/dataset/iscx_vpn_2016.py
+nta/test/__init__.py
+nta_tools.egg-info/PKG-INFO
+nta_tools.egg-info/SOURCES.txt
+nta_tools.egg-info/dependency_links.txt
+nta_tools.egg-info/requires.txt
+nta_tools.egg-info/top_level.txt
+nta_tools.egg-info/zip-safe
