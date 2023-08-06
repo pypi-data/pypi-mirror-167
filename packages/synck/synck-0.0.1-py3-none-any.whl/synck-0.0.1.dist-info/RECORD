@@ -1,0 +1,14 @@
+synck/__init__.py,sha256=6Ak0sY9SFC10d5f1hO8WoU1AKAy5pohFdOY2QJFoxDs,108
+synck/__version__.py,sha256=WJiSqvtckN1azDz7q2j9QhvH4egSBtIup4Ck0tXTuog,87
+synck/paths.py,sha256=C5cGQvCwWQ_fbC5savdNw61qgTIRLv1wUhWsb2jQfF8,161
+synck/preferences.py,sha256=YzYumwxy8GWFUMv7DwGSmnczQZC5gX8YcBK14bGRx5g,1117
+synck/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synck/system_info.py,sha256=iNJvDe7sHrZ-AWrtuTA5qFQl76IEmcfTh847DRMffcc,396
+synck/gui/__init__.py,sha256=DmqhqfSXPsDBwRJ31I3WMs08dqb_uahJ2nrD_GeFKJ0,77
+synck/gui/__main__.py,sha256=58k8z6bWSEpmQNBUQOXPffchdxy1hI0lqf266ex4LkU,95
+synck/gui/gui_preferences.py,sha256=4d64IL0dw2vZ4x1NmKeG5omAAvZk_6XQTId1ncJeuSw,771
+synck/gui/main.py,sha256=pl7dhMerLNzh3m7Z0xHbkYMxWKYm6YAEUF9jjlP8Lp4,773
+synck-0.0.1.dist-info/METADATA,sha256=U7pcIqH34jsZqLo1JtScwYgxyhmgG-IJu5ChqBakWvY,584
+synck-0.0.1.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+synck-0.0.1.dist-info/licenses/LICENSE,sha256=cOyJnGXm52D0itV40Yb557ztxi4CNQ4UO5gO9_Ht_z0,1088
+synck-0.0.1.dist-info/RECORD,,

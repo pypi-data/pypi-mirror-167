@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: synck
+Version: 0.0.1
+Summary: cloud file sync
+Project-URL: Homepage, https://github.com/jamesabel/synck
+Project-URL: Source, https://github.com/jamesabel/synck
+Project-URL: Documentation, https://github.com/jamesabel/synck
+Author-email: James Abel <j@abel.co>
+License: MIT License
+License-File: LICENSE
+Keywords: file,sync
+Requires-Python: >=3.10
+Requires-Dist: appdirs
+Requires-Dist: ismain
+Requires-Dist: pref
+Requires-Dist: psgtray
+Requires-Dist: pysimplegui
+Requires-Dist: tomli
+Description-Content-Type: text/markdown
+
+# synck
+
+## PLACEHOLDER FOR NOW
