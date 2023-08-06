@@ -1,0 +1,3 @@
+[console_scripts]
+myresume=myresume.__main__:main
+
