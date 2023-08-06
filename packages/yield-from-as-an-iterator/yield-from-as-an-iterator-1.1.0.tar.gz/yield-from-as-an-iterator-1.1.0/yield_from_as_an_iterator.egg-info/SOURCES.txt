@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+no_except_as.py
+normal.py
+setup.py
+yield_from_as_an_iterator.egg-info/PKG-INFO
+yield_from_as_an_iterator.egg-info/SOURCES.txt
+yield_from_as_an_iterator.egg-info/dependency_links.txt
+yield_from_as_an_iterator.egg-info/top_level.txt
