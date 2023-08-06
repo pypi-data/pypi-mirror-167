@@ -1,0 +1,16 @@
+seletrans/__init__.py,sha256=oYLGMpySamd16KLiaBTfRyrAS7_oyp-TOEHmzmeumwg,22
+seletrans/api/__init__.py,sha256=GAxm38eVLxVNR1e8BEKgYqVSDEjvneG7noKSCiC7iFk,110
+seletrans/api/baidu.py,sha256=LOhVbuwKxZGAezI60Ch5lDM6ZQApq7jQAbaQMGFnEiY,3912
+seletrans/api/base.py,sha256=b020P8eX_ZD_nhWDLAzq9omoi122Zm1EihWHTcGfu40,7672
+seletrans/api/deepl.py,sha256=v55pKmeNknX-P-DTyMItLd3SPM1cwP22y-oEbVIJda0,4388
+seletrans/api/google.py,sha256=qHSQJNr2TpCGZ9QJyo4yYBfACvzhdl7KliG8uLtvrKY,2368
+seletrans/api/seletrans.py,sha256=VhUDb5NCpFhapX25LMNwE0O3Q4BM2RvQduvXQ9xGNB8,264
+seletrans/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seletrans/constants/baidu.py,sha256=YQk9xuUeqs6jHg5N52Cd-4t58V4xKBfoC0W8LsBaxfg,12011
+seletrans/constants/deepl.py,sha256=Jk-pqhJjUTnSnhlBtB8i2aVvQh0LeLhXUCm2aA29MfA,601
+seletrans/constants/google.py,sha256=eW2hTnLo4gfFpHhQ_dyU7HhbusoGEE_mTXPVVr2_DAw,3088
+seletrans/util.py,sha256=rNtleq-F3FUBAS6BAlVb8jhcysWhMu-aA777IHqikfI,1617
+seletrans-0.3.3.dist-info/LICENSE,sha256=Ten4PoDG0jVbkODC3eiTtwHaQuKOF7NW-Z1V1bW8IqM,1068
+seletrans-0.3.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+seletrans-0.3.3.dist-info/METADATA,sha256=jsXdrsF_f1eoN1sWJq7i-k47JBgFq78SPiLMJJrINok,1668
+seletrans-0.3.3.dist-info/RECORD,,
