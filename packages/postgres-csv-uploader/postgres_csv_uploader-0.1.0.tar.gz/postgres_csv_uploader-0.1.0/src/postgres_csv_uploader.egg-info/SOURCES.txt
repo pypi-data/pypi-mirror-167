@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/postgres_csv_uploader/__init__.py
+src/postgres_csv_uploader/uploader.py
+src/postgres_csv_uploader.egg-info/PKG-INFO
+src/postgres_csv_uploader.egg-info/SOURCES.txt
+src/postgres_csv_uploader.egg-info/dependency_links.txt
+src/postgres_csv_uploader.egg-info/requires.txt
+src/postgres_csv_uploader.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dbwriter.py
