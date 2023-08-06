@@ -1,0 +1,7 @@
+[project]
+name = "rust_circuit"
+dependencies = ["torch>=1.10<=1.12", "numpy>=1.21<=1.22"]
+
+[build-system]
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
