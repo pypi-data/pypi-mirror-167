@@ -1,0 +1,7 @@
+setup.py
+SAMBOT/__init__.py
+SAMBOT.egg-info/PKG-INFO
+SAMBOT.egg-info/SOURCES.txt
+SAMBOT.egg-info/dependency_links.txt
+SAMBOT.egg-info/requires.txt
+SAMBOT.egg-info/top_level.txt
