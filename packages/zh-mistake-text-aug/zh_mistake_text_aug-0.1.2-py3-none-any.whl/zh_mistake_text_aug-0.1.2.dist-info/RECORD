@@ -1,0 +1,8 @@
+zh_mistake_text_aug/__init__.py,sha256=kMClIvborNITU7FluBD6GuA20bVCjtyQl2WoZF1MNJE,32
+zh_mistake_text_aug/data_maker.py,sha256=P6vMVGiwz78VEmohlB8CM0p6fF5xJKUlkdQc3CKwepk,13058
+zh_mistake_text_aug/data_model.py,sha256=ttHhR99ZFEqLJtpTNsCtP215cQic__VVh_MoYD8TRHQ,223
+zh_mistake_text_aug/exception.py,sha256=d4cY3z2_nc669dOQ5MpM2A1GEt8DbCmnAfCiV_tLqyU,90
+zh_mistake_text_aug/high_freq_zh_char.txt,sha256=8WhNyEEJ1VXT9ilZv2nwNheKC4yEwbuvIweQ6_4n8ys,24040
+zh_mistake_text_aug-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+zh_mistake_text_aug-0.1.2.dist-info/METADATA,sha256=wy1s7tXt_WmSPAqaLV_roAn6SO0VsREFEz9n_elu9TM,2762
+zh_mistake_text_aug-0.1.2.dist-info/RECORD,,
