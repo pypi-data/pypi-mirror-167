@@ -1,0 +1,6 @@
+Django
+djangorestframework
+django-simple-captcha==0.5.13
+django-simple-menu
+markdown
+future
