@@ -1,0 +1,25 @@
+[build-system]
+requires = [
+    "hatchling",
+    "pycookiecheat"
+]
+build-backend = "hatchling.build"
+[project]
+name = "chrome-cookie-extractor"
+version = "0.0.1"
+authors = [
+  { name="Krone", email="ahustinkrone@gmail.com" },
+]
+description = "chrome-cookie-extractor exports your cookies to the Netscape cookie file format which is compatible with wget, curl, youtube-dl and more."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/KroneCorylus/chrome-cookie-extractor"
+"Bug Tracker" = "https://github.com/KroneCorylus/chrome-cookie-extractor/issues"
