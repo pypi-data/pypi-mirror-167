@@ -1,0 +1,4 @@
+translate
+qrcode
+pywifi
+comtypes
