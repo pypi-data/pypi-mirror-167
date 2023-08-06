@@ -1,0 +1,1 @@
+This is ``cruscopoetry.syllabifier.swa``, a syllabifier plugin for CruscoPoetry poems in Swahili language.

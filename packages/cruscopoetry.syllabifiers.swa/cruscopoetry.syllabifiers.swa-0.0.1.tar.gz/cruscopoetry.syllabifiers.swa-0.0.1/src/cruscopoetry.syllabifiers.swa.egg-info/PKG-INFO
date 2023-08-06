@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cruscopoetry.syllabifiers.swa
+Version: 0.0.1
+Summary: Syllabifier for poems in CruscoPoetry format in Swahili language
+Home-page: https://gitlab.com/kikulacho92/cruscopoetry
+Author: Emiliano Minerba
+Author-email: emi.nerba@gmail.com
+License: GPL
+Description: This is ``cruscopoetry.syllabifier.swa``, a syllabifier plugin for CruscoPoetry poems in Swahili language.
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
