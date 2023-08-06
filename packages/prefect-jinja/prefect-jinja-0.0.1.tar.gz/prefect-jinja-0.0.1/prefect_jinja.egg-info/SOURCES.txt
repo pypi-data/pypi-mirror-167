@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_jinja/__init__.py
+prefect_jinja/_version.py
+prefect_jinja/blocks.py
+prefect_jinja/tasks.py
+prefect_jinja.egg-info/PKG-INFO
+prefect_jinja.egg-info/SOURCES.txt
+prefect_jinja.egg-info/dependency_links.txt
+prefect_jinja.egg-info/requires.txt
+prefect_jinja.egg-info/top_level.txt
