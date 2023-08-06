@@ -1,0 +1,20 @@
+[tool.poetry]
+authors = ["Craig Trim <craigtrim@gmail.com>"]
+description = "Parse Input Text using One-or-More Ontology (OWL) files"
+name = "owl-parser"
+version = "0.1.3"
+
+[tool.poetry.dependencies]
+baseblock = "*"
+owl-builder = "*"
+python = "3.8.5"
+regression-framework = "*"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+en-core-web-sm = {path = "resources/lib/en_core_web_sm-3.3.0.tar.gz"}
+pytest = "*"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
