@@ -1,0 +1,14 @@
+gbif_dl/__init__.py,sha256=kDAieX8h0EhHmnMoNbRHiKcW1i0rnpa1nHtRJNC6Muw,758
+gbif_dl/runners.py,sha256=2kcXUJI67L7sJCLsdZ_MxqZrlMClGccxxPLoEU7XiRg,4560
+gbif_dl/utils.py,sha256=69iUu0AUw1jMMN5kWhuhyS5nGGq-gCyXb_rsZ2jHqIs,1563
+gbif_dl/generators/__init__.py,sha256=unqIBpyPP9s5p6qcvYDRGhAiGJ-WQRVfn3xNauv4jMk,74
+gbif_dl/generators/api.py,sha256=N_A5oV-wyrON--6d9sfPV6VYGzHFEVnSJhgFQsLoMnI,10791
+gbif_dl/generators/dwca.py,sha256=-fSJh8exIQ-KdKn2GbuJ8deenmBLJ6WpYWCYz_fW-Ds,6486
+gbif_dl/stores/__init__.py,sha256=1kg55y_693xD8jHsb80BLEQmaf6HNo0VjLK176KVbMg,475
+gbif_dl/stores/dl_async.py,sha256=r8f5z-yKoCBUfSHH9yBL1-_TOz5DsOO4NLXRECGbYLs,11199
+gbif_dl/stores/export.py,sha256=L4OsxVe0KIAz84khN9OzmwDPSuQnlmpMZUX51ebkLfs,336
+gbif_dl-0.1.1.dist-info/LICENSE,sha256=Hw46pNcnjTF9VERnTS3f4r2wNzrxULLLLWKO22yNOWI,1062
+gbif_dl-0.1.1.dist-info/METADATA,sha256=5cxGv37PrXqBR3U2Rs4iH_MIPAccJi7cqoeIPDAv2hs,11447
+gbif_dl-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gbif_dl-0.1.1.dist-info/top_level.txt,sha256=sRLOKu2yX9Q5G542zCIdxIwEw0g6l-Ud-LpkmHep6Og,8
+gbif_dl-0.1.1.dist-info/RECORD,,
