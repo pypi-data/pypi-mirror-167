@@ -1,0 +1,13 @@
+elifecleaner/__init__.py,sha256=24AD9jdW6wUcTh0Azrli3sfILJuxOSU4c3GjEaFBVLQ,545
+elifecleaner/parse.py,sha256=jpb969sCX8jRHAc284p_tkPcYrOL66pDO-3Bcy0heKk,16091
+elifecleaner/pdf_utils.py,sha256=z3kCBBLV2rlFj4f7-2sJlmfwXQpA4AllD_jv7hFyhiA,1010
+elifecleaner/transform.py,sha256=K6meUyWKOPYYtoxl91aogVVKsRA1y20y8GwGo9AjneM,11308
+elifecleaner/utils.py,sha256=YqFCbc4o3KwSOYqrGuDSKUNdd7Upu1TF5wB28iFMNtI,902
+elifecleaner/video.py,sha256=U7-I81AAQrbFqKHWoJX6ccnBTDMsgDYFCYDVQuZsOjk,8432
+elifecleaner/video_xml.py,sha256=Hc7SiChRT0Zf0Wt3zV4FJhCaBq3OE_lXK-KNC3bgYKw,5550
+elifecleaner/zip_lib.py,sha256=XHYSTY0fwymPlpmhiLguDu__quT_FkCpevrn1wspbos,1478
+elifecleaner-0.20.0.dist-info/LICENSE,sha256=SHCw6DmXR36K22W1YxiTbfXBYH_2lOdZStQnVq2xtO0,1088
+elifecleaner-0.20.0.dist-info/METADATA,sha256=88n8dHofzP0C3DYwly2WrbFaQd-CLLIzxoQnSCSCU7o,1011
+elifecleaner-0.20.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+elifecleaner-0.20.0.dist-info/top_level.txt,sha256=tlJmR9hxwyz_UT7isdrJd3pN6-jsUzeVfBp01aBdo30,13
+elifecleaner-0.20.0.dist-info/RECORD,,
