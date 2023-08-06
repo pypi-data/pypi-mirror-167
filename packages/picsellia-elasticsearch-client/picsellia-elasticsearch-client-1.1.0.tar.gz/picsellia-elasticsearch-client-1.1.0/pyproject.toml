@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "picsellia-elasticsearch-client"
+version = "1.1.0"
+description = "Package wrapping elasticsearch client for Picsellia"
+authors = ["Thomas Darget <thomas.darget@picsellia.com>"]
+license = "MSI"
+readme = "README.md"
+packages = [{include = "picsellia_elasticsearch_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ElasticMock = "^1.8.1"
+elasticsearch = "7.16.2"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20.0"
+coverage = "^6.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
