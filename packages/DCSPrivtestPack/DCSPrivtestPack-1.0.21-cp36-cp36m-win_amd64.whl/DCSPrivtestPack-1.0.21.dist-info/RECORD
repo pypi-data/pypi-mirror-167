@@ -1,0 +1,14 @@
+_diffcp.cp36-win_amd64.pyd,sha256=T6GwLsW30XdgTxd3g_EW3vzfYhP3Wg42Ns5lo1USkRs,118784
+diffcp/__init__.py,sha256=LOR2Nz13aPsmcWFqM4U-H-K_rnRN7y-LDNnaMvxvrpc,195
+diffcp/cone_program.py,sha256=25mu9tZ1P1VW3fa8VXY50eBgWuelxW-olSqMcjONpI4,341
+diffcp/cones.py,sha256=885yXnrX-bjy3DaKtQ5lqD4n0TUD7OMN7OHkjTyHh8g,191
+diffcp/utils.py,sha256=WR5fsFW6uDBuoRnm_uyxfACvBLlhCBu5A-USB7-qoTI,131
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cone_prog_diff.py,sha256=_sTUnxTYDv9WoJGj_drTGCjcdfptSvD6VHQtuOGtVcI,266
+tests/test_ecos.py,sha256=HQ2_IioTZVB1IS1N_pux99NBxWH-lCnjCdtaaJyEguM,251
+tests/test_scs.py,sha256=aJrvVsupfF4xAN22lM36e_EnQm4bslDQR1DkHna_uhM,148
+DCSPrivtestPack-1.0.21.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+DCSPrivtestPack-1.0.21.dist-info/METADATA,sha256=mzsZalQb5ZGEbAI5ylD5vwdDNN3ARULOGIZy0cOl-zA,506
+DCSPrivtestPack-1.0.21.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+DCSPrivtestPack-1.0.21.dist-info/top_level.txt,sha256=JJQlhFrUfVJt9Gss7q0KCe41glpWmbK4wL82i3vtmfs,21
+DCSPrivtestPack-1.0.21.dist-info/RECORD,,
