@@ -1,0 +1,12 @@
+future
+numexpr
+numpy
+pyvips
+webcolors
+
+[tests]
+pytest
+pytest-pythonpath
+
+[tests:platform_system == "Linux"]
+distro
