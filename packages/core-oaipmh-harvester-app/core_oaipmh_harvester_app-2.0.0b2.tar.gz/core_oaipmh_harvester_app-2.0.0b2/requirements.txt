@@ -1,0 +1,7 @@
+celery
+Django
+djangorestframework
+django-simple-menu
+requests
+sickle==0.7.0
+future

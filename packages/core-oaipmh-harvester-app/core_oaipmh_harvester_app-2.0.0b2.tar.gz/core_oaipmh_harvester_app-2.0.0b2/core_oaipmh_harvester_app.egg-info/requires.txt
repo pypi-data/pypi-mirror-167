@@ -1,0 +1,10 @@
+celery
+Django
+djangorestframework
+django-simple-menu
+requests
+sickle==0.7.0
+future
+core-main-app==2.0.0-beta2
+core-oaipmh-common-app==2.0.0-beta2
+xml-utils==1.18.*
