@@ -1,0 +1,6 @@
+setup.py
+path_decoder/__init__.py
+path_decoder.egg-info/PKG-INFO
+path_decoder.egg-info/SOURCES.txt
+path_decoder.egg-info/dependency_links.txt
+path_decoder.egg-info/top_level.txt

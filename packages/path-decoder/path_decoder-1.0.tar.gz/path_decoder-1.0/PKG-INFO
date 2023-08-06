@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: path_decoder
+Version: 1.0
+Summary: This package will extract the json paths from a json file
+Author: Chetan
