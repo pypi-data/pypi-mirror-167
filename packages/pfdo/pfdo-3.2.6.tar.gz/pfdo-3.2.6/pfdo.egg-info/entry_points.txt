@@ -1,0 +1,3 @@
+[console_scripts]
+pfdo = pfdo.__main__:main
+
