@@ -1,0 +1,1 @@
+Uma biblioteca do python que te ajuda a fazer operações básicas =D
