@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "lapis-mimeparse"
+version = "0.1.5"
+description = "A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges."
+authors = ["Joe Gregorio <joe@bitworking.org>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python',
+    'Topic :: Internet :: WWW/HTTP',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+]
+keywords = ['mime-type']
+packages = [
+    { include = 'mimeparse' , from='.'}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
