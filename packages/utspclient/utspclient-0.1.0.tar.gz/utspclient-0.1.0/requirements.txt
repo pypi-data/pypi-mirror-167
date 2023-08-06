@@ -1,0 +1,10 @@
+setuptools
+requests
+dataclasses_json
+pandas
+numpy
+mypy
+
+# types
+types-requests
+pandas-stubs
