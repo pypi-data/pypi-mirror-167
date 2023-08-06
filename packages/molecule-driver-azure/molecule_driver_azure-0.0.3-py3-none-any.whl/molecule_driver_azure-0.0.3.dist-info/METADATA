@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: molecule-driver-azure
+Version: 0.0.3
+Summary: Molecul Driver for Azure :: run molecule tests on Azure compute infrastructure
+Home-page: https://github.com/kksat/molecule-driver-azure
+Author: https://github.com/kksat
+Maintainer: https://github.com/kksat
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kksat/molecule-driver-azure/issues
+Project-URL: Release Management, https://github.com/kksat/molecule-driver-azure/releases
+Project-URL: CI, https://github.com/kksat/molecule-driver-azure/actions
+Project-URL: Documentation, https://molecule-driver-azure.readthedocs.io
+Project-URL: Source Code, https://github.com/kksat/molecule-driver-azure
+Keywords: ansible,roles,testing,molecule,azure
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: molecule (>=3.2.0a0)
+Provides-Extra: test
+Requires-Dist: molecule[ansible,test] ; extra == 'test'
+
+*************************
+Molecule Driver for Azure
+*************************
+
+Molecule driver Azure is a python plugin that allows to create Azure compute resources to test Ansible roles.
+
+Documentation
+=============
+
+Read the documentation and more at molecule-driver-azure.readthedocs.io.
