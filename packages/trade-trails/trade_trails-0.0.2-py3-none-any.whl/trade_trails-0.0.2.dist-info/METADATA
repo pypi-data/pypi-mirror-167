@@ -1,0 +1,776 @@
+Metadata-Version: 2.1
+Name: trade-trails
+Version: 0.0.2
+Summary: This Library is only For Trade Trails Company
+Author: Krishna Gupta
+Author-email: kg158454@gmail.com
+Keywords: python,trade_trails,trade_trails library,pip install trade_trails,Trade_trails pip install
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: colorama
+Requires-Dist: datetime
+
+
+# Trade-Trails
+
+In this library you will find TradeTrails company Function which is often used in Codes.
+
+
+
+## **Package Installation**
+
+For installing this library you can use any python compiler or you can  open **CMD** and install  python 3.6 version or the above version.
+
+Use the following syntx to install the function:-
+
+
+
+    pip install trade-trails==0.0.1
+
+
+
+
+
+## **Package Import**
+
+This import package is for installing all the package
+
+    
+
+    from trade_trails import *
+
+
+
+
+
+
+
+
+
+## **Functions**
+
+Following are the given functions to fetch the required data :-
+
+
+
+- [Future Close Price](#future-close-price)
+
+- [Call Price](#call-price)
+
+- [Put Price](#put-price)
+
+- [Nearest Base Price](#nearest-base-price)
+
+- [Best Of Three](#best-of-three)
+
+- [Sell Stop Loss](#sell-stop-loss)
+
+- [Buy Stop Loss](#buy-stop-loss)
+
+- [File Name](#file-name)
+
+
+
+### **Future Close Price**
+
+
+
+
+
+This function is use to fetch  close price at the  given time .
+
+
+
+- Time should be in a string and **HH:MM:SS**
+
+- Dataframe should be **FUTURE DATA**
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import FutureClose
+
+**Syntax**
+
+        
+
+    FutureClose.close_price(self, time, dataframe)
+
+
+
+**Example -** 
+
+ - Input:
+
+
+
+    Time = "09:20:59"
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+ 
+
+ **CODE**
+
+
+
+    from trade_trails import FutureClose
+
+
+
+    data = FutureClose.close_price(time=Time, dataframe=df) 
+
+    print(data)
+
+
+
+- **Output :**
+
+                
+
+        34661.45
+
+    
+
+
+
+### **ATM (At The Money)**
+
+This function used to find At The Money Strike , Call Price and Put Price
+
+- Time should be in a string and **HH:MM:SS**
+
+- Dataframe should be **OPTION DATA**
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+**Syntax**
+
+
+
+    OptionData(self, dataframe, times).atm()
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    Time = "09:20:59"
+
+    
+
+    df =  Variable **df** should contain a dataframe
+
+ 
+
+ **CODE**
+
+
+
+    from trade_trails import OptionData
+
+
+
+    atm = OptionData(dataframe=df, time=times).atm() 
+
+    print(atm)
+
+
+
+
+
+- **Output :**
+
+       
+
+       [{'atm': '31400', 'call_atm_price': 395.05, 'put_atm_price': 427.2}]
+
+
+
+### **CALL PRICE**
+
+
+
+It returns call close price at the given time and given strike of OPTION DATA
+
+- Time should be in a string and **HH:MM:SS**
+
+- Dataframe should be **OPTION DATA**
+
+- Strike should be a string
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+**Syntax**
+
+
+
+    OptionData(self, dataframe, time, strike).call_price()
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+
+
+    Time = "09:20:59"
+
+    
+
+    Strike= "31400"
+
+    
+
+ **CODE:**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+    call_price = OptionData(dataframe=df, time=Time, strike=Strike).call_price() 
+
+    print(call_price)
+
+
+
+- **Output :**
+
+       
+
+       395.05
+
+
+
+
+
+### **PUT PRICE**
+
+
+
+It returns put close price at the given time and given strike of OPTION DATA
+
+- Time should be in a string and **HH:MM:SS**
+
+- Dataframe should be **OPTION DATA**
+
+- Strike should be a string
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+**Syntax**
+
+
+
+    OptionData(self, dataframe, time, strike).put_price()
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+
+
+    Time = "09:20:59"
+
+    
+
+    Strike= "31400"
+
+    
+
+ **CODE:**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+    put_price = OptionData(dataframe=df, time=Time, strike=Strike).put_price() 
+
+    print(put_price)
+
+
+
+- **Output :**
+
+       
+
+       427.02
+
+
+
+
+
+
+
+### **Nearest Base Price**
+
+
+
+It returns  close price and strike of nearest base price by using time , base price and option 
+
+type as input of OPTION DATA
+
+- Dataframe should be **OPTION DATA**
+
+- Time should be in a string and **HH:MM:SS**
+
+- Base Price should be an integer
+
+- Option type (CE/PE) should be string  (Default Value = CE)
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+**Syntax**
+
+
+
+    OptionData(self, dataframe,, time, base_price, option_type).nearest_base_price()
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+
+
+    Time = "09:20:59"
+
+    
+
+    Base_Price = 250
+
+   
+
+    Option_Type = "PE/CE"   
+
+
+
+ **CODE:**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+    nearest_base_price = OptionData(dataframe=df, time=Time, base_price=Base_Price, option_type=Option_Type).nearest_base_price() 
+
+    print(nearest_base_price)
+
+
+
+- **Output :**
+
+       
+
+      [{'nearest_base_price': 263.1, 'nearest_base_price_strike': '31700'}]
+
+       
+
+
+
+
+
+### **Best Of Three**
+
+
+
+It returns **Entry Price** and **Entry Strike** from best three combination by using Time and Base price of **OPTION DATA**
+
+
+
+- Dataframe should be **OPTION DATA**
+
+- Time should be in a string and **HH:MM:SS**
+
+- Base Price should be an integer 
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+
+
+**Syntax**
+
+
+
+    OptionData(self, dataframe, time, base_price).best_of_three()
+
+
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+
+
+    Time = "09:20:59"
+
+    
+
+    Base_Price = 250
+
+   
+
+ **CODE:**
+
+        
+
+    from trade_trails import OptionData
+
+
+
+    best_of_three = OptionData(dataframe=df, time=Time, base_price=Base_Price).best_of_three() 
+
+    print(best_of_three)
+
+
+
+- **Output :**
+
+       
+
+        [{'call_strike': '31700', 'call_entry_price': 263.1, 'put_strike': '31000', 'put_entry_price': 260.65}]
+
+
+
+### **Sell Stop Loss**
+
+
+
+It will returns **Exit Price** and **Exit Time** when it will hit the stop loss for sell strategy by using Entry time, Exit time, Option type, Streike, Stop Loss Price and OPTION DATA
+
+
+
+- Dataframe should be **OPTION DATA**
+
+- Entry Time should be in a string and **HH:MM:SS**
+
+- Exit Time should be in a string and **HH:MM:SS**
+
+- Option type (CE/PE) should be string (Default Value = CE)
+
+- Strike should be a string
+
+- Stop Loss Price should be float 
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+**Syntax**
+
+
+
+    StopLoss(self, dataframe, entry_time, exit_time, option_type, strike, stoploss_price).sell_stop_loss()
+
+
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+
+
+    Entry_Time = "09:20:59"
+
+
+
+    Exit_Time = "15:20:59"
+
+
+
+    Option_Type = "PE/CE"   
+
+
+
+    Strike= "31400"
+
+
+
+    Stop_Loss_Price = 294.5
+
+   
+
+ **CODE:**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+    sell_stop_loss = StopLoss(dataframe=df, entry_time=Entry_Time, exit_time=Exit_Time, option_type=Option_Type, strike=Strike, stoploss_price=Stop_Loss_Price).sell_stop_loss() 
+
+    print(sell_stop_loss)
+
+
+
+- **Output :**
+
+       
+
+        [{'CE_exit_time': datetime.time(10, 23, 59), 'CE_exit_price': 294.5}]
+
+
+
+
+
+### **Buy Stop Loss**
+
+
+
+It will returns **Exit Price** and **Exit Time** when it will hit the stop loss for buy strategy by using Entry time, Exit time, Option type, Streike, Stop Loss Price and OPTION DATA
+
+
+
+- Dataframe should be **OPTION DATA**
+
+- Entry Time should be in a string and **HH:MM:SS**
+
+- Exit Time should be in a string and **HH:MM:SS**
+
+- Option type (CE/PE) should be string (Default Value = CE)
+
+- Strike should be a string
+
+- Stop Loss Price should be float 
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+**Syntax**
+
+
+
+    StopLoss(self, dataframe, entry_time, exit_time, option_type, strike, stoploss_price).buy_stop_loss()
+
+
+
+
+
+**Example-**
+
+- Input:
+
+
+
+    df =  Variable **df** should contain a dataframe
+
+
+
+    Entry_Time = "09:20:59"
+
+
+
+    Exit_Time = "15:20:59"
+
+
+
+    Option_Type = "PE/CE"   
+
+
+
+    Strike= "31400"
+
+
+
+    Stop_Loss_Price = 294.5
+
+   
+
+ **CODE:**
+
+    
+
+    from trade_trails import OptionData
+
+
+
+    buy_stop_loss = StopLoss(dataframe=df, entry_time=Entry_Time, exit_time=Exit_Time, option_type=Option_Type, strike=Strike, stoploss_price=Stop_Loss_Price).buy_stop_loss() 
+
+    print(sell_stop_loss)
+
+
+
+- **Output :**
+
+       
+
+        [{'PE_exit_time': datetime.time(15, 20, 59), 'PE_exit_price': 200}]
+
+
+
+
+
+### **File Name**
+
+
+
+It will give file name, year and month  format which is stored in the database which you can use for creating path 
+
+- Instrument should be string which contain trading symbol   (Default - "BANKNIFTY")
+
+- Date should be in string (YYYY-MM-DD)
+
+
+
+**Import Package**
+
+    
+
+    from trade_trails import FileName
+
+
+
+**Syntax**
+
+
+
+    FileName(self, date, instrument).filename()
+
+
+
+
+
+
+
+**Example-**
+
+- Input:
+
+    
+
+    Date = "2020-03-01"
+
+    
+
+    Instrument = "NIFTY"
+
+   
+
+ **CODE:**
+
+    
+
+    from trade_trails import FileName
+
+
+
+    filename = FileName(date=Date, instrument=Instrument).filename() 
+
+    print(filename)
+
+
+
+- **Output :**
+
+       
+
+        {'filename': 'NIFTY_01032020.pkl', 'year': 2020, 'month': 3}]
+
+
+
+
+
+
+
+       
