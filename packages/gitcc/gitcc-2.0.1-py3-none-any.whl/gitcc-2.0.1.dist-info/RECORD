@@ -1,0 +1,12 @@
+gitcc/__init__.py,sha256=1HLyCIuYtLKSxndNB7Hpoc7gvKjDdLDCWKjHcICo1J4,15
+gitcc/commit_validator.py,sha256=yoQac2W5IqJkaGrz0aLlFnB_SPZjSgqGlsR6Rfqy06Q,1606
+gitcc/git_hook.py,sha256=GnmRAad1qI1AFHXwvZrjq0YDW4X0qRsXCZhE81tVSAc,2243
+gitcc/main.py,sha256=hYclSqGE6cxshabQp_5RSvuwUMUUOofAMietFvlnV5Y,5049
+gitcc/utility.py,sha256=UIxhoH2kHk-Y8ZXo3od9CcqggtED6w6Icam3zBWFaBg,1935
+gitcc/validation.py,sha256=XW6TWtpXftY2ebEW8NZ1aQsgfXUm35GZaJ0H9JNGt30,2752
+gitcc-2.0.1.dist-info/METADATA,sha256=OtA2HSMaPaXz6DYjWaI9Kbocvk1Erbz42i1h7oA46ug,6382
+gitcc-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitcc-2.0.1.dist-info/entry_points.txt,sha256=ntwPVjZzI5vxoVt6pZ8LAU5KF-tVVMwCT53TD1ZUex8,43
+gitcc-2.0.1.dist-info/top_level.txt,sha256=rYpq3k2cQF8VyWEW5r_XyNLjZ0gJTsdjiJIYnXbl6Vk,6
+gitcc-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gitcc-2.0.1.dist-info/RECORD,,
