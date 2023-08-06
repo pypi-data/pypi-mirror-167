@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: DAO_module
+Version: 1.2.1.1
+Summary: Модуль для работы с удаленной БД
+Home-page: https://github.com/SADT-Boting/DAO-Module
+Author: BuldakovN
+Author-email: nikitabuldakov@mail.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
