@@ -1,0 +1,26 @@
+# MANIFEST.in
+#
+# Project: AutoArchive
+# License: GNU GPLv3
+#
+# Copyright (C) 2003 - 2022 Róbert Čerňanský
+
+# Manifest template for distutils.
+
+
+
+# setuptools_scm package, if installed, is used even if it is not configured so to achieve consistent behaviour we
+# have to exclude everything and specify the content manually
+global-exclude *
+
+recursive-include AutoArchive *.py
+include MANIFEST.in
+include INSTALL
+include NEWS
+include README*
+include setup.py
+graft bin
+graft data
+graft doc/src
+graft doc/devel
+graft doc/user

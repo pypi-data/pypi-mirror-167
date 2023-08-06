@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: autoarchive
+Version: 2.0.3
+Summary: A simple backup utility.
+Home-page: https://autoarchive.sourceforge.io
+Download-URL: https://sourceforge.net/projects/autoarchive/files/autoarchive/2.0.3/autoarchive-2.0.3.tar.gz/download
+Author: Róbert Čerňanský
+Author-email: openhs@users.sourceforge.net
+License: GNU GPLv3
+Keywords: backup archive archiving compression tar
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Compression
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: COPYING
+
+**AutoArchive** is a simple utility to help create backups more easily.  The
+idea of the program is that all essential information for creating a single
+backup---such as list of directories that should be archived, the archive name,
+etc.---is stored in a single file -- the `archive specification file`.  It can
+use ‘tar’ for creating archives, it has a command line interface and supports
+incremental backups.
