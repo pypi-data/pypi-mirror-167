@@ -1,0 +1,1 @@
+get ios battery temp and level
