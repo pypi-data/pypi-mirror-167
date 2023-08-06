@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: number-check
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Apurba Khanra
+Author-email: apurbakhanra@yahoo.com
+License: MIT
+Keywords: numbers,number,check number
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a simple module where you can check different numbers just calling the following func ->
+
+Odd - even              -> isoddeven(n)
+Palindrome              -> isPalindrome(n)
+Armstrong               -> isArmstrong(n)
+Palindrome              -> isPrime(n)
+
+Change Log
+
+=================================
+
+0.0.1 (16-09-2022)
+
+=================================
+
+-  First release
+
