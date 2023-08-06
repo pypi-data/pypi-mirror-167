@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+lib_python_jd/__init__.py
+lib_python_jd/github_api.py
+lib_python_jd.egg-info/PKG-INFO
+lib_python_jd.egg-info/SOURCES.txt
+lib_python_jd.egg-info/dependency_links.txt
+lib_python_jd.egg-info/not-zip-safe
+lib_python_jd.egg-info/requires.txt
+lib_python_jd.egg-info/top_level.txt
