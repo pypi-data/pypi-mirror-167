@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: oespy
+Version: 0.1
+Summary: OES Python Lib
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
