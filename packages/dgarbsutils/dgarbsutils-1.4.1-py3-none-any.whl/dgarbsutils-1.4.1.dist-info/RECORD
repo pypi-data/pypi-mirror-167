@@ -1,0 +1,11 @@
+dgarbsutils/Cloudwatch.py,sha256=TiiyC7mmHWN7bZYGsjRISdw4Wf0NFiEvCHLJkJuHkE0,2312
+dgarbsutils/DynamoDB.py,sha256=qRU1IeTOAifTqAM1Z9MoJfTeHwGb6ycRZpQT7IHmZ8Y,5046
+dgarbsutils/GraphMail.py,sha256=EjAfBg8UhixeLrl1y3MxP4wXVDRWVtFBlp8hUVVH4G8,4030
+dgarbsutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dgarbsutils/awsUtils.py,sha256=5YKuSU_h76TX1tWw6vPpllO17agVHFn7vfPfUQSrjKQ,5051
+dgarbsutils/utils.py,sha256=acSVmweLJ8mSOMIqQPTMMjFQo9qqd3aO-tCdxSvBdI4,5045
+dgarbsutils-1.4.1.dist-info/LICENSE,sha256=bpSCKQ8dNUnBJC-upyFIxnTf4Gix9k-E5Wv-9KNn9lI,1072
+dgarbsutils-1.4.1.dist-info/METADATA,sha256=KlyAiImYw0q1eyEDlnh1xPM0VEVSF_mXHjtDXNlICnw,989
+dgarbsutils-1.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dgarbsutils-1.4.1.dist-info/top_level.txt,sha256=goP3nMGJcGCLgsuhcAqOYog-KWKJd7pd91U99T5f_6k,12
+dgarbsutils-1.4.1.dist-info/RECORD,,
