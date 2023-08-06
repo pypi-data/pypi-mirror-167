@@ -1,0 +1,14 @@
+oneface/__init__.py,sha256=ZNryJjLH9WcH0uE-kW52dN5HiHEZlbbWLT_hm_yD_a4,72
+oneface/arg.py,sha256=o5HiM3wIJOwYKeWUsJT950kVf18FOHgycr7W5uvH3Eo,2624
+oneface/core.py,sha256=XZGi-rrYeq0paZDcaZ3bFttGKellEeYkUhDHtwHEuEA,3727
+oneface/dash_app.py,sha256=MaOixFWdAYQ2NgQtylCyBrejUBkVPznT1AOjn9so6sw,9572
+oneface/qt.py,sha256=hRIdjTVDXSd3JF5h2coMjQp9_yDsOIybVImqknRxXWI,8487
+oneface/types.py,sha256=slf6hFI_K9Us9gdWn4ZKoh0iQeBQUbPiTzkkIiwbLZk,1164
+oneface/wrap_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oneface/wrap_cli/__main__.py,sha256=NX0Za_hnCiQN3qp9gxpZgSae5FsD1vkGR-da9jp63Dw,488
+oneface/wrap_cli/utils.py,sha256=WCCs5Xov6LQa9b7-xXEIAZMbc9xZXO_-fpsB5b81KD4,214
+oneFace-0.1.0.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+oneFace-0.1.0.dist-info/METADATA,sha256=PqxBulXJBdr37_B4AzcYYQBpDA6Njdcaps1e6jIWiJw,2066
+oneFace-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oneFace-0.1.0.dist-info/top_level.txt,sha256=n7WJK-bosXzcMqh_TFszUol6dTaSjxz6tzV0LxT-0zo,8
+oneFace-0.1.0.dist-info/RECORD,,
