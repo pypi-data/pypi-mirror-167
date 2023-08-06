@@ -1,0 +1,4 @@
+[console_scripts]
+DoushiNixingRedehuo = DoushiNixingRedehuo.__main__:main
+doushi-nixing-redehuo = DoushiNixingRedehuo.__main__:main
+
