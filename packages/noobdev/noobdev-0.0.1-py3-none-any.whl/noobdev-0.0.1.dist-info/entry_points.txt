@@ -1,0 +1,2 @@
+[nbdev]
+noobdev = noobdev._modidx:d
