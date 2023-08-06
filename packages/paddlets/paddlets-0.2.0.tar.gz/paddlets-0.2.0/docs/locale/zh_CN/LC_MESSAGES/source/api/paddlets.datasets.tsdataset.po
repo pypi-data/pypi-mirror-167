@@ -1,0 +1,1027 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, PaddleTS
+# This file is distributed under the same license as the PaddleTS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PaddleTS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-25 16:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/api/paddlets.datasets.tsdataset.rst:2
+#: 1673e4311cd14113b4d77bca6c609963
+msgid "paddlets.datasets.tsdataset"
+msgstr ""
+
+#: 4e60a7f937e449c6ab88a8ac096006c5 bd9b4930f02f4b05b590f8e62a668842 of
+#: paddlets.datasets.tsdataset:1 paddlets.datasets.tsdataset.TSDataset:1
+msgid ""
+"TSDataset is the fundamental data class in PaddleTS, which is designed as"
+" the first-class citizen to represent the time series data. It is widely "
+"used in PaddleTS. In many cases, a function consumes a TSDataset and "
+"produces another TSDataset. A TSDataset object is comprised of two kinds "
+"of time series data:"
+msgstr ""
+"``TSDataset`` 是 `PaddleTS` "
+"中一个主要的类结构，用于表示绝大多数的时序样本数据，并作为PaddleTS其他算子的输入以及输出对象。TSDataset 包涵两类时序数据："
+
+#: 763b0e7f41c446429fdbff543a61227c eb7b58167c2f40f0938483103f220cfb of
+#: paddlets.datasets.tsdataset:5 paddlets.datasets.tsdataset.TSDataset:5
+msgid ""
+"Target:  the key time series data in the time series modeling tasks (e.g."
+" those needs to be forecasted in the time series forecasting tasks)."
+msgstr "待预测目标：表示希望被预测的时序序列"
+
+#: 08faa418c8e04c13802675573edca410 8440b0ca9ec9467e828622f0cfa4f628 of
+#: paddlets.datasets.tsdataset:6 paddlets.datasets.tsdataset.TSDataset:6
+msgid ""
+"Covariate: the relevant time series data which are usually helpful for "
+"the time series modeling tasks."
+msgstr "协变量：无需被预测的时间序列，协变量的加入通常用于辅助提高模型预测的效果"
+
+#: 18557d073e9f48c3933ea5c236b2ad56 82118b537af0462d967ce79f6e35ff14 of
+#: paddlets.datasets.tsdataset:8 paddlets.datasets.tsdataset.TSDataset:8
+msgid "Currently, it supports the representation of:"
+msgstr "TSDataset支持的时序样本数据可以分为："
+
+#: 31126ef0a30944b8b52a60df8c9d66ee 68c124049a6a4bfdba8dc78b821c2e19 of
+#: paddlets.datasets.tsdataset:10 paddlets.datasets.tsdataset.TSDataset:10
+msgid "Time series of single target w/wo covariates."
+msgstr "单变量数据，只包含单列的预测目标，同时可以包涵单列或者多列协变量"
+
+#: 02dd0c80b92844098ff112041de5713d f423f368275f41a5b90c2a9ca8b879ee of
+#: paddlets.datasets.tsdataset:11 paddlets.datasets.tsdataset.TSDataset:11
+msgid "Time series of multiple targets w/wo covariates."
+msgstr "多变量数据，包涵多列预测目标，同时可以包涵单列或者多列协变量"
+
+#: b81cf2a0142448ee9d92dd95dd7d63f3 ca23b66a45d24170834ff70a14c98dbd of
+#: paddlets.datasets.tsdataset:13 paddlets.datasets.tsdataset.TSDataset:13
+msgid "And the covariates can be categorized into one of the following 3 types:"
+msgstr "我们将非预测目标变量定义为协变量，在时序数据中，协变量可分为以下三种："
+
+#: 2228bae98af442c5b4e755ec6078dc4f 29fddd153af74b49af20a22eb52f4817 of
+#: paddlets.datasets.tsdataset:16 paddlets.datasets.tsdataset.TSDataset:16
+msgid "Observed covariates (`observed_cov`):"
+msgstr "观测协变量 (`observed_cov`)"
+
+#: 1ff917727db447578c826dfba18cd0e1 5621bbe18b1745f090ce64b1e6583d71 of
+#: paddlets.datasets.tsdataset:16 paddlets.datasets.tsdataset.TSDataset:16
+msgid ""
+"referring to those variables which can only be observed in the historical"
+" data, e.g. measured temperatures"
+msgstr "指只能在历史中观察到的变量数据，例如测量的温度"
+
+#: 25bc5ac00f734b51a68e70e4f20ec016 e2fa15cb4a4248928df667bd43d57c15 of
+#: paddlets.datasets.tsdataset:19 paddlets.datasets.tsdataset.TSDataset:19
+msgid "Known covariates (`known_cov`):"
+msgstr "可预知协变量 (`known_cov`)"
+
+#: 6122a0258ad94ccc84e0afeb3e1f4313 6c94c612bb204114aba10b5ee0482299 of
+#: paddlets.datasets.tsdataset:19 paddlets.datasets.tsdataset.TSDataset:19
+msgid ""
+"referring to those variables which can be determined at present for "
+"future time steps, e.g. weather forecasts"
+msgstr "指可在预测未来时间已知的变量，例如天气预报"
+
+#: 81b0039e0fe446af9237185bdb09a1b7 a0b1b21ab6034fa19761877f3724a853 of
+#: paddlets.datasets.tsdataset:22 paddlets.datasets.tsdataset.TSDataset:22
+msgid "Static covariates (`static_cov`):"
+msgstr "静态协变量 (`static_cov`)"
+
+#: 37b35f7f9f2f48b08e86e6d33d76410b f096650061c949739aab51123d294be6 of
+#: paddlets.datasets.tsdataset:22 paddlets.datasets.tsdataset.TSDataset:22
+msgid "referring to those variables which keep constant over time"
+msgstr "指整个时间范围内保持不变的变量"
+
+#: 8635d030fa194c9ea80c74e4d4639317 f9c545cbade641dd9ba0c730eac78197 of
+#: paddlets.datasets.tsdataset:24 paddlets.datasets.tsdataset.TSDataset:24
+msgid ""
+"A TSDataset object includes one or more TimeSeries objects, representing "
+"targets, known covariates (known_cov), observed covariates "
+"(observed_cov), and static covariates (static_cov), respectively."
+msgstr ""
+"一个 ``TSDataset`` 对象由一个或者多个 ``TimeSeries`` 对象构成，每个 ``TimeSeries`` "
+"可分别代表target（待预测目标）， observed_covariate（观测协变量）以及known_covariate（可预知协变量）。"
+
+#: ea0d6beb4ee64aaa8ea34ab4d1710e0c f26b33fdc7cc4d9dbbdc69845e0bb4a9 of
+#: paddlets.datasets.tsdataset.TSDataset:1
+#: paddlets.datasets.tsdataset.TimeSeries:1
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: fa1d29afde234b97a309c65b03a88a2e of paddlets.datasets.tsdataset.TimeSeries:1
+msgid ""
+"TimeSeries is the atomic data structure for representing target(s), "
+"observed covariates (observed_cov), and known covariates (known_cov). "
+"Each could be comprised of a single or multiple time series data."
+msgstr ""
+"TimeSeries 是用于表示时序数据的最小粒度。可以分别代表target, observed_covariate "
+"或者known_covariate 其中一种类型。TimeSeries本身可以是单变量或者多变量。"
+
+#: 048f32641f1a46b5a350e44c924f65ac 078cc99c7c4b4cba811bee3afd02dda0
+#: 0a7c3003078a45d885f086ea54b166b6 0bae9a2872964641bfa6591de15a70c9
+#: 0fe71cbfae844dddaeb5a1981c12ed9a 0ffabdf9c4034ea5b13068c16f99fb17
+#: 2e79e5ef0fca448eabe2a195289b42a3 2fe35e5462604770b3c95c49a5c089c2
+#: 338f0c0a63714cb9ab23c5398a530ead 362532b051654122b85ff2f54098833e
+#: 44e5520395dc4e9d805248a0eab93814 5e552418f6834c4a9a006800745ea742
+#: 686df4a4b25c445184e699317fc907ea 68895c1bb0c54ad39d1a6f459e6959e4
+#: 6e0924deaa8e4a519d983c6e88f15486 6ea643f76bf84c9fad263d3654cb218d
+#: 6ed8938282ed459d94bb1528237b2d61 6f5befdfdaac422c91dbdd773f6d8b46
+#: 78957585a6a048b5be0bf83e227af6e8 88aec5c2a8834bc985ac4abfeb4fb6ea
+#: 89cf288c84e140ca908fbe20aba74610 a3aa02d97b3f40a48490221c1345df91
+#: af88ebd89e764ab6983ed85398492a9d be570dfd430a43df9e729c9aca4cdd31
+#: c5488d52749640bebd9acd2f45e20f1c cf43266d144445fea0c7511f7f9d80b0
+#: d53c7480eff2400d86a95c65f14fb619 e0dfaa136af54dd290e8f8100f4b6c50
+#: e19f1f105f41466fb77d60a30fbdbcae of paddlets.datasets.tsdataset.TSDataset
+#: paddlets.datasets.tsdataset.TSDataset.astype
+#: paddlets.datasets.tsdataset.TSDataset.concat
+#: paddlets.datasets.tsdataset.TSDataset.drop
+#: paddlets.datasets.tsdataset.TSDataset.get_item_from_column
+#: paddlets.datasets.tsdataset.TSDataset.load
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe
+#: paddlets.datasets.tsdataset.TSDataset.plot
+#: paddlets.datasets.tsdataset.TSDataset.save
+#: paddlets.datasets.tsdataset.TSDataset.set_column
+#: paddlets.datasets.tsdataset.TSDataset.set_known_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_observed_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_static_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_target
+#: paddlets.datasets.tsdataset.TSDataset.sort_columns
+#: paddlets.datasets.tsdataset.TSDataset.split
+#: paddlets.datasets.tsdataset.TSDataset.to_dataframe
+#: paddlets.datasets.tsdataset.TSDataset.to_numpy
+#: paddlets.datasets.tsdataset.TimeSeries
+#: paddlets.datasets.tsdataset.TimeSeries.astype
+#: paddlets.datasets.tsdataset.TimeSeries.concat
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe
+#: paddlets.datasets.tsdataset.TimeSeries.reindex
+#: paddlets.datasets.tsdataset.TimeSeries.sort_columns
+#: paddlets.datasets.tsdataset.TimeSeries.split
+#: paddlets.datasets.tsdataset.TimeSeries.to_dataframe
+#: paddlets.datasets.tsdataset.TimeSeries.to_numpy
+msgid "Parameters"
+msgstr ""
+
+#: 283b9e1104dd446cb19d48e8c304ffec 3940125f8f8a40c490902787b9d47ca9 of
+#: paddlets.datasets.tsdataset.TimeSeries:4
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe:3
+msgid "A Pandas DataFrame or Series containing the time series data"
+msgstr "样本数据，可以是目标变量或者协变量"
+
+#: 053bfc7e0e8f46d48475ea3106431925 eb24ff8658e44dd79406fac4edbd3ffa of
+#: paddlets.datasets.tsdataset.TimeSeries:6
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe:11
+msgid ""
+"A string or int representing the Pandas DateTimeIndex's frequency or "
+"RangeIndex's step size"
+msgstr "样本数据频率，用于调整data以及配合fillna进行空行填充"
+
+#: 0eb692c5dfc949cb92e733b3447b7ecb 20d41f22c6fe4cf286d2b4b702f2b4c9
+#: 3b98b258dc884040adac4a0519be90a6 3ebb93c4b57a4dc696b7029276cbac64
+#: 40d8bbd309f24955a83d6f3c2bd9aa11 49468d2c4d9c446a890b39e1f88fb5fb
+#: 55f5f5cd538a4b2eb216b99a415db308 566f8f44229b46979ddb8d4faeb1afc9
+#: 5c4294259f2d440e8a298177c3f84fa0 5ef075c46f2d4c5183c91cc2d9064ab0
+#: 63e3a0b4ce6a476ab060a51c2329ad6c 6bb008b91bfa460fa565bd89fabb9bd5
+#: 72f2c139c61e40d08d5b20ca251b815a 793cb3be52de4787b8627aad995aa908
+#: 8b43d32025e4449bb61cb3506a7433fb 9342e4ef817c43f5bd3ad096ecec9bd3
+#: a450676a41ff4fe5a30c8597805ed0e2 a874c7127c0a47f089bba690ff62a75e
+#: ac737a9c19604d2b89639c702f20a9a4 ae6c5c95020b4f3d8e100f76845fe297
+#: b57506a217a64ba3b502741720a5e997 ba0b127c77bc4a30ac0b2c924ccce484
+#: bbc2fb760bc64aba9e84a14fd9e95ac3 c56e8fed55094f87b2605d04286f263a
+#: c5eb40fcd9f94514a4017049c86a4e48 ddaea1ced4eb4835a71f96b428d5c7d2
+#: eacb2831679d4bcdb2183b980c632faf ec602109d0de457ba4c11f6fa906a24e
+#: ef6fd2d4862d4a9fa00dc89406156781 f25cbf62cd174877b7cbd4efa5e08632
+#: fa9c614a422b4ae082bd26ded43db976 fe9d7da59648423c848e512500fa03e4 of
+#: paddlets.datasets.tsdataset.TSDataset.columns
+#: paddlets.datasets.tsdataset.TSDataset.concat
+#: paddlets.datasets.tsdataset.TSDataset.copy
+#: paddlets.datasets.tsdataset.TSDataset.drop
+#: paddlets.datasets.tsdataset.TSDataset.dtypes
+#: paddlets.datasets.tsdataset.TSDataset.get_all_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_item_from_column
+#: paddlets.datasets.tsdataset.TSDataset.get_known_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_observed_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_static_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_target
+#: paddlets.datasets.tsdataset.TSDataset.load
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe
+#: paddlets.datasets.tsdataset.TSDataset.plot
+#: paddlets.datasets.tsdataset.TSDataset.set_column
+#: paddlets.datasets.tsdataset.TSDataset.set_known_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_observed_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_static_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_target
+#: paddlets.datasets.tsdataset.TSDataset.split
+#: paddlets.datasets.tsdataset.TSDataset.to_dataframe
+#: paddlets.datasets.tsdataset.TSDataset.to_numpy
+#: paddlets.datasets.tsdataset.TimeSeries
+#: paddlets.datasets.tsdataset.TimeSeries.concat
+#: paddlets.datasets.tsdataset.TimeSeries.copy
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe
+#: paddlets.datasets.tsdataset.TimeSeries.reindex
+#: paddlets.datasets.tsdataset.TimeSeries.split
+#: paddlets.datasets.tsdataset.TimeSeries.to_dataframe
+#: paddlets.datasets.tsdataset.TimeSeries.to_numpy
+msgid "Returns"
+msgstr ""
+
+#: 33225ced17cf4f06ad881fd111afaa34 b0e19735b93840a79dd67642ad557c2c
+#: c5c0b797e1f946dcb2b97bcf9c0e7df8 c686afc1b1f6470ca30eedbef0245493
+#: e42235adf0284fc6bc11f129b6cba49b f1a164bf986f4626a89242246191a7d7
+#: f77c2b433bac4719801ce28fd2acd62e of
+#: paddlets.datasets.tsdataset.TSDataset.drop:6
+#: paddlets.datasets.tsdataset.TSDataset.set_column:11
+#: paddlets.datasets.tsdataset.TSDataset.set_known_cov:4
+#: paddlets.datasets.tsdataset.TSDataset.set_observed_cov:4
+#: paddlets.datasets.tsdataset.TSDataset.set_static_cov:6
+#: paddlets.datasets.tsdataset.TSDataset.set_target:4
+#: paddlets.datasets.tsdataset.TimeSeries:9
+msgid "None"
+msgstr "None"
+
+#: 0217334e8add4e27ba7a9a43272fcfd6 of
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe:1
+msgid "Construct a TimeSeries object from the specified columns of a DataFrame"
+msgstr "基于DataFrame构建TimeSeries"
+
+#: 198d9df5d300408b8523a1fb5def1415 of
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe:5
+msgid ""
+"The name of time column, a Pandas DatetimeIndex or RangeIndex. If not "
+"set, the DataFrame's index will be used."
+msgstr "时间列，可以是DatetimeIndex或者RangeIndex类型，如果为None，将index作为时间列"
+
+#: d17a1dfa2a2f47a6962e4d2b751b7c84 of
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe:8
+msgid ""
+"The name of column or the list of columns from which to extract the time "
+"series data. If set to `None`, all columns except for the time column "
+"will be used as value columns."
+msgstr "data中需要选取的数据，如果不指定，数据中所有列（除时间列外）都会被导入"
+
+#: 9f9f389796de433587c9b2ac756197ce of
+#: paddlets.datasets.tsdataset.TimeSeries.load_from_dataframe:14
+msgid "TimeSeries object"
+msgstr "构建完成的TimeSeries数据"
+
+#: 02d823c22c864dec9676972f01283cb8 of
+#: paddlets.datasets.tsdataset.TimeSeries.time_index:1
+msgid "the time index"
+msgstr ""
+
+#: 5532772d58644bc4b9e02fbf9e1137bd of
+#: paddlets.datasets.tsdataset.TimeSeries.columns:1
+msgid "the data columns"
+msgstr "数据的列信息"
+
+#: 72079660b27842e4a609e645f95842c5 of
+#: paddlets.datasets.tsdataset.TimeSeries.start_time:1
+msgid "the first value of the time index"
+msgstr "时序数据中第一个时间点"
+
+#: 4a53b39258464ea6a00155696b04322f of
+#: paddlets.datasets.tsdataset.TimeSeries.end_time:1
+msgid "the last value of the time index"
+msgstr "时序数据中最后一个时间点"
+
+#: 61da80b885fc419abbd5967f35adc583 of
+#: paddlets.datasets.tsdataset.TimeSeries.data:1
+msgid "DataFrame storing the data"
+msgstr "包含的DataFrame类型的成员"
+
+#: d90f96b93c6c45df9e2bac4dcd36b9cc of
+#: paddlets.datasets.tsdataset.TimeSeries.freq:1
+msgid "Frequency of TimeSeries"
+msgstr "时序频率"
+
+#: bf6489a9a60b45128eb241d2cc0fb37b of
+#: paddlets.datasets.tsdataset.TimeSeries.dtypes:1
+msgid "dtypes of TimeSeries"
+msgstr "数据类型"
+
+#: 327243aa7b1d4bcf98d9bd68a9ec15e1 of
+#: paddlets.datasets.tsdataset.TimeSeries.astype:1
+msgid "Cast a TimeSeries object to the specified dtype"
+msgstr "转换数据类型，注意这里不会返回一个新的数据，而是在原始数据集上修改"
+
+#: 3fe58f143af24da287c3ffbdb6c11b38 ab1924f0dae94315bb685440b5b31cf4 of
+#: paddlets.datasets.tsdataset.TSDataset.astype:3
+#: paddlets.datasets.tsdataset.TimeSeries.astype:3
+msgid ""
+"Use a numpy.dtype or Python type to cast entire TimeSeries object to the "
+"same type. Alternatively, use {col: dtype, …}, where col is a column "
+"label and dtype is a numpy.dtype or Python type to cast one or more of "
+"the DataFrame’s columns to column-specific types."
+msgstr ""
+"数据类型，可以是numpy.dtype|Python "
+"type或者是dict类型，直接调用df.astype使用，numpy.dtype|Python type代表对所有列做变换， "
+"dict代表对某一列或者几列做转换"
+
+#: 0fcabebf080442e58f0c0dadc582c852 1789d21a26c74b658fc364ddb72eed7b
+#: 3b24fac087a5443b820fc91fc6ca9b91 4afb8dc2443b4e189d4b3e4ee104ba2b
+#: 55ea6a491b2d4e6cb49d04c6ca54500c 564ae6c25e7a4e9788f5139deb7b7632
+#: 6685070a388c4badbfbc84b6154a864c 76a71925f58d4e01a75a01f554cae8f8
+#: 82a833d910094636a5426648821a06fa 8e77c38c5fc44e15b4eb536a955da532
+#: af10f0efe0864fedaa57e75b74dadef8 b4d30b783e994c70b04adfa9ca3f43c3
+#: daa31e888ec4460899217608fba18788 e1e5cda2c3f24a6f8bc513a2526c9acd
+#: ee20fdbcd7e64113bdef2d8899655600 ef05e058455b46bb8f75f5a4befc8bdf of
+#: paddlets.datasets.tsdataset.TSDataset.astype
+#: paddlets.datasets.tsdataset.TSDataset.concat
+#: paddlets.datasets.tsdataset.TSDataset.drop
+#: paddlets.datasets.tsdataset.TSDataset.get_item_from_column
+#: paddlets.datasets.tsdataset.TSDataset.plot
+#: paddlets.datasets.tsdataset.TSDataset.set_column
+#: paddlets.datasets.tsdataset.TSDataset.set_known_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_observed_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_static_cov
+#: paddlets.datasets.tsdataset.TSDataset.set_target
+#: paddlets.datasets.tsdataset.TSDataset.split
+#: paddlets.datasets.tsdataset.TimeSeries.astype
+#: paddlets.datasets.tsdataset.TimeSeries.concat
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point
+#: paddlets.datasets.tsdataset.TimeSeries.reindex
+#: paddlets.datasets.tsdataset.TimeSeries.split
+msgid "Raises"
+msgstr ""
+
+#: 302bee00de3e45f0bd9a34a8ef4cbd40 of
+#: paddlets.datasets.tsdataset.TimeSeries.to_dataframe:1
+msgid "Return a pd.DataFrame representation of the TimeSeries object"
+msgstr "TimeSeries转换成DataFrame数据"
+
+#: 01a45c23101048feb7552b76fd3edadc of
+#: paddlets.datasets.tsdataset.TimeSeries.to_dataframe:3
+msgid "Return a copy or reference"
+msgstr "返回拷贝或者引用"
+
+#: 24110c801d2d4fe3b439d4c868f556eb d5d7db30156e4bb8819e2212ca66d643 of
+#: paddlets.datasets.tsdataset.TSDataset.to_dataframe:6
+#: paddlets.datasets.tsdataset.TimeSeries.to_dataframe:6
+msgid "pd.DataFrame"
+msgstr ""
+
+#: c145a5f6789e4112a492f5248078a6b7 of
+#: paddlets.datasets.tsdataset.TimeSeries.to_numpy:1
+msgid "Return a numpy.ndarray representation of the TimeSeries object"
+msgstr "TimeSeries转换成np.ndarray数据"
+
+#: dfc3fe3d29f2426b9ff39e988943baaa of
+#: paddlets.datasets.tsdataset.TimeSeries.to_numpy:3
+msgid ""
+"Return a copy or reference. Note that copy=False does not ensure that "
+"to_numpy() is no-copy. Rather, copy=True ensure that a copy is made, even"
+" if not strictly necessary. "
+"refer：https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html"
+msgstr "True代表拷贝数据，False代表不拷贝数据即使设置了False，这里也可能会全量拷贝数据（例如当data中type类型不统一），使用的时候需要注意这里的性能消耗参考：https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html"
+
+#: 7f33346183e84eaeac963fc0c4c34b81 ac1623e3d21541d7933cc0d204fc38d2 of
+#: paddlets.datasets.tsdataset.TSDataset.to_numpy:9
+#: paddlets.datasets.tsdataset.TimeSeries.to_numpy:9
+msgid "np.ndarray"
+msgstr ""
+
+#: ad342afb82294ff48f57773a215603a9 of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:1
+msgid "Convert a point along the time axis into an integer index."
+msgstr "将具体的时间点基于time_index转换成具体的index"
+
+#: d389a3fe256647a4bba1df0a6e9dca6c of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:3
+msgid ""
+"Time point, supports 3 types  `pd.Timestamp|str`: It only takes effect "
+"when the time_index type is pd.DatatimeIndex, the corresponding index is "
+"returned, and str will be forcibly converted to pd.DatatimeIndex  "
+"`float`: the parameter will be treated as the proportion of the time "
+"series that should lie before the point.  `int`: the parameter will "
+"returned as such, provided that it is in the series. Otherwise it will "
+"raise a ValueError."
+msgstr ""
+"时间点，支持三种类型：`pd.Timestamp|str`：只有当time_index类型是pd.DatatimeIndex的时候生效，返回对应的index，str会强制转换成pd.Timestamp；`float`：代表从头开始的比例，0到1之间，如0.8；"
+" `int`：直接返回具体的数值，不做转换"
+
+#: e808d47c16df47bdbd2f92fa7eba9c3c of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:3
+msgid "Time point, supports 3 types"
+msgstr ""
+
+#: b883c12038b54442a5c5e232c6fbab4b of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:5
+msgid ""
+"`pd.Timestamp|str`: It only takes effect when the time_index type is "
+"pd.DatatimeIndex, the corresponding index is returned, and str will be "
+"forcibly converted to pd.DatatimeIndex"
+msgstr ""
+
+#: 6c6c1df8750842c49c79062ae97343a8 of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:7
+msgid ""
+"`float`: the parameter will be treated as the proportion of the time "
+"series that should lie before the point."
+msgstr ""
+
+#: f67e598f197049fea7a9e29c71292da1 of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:9
+msgid ""
+"`int`: the parameter will returned as such, provided that it is in the "
+"series. Otherwise it will raise a ValueError."
+msgstr ""
+
+#: fb735caaf7f94787bdfbd7f7c11c23ba of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:11
+msgid ""
+"If the provided pandas Timestamp is not in the time series index, whether"
+" to return the index of the next timestamp or the index of the previous "
+"one."
+msgstr "如果提供的pandas时间戳不在时间序列索引中，是否返回下一个时间戳或上一个时间戳的索引"
+
+#: 9fd8e5b755ab45c7a16f8c7d205b8867 of
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point:15
+msgid "index"
+msgstr ""
+
+#: 05488317cf984991b85b6e3063b6ab6d 11a30ad2d5a34d698d753084e6c7c85d
+#: 2033ea8a1e60472f9290e93eedd0d5f2 3ed18e7bdecb4e28abd5626c1b0f29e0
+#: 3f9e6239f8e34f879a3d3b2466fa4fc9 5c17ac90e0a44602bf3a553c1c43b9ea
+#: 737cd5428533439cae6e8c79efc87793 b32beb3b59864b7991ec048fd1157cd2 of
+#: paddlets.datasets.tsdataset.TSDataset.columns
+#: paddlets.datasets.tsdataset.TSDataset.dtypes
+#: paddlets.datasets.tsdataset.TSDataset.get_all_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_known_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_observed_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_static_cov
+#: paddlets.datasets.tsdataset.TSDataset.get_target
+#: paddlets.datasets.tsdataset.TimeSeries.get_index_at_point
+msgid "Return type"
+msgstr ""
+
+#: 02b3929232be4bad8d703e64751a0da0 of
+#: paddlets.datasets.tsdataset.TimeSeries.split:1
+msgid ""
+"Split the TimeSeries object into two TimeSeries objects according to "
+"`split_point`"
+msgstr "基于split_point拆分数据"
+
+#: 8e1b3dcb89f943d9a831ca1b845596a7 of
+#: paddlets.datasets.tsdataset.TimeSeries.split:3
+msgid ""
+"Where to split the TSDataset, which could be  `pd.Timestamp|str`: Only "
+"valid when the type of time_index is pd.DatatimeIndex, and str will be "
+"forcibly converted to pd.DatatimeIndex  `float`: The proportion of the "
+"length of the first TSDataset object  `int`: Only valid when the type of "
+"time_index is pd.RangeIndex  If the data of the split_point exists, it "
+"will be included in the first TimeSeries object."
+msgstr "数据拆分的时间点，支持三种类型：`pd.Timestamp|str`：只有当time_index类型是pd.DatatimeIndex的时候生效，返回对应的index，str会强制转换成pd.Timestamp；`float`：代表第一份数据的拆分比例，0到1之间，如0.8，代表第一份数据占总量的80%，第二份20%；`int`：代表第一份数据的数据量。split_point点的数据如果存在，会包涵在第一份数据中"
+
+#: 06f389e035814f9d95b67fc4be8f9ece 6ea5ad87f0cf4cf29f70f957303ebc7d of
+#: paddlets.datasets.tsdataset.TSDataset.split:3
+#: paddlets.datasets.tsdataset.TimeSeries.split:3
+msgid "Where to split the TSDataset, which could be"
+msgstr ""
+
+#: 01300dd708cc43be8c46c64e55c1998f b57906f595254afcb0b9c48521324642 of
+#: paddlets.datasets.tsdataset.TSDataset.split:5
+#: paddlets.datasets.tsdataset.TimeSeries.split:5
+msgid ""
+"`pd.Timestamp|str`: Only valid when the type of time_index is "
+"pd.DatatimeIndex, and str will be forcibly converted to pd.DatatimeIndex"
+msgstr ""
+
+#: 3b021e9764d940f1b6a99c36a26cbfee 827745ea9192434cb1ca788de9bdb71b of
+#: paddlets.datasets.tsdataset.TSDataset.split:7
+#: paddlets.datasets.tsdataset.TimeSeries.split:7
+msgid "`float`: The proportion of the length of the first TSDataset object"
+msgstr ""
+
+#: 62f9a7f851c24f9a9b64be107ab95206 e03d5abbb5904481a12a92a166eb13dd of
+#: paddlets.datasets.tsdataset.TSDataset.split:9
+#: paddlets.datasets.tsdataset.TimeSeries.split:9
+msgid "`int`: Only valid when the type of time_index is pd.RangeIndex"
+msgstr ""
+
+#: d2fbf88af65748ce969dc34a0a62c7ee of
+#: paddlets.datasets.tsdataset.TimeSeries.split:11
+msgid ""
+"If the data of the split_point exists, it will be included in the first "
+"TimeSeries object."
+msgstr ""
+
+#: 7eb99283aadb4281ab94c10cd2812dac of
+#: paddlets.datasets.tsdataset.TimeSeries.split:13
+msgid ""
+"If `split_point` (pd.TimeSeries) doesn't exist in the time index, use the"
+" next valid index (True) or the previous one (False)"
+msgstr "如果提供的pandas时间戳不在时间序列索引中，是否返回下一个时间戳或上一个时间戳的索引"
+
+#: 6bbdd257810a4f99a348287dff056caa of
+#: paddlets.datasets.tsdataset.TimeSeries.split:16
+msgid "Tuple[\"TimeSeries\", \"TimeSeries\"]"
+msgstr ""
+
+#: 409b82a1ddd34d10b721302b43f978b3 of
+#: paddlets.datasets.tsdataset.TimeSeries.copy:1
+msgid "Make a copy of the TimeSeries object"
+msgstr "返回一份拷贝的数据"
+
+#: 6778dd7e9f454f31992bb8d38a9674e4 889e65357f824a0c802bf075061ee495
+#: c13e7d2996d54cd7a7bfad524a0aef67 of
+#: paddlets.datasets.tsdataset.TimeSeries.concat:11
+#: paddlets.datasets.tsdataset.TimeSeries.copy:3
+#: paddlets.datasets.tsdataset.TimeSeries.reindex:9
+msgid "TimeSeries"
+msgstr ""
+
+#: 0c6336a7327e4ae9b66a3a016c8c9cb0 of
+#: paddlets.datasets.tsdataset.TimeSeries.concat:1
+msgid "Concatenate a list of TimeSeries objects along the specified axis"
+msgstr "基于axis维度实现TimeSeries对象的连接"
+
+#: dbfc7795d74442378bbfcbf2b86818ac of
+#: paddlets.datasets.tsdataset.TimeSeries.concat:3
+msgid ""
+"A list of TimeSeries objects All TimeSeries' freqs are required to be "
+"consistent. When axis=1, time_col is required to be non-repetitive; when "
+"axis=0, all columns are required to be non-repetitive"
+msgstr ""
+"TimeSeries元素列表，要求所有TimeSeries "
+"freq保持一致，当axis=1的时候，要求time_col不重复；axis=0的时候，要求所有columns不重复"
+
+#: 12344021c44741dbbc29e053ef5a3154 21269de3b3fa461d9a57e525a5c2edeb of
+#: paddlets.datasets.tsdataset.TSDataset.concat:8
+#: paddlets.datasets.tsdataset.TimeSeries.concat:8
+msgid "The axis along which to concatenate the TimeSeries objects"
+msgstr "合并的维度，1是横向合并，0代表纵向合并"
+
+#: b237f0132e7246c08019122c818af221 of
+#: paddlets.datasets.tsdataset.TimeSeries.reindex:1
+msgid "Reindex the TimeSeries object with optional filling logic"
+msgstr "对TimeSeries进行reindex"
+
+#: 4aa651391aae471b9f5108780328c0e6 of
+#: paddlets.datasets.tsdataset.TimeSeries.reindex:3
+msgid ""
+"array-like, new index to conform. Preferably an Index object to avoid "
+"duplicating data."
+msgstr "array-like类型，重新设定的index，要求不能重复"
+
+#: 9dc6a65b52854bdbb66b8bcb4180eb55 of
+#: paddlets.datasets.tsdataset.TimeSeries.reindex:5
+msgid ""
+"Value to use for missing values. NaN by default, but can be any "
+"“compatible” value."
+msgstr "用于填充缺失点的值"
+
+#: 2f06d765c00342958c8b7bb785647daf 9208daf1136d435ba9cd4b9c06395b03 of
+#: paddlets.datasets.tsdataset.TimeSeries.reindex:6
+#: paddlets.datasets.tsdataset.TimeSeries.reindex:7
+msgid "Optional arguments passed to `DataFrame.reindex`"
+msgstr "其他传递给`DataFrame.reindex`的可选参数"
+
+#: 9db8d7dfc7114f3caa4988354ee03bfb of
+#: paddlets.datasets.tsdataset.TimeSeries.sort_columns:1
+msgid "Sort the TimeSeries object by the index"
+msgstr "对data的columns进行排序"
+
+#: 870579d505f3453c82de2e43925b2ec6 of
+#: paddlets.datasets.tsdataset.TimeSeries.sort_columns:3
+msgid ""
+"Sort ascending or descending. When the index is a MultiIndex the sort "
+"direction can be controlled for each level individually."
+msgstr "升序或降序排序"
+
+#: 91dfb75eca3f41bca2797c828d8b275e of paddlets.datasets.tsdataset.TSDataset:27
+msgid "Target"
+msgstr "代表预测目标列，可能包涵多个预测目标"
+
+#: bf0a1e25e078419caa369ec99875066b of paddlets.datasets.tsdataset.TSDataset:29
+msgid "Observed covariates"
+msgstr "代表观测协变量"
+
+#: 880a63d3c60543c5814f82f491279d61 of paddlets.datasets.tsdataset.TSDataset:31
+msgid "Known covariates"
+msgstr "代表已知协变量"
+
+#: 72e273eeac60499193868430b63f5629 of paddlets.datasets.tsdataset.TSDataset:33
+msgid "Static covariates"
+msgstr "静态协变量"
+
+#: 46a87d71acdb433f88d91383fbce5cb5 b4ebeaad417c4089996332f3ce695753
+#: bab0213a3bf74eceabb41f1fe6f07c9b of paddlets.datasets.tsdataset.TSDataset:35
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:16
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:15
+msgid "Fill missing dates or not"
+msgstr "是否进行缺失值填充"
+
+#: 45fa233c75a343a180a6984b9ca4d9b9 bb9d74ad164f441489bd8506a5461ae0 of
+#: paddlets.datasets.tsdataset.TSDataset:37
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:17
+msgid ""
+"Method of filling missing values. Totally 7 methods are supported "
+"currently: max: Use the max value in the sliding window min: Use the min "
+"value in the sliding window avg: Use the mean value in the sliding window"
+" median:  Use the median value in the sliding window pre: Use the "
+"previous value back: Use the next value zero:  Use 0s"
+msgstr ""
+"默认为pre前项补全。共有7种补全数据缺失值的方法，包括:max: 使用局部窗口最大值补全缺失值信息。min: "
+"使用局部窗口最小值补全缺失值信息。avg: 使用局部窗口均值补全缺失值信息。median: 使用局部窗口中位数数值补全缺失值信息。pre: "
+"使用前向数据补全数据信息。back: 使用后项数据补全数据信息。zero: 使用0值补全数据信息"
+
+#: 7344a58fceb0449f81bb4710bb98aa06 c4f37f5f28ff4aefb8c904203cc42406
+#: ea7ccbd936fb4ba3b0a8476e6b72c42b of paddlets.datasets.tsdataset.TSDataset:46
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:27
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:26
+msgid "Size of the sliding window"
+msgstr "局部窗口长度，默认为10"
+
+#: d931ec449472436f83ef6d3cfeeeb63e of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:1
+msgid "Construct a TSDataset object from a csv file"
+msgstr "基于CSV文件构建TSDataset"
+
+#: 49aa918cb5c442e3af5d08e35d0de610 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:3
+msgid ""
+"The path to the CSV file, or the file object; consistent with the "
+"argument of `pandas.read_csv` function"
+msgstr "csv文件或者文件对象地址, 通过`pandas.read_csv` 方法的构建"
+
+#: 60844a0d07534b13b0eedb523add79ad f492083b65b04af7acd48a53f9d3b5a6 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:6
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:5
+msgid "The name of time column"
+msgstr "时间列，可以是DatetimeIndex或者RangeIndex类型，如果为None，将index作为时间列"
+
+#: 4ddb91970ab84c11b5795e1e10b44947 8c631121809e43b0937c52ad30f99db1 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:8
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:7
+msgid "The names of columns for observed covariates"
+msgstr "代表观测协变量列名"
+
+#: 1bbd84ceea794445b69290b93c596f38 b9b8fe9248e54f94abf6af32e3efbb14 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:10
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:9
+msgid "The names of columns for konwn covariates"
+msgstr "代表已知协变量列名"
+
+#: 9ff79260e74b47d0b409743b986b6e8e b39725d72b1941a18ef664c4b41dabf5 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:12
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:11
+msgid "The names of columns for static covariates"
+msgstr "静态协变量列名，需要同一列中全部数值一致"
+
+#: 5089f0d23ecc43e8b2928dfa7af69d61 567cd181e6d848ae8363d9af9ba4866a of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:14
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:13
+msgid ""
+"A str or int representing the DateTimeIndex's frequency or RangeIndex's "
+"step size"
+msgstr "样本数据频率，用于调整data以及配合fillna进行空行填充"
+
+#: 13749b368a154bc0ba10384d528b4774 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:18
+msgid ""
+"Method of filling missing values. Totally 7 methods are supported "
+"currently: max: Use the max value in the sliding window min: Use the min "
+"value in the sliding window avg: Use the mean value in the sliding window"
+" median:  Use the median value in the sliding window pre: Use the "
+"previous value back: Use the next value zero:  Use 0"
+msgstr ""
+"默认为pre前项补全。共有7种补全数据缺失值的方法，包括:max: 使用局部窗口最大值补全缺失值信息。min: "
+"使用局部窗口最小值补全缺失值信息。avg: 使用局部窗口均值补全缺失值信息。median: 使用局部窗口中位数数值补全缺失值信息。pre: "
+"使用前向数据补全数据信息。back: 使用后项数据补全数据信息。zero: 使用0值补全数据信息"
+
+#: 22ae9fdd01554d7b987e066c22a252cd of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:29
+msgid "Optional arguments passed to `pandas.read_csv`"
+msgstr "传递给 `pandas.read_csv` 方法的可选参数"
+
+#: 07b07a32c66f48afaa9e46e1f87ae9b9 d6ba40b6da4e4cd09ee43dd76d1a21bd of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_csv:31
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:29
+msgid "TSDataset object"
+msgstr "构建完成后的TSDataset"
+
+#: 2131e8dd55d54d9a872d64a7e1224ed0 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:1
+msgid "Construct a TSDataset object from a DataFrame"
+msgstr "基于CSV文件构建完整TSDataset"
+
+#: 78c829605c0f4406beffc258004ecc78 of
+#: paddlets.datasets.tsdataset.TSDataset.load_from_dataframe:3
+msgid "panas.DataFrame object from which to load data"
+msgstr "panas.DataFrame数据对象"
+
+#: 4b108461028245c9b3b255a649a7bcde of
+#: paddlets.datasets.tsdataset.TSDataset.to_dataframe:1
+msgid "Return a pd.DataFrame representation of the TSDataset object"
+msgstr "TSDataset转换成DataFrame数据"
+
+#: d24fb1aeb4e3480d9e4b88d9ae8b3e34 of
+#: paddlets.datasets.tsdataset.TSDataset.to_dataframe:3
+msgid "Return a copy of or a reference to the underlying DataFrame objects"
+msgstr "True代表拷贝数据，False代表不拷贝数据，注意这里是浅拷贝，对于数序数据而言通常没有问题"
+
+#: 61c67903a9884b1bb79461e497d726ef of
+#: paddlets.datasets.tsdataset.TSDataset.to_numpy:1
+msgid "Return a np.ndarray representation of the TSDataset object"
+msgstr "TSDataset转换成np.ndarray数据"
+
+#: da563eba27744ec99725966a3cd8cb23 of
+#: paddlets.datasets.tsdataset.TSDataset.to_numpy:3
+msgid ""
+"Return a copy of or a reference to the underlying DataFrame objects, Note"
+" that copy=False does not ensure that to_numpy() is no-copy. Rather, "
+"copy=True ensures that a copy is made, even if not strictly necessary. "
+"refer：https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html"
+msgstr "True代表拷贝数据，False代表不拷贝数据即使设置了False，这里也可能会全量拷贝数据（例如当data中type类型不统一），使用的时候需要注意这里的性能消耗参考：https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html"
+
+#: 94db8e39ee3449fa9d74239aa5c08e2b of
+#: paddlets.datasets.tsdataset.TSDataset.get_target:1
+msgid "target"
+msgstr ""
+
+#: 706c57594fcf46b9980afc00bfddf414 of
+#: paddlets.datasets.tsdataset.TSDataset.get_observed_cov:1
+msgid "observed_cov"
+msgstr ""
+
+#: 5cb55546a05d46ea9515c7293c3ed9fa of
+#: paddlets.datasets.tsdataset.TSDataset.get_known_cov:1
+msgid "known_cov"
+msgstr ""
+
+#: 229b56646c714205b6d37dc65b9c8d83 of
+#: paddlets.datasets.tsdataset.TSDataset.get_static_cov:1
+msgid "static_cov"
+msgstr ""
+
+#: cec51f688997462e8475dd93ece9f1b5 of
+#: paddlets.datasets.tsdataset.TSDataset.get_all_cov:1
+msgid "Merge observed_cov and konw_cov"
+msgstr "融合了observed_cov以及konw_cov的数据"
+
+#: 35d54bccd5a042268af170d005ee92a6 of
+#: paddlets.datasets.tsdataset.TSDataset.set_target:1
+msgid "New target"
+msgstr ""
+
+#: 2147d7b5b0ec4f05ba75fa0ad4604dd4 of
+#: paddlets.datasets.tsdataset.TSDataset.set_observed_cov:1
+msgid "New observed_cov"
+msgstr ""
+
+#: b57003b0a63f43d9a72b6b2055e134d0 of
+#: paddlets.datasets.tsdataset.TSDataset.set_known_cov:1
+msgid "New known_cov"
+msgstr ""
+
+#: 94c164f802bd4235a5eaeb0f36a089f3 of
+#: paddlets.datasets.tsdataset.TSDataset.set_static_cov:1
+msgid "New static_cov"
+msgstr ""
+
+#: cdc0d6f854c642b5920f048387668f70 of
+#: paddlets.datasets.tsdataset.TSDataset.set_static_cov:3
+msgid "Append to the existing static_cov or replace the existing satic_cov"
+msgstr "True代表在原有static_cov基础上添加，False代表直接全部替换原有的static_cov"
+
+#: 3aad5a68f6d44d4db537649c200892d3 of
+#: paddlets.datasets.tsdataset.TSDataset.target:1
+msgid "Returns: TimeSeries|None: target"
+msgstr ""
+
+#: d2faa5c53c5f46e58b3088d6cffaa027 of
+#: paddlets.datasets.tsdataset.TSDataset.observed_cov:1
+msgid "Returns: TimeSeries|None: observed_cov"
+msgstr ""
+
+#: 8bf3a84f247744dca269162f456c8199 of
+#: paddlets.datasets.tsdataset.TSDataset.known_cov:1
+msgid "Returns: TimeSeries|None: known_cov"
+msgstr ""
+
+#: 5f3edeb665204ec9bc9df4c99dd4e793 of
+#: paddlets.datasets.tsdataset.TSDataset.static_cov:1
+msgid "Returns: dict|None: static_cov"
+msgstr ""
+
+#: cfb7f4745a76461cb85ca9eacfb3a0cf of
+#: paddlets.datasets.tsdataset.TSDataset.split:1
+msgid ""
+"Splits the TSDataset object into two TSDataset objects according to "
+"`split_point`, only valid when `self._target` is not None"
+msgstr "基于split_point拆分数据, 仅当self._target不为None的时候生效"
+
+#: 8cafcee3690a45ea82653f20bd499630 of
+#: paddlets.datasets.tsdataset.TSDataset.split:3
+msgid ""
+"Where to split the TSDataset, which could be  `pd.Timestamp|str`: Only "
+"valid when the type of time_index is pd.DatatimeIndex, and str will be "
+"forcibly converted to pd.DatatimeIndex  `float`: The proportion of the "
+"length of the first TSDataset object  `int`: Only valid when the type of "
+"time_index is pd.RangeIndex  If the data of the split_point exists, it "
+"will be included in the first data"
+msgstr "数据拆分的时间点，支持三种类型：`pd.Timestamp|str`：只有当time_index类型是pd.DatatimeIndex的时候生效，返回对应的index，str会强制转换成pd.Timestamp；`float`：代表第一份数据的拆分比例，0到1之间，如0.8，代表第一份数据占总量的80%，第二份20%；`int`：代表第一份数据的数据量。split_point点的数据如果存在，会包涵在第一份数据中"
+
+#: e98bf1aac74a4ff1b4361f7599e1cced of
+#: paddlets.datasets.tsdataset.TSDataset.split:11
+msgid ""
+"If the data of the split_point exists, it will be included in the first "
+"data"
+msgstr ""
+
+#: a941d4261f174c28997f1d64631dc2c9 of
+#: paddlets.datasets.tsdataset.TSDataset.split:13
+msgid ""
+"If `split_point` (pd.TimeSeries) doesn't exist in the time column, use "
+"the next valid index (True) or the previous one (False)"
+msgstr "如果提供的pandas时间戳不在时间序列索引中，是否返回下一个时间戳或上一个时间戳的索引"
+
+#: e7813d7f78304c3b88f98c506e5a41b1 of
+#: paddlets.datasets.tsdataset.TSDataset.split:17
+msgid "Tuple[\"TSDataset\", \"TSDataset\"]"
+msgstr ""
+
+#: 0b7cf3db0292425092591c08f4438ec8 of
+#: paddlets.datasets.tsdataset.TSDataset.get_item_from_column:1
+msgid ""
+"Get the underlying TimeSeries object for targets, observed covariates, "
+"and know covariates, or the dict for static_covs according to the column "
+"name"
+msgstr "基于column名称返回其对应的类型的结合，包括target, observed_cov, known_cov, static_cov"
+
+#: 42a87711342e4415b6b39b8116353ebf cbc7004c925140b78d1d5f516ba76985 of
+#: paddlets.datasets.tsdataset.TSDataset.get_item_from_column:3
+#: paddlets.datasets.tsdataset.TSDataset.set_column:3
+msgid "column name"
+msgstr "column名称"
+
+#: 1567c27340d2428e8d5ec2b7a40d4229 of
+#: paddlets.datasets.tsdataset.TSDataset.get_item_from_column:6
+msgid "Union[\"TimeSeries\", dict]"
+msgstr ""
+
+#: 3d9fd49e2bf340609faf543cdfc14d54 of
+#: paddlets.datasets.tsdataset.TSDataset.set_column:1
+msgid "Add a new column or update the existing column"
+msgstr "设置某列columns的列元素, 支持新增和修改"
+
+#: 0635f317768d45608b23b8f24f13a917 of
+#: paddlets.datasets.tsdataset.TSDataset.set_column:5
+msgid ""
+"New column values. When value=pd.Series, its index must be same as the "
+"index of the TSDataset object. When type='static_cov', value can only be "
+"int or str."
+msgstr "columns列内容，其index必须和目标属性的index相同，仅仅当columns是static_cov类型的时候，value才可以是int或者str"
+
+#: 6c0d8f0c23ea470e8c9f970a1e8eb911 of
+#: paddlets.datasets.tsdataset.TSDataset.set_column:8
+msgid ""
+"Only effective when adding a new column, where to put the new column. By "
+"default, the new column will be added to known_cov."
+msgstr ""
+"设置的column类型，仅当新增的时候起作用，默认新增是known_cov类型，类型是target，known_cov, "
+"observed_cov, static_cov"
+
+#: e5aa0cfcb56b4e498b7b6d1491c9f4b2 of
+#: paddlets.datasets.tsdataset.TSDataset.drop:1
+msgid "Drop column or columns"
+msgstr "删除columns的列元素"
+
+#: 6794079966984d1faee3f65fcc06ba12 of
+#: paddlets.datasets.tsdataset.TSDataset.drop:3
+msgid "Column name or column names"
+msgstr "columns名称"
+
+#: bdbd12d76f0345da91f61a6b0e5959af of
+#: paddlets.datasets.tsdataset.TSDataset.plot:1
+msgid "plot function, a wrapper for Dataframe.plot()"
+msgstr "画图函数,对Dataframe.plot()的包装"
+
+#: ec0776adbf1b44eda654be14ca57ba3f of
+#: paddlets.datasets.tsdataset.TSDataset.plot:3
+msgid ""
+"The names of columns to be plot. When columns is None, the targets will "
+"be plot by default."
+msgstr "指定打印的columns名称, columns为None时默认打印target"
+
+#: 0b51774cc6524e4991602a72a783e103 of
+#: paddlets.datasets.tsdataset.TSDataset.plot:6
+msgid "Add data for joint plotprinting, the default is None"
+msgstr "添加数据进行联合打印, 默认为None"
+
+#: f085c7e4454d4516ba771bf5266bb421 of
+#: paddlets.datasets.tsdataset.TSDataset.plot:8
+msgid "Custom labels, length should be equal to nums of added datasets."
+msgstr "为添加数据增加自定义标签，自定义标签的长度应该等于添加数据的数量"
+
+#: 5e466f2a93d84d90b813379bd03f1578 of
+#: paddlets.datasets.tsdataset.TSDataset.plot:10
+msgid "Optional arguments passed to `Dataframe.plot` function"
+msgstr "传入Dataframe.plot()的可选参数"
+
+#: ec953d7176b149cc99432fa16617269c of
+#: paddlets.datasets.tsdataset.TSDataset.plot:12
+msgid "matplotlib.pyplot object"
+msgstr ""
+
+#: 52426746eead408cb9767257f99eb2f3 of
+#: paddlets.datasets.tsdataset.TSDataset.copy:1
+msgid "Make a copy of the TSDataset object"
+msgstr "返回一份拷贝的数据"
+
+#: 30463d52e77749cfb6c784a321788c6a 94136ca9b19e4884a0f42d4fe803959a
+#: b7d87544eebb41f5aac7817e97d63229 of
+#: paddlets.datasets.tsdataset.TSDataset.concat:11
+#: paddlets.datasets.tsdataset.TSDataset.copy:3
+#: paddlets.datasets.tsdataset.TSDataset.load:6
+msgid "TSDataset"
+msgstr ""
+
+#: f5836a89b83240198969814c2ee8e3f2 of
+#: paddlets.datasets.tsdataset.TSDataset.save:1
+msgid "Save TSDataset object to a file"
+msgstr "保存对象到文件"
+
+#: 2cbfc3843b424d9f890be9a0c295ea52 4399a3b90e1045d9abfae4faafe59c8b of
+#: paddlets.datasets.tsdataset.TSDataset.load:3
+#: paddlets.datasets.tsdataset.TSDataset.save:3
+msgid "file path"
+msgstr "文件路径"
+
+#: 30d61be844e444e7999e2078753be185 of
+#: paddlets.datasets.tsdataset.TSDataset.load:1
+msgid "Load TSDataset from the saved file"
+msgstr "从文件中获取对象"
+
+#: 66c84d41fb0142b798889d00e1af049f of
+#: paddlets.datasets.tsdataset.TSDataset.columns:1
+msgid "return all columns(except static columns)"
+msgstr "返回所有列名（除static外）"
+
+#: a546e14190c64032a6273d18a8b81a99 of
+#: paddlets.datasets.tsdataset.TSDataset.columns:3
+msgid ""
+"The key is the column name, and the value is the type, including target, "
+"known_cov, and observed_cov"
+msgstr "key是columns名称，value是类型，包括target, known_cov, observed_cov"
+
+#: f1d800c51333483291f296f78b421cdc of
+#: paddlets.datasets.tsdataset.TSDataset.freq:1
+msgid "Frequency of TSDataset"
+msgstr "TSDataset数据频率"
+
+#: 33f7ca3b45984dd2906d387c9ed4f84a of
+#: paddlets.datasets.tsdataset.TSDataset.concat:1
+msgid "Concatenate a list of TSDataset objects along the specified axis"
+msgstr "用于合并两个数据集，target、known_cov以及observe_cov按照df规则合并，static按照dict合并"
+
+#: e8da2e8076a7465d86c889e4246c2080 of
+#: paddlets.datasets.tsdataset.TSDataset.concat:3
+msgid ""
+"A list of TSDataset objects. All TSDatasets' freqs are required to be "
+"consistent. When axis=1, time_col is required to be non-repetitive; when "
+"axis=0, all columns are required to be non-repetitive"
+msgstr ""
+"TSDataset元素列表，要求所有TSDataset "
+"freq保持一致，当axis=1的时候，要求time_col不重复；axis=0的时候，要求所有columns不重复"
+
+#: 251bb31353124d5c95120e88e8bc7c03 of
+#: paddlets.datasets.tsdataset.TSDataset.astype:1
+msgid "Cast a TSDataset object to the specified dtype"
+msgstr "转换数据类型，注意这里不会返回一个新的数据，而是在原始数据集上修改"
+
+#: 3243960c059a42e8ada644c0702ad896 of
+#: paddlets.datasets.tsdataset.TSDataset.dtypes:1
+msgid "Get dtypes of target, known_covs, observed_covs"
+msgstr "返回列类型"
+
+#: a1b90e468e2a4eb5a033947411c7103c of
+#: paddlets.datasets.tsdataset.TSDataset.dtypes:3
+msgid "<column name, dtype>"
+msgstr ""
+
+#: 5f5c6a081d6a4c4bbedc78e5d273f337 of
+#: paddlets.datasets.tsdataset.TSDataset.sort_columns:1
+msgid "Sort the TSDataset object by the index"
+msgstr "对所有元素的columns进行分别排序"
+
+#: f2c13e2efcc94c56a9d3260b5fe8a622 of
+#: paddlets.datasets.tsdataset.TSDataset.sort_columns:3
+msgid ""
+"Ascending or descending. When the index is a MultiIndex the sort "
+"direction can be controlled for each level individually."
+msgstr "升序或降序排序"
+
