@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: blueye.protocol
+Version: 3.0.0
+Summary: Protobuf-based protocol definitions for the Blueye drones
+Home-page: https://www.blueyerobotics.com
+License: LGPL-3.0
+Keywords: Blueye,Robotics,Protocol
+Author: Sindre Hansen
+Author-email: sindre.hansen@blueye.no
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: proto-plus (>=1.22.0,<2.0.0)
+Project-URL: Repository, https://github.com/blueye-robotics/ProtocolDefinitions
+Description-Content-Type: text/markdown
+
+# blueye.protocol
+
+`blueye.protocol` is a python package generated from the Protobuf API defined in [ProtocolDefintions](https://github.com/BluEye-Robotics/ProtocolDefinitions).
+
+It is generated with the [proto-plus library](https://proto-plus-python.readthedocs.io/en/latest/) create a more Pythonic way to interact with protocol buffers.
+
+## Usage
+The primary user of this package is the [blueye.sdk](https://github.com/blueye-robotics/blueye.sdk). The SDK configures the necessary ZeroMQ sockets and wraps everything up in an easy to use Python-object, allowing you to control the Blueye drones remotely.
+
