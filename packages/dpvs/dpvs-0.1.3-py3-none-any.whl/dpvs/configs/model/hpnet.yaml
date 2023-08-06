@@ -1,0 +1,16 @@
+_target_: dpvs.model.hpnet.HierarchicalProtoNetCLS
+flayer: 
+  _target_: dpvs.model.hpnet.FeatureNet
+  backbone: cnn_wide
+slayer: {
+    _target_: dpvs.model.hpnet.SymptomNet,
+    _partial_: true,
+    n_proto: 5,
+    rd: 1.0, re: 0.1, rc: 0.1, rs: 0.1, d_min: 2.0
+  }
+tlayer: {
+    _target_: dpvs.model.hpnet.TrendGenerative,
+    _partial_: true,
+    n_proto: 5,
+    time_dim: 8, t0: null, beta: 0, rd: 1.0, re: 0.1, rc: 0.1, rt: 0.1, d_min: 1.0
+  }
