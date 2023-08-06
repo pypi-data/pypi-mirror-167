@@ -1,0 +1,3 @@
+[console_scripts]
+iconviewer=kivymd_icon_viewer:launch
+
