@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+hotweb_cli/__init__.py
+hotweb_cli/cli.py
+hotweb_cli.egg-info/PKG-INFO
+hotweb_cli.egg-info/SOURCES.txt
+hotweb_cli.egg-info/dependency_links.txt
+hotweb_cli.egg-info/entry_points.txt
+hotweb_cli.egg-info/top_level.txt
