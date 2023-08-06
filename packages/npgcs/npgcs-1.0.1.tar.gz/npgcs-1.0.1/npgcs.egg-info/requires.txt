@@ -1,0 +1,10 @@
+google-cloud-logging>=3.2.2
+google-cloud-storage>=2.5.0
+pandas>=1.4.4
+openpyxl>=3.0.10
+
+[dev]
+check-manifest
+
+[test]
+coverage
