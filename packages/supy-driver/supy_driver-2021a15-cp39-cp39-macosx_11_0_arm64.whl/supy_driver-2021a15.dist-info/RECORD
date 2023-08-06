@@ -1,0 +1,8 @@
+supy_driver/version.py,sha256=XufLvj9zDc4oJB_Rbf7SxvhY1-D2Z-rPGfsMJ-0hajM,21
+supy_driver/__init__.py,sha256=0fEznQbRiqctjB_PIsdjd73M8G0jnSOLxLhjKLIyiUM,747
+supy_driver/suews_driver.cpython-39-darwin.so,sha256=bc4OygkqvBfpKSlRF4f5_BfGM1mlAgnB6uV93jrhgSs,7816864
+supy_driver/.dylibs/libquadmath.0.dylib,sha256=ZDWcG28USBy2BHV2q-n_XE6F5NVWp4hcf-2aLjXQQvk,321824
+supy_driver-2021a15.dist-info/RECORD,,
+supy_driver-2021a15.dist-info/WHEEL,sha256=oITnL8r4K9lhj-wWSHlE2XUA0J8WLXdegrKtvi_34zA,108
+supy_driver-2021a15.dist-info/top_level.txt,sha256=ECvUcmmeed1oMhCUzs93DjCBODiYZzENno2BOaixQWY,12
+supy_driver-2021a15.dist-info/METADATA,sha256=EUyhqgVIY2yBT_RqATyInynNUZqqT5Pjy7h2_8OsulU,384
