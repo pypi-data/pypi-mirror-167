@@ -1,0 +1,10 @@
+absbox/__init__.py,sha256=xxZM8eRDZus8z104aKT-DVdxZJp5BbMrFGZPhCBzn-Q,278
+absbox/client.py,sha256=03W0tbB7rf2i0B3SoVKoPcJWIEJlPVmnev8fAsdV_tg,7722
+absbox/local/china.py,sha256=bv974vL5gYPPxDXNg_TKPxHr3t-DHzX-aX2b-owRPdI,22090
+absbox/local/generic.py,sha256=dTyfGoU4QksgMYYAb1OE8d3ppzb5WXDirBMxV1vE4MU,15987
+absbox/local/util.py,sha256=ZypvTzhxqF0YkZZuwUS5u2QXFYF_rZ974972VYuH7gA,220
+AbsBox-0.1.1.12.dist-info/LICENSE,sha256=bs29fxEMupkQNH24x-tjgmOLyY2I38al_4X17xkKXho,11346
+AbsBox-0.1.1.12.dist-info/METADATA,sha256=Mn-9McA2iwdjciVM4d1w9k6UXEdQlk-NXsXPx0FVagI,1507
+AbsBox-0.1.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AbsBox-0.1.1.12.dist-info/top_level.txt,sha256=qRm4ez_PCLZNx1jxSfHvNQiar_nhWVrYJm1umvonoL8,7
+AbsBox-0.1.1.12.dist-info/RECORD,,
