@@ -1,0 +1,4 @@
+[console_scripts]
+ZhanxingZonghengtan = ZhanxingZonghengtan.__main__:main
+zhanxing-zonghengtan = ZhanxingZonghengtan.__main__:main
+
