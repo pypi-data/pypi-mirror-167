@@ -1,0 +1,8 @@
+README.md
+setup.py
+hdmf_ml.egg-info/PKG-INFO
+hdmf_ml.egg-info/SOURCES.txt
+hdmf_ml.egg-info/dependency_links.txt
+hdmf_ml.egg-info/not-zip-safe
+hdmf_ml.egg-info/requires.txt
+hdmf_ml.egg-info/top_level.txt
