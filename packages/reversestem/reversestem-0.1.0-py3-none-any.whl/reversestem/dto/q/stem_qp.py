@@ -1,0 +1,43 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_qp = {'qpa': {'qpas': []},
+ 'qpam': {'qpams': []},
+ 'qpbon': {'qpbons': []},
+ 'qpc': {'qpcs': []},
+ 'qpd': {'qpds': []},
+ 'qpene': {'qpened': [], 'qpening': []},
+ 'qperat': {'qperating': [],
+            'qperation': ['qperations', 'qperational'],
+            'qperator': ['qperators']},
+ 'qperation': ['qperations', 'qperational'],
+ 'qperator': ['qperators'],
+ 'qpf': {'qpfs': []},
+ 'qphon': {'qphons': []},
+ 'qpi': {'qpy': []},
+ 'qpickli': {'qpickly': []},
+ 'qpinion': {'qpinions': []},
+ 'qpl': {'qpls': []},
+ 'qpli': {'qply': []},
+ 'qplion': {'qplions': []},
+ 'qpn': {'qpns': []},
+ 'qpo': {'qpos': []},
+ 'qppenheim': {'qppenheimer': []},
+ 'qpportun': {'qpportunities': [], 'qpportunity': []},
+ 'qppose': {'qpposed': []},
+ 'qpposit': {'qpposite': [], 'qpposition': []},
+ 'qpr': {'qprs': []},
+ 'qpractic': {'qpractice': []},
+ 'qpran': {'qprans': []},
+ 'qprt': {'qprts': []},
+ 'qpsa': {'qpsas': []},
+ 'qption': {'qptions': []},
+ 'qptlon': {'qptlons': []},
+ 'qpton': {'qptons': []},
+ 'qptron': {'qptrons': []},
+ 'qptton': {'qpttons': []},
+ 'qpuntri': {'qpuntry': []},
+ 'qpw': {'qpws': []}}
+        
