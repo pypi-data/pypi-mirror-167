@@ -1,0 +1,8 @@
+README.md
+setup.py
+__pycache__/crp_clustering.cpython-38.pyc
+embed_clustering.egg-info/PKG-INFO
+embed_clustering.egg-info/SOURCES.txt
+embed_clustering.egg-info/dependency_links.txt
+embed_clustering.egg-info/requires.txt
+embed_clustering.egg-info/top_level.txt
