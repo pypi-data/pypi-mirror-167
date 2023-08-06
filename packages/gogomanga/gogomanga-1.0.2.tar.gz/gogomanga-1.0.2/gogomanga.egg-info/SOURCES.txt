@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gogomanga/__init__.py
+gogomanga.egg-info/PKG-INFO
+gogomanga.egg-info/SOURCES.txt
+gogomanga.egg-info/dependency_links.txt
+gogomanga.egg-info/requires.txt
+gogomanga.egg-info/top_level.txt
