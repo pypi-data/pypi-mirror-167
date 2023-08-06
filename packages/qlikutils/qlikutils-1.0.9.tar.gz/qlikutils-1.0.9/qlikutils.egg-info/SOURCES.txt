@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+qlik/__init__.py
+qlik/__main__.py
+qlik/utils.py
+qlik/assets/__init__.py
+qlik/assets/fonts/Arial Black.ttf
+qlik/assets/fonts/Arial.ttf
+qlik/assets/images/background.png
+qlikutils.egg-info/PKG-INFO
+qlikutils.egg-info/SOURCES.txt
+qlikutils.egg-info/dependency_links.txt
+qlikutils.egg-info/requires.txt
+qlikutils.egg-info/top_level.txt
