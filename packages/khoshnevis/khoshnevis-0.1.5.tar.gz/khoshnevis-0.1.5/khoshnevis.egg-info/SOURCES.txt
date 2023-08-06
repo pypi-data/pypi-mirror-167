@@ -1,0 +1,14 @@
+README.md
+setup.py
+khoshnevis/URL.py
+khoshnevis/__init__.py
+khoshnevis/dictionary.py
+khoshnevis/emoji.py
+khoshnevis/ending.py
+khoshnevis/normalizer.py
+khoshnevis/space.py
+khoshnevis.egg-info/PKG-INFO
+khoshnevis.egg-info/SOURCES.txt
+khoshnevis.egg-info/dependency_links.txt
+khoshnevis.egg-info/requires.txt
+khoshnevis.egg-info/top_level.txt
