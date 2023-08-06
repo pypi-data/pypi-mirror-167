@@ -1,0 +1,11 @@
+recursive-include mvedemo/.idea *
+recursive-include mvedemo/build *
+recursive-include mvedemo/checkpoints *
+recursive-include mvedemo/datasets *
+recursive-include mvedemo/models *
+recursive-include mvedemo/open3d *
+recursive-include mvedemo/venv *
+recursive-include mvedemo *
+recursive-include mvedemo *.so
+recursive-include mvedemo *.txt
+recursive-include mvedemo *.ui
