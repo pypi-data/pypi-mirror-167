@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+pyproject.toml
+src/requests_restish_auth.egg-info/PKG-INFO
+src/requests_restish_auth.egg-info/SOURCES.txt
+src/requests_restish_auth.egg-info/dependency_links.txt
+src/requests_restish_auth.egg-info/top_level.txt
+src/restish_auth/__init__.py
