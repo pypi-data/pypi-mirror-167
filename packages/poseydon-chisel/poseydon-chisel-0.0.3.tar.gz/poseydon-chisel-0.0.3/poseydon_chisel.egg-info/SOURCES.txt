@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+poseydon_chisel/__init__.py
+poseydon_chisel.egg-info/PKG-INFO
+poseydon_chisel.egg-info/SOURCES.txt
+poseydon_chisel.egg-info/dependency_links.txt
+poseydon_chisel.egg-info/not-zip-safe
+poseydon_chisel.egg-info/requires.txt
+poseydon_chisel.egg-info/top_level.txt
