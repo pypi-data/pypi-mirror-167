@@ -1,0 +1,17 @@
+sleap_io/__init__.py,sha256=thjC1AJ8d0w2r-LN8NR_ggH9Om6FhKMF-tbbVAkZK9Y,650
+sleap_io/io/__init__.py,sha256=rN5SH7FWWiYV124UhLVkaR4vzAeDBFOc0Ik8oSE1wts,87
+sleap_io/io/main.py,sha256=83oliUf9npXn7HDdltE-m0FWMlrPcaE-YkJIXqlVC0I,419
+sleap_io/io/nwb.py,sha256=7UBiyRyubtI31RT50iUvm5G4UCZZxgQ7RaeB2WqUWPY,12284
+sleap_io/io/slp.py,sha256=j4PGOUXCRKf-ewI8ghDF50BJRHkgreMfJmwaTpnmDV0,8701
+sleap_io/io/utils.py,sha256=JKd6VWkSvQ5KhbVmjxLUWMkKXy3-CRbCNOlzxKig038,5464
+sleap_io/model/__init__.py,sha256=xD7WqaHxhIUBkreWQLLcRLXiDK-fMeC4D3qJsexjqVk,55
+sleap_io/model/instance.py,sha256=siftdQwAbA6vERCRRn0bpvo1pynAkeovLX9ipBEBmQQ,11123
+sleap_io/model/labeled_frame.py,sha256=Gs5Yy0UQUMkIG7Dz7XnxRp4trnorMHXANHGthvUKX_A,2334
+sleap_io/model/labels.py,sha256=yLgjfPmxqOGe31sAzzoCJd6Qb4VnQM4ltD4EZAjYs24,7559
+sleap_io/model/skeleton.py,sha256=GlRads1OuZd57bTsJCppmMS0lVT70iy6c8OxizLfi34,6134
+sleap_io/model/video.py,sha256=BJ2HvsmUSZOuFGf0noQR7jxztPPQX8sYuikTmbSHARo,962
+sleap_io-0.0.1.dist-info/LICENSE,sha256=tCHF6ih0Va102ixCz1dT0YJLZ1gKlohkckVIkaB-_pA,1546
+sleap_io-0.0.1.dist-info/METADATA,sha256=tfTNI9IbmI895Q6C5GcuKMoynbQFdskHIL5wu6PJPxc,4201
+sleap_io-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sleap_io-0.0.1.dist-info/top_level.txt,sha256=lIPfP4U6Vp5BMtjr2oC7XQEMuLE9RCHEMEHgpNNwsD4,9
+sleap_io-0.0.1.dist-info/RECORD,,
