@@ -1,0 +1,8 @@
+registerer/__init__.py,sha256=qMuPnQ19Oi2KOIXH99LSKAT3HfGheHUj3jfnPJXmBTw,101
+registerer/exceptions.py,sha256=4jLasTjhg6ICltRItPYok-On0r6Ca0aB_l2oGPWcglo,321
+registerer/registry.py,sha256=hRbLYyh2H8__hyASJwlSKNBw_zECWj6fPPwEXkUlRiw,6071
+registerer/validators.py,sha256=LSdzi3COHkM_XK2NwWU33reRLbB6tJ7bCogMs7-_als,804
+registerer-0.3.1.dist-info/LICENSE,sha256=3KIr26ulQYJVIar_EQ0aWp2tQ88I61xw3P-XQwhMZ1Y,1080
+registerer-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+registerer-0.3.1.dist-info/METADATA,sha256=4teW6brllfPpffPQX1H5uTiyGfaM51CUZG93kA1eCXs,9686
+registerer-0.3.1.dist-info/RECORD,,
