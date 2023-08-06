@@ -1,0 +1,2 @@
+[console_scripts]
+xiblint = xiblint.__main__:main

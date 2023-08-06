@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xiblint
+Version: 0.10.4
+Summary: Checks .xib and .storyboard files for compliance with best practices
+Home-page: https://github.com/lyft/xiblint
+Author: Ilya Konstantinov
+Author-email: ikonstantinov@lyft.com
+License: apache2
+License-File: LICENSE
+License-File: NOTICE
+
+Checks .xib and .storyboard files for compliance with best practices
