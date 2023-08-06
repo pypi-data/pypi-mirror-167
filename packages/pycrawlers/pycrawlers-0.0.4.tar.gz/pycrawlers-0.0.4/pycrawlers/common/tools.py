@@ -1,0 +1,68 @@
+# -*- coding: UTF-8 -*-
+# @Time : 2022/8/17 15:40 
+# @Author : 刘洪波
+import requests
+from requests.adapters import HTTPAdapter
+from functools import wraps
+from tqdm import tqdm
+import os
+
+
+def get_session():
+    """使用requests Session，使抓取数据的时候可以重试"""
+    session = requests.Session()
+    session.mount('http://', HTTPAdapter(max_retries=3))  # 设置重试次数为3次
+    session.mount('https://', HTTPAdapter(max_retries=3))
+    return session
+
+
+requests_session = get_session()
+
+
+class DealException(object):
+    """处理异常返回的装饰器"""
+    def __call__(self, func):
+        @wraps(func)
+        def wrapped_function(*args, **kwargs):
+            try:
+                response = func(*args, **kwargs)
+                response.raise_for_status()
+                return response
+            except requests.RequestException as e:
+                print(e)
+        return wrapped_function
+
+
+# 下载数据
+def download(url: str, fname: str, headers: dict, read_timeout: int = 15):
+    @DealException()
+    def get_data():
+        return requests_session.get(url, headers=headers, stream=True, timeout=(read_timeout, 5))
+
+    resp = get_data()
+    total = int(resp.headers.get('content-length', 0))
+    with open(fname, 'wb') as file, tqdm(
+        desc=fname,
+        total=total,
+        unit='iB',
+        unit_scale=True,
+        unit_divisor=1024,
+    ) as bar:
+        for data in resp.iter_content(chunk_size=1024):
+            size = file.write(data)
+            bar.update(size)
+
+
+def juedge_path(file_path: str):
+    """判断路径是否存在，不存在就创建"""
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
+    if file_path[-1] != '/':
+        file_path += '/'
+    return file_path
+
+
+def juedge_url(url: str):
+    """url检查"""
+    if 'http://' not in url and 'https://' not in url:
+        raise ValueError(f'URL error, the url is missing http or https, your url is {url}')
