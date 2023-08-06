@@ -1,0 +1,12 @@
+*.egg-info
+*.pyc
+*.pyo
+*.mo
+*.swp
+dist
+.project
+.pydevproject
+.idea
+pip-selfcheck.json
+searchindex.js
+search.html
