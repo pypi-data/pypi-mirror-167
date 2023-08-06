@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: myPackageTFIMM
+Version: 0.0.4
+Summary: image models
+Author: Alaa Elmor
+Author-email: alaa.m.elmor@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+Install
+
+pip install myPackageTFIMM==0.0.4
+
+----------------------------------------------
+
+Usage
+
+ from myPackageTFIMM import list_models, create_model
+
+ list_models()
+
+ model=create_model("dla34", 10)
+
+ model.summary()
+
+----------------------------------------------
+
+License
+
+This project is licensed under the MIT License
+
+----------------------------------------------
+
+Author
+
+Alaa Elmor
