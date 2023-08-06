@@ -1,0 +1,4 @@
+[console_scripts]
+colubrid = colubridhelpers:options_command
+prueba = prueba:funciona
+
