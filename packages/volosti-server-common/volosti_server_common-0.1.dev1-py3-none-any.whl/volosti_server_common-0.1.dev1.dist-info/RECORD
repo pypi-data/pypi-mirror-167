@@ -1,0 +1,15 @@
+volosti_server_common/__init__.py,sha256=3oGAp5gfU66wAGaU19-zA73kY3TbO04LnkX7dHGayfI,138
+volosti_server_common/alembic.ini,sha256=0Ve8gTWVPAUxn6RZNc51IrZCEc32ATEicjfdVm8znJs,3216
+volosti_server_common/migrations/README,sha256=MVlc9TYmr57RbhXET6QxgyCcwWP7w-vLkEsirENqiIQ,38
+volosti_server_common/migrations/env.py,sha256=Bvda-ftb-78KUiOWjEfcIHaSWvrpdC_iH9JFluSqUUc,2099
+volosti_server_common/migrations/script.py.mako,sha256=HNlf26BI1xvQKjiUojnj15BPrVUfVVr81IOgliJf83c,510
+volosti_server_common/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volosti_server_common/models/base.py,sha256=1bLSWbzhiVDn0v422heU6dczMyjBKR9NxHa35zECR4E,107
+volosti_server_common/paths.py,sha256=-USgl04FFFl8P34RQ2JgNzexcSGvdhQs5gUH-YABza4,259
+volosti_server_common/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volosti_server_common/static/base.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volosti_server_common/templates/base/base.jinja2,sha256=R_qm7RiB8Q2ty642RmIPwzCvUkOTJrFv-q4oLe7IFhw,422
+volosti_server_common-0.1.dev1.dist-info/LICENSE,sha256=G9cAl6hC2dkggP2ywZl8UtOd-w5WQ11TwOwD8PLdBl4,1117
+volosti_server_common-0.1.dev1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+volosti_server_common-0.1.dev1.dist-info/METADATA,sha256=XXMz7tMr4tA4a5Y8EBJueu5PFIbOJOm5S0sEuyZODSI,1797
+volosti_server_common-0.1.dev1.dist-info/RECORD,,

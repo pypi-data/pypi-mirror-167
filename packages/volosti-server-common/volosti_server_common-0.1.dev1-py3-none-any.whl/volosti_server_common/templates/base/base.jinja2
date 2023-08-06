@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ lang_code }}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ page_header }} \\ {{ app_name }}</title>
+  </head>
+  <body>
+    <main class="AppMain">
+        {% block AppMain %}{% endblock %}
+    </main>
+
+    <nav class="AppNav">
+        {% block AppNav %}{% endblock %}
+    </nav>
+
+    <footer class="AppFooter">
+      {% block AppFooter %}{% endblock %}
+    </footer>
+  </body>
+</html>
