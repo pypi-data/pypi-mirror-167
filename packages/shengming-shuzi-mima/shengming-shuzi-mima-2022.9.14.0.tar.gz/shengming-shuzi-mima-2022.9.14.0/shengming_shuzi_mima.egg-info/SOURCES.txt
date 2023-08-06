@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShengmingShuziMima/README.md
+ShengmingShuziMima/__init__.py
+ShengmingShuziMima/__main__.py
+ShengmingShuziMima/file.pdf
+ShengmingShuziMima/index.html
+shengming_shuzi_mima.egg-info/PKG-INFO
+shengming_shuzi_mima.egg-info/SOURCES.txt
+shengming_shuzi_mima.egg-info/dependency_links.txt
+shengming_shuzi_mima.egg-info/entry_points.txt
+shengming_shuzi_mima.egg-info/top_level.txt
