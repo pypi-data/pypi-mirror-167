@@ -1,0 +1,36 @@
+[
+    {
+        "ship_name": "Mein Schiff 1",
+        "ship_flag": "mt",
+        "ship_line_id": "32",
+        "ship_line_title": "TUI Cruises",
+        "imo": "9783564",
+        "mmsi": "248513000",
+        "lat": "46.81366",
+        "lon": "-71.19978",
+        "cog": 276,
+        "sog": 0,
+        "heading": "185",
+        "tst": "1663245194",
+        "icon": "128",
+        "hover": "Mein Schiff 1",
+        "destination": "Quebec City"
+    },
+    {
+        "ship_name": "Le Bellot",
+        "ship_flag": "wf",
+        "ship_line_id": "40",
+        "ship_line_title": "Ponant Cruises",
+        "imo": "9852418",
+        "mmsi": "578001500",
+        "lat": "46.81735",
+        "lon": "-71.19906",
+        "cog": 285,
+        "sog": 0,
+        "heading": "194",
+        "tst": "1663245891",
+        "icon": "1024",
+        "hover": "Le Bellot",
+        "destination": "CAQBE"
+    }
+]
