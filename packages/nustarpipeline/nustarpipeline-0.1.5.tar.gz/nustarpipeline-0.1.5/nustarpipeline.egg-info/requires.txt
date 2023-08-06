@@ -1,0 +1,8 @@
+astropy
+astroquery
+numpy
+click
+argparse
+matplotlib
+IPython
+yaml
