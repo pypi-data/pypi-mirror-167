@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: ReadingFilledForm
+Version: 0.0.1
+Summary: This is the main calling python script that will invoke the class to initiate the reading capability & display text from a formatted forms.
+Author: Satyaki De
