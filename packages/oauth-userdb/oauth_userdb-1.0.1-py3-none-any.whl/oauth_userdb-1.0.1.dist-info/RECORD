@@ -1,0 +1,8 @@
+oauth_userdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oauth_userdb/client.py,sha256=Y6vSgQRA4q6RI0pTvoz-AD3vvly6MESJ8iJjJaJH9jU,3298
+oauth_userdb/dynamodb_client.py,sha256=9xd0IByGF-Q7VrtCLXVQ8WTAD47X75mJ8v_98k_7iWU,1317
+oauth_userdb-1.0.1.dist-info/LICENSE,sha256=1lL2rTZBNOnV6UJTV2nd95LClzrDSUpXjH9xjN_2RCQ,1069
+oauth_userdb-1.0.1.dist-info/METADATA,sha256=mUcnnKd5FXqNbsQAQ5Ha7WfUg9bkqNod6fXqz8Xput0,478
+oauth_userdb-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+oauth_userdb-1.0.1.dist-info/top_level.txt,sha256=V6EFx1rKer77bf2EO0Aoz7mROeDdE5uoyrok6sDJqg8,13
+oauth_userdb-1.0.1.dist-info/RECORD,,
