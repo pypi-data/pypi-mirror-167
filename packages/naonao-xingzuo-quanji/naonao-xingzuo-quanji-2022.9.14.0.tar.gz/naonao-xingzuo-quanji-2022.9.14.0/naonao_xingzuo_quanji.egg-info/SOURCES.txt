@@ -1,0 +1,12 @@
+README.md
+setup.py
+NaonaoXingzuoQuanji/README.md
+NaonaoXingzuoQuanji/__init__.py
+NaonaoXingzuoQuanji/__main__.py
+NaonaoXingzuoQuanji/file.pdf
+NaonaoXingzuoQuanji/index.html
+naonao_xingzuo_quanji.egg-info/PKG-INFO
+naonao_xingzuo_quanji.egg-info/SOURCES.txt
+naonao_xingzuo_quanji.egg-info/dependency_links.txt
+naonao_xingzuo_quanji.egg-info/entry_points.txt
+naonao_xingzuo_quanji.egg-info/top_level.txt

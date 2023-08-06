@@ -1,0 +1,4 @@
+[console_scripts]
+NaonaoXingzuoQuanji = NaonaoXingzuoQuanji.__main__:main
+naonao-xingzuo-quanji = NaonaoXingzuoQuanji.__main__:main
+
