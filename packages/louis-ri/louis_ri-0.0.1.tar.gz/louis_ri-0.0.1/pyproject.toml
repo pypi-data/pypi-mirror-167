@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "louis_ri"
+version = "0.0.1"
+authors = [
+  { name="Louis Genieys", email="lgenieys@gmail.com" },
+]
+description = "Louis Genieys's IR toolbox"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/louisgenie/louis_ri"
+"Bug Tracker" = "https://github.com/louisgenie/louis_ri/issues"
