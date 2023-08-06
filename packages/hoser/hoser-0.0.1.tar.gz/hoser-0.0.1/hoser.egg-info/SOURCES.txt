@@ -1,0 +1,8 @@
+LICENSE
+README
+pyproject.toml
+setup.py
+hoser.egg-info/PKG-INFO
+hoser.egg-info/SOURCES.txt
+hoser.egg-info/dependency_links.txt
+hoser.egg-info/top_level.txt
