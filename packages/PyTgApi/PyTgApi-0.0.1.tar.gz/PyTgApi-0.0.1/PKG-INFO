@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyTgApi
+Version: 0.0.1
+Summary: A python library for Telegram Bot Api.
+Home-page: https://github.com/SastaDev/PyTgApi
+Download-URL: https://github.com/SastaDev/PyTgApi/archive/refs/tags/v0.0.1.tar.gz
+Author: Sasta Dev
+Author-email: sastadev2007@gmail.com
+License: GNU General Public License v3.0
+Keywords: PyTgApi
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

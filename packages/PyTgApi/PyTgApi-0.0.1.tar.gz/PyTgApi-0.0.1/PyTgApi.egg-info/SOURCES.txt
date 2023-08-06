@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+PyTgApi/__init__.py
+PyTgApi/buttons.py
+PyTgApi/methods.py
+PyTgApi/parsing.py
+PyTgApi.egg-info/PKG-INFO
+PyTgApi.egg-info/SOURCES.txt
+PyTgApi.egg-info/dependency_links.txt
+PyTgApi.egg-info/requires.txt
+PyTgApi.egg-info/top_level.txt
