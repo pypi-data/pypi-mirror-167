@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rambler_google_activator
+Version: 0.1.0
+Summary: Rambler.ru Google Activator
+Home-page: https://github.com/KM8Oz/rambler-google-activator.git
+Author: @KM8Oz (kmoz000)
+Author-email: <kimo@oldi.dev>
+License: MIT License
+Keywords: Rambler.ru,Google,Activator,Auth
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Communications :: Email :: Post-Office :: IMAP
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+"""+==============================+"""
+"""| Rambler.ru Google Activator  |"""
+"""+==============================+"""
+
+## usage: 
+
+``` 
+email =  RamblerEmail("example@rambler.ru", "xxxxxxxxx")
+(status, code) = email.get_code(2)
+```
+
