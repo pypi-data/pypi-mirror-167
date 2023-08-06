@@ -1,0 +1,13 @@
+myqiwi/__init__.py,sha256=-bxbsNfuZjNRNygHgNyb3iCi0RagAZQbuG0i41Wc5os,57
+myqiwi/client.py,sha256=g4dv9P2RwUikALMVM-ho7dXo8ACXlqBQEExWLH_oz68,8369
+myqiwi/exceptions.py,sha256=xNLLAMYbkM9QUMvK48qrKGS_odZjcq671ef2PUeZNOE,842
+myqiwi/request.py,sha256=9bRO8C-nHzJqGLuUlhu7GNBWsVPGSomH7XkFBt6ohFg,976
+myqiwi/utils.py,sha256=P5MNARZ3XDwNW9mfFhYh7iu7XiJZGmORGENH_76mkH8,602
+myqiwi/webhook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myqiwi/webhook/fastapi_server.py,sha256=dR3WR_xn8tcWYSEpTDvd5fL_Ff8N7mUfX9jpDikOTls,965
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_qiwi.py,sha256=EVRWdHVi6bExRGsVVzikt66cCQAsDR90RS54K8w9Ft8,1087
+myqiwi-0.1.dist-info/METADATA,sha256=LhFOkIwJWJistdd4sX0uoqAo_wfctXZHutafqhgXqRE,2938
+myqiwi-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+myqiwi-0.1.dist-info/top_level.txt,sha256=6o5Rs14acApMgQFcH010qAqhGpcXZStnOWfiLdj-hbo,13
+myqiwi-0.1.dist-info/RECORD,,
