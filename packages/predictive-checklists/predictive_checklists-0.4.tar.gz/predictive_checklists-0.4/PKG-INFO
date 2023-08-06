@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: predictive_checklists
+Version: 0.4
+Summary: Creating Predictive Checklists Using Integer Programming
+Home-page: https://github.com/MLforHealth/predictive_checklists
+Author: Haoran Zhang
+Author-email: haoranz@mit.edu
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
