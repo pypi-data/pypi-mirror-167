@@ -1,0 +1,6 @@
+gpuShareLib
+msvc
+oracle
+picosat
+predict
+pycryptosat
