@@ -1,0 +1,16 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+blog/__init__.py
+blog/admin.py
+blog/apps.py
+blog/models.py
+blog/tests.py
+blog/views.py
+blog/migrations/__init__.py
+django_core_blog.egg-info/PKG-INFO
+django_core_blog.egg-info/SOURCES.txt
+django_core_blog.egg-info/dependency_links.txt
+django_core_blog.egg-info/requires.txt
+django_core_blog.egg-info/top_level.txt
