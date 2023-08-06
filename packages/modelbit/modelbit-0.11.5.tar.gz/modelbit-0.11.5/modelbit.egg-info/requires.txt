@@ -1,0 +1,14 @@
+pycryptodomex
+pandas
+tqdm
+requests
+types-requests
+ipython
+ipykernel
+grpcio
+protobuf
+types-protobuf
+types-pkg-resources
+pyyaml
+types-PyYAML
+jinja2
