@@ -1,0 +1,6 @@
+test_packaging_chmforte/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_packaging_chmforte/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+test_packaging_chmforte-0.0.1.dist-info/METADATA,sha256=8dWsBRWEgotL1ovwyfRIAHSjXLu82L1CIVa8_gKhlIE,263
+test_packaging_chmforte-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+test_packaging_chmforte-0.0.1.dist-info/top_level.txt,sha256=n5h7vFhO_vHM6tUDgLt1xVRTi2gQBM593kaVTfGF2mw,24
+test_packaging_chmforte-0.0.1.dist-info/RECORD,,
