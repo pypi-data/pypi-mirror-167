@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sofastorage/__init__.py
+src/sofastorage/key.py
+src/sofastorage/sofa.py
+src/sofastorage.egg-info/PKG-INFO
+src/sofastorage.egg-info/SOURCES.txt
+src/sofastorage.egg-info/dependency_links.txt
+src/sofastorage.egg-info/requires.txt
+src/sofastorage.egg-info/top_level.txt
