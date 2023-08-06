@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_vmem.py
+tests/data/data.16.vmem
+tests/data/data.32.vmem
+tests/data/data.8.vmem
+veriloghex/__init__.py
+veriloghex/_version.py
+veriloghex/veriloghex.py
+veriloghex.egg-info/PKG-INFO
+veriloghex.egg-info/SOURCES.txt
+veriloghex.egg-info/dependency_links.txt
+veriloghex.egg-info/top_level.txt
