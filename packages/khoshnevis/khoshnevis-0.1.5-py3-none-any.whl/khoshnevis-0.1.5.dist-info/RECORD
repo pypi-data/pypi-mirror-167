@@ -1,0 +1,11 @@
+khoshnevis/URL.py,sha256=8HM1q-JAEPjogkYPdHnotHJ9LDX1sk_1wEWCrRce0eQ,1029
+khoshnevis/__init__.py,sha256=dnw2lBiVkCU8N5x5ZAqq5fxbceRBtPtoP2bUuhqcc8k,34
+khoshnevis/dictionary.py,sha256=UIOArmHOqHmMjl-HZt_7NS1_I1abtdrxeHbJ4fEhhCQ,4304
+khoshnevis/emoji.py,sha256=JXzRtv1ZLtQidZT0iAlCqm7Pr4656kB2xZkVEPoN8Io,165
+khoshnevis/ending.py,sha256=J8XQBJDOgnjdhk1ISs-J3X2Rfiipss09l1jKdpVlUTM,1682
+khoshnevis/normalizer.py,sha256=MqqYu8oHJUZ0ZLRZdX5cF-CcbdoSqN6YZlG6e9NH0R4,3145
+khoshnevis/space.py,sha256=ss2XyctJBfguNq-v7Ui3bsAL0RQC200ZDEIUsi0Kz-A,1942
+khoshnevis-0.1.5.dist-info/METADATA,sha256=hTNALFVq8KqCErCnAavOgx_5yvMCmBYZnvyTiRN6dqw,1738
+khoshnevis-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+khoshnevis-0.1.5.dist-info/top_level.txt,sha256=NXpdzgN5jzkkZOW0j31RKIXkiKNoOTggUUSxxGhRhmk,11
+khoshnevis-0.1.5.dist-info/RECORD,,
