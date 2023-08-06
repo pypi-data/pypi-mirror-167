@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.md
+Makefile
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/unittest.yaml
+analyzer/analyzer.py
+tests/__init__.py
+tests/test_gkeworkload.py
+tests/test_gsaproject.py
+wi_analyzer.egg-info/PKG-INFO
+wi_analyzer.egg-info/SOURCES.txt
+wi_analyzer.egg-info/dependency_links.txt
+wi_analyzer.egg-info/entry_points.txt
+wi_analyzer.egg-info/requires.txt
+wi_analyzer.egg-info/top_level.txt
