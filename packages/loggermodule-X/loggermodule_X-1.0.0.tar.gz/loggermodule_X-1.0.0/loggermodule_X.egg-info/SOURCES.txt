@@ -1,0 +1,9 @@
+README.md
+setup.py
+loggermodule_X/__init__.py
+loggermodule_X/loggermodule_X.py
+loggermodule_X.egg-info/PKG-INFO
+loggermodule_X.egg-info/SOURCES.txt
+loggermodule_X.egg-info/dependency_links.txt
+loggermodule_X.egg-info/entry_points.txt
+loggermodule_X.egg-info/top_level.txt

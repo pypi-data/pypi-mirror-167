@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: loggermodule-X
+Version: 1.0.0
+Summary: Logging in console and collect to file !
+Home-page: https://github.com/iNonTz/loggermodule
+Author: KHUNANON
+Author-email: ch.khunanon@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# Logger Module X
+
+Just logging python file !
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install loggermoduleX
+```
+
+## Usage
+
+```python
+from loggermodulex import configLogger
+
+log = configLogger(__name__, __file__, console_lv='INFO', file_lv='ERROR')
+
+log.info('INFO')
+log.debug('DEBUG')
+log.error('ERROR')
+log.warning('WARNING')
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
