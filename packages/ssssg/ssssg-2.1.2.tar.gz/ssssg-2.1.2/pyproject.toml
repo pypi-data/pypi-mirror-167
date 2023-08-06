@@ -1,0 +1,62 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = [
+    "setuptools ~= 65.1.0",
+    "wheel ~= 0.37.1",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.semantic_release]
+    changelog_file = "CHANGELOG.md"
+    branch = "master"
+    version_source = "tag_only"
+    version_toml = "pyproject.toml:project.version"
+    patch_without_tag = true
+    hvcs = "gitlab"
+    build_command = "pip install build && python -m build"
+
+[project]
+name = "ssssg"
+description = "Stupidly Simple Static Site Generator"
+authors = [{name = "Kyle Graves", email="octesian@protonmail.com"}]
+license = { file="LICENSE" }
+readme = "README.md"
+version = "v2.1.2"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+	"Operating System :: OS Independent",
+]
+dependencies = [
+	"jinja2 ~= 3.0.2",
+	"libsass ~= 0.21.0",
+	"markdown ~= 3.3.6",
+    'importlib-metadata; python_version<"3.6"',
+]
+
+[project.urls]
+"Issue Tracker" = "https://gitlab.com/octesian/ssssg/-/issues"
+"Git" = "https://gitlab.com/octesian/ssssg"
+
+[project.optional-dependencies]
+test = [
+	"pytest ~= 7.0.1",
+    "pytest-cov ~= 3.0.0",
+    "setuptools-scm[toml] ~= 7.0.5",
+    "black ~= 22.6.0"
+]
+docs = [
+    "sphinx ~= 4.4.0",
+    "sphinx-rtd-theme ~= 1.0.0",
+]
+
+[project.scripts]
+	s4g = "ssssg.create_site:create_site"
+	ssssg = "ssssg.create_site:create_site"
+	create_site = "ssssg.create_site:create_site"
