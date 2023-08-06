@@ -1,0 +1,12 @@
+GooseHDF5/__init__.py,sha256=3BSZkOrrAd3ENPZpM_1VQJGP9wI3zI8gKcE_nPg0_8E,43855
+GooseHDF5/_version.py,sha256=hqr2ANfscNYpHLGhAj3a46fxtyYWrGv_sXCNHQP0glk,178
+GooseHDF5/cli/G5check.py,sha256=r9hPemqoQgkraMmNU6A2JFTv-q1zu9Kpru9GTDlZX6M,1489
+GooseHDF5/cli/G5repack.py,sha256=RWMcwJSmsO2RLkfepUE4v1QF9V6MjZ8dDomD4Vf6Tug,1813
+GooseHDF5/cli/G5repair.py,sha256=2EGW611vGd5fpRHey_RaQnG68HyDe_f-8ERdRuRPIMs,1810
+GooseHDF5/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GooseHDF5-0.19.0.dist-info/LICENSE,sha256=T-VugPjkf0PsKJyihdN67Q2mw06X3bCQiF_ElhFW3Fw,1068
+GooseHDF5-0.19.0.dist-info/METADATA,sha256=ATDatAo0pGqF75HNXFJQa74Gm5j-iUHVEd8MQf9NoIY,294
+GooseHDF5-0.19.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GooseHDF5-0.19.0.dist-info/entry_points.txt,sha256=cMihPK7rvYDVGVG8si2lmP5aG28hCHVxPqCCFHg9iko,240
+GooseHDF5-0.19.0.dist-info/top_level.txt,sha256=FVO2xF4pM9y0e7ufnmcELj0rfiDlb24nDkjIGHTA4B8,10
+GooseHDF5-0.19.0.dist-info/RECORD,,
