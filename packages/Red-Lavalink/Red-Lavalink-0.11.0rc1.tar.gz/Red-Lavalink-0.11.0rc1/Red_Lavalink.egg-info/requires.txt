@@ -1,0 +1,12 @@
+aiohttp>=3.6.0
+discord.py>=2.0.0
+Red-Commons<2,>=1.0.0
+
+[doc]
+sphinx
+sphinxcontrib-trio
+sphinx_rtd_theme
+
+[test]
+pytest>=7
+pytest-asyncio>=0.19
