@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cruscopoetry.syllabifiers.wol
+Version: 0.0.1
+Summary: CruscoPoetry syllabifier for Wolof language
+Home-page: https://gitlab.com/kikulacho92/cruscopoetry
+Author: Emiliano Minerba
+Author-email: emi.nerba@gmail.com
+License: GPL
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: cruscopoetry.syllabifiers.abstract
+Requires-Dist: myusefulmetaclasses
+
+This is WolofPoetry
+
+
