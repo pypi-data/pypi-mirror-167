@@ -1,0 +1,14 @@
+makefig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makefig/config.py,sha256=cUl1fsTaMpc7Dsn8enh01CyZWll9AVpvRUoYBJttB7o,698
+makefig/construct_figure.py,sha256=4TVMB6nMmpSdDmZlLRmgcWwNZxu7QQaixDIS9t4GPfc,2649
+makefig/format_axis.py,sha256=vwRnaiHMB2r16EnAHYEFFCwdlfz9Ps119vd6NF4wC4w,454
+makefig/pvals.py,sha256=2ZbtXSsKxB7f4Dd4EnmWbnM0hAm2nQ81kP22MXEPJiI,254
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/test_integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/test_unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makefig-0.0.1rc0.dist-info/LICENSE,sha256=RwDY6cxt-MMrfC06rxLNeguhWiQmwYX7fPSuSDpiw5A,1524
+makefig-0.0.1rc0.dist-info/METADATA,sha256=_vv1dFbPzjG4mrhhbqMC34gsU8gOXyg9jtkZycUkSiY,1781
+makefig-0.0.1rc0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+makefig-0.0.1rc0.dist-info/top_level.txt,sha256=fs3B9y8V7SA2JNm_AfJ0MRMisNVqcFMfHrbyT6yUCSo,14
+makefig-0.0.1rc0.dist-info/RECORD,,

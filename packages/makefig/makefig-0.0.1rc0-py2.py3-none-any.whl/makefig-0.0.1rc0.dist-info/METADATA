@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: makefig
+Version: 0.0.1rc0
+Summary: construct figure templates
+Home-page: https://github.com/SainsburyWellcomeCentre/makefig
+Download-URL: https://github.com/SainsburyWellcomeCentre/makefig
+Author: Stephen Lenzi
+Author-email: s.lenzi@ucl.ac.uk
+Project-URL: Source, https://github.com/SainsburyWellcomeCentre/makefig
+Project-URL: Tracker, https://github.com/SainsburyWellcomeCentre/makefig/issues
+Keywords: visualisation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fire
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: fancylog
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: gitpython ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+
+Code written by Lee Cossell and refactored and added to and refactored by [Stephen Lenzi](https://github.com/stephenlenzi) in the [Margrie Lab](https://www.sainsburywellcome.org/web/groups/margrie-lab), generously supported by the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/).
+
+<img src='https://user-images.githubusercontent.com/12136220/183618125-b1e60c25-0695-4040-979c-4b3afd3024c4.png' width="550">
+
