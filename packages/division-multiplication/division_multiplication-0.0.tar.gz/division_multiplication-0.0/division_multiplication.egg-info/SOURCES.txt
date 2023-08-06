@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+division_multiplication/__init__.py
+division_multiplication/divi.py
+division_multiplication/multi.py
+division_multiplication.egg-info/PKG-INFO
+division_multiplication.egg-info/SOURCES.txt
+division_multiplication.egg-info/dependency_links.txt
+division_multiplication.egg-info/not-zip-safe
+division_multiplication.egg-info/top_level.txt
