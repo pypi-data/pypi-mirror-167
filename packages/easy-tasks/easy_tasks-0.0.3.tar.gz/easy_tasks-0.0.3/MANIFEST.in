@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+graft easy_tasks
+recursive-exclude * *.py[co]
+include versioneer.py
+include easy_tasks/_version.py
