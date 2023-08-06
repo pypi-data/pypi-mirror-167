@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/airflow/providers/oraclethick/provider.yaml
+src/airflow/providers/oraclethick/hooks/oraclethick.py
+src/airflow_providers_oraclethick_hook.egg-info/PKG-INFO
+src/airflow_providers_oraclethick_hook.egg-info/SOURCES.txt
+src/airflow_providers_oraclethick_hook.egg-info/dependency_links.txt
+src/airflow_providers_oraclethick_hook.egg-info/top_level.txt
