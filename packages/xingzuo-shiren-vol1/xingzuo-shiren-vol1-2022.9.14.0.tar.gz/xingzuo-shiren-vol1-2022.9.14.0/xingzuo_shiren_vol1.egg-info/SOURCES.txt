@@ -1,0 +1,12 @@
+README.md
+setup.py
+XingzuoShirenVol1/README.md
+XingzuoShirenVol1/__init__.py
+XingzuoShirenVol1/__main__.py
+XingzuoShirenVol1/file.pdf
+XingzuoShirenVol1/index.html
+xingzuo_shiren_vol1.egg-info/PKG-INFO
+xingzuo_shiren_vol1.egg-info/SOURCES.txt
+xingzuo_shiren_vol1.egg-info/dependency_links.txt
+xingzuo_shiren_vol1.egg-info/entry_points.txt
+xingzuo_shiren_vol1.egg-info/top_level.txt
