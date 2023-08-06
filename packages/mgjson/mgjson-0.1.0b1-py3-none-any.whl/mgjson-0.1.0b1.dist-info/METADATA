@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: mgjson
+Version: 0.1.0b1
+Summary: A nifty library for encoding mgjson documents from python.
+Project-URL: Documentation, https://github.com/unknown/python-mgjson#readme
+Project-URL: Issues, https://github.com/unknown/python-mgjson/issues
+Project-URL: Source, https://github.com/unknown/python-mgjson
+Author-email: technocake <robin.garen@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# python-mgjson
+A nifty library for encoding mgjson documents from python.
+
+Made possibly by the the works of [JuanIrache](https://github.com/JuanIrache/mgjson) . This library is a new partial implementation in python for generating Motion Graphics Json documents.
+
+Static data properties of type int, boolean and ascii-string are supported.
+Dynamic data as time series are supported. These will be translated to timezone encoded time series.
+
+## installation
+
+```python
+pip install mgjson
+```
+
+## Usage
+
+```python
+from mgjson import MgJSON
+
+mgjson = MgJSON()
+
+# static properties
+mgjson.add_property("numberOfCats", 3)
+mgjson.add_property("isItTrue", False)
+mgjson.add_property("title", "A new adventure awaits!")
+
+# dynamic data (time series)
+mgjson.add_stream("temperature", [[0.0, 1.000], [2.59292, 0.777]])
+
+print(mgjson.json)
+```
+
+
+
+## License
+
+MIT
