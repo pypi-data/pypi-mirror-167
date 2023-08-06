@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-BiliRequestsBarand
+Version: 0.1.2
+Summary: use bilibili uid join in group
+Home-page: https://github.com/Shadow403/nonebot_plugin_BiliRequestsBarand.git
+Author: Shadow403
+Author-email: anonymous_hax@foxmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="260" height="260" alt="nonebot"></a>
+</p>
+
+<div align="center"> 
+
+# nonebot_plugin_BiliRequestsBarand
+
+<div>
+
+<div align=left> <div>
+
+## 已实现功能
+- 以B站UID审核入群（粉丝牌）
+
+## 使用方法
+
+- 使用pip
+
+```
+pip install nonebot_plugin_BiliRequestsBarand
+```
+
+- 重新加载插件
+
+## 说明依赖
+```
+10| import json,time, requests
+11| from nonebot import on_request, logger
+12| from nonebot.adapters.onebot.v11 import Bot, GroupRequestEvent
+```
+
+## 注意事项
+```
+20| if event.group_id == <群号>: <- 直接替换成要使用的群号
+##|                     ^^^^^^^
+21|   raw = json.loads(event.json())
+22|   gid = str(event.group_id)
+23|   uid = str(event.user_id)
+24|   flag = raw['flag']
+```
+```
+27| comment = raw['comment']
+28| BiliUID = ''.join(filter(str.isdigit,comment))
+29| cookies = {"cookie": "<你的cookie>"}  <- 填入cookie
+                          ^^^^^^^^^^^^
+```
+
+```
+34| # 同意入群
+35| if '<粉丝牌子名>' in response: <- 直接替换成粉丝牌名
+##|    ^^^^^^^^^^^^
+36|   logger.info(f"同意{uid}加入群 {gid},验证消息为 “{comment}”")
+37|   await bot.set_group_add_request(
+38|     flag=flag,
+39|     sub_type=sub_type,
+40|     approve=True,
+41|     reason=' ',
+42|   )
+43| # 拒绝入群
+44| if '<粉丝牌子名>' not in response: <- 直接替换成粉丝牌名
+##|    ^^^^^^^^^^^^
+45|   logger.info(f"拒绝{uid}加入群 {gid},验证消息为 “{comment}”")
+46|   await bot.set_group_add_request(
+47|     flag=flag,
+48|     sub_type=sub_type,
+49|    approve=False,
+50|     reason='未获得粉丝牌或未打开展示设置',
+51|   )
+```
+
+### 未来计划
+- Tips：如果在不咕的情况下 
+  - 实现单插件分群管理
+  - 实现切换审核模式（粉丝/持有粉丝牌/等）
+
+#### 反馈问题
+- 邮箱：anonymous_hax@foxmail.com
