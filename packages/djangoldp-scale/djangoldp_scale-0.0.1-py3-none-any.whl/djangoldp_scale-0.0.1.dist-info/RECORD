@@ -1,0 +1,17 @@
+djangoldp_scale/__init__.py,sha256=bd1mOwGX-lSB9tQWY5mRmQz2ZHiussjOSxHDmrHlxhE,47
+djangoldp_scale/apps.py,sha256=nn_Fa8fq4ZLnJWdHJvTCLUyPmw3frKs9ddoYHj1DIfM,104
+djangoldp_scale/models.py,sha256=dcgZRVq4jnsP0U_Gje3KI0UfFIPHAy22789vaOAdNrM,201
+djangoldp_scale/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_scale/templates/email.html,sha256=lh_N1kC_qvDMj-5uY054xcOc0m55qhx9Ntr2jPt7JK4,10587
+djangoldp_scale/templates/admin/login.html,sha256=u7wtb4cMiPzSL78adMNlva_CwUEdKb7Zzju84Ye_cA0,2896
+djangoldp_scale/templates/oidc_provider/authorize.html,sha256=mbtw2i8jtKILlSxoBr-CMN1rowXZEjciil7t3w86Vqk,2659
+djangoldp_scale/templates/password/email.html,sha256=PvgXRcz45ZYhDhAHyLKlmNZYnwtPVxgzyxS-kC6qGo4,11036
+djangoldp_scale/templates/registration/login.html,sha256=hH8UAJBG9jdn3H3fUz7TKOrftvsFzVaM_L40lsuSDvo,2728
+djangoldp_scale/templates/registration/password_reset_confirm.html,sha256=8yvpeeqBAvZtQCKElYzyuxh9lxgUUyKhhHGfJfYhPoc,2318
+djangoldp_scale/templates/registration/password_reset_done.html,sha256=YeIxnoEis66Bz4OXE3Nvt0uoXUcQKc-VM2SkcQhW3uU,650
+djangoldp_scale/templates/registration/password_reset_email.html,sha256=Q2oCh7rSJS23-5vip2hKFxhkmIwE3G6mXjRDcMFED-c,10225
+djangoldp_scale/templates/registration/password_reset_form.html,sha256=AyKmH1JPl2ojbdh8qsNXcyJit71YjNOmiU5ajNbMZ00,1605
+djangoldp_scale-0.0.1.dist-info/METADATA,sha256=DKTFg5SO48x4aujfa7EwJi9XsHJMbv1CeceglcUsQ30,391
+djangoldp_scale-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+djangoldp_scale-0.0.1.dist-info/top_level.txt,sha256=wneEsEJGwJCdSofQRCU5byZKaiVHWhYaett21vy4rVU,16
+djangoldp_scale-0.0.1.dist-info/RECORD,,
