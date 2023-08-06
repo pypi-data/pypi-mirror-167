@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+calciiical.egg-info/PKG-INFO
+calciiical.egg-info/SOURCES.txt
+calciiical.egg-info/dependency_links.txt
+calciiical.egg-info/top_level.txt
