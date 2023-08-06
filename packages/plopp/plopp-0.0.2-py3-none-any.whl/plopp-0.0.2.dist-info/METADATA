@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: plopp
+Version: 0.0.2
+Summary: Plotting library based on scipp
+Home-page: https://scipp.github.io/plopp
+Author: Scipp contributors (https://github.com/scipp)
+License: BSD
+Project-URL: Bug Tracker, https://github.com/scipp/plopp/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: pythreejs
+Requires-Dist: scipp (>=0.12)
+
+# plopp
+Plotting library based on scipp
