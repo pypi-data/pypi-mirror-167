@@ -1,0 +1,5 @@
+appdirs
+requests
+BeautifulSoup4
+pyyaml
+simple-term-menu
