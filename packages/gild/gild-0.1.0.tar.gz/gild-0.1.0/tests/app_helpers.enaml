@@ -1,0 +1,183 @@
+# -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# Copyright 2022 by Gild Authors, see AUTHORS for more details.
+#
+# Distributed under the terms of the BSD license.
+#
+# The full license is in the file LICENCE, distributed with this software.
+# -----------------------------------------------------------------------------
+"""App plugin extensions declarations.
+
+"""
+from functools import partial
+from atom.api import Atom, Str
+from enaml.workbench.api import PluginManifest, Extension
+
+from gild.plugins.lifecycle import AppStartup, AppClosing, AppClosed
+
+# --- Start up ----------------------------------------------------------------
+
+# "test" plugin register startup1 which should be called first and lead to the
+# registration of a new plugin ("nested"). This new plugin startup1 should
+# then be called given its priority an finally startup2 of both "test" and
+# "nested" in their registration order.
+
+def run_and_register(obj, workbench, cmd_args):
+    """Startup run function keeping track of the order of the call.
+
+    """
+    m = workbench.get_manifest("test")
+    m.called.append(obj.id)
+
+
+enamldef NestedStartupContributor(PluginManifest):
+    """Plugin adding startup contributions.
+
+    """
+    id = "test_nested"
+
+    Extension:
+        id = "startup"
+        point = "gild.lifecycle.startup"
+        AppStartup:
+            id = "test_nested.startup1"
+            run => (workbench, cmd_args):
+                run_and_register(self, workbench, cmd_args)
+            priority = 0
+        AppStartup:
+            id = "test_nested.startup2"
+            run => (workbench, cmd_args):
+                run_and_register(self, workbench, cmd_args)
+            priority = 1
+
+
+def startup(workbench, cmd_args):
+    """Startup run function registering a new plugin.
+
+    """
+    workbench.register(NestedStartupContributor())
+
+
+enamldef StartupContributor(PluginManifest):
+        """Manifest contributing an AppStartup extension.
+
+        """
+        attr called = []
+        id = "test"
+
+        Extension:
+            id = "startup"
+            point = "gild.lifecycle.startup"
+            AppStartup:
+                id = "test.startup1"
+                run => (workbench, cmd_args):
+                    startup(workbench, cmd_args)
+                priority = 0
+            AppStartup:
+                id = "test.startup2"
+                run => (workbench, cmd_args):
+                    run_and_register(self, workbench, cmd_args)
+                priority = 1
+
+
+# --- Closing -----------------------------------------------------------------
+
+
+enamldef ClosingContributor(PluginManifest): man:
+    """Manifest contributing an AppClosing extension.
+
+    """
+    attr id_
+    attr called
+    attr accept = False
+    id = id_
+
+    Extension:
+        id = "closing"
+        point = "gild.lifecycle.closing"
+        AppClosing:
+            id = id_
+            validate => (window, event):
+                """Allow closing based on a manifest attribute value.
+
+                """
+                man = window.workbench.get_manifest(id_)
+                man.called = True
+                if man.accept:
+                    event.accept()
+                else:
+                    print(man.id)
+                    event.ignore()
+
+
+enamldef ClosingContributor1(ClosingContributor):
+    id_ = "test.closing1"
+
+
+enamldef ClosingContributor2(ClosingContributor):
+    id_ = "test.closing2"
+
+# --- Closed ------------------------------------------------------------------
+
+# "test" plugin register startup1 which should be called first and lead to the
+# registration of a new plugin ("nested"). This new plugin startup1 should
+# then be called given its priority an finally startup2 of both "test" and
+# "nested" in their registration order. This is not realistic but as it should
+# work better to test it.
+
+
+def clean_and_register(obj, workbench):
+    """Startup runfunction keeping track of the order of the call.
+
+    """
+    m = workbench.get_manifest("test")
+    m.called.append(obj.id)
+
+
+enamldef NestedClosedContributor(PluginManifest):
+    """Plugin adding closed contributions.
+
+    """
+    id = "test_nested"
+
+    Extension:
+        id = "closed"
+        point = "gild.lifecycle.closed"
+        AppClosed:
+            id = "test_nested.closed1"
+            clean => (workbench):
+                clean_and_register(self, workbench)
+            priority = 0
+        AppClosed:
+            id = "test_nested.closed2"
+            clean => (workbench):
+                clean_and_register(self, workbench)
+            priority = 1
+
+def closed(workbench):
+    """Closed clean function registering a new plugin.
+
+    """
+    workbench.register(NestedClosedContributor())
+
+
+enamldef ClosedContributor(PluginManifest):
+    """Manifest contributing an AppClosed extension.
+
+    """
+    attr called = []
+    id = "test"
+
+    Extension:
+        id = "startup"
+        point = "gild.lifecycle.closed"
+        AppClosed:
+            id = "test.closed1"
+            clean => (workbench):
+                closed(workbench)
+            priority = 0
+        AppClosed:
+            id = "test.closed2"
+            clean => (workbench):
+                clean_and_register(self, workbench)
+            priority = 1

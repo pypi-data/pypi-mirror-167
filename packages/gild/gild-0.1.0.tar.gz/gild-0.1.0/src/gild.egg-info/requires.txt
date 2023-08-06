@@ -1,0 +1,16 @@
+enaml>=0.15.2
+qtawesome
+watchdog
+rtoml
+
+[qt5-pyqt]
+enaml[qt5-pyqt]
+
+[qt5-pyside]
+enaml[qt5-pyside]
+
+[qt6-pyqt]
+enaml[qt6-pyqt]
+
+[qt6-pyside]
+enaml[qt6-pyside]
