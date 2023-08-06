@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/sentSlack/__init__.py
+src/sentSlack/slack.py
+src/sentSlack.egg-info/PKG-INFO
+src/sentSlack.egg-info/SOURCES.txt
+src/sentSlack.egg-info/dependency_links.txt
+src/sentSlack.egg-info/entry_points.txt
+src/sentSlack.egg-info/requires.txt
+src/sentSlack.egg-info/top_level.txt
