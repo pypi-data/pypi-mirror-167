@@ -1,0 +1,9 @@
+firebolt_db/__init__.py,sha256=2KJZDSMOG7KS82AxYOrZ4ZihYxX0wjfUjDsIZh3L024,22
+firebolt_db/firebolt_async_dialect.py,sha256=dmr7nSVfLzUuDrpe2rgyQKpB5KO_l5YN_H9HpJXQpLw,4882
+firebolt_db/firebolt_dialect.py,sha256=Lx3L8t_Ye1kEXhxuOVVE_SVFKi3pZir7uxa5BpNatZs,9328
+firebolt_sqlalchemy-0.7.1.dist-info/LICENSE,sha256=Nn0EGvW3qmoZpBV_JVM3iPukFf3RiNCIizrWe_2oTHk,11354
+firebolt_sqlalchemy-0.7.1.dist-info/METADATA,sha256=mv_aW5AiRWTdUPhU_SMV3vu7ZMviqPA3ERfepS7-fXI,5579
+firebolt_sqlalchemy-0.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+firebolt_sqlalchemy-0.7.1.dist-info/entry_points.txt,sha256=SGMTrlR7Gu-A9uOHhEnvwfstfQk_0s4_RPsxzx-DXHk,153
+firebolt_sqlalchemy-0.7.1.dist-info/top_level.txt,sha256=_O5XmXQtqQPrTGVXeLAyvkO5ynZCKxIWDpEXgFemi50,12
+firebolt_sqlalchemy-0.7.1.dist-info/RECORD,,
