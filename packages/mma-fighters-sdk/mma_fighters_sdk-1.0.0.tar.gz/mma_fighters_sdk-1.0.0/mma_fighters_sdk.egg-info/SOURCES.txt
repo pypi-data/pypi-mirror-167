@@ -1,0 +1,5 @@
+setup.py
+mma_fighters_sdk.egg-info/PKG-INFO
+mma_fighters_sdk.egg-info/SOURCES.txt
+mma_fighters_sdk.egg-info/dependency_links.txt
+mma_fighters_sdk.egg-info/top_level.txt
