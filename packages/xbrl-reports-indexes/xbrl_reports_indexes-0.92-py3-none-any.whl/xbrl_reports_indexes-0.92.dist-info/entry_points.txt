@@ -1,0 +1,2 @@
+[console_scripts]
+xri-db-tasks = xbrlreportsindexes.run_db_tasks:main
