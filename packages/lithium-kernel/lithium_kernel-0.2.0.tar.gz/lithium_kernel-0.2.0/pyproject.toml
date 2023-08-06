@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "lithium_kernel"
+authors = [
+    {name = "ReLife Solutions", email = "contact@relife.pw"},
+]
+readme = "README.txt"
+dependencies = ["requests", "ipykernel"]
+classifiers = [
+    "Framework :: Jupyter",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3"
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Source = "https://gitlab.com/relife-solutions/relife-v2"
+
