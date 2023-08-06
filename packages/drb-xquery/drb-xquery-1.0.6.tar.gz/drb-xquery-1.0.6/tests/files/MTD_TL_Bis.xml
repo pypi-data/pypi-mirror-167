@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<n1:Level-2A_Tile_ID xmlns:n3="https://psd-14.sentinel2.eo.esa.int/PSD/S2_PDI_Level-2A_Tile_Metadata.xsd" xmlns:n1="nc3" xmlns:n4="SA"  xmlns:n5="SB"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://psd-14.sentinel2.eo.esa.int/PSD/S2_PDI_Level-2A_Tile_Metadata.xsd /gpfs/dpc/app/s2ipf/FORMAT_METADATA_TILE_L1C/04.04.01/scripts/../../../schemas/04.04.00/PSD/S2_PDI_Level-2A_Tile_Metadata.xsd">
+   <n1:Test_FLF name_attr="test_one" index="00" occurence="1" atr="premier" >
+      <name>first</name>
+      <n4:french>premier</n4:french>
+      <number>one</number>
+       <serie>A</serie>
+       <elt>This is one</elt>
+   </n1:Test_FLF> 
+   <n1:Test_FLF name_attr="test_two" index="01" occurence="2"  atr="second">
+      <name>second</name>
+      <n4:french>second</n4:french>
+      <number>two</number>
+       <serie>A</serie>
+       <elt>I m two 2</elt>
+   </n1:Test_FLF>   
+   <n1:Test_FLF name_attr="test_three" index="02" occurence="3"  atr="trois attributs ici">
+      <name>third</name>
+      <n4:nofrench>troisieme</n4:nofrench>
+      <number>three</number>
+      <serie>A</serie>
+      <elt>I m three 3,</elt>
+   </n1:Test_FLF>
+    <n1:Test_FLF name_attr="test_one" index="03" occurence="4" atr="quattre" >
+      <name>first_doublon</name>
+      <n5:french>premier</n5:french>
+      <number>one</number>
+      <serie>B</serie>
+      <elt>This is 4</elt>
+   </n1:Test_FLF> 
+   <n1:Test_FLF name_attr="test_two" index="04" occurence="5"  >
+      <name>second_doublon</name>
+      <n5:french>second</n5:french>
+      <number>two</number>
+      <serie>B</serie>
+      <elt>Five</elt>
+   </n1:Test_FLF>   
+   <n1:Test_FLF name_attr="test_three" index="05" occurence="6" atr=" dernier attributs la">
+      <name>third_doublon</name>
+      <n5:french>troisieme</n5:french>
+      <number>three</number>
+      <serie>B</serie>
+      <elt>End</elt>
+   </n1:Test_FLF>
+   <n1:Test_Double>
+      123e+14
+   </n1:Test_Double>
+   
+    <n1:Test_num index="00" occurence="1">
+      <num_to_test>3.4</num_to_test>
+      <num_signed_to_test>-3.4</num_signed_to_test>
+   </n1:Test_num>
+   <n1:Test_num index="01" occurence="2">
+      <num_to_test>6.9</num_to_test>
+      <num_signed_to_test>+6.9</num_signed_to_test>
+   </n1:Test_num>
+
+
+</n1:Level-2A_Tile_ID>
