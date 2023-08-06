@@ -1,0 +1,3 @@
+[console_scripts]
+quickstart-project = quickstarter.create_project:main
+quickstart-streamlit = quickstarter.create_demo:main
