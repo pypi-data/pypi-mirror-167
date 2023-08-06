@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: elsarec
+Version: 0.1.2
+Summary: Scalable Linear Shallow Autoencoder for Collaborative Filtering
+Author: Recombee
+Author-email: vojtech.vancura@recombee.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# ELSA
+Scalable Linear Shallow Autoencoder for Collaborative Filtering
