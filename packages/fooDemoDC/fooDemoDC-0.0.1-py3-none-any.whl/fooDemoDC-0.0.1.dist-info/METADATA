@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fooDemoDC
+Version: 0.0.1
+Summary: Guide
+Home-page: https://github.com/dance858/FooDemoDC
+Author: Daniel Cederberg
+Author-email: roberto.prevato@gmail.com
+License: MIT
+Keywords: core utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FooDemoDC
+Test
