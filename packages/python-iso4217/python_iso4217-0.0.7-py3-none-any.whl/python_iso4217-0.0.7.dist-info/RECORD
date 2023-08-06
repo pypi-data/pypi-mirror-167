@@ -1,0 +1,8 @@
+iso4217/__init__.py,sha256=1IU85Z37VbadRp0FBZrsIeGIrnDOoUnE7ACtYsMH4Zo,2451
+iso4217/__init__.pyi,sha256=2EjXkfDbq4OMoomO4xbOUWrmnVtWS6FD48VK5mkwDvI,877
+iso4217/data/currencies.json,sha256=j-cW6fBuiNRAbegI9gt-miNJejdOISQFFy3uwiOU9FA,142
+iso4217/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_iso4217-0.0.7.dist-info/LICENSE,sha256=fWAtHi1xMhvRj3tm8N-sT1HTdgqJdYq0N66rwUlC4i8,1069
+python_iso4217-0.0.7.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+python_iso4217-0.0.7.dist-info/METADATA,sha256=90e7viOgBnSKTxoyciB58e2i3jTx0Co9JuWK7QhAtH0,2517
+python_iso4217-0.0.7.dist-info/RECORD,,
