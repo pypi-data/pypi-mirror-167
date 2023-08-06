@@ -1,0 +1,2 @@
+aiohttp[speedups]
+dfx-apiv2-protos<3,>=2.24
