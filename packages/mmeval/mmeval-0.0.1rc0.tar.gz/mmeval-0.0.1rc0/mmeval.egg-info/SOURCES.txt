@@ -1,0 +1,8 @@
+README.md
+setup.py
+mmeval/__init__.py
+mmeval/version.py
+mmeval.egg-info/PKG-INFO
+mmeval.egg-info/SOURCES.txt
+mmeval.egg-info/dependency_links.txt
+mmeval.egg-info/top_level.txt

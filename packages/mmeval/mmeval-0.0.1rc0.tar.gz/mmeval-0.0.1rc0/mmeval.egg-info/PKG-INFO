@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mmeval
+Version: 0.0.1rc0
+Summary: Metrics of computer vision
+Home-page: https://github.com/open-mmlab/mmeval
+Author: MMEval Authors
+Author-email: openmmlab@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# MMEval
+
+This is a project in development.
+
