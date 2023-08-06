@@ -1,0 +1,10 @@
+django_urlconfchecks/__init__.py,sha256=Iwe4J2HXfExczlPDANElCKlqty5j9AU5966Vhvm9Z68,139
+django_urlconfchecks/apps.py,sha256=PVmqztzI-ETbfktsHYaPekePQaWsuBgCa2DDpmrux70,438
+django_urlconfchecks/check.py,sha256=uvwDzuvLeTi09l-4kwcsHhHWrlGN-pjRzVvfl1f-YTA,12226
+django_urlconfchecks/cli.py,sha256=5g05ET3BnZYXCoFYGorGglS8buD8k5F1rPs6Gge5n6g,1644
+django_urlconfchecks/cli_utils.py,sha256=GK_SnJiuhYe815eCQIJAcs2ZoeEn-pRSu4oi5ESP8aQ,1770
+django_urlconfchecks-0.8.0.dist-info/entry_points.txt,sha256=byCy3XKtviYzj7N1aywitZRTwUYyf8aqkpZtIxas5wc,62
+django_urlconfchecks-0.8.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_urlconfchecks-0.8.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+django_urlconfchecks-0.8.0.dist-info/METADATA,sha256=xggakVdvbFpSj5SODY3D4Ok5ml2VRtsKOMAZqT2j72U,6337
+django_urlconfchecks-0.8.0.dist-info/RECORD,,
