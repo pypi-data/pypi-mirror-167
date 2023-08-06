@@ -1,0 +1,15 @@
+firekit/__init__.py,sha256=scTfBmo-TRUnudRjHcbwQgzzFtsGTiuXAZkYZbSM7PU,256
+firekit/evaluate.py,sha256=YrqeaSg6ddrRuSYN49NlLemY1gt_M5WDyuEbHyv0s0I,2047
+firekit/predict.py,sha256=-DLblMRf9HeMgDn80o_rUprYK7FHtG3UC24FFaeHtKI,1064
+firekit/preprocess.py,sha256=PNEHuh-F4F6HdhlZhAyaM8isXi6jQ2Xg7vRIhrQFKh0,665
+firekit/utils.py,sha256=GBoWJ9ogaP1Gzzp2Ah76NThU0c11dV7fDgqet9DowlE,635
+firekit/train/__init__.py,sha256=V-3F0AdvlYsFEw89a4gZpRhr9ET2Za6lzY2rC6yFYrE,116
+firekit/train/_trainer.py,sha256=AkaKJ45TAJ2QSVT01V_v57RMGIudtKSl_lgNxsx238w,7257
+firekit/train/metrics.py,sha256=9JSfnDqFB5PbbI4F3pBJPuxyequWkhS64aExLyHOlRE,4238
+firekit/vision/__init__.py,sha256=vOGry9Y3BREZ5I5J6OhpoSBNsqtPG0lgFIf1zarQaLU,149
+firekit/vision/_imagedatasets.py,sha256=hhilyYdiDS-ql8N5Le5d5UBoz6prJdVs4bdlN5KEHWM,2314
+firekit/vision/transforms.py,sha256=mF3x6u4M77zadbcX44Egc3yCAmTijLWK7tcZvj241Lg,1301
+firekit-0.0.8.dist-info/METADATA,sha256=r3MRK0pOmAdNZ6b9LahD3xW6fCaAPiiXJoHZw5kwkbM,2304
+firekit-0.0.8.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+firekit-0.0.8.dist-info/licenses/LICENSE,sha256=FKqNXevlKB76T7UyaLtHbl3jn7v-aDRkb25MpLLNOKQ,746
+firekit-0.0.8.dist-info/RECORD,,
