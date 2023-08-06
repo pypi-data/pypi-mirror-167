@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kustomize-file
+Version: 0.0.5
+Summary: Take a single kubernetes manifest containing multiple resources and split it to many files with a kustomization file
+Author: Martin Højland
+Author-email: martin@goautonomous.io
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
