@@ -1,0 +1,10 @@
+README.md
+setup.py
+crazy_thursday/__init__.py
+crazy_thursday/__main__.py
+crazy_thursday/get_issues.py
+crazy_thursday.egg-info/PKG-INFO
+crazy_thursday.egg-info/SOURCES.txt
+crazy_thursday.egg-info/dependency_links.txt
+crazy_thursday.egg-info/requires.txt
+crazy_thursday.egg-info/top_level.txt
