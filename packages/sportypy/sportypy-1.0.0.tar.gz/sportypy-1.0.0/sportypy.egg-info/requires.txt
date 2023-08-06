@@ -1,0 +1,17 @@
+numpy
+scipy
+pandas
+matplotlib
+
+[docs]
+sphinx
+livereload
+myst-parser
+sphinx-markdown-builder
+sphinx-bootstrap-theme
+
+[test]
+flake8
+pytest
+pydocstyle
+pycodestyle
