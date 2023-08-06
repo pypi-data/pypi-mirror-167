@@ -1,0 +1,7 @@
+setup.py
+ROCKBOT/__init__.py
+ROCKBOT.egg-info/PKG-INFO
+ROCKBOT.egg-info/SOURCES.txt
+ROCKBOT.egg-info/dependency_links.txt
+ROCKBOT.egg-info/requires.txt
+ROCKBOT.egg-info/top_level.txt
