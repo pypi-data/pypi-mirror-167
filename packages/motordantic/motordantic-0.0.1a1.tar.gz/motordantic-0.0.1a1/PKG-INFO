@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: motordantic
+Version: 0.0.1a1
+Summary: Mongo ODM, based on motor+pydantic
+Home-page: https://github.com/bogdanjz/motordantic
+Author: bogdanjz
+Author-email: bzdv.dn@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# mongodantic
+
+## Install
+
+Install using `pip`...
+
+    pip install motordantic
