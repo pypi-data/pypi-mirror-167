@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+bip32tools.egg-info/PKG-INFO
+bip32tools.egg-info/SOURCES.txt
+bip32tools.egg-info/dependency_links.txt
+bip32tools.egg-info/requires.txt
+bip32tools.egg-info/top_level.txt
+bip32util/__init__.py
+bip32util/getbip32.py
