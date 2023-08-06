@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: vbigbang_thread_logging
+Version: 1.0.1
+Summary: Commonly used function library by MT
+Home-page: https://github.com/vbigbang
+Author: vbigbang
+Author-email: i@chenxiaosa.com
+License: MIT
+Requires-Python: >=3
