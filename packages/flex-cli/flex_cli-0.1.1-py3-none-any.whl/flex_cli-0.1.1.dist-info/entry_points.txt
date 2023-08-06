@@ -1,0 +1,3 @@
+[console_scripts]
+lcli=lcli.__main__:main
+
