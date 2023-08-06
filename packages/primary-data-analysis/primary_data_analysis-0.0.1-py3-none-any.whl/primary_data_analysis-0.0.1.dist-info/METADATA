@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: primary-data-analysis
+Version: 0.0.1
+Summary: Primary data analysis for pandas dataframe
+Home-page: https://github.com/anagha-bhople/primary_data_analysis
+Author: Anagha Bhople
+Author-email: bhoplea34@gmail.com
+License: MIT
+Keywords: data analysis eda pandas
+Platform: UNKNOWN
+License-File: License
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: six
+Requires-Dist: plotly
+Requires-Dist: statsmodels
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: setuptools
+
+Primary data analysis for pandas dataframe
+
