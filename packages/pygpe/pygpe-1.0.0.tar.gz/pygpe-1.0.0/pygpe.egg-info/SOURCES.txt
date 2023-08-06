@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+docs/pypi.md
+pygpe/__init__.py
+pygpe.egg-info/PKG-INFO
+pygpe.egg-info/SOURCES.txt
+pygpe.egg-info/dependency_links.txt
+pygpe.egg-info/requires.txt
+pygpe.egg-info/top_level.txt
