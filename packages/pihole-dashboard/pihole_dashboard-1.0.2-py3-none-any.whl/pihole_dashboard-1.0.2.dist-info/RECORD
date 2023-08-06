@@ -1,0 +1,14 @@
+pihole_dashboard/__init__.py,sha256=3yC3Eeo8BfDMwL1Jni_BSuEfbIJl0eseguj_KM0Yv_Q,3935
+pihole_dashboard/font/font.ttf,sha256=O6XDgqfuaogxvfkBkq3c6r5ttCeKZ55n_n6cAia3Kc8,268280
+pihole_dashboard-1.0.2-py3.7.egg-info/PKG-INFO,sha256=O83NlMkwdESP2gDt2VFAET83YSBCEGT6xO5Q4vo6Vv4,4887
+pihole_dashboard-1.0.2-py3.7.egg-info/SOURCES.txt,sha256=fuGicr4GKZnjT9u4HlWjm5IRDLKqDCb6oGy6K0DoIzo,357
+pihole_dashboard-1.0.2-py3.7.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pihole_dashboard-1.0.2-py3.7.egg-info/requires.txt,sha256=mnVekuZVC06hPIFEWXZ-bT19goJU3OXOYiIgXuqaesA,46
+pihole_dashboard-1.0.2-py3.7.egg-info/top_level.txt,sha256=CwD7gki6GRgQT-BRG_MDY8jSPnDAUhj1uU_WDjtbHr0,17
+pihole_dashboard-1.0.2.data/scripts/pihole-dashboard-clean-screen,sha256=bi7YO2KHCUP9HK0UleCzkLepE1YWElviP0eZre9wRtc,1200
+pihole_dashboard-1.0.2.data/scripts/pihole-dashboard-draw,sha256=ur-_-YRxNcEavg5T_DF-X_8_2W00rncAvnxLY-wn1UE,784
+pihole_dashboard-1.0.2.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pihole_dashboard-1.0.2.dist-info/METADATA,sha256=leSxaG0PBcNtXZkVDlyR9ADQowj4r2sVrghkbRIfe9U,4995
+pihole_dashboard-1.0.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pihole_dashboard-1.0.2.dist-info/top_level.txt,sha256=CwD7gki6GRgQT-BRG_MDY8jSPnDAUhj1uU_WDjtbHr0,17
+pihole_dashboard-1.0.2.dist-info/RECORD,,
