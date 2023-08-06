@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: packrect
+Version: 1.0.1
+Summary: Pack Rectangles into a Rectangle
+Home-page: UNKNOWN
+Author: David Priver
+Author-email: david@davidpriver.com
+License: Public Domain
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+
+This is a python binding to the public domain stb_rect_pack.
+
+See https://github.com/nothings/stb/blob/master/stb_rect_pack.h
+
+
+
