@@ -1,0 +1,9 @@
+prefect_jinja/__init__.py,sha256=W03b50-BeyrLvE5dyXk_zwiiQPT14HT365cA8jjgmAA,188
+prefect_jinja/_version.py,sha256=fn2YXTllZ29Rx0MBWLq8ODYTak_Pg997m6HUjutZZrU,497
+prefect_jinja/blocks.py,sha256=Ke8aDlrv8RwI7g5_mJB6IA5VtrWPkKDywWqfANeMcZQ,2271
+prefect_jinja/tasks.py,sha256=sAXGiZK2l4nFkPtXK4Xl7c--Mwf_J69jmRwof2JaIUs,3294
+prefect_jinja-0.0.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_jinja-0.0.1.dist-info/METADATA,sha256=w3b-CO27D-iD_aLWBczlq2QwpNjdvjFIb4sns1KtRJM,5960
+prefect_jinja-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_jinja-0.0.1.dist-info/top_level.txt,sha256=tRyiglqf1PRScKTYGMYQtHtOKWWD2OgtxZCwUXzZZBY,14
+prefect_jinja-0.0.1.dist-info/RECORD,,
