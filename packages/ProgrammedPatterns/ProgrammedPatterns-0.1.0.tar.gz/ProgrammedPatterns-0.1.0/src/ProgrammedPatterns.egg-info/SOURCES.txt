@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/ProgrammedPatterns.egg-info/PKG-INFO
+src/ProgrammedPatterns.egg-info/SOURCES.txt
+src/ProgrammedPatterns.egg-info/dependency_links.txt
+src/ProgrammedPatterns.egg-info/top_level.txt
+src/progpat/__init__.py
