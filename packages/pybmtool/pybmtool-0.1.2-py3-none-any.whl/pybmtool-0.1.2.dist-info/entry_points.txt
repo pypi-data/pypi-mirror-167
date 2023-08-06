@@ -1,0 +1,3 @@
+[console_scripts]
+BMTool=pybmtool.__main__:cli
+
