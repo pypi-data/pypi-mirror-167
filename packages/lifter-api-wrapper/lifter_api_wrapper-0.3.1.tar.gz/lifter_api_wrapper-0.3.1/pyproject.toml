@@ -1,0 +1,117 @@
+[build-system]
+requires = ["setuptools >= 62.1.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lifter_api_wrapper"
+version = "0.3.1"
+authors = [
+  { name = "Shivan Sivakumaran" },
+  { email = "<shivan.sivakumaran@gmail.com>" },
+]
+requires-python = ">=3.10"
+description = "A wrapper for Lifter API."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { text = "MIT" }
+keywords = ["weightlifting", "api wrapper"]
+dependencies = ["requests", "rich"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Development Status :: 4 - Beta",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: Implementation :: CPython",
+]
+
+[project.urls]
+homepage = "https://github.com/weightliftingNZ/lifter-api-wrapper"
+repository = "https://github.com/weightliftingNZ/lifter-api-wrapper"
+changelog = "https://github.com/shivan-s/lifter-api-wrapper/blob/main/CHANGELOG.md"
+documentation = "https://weightliftingnz.github.io/lifter-api-wrapper"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["lifter_api*"]
+exclude = ["tests"]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 79
+default_section = "THIRDPARTY"
+known_first_party = ["lifter_api"]
+known_third_party = ["pytest", "requests", "setuptools"]
+
+[tool.black]
+line-length = 79
+include = '\.pyi?%'
+
+[tool.pytest.ini_options]
+addopts = "-vv --cov-report html"
+testpaths = ["tests"]
+mock_use_standalone_module = true
+
+[tool.pydocstyle]
+convention = "google"
+match = 'src(.*)\.py'
+
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
+exclude = "docs"
+
+[tool.pyright]
+include = ["src"]
+exclude = [".venv"]
+venvPath = "."
+venv = ".venv"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version_files = ["src/lifter_api/__init__.py", "pyproject.toml"]
+version = "0.3.1"
+tag_format = "$version"
+style = [
+  [
+    "qmark",
+    "fg:#ff9d00 bold",
+  ],
+  [
+    "question",
+    "bold",
+  ],
+  [
+    "answer",
+    "fg:#ff9d00 bold",
+  ],
+  [
+    "pointer",
+    "fg:#ff9d00 bold",
+  ],
+  [
+    "highlighted",
+    "fg:#ff9d00 bold",
+  ],
+  [
+    "selected",
+    "fg:#cc5454",
+  ],
+  [
+    "separator",
+    "fg:#cc5454",
+  ],
+  [
+    "instruction",
+    "",
+  ],
+  [
+    "text",
+    "",
+  ],
+  [
+    "disabled",
+    "fg:#858585 italic",
+  ],
+]
