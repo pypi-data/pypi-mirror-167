@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+autobloody/__init__.py
+autobloody/automation.py
+autobloody/database.py
+autobloody/main.py
+autobloody/proxy_bypass.py
+autobloody.egg-info/PKG-INFO
+autobloody.egg-info/SOURCES.txt
+autobloody.egg-info/dependency_links.txt
+autobloody.egg-info/entry_points.txt
+autobloody.egg-info/requires.txt
+autobloody.egg-info/top_level.txt
