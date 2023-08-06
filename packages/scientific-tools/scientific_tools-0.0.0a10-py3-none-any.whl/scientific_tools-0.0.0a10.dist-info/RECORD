@@ -1,0 +1,10 @@
+scientific_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scientific_tools/graphics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scientific_tools/graphics/graphics.py,sha256=gaGTLGoYHnI3F-6qYYKy58Sl8RczcTsKXqTV_GN9u9w,3686
+scientific_tools/physics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scientific_tools/physics/uncertainty.py,sha256=pMrBAwET5umUqgR8JaV6MFve_9BmXBuqVrfBPJzvPgU,1203
+scientific_tools-0.0.0a10.dist-info/LICENSE,sha256=8Efq7_9a9Gk8K4KtwX5YS8GKttL5UTRLjEzqGbLOgpY,172
+scientific_tools-0.0.0a10.dist-info/METADATA,sha256=PLRCuvZeew98MFs1rJlmPm_hV7d34KJJvAqkiDJomeY,2125
+scientific_tools-0.0.0a10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scientific_tools-0.0.0a10.dist-info/top_level.txt,sha256=aUDjvOA9144J4tqwvy5S7UELW3MeAGX7dK1awQ4SxeY,17
+scientific_tools-0.0.0a10.dist-info/RECORD,,
