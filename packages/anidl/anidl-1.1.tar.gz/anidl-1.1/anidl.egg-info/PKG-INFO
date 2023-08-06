@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: anidl
+Version: 1.1
+Summary: Adl wrapper script written in python.
+Home-page: https://github.com/cronyakatsuki/py-adl
+Author: Crony Akatsuki
+Author-email: cronyakatsuki@gmail.com
+License: GPL-3.0
+Keywords: trackma,animld,anime,adl,linux,windows
+License-File: LICENSE
