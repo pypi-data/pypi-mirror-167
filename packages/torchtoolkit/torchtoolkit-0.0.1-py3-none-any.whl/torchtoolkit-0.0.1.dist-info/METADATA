@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: torchtoolkit
+Version: 0.0.1
+Summary: Useful functions to use with PyTorch
+Home-page: https://github.com/Natooz/TorchToolkit
+Author: Nathan Fradet
+License: MIT
+Keywords: artificial intelligence,deep learning,transformer,nlp
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Multimedia :: Sound/Audio :: MIDI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.10.0)
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: tqdm
+
+# TorchToolkit
+
+[![PyPI version fury.io](https://badge.fury.io/py/torchtoolkit.svg)](https://pypi.python.org/pypi/torchtoolkit/)
+
+Hi 👋, this is a small Python package containing useful functions to use with PyTorch.
+It includes [utilities](torchtoolkit/utils.py), [metrics](torchtoolkit/metrics.py) and [sampling](torchtoolkit/sampling.py) methods to use during and after training a model.
+
+Feel free to use it, take the code for your projects, and raise an issue if you have question or a pull request if you want to contribute.
+
+```shell
+pip install torchtoolkit
+```
+It requires Python 3.8 or above.
+
+Simplest example:
+
+```python
+from torchtoolkit.metrics import Accuracy
+from torch import randint, randn
+from pathlib import Path
+
+acc = Accuracy(mode='top_k', top_kp=5)
+for _ in range(10):
+    res = randn((16, 32))
+    expected = randint(0, 32, (16, ))
+    acc(res, expected)  # saving results
+acc.save(Path('path', 'to', 'save', 'file.csv'))
+acc.analyze()
+```
+
+I built it for my own usage, so you won't find documentation besides the docstring.
