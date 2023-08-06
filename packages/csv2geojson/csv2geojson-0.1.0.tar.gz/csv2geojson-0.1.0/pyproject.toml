@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling>=1.9.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "csv2geojson"
+requires-python = ">=3.7"
+dynamic = ["version"]
+description = "Convert csv to geojson"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "YuChunTsao", email = "tsao84672776@gmail.com" }]
+dependencies = ["geopandas>=0.10"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+test = ["pytest"]
+
+[project.scripts]
+csv2geojson = "csv2geojson.scripts.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YuChunTsao/csv2geojson"
+
+[tool.hatch.version]
+path = "src/csv2geojson/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["src/csv2geojson"]
