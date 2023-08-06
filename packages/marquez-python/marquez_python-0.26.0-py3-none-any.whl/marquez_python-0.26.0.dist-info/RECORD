@@ -1,0 +1,17 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/simple.py,sha256=T7jeF_pWk_LkJSxqeCTv22TZoCWpKRenNEBODhhtjAE,2241
+marquez_client/__init__.py,sha256=m7ItitU-oEt1XAe4Cxl050VVuEtsmYANb2qP0YkNK5s,330
+marquez_client/client.py,sha256=ilvkSzyybqGc7KLBe9qUP_vEKGfX65kInMhBFD_zXGc,14926
+marquez_client/clients.py,sha256=njzCMsI7aUZPNoxgGagqCLS4SXwE-R58Uj9cJoGZPh8,459
+marquez_client/constants.py,sha256=E3SaGHIgGQeT4rtxzGb4ibL3F-velqmITVMQuyz2DqQ,269
+marquez_client/errors.py,sha256=F9sFpnQVnwMF5j5knGJfH7NXpnllxTw1aWHnf1lGIYg,230
+marquez_client/models.py,sha256=scqlqDB-vs89BtOOW2vA5ZFgMEhhcp9Hm78wZ9r8rVc,677
+marquez_client/utils.py,sha256=m3HsXEhvJ01pNjBSBEEyUYNrze492kPBC8fKzAvbddk,2716
+tests/__init__.py,sha256=UrZ4l5lnOZ5h7On8ELZqFTanNb320G9zln_GnMR5yO4,122
+tests/test_marquez_client.py,sha256=2bLfsycPsQI6TyzWwl6vo-uMW6AMwrxAHpFsDWigVac,26886
+tests/test_marquez_clients.py,sha256=IPHub-L4BYHXkhXIwA8KZOgZLrWGpcNEz3s9GFEDwUk,764
+tests/test_utils.py,sha256=bnn0VEBWGPZZ1seUJOC8XiS2BTkOwwUbixC3zQQ8c84,3444
+marquez_python-0.26.0.dist-info/METADATA,sha256=0-LAT87sA7iaa0oa0qCCu3QjWA0xMIdeXgYhGdRMEF4,1865
+marquez_python-0.26.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+marquez_python-0.26.0.dist-info/top_level.txt,sha256=3XfHY4gr7VPbA5m6FRlG7V9VwnSb_sT1qT3YHkmqHyI,30
+marquez_python-0.26.0.dist-info/RECORD,,
