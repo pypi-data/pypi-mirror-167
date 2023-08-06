@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: csv2geojson
+Version: 0.1.0
+Summary: Convert csv to geojson
+Project-URL: Homepage, https://github.com/YuChunTsao/csv2geojson
+Author-email: YuChunTsao <tsao84672776@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Yu Chun Tsao
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.7
+Requires-Dist: geopandas>=0.10
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# csv2geojson
+
+Convert csv to geojson
+
+## Installation
+
+```bash
+pip install csv2geojson
+```
+
+### Development
+
+```bash
+git clone https://github.com/YuChunTsao/csv2geojson.git
+
+cd csv2geojson
+
+pip install -e '.[test]'
+```
+
+## CLI usage
+
+```txt
+usage: csv2geojson [-h] [-v] [-lat lat] [-long long] [-exclude_columns [column_name ...] | -include_columns [column_name ...]]
+                   input output
+
+Convert csv to geojson
+
+positional arguments:
+  input                 Input csv file path
+  output                Output geojson file path
+
+options:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -lat lat              Specify the latitude column in csv (default: latitude)
+  -long long            Specify the longitude column in csv (default: longitude)
+  -exclude_columns [column_name ...]
+                        Exclude columns from geojson properties (default: None)
+  -include_columns [column_name ...]
+                        Include only these columns in the geojson properties (default: None)
+```

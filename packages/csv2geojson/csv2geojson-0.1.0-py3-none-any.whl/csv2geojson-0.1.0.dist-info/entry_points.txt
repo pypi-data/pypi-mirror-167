@@ -1,0 +1,2 @@
+[console_scripts]
+csv2geojson = csv2geojson.scripts.cli:main

@@ -1,0 +1,9 @@
+csv2geojson/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+csv2geojson/csv2geojson.py,sha256=jE8RS3G2i7Q84RKnULB-KXzWFIzjE-wAFs6bPzirC_o,842
+csv2geojson/scripts/__init__.py,sha256=PqZFdLiLQeCr-WKLQd4gIV6FO4okRqBzIr4mPcZD3K4,22
+csv2geojson/scripts/cli.py,sha256=Azrth53s66lcTn8miN-4diiqs-o9lDEwt_suyCuhUuA,1604
+csv2geojson-0.1.0.dist-info/METADATA,sha256=KTyRJ4d6FsntQRopkW0jQH0LVw0Z9XwXZNo7vCOpe-8,2756
+csv2geojson-0.1.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+csv2geojson-0.1.0.dist-info/entry_points.txt,sha256=Bmr2486YPz4XVUkRfB4LSg1u8JgOJ1cEKEs5y6kO6Q4,61
+csv2geojson-0.1.0.dist-info/licenses/LICENSE,sha256=it8RsRcZ1i3g4GQSkFWlTB6-aLjXmSBPAhBLXTDwX7s,1069
+csv2geojson-0.1.0.dist-info/RECORD,,
