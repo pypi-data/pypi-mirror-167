@@ -1,0 +1,4 @@
+[console_scripts]
+WeiteTaluoYunfeng = WeiteTaluoYunfeng.__main__:main
+weite-taluo-yunfeng = WeiteTaluoYunfeng.__main__:main
+
