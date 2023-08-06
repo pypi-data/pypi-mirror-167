@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ApolloInterface
+Version: 0.0.1
+Summary: 实现apollo命名空间下字段的增删改查的接口文件
+Home-page: https://github.com/hts559734/ApolloInterface
+Author: XvXiao
+Author-email: 2081981735@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# apolloInterface
+python实现对apollo命名空间下item字段的crud
+
+
+
