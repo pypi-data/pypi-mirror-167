@@ -1,0 +1,8 @@
+MANIFEST.in
+licence.txt
+setup.py
+calculator_ncal.egg-info/PKG-INFO
+calculator_ncal.egg-info/SOURCES.txt
+calculator_ncal.egg-info/dependency_links.txt
+calculator_ncal.egg-info/top_level.txt
+mypackncal/__init__py.py
