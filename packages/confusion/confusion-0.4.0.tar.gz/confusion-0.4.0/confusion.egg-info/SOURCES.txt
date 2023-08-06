@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+confusion/__init__.py
+confusion/config.py
+confusion/parser.py
+confusion.egg-info/PKG-INFO
+confusion.egg-info/SOURCES.txt
+confusion.egg-info/dependency_links.txt
+confusion.egg-info/requires.txt
+confusion.egg-info/top_level.txt
+confusion/test/__init__.py
+confusion/test/test_cfn2dot.py
+confusion/test/test_config.py
+confusion/test/test_parser.py
+confusion/utils/__init__.py
+confusion/utils/cfn2dot.py
