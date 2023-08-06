@@ -1,0 +1,4 @@
+[console_scripts]
+YishiMofa = YishiMofa.__main__:main
+yishi-mofa = YishiMofa.__main__:main
+
