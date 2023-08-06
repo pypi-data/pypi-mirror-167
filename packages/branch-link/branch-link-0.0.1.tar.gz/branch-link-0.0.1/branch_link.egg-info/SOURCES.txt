@@ -1,0 +1,7 @@
+setup.py
+branch_link/__init__.py
+branch_link/branch_link.py
+branch_link.egg-info/PKG-INFO
+branch_link.egg-info/SOURCES.txt
+branch_link.egg-info/dependency_links.txt
+branch_link.egg-info/top_level.txt
