@@ -1,0 +1,7 @@
+qvd-0.0.12.dist-info/METADATA,sha256=bnC58jK1maT2gtdV_9IhX-jDvbzrmVwp6yxqn5QFPfQ,2878
+qvd-0.0.12.dist-info/WHEEL,sha256=YHJRyPInIybYooHeMHcdni4i7q0XEeTXp9ATBW6-fCo,109
+qvd/test_qvd_reader.py,sha256=vaVXmxPvb-y_gYZg7BVgoAt_WMCr65oyAx-FwGZA0Qo,562
+qvd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qvd/qvd_reader.py,sha256=IZlpTqwUTtd6SD0uuK6P93vlfpD_EYbLObjv93jKqi8,230
+qvd/qvd.cpython-36m-x86_64-linux-gnu.so,sha256=7gBnTDiw7eQc7qyr6n60FvqivvR1RVfu7aJFZfoxeVc,506216
+qvd-0.0.12.dist-info/RECORD,,
