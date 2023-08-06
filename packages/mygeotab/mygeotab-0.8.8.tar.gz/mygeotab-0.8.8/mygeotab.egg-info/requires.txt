@@ -1,0 +1,12 @@
+requests
+click
+pytz
+arrow
+six
+
+[:python_version>='3.6']
+aiohttp<4,>=3.8.1
+python-rapidjson
+
+[notebook]
+pandas
