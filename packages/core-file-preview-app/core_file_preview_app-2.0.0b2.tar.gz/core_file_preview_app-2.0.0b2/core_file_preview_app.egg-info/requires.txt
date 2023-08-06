@@ -1,0 +1,5 @@
+Django
+djangorestframework
+django-simple-menu
+future
+core-main-app==2.0.0-beta2
