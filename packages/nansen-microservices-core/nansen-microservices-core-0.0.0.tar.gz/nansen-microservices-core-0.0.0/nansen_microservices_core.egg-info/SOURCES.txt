@@ -1,0 +1,7 @@
+README.md
+setup.py
+nansen-microservices-core/__init__.py
+nansen_microservices_core.egg-info/PKG-INFO
+nansen_microservices_core.egg-info/SOURCES.txt
+nansen_microservices_core.egg-info/dependency_links.txt
+nansen_microservices_core.egg-info/top_level.txt
