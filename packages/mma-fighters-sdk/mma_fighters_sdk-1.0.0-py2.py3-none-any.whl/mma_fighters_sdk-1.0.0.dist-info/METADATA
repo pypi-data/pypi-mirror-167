@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mma-fighters-sdk
+Version: 1.0.0
+Summary: SDK for mma fighters mma_fighters_sdk
+Home-page: https://github.com/hallrizon-io/mma_fighters_game_sdk
+Author: Kostiantyn Minkov
+Author-email: hallrizon.usa@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+UNKNOWN
+
