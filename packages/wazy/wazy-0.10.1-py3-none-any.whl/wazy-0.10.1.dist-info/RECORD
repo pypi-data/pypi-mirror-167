@@ -1,0 +1,13 @@
+wazy/__init__.py,sha256=Z13GrtdCAb21i5fOsCX0RsbvQEq82bbZW7yIvX59PQ8,438
+wazy/asktell.py,sha256=pcBuQzDvHjmLOjx-MKN3H6PZAKx7jZGTL4qYawMKtvg,7145
+wazy/e2e.py,sha256=X44i7FXRbDUMGn-Xv0-SG3gbm-It6ftEaZn_BEwbIj0,3745
+wazy/mlp.py,sha256=CAmYRAkdvbw9DuMhVLnijdgSvD06yDLV1etswjw-NXQ,12651
+wazy/seq.py,sha256=f8bAUkbO4RJQ4PS0KkQvTN5BbJD2CvUXz8H_EGOlwJo,2170
+wazy/utils.py,sha256=4bZ1IT8ZlJW7zR48xFJ7xbcMDbVQgCX2LBlIfwJhtEE,2783
+wazy/version.py,sha256=v7Gyp89umFzDtY45tTjCdXqZnQ2RN01AibdYNxEvxYo,23
+wazy-0.10.1.dist-info/LICENSE,sha256=2S-HUXOKyCtOkjQMM0ePhdQh_Mi_rVrLPQXtCdKp5CE,1073
+wazy-0.10.1.dist-info/METADATA,sha256=YeorNNOMA3u62v4Lt9CZwG5XrlVOUp5EGT06K5-p9-s,3758
+wazy-0.10.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wazy-0.10.1.dist-info/top_level.txt,sha256=6x74K9QI5YCeb3d-aZjIjdVhGOKkd9AG_Hyr_3JW9cY,5
+wazy-0.10.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wazy-0.10.1.dist-info/RECORD,,
