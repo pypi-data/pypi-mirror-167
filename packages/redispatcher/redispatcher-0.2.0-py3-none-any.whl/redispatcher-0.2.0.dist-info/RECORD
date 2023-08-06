@@ -1,0 +1,12 @@
+redispatcher/__init__.py,sha256=mlu0sTV3zBNjRU1J_pHP0YeNmq3eRccZmP75FHVTXaI,448
+redispatcher/base_consumer.py,sha256=30rOT14-R5a-KsDIeHflMJyjWIWCqLv-l1tGLhIYps0,2379
+redispatcher/config.py,sha256=f2S5SGQ0Y-3Jq72f4w90JqIJ6e6Ny2SihJEJ_IyldAI,539
+redispatcher/exceptions.py,sha256=phXf8jQ6JWsnj-EBBwWalUMOMPE15SlRQ-RCw9F1PSE,214
+redispatcher/monitor.py,sha256=gO5HstJbWnvclA1oqzwmck191OoYBg5F6bvgRkqYPiM,3516
+redispatcher/redispatcher.py,sha256=tlcgvuO7WbX-YC2MpSEA66OjQbsXWLLev2GZhUATdU0,3380
+redispatcher/types.py,sha256=PYXC0jtJlPOYHOw4koBedvbF8VMvM6tbPwEQUy302so,422
+redispatcher-0.2.0.dist-info/entry_points.txt,sha256=5U1BRU5kx2UWlt5k-V0MWBry59TSEi0kzEIibtzPHzY,60
+redispatcher-0.2.0.dist-info/LICENSE,sha256=H9k0MV72efT98Qv8PdDw6ABcu6c1lGfXgzg92DDfUvU,1082
+redispatcher-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+redispatcher-0.2.0.dist-info/METADATA,sha256=opZ3RYKZDq9AwVSAsUtMQDa3kd9UZ9stzaaZd-2ygW4,5802
+redispatcher-0.2.0.dist-info/RECORD,,

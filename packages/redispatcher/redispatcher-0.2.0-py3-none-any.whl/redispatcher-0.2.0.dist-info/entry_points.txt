@@ -1,0 +1,3 @@
+[console_scripts]
+monitor=redispatcher.monitor:monitor_cli
+
