@@ -1,0 +1,10 @@
+useful_prints/__init__.py,sha256=Ila9NzYb21e_-o68-tv64r3rOrvm2SuOyQcCs2_QEIs,418
+useful_prints/_version.py,sha256=UySIGjYMEz_vvBFQY6YaZDuH-a2Y9UzbNsIdw1aQ2vo,534
+useful_prints/dict_printer.py,sha256=vGqis_ZzOGPrEjT68PxGr1ashCC4lUfXaaie9eSMJkQ,1689
+useful_prints/list_printer.py,sha256=2zXtfujRKKaLMaWmLIamCcRxVq6kG8D-kFUi8PHU1rM,6487
+useful_prints/percentage.py,sha256=rV3z10BxSAffHaN1WGElwtuDKAKz98yqf3hgCQd105s,2864
+useful_prints-0.0.0.dist-info/LICENSE,sha256=9HsmUbkMFZDTY_7eyGX6_7F-jwhNF1PxA_6J37d5YPA,1095
+useful_prints-0.0.0.dist-info/METADATA,sha256=scBzCn8Z8rsvxCR9TxeAtyT1bCXjRZiFmRNmM1DBSjs,1442
+useful_prints-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+useful_prints-0.0.0.dist-info/top_level.txt,sha256=JhLN056IVdLXibIKpQGbGGSob1RcXuPXOkoF6w1EK1E,14
+useful_prints-0.0.0.dist-info/RECORD,,
