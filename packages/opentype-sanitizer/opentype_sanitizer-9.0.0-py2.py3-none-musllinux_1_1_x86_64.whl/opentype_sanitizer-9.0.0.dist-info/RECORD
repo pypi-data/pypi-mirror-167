@@ -1,0 +1,11 @@
+ots/_version.py,sha256=OFPT87uFFc_cvXVJYfazALT_KQe6UDcQ_JKH6joASPk,176
+ots/__main__.py,sha256=th6qKQ2qXYcEIB0LMtceSULFQ-6NYtYZxdSr3bhVqVg,225
+ots/ots-sanitize,sha256=irHph7ExPJApcleq3fjUBQDPKMK3BlQmqagLxd57vAE,904472
+ots/__init__.py,sha256=qTfZpof3jg7KCzXVZEbkPsda3PEk-1sFaHm6oickxCk,2719
+opentype_sanitizer-9.0.0.dist-info/top_level.txt,sha256=DeYKAWCIE3i6OTTn8yevz62YlI2OOvcL8AXW0BftPtA,4
+opentype_sanitizer-9.0.0.dist-info/WHEEL,sha256=B8vBZOQhRRGODcdtsMeht7tTzgD-bpLN_3taKkoBMmg,145
+opentype_sanitizer-9.0.0.dist-info/METADATA,sha256=KbT-si1mfZeWCHA2cv8VYiar-cfjeDmnRH05eF3yYWc,1205
+opentype_sanitizer-9.0.0.dist-info/RECORD,,
+opentype_sanitizer-9.0.0.dist-info/LICENSE,sha256=DXTePDzTGWqe0bxhLP1fgddQnWbEvjSlD5nWG9GtANQ,1485
+opentype_sanitizer.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+opentype_sanitizer.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
