@@ -1,0 +1,4 @@
+[console_scripts]
+MofadeQimeng = MofadeQimeng.__main__:main
+mofade-qimeng = MofadeQimeng.__main__:main
+
