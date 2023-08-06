@@ -1,0 +1,13 @@
+switchbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switchbox/__main__.py,sha256=QpzrqedKFdWK7R0sv2-824fIyQ0HR-86kY2QtbxXhjs,74
+switchbox/app.py,sha256=Kdr_AwEktD0qboRsUZDiLCgmcaXy-U7NYLjPb-fWtZI,8569
+switchbox/cli.py,sha256=wrSDHWcgsV0krspDsCIwSGX7kibdXlun0uWFZ4Wsb0Q,5008
+switchbox/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switchbox/ext/git.py,sha256=wDQxDFAyj7VwxMmLr_-rEGVm8komJfhNoFgng5jFTk0,2858
+switchbox/repo.py,sha256=IBSg6CTda3G1YU9g3NtSPzR9EkzdoRtPvfU4n13yHa0,8914
+switchbox/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switchbox/tests/test_repo.py,sha256=UGfQ8g9pGf1LpoxGdM0ALJyJvAsP9mBzbsduUi_hh4g,328
+switchbox-0.3.4.dist-info/entry_points.txt,sha256=h_gExPj-dyXPeLeLtAyEmhXkKXvjDG3qlPYj5j56IKw,81
+switchbox-0.3.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+switchbox-0.3.4.dist-info/METADATA,sha256=ac_Nwit9jpWzOdPoCICBDog3n2BkmYnD4VMindqfcYc,2738
+switchbox-0.3.4.dist-info/RECORD,,
