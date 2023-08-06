@@ -1,0 +1,3 @@
+[console_scripts]
+aliceSk = ProjectAliceSK.ProjectAliceSkillKit:cli
+projectalice-sk = ProjectAliceSK.ProjectAliceSkillKit:cli
