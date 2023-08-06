@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jax_triton/__init__.py
+jax_triton/triton_call.py
+jax_triton.egg-info/PKG-INFO
+jax_triton.egg-info/SOURCES.txt
+jax_triton.egg-info/dependency_links.txt
+jax_triton.egg-info/requires.txt
+jax_triton.egg-info/top_level.txt
+lib/triton_kernel_call.cc
+lib/triton_kernel_call.h
