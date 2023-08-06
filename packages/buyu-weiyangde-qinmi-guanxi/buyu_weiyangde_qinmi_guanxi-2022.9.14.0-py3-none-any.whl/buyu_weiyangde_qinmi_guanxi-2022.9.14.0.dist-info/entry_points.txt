@@ -1,0 +1,4 @@
+[console_scripts]
+BuyuWeiyangdeQinmiGuanxi = BuyuWeiyangdeQinmiGuanxi.__main__:main
+buyu-weiyangde-qinmi-guanxi = BuyuWeiyangdeQinmiGuanxi.__main__:main
+
