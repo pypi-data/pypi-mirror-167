@@ -1,0 +1,35 @@
+Pennsieve Python client (pennsieve2)
+================
+[![pypi](https://img.shields.io/pypi/pyversions/pennsieve2.svg)](https://pypi.org/project/pennsieve2/)
+
+Python client and command line tool for Pennsieve (pennsieve2).
+
+
+Prerequisites
+-------------
+In order to use this Python library to upload files to Pennsieve, please follow the instruction on installing and setting up Pennsieve agent, which could be found in the documentation.
+
+
+Installation
+------------
+
+To install, run:
+
+```bash
+    pip install -U pennsieve2
+```
+
+Contributions
+------------
+
+After any change to proto file, please remember to rebuild the package by running from the top folder:
+
+```bash
+python -m grpc_tools.protoc --python_out=. -I. --grpc_python_out=. pennsieve2/protos/agent.proto
+```
+
+
+Documentation
+-------------
+
+Client and command line documentation can be found on [Pennsieve’s documentation website](https://docs.pennsieve.io/docs/the-pennsieve-agent).
