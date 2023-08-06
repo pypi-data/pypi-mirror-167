@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+README_pypi.md
+pyproject.toml
+tox.ini
+src/advanced_value_counts/__init__.py
+src/advanced_value_counts/avc.py
+src/advanced_value_counts/df_mutations.py
+src/advanced_value_counts/value_checks.py
+src/advanced_value_counts.egg-info/PKG-INFO
+src/advanced_value_counts.egg-info/SOURCES.txt
+src/advanced_value_counts.egg-info/dependency_links.txt
+src/advanced_value_counts.egg-info/requires.txt
+src/advanced_value_counts.egg-info/top_level.txt
