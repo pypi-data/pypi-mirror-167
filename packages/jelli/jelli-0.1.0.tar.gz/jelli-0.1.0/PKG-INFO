@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jelli
+Version: 0.1.0
+Summary: Jelli Is For Setting(s)
+License: MIT
+Author: Simon Kennedy
+Author-email: sffjunkie+code@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: typing-extensions (>=4.3.0,<5.0.0)
+Requires-Dist: xdg (>=5.1.1,<6.0.0)
+Description-Content-Type: text/markdown
+
+# Jelli Is For Setting(s)
+
