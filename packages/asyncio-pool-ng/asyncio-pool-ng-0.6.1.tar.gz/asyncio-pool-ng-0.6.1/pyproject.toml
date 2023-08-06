@@ -1,0 +1,36 @@
+[tool]
+[tool.poetry]
+name = "asyncio-pool-ng"
+version = "0.6.1"
+description = "Pool of asyncio coroutines with familiar interface"
+readme = "README.md"
+authors = [
+  "Olegm <gistart@yandex.ru>",
+  "Kyle Smith <smithk86@gmail.com>"
+]
+license = "MIT"
+repository = "https://github.com/smithk86/asyncio-pool-ng"
+packages = [
+    { include = "asyncio_pool" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7"
+mypy = "^0"
+pytest-mypy = "*"
+async-timeout = "^4"
+pytest-asyncio = "*"
+black = "*"
+
+[tool.poetry.scripts]
+pytest = "pytest:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--mypy"
