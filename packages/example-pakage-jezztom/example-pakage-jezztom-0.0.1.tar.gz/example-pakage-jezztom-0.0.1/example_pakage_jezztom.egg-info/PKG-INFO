@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: example-pakage-jezztom
+Version: 0.0.1
+Summary: Sort description
+Home-page: https://github.com/pypa/sampleproject
+Author: Example jezztom
+Author-email: dangthanhtuyen0112@gmail.com
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LicenseManager.dll
+License-File: LicenseManagerApi.dll
+License-File: LicenseManagerShellext.exe
+License-File: LicenseManagerSvc.dll
+License-File: license.rtf
+
+Full description

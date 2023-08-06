@@ -1,0 +1,10 @@
+LicenseManager.dll
+LicenseManagerApi.dll
+LicenseManagerShellext.exe
+LicenseManagerSvc.dll
+license.rtf
+setup.py
+example_pakage_jezztom.egg-info/PKG-INFO
+example_pakage_jezztom.egg-info/SOURCES.txt
+example_pakage_jezztom.egg-info/dependency_links.txt
+example_pakage_jezztom.egg-info/top_level.txt
