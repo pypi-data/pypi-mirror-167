@@ -1,0 +1,4 @@
+[console_scripts]
+ShierXingzuoChenggongMima = ShierXingzuoChenggongMima.__main__:main
+shier-xingzuo-chenggong-mima = ShierXingzuoChenggongMima.__main__:main
+
