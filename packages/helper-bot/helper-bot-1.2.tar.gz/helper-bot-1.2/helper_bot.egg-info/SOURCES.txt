@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+helper_bot/__init__.py
+helper_bot/scripts.py
+helper_bot.egg-info/PKG-INFO
+helper_bot.egg-info/SOURCES.txt
+helper_bot.egg-info/dependency_links.txt
+helper_bot.egg-info/entry_points.txt
+helper_bot.egg-info/requires.txt
+helper_bot.egg-info/top_level.txt
