@@ -1,0 +1,4 @@
+[console_scripts]
+ShierXingzuoAiqingGongxingji = ShierXingzuoAiqingGongxingji.__main__:main
+shier-xingzuo-aiqing-gongxingji = ShierXingzuoAiqingGongxingji.__main__:main
+
