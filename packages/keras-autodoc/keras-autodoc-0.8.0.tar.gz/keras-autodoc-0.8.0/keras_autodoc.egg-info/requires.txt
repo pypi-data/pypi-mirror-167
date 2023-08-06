@@ -1,0 +1,9 @@
+markdown
+sphinx
+black==22.8.0
+
+[tests]
+pytest
+pytest-pep8
+keras-tuner
+tensorflow>=2.9.1
