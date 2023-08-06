@@ -1,0 +1,5 @@
+[console_scripts]
+evaluate = mhpp.components.score:evaluate
+fetch-data = mhpp.components.ingest_data:fetch_housing_data
+train = mhpp.components.train:train
+train-test-data = mhpp.components.ingest_data:train_test_data

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+py_version=38
+skip = [".gitignore", ".dockerignore"]
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 88
+count = true
+extend-ignore = 'E203'
