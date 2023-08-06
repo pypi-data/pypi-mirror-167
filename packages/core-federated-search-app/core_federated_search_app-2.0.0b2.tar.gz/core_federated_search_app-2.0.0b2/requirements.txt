@@ -1,0 +1,6 @@
+Django
+django-oauth-toolkit==1.4.1
+djangorestframework
+django-simple-menu
+requests
+future

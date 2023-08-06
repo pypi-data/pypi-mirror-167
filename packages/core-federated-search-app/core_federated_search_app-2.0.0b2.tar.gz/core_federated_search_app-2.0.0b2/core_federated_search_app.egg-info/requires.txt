@@ -1,0 +1,8 @@
+Django
+django-oauth-toolkit==1.4.1
+djangorestframework
+django-simple-menu
+requests
+future
+core-main-app==2.0.0-beta2
+core-explore-common-app==2.0.0-beta2
