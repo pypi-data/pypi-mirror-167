@@ -1,0 +1,66 @@
+variables:
+  GIT_STRATEGY:  clone
+  version_build: v3.5.3
+  DEFAULT_DEV_TAG: dev
+  DOCKER_IMAGE: ${PROD_CONTAINER_REGISTRY}/builder_python:latest-py39
+  project:     "fractionalcover3  1.0.0  fractionalcover3"
+
+stages:
+  - test
+  - deploy
+  - build_doc
+  - bridge
+
+default:
+  before_script:
+    - export
+    - $BUILD_PYTHON_PACKAGE "$project"
+
+test:
+  stage: test
+  script:
+        - . /tools/setup.sh
+        - . /tools/parsers.sh
+        - ${DOCKER_EXEC_PYTHON} python setup.py test
+  artifacts:
+    untracked: false
+    expire_in: 30 days
+    paths:
+      - cov_html
+    reports:
+      junit: junit.xml
+  coverage: '/TOTAL.*\s+(\d+%)$/'
+
+
+pages:
+  stage: build_doc
+  script:
+    - . /tools/setup.sh
+    - . /tools/parsers.sh
+    - ${DOCKER_EXEC_PYTHON} pip3 install -r doc-requirements.txt
+    - ${DOCKER_EXEC_PYTHON} python3 setup.py build_sphinx
+    - mkdir -p public
+    - cp -r build/sphinx/html/* public/
+  artifacts:
+    paths:
+    - public
+  rules:
+    - if: ($CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH)
+
+
+deploy:
+  stage: deploy
+  script:
+      - $RELEASE_PYTHON_PACKAGE_TO_PROD_REGISTRY "$project"
+  tags:
+    - prod
+  only:
+    - tags
+
+bridge_to_app:
+  stage: bridge
+  rules:
+    - if: $CI_COMMIT_TAG != null
+  trigger:
+    project: jrsrp/containers/app/fractionalcover_container
+

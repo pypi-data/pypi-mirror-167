@@ -1,0 +1,10 @@
+numpy
+tflite_runtime
+
+[rsc]
+rsc
+coloredlogs
+
+[testing]
+pytest
+pytest-cov

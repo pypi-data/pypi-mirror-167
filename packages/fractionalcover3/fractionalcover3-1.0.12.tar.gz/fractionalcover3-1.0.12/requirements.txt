@@ -1,0 +1,7 @@
+--extra-index-url http://athena200.dnr.qld.gov.au:8080/rscpi/rscpi
+--extra-index-url https://artemis/api/v4/projects/40/packages/pypi/simple
+--trusted-host athena200.dnr.qld.gov.au
+--trusted-host artemis
+rsc
+scipy
+coloredlogs
