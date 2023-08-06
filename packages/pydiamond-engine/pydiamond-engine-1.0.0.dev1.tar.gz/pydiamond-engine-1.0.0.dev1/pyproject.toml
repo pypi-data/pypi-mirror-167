@@ -1,0 +1,98 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pydiamond-engine"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "FrankySnow9", email = "clairicia.rcj.francis@gmail.com"},
+]
+license = {file = "LICENSE"}
+dependencies = [
+  "pygame ==2.1.2",
+  "cryptography ==37.0.4",
+  "typing_extensions ==4.3.0"
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries :: pygame",
+  "Typing :: Typed"
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Homepage = "https://github.com/francis-clairicia/PyDiamond"
+
+[project.optional-dependencies]
+dev = [
+  "mypy ==0.971",
+  "isort >=5.10.1",
+  "black >=22.6.0"
+]
+test = [
+  "pytest ==7.1.2",
+  "pytest-mock ==3.8.*"
+]
+
+############################ Flit configuration ############################
+[tool.flit.module]
+name = "pydiamond"
+
+[tool.flit.sdist]
+exclude = [
+  ".github/",
+  "demo_resources/",
+  "demo.py",
+]
+
+############################ Development tools configuration ############################
+
+[tool.isort]
+profile = "black"
+line_length = 130
+combine_as_imports = true
+sections = ["FUTURE", "STDLIB", "PYDIAMOND", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+known_pydiamond = ["pydiamond"]
+add_imports = ["from __future__ import annotations"]
+
+[tool.black]
+line-length = 130
+target_version = ["py310"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_unused_configs = true
+disallow_any_generics = true
+disallow_any_unimported = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+no_implicit_reexport = true
+strict_equality = true
+enable_error_code = ["truthy-bool", "ignore-without-code"]
+
+[tool.pytest.ini_options]
+minversion = "7.1.2"
+testpaths = ["tests"]
+markers = [
+    "slow: marks tests as slow",
+    "functional: marks tests as functional tests",
+]
