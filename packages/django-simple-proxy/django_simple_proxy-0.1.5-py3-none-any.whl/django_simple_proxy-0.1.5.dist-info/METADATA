@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: django-simple-proxy
+Version: 0.1.5
+Summary: 
+Home-page: https://github.com/volunteer-prb/django_simple_proxy
+Keywords: django,proxy
+Author: Alex Polev
+Author-email: apolevki09@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django
+Requires-Dist: django-import-export
+Requires-Dist: requests
+Project-URL: Repository, https://github.com/volunteer-prb/django_simple_proxy
+Description-Content-Type: text/markdown
+
+# django_simple_proxy
+Simple Proxy for Python Django framework
+
+# Installation
+```
+pip install django-simple-proxy
+```
+
+Then add `django_simple_proxy` to `INSTALLED_APPS`
+
+# Usage
+First, set Proxy in the database using the admin panel.
+
+Manually, with `requests` library.
+```
+import requests
+
+from django_simple_proxy.tools import random_proxy
+
+proxy_url = random_proxy()
+proxies = {'http': proxy_url, 'https': proxy_url}
+response = requests.get(url, proxies=proxies)
+```
+
+Or using `get_request` / `post_request`:
+```
+from django_simple_proxy.tools import get_request
+
+response = get_request(url)
+```
+
