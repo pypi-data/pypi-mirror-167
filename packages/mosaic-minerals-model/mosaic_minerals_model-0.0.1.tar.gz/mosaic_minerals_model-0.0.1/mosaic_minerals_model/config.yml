@@ -1,0 +1,39 @@
+# Package Overview
+package_name: mosaic_minerals
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict
+target: Target
+
+pipeline_name: mosaic_minerals_model
+pipeline_save_file: mosaic_minerals_output_v
+
+features:
+  - X
+  - Y
+  - Z
+  - susc
+  - susc_mean
+  - susc_max
+  - susc_min
+  - susc_var
+  - susc_std
+  - susc_sum
+  - Target
+
+# set train/test split
+test_size: 0.4
+
+# to set the random seed
+random_state: 42
+
+# variables to log transform
+numericals_log_vars:
+  - susc_var
+  - susc_std
+
+alpha: 0.001
