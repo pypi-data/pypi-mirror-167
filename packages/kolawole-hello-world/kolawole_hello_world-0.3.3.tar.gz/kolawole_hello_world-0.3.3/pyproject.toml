@@ -1,0 +1,15 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kolawole_hello_world"
+version = "0.3.3"
+description = "Read the latest Real Python tutorials"
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+    "pytest"
+]
