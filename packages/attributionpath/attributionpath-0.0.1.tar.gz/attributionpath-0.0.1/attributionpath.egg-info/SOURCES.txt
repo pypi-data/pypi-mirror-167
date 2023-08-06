@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+attributionpath.egg-info/PKG-INFO
+attributionpath.egg-info/SOURCES.txt
+attributionpath.egg-info/dependency_links.txt
+attributionpath.egg-info/top_level.txt
