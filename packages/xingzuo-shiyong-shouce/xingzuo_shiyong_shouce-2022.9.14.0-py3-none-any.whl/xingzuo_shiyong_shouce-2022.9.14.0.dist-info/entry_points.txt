@@ -1,0 +1,4 @@
+[console_scripts]
+XingzuoShiyongShouce = XingzuoShiyongShouce.__main__:main
+xingzuo-shiyong-shouce = XingzuoShiyongShouce.__main__:main
+
