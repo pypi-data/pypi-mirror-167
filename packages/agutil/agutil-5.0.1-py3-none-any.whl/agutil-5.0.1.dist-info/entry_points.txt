@@ -1,0 +1,2 @@
+[console_scripts]
+agutil-secure = agutil.security.console:main
