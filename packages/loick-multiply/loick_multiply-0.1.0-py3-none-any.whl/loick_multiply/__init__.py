@@ -1,0 +1,1 @@
+from loick_multiply.multiply import Multiplication
