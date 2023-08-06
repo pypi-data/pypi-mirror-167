@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+elsa/__init__.py
+elsa/elsa.py
+elsarec.egg-info/PKG-INFO
+elsarec.egg-info/SOURCES.txt
+elsarec.egg-info/dependency_links.txt
+elsarec.egg-info/requires.txt
+elsarec.egg-info/top_level.txt
