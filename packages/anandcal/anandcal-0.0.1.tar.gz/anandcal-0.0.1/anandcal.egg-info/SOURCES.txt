@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+anandcal/__init__.py
+anandcal.egg-info/PKG-INFO
+anandcal.egg-info/SOURCES.txt
+anandcal.egg-info/dependency_links.txt
+anandcal.egg-info/top_level.txt

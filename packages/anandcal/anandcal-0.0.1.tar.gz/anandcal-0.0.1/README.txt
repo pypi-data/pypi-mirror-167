@@ -1,0 +1,3 @@
+this is for testing purpose 
+this lib containd add,sub,mul and div
+easy to use just by giving comments like add(2,3)...
