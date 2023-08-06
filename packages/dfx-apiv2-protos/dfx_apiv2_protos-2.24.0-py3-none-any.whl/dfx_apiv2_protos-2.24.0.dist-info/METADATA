@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dfx-apiv2-protos
+Version: 2.24.0
+Summary: dfx-apiv2-protos are compiled Python protos for the Nuralogix DeepAffex API.
+Author: NuraLogix Corporation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: protobuf (<4,>=3.12)
+
+# DeepAffex APIv2 Protocol Buffers
+
+This repository contains pre-compiled Python 3 Protocol Buffers for the
+NuraLogix DeepAffex API.
+
+For more information, please visit https://deepaffex.ai/developers-api
