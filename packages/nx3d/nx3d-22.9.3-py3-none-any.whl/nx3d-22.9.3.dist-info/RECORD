@@ -1,0 +1,9 @@
+nx3d/__init__.py,sha256=3EziaKZ8MR7X4GZZl74skoB47X7xUfex4nhmKXFubaA,40
+nx3d/__main__.py,sha256=aXcu5-oflaRxuXxbdqNODJLh4lHzaRkkwMQt7dIKJBM,82
+nx3d/data/icosphere.egg,sha256=VebZICIxpewW47H5NmnEA0vO65LUtG8h_wpho0wtRPo,45950
+nx3d/data/unit_cylinder_base_at_0.egg,sha256=2or8dhEMxO_MHRSJsxQp-6Ah8WPHKWuA_E_H6L4Ujsg,5879
+nx3d/main.py,sha256=1C3TtnHWggDPmJnJ7esE_il_S0icW5US7Ax8AYpwSl0,7775
+nx3d-22.9.3.dist-info/LICENSE,sha256=xG9NkEat4vmSNReMSOFlJqU574QZpd75KbM-BvzY5nY,1062
+nx3d-22.9.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+nx3d-22.9.3.dist-info/METADATA,sha256=zSusqg4yfWrIvg1HRgF7_bR7CgZF_n-cIitOOOjRjbk,3770
+nx3d-22.9.3.dist-info/RECORD,,
