@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+taymabasiccalculator/__init__.py
+taymabasiccalculator.egg-info/PKG-INFO
+taymabasiccalculator.egg-info/SOURCES.txt
+taymabasiccalculator.egg-info/dependency_links.txt
+taymabasiccalculator.egg-info/top_level.txt
