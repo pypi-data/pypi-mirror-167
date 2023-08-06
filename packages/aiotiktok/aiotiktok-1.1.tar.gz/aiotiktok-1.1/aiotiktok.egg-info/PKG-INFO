@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aiotiktok
+Version: 1.1
+Summary: Tool for parse tiktok data
+Home-page: https://github.com/sheldygg/aiotiktok
+Author: sheldy
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
