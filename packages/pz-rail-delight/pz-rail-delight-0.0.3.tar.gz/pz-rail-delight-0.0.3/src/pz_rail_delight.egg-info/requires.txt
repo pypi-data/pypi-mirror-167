@@ -1,0 +1,12 @@
+pz-rail
+coloredlogs
+corner
+cython
+emcee
+
+[dev]
+coverage
+pylint
+pytest
+pytest-cov
+yamllint
