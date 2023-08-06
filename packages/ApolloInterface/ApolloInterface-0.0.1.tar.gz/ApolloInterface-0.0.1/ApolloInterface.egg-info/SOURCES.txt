@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ApolloInterface.egg-info/PKG-INFO
+ApolloInterface.egg-info/SOURCES.txt
+ApolloInterface.egg-info/dependency_links.txt
+ApolloInterface.egg-info/top_level.txt
+ApolloItemsCRUD/__init__.py
+ApolloItemsCRUD/apolloInterface.py
+ApolloItemsCRUD/apolloService.py
+demo/__init__.py
+demo/demo.py
