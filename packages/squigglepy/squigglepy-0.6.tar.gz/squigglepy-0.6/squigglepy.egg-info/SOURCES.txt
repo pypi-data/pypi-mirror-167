@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+squigglepy/__init__.py
+squigglepy/bayes.py
+squigglepy/distributions.py
+squigglepy/numbers.py
+squigglepy/sample.py
+squigglepy/utils.py
+squigglepy.egg-info/PKG-INFO
+squigglepy.egg-info/SOURCES.txt
+squigglepy.egg-info/dependency_links.txt
+squigglepy.egg-info/top_level.txt
