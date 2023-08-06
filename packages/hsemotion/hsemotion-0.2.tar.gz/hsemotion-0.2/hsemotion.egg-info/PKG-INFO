@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: hsemotion
+Version: 0.2
+Summary: HSEmotion Python Library for Facial Emotion Recognition
+Home-page: https://github.com/HSE-asavchenko/face-emotion-recognition
+Author: Andrey Savchenko
+Author-email: andrey.v.savchenko@gmail.com
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: face emotion recognition
+Platform: UNKNOWN
