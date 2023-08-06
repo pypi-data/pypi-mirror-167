@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "characters_Sn"
+version = "0.0.3"
+description = "functions to calculate group characters of S_n."
+authors = ["Vladislav Kargin <slavakargin@yahoo.com>", "Lizzie Hernandez"]
+homepage = ""
+repository = ""
+license = "MIT"
+readme = "README.md"
+documentation = ""
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
