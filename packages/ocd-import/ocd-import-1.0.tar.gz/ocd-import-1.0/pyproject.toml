@@ -1,0 +1,19 @@
+[project]
+name = "ocd-import"
+version = "1.0"
+authors = [
+  { name="Aunt Edith", email="aschenkuttel@gmail.com" },
+]
+description = "Import Reformatter"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aschenkuttel/ocd"
+"Bug Tracker" = "https://github.com/aschenkuttel/ocd/issues"
