@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+tvb_liteline/__init__.py
+tvb_liteline/_modidx.py
+tvb_liteline/core.py
+tvb_liteline/models.py
+tvb_liteline.egg-info/PKG-INFO
+tvb_liteline.egg-info/SOURCES.txt
+tvb_liteline.egg-info/dependency_links.txt
+tvb_liteline.egg-info/entry_points.txt
+tvb_liteline.egg-info/not-zip-safe
+tvb_liteline.egg-info/requires.txt
+tvb_liteline.egg-info/top_level.txt
