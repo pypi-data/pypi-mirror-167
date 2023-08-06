@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: novelpy
+Version: 1.2.2
+Summary: Calculate novelty indicators
+Home-page: UNKNOWN
+Author: Pelletier Pierre and Wirtz Kevin
+Author-email: kevin.wirtz@unistra.fr
+License: MIT
+Description: # novelpy
+        
+        Change Log
+        ============
+        
+        0.1(22/07/2021)
+        -----------------
+        
+        First beta release with only mongodb in backend
+        
+        1.0(18/01/2022)
+        -----------------
+        
+        First official release. Supports mongodb and json
+        
+        1.1(20/07/2022)
+        -----------------
+        
+        First bug correction, only backend stuff are changed
+        
+        1.2(12/08/2022)
+        -----------------
+        
+        Multiple bug correction and unwanted behavior + optimization by changing the expected format.
+        
+        
+        
+Keywords: Novelty,scientometrics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
