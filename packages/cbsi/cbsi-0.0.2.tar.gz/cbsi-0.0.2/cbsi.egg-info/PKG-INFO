@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cbsi
+Version: 0.0.2
+Summary: Choice based sensor independent Library
+Home-page: https://github.com/abhinav-alangadan/CBSI
+Author: Abhinav A
+Author-email: abhinava.iirs.isro@gmail.com
+License: MIT
+Keywords: cbsi,ndvi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a very simple library that perform CBSI (Choice Based Sensor Independent) Operations on satellite images. Use the Github link: https://github.com/abhinav-alangadan/CBSI for more details.
+
+
+Change Log
+===========
+
+0.0.1 (14/09/2022)
+-First Release
