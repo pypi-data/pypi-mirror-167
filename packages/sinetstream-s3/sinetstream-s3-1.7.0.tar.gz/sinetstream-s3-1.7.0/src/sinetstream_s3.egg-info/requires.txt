@@ -1,0 +1,2 @@
+boto3
+sinetstream>=1.7.0
