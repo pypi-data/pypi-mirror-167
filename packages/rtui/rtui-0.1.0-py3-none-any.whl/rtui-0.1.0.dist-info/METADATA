@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: rtui
+Version: 0.1.0
+Summary: Robot Terminal User Interface for Student Robotics Kit
+Home-page: https://github.com/trickeydan/rtui
+License: MIT
+Author: Dan Trickey
+Author-email: srobo-rtui@trickey.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: astoria (>=0.9.0,<0.10.0)
+Requires-Dist: prompt-toolkit (>=3.0.31,<4.0.0)
+Project-URL: Repository, https://github.com/trickeydan/rtui
+Description-Content-Type: text/markdown
+
+# RTUI - Robot Terminal User Interface
+
+A TUI for [Astoria](https://github.com/srobo/astoria)-driven robots.
+
+[![asciicast](https://asciinema.org/a/NJoUTaZ0G7VcotlNVgL7iXufR.svg)](https://asciinema.org/a/NJoUTaZ0G7VcotlNVgL7iXufR)
+
+## Usage
+
+The `rtui` command can be used standalone by running `rtui`.
+
+It can also be used as an SSH forced command by adding the following to the `authorized_keys` file:
+
+```
+command="/usr/bin/rtui" ssh-ed25519 AAAA....
+```
+
+## Development
+
+This application is written in Python 3.7+ and is managed using poetry.
+
+```shell
+poetry install
+poetry run rtui
+```
+
+You will need to have an instance of Astoria running for some functionality, the docker setup is recommended for this.

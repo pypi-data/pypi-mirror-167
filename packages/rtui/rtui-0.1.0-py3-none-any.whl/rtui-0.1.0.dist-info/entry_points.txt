@@ -1,0 +1,3 @@
+[console_scripts]
+rtui=rtui.app:app
+
