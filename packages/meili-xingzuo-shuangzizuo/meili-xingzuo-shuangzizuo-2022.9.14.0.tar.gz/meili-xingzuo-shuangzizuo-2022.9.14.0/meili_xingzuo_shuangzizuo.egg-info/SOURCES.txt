@@ -1,0 +1,12 @@
+README.md
+setup.py
+MeiliXingzuoShuangzizuo/README.md
+MeiliXingzuoShuangzizuo/__init__.py
+MeiliXingzuoShuangzizuo/__main__.py
+MeiliXingzuoShuangzizuo/file.pdf
+MeiliXingzuoShuangzizuo/index.html
+meili_xingzuo_shuangzizuo.egg-info/PKG-INFO
+meili_xingzuo_shuangzizuo.egg-info/SOURCES.txt
+meili_xingzuo_shuangzizuo.egg-info/dependency_links.txt
+meili_xingzuo_shuangzizuo.egg-info/entry_points.txt
+meili_xingzuo_shuangzizuo.egg-info/top_level.txt
