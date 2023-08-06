@@ -1,0 +1,13 @@
+# Directories
+__pycache__/
+dist/
+env*/
+
+# Extensions
+*.log
+
+# Files
+upload.cmd
+
+# General
+test*
