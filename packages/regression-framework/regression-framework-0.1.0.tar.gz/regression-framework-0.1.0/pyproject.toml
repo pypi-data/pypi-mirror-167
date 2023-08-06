@@ -1,0 +1,17 @@
+[tool.poetry]
+authors = ["Craig Trim <craigtrim@gmail.com>"]
+description = "Provide a Framework for Regression Testing"
+name = "regression-framework"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+baseblock = "*"
+python = "3.8.5"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+pytest = "*"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
