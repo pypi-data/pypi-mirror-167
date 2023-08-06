@@ -1,0 +1,12 @@
+wagtail_editable_help/__init__.py,sha256=xITkUsh_q0dvYwSwAKNkZWiPSvaXp2p-p-fukOZ3W2M,143
+wagtail_editable_help/apps.py,sha256=EIwTmwVTSBN3lYCZBwM1DjpkOAWHLeeUZg-6niEcZ7U,197
+wagtail_editable_help/middleware.py,sha256=ZLpBCL6mGIjVutJAhIe4OQCuqbVHbhWf0BUb1TNcZPI,520
+wagtail_editable_help/models.py,sha256=k-_iyE0ck9zvtHW1vvHctx8Duxugi1wUG6nCBDmYPRM,2838
+wagtail_editable_help/wagtail_hooks.py,sha256=HNWKBNmHZSdGJBgOgAGtfRIkYtK5lDHIl4zZWP3NABg,1335
+wagtail_editable_help/migrations/0001_initial.py,sha256=twmvkiF2DOy1ib91gFK690FJrKRKfJ0taFamnSJ6qZA,1144
+wagtail_editable_help/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_editable_help/static/wagtail_editable_help/wagtail_editable_help.css,sha256=zlGjELfrnDbgDTL1S-eSl7JT6OzBusSYT7-TDGn4Y6E,175
+wagtail_editable_help-0.1.0.dist-info/LICENSE,sha256=GgNV_ClKB5AWJazhntBdjj8EqYm0-0qIZqpcFtjGYKo,1508
+wagtail_editable_help-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+wagtail_editable_help-0.1.0.dist-info/METADATA,sha256=Jn4qE13ESCCt_KoS69a0O6BIIATootGQIlckRtaxXSo,3699
+wagtail_editable_help-0.1.0.dist-info/RECORD,,
