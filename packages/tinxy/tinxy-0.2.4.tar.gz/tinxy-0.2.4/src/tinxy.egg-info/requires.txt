@@ -1,0 +1,8 @@
+js2py
+asyncio
+requests
+simplejson
+tinxy
+
+[dev]
+check-manifest
