@@ -1,0 +1,7 @@
+json
+pyodbc
+pandas
+pathlib
+pymysql
+datetime
+requests
