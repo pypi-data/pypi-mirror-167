@@ -1,0 +1,7 @@
+/.env
+/.pypirc
+/.pytest_cache
+/dist
+/.tox
+/.venv
+/.idea
