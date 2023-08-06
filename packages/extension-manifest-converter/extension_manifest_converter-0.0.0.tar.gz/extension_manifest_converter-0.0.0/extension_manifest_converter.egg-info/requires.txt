@@ -1,0 +1,5 @@
+
+[dev]
+pre-commit
+setuptools>=46.4.0
+types-setuptools
