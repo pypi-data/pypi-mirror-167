@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+SETUP.py
+setup.py
+PythonArpitha/__init__.py
+PythonArpitha.egg-info/PKG-INFO
+PythonArpitha.egg-info/SOURCES.txt
+PythonArpitha.egg-info/dependency_links.txt
+PythonArpitha.egg-info/top_level.txt
