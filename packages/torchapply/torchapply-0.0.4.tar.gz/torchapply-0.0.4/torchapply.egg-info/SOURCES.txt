@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+torchapply/__init__.py
+torchapply/apply.py
+torchapply/version.py
+torchapply.egg-info/PKG-INFO
+torchapply.egg-info/SOURCES.txt
+torchapply.egg-info/dependency_links.txt
+torchapply.egg-info/requires.txt
+torchapply.egg-info/top_level.txt
