@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/tamil/__init__.py
+src/tamil.egg-info/PKG-INFO
+src/tamil.egg-info/SOURCES.txt
+src/tamil.egg-info/dependency_links.txt
+src/tamil.egg-info/top_level.txt
+src/tamil/tamil/__init__.py
+src/tamil/tamil/ravi.py
