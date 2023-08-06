@@ -1,0 +1,8 @@
+memoir/__init__.py,sha256=iC9rsL7Jy6tFB-04PEkMB0GNn_XnFuvt1aKDiYY60Kc,48
+memoir/check_line.py,sha256=i-1adKgnvspccgCHLI_GG6A0jbsYecjXpYgVYVMRMZU,15290
+memoir/data/allmols_combined_transitions.csv,sha256=_eHAay0HaR081h04mC9HyVqRSmNI64qQnn6Aryotrtc,312500
+memoir_lpd-1.1.data/scripts/memoir,sha256=2_kC6YumzZ3DU8TVT38D4keFfDTzkYKxEH5ivEXXgH4,10328
+memoir_lpd-1.1.dist-info/METADATA,sha256=SdJummjwDxcepKWMgfagoT8OzPLR2HpTAlKyYbf2A8M,22029
+memoir_lpd-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memoir_lpd-1.1.dist-info/top_level.txt,sha256=ZQq_g-ZBoa5Go9bW3ZlAV2aOHZBXo0JZDhkjINS7rSc,7
+memoir_lpd-1.1.dist-info/RECORD,,
