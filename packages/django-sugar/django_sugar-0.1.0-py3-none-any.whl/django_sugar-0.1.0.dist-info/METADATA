@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-sugar
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/yingzhuo/django-sugar
+Author: 应卓
+Author-email: yingzhor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: django (>=4.1.1)
+Requires-Dist: djangorestframework (>=3.13.1)
+Requires-Dist: PyJWT (>=2.4.0)
+Requires-Dist: cryptography (>=38.0.1)
+
+UNKNOWN
+
