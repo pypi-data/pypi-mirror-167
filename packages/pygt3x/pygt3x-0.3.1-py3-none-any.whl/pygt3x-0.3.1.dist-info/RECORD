@@ -1,0 +1,9 @@
+pygt3x/__init__.py,sha256=tj3yHHqf2wUnDMxuxyHDVuQ_V3FkKCxzk-B7NrLxjE8,688
+pygt3x/activity_payload.py,sha256=Kv_ClHgBNb8tgYppNtezP1hysvoscoBe9R84RSFZ31w,3857
+pygt3x/calibration.py,sha256=ePhEV8_eFUVr8uH4DfsBQ3m2p0vzbN6k_RJmsI5UMyI,6555
+pygt3x/components.py,sha256=lxJ_1pRUx8YeOP9LJ8n9OECnbuWilJunWRxCGSl5Wsk,4182
+pygt3x/reader.py,sha256=Ju7ITIqT2Fhzv_XIJvwC6j6LmPEe1mDaaZOwu2nDe8U,8951
+pygt3x-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pygt3x-0.3.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pygt3x-0.3.1.dist-info/METADATA,sha256=7MPhHS-KJYN9U0Ry5cDjC3uO31Sw_15-HjWVQ86P0ZE,1732
+pygt3x-0.3.1.dist-info/RECORD,,
