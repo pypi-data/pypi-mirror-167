@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/scorep_jupyter/__init__.py
+src/scorep_jupyter/install.py
+src/scorep_jupyter/kernel.py
+src/scorep_jupyter/userpersistence.py
+src/scorep_jupyter.egg-info/PKG-INFO
+src/scorep_jupyter.egg-info/SOURCES.txt
+src/scorep_jupyter.egg-info/dependency_links.txt
+src/scorep_jupyter.egg-info/requires.txt
+src/scorep_jupyter.egg-info/top_level.txt
