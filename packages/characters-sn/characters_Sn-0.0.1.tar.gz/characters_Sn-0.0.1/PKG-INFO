@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: characters-sn
+Version: 0.0.1
+Summary: functions to calculate characters of S_n.
+License: MIT
+Author: Vladislav Kargin
+Author-email: slavakargin@yahoo.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Characters_Sn
+Functions for calculation characters of the symmetric group Sn
+
+
+This code was written by Lizzie Hernandez 
+for Math 68 Algebraic Combinatorics course in Fall 2021 
+at Darmouth College
