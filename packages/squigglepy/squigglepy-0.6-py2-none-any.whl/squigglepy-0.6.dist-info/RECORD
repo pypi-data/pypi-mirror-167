@@ -1,0 +1,11 @@
+squigglepy/__init__.py,sha256=7m-7GvGCcfdVTBc0DbNFArVSSn9vx4lqBlgtcJ-vjj4,95
+squigglepy/bayes.py,sha256=EV-V8hfthgE-hpq1pnJxxP09w8Vt0HwZyW6c-AlxBxw,1257
+squigglepy/distributions.py,sha256=b7ns7vdcNkVin-TTYcn4bF_ILTNWaTL3xj9n3MThaI0,1822
+squigglepy/numbers.py,sha256=sJADpx8nnr6blCdIPONItL9-Y1L49qWqzxWGcFcPJgc,385
+squigglepy/sample.py,sha256=YfcFugeNoWEp7ON-dYNXfibwqG0hNRiEsBCjyx9K9VU,5821
+squigglepy/utils.py,sha256=aSqWCoWRRPjsDv_Nm1uPocvkFftUxbYDuXLPjqWBZDM,2986
+squigglepy-0.6.dist-info/LICENSE,sha256=AziQJqWmx7xphCeDtkEyShqyHOGaxHopblsBhvECt7k,1072
+squigglepy-0.6.dist-info/METADATA,sha256=lJGaPWRP7SEFkzGhErBB9rcnZzK1oEo8SiO1Ad6RZd4,6565
+squigglepy-0.6.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+squigglepy-0.6.dist-info/top_level.txt,sha256=SITaFXAXZUHN1XblBJZgc77aWXeUDOcDtF13QdOaQWs,11
+squigglepy-0.6.dist-info/RECORD,,
