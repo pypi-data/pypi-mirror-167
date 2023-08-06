@@ -1,0 +1,7 @@
+pybot
+pybot/data
+pybot/features
+pybot/filters
+pybot/globals
+pybot/tests
+pybot/web
