@@ -1,0 +1,4 @@
+[console_scripts]
+QinggandeHechang = QinggandeHechang.__main__:main
+qinggande-hechang = QinggandeHechang.__main__:main
+
