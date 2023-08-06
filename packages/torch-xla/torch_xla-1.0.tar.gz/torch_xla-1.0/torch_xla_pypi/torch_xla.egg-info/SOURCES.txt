@@ -1,0 +1,5 @@
+torch_xla_pypi/torch_xla/__init__.py
+torch_xla_pypi/torch_xla.egg-info/PKG-INFO
+torch_xla_pypi/torch_xla.egg-info/SOURCES.txt
+torch_xla_pypi/torch_xla.egg-info/dependency_links.txt
+torch_xla_pypi/torch_xla.egg-info/top_level.txt
