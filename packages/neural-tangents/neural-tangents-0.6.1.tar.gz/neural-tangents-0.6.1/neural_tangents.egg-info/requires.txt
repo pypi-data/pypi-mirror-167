@@ -1,0 +1,9 @@
+jax>=0.3.13
+frozendict>=2.3
+typing_extensions>=4.0.1
+tf2jax>=0.3.0
+
+[testing]
+more-itertools
+tensorflow-datasets
+flax>=0.5.2
