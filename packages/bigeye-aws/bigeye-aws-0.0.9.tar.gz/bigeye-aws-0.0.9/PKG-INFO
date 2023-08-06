@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bigeye-aws
+Version: 0.0.9
+Summary: AWS functions and utilities for Bigeye.
+Author: Bigeye
+Author-email: support@bigeye.com
+Requires-Python: >=3.7.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: bigeye-sdk (>=0.4.0,<0.5.0)
+Requires-Dist: boto3 (>=1.19.9,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Bigeye AWS Library
+Contains common utilities to interface with AWS.
