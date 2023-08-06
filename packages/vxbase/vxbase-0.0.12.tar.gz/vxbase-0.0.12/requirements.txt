@@ -1,0 +1,2 @@
+spur==0.3.18
+simplejson==3.11.1
