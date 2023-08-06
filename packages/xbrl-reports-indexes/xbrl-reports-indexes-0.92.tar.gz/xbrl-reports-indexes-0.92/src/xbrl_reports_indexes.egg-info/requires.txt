@@ -1,0 +1,10 @@
+sqlalchemy
+pycountry
+pytz
+lxml
+python-dateutil
+lxml
+
+[db]
+psycopg2
+pymysql
