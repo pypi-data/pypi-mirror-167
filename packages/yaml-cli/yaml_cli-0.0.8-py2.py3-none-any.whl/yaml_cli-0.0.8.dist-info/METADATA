@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yaml-cli
+Version: 0.0.8
+Summary: A command line interface to read and manipulate YAML files. Based on python, distributed as pip.
+Home-page: https://github.com/devzer01/yaml_cli
+Author: ['Andy Werner', 'Nayana Hettiarachchi']
+Author-email: andy@mr-beam.org
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: PyYAML
+Requires-Dist: argparse
+
+UNKNOWN
+
