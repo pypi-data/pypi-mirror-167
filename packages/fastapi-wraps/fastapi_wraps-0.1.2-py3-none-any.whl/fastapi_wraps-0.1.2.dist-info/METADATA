@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fastapi-wraps
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/pawelrubin/fastapi-wraps
+License: MIT
+Keywords: fastapi,decorator,functools
+Author: Paweł Rubin
+Author-email: pawelrubindev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Dist: fastapi (>=0.83.0,<0.84.0)
+Project-URL: Repository, https://github.com/pawelrubin/fastapi-wraps
+Description-Content-Type: text/markdown
+
+# fastapi-wraps
+
