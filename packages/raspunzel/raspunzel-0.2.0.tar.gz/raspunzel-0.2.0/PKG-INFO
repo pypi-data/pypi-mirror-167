@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: raspunzel
+Version: 0.2.0
+Summary: Deploy and run Bazel targets on a Raspberry Pi.
+Author-email: Stéphane Caron <stephane.caron@normalesup.org>
+Maintainer-email: Stéphane Caron <stephane.caron@normalesup.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: sphinx ; extra == "doc"
+Project-URL: Changelog, https://github.com/tasts-robots/raspunzel/blob/master/CHANGELOG.md
+Project-URL: Source, https://github.com/tasts-robots/raspunzel
+Project-URL: Tracker, https://github.com/tasts-robots/raspunzel/issues
+Provides-Extra: doc
+
+# raspunzel
+
+Command-line tool to deploy and run cross-compiled Bazel targets on a Raspberry Pi.
+
+## Installation
+
+```console
+pip install raspunzel
+```
+
+## Usage
+
+The basic usage for ``raspunzel`` goes in three steps. First, build all cross-compiled targets locally:
+
+```console
+bazel build --config=my_cross_compilation_stack //my/target
+```
+
+Then, sync the repository to the robot host:
+
+```console
+raspunzel sync my_robot_host:some/path
+```
+
+Finally, go to ``some/path`` on the robot host and run your target using the regular Bazel syntax:
+
+```console
+raspunzel run //my/target -- --foo --bar
+```
+
+## Tips
+
+* If you have a 64-bit Raspberry Pi cross-compilation stack configured in ``.bazelrc``, name it ``"pi64"`` and use ``raspunzel build``, which is shorthand for ``bazel build --config=pi64``.
+
