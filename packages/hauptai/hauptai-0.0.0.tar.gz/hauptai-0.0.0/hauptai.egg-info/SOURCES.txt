@@ -1,0 +1,5 @@
+setup.py
+hauptai.egg-info/PKG-INFO
+hauptai.egg-info/SOURCES.txt
+hauptai.egg-info/dependency_links.txt
+hauptai.egg-info/top_level.txt
