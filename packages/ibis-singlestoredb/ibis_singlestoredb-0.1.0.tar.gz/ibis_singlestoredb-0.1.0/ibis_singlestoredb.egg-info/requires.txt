@@ -1,0 +1,3 @@
+ibis-framework<4.0.0dev,>=3.0.0
+singlestoredb
+sqlalchemy-singlestoredb
