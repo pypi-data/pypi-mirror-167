@@ -1,0 +1,9 @@
+global_entry_notifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+global_entry_notifier/__main__.py,sha256=D00CIBOwPtIntVIT4Ay8eCjV9vONypOYVxSXjKG-RPE,2377
+global_entry_notifier/constants.py,sha256=mJP6XnaFOHZ4QGp24qEBUu6AOB1C_k-0uHAOzZJz2co,760
+global_entry_notifier/notifier.py,sha256=fwSRdTdOTYLT6C7_7OlaZr8yRwG38KoSV6D-SCXTi0k,2690
+global_entry_notifier-0.2.0.dist-info/METADATA,sha256=zAdvRqaSVrPPGIS2yYIBt0gDxfH7OfrI0EIyj60Qknw,2466
+global_entry_notifier-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+global_entry_notifier-0.2.0.dist-info/entry_points.txt,sha256=Qw8xDaALAsNd3iGxw3vhdXLM7Fn6Q8oO4d2oQlUPdgM,78
+global_entry_notifier-0.2.0.dist-info/top_level.txt,sha256=aaEvA6duEsdrQ1b91Q_XTE8WigaEw2igNi6RgXr0cMk,22
+global_entry_notifier-0.2.0.dist-info/RECORD,,
