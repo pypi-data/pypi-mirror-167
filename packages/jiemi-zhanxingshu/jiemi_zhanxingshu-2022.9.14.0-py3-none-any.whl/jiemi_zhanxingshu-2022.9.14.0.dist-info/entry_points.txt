@@ -1,0 +1,4 @@
+[console_scripts]
+JiemiZhanxingshu = JiemiZhanxingshu.__main__:main
+jiemi-zhanxingshu = JiemiZhanxingshu.__main__:main
+
