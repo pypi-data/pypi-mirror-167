@@ -1,0 +1,14 @@
+flexidep/DependencyManager.py,sha256=uh3IVf3m_gKgLkgGJiOby0z89TASNXXW83HsTS9suSE,11476
+flexidep/__init__.py,sha256=CDfxgoVZuwcy5zYuikBLZYu8ILW98A_s0LrOFxWMHP0,171
+flexidep/cli.py,sha256=6tf4bTL1ZK-Fau9AWeKjHKDZdGmpMFisB9MnJI4IxPU,5376
+flexidep/config.py,sha256=1syB1d5uYpO4kUoIx42sh3k8hgshPqjR5l69ybaX0ws,738
+flexidep/core.py,sha256=XtTqObGQ-0kabcEEXmg7XAHKQMo5hAzjmVyU546_Lgw,1377
+flexidep/exceptions.py,sha256=EyNMWEdgT1aRRdYrOL9CbgUiPAOvUGese9NDIYwTQxk,344
+flexidep/gui.py,sha256=RdlQT0SvZRrLj0awj_JDbBLOpo_oFvKJD86c1wsKbG8,8346
+flexidep/installers.py,sha256=GPQQEYD2Z3gZ0IEGx59-WHmLlz84xqT1enRB-jRyTIU,2001
+flexidep/utils.py,sha256=309zhotO5EgRIXbTn20wYU_U0pVTeXO7wDeU8BIl3_w,369
+flexidep-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+flexidep-0.0.4.dist-info/METADATA,sha256=riSLdLbHahsvJtytlrBNO3hPLcLBnKvLKF0MwlKYqCI,5726
+flexidep-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flexidep-0.0.4.dist-info/top_level.txt,sha256=aSkAqYq1GyUEOplJB19YqqQyoz5q3OIXMBklfnQ-Gco,9
+flexidep-0.0.4.dist-info/RECORD,,
