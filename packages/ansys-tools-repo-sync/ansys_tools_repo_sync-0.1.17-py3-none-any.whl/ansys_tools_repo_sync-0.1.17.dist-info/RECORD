@@ -1,0 +1,8 @@
+ansys/tools/repo_sync/__init__.py,sha256=W3nCgqCdRNcifzVZgn_Knmb1EH6WhOlnFljj1s3UFiA,282
+ansys/tools/repo_sync/__main__.py,sha256=s9MWNhsEfK_byGRM1UbbJ3X2U5QpH9ngA-OVYOoOk7E,1621
+ansys/tools/repo_sync/repo_sync.py,sha256=dVyvaV12iQvsE4XxIlIMOItiT9oKSfhi5tYTfJ0RZrA,6492
+ansys_tools_repo_sync-0.1.17.dist-info/entry_points.txt,sha256=-6ZuSD8ofpd-u-Q9oDtzvdTMuPJAFc0Gw7TcYhBxo1U,68
+ansys_tools_repo_sync-0.1.17.dist-info/LICENSE,sha256=aiAPV9_1qWZPXJRYU5NjEny33a796pEdH0LX7tm1n5M,1062
+ansys_tools_repo_sync-0.1.17.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+ansys_tools_repo_sync-0.1.17.dist-info/METADATA,sha256=M2UBU9Ta7tp5-6UtaOf_ERGM-Mn-EGN0_v2QFqG1P74,3113
+ansys_tools_repo_sync-0.1.17.dist-info/RECORD,,
