@@ -1,0 +1,9 @@
+numpy
+tornado
+matplotlib
+Pillow
+scipy
+nodejs-bin
+requests
+tqdm
+psutil
