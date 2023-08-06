@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: pyslurmutils
+Version: 0.0.4a0
+Summary: SLURM utilities for Python
+Home-page: https://gitlab.esrf.fr/workflow/pyslurmutils/
+Author: ESRF
+Author-email: wout.de_nolf@esrf.fr
+License: MIT
+Project-URL: Source, https://gitlab.esrf.fr/workflow/pyslurmutils/
+Project-URL: Documentation, https://pyslurmutils.readthedocs.io/
+Project-URL: Tracker, https://gitlab.esrf.fr/workflow/pyslurmutils/issues/
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: doc
+License-File: LICENSE.md
+
+# pyslurmutils
+
+SLURM utilities for Python.
+
+## Demo
+
+Get an access token on rnice
+
+```bash
+export SLURM_TOKEN=$(scontrol token lifespan=3600)
+export SLURM_URL=...
+export SLURM_USER=...
+```
+
+Run some example jobs
+
+```bash
+python3 scripts/example.py
+```
+
+Run the tests (CI or locally)
+
+```bash
+python3 -m pytest .
+```
+
+When `SLURM_TOKEN`, `SLURM_URL` or `SLURM_USER` is missing it will mock
+the SLURM clients.
+
+## Execute a python function on SLURM
+
+### High-level API
+
+API mimics python's `concurrent.futures` API
+
+```python
+from pyslurmutils.futures import SlurmExecutor
+
+with SlurmExecutor(
+    url,
+    user_name,
+    token,
+    log_directory=log_directory,  # for log files
+    data_directory=data_directory,  # TCP when not provided
+) as pool:
+
+    future = pool.submit(sum, args=([1, 1],), pre_script="conda activate myenv")
+    assert future.result() == 2
+```
+
+### Low-level API
+
+```python
+from pyslurmutils.client.pyscript import SlurmPythonJobApi
+
+with SlurmPythonJobApi(
+        url,
+        user_name,
+        token,
+        log_directory=log_directory,  # for log files
+        data_directory=data_directory,  # TCP when not provided
+    ) as pyapi:
+
+    future = pyapi.spawn(sum, args=([1, 1],), pre_script="conda activate myenv")
+    job_id = future.job_id
+    try:
+        pyapi.wait_done(job_id)
+        pyapi.print_stdout_stderr(job_id)
+        assert pyapi.get_future(job_id).result() == 2
+    finally:
+        pyapi.clean_job_artifacts(job_id)
+```
