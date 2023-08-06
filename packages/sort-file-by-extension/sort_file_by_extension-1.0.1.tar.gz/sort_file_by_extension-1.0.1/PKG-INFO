@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sort_file_by_extension
+Version: 1.0.1
+Summary: Scrtip sort file by extension
+Home-page: https://github.com/gorandalex/Python-home-work
+Author: Andrii Horobets
+Author-email: flyingcircus@example.com
+License: MIT
+License-File: License
