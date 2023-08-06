@@ -1,0 +1,14 @@
+_diffcp.cpython-38-x86_64-linux-gnu.so,sha256=D2OeOSqYDur5ma2vUB8qg7b3ctkro9t7hQQ78D-PV7A,3250120
+Test_my_Pypi19127-1.0.21.dist-info/top_level.txt,sha256=JJQlhFrUfVJt9Gss7q0KCe41glpWmbK4wL82i3vtmfs,21
+Test_my_Pypi19127-1.0.21.dist-info/WHEEL,sha256=-ijGDuALlPxm3HbhKntps0QzHsi-DPlXqgerYTTJkFE,148
+Test_my_Pypi19127-1.0.21.dist-info/METADATA,sha256=mGZsTMSzk-NZZfpIiq6BQhu9lHqdtFJzMVDkWCqBiPI,472
+Test_my_Pypi19127-1.0.21.dist-info/RECORD,,
+Test_my_Pypi19127-1.0.21.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tests/test_cone_prog_diff.py,sha256=Eu3qP77Q2F7siCi898S_-gwdTWJ-_ZCIRz_UDWYuvFc,248
+tests/test_scs.py,sha256=t4BBsuQreTuxRuXfxE2dY5p-S74eTmBS80tSF71Z96U,140
+tests/test_ecos.py,sha256=wLkdbuI9ylD2AfxcvEPSi_vEorvGMF-cs_9dVbhHNzI,235
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffcp/cones.py,sha256=h7DDUFOfs3IGP9SIqpwdzoegLD0rTg39KNyYrWyYJDo,184
+diffcp/cone_program.py,sha256=Ppx4CpwE4M_660zyJEFS_oRXNmsb7LfLlLmy03LaSuY,323
+diffcp/utils.py,sha256=psQ9R986bwEZ4d9OAl44KjpHNgXmtoQK-Qr7Fnf8A50,125
+diffcp/__init__.py,sha256=uumOB5V7IhVddCLzC5PEPMnm7UerD1-DLFn8AdPPjhk,190
