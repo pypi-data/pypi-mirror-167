@@ -1,0 +1,8 @@
+memhole/__about__.py,sha256=u8eKHUq_F2VrHKxcVkF1T4wombCyreFCYTpiGrImn3k,105
+memhole/__init__.py,sha256=nHkVAhy3ajSxiZLjy6vPMSnoCOfHYpXIorUH_4TilBQ,143
+memhole/memhole.py,sha256=dgxPWEUGeI7iini8iD6z7L8FC_JWV3wBgjljFQtTSnU,1202
+memhole/memhole.so,sha256=cnfNCtLncAz31oIfTde-nfS6iKqVm7MC7tQlsECPajA,16720
+memhole-0.1.1.dist-info/METADATA,sha256=ZkNK2UI4oJe5D139XmBoBI0taY0yWGg_LhDIw3SUyL4,1394
+memhole-0.1.1.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+memhole-0.1.1.dist-info/licenses/LICENSE.txt,sha256=jnSRWapZ74TpyEi7Vw7ySRuirjBG740g1uh-73qgyZE,1097
+memhole-0.1.1.dist-info/RECORD,,
