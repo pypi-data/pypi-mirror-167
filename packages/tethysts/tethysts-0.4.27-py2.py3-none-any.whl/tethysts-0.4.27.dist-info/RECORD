@@ -1,0 +1,13 @@
+tethysts/__init__.py,sha256=AZ3hiqKwNlRgSg0TiFInaYn8ukZlDeBJU_ok1cmptHE,60
+tethysts/main.py,sha256=TEbAXc9YaGjDMiSuGfmXs2Ty8HHNe3qzd0xGoCA50SU,20280
+tethysts/utils.py,sha256=ea9TuV7V2OChTyrbMMoiAX3ZpDGu6VsrLsIbw1oVyKw,25122
+tethysts/datasets/__init__.py,sha256=viLNOXukbTGI2l2uta7Jtfm5DgrLuFMgCzLZ019MYyw,906
+tethysts/tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+tethysts/tests/test_tethysts.py,sha256=Ly2UIuLP9yRoOkGJ0h_8sh4DcVv1vYzHyN8i4dczw1M,3503
+tethysts/tests/utest_tethysts.py,sha256=e9wfUDHWoYAYeRJOIs53-Wz9eWfaYBV8ZczD3YDxTwQ,16252
+tethysts/tests/working.py,sha256=VfSCTRrqVoeQTMdL2jMuag3kx8_VkLkTKOXGnsak-q0,6567
+tethysts-0.4.27.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tethysts-0.4.27.dist-info/METADATA,sha256=9JgFQHMTEKLAKPU8zq_xyvXv_-CNs_OaQYjRf9qUz0s,792
+tethysts-0.4.27.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tethysts-0.4.27.dist-info/top_level.txt,sha256=2SeBumHaXukJ3vKP6eiFPjUtx8tmwOzhB0mIxRNW3c4,9
+tethysts-0.4.27.dist-info/RECORD,,
