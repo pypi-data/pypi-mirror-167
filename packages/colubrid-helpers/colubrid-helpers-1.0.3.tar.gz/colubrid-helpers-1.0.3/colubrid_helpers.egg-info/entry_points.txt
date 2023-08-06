@@ -1,0 +1,3 @@
+[console_scripts]
+colubrid = prueba:options_command
+
