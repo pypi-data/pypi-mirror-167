@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: marine
+Version: 0.0.5
+Summary: Marine: Multi-task learning based on Japanese accent estimation
+Author: Byeongseon Park
+Author-email: 6gsn.park@gmail.com
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: pyopenjtalk
+License-File: LICENSE
+
+## **MARINE** : **M**ulti-task lea**R**n**I**ng-based Japa**N**ese accent **E**stimation
+
+## Get started
+
+### Install
+
+```shell
+$ pip install marine
+```
+
+### For develop
+
+```shell
+$ pip install -e ".[dev]"
+```
