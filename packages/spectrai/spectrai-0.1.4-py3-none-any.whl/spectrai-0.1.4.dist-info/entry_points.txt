@@ -1,0 +1,5 @@
+[console_scripts]
+spectrai_apply = spectrai.apply:main
+spectrai_evaluate = spectrai.evaluate:main
+spectrai_preview = spectrai.preview:main
+spectrai_train = spectrai.train:main
