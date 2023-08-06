@@ -1,0 +1,24 @@
+
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "solpyb"
+version = "0.0.1"
+authors = [
+  { name="amor71", email="amor71@sgeltd.com" },
+]
+description = "Pythonic Bridge to Solana Programs"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/amor71/solpyb"
+"Bug Tracker" = "https://github.com/amor71/solpyb/issues"

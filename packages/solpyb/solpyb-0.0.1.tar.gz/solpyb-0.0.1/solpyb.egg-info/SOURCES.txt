@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+solpyb/__init__.py
+solpyb.egg-info/PKG-INFO
+solpyb.egg-info/SOURCES.txt
+solpyb.egg-info/dependency_links.txt
+solpyb.egg-info/top_level.txt
