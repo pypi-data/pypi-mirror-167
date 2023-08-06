@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pravo-api
+Version: 0.0.7
+Summary: Get Russian laws, federal and regional decrees.
+Author-email: Kirill Bondar <ironbondar@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
