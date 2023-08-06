@@ -1,0 +1,9 @@
+portmodmigrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+portmodmigrate/datadir.py,sha256=mEFC8uMBbISzxprNUHFa7zhT6qKlBmnreUhSHD3peLg,575
+portmodmigrate/migrate.py,sha256=yl6fyZViPd_Z3bZEc97nLZXN6RuHTAEuR_ww7LaO8PQ,14457
+portmodmigrate-0.2.2.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+portmodmigrate-0.2.2.dist-info/METADATA,sha256=QHSt48SKK5cuWVO7qvljC526dxtiyfvWtypTJa7Erz4,336
+portmodmigrate-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+portmodmigrate-0.2.2.dist-info/entry_points.txt,sha256=ER4VasO_ZXXla65ZT31BkBDsnBeLdPOBy7_ZhGkSbVk,63
+portmodmigrate-0.2.2.dist-info/top_level.txt,sha256=InO32mUspCFNF1FEHqOKQ20FFI-lf7M6ab6fVdNdzIw,15
+portmodmigrate-0.2.2.dist-info/RECORD,,
