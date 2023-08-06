@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-sheeptext
+Version: 0.1.0
+Summary: Render SheepText diagrams in Sphinx
+Author: Asim Ihsan
+Author-email: asim@ihsan.io
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Description-Content-Type: text/markdown
+
+
