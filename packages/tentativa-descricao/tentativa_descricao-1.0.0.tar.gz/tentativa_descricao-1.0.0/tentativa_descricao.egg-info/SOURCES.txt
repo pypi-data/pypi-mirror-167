@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+tentativa_descricao.egg-info/PKG-INFO
+tentativa_descricao.egg-info/SOURCES.txt
+tentativa_descricao.egg-info/dependency_links.txt
+tentativa_descricao.egg-info/not-zip-safe
+tentativa_descricao.egg-info/top_level.txt
+test_template/__init__.py

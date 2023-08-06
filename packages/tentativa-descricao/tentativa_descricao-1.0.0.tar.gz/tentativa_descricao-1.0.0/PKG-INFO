@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: tentativa_descricao
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Helder
+Author-email: helderprado@gmail.com
+License: MIT
+Description: # **Shapiro-Francia normality test**
+        
+        ## Description:
+        
+        The statistical test of Shapiro-Francia considers the squared correlation between the ordered sample values and the (approximated) expected ordered quantiles from the standard normal distribution. The p-value is computed from the formula given by Royston (1993).
+        
+        This function performs the Shapiro-Francia test for the composite hypothesis of normality, according to Thode Jr. (2002).
+        
+        ## **Install**
+        
+            pip install sfrancia
+        
+        ## **Usage**
+        
+            from sfrancia import shapiroFrancia
+            import pandas as pd
+        
+            df = pd.read_csv('fake_table.csv')
+        
+            # any array, series or list of numeric values
+            shapiroFrancia(df['column'])
+        
+        ---
+        
+        ## References:
+        
+        - Royston, P. (1993). A pocket-calculator algorithm for the Shapiro-Francia test for non-normality: an application to medicine. Statistics in Medicine, 12, 181-184.
+        - Thode Jr., H. C. (2002). Testing for Normality. Marcel Dekker, New York.
+        
+        
+Keywords: teste
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
