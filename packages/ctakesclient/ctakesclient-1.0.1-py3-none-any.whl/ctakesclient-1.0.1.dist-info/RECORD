@@ -1,0 +1,11 @@
+ctakesclient/__init__.py,sha256=bca2qkCfIc208zKPsqjInqA4v5LWOcPFk9RjpglcJWk,97
+ctakesclient/client.py,sha256=62QM8-nSVCpoPUjaUj97_X8SRu1UXF7gdG5P5gUgA7Y,1573
+ctakesclient/exceptions.py,sha256=C_e3Q0kYjC41Rd-4EOztpXElMqm3hMaJLbjYp2K-I3Q,759
+ctakesclient/filesystem.py,sha256=PHPro7Y8DQFCM-jhnjj7q7jlSZjjacFXVQ3fJ07NC0U,6223
+ctakesclient/transformer.py,sha256=vGZK5CW4A2w8Hh64ml6bRgoIM2JjkCAqFK28OeAiG8Q,2318
+ctakesclient/typesystem.py,sha256=_4wunl_NHNULFBoLgdDgj1qPvm8jaf4-wztFABeMgsA,9036
+ctakesclient-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ctakesclient-1.0.1.dist-info/METADATA,sha256=cOKcc3MDgl0dQqb7fEdTitsMk9gBH4lyprBIzkPlOz4,3491
+ctakesclient-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ctakesclient-1.0.1.dist-info/top_level.txt,sha256=yMCZ1q-fcTI8J65nGrXgc3-m4-CoaSnGFR_QkKSl5BI,13
+ctakesclient-1.0.1.dist-info/RECORD,,
