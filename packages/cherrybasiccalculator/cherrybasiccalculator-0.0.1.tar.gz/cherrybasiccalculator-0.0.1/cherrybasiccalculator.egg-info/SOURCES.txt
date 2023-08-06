@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+main.py
+setup.py
+cherrybasiccalculator.egg-info/PKG-INFO
+cherrybasiccalculator.egg-info/SOURCES.txt
+cherrybasiccalculator.egg-info/dependency_links.txt
+cherrybasiccalculator.egg-info/top_level.txt

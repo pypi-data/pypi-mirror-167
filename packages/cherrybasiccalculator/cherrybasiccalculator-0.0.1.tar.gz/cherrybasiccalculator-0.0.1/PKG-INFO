@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cherrybasiccalculator
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: 
+Author: Subham Kumar
+Author-email: kumarsubhambili3@gmail.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a very simple calculator which will take two numbers as input and then add, multiply, substract or divide them.
+
+Change Log
+============
+
+0.0.1 (13/09/2022)
+-------------------
+- First Release
