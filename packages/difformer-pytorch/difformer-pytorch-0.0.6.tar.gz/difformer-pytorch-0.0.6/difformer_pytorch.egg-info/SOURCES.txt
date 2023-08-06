@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+difformer_pytorch/__init__.py
+difformer_pytorch/difformer.py
+difformer_pytorch.egg-info/PKG-INFO
+difformer_pytorch.egg-info/SOURCES.txt
+difformer_pytorch.egg-info/dependency_links.txt
+difformer_pytorch.egg-info/requires.txt
+difformer_pytorch.egg-info/top_level.txt
