@@ -1,0 +1,14 @@
+vxbase/__init__.py,sha256=I8mlgMJsyEaM4zu_fgfQcSqdaSAFmWOhn8mqmxCENIs,140
+vxbase/compress.py,sha256=grcjI0jzJNOvxWjJ2m-lRkBneIK_uoEg1lomxBCKh2M,4303
+vxbase/fromenv.py,sha256=XwHfW7UMz6-Kl8mheeaeYmj4K_PwxuS9A2pNYbxN65k,715
+vxbase/generators.py,sha256=yuudYxhmbxIw7-3nty-tlK6OLh11UulE-O4cgN7XkKM,507
+vxbase/logger.py,sha256=il3Mb_JmnQt2RmOt2-9GSTIgp4Ru4-4uN2DmEd81H5U,1493
+vxbase/net.py,sha256=zEW9Exfa-k1fe6OUQAOt5AHEvNe4QJFFEHYwLWI8jpU,2832
+vxbase/version.py,sha256=Q6H45NOmbDwejbj_0rLEDkqAM6Lq8ALJ1DOe_jItPF0,764
+vxbase/vjson.py,sha256=WIq9bBZzRo04qsuOMgV7edIg39Har1Yb0ezb8Xd1je0,4396
+vxbase/vtypes.py,sha256=FhfW2flSMDbPoEnTIz62q2Sm2C4kougwE9GGCsidoU8,2123
+vxbase-0.0.9.dist-info/LICENSE,sha256=SG49B0KFQv7sCJiENv9r9J8J7aB4GDx4zcGpJJHXGLg,1475
+vxbase-0.0.9.dist-info/METADATA,sha256=1oEBNP26bX5896WYgZ7J8_PYAa_mc0V3p6m00lTfA3c,1047
+vxbase-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vxbase-0.0.9.dist-info/top_level.txt,sha256=nhaA5UgoXjnXPNYWDDvGyKGmRz3r4qXa1Qn_P73Yu5g,7
+vxbase-0.0.9.dist-info/RECORD,,
