@@ -1,0 +1,4 @@
+pymongo>=4.2.0
+python-dateutil>=2.8.2
+jmespath>=1.0.1
+edman>=2022.9.16
