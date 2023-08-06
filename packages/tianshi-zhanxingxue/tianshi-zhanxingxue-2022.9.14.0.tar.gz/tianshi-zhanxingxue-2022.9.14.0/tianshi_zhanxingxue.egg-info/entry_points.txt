@@ -1,0 +1,4 @@
+[console_scripts]
+TianshiZhanxingxue = TianshiZhanxingxue.__main__:main
+tianshi-zhanxingxue = TianshiZhanxingxue.__main__:main
+
