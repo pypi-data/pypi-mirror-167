@@ -1,0 +1,7 @@
+iot/edge/logger/__init__.py,sha256=mVmLAK21pJHLPaIyuDZXkv_FaWyq1hfd06dPh1GmtIQ,68
+iot/edge/logger/_logger.py,sha256=pege25gdEavWgJFWTr_3OHmAwUf2rJMNVI33Z0dIAk4,3582
+iot/edge/logger/_version.py,sha256=PhETDpYBXX6PEykytMEfBPeyeN9XCI7obM_4ZDr4lTA,41
+iot_edge_logger-1.0.6.dist-info/METADATA,sha256=PStKwgT1_pj6Tb1EMzX8U0zMTq-2ysWT2FVoEc52Sw4,3222
+iot_edge_logger-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+iot_edge_logger-1.0.6.dist-info/top_level.txt,sha256=GrFBYwTe_zimcbxQb9lowAJUNeDArWJA0esDNiSx9Kw,4
+iot_edge_logger-1.0.6.dist-info/RECORD,,
