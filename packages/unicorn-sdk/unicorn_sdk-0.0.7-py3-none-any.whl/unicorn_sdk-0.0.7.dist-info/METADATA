@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: unicorn-sdk
+Version: 0.0.7
+Summary: Python Sdk for UnicornAIO API
+Requires-Python: >=3.7
+Requires-Dist: brotli
+Requires-Dist: loguru
+Requires-Dist: httpx
+
