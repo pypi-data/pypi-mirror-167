@@ -1,0 +1,18 @@
+[
+  "tests/test_cli.py::test_cli_get_note_by_title",
+  "tests/test_cli.py::test_cli_get_note_by_title_exists_false",
+  "tests/test_cli.py::test_cli_get_note_by_title_with_read_notes_specific_files",
+  "tests/test_cli.py::test_cli_get_note_by_title_with_read_notes_specific_files_exists_false",
+  "tests/test_notebook.py::test_get_note_by_title",
+  "tests/test_notebook.py::test_get_note_by_title_exists_false",
+  "tests/test_notebook.py::test_init",
+  "tests/test_notebook.py::test_not_directory_error",
+  "tests/test_notebook.py::test_notes",
+  "tests/test_notebook.py::test_read_notes",
+  "tests/test_notebook.py::test_read_notes_full_dir",
+  "tests/test_notebook.py::test_read_notes_specific_files",
+  "tests/test_notes.py::test_get_note_id",
+  "tests/test_notes.py::test_get_note_title",
+  "tests/test_notes.py::test_note_repr",
+  "tests/test_notes.py::test_unicode_decode_error"
+]
