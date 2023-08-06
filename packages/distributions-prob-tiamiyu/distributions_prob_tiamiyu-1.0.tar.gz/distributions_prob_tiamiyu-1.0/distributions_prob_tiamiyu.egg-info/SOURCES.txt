@@ -1,0 +1,10 @@
+setup.py
+distributions_prob_tiamiyu/Binomialdistribution.py
+distributions_prob_tiamiyu/Gaussiandistribution.py
+distributions_prob_tiamiyu/Generaldistribution.py
+distributions_prob_tiamiyu/__init__.py
+distributions_prob_tiamiyu.egg-info/PKG-INFO
+distributions_prob_tiamiyu.egg-info/SOURCES.txt
+distributions_prob_tiamiyu.egg-info/dependency_links.txt
+distributions_prob_tiamiyu.egg-info/not-zip-safe
+distributions_prob_tiamiyu.egg-info/top_level.txt
