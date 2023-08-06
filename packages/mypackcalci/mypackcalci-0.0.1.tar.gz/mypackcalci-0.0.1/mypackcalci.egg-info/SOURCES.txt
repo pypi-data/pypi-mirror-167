@@ -1,0 +1,8 @@
+Licence.txt
+MANIFEST.in
+setup.py
+mypackcalci/__init__.py
+mypackcalci.egg-info/PKG-INFO
+mypackcalci.egg-info/SOURCES.txt
+mypackcalci.egg-info/dependency_links.txt
+mypackcalci.egg-info/top_level.txt
