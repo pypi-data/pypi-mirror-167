@@ -1,0 +1,8 @@
+README.rst
+setup.py
+send_msg_slack/__init__.py
+send_msg_slack/slack.py
+send_msg_slack.egg-info/PKG-INFO
+send_msg_slack.egg-info/SOURCES.txt
+send_msg_slack.egg-info/dependency_links.txt
+send_msg_slack.egg-info/top_level.txt
