@@ -1,0 +1,4 @@
+[console_scripts]
+XuanzeYuKaishi = XuanzeYuKaishi.__main__:main
+xuanze-yu-kaishi = XuanzeYuKaishi.__main__:main
+
