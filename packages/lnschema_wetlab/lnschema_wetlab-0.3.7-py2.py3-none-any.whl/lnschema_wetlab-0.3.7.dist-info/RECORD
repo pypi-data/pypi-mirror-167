@@ -1,0 +1,8 @@
+lnschema_wetlab/__init__.py,sha256=hhmCL--xLzcRZEHB6GT1Em2SFuLYHFv-1cVTzH8XocA,923
+lnschema_wetlab/_biosample.py,sha256=m3RIkUGODMrkcpsio5JIU2FwDWOCiEhVbtIvGL5snrc,933
+lnschema_wetlab/_core.py,sha256=7d3JOJ8lzWksqrhgXfUtvPS05vuAeHVyuWRg1GUf_Zg,2537
+lnschema_wetlab/_techsample.py,sha256=DTTqjEMZ9TgkuN-wacBrPY6etkHoOIzXB7ODKwhbd0I,478
+lnschema_wetlab-0.3.7.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+lnschema_wetlab-0.3.7.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+lnschema_wetlab-0.3.7.dist-info/METADATA,sha256=pFoHJqCYcUV2ZUFUQLZqu0s4kM1PIz26le7RyIfKij4,910
+lnschema_wetlab-0.3.7.dist-info/RECORD,,
