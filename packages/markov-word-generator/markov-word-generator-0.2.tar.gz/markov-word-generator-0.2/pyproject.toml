@@ -1,0 +1,22 @@
+[project]
+name = "markov-word-generator"
+version = "0.2"
+authors = [
+  { name="Gaetan GOUZI", email="gouzi.gaetan@gmail.com" },
+]
+description = "A small Python librairy to generate random credible words based on a list of words by esimating the probability of the next character from the frequency of the previous ones"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ggouzi/markov-word-generator"
+"Bug Tracker" = "https://github.com/ggouzi/markov-word-generator/issues"
+
+[tool.setuptools]
+py-modules = ['markov_word_generator']
