@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: betterdata
+Version: 22.0.4
+Summary: a lib for working with data
+Project-URL: Homepage, https://github.com/gmankab/betterdata
+Project-URL: Documentation, https://github.com/gmankab/betterdata
+Project-URL: Bug Tracker, https://github.com/gmankab/betterdata/issues
+Author-email: gmanka <gmankab@gmail.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: easyselect
+Requires-Dist: gmanka-yml
+Requires-Dist: rich
+Description-Content-Type: text/markdown
+
+# BetterData
+
+a lib for working with data
