@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vqc
+Version: 0.0.1
+Summary: Quantum Virtual Machine
+License: Apache Version 2.0
+Author: Nathaniel Tornow
+Author-email: nathaniel.tornow@tum.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: networkx (>=2.8.6,<3.0.0)
+Requires-Dist: qiskit (>=0.37.2,<0.38.0)
+Requires-Dist: sortedcontainers (>=2.4.0,<3.0.0)
