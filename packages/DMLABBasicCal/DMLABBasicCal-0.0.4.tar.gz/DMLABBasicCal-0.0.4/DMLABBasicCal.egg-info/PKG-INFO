@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: DMLABBasicCal
+Version: 0.0.4
+Summary: A very basic function that used python wrapped C++ calculators (ADD and SUB)
+Home-page: 
+Author: Ayush Kanyal
+Author-email: kanyal.lavi@gmail.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is just a testrun, trying to use pip install command to get the import ready python wrapped C++ calculators.
+
+Change Log
+============
+
+0.0.1 (9/14/2022)
+-----------------
+- First Release
+
+0.0.2 (9/14/2022)
+-----------------
+-Bug fix
+
+0.0.3 (9/14/2022)
+-----------------
+-Bug fix
+
+0.0.4 (9/14/2022)
+-----------------
+-Bug fix
