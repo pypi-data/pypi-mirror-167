@@ -1,0 +1,11 @@
+fastcore
+pandas
+numpy
+matplotlib
+seaborn
+missingno
+
+[dev]
+jupyter
+black
+nbdev
