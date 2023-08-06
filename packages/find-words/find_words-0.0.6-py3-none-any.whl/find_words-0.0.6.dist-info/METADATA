@@ -1,0 +1,12 @@
+Metadata-Version: 2.0
+Name: find-words
+Version: 0.0.6
+Summary: 텍스트 파일에서 키워드 찾는 함수
+Home-page: https://github.com/pypa/sampleproject
+Author: 김병주
+Author-email: atker14@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+
