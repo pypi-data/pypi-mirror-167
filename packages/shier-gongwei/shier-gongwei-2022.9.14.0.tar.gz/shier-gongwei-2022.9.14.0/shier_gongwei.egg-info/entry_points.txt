@@ -1,0 +1,4 @@
+[console_scripts]
+ShierGongwei = ShierGongwei.__main__:main
+shier-gongwei = ShierGongwei.__main__:main
+
