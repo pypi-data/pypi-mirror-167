@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta" 
+[project]
+name = "nucle.cloud"
+version = "0.0.4"
+authors = [
+  { name="Nucle Cloud", email="contact@nucle.cloud" },
+]
+description = "The official Python library for Nucle Cloud service."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+keywords = ["cloud","nucle","service","python","nucle.cloud","authentication","leaderboard","backend","restful","API","unity3d","unreal","godot"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+ "requests"
+]
+ 
+
+[project.urls]
+"Homepage" = "https://nucle.cloud"
+"Documentation" = "https://nucle.cloud/documentation/python"
+"Repository" = "https://github.com/nuclecloud/python"
+"Bug Tracker" = "https://github.com/nuclecloud/python/issues"
+
