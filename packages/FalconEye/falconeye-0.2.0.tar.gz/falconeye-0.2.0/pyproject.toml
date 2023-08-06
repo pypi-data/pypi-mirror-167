@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FalconEye"
+version = "0.2.0"
+authors = [
+  { name="Mathieu Sherburne", email="mathieusherburne@outlook.com" },
+]
+description = "Toolset for Data Exploration"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/msherburne/FalconEye"
