@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: file-plus-plus
+Version: 1.0.0
+Summary: file-plus-plus!!!
+
+exemple:
+```python
+from __init__ import *
+put_file("hello.txt", "w", data="hello!")
+print(get_file("hello.txt"))
+```
+
+
