@@ -1,0 +1,12 @@
+typetree/__init__.py,sha256=lvcpOGwDFP5xAqI_whNfS1HKOJguESDs5u6IJ-hfGis,167
+typetree/ico.py,sha256=rIa2DB_slletdpZsplL3lmpKssdVc_4BN-DqC1Txzrg,2244
+typetree/typetree.py,sha256=lW1yJJyECariO0TBloxh-1FCQYco8fdboklJIMIWOwY,31618
+typetree/viewer.py,sha256=dgx1mvj_iucW2-VfLO2x6nKx7H6ydzfm8VN_VBpCzCY,26220
+typetree/icons/icon.ico,sha256=9aobpGHrqgn0XcZf0-DRSLQZYbcKSt4IiCgDKx1Sl0c,548
+typetree/icons/minus.ico,sha256=T9hT5FuITkJ4ZLN1IXOFHJPnJKNW2-UhosV8KLlVsbQ,310
+typetree/icons/plus.ico,sha256=MsknzX3b-7GMdWLksfFrj7D2M_54HPwZhZxF99zBqDg,324
+typetree-0.1.2.dist-info/LICENSE.txt,sha256=C7u7IO_wAGQ-Vo5mYAUELdBBd1w6qU19u4yFJAZtu-Q,924
+typetree-0.1.2.dist-info/METADATA,sha256=70t-ulqeiN45gU4b-X5Mxqe1OvX2MtqJADdhUjnSDlY,9556
+typetree-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+typetree-0.1.2.dist-info/top_level.txt,sha256=ALau60I9mhUKjHnMGel_gxnfGCBr1GENewe-igBjiE0,9
+typetree-0.1.2.dist-info/RECORD,,
