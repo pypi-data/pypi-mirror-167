@@ -1,0 +1,3 @@
+[console_scripts]
+tfrelease = tfrelease.__main__:main
+
