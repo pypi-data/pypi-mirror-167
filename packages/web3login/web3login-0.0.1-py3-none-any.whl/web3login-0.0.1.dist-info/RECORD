@@ -1,0 +1,14 @@
+web3login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web3login/auth.py,sha256=HFDCcOcplUK05KQCpDmc5OGaDl7Qd9M5dgxIr6ro5fM,5016
+web3login/cli.py,sha256=rbQDmiHHahubduLX97gAQ3OyyNF9Ed3G8JWqYxm3-T4,3597
+web3login/exceptions.py,sha256=sP-bXM0EjI-cl9NampYLfXdAmmFRaNLDv4sRALmXZRY,229
+web3login/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web3login/version.py,sha256=P5S-GiN_EXKk8HeTrIOEhR5m_J4uITHTYot1Sa-q6YU,234
+web3login/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web3login/middlewares/fastapi.py,sha256=TdXhsQO8Qm3P83b5oNWT_SORgDkPcmXTk_KWv7Ya4yY,4619
+web3login-0.0.1.dist-info/LICENSE,sha256=OKJUovYyU7KHd8lHyUR4YmBb2FZw1uqsQFLZXrNKBWI,1070
+web3login-0.0.1.dist-info/METADATA,sha256=RE8yavshkXNtqcWqK1Z1CNvGCWHUKFcKTnBYo88w930,1405
+web3login-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+web3login-0.0.1.dist-info/entry_points.txt,sha256=Rt9KaRcmowakOCK4hNt6EzClVV3RWtKjKaH5PrMGcXU,50
+web3login-0.0.1.dist-info/top_level.txt,sha256=bJVLl3iq7o3Gc-cVO7qzDFhX-KKwnA60LXngve2UsBE,10
+web3login-0.0.1.dist-info/RECORD,,

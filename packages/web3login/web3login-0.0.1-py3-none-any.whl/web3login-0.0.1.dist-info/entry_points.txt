@@ -1,0 +1,3 @@
+[console_scripts]
+web3login = web3login.cli:main
+
