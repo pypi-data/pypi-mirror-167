@@ -1,0 +1,4 @@
+[console_scripts]
+MujizheWenhuaZhinanZhanxingshu = MujizheWenhuaZhinanZhanxingshu.__main__:main
+mujizhe-wenhua-zhinan-zhanxingshu = MujizheWenhuaZhinanZhanxingshu.__main__:main
+
