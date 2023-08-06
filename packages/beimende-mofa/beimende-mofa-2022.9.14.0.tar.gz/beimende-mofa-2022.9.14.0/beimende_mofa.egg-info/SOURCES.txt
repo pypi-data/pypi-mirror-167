@@ -1,0 +1,12 @@
+README.md
+setup.py
+BeimendeMofa/README.md
+BeimendeMofa/__init__.py
+BeimendeMofa/__main__.py
+BeimendeMofa/file.pdf
+BeimendeMofa/index.html
+beimende_mofa.egg-info/PKG-INFO
+beimende_mofa.egg-info/SOURCES.txt
+beimende_mofa.egg-info/dependency_links.txt
+beimende_mofa.egg-info/entry_points.txt
+beimende_mofa.egg-info/top_level.txt

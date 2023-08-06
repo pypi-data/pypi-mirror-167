@@ -1,0 +1,4 @@
+[console_scripts]
+BeimendeMofa = BeimendeMofa.__main__:main
+beimende-mofa = BeimendeMofa.__main__:main
+
