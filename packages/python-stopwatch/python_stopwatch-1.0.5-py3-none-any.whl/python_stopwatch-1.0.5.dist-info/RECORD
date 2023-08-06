@@ -1,0 +1,11 @@
+stopwatch/__init__.py,sha256=w1zA8bmeDpDU32aF3dNmA16An-mGJcMxoogYt3tTZKc,126
+stopwatch/statistics.py,sha256=9VPVR88EDM8bu2w6GU-u8YpjqcigAeNdUruoaHFJViU,840
+stopwatch/stopwatch.py,sha256=mACdzUndhwmhbToDZej6X6Ijj7lCgZng1ovksztsc9Q,2445
+stopwatch/contextmanagers/__init__.py,sha256=v6gNocWx97iUnZXu0SuwlrMFiedpkIqurkT6U_FUm40,522
+stopwatch/contextmanagers/profile.py,sha256=4pJT-7dexORqQrCJd3N95Ny1SaOvQyf_dazZNBumwzM,1977
+stopwatch/contextmanagers/stopwatch.py,sha256=vau6RdhA5KaieuFiVYtz4PMMhuXYNmxQldwCvKLQX0o,1057
+python_stopwatch-1.0.5.dist-info/LICENSE,sha256=C84odDHJYUCEkcPHUwbw-GhKBONm14MmbrP4Mi5gHqs,1071
+python_stopwatch-1.0.5.dist-info/METADATA,sha256=rueDisUGWac-jWDpra0IRWMquh5HzLe_AsMI4TSJpjw,4826
+python_stopwatch-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_stopwatch-1.0.5.dist-info/top_level.txt,sha256=ei2Rs_s6EQEKrRuFNo4brvoNd8lwsXc8jZtMrRMtJDw,10
+python_stopwatch-1.0.5.dist-info/RECORD,,
