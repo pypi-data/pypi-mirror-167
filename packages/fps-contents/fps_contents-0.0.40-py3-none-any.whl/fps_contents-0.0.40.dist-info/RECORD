@@ -1,0 +1,10 @@
+fps_contents/__init__.py,sha256=LN8bIhixrnWU-XxZ_p68pToEF3ZR5cqJUqJ3UoorzAc,23
+fps_contents/models.py,sha256=F7ThvjMtGDkQMZzXcQFhN52DEdTKbinM9ys62fU9l7g,673
+fps_contents/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fps_contents/routes.py,sha256=Ui83KCfKI5yQUdZ3--G9ac90PuHrWJBaT0u-FFfnaWo,9024
+fps_contents/watchfiles.py,sha256=jUMR8i5KvNNaEnfpt37IWhfCFUas79RTT04fXiOXo9k,38
+fps_contents-0.0.40.dist-info/METADATA,sha256=4usvWhzgX7YsmPGb3dXp0vHzYH_n-ACxqzujqbBThKw,513
+fps_contents-0.0.40.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+fps_contents-0.0.40.dist-info/entry_points.txt,sha256=PczrhGLIHkQ180Trt8Ay7f6H22GZsE6giQnvUj_h8Wc,48
+fps_contents-0.0.40.dist-info/licenses/COPYING.md,sha256=mhO0ZW9EiWOPg0dUgB-lNbJ0CGwRmTdbeAg_se1SOnY,2833
+fps_contents-0.0.40.dist-info/RECORD,,
