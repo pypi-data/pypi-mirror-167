@@ -1,0 +1,8 @@
+README.md
+setup.py
+Anyside.egg-info/PKG-INFO
+Anyside.egg-info/SOURCES.txt
+Anyside.egg-info/dependency_links.txt
+Anyside.egg-info/top_level.txt
+anyside/__init__.py
+anyside/main.py
