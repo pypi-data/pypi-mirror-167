@@ -1,0 +1,2 @@
+lz4
+sinetstream>=1.7.0
