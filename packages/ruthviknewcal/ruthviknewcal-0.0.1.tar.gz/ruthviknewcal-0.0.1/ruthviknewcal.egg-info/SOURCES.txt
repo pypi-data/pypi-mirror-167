@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+mypackagecalci/__init__.py
+ruthviknewcal.egg-info/PKG-INFO
+ruthviknewcal.egg-info/SOURCES.txt
+ruthviknewcal.egg-info/dependency_links.txt
+ruthviknewcal.egg-info/top_level.txt
