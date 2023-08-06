@@ -1,0 +1,12 @@
+picmistandard/__init__.py,sha256=gUKOiaPVDoACkcP-QHWcTMqQF6BxqepE4z6O5An-NDw,172
+picmistandard/applied_fields.py,sha256=RVpu_5g_Y8dsmI7yyz5K5owz3-evrMFvx5bBo5kTNl0,5685
+picmistandard/base.py,sha256=Ei6ldfK1OxeBCalB6sNzlj5dfOtNM1rbtNNNYgPlnN0,7917
+picmistandard/diagnostics.py,sha256=2mPEMmIJZkh3Mgp-dt6_ehoqxGic4FlNivLUl_rNM5g,10356
+picmistandard/fields.py,sha256=yu3M6sw511HR3N6VbZ5k5g0-nKHdPgcA3nUr6jit4tg,50287
+picmistandard/lasers.py,sha256=gn7gS9F1XbvMgFSF9IKMAeajMaxuwfNsOmmHTeoiVhU,7772
+picmistandard/particles.py,sha256=9_8azlVp_IH03pVwgLbVBmqr_6DvHgE2B1UYybBOs9k,19760
+picmistandard/simulation.py,sha256=W6o_7TGC9CEPu6b06HP_uBBVuP2my2VH9hsR9Zu_03A,7790
+picmistandard-0.0.20.dist-info/METADATA,sha256=Mpn2MMRnYQGH8ZUY-UaIKD5oSDd2RAFphMJAoQzBjKE,231
+picmistandard-0.0.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+picmistandard-0.0.20.dist-info/top_level.txt,sha256=od5aYXYerxvZoGNrdvcAafof5XXWkllqPl0bcLi2dI0,14
+picmistandard-0.0.20.dist-info/RECORD,,
