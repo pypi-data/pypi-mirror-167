@@ -1,0 +1,13 @@
+LICENSE
+README.md
+_version.py
+setup.cfg
+setup.py
+versioneer.py
+./bin/scusage
+scusage.egg-info/PKG-INFO
+scusage.egg-info/SOURCES.txt
+scusage.egg-info/dependency_links.txt
+scusage.egg-info/not-zip-safe
+scusage.egg-info/requires.txt
+scusage.egg-info/top_level.txt
