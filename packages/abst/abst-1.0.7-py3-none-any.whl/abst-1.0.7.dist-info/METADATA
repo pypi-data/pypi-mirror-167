@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: abst
+Version: 1.0.7
+Summary: CLI Command making OCI Bastion simple and fast
+Home-page: https://github.com/jiri-otoupal/abst
+Author: Jiri Otoupal
+Author-email: jiri-otoupal@ips-database.eu
+License: Apache 2.0
+Keywords: Auto OCI Bastion
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: black (==22.*) ; extra == 'dev'
+
+# Auto Bastion
+
+Manage your bastion sessions automatically without
+pain of creating them by clicking and copy pasting commands
+
