@@ -1,0 +1,2 @@
+[console_scripts]
+gcpfwup = update_firewall_ip:main
