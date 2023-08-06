@@ -1,0 +1,10 @@
+prestapyt/__init__.py,sha256=lKknSzVNDIHs7_tijVMhLMMSJ6WrUJ_qjcasozLyuKM,194
+prestapyt/dict2xml.py,sha256=brAAUCKiSWjtM_HvnnYrEQjyShmc_9dXLnzr0y9BfkU,9531
+prestapyt/prestapyt.py,sha256=6UuMWExcYtUHe6MKL35IC1CcUohjhRl2ZSKZBnyRG5Q,27545
+prestapyt/version.py,sha256=yj9ZhZNeLIAbnZ_CN9IA3_-hqTd5CYl9GAiIbo6WUMA,360
+prestapyt/xml2dict.py,sha256=yxykFuJGNn3Llh060StfHYGea-Dw4B-jjGoE6oVb7-4,4806
+prestapyt_flachica-0.0.0.dist-info/LICENSE,sha256=DwctSg71nn9oZLtFYpw3QXzO9jAltY9AcxCdHIMLxV8,34447
+prestapyt_flachica-0.0.0.dist-info/METADATA,sha256=1OS3c400yasga9QUGrHkMY-58JLBr8BMhgf9inJrF3E,5261
+prestapyt_flachica-0.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+prestapyt_flachica-0.0.0.dist-info/top_level.txt,sha256=0EItgky8RhRGtCL8KReVy0IHaJkahdLBmXsgHR63KZ0,10
+prestapyt_flachica-0.0.0.dist-info/RECORD,,
