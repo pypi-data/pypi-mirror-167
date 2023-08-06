@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+docsy/__main__.py
+docsy.egg-info/PKG-INFO
+docsy.egg-info/SOURCES.txt
+docsy.egg-info/dependency_links.txt
+docsy.egg-info/entry_points.txt
+docsy.egg-info/requires.txt
+docsy.egg-info/top_level.txt
+docsy/sample/README.md
+docsy/sample/__config__.yml
+docsy/sample/requirements.txt
