@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: canopto
+Version: 1.0.2
+Summary: canopto is a tool to sync course files and videos from the Canvas LMS hosted by the National University of Singapore(NUS).
+Home-page: https://github.com/theresurgence/canopto
+Author: Atticus T
+Author-email: theresurgence2@proton.me
+License: GPLv3
+Keywords: canopoto canvas panopto nus
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
