@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: morty-portal-gun
+Version: 1.0.0b0
+Summary: 
+Author: Test
+Author-email: Test@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Morty Portal Gun
+
+Test Project

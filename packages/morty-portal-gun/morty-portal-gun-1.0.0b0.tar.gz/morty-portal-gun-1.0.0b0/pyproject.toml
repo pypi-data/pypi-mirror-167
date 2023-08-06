@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "morty-portal-gun"
+version = "1.0.0-beta"
+description = ""
+authors = ["Test <Test@example.com>"]
+readme = "README.md"
+packages = [{include = "morty_portal_gun"}]
+
+[tool.poetry.scripts]
+morty-portal-gun = "morty_portal_gun.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.6.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
