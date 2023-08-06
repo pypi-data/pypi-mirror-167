@@ -1,0 +1,4 @@
+[console_scripts]
+ShierXingzuoLianaiZhinan = ShierXingzuoLianaiZhinan.__main__:main
+shier-xingzuo-lianai-zhinan = ShierXingzuoLianaiZhinan.__main__:main
+
