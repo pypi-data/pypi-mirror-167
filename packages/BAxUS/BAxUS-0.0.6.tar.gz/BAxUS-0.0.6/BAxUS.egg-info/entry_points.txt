@@ -1,0 +1,2 @@
+[console_scripts]
+benchmark-runner = baxus.util.console_entry_point:bench
