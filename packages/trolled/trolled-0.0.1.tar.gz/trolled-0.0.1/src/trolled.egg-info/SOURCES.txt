@@ -1,0 +1,9 @@
+license
+pyproject.toml
+setup.cfg
+src/trolled/__init__.py
+src/trolled/main.py
+src/trolled.egg-info/PKG-INFO
+src/trolled.egg-info/SOURCES.txt
+src/trolled.egg-info/dependency_links.txt
+src/trolled.egg-info/top_level.txt
