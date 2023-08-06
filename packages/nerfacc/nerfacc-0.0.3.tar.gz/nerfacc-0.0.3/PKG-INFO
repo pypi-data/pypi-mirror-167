@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nerfacc
+Version: 0.0.3
+Author-email: Ruilong <ruilongli94@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Provides-Extra: docs
+License-File: LICENSE
