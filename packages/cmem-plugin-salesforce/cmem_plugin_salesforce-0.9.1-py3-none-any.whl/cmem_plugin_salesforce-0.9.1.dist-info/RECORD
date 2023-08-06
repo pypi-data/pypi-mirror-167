@@ -1,0 +1,9 @@
+cmem_plugin_salesforce/__init__.py,sha256=QR1QzVfc1ia0Huhjq8VD7lAOndR49YMhlODAa_RBhO0,1697
+cmem_plugin_salesforce/helper/__init__.py,sha256=M1E4fzqAg8-iFeFDTKXuNHv5tJ3b-BNA8CFOzy9wzzU,302
+cmem_plugin_salesforce/workflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmem_plugin_salesforce/workflow/operations.py,sha256=u-MnYv9Mls2HeT-IcNyBdc0cobKQ2kutv-oqGFXdcfs,8311
+cmem_plugin_salesforce/workflow/soql_query.py,sha256=CJAAMeWaFjwmqX8AqMkgN8-Mt6Gryg0DECvUbnP79nA,6570
+cmem_plugin_salesforce-0.9.1.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_salesforce-0.9.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+cmem_plugin_salesforce-0.9.1.dist-info/METADATA,sha256=2fiEFmRDjqwVeylwj_5eBuUfyQC9zN7GZIqDSbXwLhY,1263
+cmem_plugin_salesforce-0.9.1.dist-info/RECORD,,
