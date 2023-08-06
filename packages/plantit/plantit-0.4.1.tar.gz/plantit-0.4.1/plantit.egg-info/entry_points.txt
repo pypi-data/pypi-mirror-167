@@ -1,0 +1,3 @@
+[console_scripts]
+plantit = plantit.cli:cli
+

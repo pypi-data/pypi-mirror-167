@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+plantit.egg-info/PKG-INFO
+plantit.egg-info/SOURCES.txt
+plantit.egg-info/dependency_links.txt
+plantit.egg-info/entry_points.txt
+plantit.egg-info/requires.txt
+plantit.egg-info/top_level.txt
