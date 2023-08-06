@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pixqrcodegen
+Version: 0.2
+Summary: Gera a Payload do PIX e o QR Code
+Home-page: https://github.com/Alexsussa/pixqrcodegen
+Author: Alex Pinheiro
+License: MIT
+Keywords: qrcode,payload,qrcode-generator,pix,pix-payload-generator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.6
+License-File: LICENSE.txt
