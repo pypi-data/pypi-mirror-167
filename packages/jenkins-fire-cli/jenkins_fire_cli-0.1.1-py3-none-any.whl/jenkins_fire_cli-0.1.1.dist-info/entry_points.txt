@@ -1,0 +1,3 @@
+[console_scripts]
+jenkins-fire-cli=jenkins_fire_cli.main:main
+
