@@ -1,0 +1,199 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://www.livejourney.com/">
+    <img src="https://www.livejourney.com/wp-content/uploads/2021/06/cropped-logo-livejourney-frenchtech.png" alt="Logo" width="300" height="86">
+  </a>
+
+  <h3 align="center">Live Journey API Client</h3>
+
+  <p align="center">
+    A Client to interact with Live journey API easily
+    <br />
+    <a href="https://public-api.livejourney.io/api/v1/docs/"><strong>Explore the API docs</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#cli">CLI</a></li>    
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+### Prerequisites
+
+In order to login the client you will have to authenticate yourself via your API KEY. If you don't have/lost your api key please contact our tech team at api@livejourney.com in order to generate a new one.
+
+### Installation
+
+Install and update using pip:
+```
+    pip install -U lj-api-client
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+The client allows you to build request in a more convinient way thus speed up your integration with the live journey app.
+```
+# Init client
+from lj_api_client import Client
+
+api_key = '{YOUR API KEY HERE}'
+client = Client(api_key)
+
+# Get current user
+res = client.users.fetch_list() 
+
+# List workspaces
+res = client.workspaces.fetch_list()
+
+# Get specific worksapce
+workspace_id = '{WORKSPACE_ID}'
+res = client.workspaces.fetch_item(workspace_id)
+
+# List workspace cards
+workspace_id = '{WORKSPACE_ID}'
+res = client.workspaces.cards(workspace_id).fetch_list()
+
+# Get specific card
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+res = client.workspaces.cards(workspace_id).fetch_item(card_id)
+
+# Create new card
+workspace_id = '{WORKSPACE_ID}'
+# Card data see our API Docs for in depth specification
+card_data = {
+    'name': 'my-new-card',
+    'unit_name': 'Unit',
+    'permission': 'public',
+    'key_mapping': {
+        'unit_key': '{YOUR UNIT KEY}',
+        'date_format': '{YOUR DATE FORMAT}',
+        'event_keys':[
+            '{YOUR EVENT KEY}',
+        ],
+        'date_keys':[
+            '{YOUR DATE KEY}',
+        ],        
+    }
+}
+res = client.workspaces.cards(workspace_id).create_item(card_data)
+
+# Update card
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+card_new_data = {
+    'name': 'new-name'
+}
+res = client.workspaces.cards(workspace_id).update_item(
+        card_id,
+        card_new_data
+    )
+
+# Delete card
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+res = client.workspaces.cards(workspace_id).delete(card_id)
+
+# Get card presigned url
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+params = {'data_type': 'log'}
+res = client.workspaces.cards(workspace_id).presigned_url(card_id).fetch_list(params=params)
+
+# Feed card
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+res = client.workspaces.cards(workspace_id).feed(card_id).create_item({})
+
+```
+
+The client also validate the requests via its higher level API
+```
+res = client.get_user()
+
+res = client.get_workspaces()
+
+workspace_id = '{WORKSPACE_ID}'
+res = client.get_workspace(workspace_id)
+
+workspace_id = '{WORKSPACE_ID}'
+res = client.get_cards(workspace_id)
+
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+res = client.get_card(workspace_id, card_id)
+
+workspace_id = '{WORKSPACE_ID}'
+card_data = {
+    'name': 'my-new-card3',
+    'unit_name': 'Unit',
+    'permission': 'public',
+    'key_mapping': {
+        'unit_key': '{YOUR UNIT KEY}',
+        'date_format': '{YOUR DATE FORMAT}',
+        'event_keys':[
+            '{YOUR EVENT KEY}',
+        ],
+        'date_keys':[
+            '{YOUR DATE KEY}',
+        ],        
+    }
+}
+res = client.create_card(workspace_id, card_data)
+
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+res = client.update_card(workspace_id, card_id, card_new_data)
+
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+res = client.delete_card(workspace_id, card_id)
+
+workspace_id, card_id = '{WORKSPACE_ID}', '{CARD_ID}'
+log_file_path, desc_file_path = '{LOG DATA FILE PATH}', '{DESC DATA FILE PATH}'
+res = client.upload_data_to_card(
+  workspace_id, 
+  card_id, 
+  log_file_path, 
+  desc_file_path=desc_file_path
+)
+```
+
+For more examples, please refer to the examples directory
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## CLI
+You can also interact with the API directly from the terminal using our CLI. See the interactive doc `ljcli --help` for more infos.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+api@livejourney.com
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lj-api-client"
+version = "0.1.1"
+description = "API client for Livejourney App"
+authors = ["Livejourney <api@livejourney.com>"]
+readme = "README.md"
+packages = [{include = "lj_api_client"}]
+
+[tool.poetry.scripts]
+ljcli = "lj_api_client.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+pydantic = "^1.10.2"
+typer = {extras = ["all"], version = "^0.6.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
