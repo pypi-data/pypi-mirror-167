@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pystep7
+Version: 0.1.1
+Summary: A Python Step7 library for communicating with Siemens PLCs.
+Home-page: https://github.com/NothinRandom/pystep7
+Author: Tri Quach
+Author-email: nothinrandom@gmail.com
+License: MIT
+Requires-Python: >=3.7.0
+License-File: LICENSE
