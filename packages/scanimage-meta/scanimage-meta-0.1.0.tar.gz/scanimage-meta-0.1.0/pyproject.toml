@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "scanimage-meta"
+version = "0.1.0"
+description = "\"Provides a more convenient and object oriented wrapper for the metadata coming from Scannimagetiffreader\""
+authors = ["Joe Donovan <joe311@gmail.com>"]
+license = "AGPL-3.0"
+readme = "README.md"
+packages = [{include = "scanimage_meta"}]
+exclude = ["dev/*"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+scanimage-tiff-reader = "^1.4.1"
+numpy = ">=1.19"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

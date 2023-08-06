@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: scanimage-meta
+Version: 0.1.0
+Summary: "Provides a more convenient and object oriented wrapper for the metadata coming from Scannimagetiffreader"
+License: AGPL-3.0
+Author: Joe Donovan
+Author-email: joe311@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: scanimage-tiff-reader (>=1.4.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+Nicer metadata format wrapper for scanimage tif reader:
+https://pypi.org/project/scanimage-tiff-reader/
+
+Provides more convenient and object oriented access 
+
+Current status: 
+    Works, but not thouroughly tested 
+
+
+
+Example:
+
+meta = ScanimageMeta.fromfilepath('scanimagetif.tif')
+print(meta.SI.hRoiManger.scanFrameRate)
+
