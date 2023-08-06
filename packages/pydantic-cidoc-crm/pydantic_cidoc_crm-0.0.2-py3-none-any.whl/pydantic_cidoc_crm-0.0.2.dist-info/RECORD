@@ -1,0 +1,7 @@
+pydantic_cidoc_crm/__init__.py,sha256=Jyp7Ep4mZf7DNJRNQEcU9XK0Fed8Cvuqnfg84RMsRD4,89
+pydantic_cidoc_crm/abstract_basemodel.py,sha256=8YZWGraTJr7pK0b0tzDmxcch88Ftay_Usw58XRC__A4,2757
+pydantic_cidoc_crm/cidoc_crm.py,sha256=tsxhZVukbrcMa4ac3SjXhxiyU8sG7X9b-X81a-0dqqs,34445
+pydantic_cidoc_crm/mapping.py,sha256=vz3KlFh4zpw5w6rxjXiTk7ROAqsqMgkkFqkYF95Afzw,36797
+pydantic_cidoc_crm-0.0.2.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+pydantic_cidoc_crm-0.0.2.dist-info/METADATA,sha256=R54XXIc5Qf7KGYidqcsc1PjbmVjURDyrAg09AGPKVks,4447
+pydantic_cidoc_crm-0.0.2.dist-info/RECORD,,
