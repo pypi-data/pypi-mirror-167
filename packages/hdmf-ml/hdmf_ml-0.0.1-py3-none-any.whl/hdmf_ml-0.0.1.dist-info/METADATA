@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hdmf-ml
+Version: 0.0.1
+Summary: A package for using the HDMF-ML schema
+Home-page: https://github.com/hdmf-dev/hdmf-ml
+Author: Andrew Tritt
+Author-email: ajtritt@lbl.gov
+License: BSD
+Keywords: python microbiome microbial-taxonomy cross-platform open-data data-format open-source open-science reproducible-research machine-learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: hdmf
+Requires-Dist: scikit-learn
+
+# HDMF-ML - an HDMF schema for machine learning workflows
+
+![Endurable Schema](schema.png)
+
+
