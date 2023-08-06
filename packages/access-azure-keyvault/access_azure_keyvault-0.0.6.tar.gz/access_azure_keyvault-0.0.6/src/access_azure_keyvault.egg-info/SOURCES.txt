@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/access_azure_keyvault/__init__.py
+src/access_azure_keyvault/__main__.py
+src/access_azure_keyvault/_aak.py
+src/access_azure_keyvault.egg-info/PKG-INFO
+src/access_azure_keyvault.egg-info/SOURCES.txt
+src/access_azure_keyvault.egg-info/dependency_links.txt
+src/access_azure_keyvault.egg-info/requires.txt
+src/access_azure_keyvault.egg-info/top_level.txt
