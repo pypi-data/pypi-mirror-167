@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/andreani_aa_tools.egg-info/PKG-INFO
+src/andreani_aa_tools.egg-info/SOURCES.txt
+src/andreani_aa_tools.egg-info/dependency_links.txt
+src/andreani_aa_tools.egg-info/top_level.txt
