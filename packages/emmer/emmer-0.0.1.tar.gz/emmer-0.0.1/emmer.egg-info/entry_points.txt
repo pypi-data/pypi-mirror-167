@@ -1,0 +1,2 @@
+[console_scripts]
+emmer = emmer.main:main
