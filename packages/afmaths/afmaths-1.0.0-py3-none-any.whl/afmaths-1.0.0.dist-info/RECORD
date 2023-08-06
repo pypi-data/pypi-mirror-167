@@ -1,0 +1,10 @@
+afmaths/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afmaths/afmaths.py,sha256=BcV6-NHSLI_n9kxniWPzpVBeV4TJGUyIvge8bgiafBs,2547
+afmaths/cs.py,sha256=S9vYg4xiEBR1itRoFzORTsqGD6-geC0GxJsufHBH_qI,2791
+afmaths/graphs.py,sha256=-0cHyFVsw5WRWOrCepq1xZltlcjWOxe6Vc7I77sgZQw,900
+afmaths/lists.py,sha256=YzRBLgfP_8pM72qtoFkxErncE6nR_hYMFtivd0OVukY,1692
+afmaths/physics.py,sha256=lH2TlK9groxKz-FUezcQCty1FpwKkPXDrs66XTVUq0s,2455
+afmaths-1.0.0.dist-info/METADATA,sha256=e-GV4Zqfyom7iO6fXpoGn4jsrtOhgdW3NU2_980jBxU,2750
+afmaths-1.0.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+afmaths-1.0.0.dist-info/licenses/LICENSE,sha256=zxt17rI0zJzA6JxLOltpvWVXADaP-zkkYrtNQLM8vGo,1090
+afmaths-1.0.0.dist-info/RECORD,,
