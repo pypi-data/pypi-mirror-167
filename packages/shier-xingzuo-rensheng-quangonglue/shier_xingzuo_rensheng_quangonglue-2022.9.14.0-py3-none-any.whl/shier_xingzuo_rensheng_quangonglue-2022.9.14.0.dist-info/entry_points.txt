@@ -1,0 +1,4 @@
+[console_scripts]
+ShierXingzuoRenshengQuangonglue = ShierXingzuoRenshengQuangonglue.__main__:main
+shier-xingzuo-rensheng-quangonglue = ShierXingzuoRenshengQuangonglue.__main__:main
+
