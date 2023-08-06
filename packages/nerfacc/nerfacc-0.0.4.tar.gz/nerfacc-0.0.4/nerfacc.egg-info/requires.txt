@@ -1,0 +1,14 @@
+ninja>=1.10.2.3
+pybind11>=2.10.0
+torch>=1.12.1
+rich>=12
+
+[dev]
+black
+isort
+
+[docs]
+furo==2022.4.7
+sphinx==4.5.0
+sphinx-copybutton==0.5.0
+sphinx-design==0.2.0
