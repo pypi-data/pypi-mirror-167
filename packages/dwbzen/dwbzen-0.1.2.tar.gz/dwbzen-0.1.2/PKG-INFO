@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dwbzen
+Version: 0.1.2
+Summary: Music and Math package including MarkovChain generation from text and music source, and production
+Home-page: https://github.com/dwbzen/dwbzen
+Author: Don Bacon
+Author-email: dwbzen@gmail.com
+Maintainer: Donald Bacon
+Maintainer-email: dwbzen@gmail.com
+License: MIT
+Keywords: markov chain text music
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# dwbzen
+dwbzen has python implementations of some of the classes in my github projects:
+
+* [commonlib](https://github.com/dwbzen/commonlib) : math classes including Markov Chains,
+and utilities/classes used by other projects.
+
+* [text-processing](https://github.com/dwbzen/text-processing) : Generates text using Markov chains, 
+and part-of-speech (POS) patterns from POS word files Part Of Speech Database 
+
+* [music_framework](https://github.com/dwbzen/music-framework) : A Java framework encapsulating musical structure, 
+notation and theory for purposes of composition and analysis. 
+
+dwbzen includes the following sub-packages:
+## common
+
+## text
+
+## music
+
+
+I used [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write content.
+
