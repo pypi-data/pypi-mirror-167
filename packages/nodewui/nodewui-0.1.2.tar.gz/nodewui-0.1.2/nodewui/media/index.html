@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   " http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	
+<html xmlns = "http://www.w3.org/1999/xhtml" lang = "en" xml:lang = "en">
+   <head>
+      <title>Blockchain Info</title>
+      <meta http-equiv = " Content-Type" content = " text/html; charset = utf-8" />
+      <script type = " text/javascript">
+
+
+        // Using document.URL can sometimes causes hash symbol to be 
+        // inserted and wrong url will resutl in no response from API
+
+        // API url
+        const url = document.URL + 'get' + '?method='
+        
+        // Provide url and method and get data as list
+        async function data_list(url, method) {
+            console.log(url+method);
+            let obj = await (await fetch(url+method)).json();
+            let text = "";
+                    for (let x in obj.result) {
+                    text += '<li>' + '<b>' + x + '</b>' + ':' + obj.result[x] + '</li>';
+                    }
+            document.getElementById("info_section").innerHTML = text;
+        }
+        
+        // Provide url, method and lable and show the output with the label
+        async function labled_single_output(url, method, label) {
+            console.log(url+method);
+            let obj = await (await fetch(url+method)).json();
+            document.getElementById("info_section").innerHTML = '<b>'+  label + '</b>: '+ obj.result 
+        }
+
+        // Function for getpeerinfo method as it requires special output formatting
+        async function getpeerinfo(url, method) {
+            console.log(url+method);
+            let obj = await (await fetch(url+method)).json();
+            let text = "";
+            for (let x in obj.result) {
+                text += '<li>' + '<b>' + x + '</b>' + ':' + obj.result[x].addr + '<b> version </b>'+ obj.result[x].subver + '</li>';
+            }
+            document.getElementById("info_section").innerHTML = text
+        }
+        
+
+        // Function for last_transactions with special formatting
+        async function last_transactions(url,method) {
+            console.log(url+method);
+            let obj = await (await fetch(url+method)).json();
+            let text = "";
+            var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+
+                    for (let x in obj.result) {
+                        var d = new Date(0);
+                        //~ d = obj.result[x]["time"]
+                        var epoch_time = obj.result[x]["time"]
+                        d.setUTCSeconds(epoch_time);
+                        //~ console.log("date.now " + Date.now())
+                        //~ console.log("epoch_time " + epoch_time)
+                        now = Math.floor(Date.now()/1000)
+                        //~ console.log("now " + now)
+                        var diffTime = Math.abs(now - epoch_time );
+                        //~ console.log("diffTime " + diffTime)
+                        const seconds = Math.ceil(diffTime / 60);
+                    text += ('<li>' + '<b>' + x + '</b>' + ':' +
+                            '<b> TxId: </b>'+ obj.result[x]["txid"] +
+                            '<b> amount: </b>'+ obj.result[x]["amount"] +
+                            '<b> time: </b>'+ d.toLocaleString("en-US") +
+                            '<b> Minutes: </b>'+ seconds + '</li>');
+                    }
+            document.getElementById("info_section").innerHTML = text;
+        }
+        
+        // fucntion to set URL
+        //~ function setURL() {
+            //~ window.url = document.getElementById('textbox1').value;
+            //~ }
+      </script>
+		
+   </head>
+   <body>
+      <h1 id = "title">Blockchain Info</h1>
+      <form id = " formtest" action = " #" method = " post">
+            </form>
+
+<!--
+            Section for input textbox
+            <Label> API URL</Label>
+            <form>
+            <input type="text" name="textbox1" id="textbox1" />
+            Putting type="button" is very important or it will redirect and fail
+            see https://stackoverflow.com/questions/932653/how-to-prevent-buttons-from-submitting-forms
+            <button type="button" id="test_btn" onclick="setURL()">cool</button> 
+-->
+
+            
+            <label for = " name">Select an option: </label>
+            </br>
+            </br>
+
+            <button onclick="data_list(url, 'getblockchaininfo')">BlockChain Information</button> 
+            <button onclick="last_transactions(url, 'listtransactions')">Last Transactions</button> 
+            <button onclick="labled_single_output(url, 'getbalance', 'balance')">getbalance</button> 
+            <button onclick="getpeerinfo(url, 'getpeerinfo')">getpeerinfo</button> 
+            <button onclick="labled_single_output(url, 'getnewaddress', 'address')">getnewaddress</button> 
+
+            </br>
+            </br>
+            Results:
+            <p id="info_section"></p>
+         </p>
+      </form>
+   </body>
+	
+</html>
