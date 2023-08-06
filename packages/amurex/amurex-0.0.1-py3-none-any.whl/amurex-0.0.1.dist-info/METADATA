@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: amurex
+Version: 0.0.1
+Home-page: https://github.com/skelsec/amurex
+Author: Tamas Jos
+Author-email: info@skelsecprojects.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: cryptography (>=2.5)
+Requires-Dist: unicrypto (>=0.0.9)
+Requires-Dist: asysocks (>=0.2.2)
+Requires-Dist: asyauth (>=0.0.3)
+Requires-Dist: prompt-toolkit (>=3.0.20)
+
