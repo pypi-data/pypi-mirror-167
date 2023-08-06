@@ -1,0 +1,4 @@
+[console_scripts]
+ZhihuiNvshendeZhengheli = ZhihuiNvshendeZhengheli.__main__:main
+zhihui-nvshende-zhengheli = ZhihuiNvshendeZhengheli.__main__:main
+
