@@ -1,0 +1,6 @@
+celery
+Django
+djangorestframework
+lxml==4.6.5
+core-main-app==2.0.0-beta2
+xml-utils==1.18.*
