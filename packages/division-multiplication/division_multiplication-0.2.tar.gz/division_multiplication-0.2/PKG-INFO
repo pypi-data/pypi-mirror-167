@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: division_multiplication
+Version: 0.2
+Summary: Division and Multiplication by three updated
+Home-page: UNKNOWN
+Author: Love Kadiya
+Author-email: love.kadiya@acquaintsoft.com
+License: UNKNOWN
+Description: Learn how to publish packages on PyPI !
+        
+        Motivation:
+        
+        The package is intended as a learning material.
+        The user will learn how to publish Python packages on PyPI.
+        For full description of all methods in the package, go through the docstring inside the .py files.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
