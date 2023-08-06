@@ -1,0 +1,15 @@
+odoo/addons/base_iso3166/README.rst,sha256=uTK7FMzmufRuMWtVZdPYrLiD41k8w5kjDXc7AePn0lQ,1859
+odoo/addons/base_iso3166/__init__.py,sha256=WFTYAoZF37HO5d_b2TnBh25jDFjqkPaUOqmTsOZaM1g,115
+odoo/addons/base_iso3166/__manifest__.py,sha256=3HR9DtkNcnQeGtmxej4UKU4yr9WlYFoCtS561b79zsI,685
+odoo/addons/base_iso3166/i18n/base_iso3166.pot,sha256=J2UYlU-wA-LrSNzaKI2HosuZE1trBHpYBDJic3J6kVM,1100
+odoo/addons/base_iso3166/models/__init__.py,sha256=S8JsgQ3UuFUdaBEAZwhzMFuR0L5qECqBbiznzHeIRHk,120
+odoo/addons/base_iso3166/models/res_country.py,sha256=RH_3DLU0oPuWDaryLDACJBGtIsJfxiGBOoPytxRXmME,1999
+odoo/addons/base_iso3166/static/description/icon.png,sha256=B3cBfU8PuTCDs1FfYypratFu5mctT5jn-gH4ELUYPLE,5831
+odoo/addons/base_iso3166/static/description/icon.svg,sha256=qqowtbXNugiWspfcdC9aF7mAON4SdbhAniNXHsOsDQ0,99507
+odoo/addons/base_iso3166/tests/__init__.py,sha256=5d8_bS5o597-jDnssrPlwwlbTjPQT_ftPn1tQ6lB_aY,121
+odoo/addons/base_iso3166/tests/test_iso3166.py,sha256=wkNFiT8O-tcPV_BmY4OErZXOcG0pvxeaohdjxjEghUU,375
+odoo/addons/base_iso3166/views/country_view.xml,sha256=dX5BHO8BDLHdLbYUKHnxHbVe5DssmDGUQBEJxpprpYg,1098
+odoo11_addon_base_iso3166-11.0.1.0.1.dist-info/METADATA,sha256=mobVlOK-fd_taSSIcIIkxjuFszITKVd6fvOzWicHM9Q,2468
+odoo11_addon_base_iso3166-11.0.1.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+odoo11_addon_base_iso3166-11.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_base_iso3166-11.0.1.0.1.dist-info/RECORD,,
