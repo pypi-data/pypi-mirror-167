@@ -1,0 +1,8 @@
+README.md
+setup.py
+spotiparser/__init__.py
+spotiparser/spotiparser.py
+spotiparser.egg-info/PKG-INFO
+spotiparser.egg-info/SOURCES.txt
+spotiparser.egg-info/dependency_links.txt
+spotiparser.egg-info/top_level.txt
