@@ -1,0 +1,9 @@
+LICENSE
+README.md
+anidl.py
+setup.py
+anidl.egg-info/PKG-INFO
+anidl.egg-info/SOURCES.txt
+anidl.egg-info/dependency_links.txt
+anidl.egg-info/entry_points.txt
+anidl.egg-info/top_level.txt
