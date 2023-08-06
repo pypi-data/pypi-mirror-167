@@ -1,0 +1,177 @@
+# Copyright (C) 2022 The Software Heritage developers
+# See the AUTHORS file at the top-level directory of this distribution
+# License: GNU General Public License version 3, or any later version
+# See top-level LICENSE file for more information
+
+import base64
+
+import pytest
+
+from swh.model.model import ObjectType
+
+from . import utils
+from ..data import (
+    get_contents,
+    get_directories,
+    get_releases,
+    get_releases_with_target,
+    get_revisions,
+)
+
+
+@pytest.mark.parametrize("release", get_releases())
+def test_get_release(client, release):
+    query_str = (
+        """
+    {
+      release(swhid: "%s") {
+        swhid
+        name {
+          text
+          base64
+        }
+        message {
+          text
+        }
+        author {
+          email {
+            text
+          }
+          name {
+            text
+          }
+          fullname {
+            text
+          }
+        }
+        date
+        targetType
+      }
+    }
+    """
+        % release.swhid()
+    )
+    data, _ = utils.get_query_response(client, query_str)
+
+    assert data["release"] == {
+        "swhid": str(release.swhid()),
+        "name": {
+            "text": release.name.decode(),
+            "base64": base64.b64encode(release.name).decode("ascii"),
+        },
+        "message": {"text": release.message.decode()},
+        "author": {
+            "email": {"text": release.author.email.decode()},
+            "name": {"text": release.author.name.decode()},
+            "fullname": {"text": release.author.fullname.decode()},
+        }
+        if release.author
+        else None,
+        "date": release.date.to_datetime().isoformat() if release.date else None,
+        "targetType": release.target_type.value,
+    }
+
+
+def test_get_release_with_invalid_swhid(client):
+    query_str = """
+    {
+      release(swhid: "swh:1:rel:invalid") {
+        swhid
+      }
+    }
+    """
+    errors = utils.get_error_response(client, query_str)
+    # API will throw an error in case of an invalid SWHID
+    assert len(errors) == 1
+
+
+@pytest.mark.parametrize("release_with_target", get_releases_with_target())
+def test_get_release_targets(client, release_with_target):
+    query_str = """
+    {
+      release(swhid: "%s") {
+        targetType
+        target {
+          ...on Revision {
+            swhid
+          }
+          ...on Release {
+            swhid
+          }
+          ...on Directory {
+            swhid
+          }
+          ...on Content {
+            swhid
+          }
+        }
+      }
+    }
+    """
+    data, _ = utils.get_query_response(client, query_str % release_with_target.swhid())
+
+    if release_with_target.target_type == ObjectType.REVISION:
+        target_swhid = get_revisions()[0].swhid()
+    elif release_with_target.target_type == ObjectType.RELEASE:
+        target_swhid = get_releases()[0].swhid()
+    elif release_with_target.target_type == ObjectType.DIRECTORY:
+        target_swhid = get_directories()[0].swhid()
+    elif release_with_target.target_type == ObjectType.CONTENT:
+        target_swhid = get_contents()[0].swhid()
+    assert data["release"] == {
+        "targetType": release_with_target.target_type.value,
+        "target": {"swhid": str(target_swhid)},
+    }
+
+
+def test_get_release_target_unknown(client):
+    # Clinet can request all the possible options if the target type
+    # is unknown. The data under the right type will be returned
+
+    # The target is of type Revision in this case
+    # ie: both swhid and message will be available in the response
+    swhid = get_releases_with_target()[0].swhid()
+    query_str = """
+    {
+      release(swhid: "%s") {
+        targetType
+        target {
+          ...on Revision {
+            swhid
+            message {
+              text
+            }
+          }
+          ...on Release {
+            swhid
+          }
+          ...on Directory {
+            swhid
+          }
+          ...on Content {
+            swhid
+          }
+        }
+      }
+    }
+    """
+    data, _ = utils.get_query_response(client, query_str % swhid)
+    assert data["release"] == {
+        "target": {
+            "message": {"text": "hello"},
+            "swhid": str(get_revisions()[0].swhid()),
+        },
+        "targetType": "revision",
+    }
+
+
+def test_get_release_with_unknown_swhid(client):
+    unknown_sha1 = "1" * 40
+    query_str = """
+    {
+      release(swhid: "swh:1:rel:%s") {
+        swhid
+      }
+    }
+    """
+    utils.assert_missing_object(client, query_str % unknown_sha1, "release")
