@@ -1,0 +1,3 @@
+[console_scripts]
+btlmp = btlmp.__main__:main
+
