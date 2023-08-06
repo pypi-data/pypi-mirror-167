@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: codewithgpu
+Version: 0.1.0
+Summary: CodeWithGPU Python Client
+Home-page: https://github.com/seetacloud/codewithgpu
+Author: SeetaCloud
+License: Apache License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: protobuf (<=3.20.1,>=3.9.1)
+Requires-Dist: opencv-python
+Requires-Dist: flask
+Requires-Dist: gradio
+
+# CodeWithGPU
+
+## Installation
+
+### Install From Source
+
+Clone this repository to local disk and install:
+
+```bash
+cd codewitgpu && python setup.py install
+```
+
+### Install From Git
+
+You can also install it from remote repository: 
+
+```bash
+pip install git+ssh://git@github.com/seetacloud/codewithgpu.git
+```
+
+## Quick Start
+
+### Deploy Image Inference Application
+
+See [Example: Image Inference](examples/image_inference.py).
+
+### Use Record Dataset To Accelerate Data Loading
+
+See [Example: Record Dataset](examples/record_dataset.py).
+
+### Model Benchmarks
+
+See [Doc: Model Benchmarks](benchmarks/models/README.md).
+
+## License
+[Apache License 2.0](LICENSE)
+
+
