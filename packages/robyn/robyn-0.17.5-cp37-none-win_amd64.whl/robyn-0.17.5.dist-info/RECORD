@@ -1,0 +1,17 @@
+robyn-0.17.5.dist-info/METADATA,sha256=A8LAzMW7Vvm1XptJNrPWBhGlopKiYEATgDzv6C1lk4k,5902
+robyn-0.17.5.dist-info/WHEEL,sha256=KPRzZu2U0PORW9zLiko6LJswdLgugS6yfQ0XWwGl2GM,96
+robyn-0.17.5.dist-info/license_files/LICENSE,sha256=KXLWBzY2Jds4V6rXFrMA7GJwJkccyQSHLX8LP6RAH5w,1348
+robyn/argument_parser.py,sha256=3NsFDRMuac5_5V2Eetc1mkmuBKZNbV4nrWINLQckBK4,1661
+robyn/dev_event_handler.py,sha256=_xpEXGfbrYEVUVE5V30i9AW_XWFEoWJUsPuE7K2zo60,935
+robyn/events.py,sha256=poqHWavCIHrtKFWDhjPpQPP7JKGntno2Ld9C10OVSTo,100
+robyn/log_colors.py,sha256=MzYZYuqgkRgsaVluP8ZZjPfnRHa0Ktdv4kBmhDF01qI,236
+robyn/processpool.py,sha256=lnWY7X85fXBIel4zDzX1iE7vqoEmVdu91CwfqkjIwHM,3685
+robyn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robyn/responses.py,sha256=tN01o7QZQrzAEr0EWmmPzNyRkAIaCTOnKOI2kGnXsa4,621
+robyn/robyn.pyi,sha256=DY1R3TADYs9j_zLGwWDZhrkARu_2QvRGFIPrmyxdZSo,1488
+robyn/router.py,sha256=uLW-HUHOkhQdbUubTnnvTQ6oLrCsqx8xE03fVRzls1g,4626
+robyn/test-requirements.txt,sha256=u8p3rXhQgmEPQs4FjJmYn2RBIUCTtPmbsvTyWcNFra8,120
+robyn/ws.py,sha256=Z_ShxOz_BwRcHPCyUhZxAtNPY5XeRUVEPK3Dg3-bSAg,1069
+robyn/__init__.py,sha256=T846wu6qHPanbVIbZzEYSQBh3dMRIBM4jm_jgyIgfRE,9580
+robyn/robyn.pyd,sha256=_kHByweQ8rqVSZs-RG3dySvBgjTYYNDBTaa-LHYos5c,7000576
+robyn-0.17.5.dist-info/RECORD,,
