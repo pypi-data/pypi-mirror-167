@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sod4onnx/__init__.py
+sod4onnx/__main__.py
+sod4onnx/onnx_model_output_deleter.py
+sod4onnx.egg-info/PKG-INFO
+sod4onnx.egg-info/SOURCES.txt
+sod4onnx.egg-info/dependency_links.txt
+sod4onnx.egg-info/entry_points.txt
+sod4onnx.egg-info/top_level.txt
