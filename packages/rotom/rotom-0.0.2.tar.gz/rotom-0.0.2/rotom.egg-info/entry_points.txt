@@ -1,0 +1,2 @@
+[console_scripts]
+rotom = rotom.__main__:main

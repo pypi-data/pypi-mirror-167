@@ -1,0 +1,7 @@
+cowsay
+mousse
+typer
+
+[all]
+
+[common]
