@@ -1,0 +1,16 @@
+numpy>=1.10
+
+[doc]
+sphinx
+sphinx-rtd-theme
+ipykernel
+
+[plot]
+numdifftools
+matplotlib
+
+[test]
+pytest
+pytest-benchmark
+pre-commit
+types-setuptools
