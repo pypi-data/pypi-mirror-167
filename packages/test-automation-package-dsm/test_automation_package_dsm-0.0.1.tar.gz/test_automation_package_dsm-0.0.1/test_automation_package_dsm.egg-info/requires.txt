@@ -1,0 +1,3 @@
+easygui==0.98.3
+selenium==4.4.3
+chromedriver-py~=105.0.5195.52

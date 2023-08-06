@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+test_automation_package_dsm/__init__.py
+test_automation_package_dsm.egg-info/PKG-INFO
+test_automation_package_dsm.egg-info/SOURCES.txt
+test_automation_package_dsm.egg-info/dependency_links.txt
+test_automation_package_dsm.egg-info/requires.txt
+test_automation_package_dsm.egg-info/top_level.txt
