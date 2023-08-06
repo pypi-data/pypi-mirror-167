@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ManualSorter.egg-info/PKG-INFO
+ManualSorter.egg-info/SOURCES.txt
+ManualSorter.egg-info/dependency_links.txt
+ManualSorter.egg-info/requires.txt
+ManualSorter.egg-info/top_level.txt
+mansort/__init__.py
+mansort/mansort.py
