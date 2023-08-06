@@ -1,0 +1,17 @@
+COPYING.LESSER.md
+COPYING.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+short-readme.md
+yaecs/__init__.py
+yaecs/config.py
+yaecs/config_history.py
+yaecs/config_utils.py
+yaecs/user_utils.py
+yaecs.egg-info/PKG-INFO
+yaecs.egg-info/SOURCES.txt
+yaecs.egg-info/dependency_links.txt
+yaecs.egg-info/requires.txt
+yaecs.egg-info/top_level.txt
