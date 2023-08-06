@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "watchdogman"
+version = "0.0.1"
+authors = [
+  { name="Seth Jensen", email="sjensen85@gmail.com" },
+]
+description = "A basic python-only file watcher with events"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "watchdog"
+]
+dynamic = [
+  "entry-points"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sjensen85/watchdogman"
+"Bug Tracker" = "https://github.com/sjensen85/watchdogman/issues"

@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/watchdogman/__init__.py
+src/watchdogman/config.py
+src/watchdogman/console.py
+src/watchdogman/event.py
+src/watchdogman/logger.py
+src/watchdogman.egg-info/PKG-INFO
+src/watchdogman.egg-info/SOURCES.txt
+src/watchdogman.egg-info/dependency_links.txt
+src/watchdogman.egg-info/entry_points.txt
+src/watchdogman.egg-info/requires.txt
+src/watchdogman.egg-info/top_level.txt
