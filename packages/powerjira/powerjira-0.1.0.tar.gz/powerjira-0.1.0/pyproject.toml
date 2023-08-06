@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "powerjira"
+version = "0.1.0"
+description = "A succinct local jira control plane that can live in your text editor. Run jql, author issues and more!"
+authors = ["sleepyboy <anthonybenchyep@gmail.com>"]
+license = "GNU GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+jira = "^3.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
