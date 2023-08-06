@@ -1,0 +1,9 @@
+snapbatch/__init__.py,sha256=S9oOauHYZMC1ugtkBRxPjySghuOllEvzjWlT440Dl0g,28
+snapbatch/cli.py,sha256=11JLvFYD8KYpERzzkZSip1fMXJwLcau9ew5lLdsV8oI,1773
+snapbatch/tools.py,sha256=0LYbTheUad0cnRCu_Qmufq88-Seed8CzTewN0niZAF4,3572
+snapbatch-0.3.1.data/scripts/snapbatch_purge,sha256=PQVxZlmJkz4-iKFMu8zKbxvwmpcGR1--xZbr9jjQlio,497
+snapbatch-0.3.1.dist-info/METADATA,sha256=dkL-ohKTZSVelypaW1FjB4pmOQZM2uujXs9wQ9qWQ60,1692
+snapbatch-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snapbatch-0.3.1.dist-info/entry_points.txt,sha256=64bjcNozCTqQFimjzJdKpJVT6yAaTd012t35wV5EIn0,126
+snapbatch-0.3.1.dist-info/top_level.txt,sha256=S6wI5brDgFsRVZ0pdLaLJQh5nxeRCx0AEUwN_vHKCDI,10
+snapbatch-0.3.1.dist-info/RECORD,,
