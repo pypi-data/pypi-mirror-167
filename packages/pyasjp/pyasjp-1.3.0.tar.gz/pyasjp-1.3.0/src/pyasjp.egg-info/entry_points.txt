@@ -1,0 +1,3 @@
+[console_scripts]
+asjp = pyasjp.__main__:main
+
