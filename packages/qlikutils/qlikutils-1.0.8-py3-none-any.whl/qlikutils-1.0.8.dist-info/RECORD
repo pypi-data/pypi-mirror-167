@@ -1,0 +1,9 @@
+qlik/__init__.py,sha256=NND_6JDYnYnGzN3-RTpS5F7wzv62vDf7hAxiyTSBJfE,22
+qlik/__main__.py,sha256=6ImIZlbTx1DwLBtfZCMqFA1oTkCOKq-zomssI_8WDNk,941
+qlik/utils.py,sha256=ZI7p03Phdi3blcxIBgvhK8E9Deebc8Kh9CylYvcKgxs,1132
+qlik/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlikutils-1.0.8.dist-info/LICENSE,sha256=ab-Q0DepK9knbq16F7cq8U_hy1PK1Jg7VSXeNkqNydM,1063
+qlikutils-1.0.8.dist-info/METADATA,sha256=08zWBpy0CCaMAg6B0Fu2zX7ylFrWAe-gj-jKTJPeVPA,354
+qlikutils-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qlikutils-1.0.8.dist-info/top_level.txt,sha256=COVg5blBkYmIkzNtPwWmPiEcsKVnsVJUZc0xmOnLgh4,5
+qlikutils-1.0.8.dist-info/RECORD,,
