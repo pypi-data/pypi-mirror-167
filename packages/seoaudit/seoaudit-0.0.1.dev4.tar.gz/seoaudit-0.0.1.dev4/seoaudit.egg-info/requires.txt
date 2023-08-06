@@ -1,0 +1,9 @@
+requests
+lxml
+nltk
+extruct
+selenium
+json2html
+
+[selenium parser feature]
+selenium
