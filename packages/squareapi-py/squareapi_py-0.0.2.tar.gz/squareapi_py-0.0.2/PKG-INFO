@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: squareapi_py
+Version: 0.0.2
+Summary: Uma biblioteca que consomê a api da square
+Home-page: UNKNOWN
+Author: Astro
+Author-email: ericksantosyb@gmail.com
+License: MIT License
+Keywords: square_lib
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+pt-br:
+
+uma biblioteca nÃ£o oficial da squarecloud api
+
+> [https://docs.squarecloud.app/api/introducao]()
+
+
+en:
+
+an unofficial squarecloud library api
+
+> [https://docs.squarecloud.app/api/introducao]()
+
+
