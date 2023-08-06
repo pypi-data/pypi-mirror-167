@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+EgyBestAPI/__init__.py
+Py_EgyBest_Api.egg-info/PKG-INFO
+Py_EgyBest_Api.egg-info/SOURCES.txt
+Py_EgyBest_Api.egg-info/dependency_links.txt
+Py_EgyBest_Api.egg-info/requires.txt
+Py_EgyBest_Api.egg-info/top_level.txt
