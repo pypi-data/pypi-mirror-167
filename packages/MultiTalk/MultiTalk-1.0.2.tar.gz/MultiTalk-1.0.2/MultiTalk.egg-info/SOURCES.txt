@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+MultiTalk.egg-info/PKG-INFO
+MultiTalk.egg-info/SOURCES.txt
+MultiTalk.egg-info/dependency_links.txt
+MultiTalk.egg-info/requires.txt
+MultiTalk.egg-info/top_level.txt
+pytalk/__init__.py
