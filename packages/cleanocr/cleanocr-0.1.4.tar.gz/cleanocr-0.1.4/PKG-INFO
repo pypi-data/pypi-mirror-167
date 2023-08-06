@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cleanocr
+Version: 0.1.4
+Summary: Automatically denoise degraded document images to improve ocr engine
+Home-page: https://www.prenes.org/
+License: MIT
+Keywords: denoise,ocr
+Author: prenes
+Author-email: prenes.contact@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: opencv-python (==4.5.3.56)
+Requires-Dist: poetry (>=1.0.0,<2.0.0)
+Requires-Dist: torch (==1.11.0)
+Requires-Dist: torchvision (==0.12.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Project-URL: Repository, https://github.com/AI-Innovator/CleanOCR
+Description-Content-Type: text/markdown
+
+<img alt="face-recognition-plugin" src="https://user-images.githubusercontent.com/82228271/189012182-7cd4d760-90d1-4f78-8003-1e01538c3321.png">
+
+## Installation
+```
+pip install cleanocr
+```
+
+## Documentation
+```
+import cv2
+from cleanocr import denoise_ocr
+
+image = cv2.imread('test.png')
+result = denoise_ocr(image)
+cv2.imwrite('result.png', result)
+```
+
+## How it works
+![example](example/cleanocr.png)
+
+
