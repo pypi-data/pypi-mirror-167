@@ -1,0 +1,22 @@
+{{% if odoo.version < 11 %}}# -*- coding: utf-8 -*-
+{{% endif -%}}
+# Copyright {{{ copyright.year }}} {{{ copyright.name }}}
+# License LGPLv3 or later (https://www.gnu.org/licenses/lgpl-3.0).
+
+{
+    'name': '{{{ addon.name_camelwords }}}',
+    'summary': """{{{ addon.summary }}}""",
+    'description': """{{{ addon.summary }}}""",
+    'version': '{{{ addon.version }}}',
+    'license': 'LGPL-3',
+    'author': '{{{ copyright.name }}}',
+{{% if copyright.website %}}
+    'website': '{{{ copyright.website }}}',
+{{% endif %}}
+    'depends': [
+    ],
+    'data': [
+    ],
+    'demo': [
+    ],
+}
