@@ -1,0 +1,150 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+#     "hatchling>=1.8.1",
+]
+build-backend = "setuptools.build_meta"
+# build-backend = "hatchling.build"
+
+# [project]
+# name = "target-core"
+# dynamic = ["version"]
+# # backend-path = ['src']
+# description = "Singer.io Target Core features"
+# readme = "README.md"
+# # license = "Apache License 2.0"
+# license = { file="LICENSE" }
+# requires-python = ">=3.9"
+# authors = [
+#     { name = "Eddy ∆", email = "edrdelta@gmail.com" },
+# ]
+# keywords = ["etl", "singer", "singer-core", "tap", "tap-core", "target", "target-core", "target-s3-json", "target-s3-jsonl"]
+# classifiers = [
+#     "Development Status :: 2 - Pre-Alpha",
+#     "License :: OSI Approved :: Apache Software License",
+#     "Operating System :: OS Independent",
+#     "Programming Language :: Python :: 3 :: Only",
+#     "Programming Language :: Python :: 3.9",
+#     "Programming Language :: Python :: 3.10",
+# ]
+# dependencies = [
+#     "aiohttp~=3.0",
+#     "backoff~=2.0",
+#     "jsonschema~=4.0",
+# ]
+
+# [project.optional-dependencies]
+# deploy = [
+#     "twine",
+# ]
+# dist = [
+#     "build",
+# ]
+# docs = [
+#     "numpydoc",
+#     "sphinx",
+#     "sphinx-automodapi",
+#     "sphinx-rtd-theme",
+# ]
+# lint = [
+#     "flake8",
+# ]
+# static = [
+#     "mypy",
+# ]
+# test = [
+#     "pytest-asyncio",
+#     "pytest-cov",
+# ]
+
+# [project.scripts]
+# target-core = "target:main"
+# entry-points = {'console_scripts': ['target-core = target:main']}
+
+# [project.urls]
+# "Bug Tracker" = "https://gitlab.com/singer-core/target-core/issues/service_desk"
+# Changelog = "https://gitlab.com/singer-core/target-core/blob/main/CHANGELOG.rst"
+# Documentation = "https://singer-core.gitlab.io/target-core"
+# Homepage = "https://gitlab.com/singer-core/target-core"
+# "Issue Tracker" = "https://gitlab.com/singer-core/target-core/issues"
+# Releases = "https://gitlab.com/singer-core/target-core/-/releases"
+
+# [tool.hatch.version]
+# path = "target_core/__init__.py"
+# # path = "target_core/__about__.py"
+
+# [tool.hatch.build.targets.wheel]
+# packages = [
+#     " src/target_core",
+# ]
+
+# [tool.hatch.build.targets.sdist]
+# include = [
+#     "/ src",
+# ]
+
+[tool.mypy]
+show_error_context = true
+ignore_missing_imports = true
+files = "."
+exclude = [
+    "setup.py",
+    "docs.*",
+    "docs.conf.*",
+    "build",
+    "venv",
+]
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
+disallow_untyped_calls = true
+no_implicit_reexport = true
+strict_equality = true
+
+# The following need to have changes made to be able to enable them:
+# disallow_any_generics = true
+# no_implicit_optional = true
+# warn_return_any = true
+
+[[tool.mypy.overrides]]
+module = [
+    "target.*",
+    "target.file.*",
+    "target.logger.*",
+    "target.s3.*",
+]
+
+[[tool.mypy.overrides]]
+ignore_errors = true
+module = [
+    "tests.*",
+]
+
+# [tool.coverage:run]
+# branch = true
+# omit = [
+#     "./setup.py",
+#     "tests/.*",
+#     "docs/conf.py",
+#     "venv/*",
+# }
+
+# [tool.coverage:report]
+# show_missing = true
+# skip_covered = false
+# exclude_lines = [
+#     "if __name__ == .__main__.:"
+# ]
+
+# [tool.pytest.ini_options]
+# addopts = "-v --cov=target --cov-fail-under 95 --cov-report xml --cov-report term --cov-report html:htmlcov --doctest-modules --junitxml=report.xml"
+# testpaths = [
+#     "tests",
+# ]
+# asyncio_mode = "auto"
