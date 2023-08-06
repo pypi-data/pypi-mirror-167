@@ -1,0 +1,4 @@
+[console_scripts]
+XiaofaGushiduo = XiaofaGushiduo.__main__:main
+xiaofa-gushiduo = XiaofaGushiduo.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+XiaofaGushiduo/README.md
+XiaofaGushiduo/__init__.py
+XiaofaGushiduo/__main__.py
+XiaofaGushiduo/file.pdf
+XiaofaGushiduo/index.html
+xiaofa_gushiduo.egg-info/PKG-INFO
+xiaofa_gushiduo.egg-info/SOURCES.txt
+xiaofa_gushiduo.egg-info/dependency_links.txt
+xiaofa_gushiduo.egg-info/entry_points.txt
+xiaofa_gushiduo.egg-info/top_level.txt
