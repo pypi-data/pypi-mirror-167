@@ -1,0 +1,8 @@
+# Test Files
+*.tsv
+
+#Pycache
+*.pyc
+
+HROCH.egg-info
+tmp
