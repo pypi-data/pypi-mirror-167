@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+pythonTvaritha/__init__.py
+pythonTvaritha.egg-info/PKG-INFO
+pythonTvaritha.egg-info/SOURCES.txt
+pythonTvaritha.egg-info/dependency_links.txt
+pythonTvaritha.egg-info/top_level.txt
