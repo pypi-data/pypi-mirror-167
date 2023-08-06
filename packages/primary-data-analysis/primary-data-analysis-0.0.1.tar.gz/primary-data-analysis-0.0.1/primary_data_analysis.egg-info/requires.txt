@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+six
+plotly
+statsmodels
+seaborn
+sklearn
+setuptools
