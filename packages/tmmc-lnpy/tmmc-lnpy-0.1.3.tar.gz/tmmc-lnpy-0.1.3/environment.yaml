@@ -1,0 +1,11 @@
+name: lnpy-env
+dependencies:
+  - python=3.9
+  - numpy
+  - xarray
+  - scipy
+  - scikit-image
+  - joblib
+  - bottleneck
+  - tqdm
+  - importlib_resources

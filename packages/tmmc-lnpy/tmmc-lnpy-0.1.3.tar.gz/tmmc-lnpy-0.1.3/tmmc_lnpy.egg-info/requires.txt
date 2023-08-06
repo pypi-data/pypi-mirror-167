@@ -1,0 +1,8 @@
+numpy
+xarray
+scipy
+scikit-image
+joblib
+bottleneck
+tqdm
+importlib_resources
