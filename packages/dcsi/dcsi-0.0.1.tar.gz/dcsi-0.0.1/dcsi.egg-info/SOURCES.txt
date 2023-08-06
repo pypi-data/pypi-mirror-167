@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+dcsi/__init__.py
+dcsi/_modidx.py
+dcsi/core.py
+dcsi/helper.py
+dcsi.egg-info/PKG-INFO
+dcsi.egg-info/SOURCES.txt
+dcsi.egg-info/dependency_links.txt
+dcsi.egg-info/entry_points.txt
+dcsi.egg-info/not-zip-safe
+dcsi.egg-info/requires.txt
+dcsi.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[nbdev]
+dcsi = dcsi._modidx:d
