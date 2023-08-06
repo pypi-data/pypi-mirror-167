@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/firstProject/Perceptron.py
+src/firstProject/__init__.py
+src/firstProject_rinki.egg-info/PKG-INFO
+src/firstProject_rinki.egg-info/SOURCES.txt
+src/firstProject_rinki.egg-info/dependency_links.txt
+src/firstProject_rinki.egg-info/requires.txt
+src/firstProject_rinki.egg-info/top_level.txt
