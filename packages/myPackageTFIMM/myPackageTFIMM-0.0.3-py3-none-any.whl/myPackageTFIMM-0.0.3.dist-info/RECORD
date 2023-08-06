@@ -1,0 +1,16 @@
+myPackageTFIMM/DLA34.py,sha256=7fqBMlp-5VWv9Yv9ZngPMRWTduw9aCsKVXFlVr2GtFQ,7270
+myPackageTFIMM/DPN92.py,sha256=JVpxdFuvm2KUEekEiQlfI7uvu4cDLGigHmaUlWR8Gpo,8436
+myPackageTFIMM/InceptionV3.py,sha256=pL9XZwKr7afTqB2XLlF-nRSMhalh-PiSG8iKEETuIFg,11861
+myPackageTFIMM/ResNeXt.py,sha256=7BtFG_BTLd4F1_V7A7Px_7O0suFZK2uIg0DIh7JPa28,4674
+myPackageTFIMM/VisionTransformer.py,sha256=yk0C5GrZjVP1iZAlIvp_p-lElFaUijyTYimtqUdL2ds,6256
+myPackageTFIMM/Xception.py,sha256=4u7Fb19NeimZ6aOHFjRnIXsjv-BcWl5VhtBXGmvclDg,7016
+myPackageTFIMM/__init__.py,sha256=NVnDgMXBFVJuP7cJsn2wnCUsk_ac4Dp5nop8x_dLCfI,115
+myPackageTFIMM/all_models.py,sha256=h2KEn6KWLgYcrJtmx-ZhaSVcKec6HVvJ24q_nulSl0U,1768
+myPackageTFIMM/efficient_net_b0.py,sha256=vx9v7b99wZFA0W08P4pBvGbAa-yOn_o0zYLyQmQyo-0,11798
+myPackageTFIMM/importLayers.py,sha256=-M6Z5Dbqnc4ZFmFDiNn1A7k9H0iUQ2I1Ogc9E5E9MEg,2072
+myPackageTFIMM/main.py,sha256=GzRML8kaUbcz2bBhrgKnlENQ5ta88lTX4sqFj8dVvzk,1773
+myPackageTFIMM-0.0.3.dist-info/METADATA,sha256=__aUEnV755iU_NXaH6dRJHyjOl_mBDPqPrdLzlcAtzA,764
+myPackageTFIMM-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+myPackageTFIMM-0.0.3.dist-info/license.txt,sha256=3HY_cS5vp9aFu5kX5Qiqq2cNHOmKArGTSWA4K3h-0Ic,1057
+myPackageTFIMM-0.0.3.dist-info/top_level.txt,sha256=V46SFYWIeF9UZChFKTPSJtuY3OBWRCI8-rBWUX0UPbY,15
+myPackageTFIMM-0.0.3.dist-info/RECORD,,
