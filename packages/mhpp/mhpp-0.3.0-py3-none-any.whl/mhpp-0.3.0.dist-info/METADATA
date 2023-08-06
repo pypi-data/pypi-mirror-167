@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: mhpp
+Version: 0.3.0
+Summary: A median house price prediction project to demonstrate packaging.
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Provides-Extra: interactive
+Requires-Dist: matplotlib ; extra == 'interactive'
+Requires-Dist: seaborn ; extra == 'interactive'
+Requires-Dist: jupyter ; extra == 'interactive'
+
+# Introduction
+
+A median house price prediction (mhpp) project is dealt to demonstrate packaging.
+This package helps to fetch, preprocess and split the data set into train and test and also
+train models using Linear Regression, Decision Tree and Random Forest algorithms and also
+evaluate them using MSE (Mean Squarred Error), RMSE (Root mean square error) and MAS (Mean 
+Absolute Error).
+
+
+# Installation
+
+Create a virtual environment using conda before installation.
+```
+  conda env create -f deploy/conda/env.yaml
+```
+
+#### Using pip
+```
+  pip install mhpp
+```
+#### From source
+
+1. Clone the repo using git clone command.
+   **Note**: Requires colab access as of now.
+  ```
+      git clone git@github.com:varun-mle/mle-training.git
+  ```
+2. Execute the below command.
+  ```
+      pip install . 
+  ```
+
+# Usage 
+1. For fetching data **fetch-data** command is used.  Below command helps to know its usage
+    ```
+        fetch-data -h
+    ```
+ 2. For preprocessing and splitting the data into train & test datasets **train-test-data** is used. Below command helps to know its usage.
+    ```
+        train-test-data -h 
+    ```
+ 3. For training the model **train** command is used. Below command helps to know its usage
+    ```
+        train -h 
+    ```
+ 4. For evaluating the model **evaluate** command is used. Below command helps to know its usage
+    ```
+        evaluate -h
+    ```
+  Refer **docs** folder for the detailed documentation. 
+
+
+
