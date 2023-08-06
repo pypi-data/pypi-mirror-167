@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fooDemoDC.egg-info/PKG-INFO
+fooDemoDC.egg-info/SOURCES.txt
+fooDemoDC.egg-info/dependency_links.txt
+fooDemoDC.egg-info/top_level.txt
+my_foo/__init__.py
