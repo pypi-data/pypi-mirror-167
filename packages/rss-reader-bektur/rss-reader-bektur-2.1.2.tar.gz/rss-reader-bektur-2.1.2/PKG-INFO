@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rss-reader-bektur
+Version: 2.1.2
+Summary: RSS reader for final task in Python educational course
+Home-page: http://packages.python.org/rss-reader
+Author: Bektur Soltobaev
+Author-email: bektur_soltobaev@epam.com
+License: BSD
+Keywords: rss reader exam
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+
+<h2>CLI utility for reading RSS news from given URL</h2>
