@@ -1,0 +1,6 @@
+setup.py
+nansen-airflow-errors/__init__.py
+nansen_airflow_errors.egg-info/PKG-INFO
+nansen_airflow_errors.egg-info/SOURCES.txt
+nansen_airflow_errors.egg-info/dependency_links.txt
+nansen_airflow_errors.egg-info/top_level.txt
