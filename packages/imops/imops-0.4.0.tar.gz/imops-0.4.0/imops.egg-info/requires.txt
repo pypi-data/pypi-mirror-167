@@ -1,0 +1,8 @@
+scipy<2.0.0,>=1.0
+Cython
+
+[:python_version < "3.7"]
+numpy<2.0.0,>=1.7
+
+[:python_version >= "3.7"]
+numpy<2.0.0,>=1.20
