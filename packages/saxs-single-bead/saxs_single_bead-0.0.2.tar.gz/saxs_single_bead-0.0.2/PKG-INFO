@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: saxs_single_bead
+Version: 0.0.2
+Summary: All Python package to compute small angle X-ray scattering (SAXS) profiles in one-bead-per-residue approximation with numpy
+Home-page: https://github.com/RadostW/saxs_single_bead/
+Author: Radost Waszkiewicz
+Author-email: radost.waszkiewicz@gmail.com
+License: MIT
+Project-URL: Documentation, https://saxs_single_bead.readthedocs.io
+Project-URL: Source, https://github.com/RadostW/saxs_single_bead/
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![Tests](https://github.com/RadostW/saxs_single_bead/actions/workflows/tests.yml/badge.svg)
+
+# saxs_single_bead
+
+All Python package to compute small angle X-ray scattering (SAXS) profiles in one-bead-per-residue approximation with numpy
+
+# Algorithm concept
+
+D. Tong, S. Yang and L. Lu  *Accurate optimization of amino acid form factors for computing small-angle X-ray scattering intensity of atomistic protein structures*; J. Appl. Cryst. (2016)
+
+Accurate optimization of amino acid form factors for computing small-angle X-ray scattering intensity of atomistic protein structures
+
+# License
+
+This software is licensed under MIT license
+
+Copyright (c) Radost Waszkiewicz (2022)
