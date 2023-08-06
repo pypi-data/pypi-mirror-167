@@ -1,0 +1,7 @@
+<{% firstof element "div" %}
+  {% for key, val in attrs %}
+    {% if val %}{{key}}="{{val}}"{% endif %}
+  {% endfor %}
+  data-map-target="canvas"
+>
+</{% firstof element "div" %}>

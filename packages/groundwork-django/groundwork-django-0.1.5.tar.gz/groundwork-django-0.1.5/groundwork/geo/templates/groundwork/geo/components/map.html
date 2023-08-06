@@ -1,0 +1,15 @@
+<{{element}}
+  {% for key, val in attrs %}
+    {% if val %}{{key}}="{{val}}"{% endif %}
+  {% endfor %}
+  {% for key, val in values %}
+    {% if val %}data-map-{{key}}-value="{{val}}"{% endif %}
+  {% endfor %}
+  data-controller="map">
+  {{slots}}
+  {% if in_place is False %}
+    {% comment %}It's up to the developer to place the map canvas{% endcomment %}
+  {% else %}
+    {% include "groundwork/geo/components/map_canvas.html" only %}
+  {% endif %}
+</{{element}}>
