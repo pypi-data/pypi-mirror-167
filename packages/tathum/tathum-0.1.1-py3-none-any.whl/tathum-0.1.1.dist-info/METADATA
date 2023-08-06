@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tathum
+Version: 0.1.1
+Summary: Trajectory Analysis Toolkit for Human Movement
+Home-page: https://github.com/ActionAttentionLab/tat-hum
+Download-URL: https://github.com/ActionAttentionLab/tat-hum/archive/refs/tags/0.1.tar.gz
+Author: Michael Wang, UofT BUMP Lab
+Author-email: michaelwxy.wang@utoronto.ca
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-spatial
+Requires-Dist: vg
+Requires-Dist: pytransform3d
+Requires-Dist: matplotlib
+Requires-Dist: jupyter
+

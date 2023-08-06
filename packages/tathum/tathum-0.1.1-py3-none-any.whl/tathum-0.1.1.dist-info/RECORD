@@ -1,0 +1,10 @@
+tathum/__init__.py,sha256=oEgJHapIG4BYDPA0zL9vNGhP9g2doDgsvJ6kd7FDVYE,129
+tathum/coord.py,sha256=jpLqrDJJvLj07K-33yYsF0ABdSoHAbkWi1GmsXgRWBw,1053
+tathum/functions.py,sha256=LkbUCofstvWkvfORUnt1qeKC5ggzldWjdzEETSm3zt8,11954
+tathum/trajectory.py,sha256=UFCNHBZ3W9NEWMHPEpPbz22mR1XhvVrZrNKZ1jeK87c,24671
+tathum/trajectory_mean.py,sha256=9OzcqORPneCQspm9IDlF8JdDVm7xO61ViOD4JORyGFg,4551
+tathum-0.1.1.dist-info/LICENSE,sha256=odpFljkrKaOj2sd5D_EvBgEYaFUZT7_nYM6zR1gr2Jw,1081
+tathum-0.1.1.dist-info/METADATA,sha256=PtFu-aLTa67kXIjmCHcMBN5R3VErLpYJF_3ntHjv27k,556
+tathum-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tathum-0.1.1.dist-info/top_level.txt,sha256=Buf_Y100LfbgZtRg2LGN9HaOFBBXbOtkye6ffHF3lCk,7
+tathum-0.1.1.dist-info/RECORD,,
