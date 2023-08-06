@@ -1,0 +1,11 @@
+nest-asyncio
+numpy
+pandas
+plotly
+requests
+scipy
+aiohttp
+aiosignal
+lru-dict
+websocket-client
+websockets
