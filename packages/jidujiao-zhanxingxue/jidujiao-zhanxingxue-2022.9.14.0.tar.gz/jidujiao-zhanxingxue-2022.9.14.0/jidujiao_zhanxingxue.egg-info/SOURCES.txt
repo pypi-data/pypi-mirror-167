@@ -1,0 +1,12 @@
+README.md
+setup.py
+JidujiaoZhanxingxue/README.md
+JidujiaoZhanxingxue/__init__.py
+JidujiaoZhanxingxue/__main__.py
+JidujiaoZhanxingxue/file.pdf
+JidujiaoZhanxingxue/index.html
+jidujiao_zhanxingxue.egg-info/PKG-INFO
+jidujiao_zhanxingxue.egg-info/SOURCES.txt
+jidujiao_zhanxingxue.egg-info/dependency_links.txt
+jidujiao_zhanxingxue.egg-info/entry_points.txt
+jidujiao_zhanxingxue.egg-info/top_level.txt
