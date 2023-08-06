@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test_automation_package_dsm"
+version = "0.0.3"
+authors = [
+  { name="Tim Verlinde", email="tim.verlinde@dsm.com" },
+]
+description = "Used for automated test cases to test apps build in Mendix"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["easygui==0.98.3", "selenium==4.4.3", "chromedriver-py~=105.0.5195.52"]
