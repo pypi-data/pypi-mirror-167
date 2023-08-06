@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cript
+Version: 0.4.7
+Summary: CRIPT Python SDK
+Home-page: https://github.com/C-Accel-CRIPT/cript
+Author: CRIPT Development Team
+License: MIT
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: beartype (>=0.10.4)
+Requires-Dist: globus-sdk (>=3.7.0)
+Requires-Dist: pint (>=0.19.2)
+Requires-Dist: requests (>=2.27.1)
+
+# CRIPT Python SDK
+
+**CRIPT** (the _Community Resource for Innovation in Polymer Technology_) is a web-based platform for capturing and sharing polymer data. 
+
+Programmatic access to the platform is enabled through the CRIPT Python SDK.
+
+## Quickstart
+
+### Prerequisites
+- Python 3.9+
+- Internet access
+
+### Install with pip
+```bash
+pip install cript
+```
+
+## Links
+- SDK documentation: https://c-accel-cript.github.io/cript/
+- Platform: https://criptapp.org
+- Blog: https://blog.criptapp.org
