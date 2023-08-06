@@ -1,0 +1,10 @@
+pyccmc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyccmc/api.py,sha256=ocs1vyivwTA6n3kQeW7bS5lHnULneWrHBaNaqHrOIeI,16740
+pyccmc/apidocs.py,sha256=A5NDYVvzjt2VQ5lWFkEsAI-kCBxp0ZYCpyGH66ztJcw,5319
+pyccmc/cli.py,sha256=SOgYEgf5LBIcqEcRy-TSAW2r0H_UE_ZchD324ZTiaOU,10943
+pyccmc-0.0.1a0.dist-info/LICENSE,sha256=Q_7ikUKdR9MWi0i6S9rNlAeKcO3vuUKRWzXmL3SvuQY,35067
+pyccmc-0.0.1a0.dist-info/METADATA,sha256=-aRUOVT2ygMEoUClWDrQUe9FTp3qUIoQyC9QXOddQAo,5081
+pyccmc-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyccmc-0.0.1a0.dist-info/entry_points.txt,sha256=-7oSO92SnQgjk0pXH9Z7mtcUeKyFNzAjTWz4-MLHcwE,46
+pyccmc-0.0.1a0.dist-info/top_level.txt,sha256=GqnOVpuhiTbmpLnWSl7nlotte-Dky-FjPNt39QzZatk,7
+pyccmc-0.0.1a0.dist-info/RECORD,,
