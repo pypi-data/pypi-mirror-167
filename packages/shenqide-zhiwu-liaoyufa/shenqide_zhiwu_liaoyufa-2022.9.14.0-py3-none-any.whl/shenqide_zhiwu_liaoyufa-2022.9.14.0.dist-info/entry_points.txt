@@ -1,0 +1,4 @@
+[console_scripts]
+ShenqideZhiwuLiaoyufa = ShenqideZhiwuLiaoyufa.__main__:main
+shenqide-zhiwu-liaoyufa = ShenqideZhiwuLiaoyufa.__main__:main
+
