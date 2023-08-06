@@ -1,0 +1,3 @@
+[console_scripts]
+absense=abSENSE.__main__:main
+
