@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+test_update_firewall_ip.py
+update_firewall_ip.py
+gcpfwup.egg-info/PKG-INFO
+gcpfwup.egg-info/SOURCES.txt
+gcpfwup.egg-info/dependency_links.txt
+gcpfwup.egg-info/entry_points.txt
+gcpfwup.egg-info/not-zip-safe
+gcpfwup.egg-info/requires.txt
+gcpfwup.egg-info/top_level.txt
