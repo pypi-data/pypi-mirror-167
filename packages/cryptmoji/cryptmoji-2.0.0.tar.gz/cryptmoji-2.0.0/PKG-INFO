@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: cryptmoji
+Version: 2.0.0
+Summary: Encrypt Text using emojis!
+Home-page: https://github.com/Siddhesh-Agarwal/cryptmoji
+License: MIT
+Keywords: encryption,emoji,cipher
+Author: Siddhesh Agarwal
+Author-email: siddhesh.agarwal@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security :: Cryptography
+Project-URL: Documentation, https://siddhesh-agarwal.github.io/cryptmoji/
+Project-URL: Repository, https://github.com/Siddhesh-Agarwal/cryptmoji
+Description-Content-Type: text/markdown
+
+# 🐱‍👤 Cryptmoji
+
+A simple emoji-based encryption-decryption library.
+_______________________
+
+## 📥 Installation
+
+pip install the library:
+
+```sh
+pip install cryptmoji
+```
+
+## 📝 Usage
+
+```python
+from cryptmoji import Cryptmoji
+
+text = "Hello World!"
+key = "random_key" # makes the encryption stronger (optional)
+
+a = Cryptmoji(text, key=key)
+# The encrypt and decrypt functions return the value
+encrypted = a.encrypt()
+print(encrypted)
+# 🎚️🎨🎼🎲🏀🍯🎓🎼🎹🏂🎸🍤
+
+# The encrypt and decrypt functions change the value in-place too
+a.decrypt() 
+print(decrypted)
+# Hello World!
+```
+
