@@ -1,0 +1,10 @@
+pydaisi/__init__.py,sha256=xD30np7yCNxKb2oreljXl33yhm70Fq3_pGOrNPFz8BE,121
+pydaisi/__version__.py,sha256=aztfkPX9Je5NqOWDoXtXHbSmMfwnn41wLrWfkT6NFGA,21
+pydaisi/pydaisi.py,sha256=yRTQrHQNWXPWysWVI_KsiEX0nUraN243kblrso3Dxlg,16224
+pydaisi/shared_data.py,sha256=Q6ncTzJdR_aHd5DkMQJuO_7lcW2U6uBgui-7TOMH0eA,11203
+pydaisi/worker_client.py,sha256=0Ft5sMvhnPB8-ah0b-vozzPUhxaTQxWP1MNcFIRD_JQ,1755
+pydaisi-0.3.3.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pydaisi-0.3.3.0.dist-info/METADATA,sha256=6-zT78VOnGHL4yeIk8GYF_C-Mv__ltM8UcvK1x2Jhro,1649
+pydaisi-0.3.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydaisi-0.3.3.0.dist-info/top_level.txt,sha256=3UWgzvbj3MPZ7FGvCrZxkIRPX-qHOydqhPcEb41Ej5M,8
+pydaisi-0.3.3.0.dist-info/RECORD,,
