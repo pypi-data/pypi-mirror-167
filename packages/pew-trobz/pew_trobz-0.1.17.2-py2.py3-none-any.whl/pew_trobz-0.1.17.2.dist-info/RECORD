@@ -1,0 +1,17 @@
+pew/__init__.py,sha256=eBXzasfNdiKj7_naqi9C1BdIYvjRduf7RsBisHvzPRE,365
+pew/_print_utils.py,sha256=MHnd7zquHsAISzZfYP9odUUrHF8QelyrrB0xHw5xSSo,1400
+pew/_utils.py,sha256=IBvtMltmKofqwdnDv-Spx1SbviTMP9VDyO7oJtBmqYQ,1918
+pew/pew.py,sha256=EaC2iqGWCABe8nUFXiBpXJ6TRWxFYNEPMN694vIsQ9s,23365
+pew/shell_config/_pew,sha256=dAFzntICm_adsVpT-6WcIS6PeHVTQrC663qfrOOCrWo,3795
+pew/shell_config/complete.bash,sha256=eStaa4zECGnKLcIDPOG7ctA8tWUBFvG-qRUjGhX2qm8,1017
+pew/shell_config/complete.fish,sha256=xTIg-XMJPgQl--pZKmrY96HANmAlXkLTFRZUfaoxTqQ,5091
+pew/shell_config/complete.zsh,sha256=dAFzntICm_adsVpT-6WcIS6PeHVTQrC663qfrOOCrWo,3795
+pew/shell_config/complete_deploy,sha256=kedfwDX_aA_ynK6Ua8If6nr6cQxEyOCw77qvsxL41Wk,114
+pew/shell_config/init.bash,sha256=EcJyrCdMAGo_ye7VDHovjxmIv9Zl0_VPtlRV7RLV5l4,115
+pew/shell_config/init.fish,sha256=y6QLOfia6qC5I_fQyTvph6OJLZ2qtEBAat4TEUccssM,322
+pew/shell_config/init.zsh,sha256=v3VCuwf8FDMVDTH2R0BfqBtWS5cZwaz0Bs57u4bYjj4,226
+pew_trobz-0.1.17.2.dist-info/METADATA,sha256=PrCa0a4wke7jHCz8PJJ-F8EUmdKYtRjCmwFVww3f-fk,1832
+pew_trobz-0.1.17.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pew_trobz-0.1.17.2.dist-info/entry_points.txt,sha256=yVhjvjZk1ZvHiNy6uDLu26_n8rUEJxITkPs_K7AV4Bw,37
+pew_trobz-0.1.17.2.dist-info/top_level.txt,sha256=XX--pdLogr__wVOU3K9frYm9SakS1Ige6glIDbuhF_4,4
+pew_trobz-0.1.17.2.dist-info/RECORD,,
