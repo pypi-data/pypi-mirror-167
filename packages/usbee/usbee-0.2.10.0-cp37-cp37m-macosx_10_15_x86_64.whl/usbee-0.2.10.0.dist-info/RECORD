@@ -1,0 +1,7 @@
+usbee-0.2.10.0.dist-info/RECORD,,
+usbee-0.2.10.0.dist-info/WHEEL,sha256=81dzaVugG5_Yr33ZcA3pha6PI6RyEJHWPUG7Y6AuBVQ,111
+usbee-0.2.10.0.dist-info/top_level.txt,sha256=53Uo8LXXk4L8h2myXPy37q5GB0dzJHRlL2MyQqMi9AE,6
+usbee-0.2.10.0.dist-info/METADATA,sha256=XkGpclZOcsIeT4WX34Izt_1hJwP92py5QM41pjgsA34,213
+usbee/usbee.cpython-37m-darwin.so,sha256=llg0GmTHwI4k9uCPwha4P1nEV1xmTDKJYj3vaU5krPw,289408
+usbee/__init__.py,sha256=Xdk5i3gwaR3_GhQHtpEOHt-FWFQS7-UmvbxGHoRrtX0,356
+usbee/.dylibs/libusb-1.0.0.dylib,sha256=RdjpK9KG5pSVw3Kr4gbC3Z_vfynCM75tV0cW-zENCu4,109808
