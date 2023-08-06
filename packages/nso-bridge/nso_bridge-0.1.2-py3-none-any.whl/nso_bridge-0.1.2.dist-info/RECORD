@@ -1,0 +1,8 @@
+nso_bridge/__init__.py,sha256=nCq6zOO6aP_FcxPEChqsfPuOa46a7-1HW8j4TqYWMbQ,200
+nso_bridge/nsa.py,sha256=Sv6J73IW326L5XPuYsKGKOzDt0ardi5AElkKsUtA7c0,5958
+nso_bridge/nso.py,sha256=1cQNzLEIP2_k3OSN1C1wGrbWAw2VHzZKLbId6LWgoO4,6324
+nso_bridge-0.1.2.dist-info/LICENSE,sha256=RTpKv34LBwpTkFUn1BkQZBbu_HfZO67SSCkMndOqPGM,1067
+nso_bridge-0.1.2.dist-info/METADATA,sha256=I1x_SbZVFjzSyae-8KH4a8XzbL5ZetzE9jBquZD0_jA,2490
+nso_bridge-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nso_bridge-0.1.2.dist-info/top_level.txt,sha256=Fj6xgN1N6BLrj5jGIylHfJOefpug5tTEDJEyP8gfV58,11
+nso_bridge-0.1.2.dist-info/RECORD,,
