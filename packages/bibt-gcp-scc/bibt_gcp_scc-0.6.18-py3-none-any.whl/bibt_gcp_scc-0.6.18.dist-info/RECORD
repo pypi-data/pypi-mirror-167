@@ -1,0 +1,12 @@
+bibt/__init__.py,sha256=8tkdZMytST5vyHv-q2abYIZDQje16WBHsRLOKyHYIGA,1014
+bibt/gcp/__init__.py,sha256=YWEslxLEnJGeQb-YBJr4qrKfXGP-61VdNx0WlW_e9Vo,935
+bibt/gcp/scc/__init__.py,sha256=ks-5tn7SHiZwgh2LeaRYil04f2hQncOyrWBJAxgdSLg,867
+bibt/gcp/scc/classes.py,sha256=OSagYSvUawE1vcmS8fh9W6m59DIcO857zVHkM8Oxv0o,16248
+bibt/gcp/scc/methods.py,sha256=8Dp9TO31fRDmmRhPkw8L4qEBjzVhGRhc-bhFRdqPVIQ,24489
+bibt/gcp/scc/version.py,sha256=vJhh1thNLi9acZdHdmVAAHoakXKKKaNmx85z5zFRyos,23
+bibt_gcp_scc-0.6.18.dist-info/LICENSE,sha256=epnB9a7mCEhC0EaX3ub51YmLFi_lWd6lhQ5Upted0NE,1054
+bibt_gcp_scc-0.6.18.dist-info/METADATA,sha256=JDrMu_ef3fuuVQbvSg9fXxk_3TJosWD02_saEJ2WZZk,1632
+bibt_gcp_scc-0.6.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bibt_gcp_scc-0.6.18.dist-info/top_level.txt,sha256=ZqDLCsRwnDRsaxxBRwvvzOuZMpgN81krJnUJjPR2jwg,5
+bibt_gcp_scc-0.6.18.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bibt_gcp_scc-0.6.18.dist-info/RECORD,,
