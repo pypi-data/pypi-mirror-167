@@ -1,0 +1,7 @@
+setup.py
+find_words/__init__.py
+find_words/find_keywords.py
+find_words.egg-info/PKG-INFO
+find_words.egg-info/SOURCES.txt
+find_words.egg-info/dependency_links.txt
+find_words.egg-info/top_level.txt
