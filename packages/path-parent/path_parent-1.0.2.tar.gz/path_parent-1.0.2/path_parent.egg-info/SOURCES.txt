@@ -1,0 +1,11 @@
+README.rst
+setup.py
+path_parent/__init__.py
+path_parent/p.py
+path_parent/pp.py
+path_parent/ppp.py
+path_parent/tools.py
+path_parent.egg-info/PKG-INFO
+path_parent.egg-info/SOURCES.txt
+path_parent.egg-info/dependency_links.txt
+path_parent.egg-info/top_level.txt
