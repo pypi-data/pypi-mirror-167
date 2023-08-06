@@ -1,0 +1,12 @@
+nlp_test.py,sha256=7TjWkNnpBMV31-8UTh1i9kD71bWvVgJ-Ckh2mq9UFyI,305
+japl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+japl/adb.py,sha256=pE1P_5MtHeubmG4-9Oj6q5vvR92x39C6qiEpRZunKUk,10142
+japl/decoradores.py,sha256=0Sc0cZkDv7vHTDJ6eDz7OeWkIRImRzEu8-N2N7S_pEc,636
+japl/exceptions.py,sha256=YqFtWvfTMwsvKaNPxAG8vADJxRMShu0Kow_4YfL1KUw,1289
+japl/nlp.py,sha256=9zRoY6TQOJeET09OzJ6Rrp47BjP_Y2S0P5W57S4o8-U,2758
+japl/tools.py,sha256=GvmjvIACigDCyTDFNhNubClmpCr7VyGGe8DkZFmNEvc,1505
+japl-0.0.32.dist-info/LICENSE,sha256=4B0EWAY4ahVL2deIxhxUxUzvps8WEIFZxvWBPHPW4oE,1103
+japl-0.0.32.dist-info/METADATA,sha256=9Q_Yuf66lopk4CYcnWpClNlWCCNntQrfeuraZtUj2Xw,2123
+japl-0.0.32.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+japl-0.0.32.dist-info/top_level.txt,sha256=zkiKcxLzF4ZQ7p6zAxkR0NXJCGi_5StepX1X4O-fwpg,14
+japl-0.0.32.dist-info/RECORD,,
