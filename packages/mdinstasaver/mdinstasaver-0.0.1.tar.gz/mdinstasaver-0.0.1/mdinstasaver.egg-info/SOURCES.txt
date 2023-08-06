@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+mdinstasaver.egg-info/PKG-INFO
+mdinstasaver.egg-info/SOURCES.txt
+mdinstasaver.egg-info/dependency_links.txt
+mdinstasaver.egg-info/top_level.txt
