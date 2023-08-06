@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: roboteconomist
+Version: 0.4.2
+Requires-Dist: networkx
+Requires-Dist: rich
+Requires-Dist: typer (==0.4.2)
+
