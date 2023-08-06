@@ -1,0 +1,73 @@
+{
+  "stars": [
+    {
+      "kind": "pure_markdown",
+      "markdown": "# Constellate Tutorial\n\nConstellate is a web publishing platform that presents Jupyter notebooks as interactive web applications. This tutorial is an example of what that looks like. If you want to publish websites like this one without doing any web development, keep reading!\n\n(Pro tip: you can press <kbd>N</kbd> or <kbd>\u2192</kbd> to go to the next page. To see all of the keyboard shortcuts, press <kbd>?</kbd>.)",
+      "star_id": "9HFDsLyW"
+    },
+    {
+      "kind": "pure_markdown",
+      "markdown": "## Installation\n\nConstellate will need to run your code. So, in whatever environment you run your Jupyter notebooks in, install Constellate by executing:\n\n```bash\npip install constellate-app\n```\n\nThis should make the `constellate` command-line tool available from that virtual environment\u2014use that environment to run the commands described later.",
+      "star_id": "bb5ySe2sl"
+    },
+    {
+      "kind": "pure_markdown",
+      "markdown": "## Making a Notebook\n\nConstellate is designed to make it easy to retrofit existing notebooks to match the format Constellate expects. For now, though, we'll make a new notebook from scratch. Put it wherever you want on your file system and call it whatever you want: I'll call mine `getting-started.ipynb`.",
+      "star_id": "5khAH7u2"
+    },
+    {
+      "kind": "pure_markdown",
+      "markdown": "### Writing Some Text\n\nConstellate supports all of the Markdown that Jupyter notebooks support, along with a couple extra additions.[^1]\n\nOpen your notebook and add some text. Here's what I'm using, but you can feel free to freestyle:\n\n```markdown\n# Getting Started\n\nThis is a test notebook. The title of the Constellation will be \"Getting Started\" because that's what the first level-1 header is. This[^1] is a footnote\u2014Jupyter notebooks don't support these, but Constellate does. [^1]\n\n[^1]: This is the footnote's text.\n```\n\n[^1]: Like footnotes!",
+      "star_id": "hmgvJ6mR"
+    },
+    {
+      "kind": "pure_markdown",
+      "markdown": "## Seeing the Fruits of Our Labor\n\nTo see what this looks like as a Constellation, open a terminal and run[^1]\n\n```bash\nconstellate dev getting-started.ipynb\n```\n\n`constellate dev` will run a development server that reloads automatically as you change and save notebooks. (You may have to reload pages to see changes.) It works with any number of notebooks: `constellate dev *.ipynb` will run all of the notebooks in a folder.\n\nNow is a good time to mention that **Constellate can run whatever code is in your notebook. Do not build notebooks you do not trust.**\n\nWith that disclaimer out of the way, navigate to [localhost:3000](localhost:3000). It will show a landing page of all of the Constellations you have currently. Click on the \"Getting Started\" one, and you should see something like this:\n\n[![image.png](https://i.postimg.cc/fTDfv041/image.png)](https://postimg.cc/jC3fx2Sh)\n\nConstellate has premier support for dark mode\u2014press <kbd>D</kbd> to toggle.\n\nJupyter notebooks can do a lot more than Markdown; let's make a plot!\n\n[^1]: Don't forget to replace `getting-started.ipynb` with your own file name.",
+      "star_id": "ZAQqWNIh"
+    },
+    {
+      "kind": "pure_markdown",
+      "markdown": "## Adding a Plot\n\nConstellate displays plots alongside Markdown cells. This lets you explain what's going on or offer context on the same screen. Let's add a graph and some explanation. Add a Markdown cell after the first one you added above, and add the text below or freestyle your own:\n\n```markdown\n## Example Graph\n\nThe standard <span class='text-c1'>normal</span> distribution has the probability density function\n$$\\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{1}{2} x^2}$$\n\nThe standard <span class='text-c2'>Cauchy</span> distribution has probability density function\n$$\\frac{1}{\\pi(x^2 + 1)}$$\n```\n\nThen, in a Python cell below that one, add the following code or write your own:\n\n```python\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nxx = np.linspace(-5, 5, 100)\n\nplt.plot(xx, np.exp(0.5 * xx ** 2) / np.sqrt(2 * np.pi), label='Normal Distribution')\nplt.plot(xx, 1 / (np.pi * (xx ** 2 + 1)), label='Cauchy Distribution')\nplt.legend()\n```\n\nRunning the cell in a notebook should produce a graph.[^1] Now let's see how Constellate displays your new output.\n\n[^1]: You might need to install `numpy` with `pip install numpy`.",
+      "star_id": "ZMNBQ4Vo"
+    },
+    {
+      "kind": "pure_markdown",
+      "markdown": "If you still have `constellate dev` running, then your changes should already be loaded. If not, run `constellate dev getting-started.ipynb` and then navigate to [localhost:3000](http://localhost:3000). Select the \"Getting Started\" notebook and then navigate to the second page. You should see something like this:\n\n[![image.png](https://i.postimg.cc/15hV8G65/image.png)](https://postimg.cc/6TcpSGYD)\n\nLet's go over what Constellate did. If you're just trying to get your feet wet, feel free to just go to the next page, but it's useful if you want to understand the behind-the-scenes action.\n\n - Constellate sees a Markdown cell followed by a Python cell that produces a static image as output, and it further sees that you import `matplotlib`.\n - Constellate applies a [custom theme](https://github.com/nicholas-miklaucic/rho_plus) to the plot. There are several reasons for this:\n   - The theme has matching light and dark versions, so toggling the dark theme will change the plot to match.[^1]\n   - There are sister themes for other common Python visualization libraries, so mixing `matplotlib` and `bokeh` plots will maintain a single visual style.\n   - Referring to colors used in a plot is fairly common, and doing that with dark mode support requires Constellate knowing what those colors are. Note how I use `<span color='text-c1'>normal</span>` to make <span color='text-c1'>normal</span> colored to match the color used in the plot, in both light and dark mode. There's more on this in the user guide.\n - Constellate, as noted above, then runs the cell[^2] twice: once to generate a light-mode version, and once to generate a dark-mode version. These are then saved as images and included in the processed `getting-started.constellate` file used to inform the server.\n\n[^1]: Note how the hues used are in the same order: a dark blue in the light theme becomes a light blue in the dark theme, so you can still talk about \"the blue line\" and make sense.",
+      "star_id": "yEiJaXSM"
+    }
+  ],
+  "breadcrumbs": [
+    [],
+    [
+      0
+    ],
+    [
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0
+    ],
+    [
+      0
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "title": "Constellate Tutorial",
+  "slug": "constellate-tutorial",
+  "star_titles": [
+    "Constellate Tutorial",
+    "Installation",
+    "Making a Notebook",
+    "Writing Some Text",
+    "Seeing the Fruits of Our Labor",
+    "Adding a Plot",
+    ""
+  ]
+}
