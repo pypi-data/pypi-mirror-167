@@ -1,0 +1,9 @@
+aiojobs/__init__.py,sha256=AF2kfTn8oO7tP6qA9mMX6f0DZrxTcxlxjgrBRRlF7co,742
+aiojobs/_job.py,sha256=BoAPL-hl1nuXpW0CPQTcNoT49YcE_8lUj23Wa7AUqkg,4000
+aiojobs/_scheduler.py,sha256=Ov6S7SKIZbBVZld6Dl5x8BoOvRPDUgQjT80e57e_4bE,4071
+aiojobs/aiohttp.py,sha256=1sua7swZv-Vi_GTgIW5E_Kb1jlaX6ujHF2CFuKTTur0,1224
+aiojobs/py.typed,sha256=ay5OMO475PlcZ_Fbun9maHW7Y6MBTk0UXL4ztHx3Iug,14
+aiojobs_fork-1.1.0.dist-info/LICENSE,sha256=GAPciUVRFO7607gnVDND7cJFJDL9rCm17cZsi2bUy_M,568
+aiojobs_fork-1.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+aiojobs_fork-1.1.0.dist-info/METADATA,sha256=EoGFqT_82XYlk-AoE1ob3A9oxSBAiwYbZzdj2jFrD64,3820
+aiojobs_fork-1.1.0.dist-info/RECORD,,
