@@ -1,0 +1,9 @@
+README.md
+setup.py
+oxmenu/__init__.py
+oxmenu/main.py
+oxmenu.egg-info/PKG-INFO
+oxmenu.egg-info/SOURCES.txt
+oxmenu.egg-info/dependency_links.txt
+oxmenu.egg-info/requires.txt
+oxmenu.egg-info/top_level.txt
