@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/specsy/__init__.py
+src/specsy/plots.py
+src/specsy/tests.py
+src/specsy/tools.py
+src/specsy/treatement.py
+src/specsy.egg-info/PKG-INFO
+src/specsy.egg-info/SOURCES.txt
+src/specsy.egg-info/dependency_links.txt
+src/specsy.egg-info/requires.txt
+src/specsy.egg-info/top_level.txt
+src/specsy/models/__init__.py
+src/specsy/models/chemistry.py
+src/specsy/models/extinction.py
