@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="unfolded-map-test-div"></div>
+    <script type="module">
+      import { createMap } from 'https://unpkg.com/@unfolded/map-sdk@test/dist/index.js';
+      const element = document.getElementById('unfolded-map-test-div');
+
+      function htmlDecode(input) {
+        const doc = new DOMParser().parseFromString(input, "text/html");
+        return doc.documentElement.textContent;
+      }
+
+      const map = await createMap({
+        container: element,
+        style: JSON.parse(htmlDecode("{&#34;height&#34;: &#34;100%&#34;, &#34;width&#34;: &#34;100%&#34;}")),
+        basemaps: JSON.parse(htmlDecode("{}"))
+      });
+
+      const actions = JSON.parse(htmlDecode("[{&#34;args&#34;: [{&#34;type&#34;: &#34;local&#34;, &#34;label&#34;: &#34;Earthquakes&#34;, &#34;data&#34;: &#34;,DateTime,Latitude,Longitude,Depth,Magnitude,MagType,NbStations,Gap,Distance,RMS,Source,EventID\n0,1967/08/01 10:33:50.47,36.08,-121.07083,80.339,2.5,Mx,10,292,42,0.25,NCSN,1000872\n1,1967/08/02 02:49:12.55,35.63433,-120.75716,3.98,2.6,Mx,9,322,108,0.24,NCSN,1000887\n2,1967/08/03 05:55:26.73,36.37967,-121.0085,39.609,2.7,Mx,10,298,21,0.41,NCSN,1000912\n&#34;}], &#34;options&#34;: {&#34;autoCreateLayers&#34;: true, &#34;centerMap&#34;: true}, &#34;funcName&#34;: &#34;addDataset&#34;}, {&#34;args&#34;: [{&#34;zoom&#34;: 7}], &#34;options&#34;: {&#34;index&#34;: 0}, &#34;funcName&#34;: &#34;setView&#34;}]"));
+      actions.forEach((action) => {
+        const funcName = action["funcName"];
+        const args = action["args"];
+        const options = action["options"];
+        map[funcName](...args, options);
+      })
+    </script>
+  </body>
+</html>
