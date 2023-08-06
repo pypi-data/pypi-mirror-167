@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: volosti-gui-kivy
+Version: 0.1.dev0
+Summary: Реализация графического интерфейса пользователя Волостей на графическом фреймворке Kivy
+Home-page: https://pypi.org/project/volosti-gui-kivy
+License: MIT
+Author: Ruslan Ilyasovich Gilfanov
+Author-email: ri.gilfanov@yandex.ru
+Maintainer: Ruslan Ilyasovich Gilfanov
+Maintainer-email: ri.gilfanov@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Provides-Extra: all
+Provides-Extra: openssl
+Provides-Extra: pycryptodome
+Requires-Dist: cryptography (>=37.0.4,<38.0.0); extra == "openssl" or extra == "all"
+Requires-Dist: kivy (>=2.1.0,<3.0.0)
+Requires-Dist: pycryptodome (>=3.15.0,<4.0.0); extra == "pycryptodome" or extra == "all"
+Requires-Dist: volosti-common (>=0.1.dev0,<0.1)
+Project-URL: Repository, https://github.com/volosti/volosti-gui-kivy
+Description-Content-Type: text/x-rst
+
+volosti-gui-kivy
+================
+Реализация графического интерфейса пользователя Волостей на графическом фреймворке Kivy.
+
