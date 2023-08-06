@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: omicsone-meta
+Version: 0.1.2
+Summary: OmicsOneMeta: meta data processing for omics data analysis
+Home-page: UNKNOWN
+Author: Yingwei Hu
+Author-email: yhu39@jhmi.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pandas
+
+UNKNOWN
+

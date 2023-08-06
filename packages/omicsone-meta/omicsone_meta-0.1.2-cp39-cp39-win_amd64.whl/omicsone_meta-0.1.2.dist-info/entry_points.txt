@@ -1,0 +1,3 @@
+[console_scripts]
+omicsone_meta = omicsone_meta.main:main
+
