@@ -1,0 +1,2 @@
+[console_scripts]
+po3way = po3way:main
