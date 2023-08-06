@@ -1,0 +1,12 @@
+dask_histogram/__init__.py,sha256=NCnt2Qa1yngk0L7pY6oNK4X-mY_Wp6TBV_k0yiTuAhs,675
+dask_histogram/bins.py,sha256=_5gCHshbxCLr4Y_ygM6hbYCsBfTu4VoUvDCixuzr81g,6417
+dask_histogram/boost.py,sha256=g2QWcHVkJekYAJoqNkcF_jYCecmaWqdARXlsNuv5KDc,28759
+dask_histogram/core.py,sha256=zL32eLOxVeOVFTs4UGrjhEo3SnIZ5ZulgUNibqvCKWg,29359
+dask_histogram/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dask_histogram/routines.py,sha256=gQtMi5KDDEJ7wtLmoDSGNfJdEEEtDGBsNggJSbG62B0,16836
+dask_histogram/typing.py,sha256=Am4EXuFBhjjLoREI8YcJEt44zpdHo4XTWbf41uVRYVw,436
+dask_histogram/version.py,sha256=gj6_xPi-ZBG7CFgo_6tRQjmm8ivWFUS1yu8GZXC1tzA,182
+dask_histogram-2022.9.0.dist-info/METADATA,sha256=4dx6FfPI200CAKZCn59L1NHa-eAMxWzvp4SlTYD2PKI,3002
+dask_histogram-2022.9.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+dask_histogram-2022.9.0.dist-info/licenses/LICENSE,sha256=uvDdB2CwkwIsJx04ah6ZV2xvBxQeVO8IKiPhzcnIndY,1517
+dask_histogram-2022.9.0.dist-info/RECORD,,
