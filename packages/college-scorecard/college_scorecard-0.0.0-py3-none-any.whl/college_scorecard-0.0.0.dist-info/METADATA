@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: college-scorecard
+Version: 0.0.0
+Summary: A python library for collegescorecard.ed.gov
+Home-page: https://github.com/ahoodatheguy/scorecard
+Author: Ahadu Kebede
+Author-email: ahadukebede@gmail.com
+License-File: LICENSE
+
