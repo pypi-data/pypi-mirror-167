@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: crazy-thursday
+Version: 1.0.3.0
+Summary: an extension for sphinx to display console in sphinx documents
+Home-page: https://github.com/zqmillet/sphinx-console
+Author: kinopico
+Author-email: zqmillet@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pydantic (==1.9.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: tqdm (==4.64.0)
+
+UNKNOWN
+
+
