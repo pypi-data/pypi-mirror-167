@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hlvox
+Version: 0.3.10
+Summary: Pieces together voice files to form sentences
+Home-page: https://gitlab.com/bhagen/hlvox
+Author: Blair Hagen
+Author-email: bhagen55@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+License-File: LICENSE.md
+License-File: AUTHORS
+Requires-Dist: astroid (==2.12.9)
+Requires-Dist: attrs (==22.1.0)
+Requires-Dist: autopep8 (==1.7.0)
+Requires-Dist: cfgv (==3.3.1)
+Requires-Dist: dill (==0.3.5.1)
+Requires-Dist: distlib (==0.3.6)
+Requires-Dist: filelock (==3.8.0)
+Requires-Dist: identify (==2.5.5)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: isort (==5.10.1)
+Requires-Dist: lazy-object-proxy (==1.7.1)
+Requires-Dist: mccabe (==0.7.0)
+Requires-Dist: mypy (==0.971)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: nodeenv (==1.7.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: platformdirs (==2.5.2)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: pre-commit (==2.20.0)
+Requires-Dist: py (==1.11.0)
+Requires-Dist: pycodestyle (==2.9.1)
+Requires-Dist: pydub (==0.23.1)
+Requires-Dist: pylint (==2.15.2)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: pytest (==7.1.3)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: tinydb (==3.13.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: tomlkit (==0.11.4)
+Requires-Dist: typing-extensions (==4.3.0)
+Requires-Dist: virtualenv (==20.16.5)
+Requires-Dist: wrapt (==1.14.1)
+
+Originally intended to create sentences from the word snippets for the
+Half Life 1 Vox, this project can take a folder of word audio files and piece
+them into sentences.
+
