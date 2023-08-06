@@ -1,0 +1,14 @@
+channel_box/__init__.py,sha256=lLpH6v8xOZhodE_vSwx0Euecs2FlUc--BpALN_Fc-ds,83
+channel_box/channel_box.py,sha256=rlrUpV7BLcqxpalDbRj7H3UrMaKixY5KjBGBn8BAXhE,5140
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/app.py,sha256=Ro2QiyNkeyRXE4A2lSVHGxgUEgHNjUH_CFzkxwy9cFo,318
+example/settings.py,sha256=85OEGR6MwM0l1wD7v6bIPem2Ou12TWIBZpHYEkk6-Fo,18
+example/setup.py,sha256=uH3E4lUGm6zI_6Xf9fO4-HOxoq3RON_h3tFXR6Hmp7Y,968
+example/channel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/channel/urls.py,sha256=vy9b3staQOAVnrJgpLFX848LT_y2d9nBF_4mNXz2mx0,597
+example/channel/views.py,sha256=V144RkuUa4pON6kzou5YucLN54ej-S3YYjPsQOzfnTo,5947
+channel_box-0.4.0.dist-info/LICENSE,sha256=BvmWh0aXPp8jrD0GS25NwyJ321UbcQ7KIui9wAmwVD0,1094
+channel_box-0.4.0.dist-info/METADATA,sha256=otxVHCqjxIcZkqsh1jrx_xuI8Qnt7Bs1EHlt8ynSYXE,2771
+channel_box-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+channel_box-0.4.0.dist-info/top_level.txt,sha256=mjnxqFEWVz6Q-V_iwda7dXI5euFqxEJoqnhuKt-k6sI,20
+channel_box-0.4.0.dist-info/RECORD,,
