@@ -1,0 +1,2 @@
+[console_scripts]
+ctgen = ctgen.gen:main
