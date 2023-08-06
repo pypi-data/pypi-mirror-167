@@ -1,0 +1,13 @@
+v0.2.0, 2020-09-16:
+  Add type hints (GH #4)
+  Removed the broken MutableFixedInt.__itruediv__
+  Added base argument to FixedInt constructor
+
+v0.1.6, 2020-06-20:
+  Fix x[:] = y where y is a fixedint (GH #3)
+
+v0.1.4, 2019-04-21:
+  Fix help(fixedint) (GH #2)
+
+v0.1.0, 2014-06-21:
+  Initial release.
