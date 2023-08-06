@@ -1,0 +1,2 @@
+[console_scripts]
+nanoprep = NanoPreP.main:main
