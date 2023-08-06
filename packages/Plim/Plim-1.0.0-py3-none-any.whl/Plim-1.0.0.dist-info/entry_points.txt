@@ -1,0 +1,2 @@
+[console_scripts]
+plimc = plim.console:plimc
