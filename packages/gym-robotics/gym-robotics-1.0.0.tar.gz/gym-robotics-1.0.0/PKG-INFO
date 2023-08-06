@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gym-robotics
+Version: 1.0.0
+Summary: Legacy robotics environments from Gym repo
+Home-page: https://github.com/Farama-Foundation/gym-robotics
+Author: Farama Foundation
+Author-email: jkterry@farama.org
+License: UNKNOWN
+Description: [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) 
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+        <p align="center">
+            <img src="readme.png" width="500px"/>
+        </p>
+        
+        # Gym-Robotics
+        Details and documentation on these robotics environments are available in OpenAI's [blog post](https://blog.openai.com/ingredients-for-robotics-research/) and the accompanying [technical report](https://arxiv.org/abs/1802.09464).
+        
+        Requirements:
+        - Python 3.7 to 3.10
+        - Gym v0.26
+        - NumPy 1.18+
+        - Mujoco 2.2.2
+        
+        If you use these environments, please cite the following paper:
+        
+        ```bibtex
+        @misc{1802.09464,
+          Author = {Matthias Plappert and Marcin Andrychowicz and Alex Ray and Bob McGrew and Bowen Baker and Glenn Powell and Jonas Schneider and Josh Tobin and Maciek Chociej and Peter Welinder and Vikash Kumar and Wojciech Zaremba},
+          Title = {Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research},
+          Year = {2018},
+          Eprint = {arXiv:1802.09464},
+        }
+        ```
+        
+        ## New MuJoCo Python Bindings
+        
+        The latest version and future versions of the MuJoCo environments will no longer depend on `mujoco-py`. Instead the new [mujoco](https://mujoco.readthedocs.io/en/latest/python.html) python bindings will be the required dependency for future gym MuJoCo environment versions. Old gym MuJoCo environment versions that depend on `mujoco-py` will still be kept but unmaintained.
+        Dependencies for old MuJoCo environments can still be installed by `pip install gym_robotics[mujoco_py]`.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: mujoco_py
