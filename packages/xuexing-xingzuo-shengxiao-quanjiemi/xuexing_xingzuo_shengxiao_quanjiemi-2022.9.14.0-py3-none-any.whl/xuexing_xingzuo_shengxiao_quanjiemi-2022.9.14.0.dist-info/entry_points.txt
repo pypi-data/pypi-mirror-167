@@ -1,0 +1,4 @@
+[console_scripts]
+XuexingXingzuoShengxiaoQuanjiemi = XuexingXingzuoShengxiaoQuanjiemi.__main__:main
+xuexing-xingzuo-shengxiao-quanjiemi = XuexingXingzuoShengxiaoQuanjiemi.__main__:main
+
