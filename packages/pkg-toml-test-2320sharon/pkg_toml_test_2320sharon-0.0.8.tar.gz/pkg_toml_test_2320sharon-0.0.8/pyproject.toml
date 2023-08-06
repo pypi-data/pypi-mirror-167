@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkg_toml_test_2320sharon"
+version = "0.0.8"
+authors = [
+  { name="Sharon Fitzpatrick", email="sharon.fitzpatrick23@gmail.com" },
+]
+description = "A small example package"
+dependencies = [ "geopandas",
+  "scikit-image", 
+  "matplotlib",
+  "astropy",
+  "notebook",
+  "pyqt5",
+  "earthengine-api>=0.1.304"]
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

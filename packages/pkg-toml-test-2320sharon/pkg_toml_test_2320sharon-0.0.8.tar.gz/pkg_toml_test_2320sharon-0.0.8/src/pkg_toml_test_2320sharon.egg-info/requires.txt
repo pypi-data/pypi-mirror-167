@@ -1,0 +1,7 @@
+geopandas
+scikit-image
+matplotlib
+astropy
+notebook
+pyqt5
+earthengine-api>=0.1.304
