@@ -1,0 +1,11 @@
+fti/__init__.py,sha256=2Ovb-Slm3K5I6DgcBAv_-F0hQcdVo84KfzTekkvqPTs,124
+fti/file_type_getters/__init__.py,sha256=WSSFFsOVczRp7r1ecey6Zf8qEuHPwG5xgBiTx6byuV8,237
+fti/file_type_getters/get_by_content_disposition.py,sha256=LsuULl7AyGZbqgjASL5u9Wp5pwUFNJSVNzOIqt2rjlg,591
+fti/file_type_getters/get_by_content_header.py,sha256=vq9tbsACnKkQ8WgiNaiyp6WaZAQYoOuo5cjMC-tyn_I,8177
+fti/file_type_getters/get_by_mimetype.py,sha256=ULqXAKuobxQEU1adA9YT_GTwBa2ssHDooTA4Fcx4_tc,3892
+fti/file_type_getters/get_by_url.py,sha256=7UKBNmvUzYbF5ogmFXiAYuByLaJJcU2op9XFEUUdfHI,416
+fti/file_types.py,sha256=aezHq-zTj1K_bcBr0FohDRxdr3ErEUaOp9ubFeVvKa4,2204
+fti/getters.py,sha256=y89TJafF59xPh-6RxaE4Re74cf8vNWnwz0j9Uf_Dh8A,1984
+file_type_identifier-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+file_type_identifier-0.2.0.dist-info/METADATA,sha256=mXbeJAJ6jCNCeVYwgRq4b9SAUPcgqhyb8js2VMXqaDo,961
+file_type_identifier-0.2.0.dist-info/RECORD,,
