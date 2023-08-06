@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: caex2
+Version: 0.1.0
+Summary: Automatically extract all exercises from a carpentries lesson.
+Home-page: https://github.com/esciencecenter-digital-skills/carpentries-exercises-extractor
+Author: 
+Sven van der Burg
+Dafne van Kuppevelt
+Author-email: s.vanderburg@esciencecenter.nl
+Keywords: Extract,Exercises
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Carpentries Instructors
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: publishing
+License-File: LICENSE
+
+# CaEx2 (CArpentries EXercises EXtractor)
+## What does it do?
+No more copy-pasting, automatically extract all exercises from a carpentries lesson.
