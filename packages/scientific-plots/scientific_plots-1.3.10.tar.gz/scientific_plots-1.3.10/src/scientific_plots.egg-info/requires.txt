@@ -1,0 +1,10 @@
+scipy
+numpy>=1.21
+matplotlib
+SciencePlots
+
+[dev]
+mypy
+pylint
+flake8
+pytest
