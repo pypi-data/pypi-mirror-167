@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ManualSorter
+Version: 0.1.2
+Summary: Basic TUI tool to reorder a list on the clipboard
+Home-page: https://github.com/TeddyWoodburn/ManualSorter
+Author: Teddy Woodburn
+Author-email: 113065068+TeddyWoodburn@users.noreply.github.com
+License: unlicense
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: pyperclip
+Requires-Dist: windows-curses ; sys_platform == "Windows"
+
