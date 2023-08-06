@@ -1,0 +1,1 @@
+Script sorts the files in the directory by extension and unpacks archives
