@@ -1,0 +1,16 @@
+easydatasettobop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easydatasettobop/__main__.py,sha256=Sh8tp5lsEIe6VJN6TM7f_SEiyTwH8TRriXuzo97AVhc,93
+easydatasettobop/bop_dataset_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easydatasettobop/bop_dataset_utils/inout.py,sha256=Ti5vdxgcVq99juCGGUjt_yASWzF5xnZn-9t5k1hM6Xk,26126
+easydatasettobop/bop_dataset_utils/misc.py,sha256=SsVWpllKw5Swx7Wi8choxBSHaZbdxhzpvmbRYsD1ShA,14581
+easydatasettobop/bop_dataset_utils/transform.py,sha256=8OscAVo5INmJnoXsG6DegHp-S5lBPlI2yhcg25enGeQ,65927
+easydatasettobop/dataset_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easydatasettobop/dataset_utils/camera.py,sha256=EUmtbEN7yDib9FDWOfifJZQgKq58ebQg0jRbMj-xuX8,853
+easydatasettobop/dataset_utils/models.py,sha256=H3NMcUfsIzsyeaL4LhiDM9mAfmbNtYobn4DtctcuVC4,2114
+easydatasettobop/dataset_utils/train.py,sha256=dpJ44ea0Adiuf8I2qhdt4kxWaIUwlJeSPUbDq0FGFKg,6152
+easydatasettobop/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easydatasettobop/scripts/convert_easy_dataset_to_bop.py,sha256=5Ze6Cqlul2LkO3iivV4Qkjs6FIfqS5dloXOiL7YVT20,1412
+EasyDataSetToBOP-0.0.3.dist-info/METADATA,sha256=BqVZEv_LVW-w1gVmf-mgo8G6mIloWJlpOVYd6GFq9qA,898
+EasyDataSetToBOP-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+EasyDataSetToBOP-0.0.3.dist-info/top_level.txt,sha256=LdcWhdXIIjuhGcT-rzU7n1mKxGCwQdcd7AFqZ8el72k,17
+EasyDataSetToBOP-0.0.3.dist-info/RECORD,,
