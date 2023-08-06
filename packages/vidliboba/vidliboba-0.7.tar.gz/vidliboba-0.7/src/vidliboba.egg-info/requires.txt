@@ -1,0 +1,8 @@
+moviepy
+tqdm~=4.64.0
+ffmpeg-python
+yt-dlp
+pydub
+soundfile
+pysndfx
+pyaudioconvert

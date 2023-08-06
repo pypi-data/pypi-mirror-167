@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/vidliboba.egg-info/PKG-INFO
+src/vidliboba.egg-info/SOURCES.txt
+src/vidliboba.egg-info/dependency_links.txt
+src/vidliboba.egg-info/requires.txt
+src/vidliboba.egg-info/top_level.txt
