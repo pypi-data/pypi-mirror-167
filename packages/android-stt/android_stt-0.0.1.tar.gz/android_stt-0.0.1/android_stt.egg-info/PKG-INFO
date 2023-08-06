@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: android-stt
+Version: 0.0.1
+Summary: android_stt is a stt driver for unistt engine
+Home-page: https://github.com/yumoqing/android_stt
+Author: yumoqing
+Author-email: yumoqing@gmail.com
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# android_stt
+android speech to text engine
