@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+hello_world/__init__.py
+kolawole_hello_world.egg-info/PKG-INFO
+kolawole_hello_world.egg-info/SOURCES.txt
+kolawole_hello_world.egg-info/dependency_links.txt
+kolawole_hello_world.egg-info/requires.txt
+kolawole_hello_world.egg-info/top_level.txt
