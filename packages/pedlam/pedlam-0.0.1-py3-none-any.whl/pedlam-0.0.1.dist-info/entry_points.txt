@@ -1,0 +1,2 @@
+[console_scripts]
+pedlam = pedlam_scripts.pedlam_cli:main
