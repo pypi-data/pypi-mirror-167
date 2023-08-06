@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: colmap-wrapper
+Version: 1.1.0
+Summary: COLMAP Handler
+Home-page: https://github.com/meyerls/colmap-wrapper
+Author: Lukas Meyer
+Author-email: lukas.meyer@fau.de
+License: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
