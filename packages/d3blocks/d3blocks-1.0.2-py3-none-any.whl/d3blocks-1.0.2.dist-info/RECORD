@@ -1,0 +1,14 @@
+d3blocks/__init__.py,sha256=aX1UyN1Gm-aiksSjB-trnrAQr5djOi3EwhX7a9GEjeg,965
+d3blocks/d3blocks.py,sha256=pvu1p-UCMIYNzk_5Gdk7csEltebbclsGzNgPU9Yl3ck,65856
+d3blocks/examples.py,sha256=_mTDINT4lT9npx0yhHjZktAPv6f34BIU86K2iNxTDO4,27561
+d3blocks/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+d3blocks/data/cancer_dataset.zip,sha256=4E1COS-GGFotQGip3pvO0VdX1j44BNPA0065JWEHx0w,147068
+d3blocks/data/energy_source_target_value.zip,sha256=f7qpDa_LB0kqMsedUPRnjLI7JwULWOdba9g4oO6PGc8,982
+d3blocks/data/movingbubbles.zip,sha256=u3i9hmhQqFhfH1oF7rh5iyllqR6ff8j1tGrmORBX_jo,32080
+d3blocks/data/southern_nebula.zip,sha256=GELUcNj7XgPtamvm7Bk7ovM2ApNHykV731ws92o7gAA,1402762
+d3blocks/data/stormofswords.zip,sha256=N0Q4qUpNW0VSogGUxTJMXK40qOwtiZV8ZCAxW6uTg-0,1972
+d3blocks-1.0.2.dist-info/LICENSE,sha256=W5vQjmPxXDCgraq4CWIogQB4sQqkMjQliY9u_KOnQps,35837
+d3blocks-1.0.2.dist-info/METADATA,sha256=a0CIHmfvxIEeIkVt1DJylhSk8_2vO7AM2ibhjX1inW0,4684
+d3blocks-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+d3blocks-1.0.2.dist-info/top_level.txt,sha256=dDcMLVbykMpdDLZw1id0jtDRRpZActvpZCalcDS1KVg,9
+d3blocks-1.0.2.dist-info/RECORD,,
