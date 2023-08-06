@@ -1,0 +1,7 @@
+README.md
+setup.py
+vuw_info.egg-info/PKG-INFO
+vuw_info.egg-info/SOURCES.txt
+vuw_info.egg-info/dependency_links.txt
+vuw_info.egg-info/requires.txt
+vuw_info.egg-info/top_level.txt

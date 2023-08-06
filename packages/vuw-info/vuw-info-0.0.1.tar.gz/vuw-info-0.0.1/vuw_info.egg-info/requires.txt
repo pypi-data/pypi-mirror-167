@@ -1,0 +1,3 @@
+gspread
+pywin32
+pycryptodome
