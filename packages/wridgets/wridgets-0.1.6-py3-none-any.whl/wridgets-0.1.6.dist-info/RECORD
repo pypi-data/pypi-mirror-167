@@ -1,0 +1,10 @@
+wridgets/__init__.py,sha256=MOuv4VsX0cV90H-zV5PZHGphDUPPE8pNXVca2G3fu8k,351
+wridgets/app.py,sha256=jQU7D8qO8rPcqvMz1IJOGcgMwgFdHevdB3Q_oJiy17c,17821
+wridgets/utils.py,sha256=ORC6hiZPrw_cooqHxoPdEqZfdxhqWYiKLkfPhhGunh0,1192
+wridgets/version.py,sha256=kBM8jwQ9r_ZMq7P43-SvMT6w6DhdPd9jFFTBA3HEZdg,21
+wridgets/wridgets.py,sha256=RD_UglSJRqGSCNhsECUiw2BS4pfDaSl9qlgrtM5JMxo,4764
+wridgets-0.1.6.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+wridgets-0.1.6.dist-info/METADATA,sha256=7Hh_hQ6EnIaZ62NOQX4sdqJisvmWY8GX_lgHGbcrhyY,280
+wridgets-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wridgets-0.1.6.dist-info/top_level.txt,sha256=Q59dLpractkKqO-zcvhB5DsgYtMFScMRuY8szKpT91Q,9
+wridgets-0.1.6.dist-info/RECORD,,
