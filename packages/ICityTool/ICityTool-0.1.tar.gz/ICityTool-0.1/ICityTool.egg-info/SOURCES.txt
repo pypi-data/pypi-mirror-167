@@ -1,0 +1,14 @@
+Cal.sh
+ConvertOutput.py
+GetIcityForBLASTHits.py
+ICityTool.py
+MANIFEST.in
+README.md
+RemoveFASTAIDRedundency.py
+RunClust.sh
+entry.py
+setup.py
+ICityTool.egg-info/PKG-INFO
+ICityTool.egg-info/SOURCES.txt
+ICityTool.egg-info/dependency_links.txt
+ICityTool.egg-info/top_level.txt
