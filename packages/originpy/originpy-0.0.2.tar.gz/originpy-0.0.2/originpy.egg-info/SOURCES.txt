@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+originpy/__init__.py
+originpy/hello.py
+originpy.egg-info/PKG-INFO
+originpy.egg-info/SOURCES.txt
+originpy.egg-info/dependency_links.txt
+originpy.egg-info/requires.txt
+originpy.egg-info/top_level.txt
