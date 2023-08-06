@@ -1,0 +1,14 @@
+pynlpl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynlpl/local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynlpl/local/audio.py,sha256=JUlZAaIX9xaFkywpaUblHC4AIt73Wx-mlijH14IoYqM,28
+pynlpl/local/text/nltk.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynlpl/local/text/spacy.py,sha256=pIz59-ReQjDqvD65IisxAuhDE6Jf6wZwrdWYwR5dVoU,2747
+pynlpl/local/text/stanza.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynlpl/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynlpl/web/audio.py,sha256=i-1JrOmgHv-AScDabiO3WwaCMS2Nl6Ikitlkdq9zs3c,251
+pynlpl/web/text.py,sha256=NdN_TLQzSXYHe9SOexiGQC5RoEtY_EpP9rL-7sc9EUA,7443
+pynlp_lib-0.1.4.dist-info/LICENSE,sha256=LP7SclRjI9tw0AMhD2ZHOhvfGW0MQkJgz4ny-qZocCM,1069
+pynlp_lib-0.1.4.dist-info/METADATA,sha256=t56Px5PmQdWx-ahytMOzIf_AFU2TR2UNnYCrj_pYyjU,12298
+pynlp_lib-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pynlp_lib-0.1.4.dist-info/top_level.txt,sha256=oWGi36dLjo55NZAtWeQLp8UUwPBSPzXNgINREV8kugk,7
+pynlp_lib-0.1.4.dist-info/RECORD,,
