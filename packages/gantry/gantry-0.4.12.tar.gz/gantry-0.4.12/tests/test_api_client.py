@@ -1,0 +1,67 @@
+import mock
+import responses
+from responses import matchers
+
+from gantry import api_client
+from gantry.version import __version__
+
+HOST = "http://test-api"
+FAKE_API_KEY = "ABCD1234"
+
+
+@mock.patch("gantry.api_client.platform")
+def test_request_ua(mock_platform):
+    mock_platform.python_implementation.return_value = "foo"
+    mock_platform.python_version.return_value = "bar"
+    mock_platform.system.return_value = "baz"
+    mock_platform.machine.return_value = "qux"
+
+    api_client_obj = api_client.APIClient(HOST, FAKE_API_KEY)
+
+    with responses.RequestsMock() as resp:
+        resp.add(
+            resp.GET,
+            f"{HOST}/health",
+            headers={"Content-Type": "application/json"},
+            json={
+                "response": "ok",
+                "data": "foobar",
+            },
+            match=[
+                matchers.header_matcher(
+                    {
+                        "User-Agent": f"gantry/{__version__} foo/bar baz qux",
+                        "X-Gantry-Api-Key": FAKE_API_KEY,
+                        "Other": "header",
+                    }
+                )
+            ],
+        )
+
+        assert api_client_obj.request("GET", "/health", headers={"Other": "header"}) == {
+            "response": "ok",
+            "data": "foobar",
+        }
+
+
+def test_request_rate_limit(caplog):
+    api_client_obj = api_client.APIClient(HOST, FAKE_API_KEY)
+    with responses.RequestsMock() as resp:
+        resp.add(
+            resp.GET,
+            f"{HOST}/health",
+            headers={"Content-Type": "application/json"},
+            status=429,
+            json={
+                "response": "ok",
+                "error": "something",
+            },
+        )
+
+        assert api_client_obj.request("GET", "/health") == {
+            "response": "ok",
+            "error": "something",
+        }
+
+        log_error = [r.msg for r in caplog.records][0]
+        assert "Logger has hit the rate limit" in log_error
