@@ -1,0 +1,14 @@
+timekit/__init__.py,sha256=HtTzxjwDyOiHpme2NY5RlrN_HiXJ2Q1oDSgwkwQ0KtM,183
+timekit/client.py,sha256=qN_suv08siA4c4uELRbqTZDeE4MZ0rFt6Va-nx5_BI4,502
+timekit/components/__init__.py,sha256=w5gnI8KN6iZ2acOdoPJEkZYm9zj-42jeHNCbMH_r8po,161
+timekit/components/apps.py,sha256=MAyZbXE260qkRcw9vqv7YsTczL7VN4Cc0ld8Ee4cayA,819
+timekit/components/availability.py,sha256=CAd1paE3mxoicTjBZZVf64TUx9hLGhMHxhlcZ5JzZTk,715
+timekit/components/base.py,sha256=JNKoYtR4aAhlqUDOFcyryG9ZxwjAerLfpo57JXkjrcU,4213
+timekit/components/bookings.py,sha256=zo9hX16D_Ek_NIoypvVHchirQ_Zy3noGTDuYUlJETMM,4450
+timekit/components/projects.py,sha256=M6vfC2Q7LIYEN2E2Ng--XHsr1K8UTaycNGQIwQybVuw,1432
+timekit/components/resources.py,sha256=Q2c8PlSHY6nQIIE2B8fOZXkYNZnIbxzW1oYqFSxpHAM,1006
+python_timekit-1.0.1.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+python_timekit-1.0.1.dist-info/METADATA,sha256=kXeDye8A7ppn2_dsH9q3M_HFnXRnAr4YQ0CwBoJ1-to,3698
+python_timekit-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_timekit-1.0.1.dist-info/top_level.txt,sha256=lvGJTnYntaGlV5rp5w6Xsmi5hp_OAsSj9qPk1mDFpQg,8
+python_timekit-1.0.1.dist-info/RECORD,,
