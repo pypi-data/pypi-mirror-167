@@ -1,0 +1,49 @@
+Results of doctest builder run on 2022-09-14 12:16:03
+=====================================================
+
+Document: sources
+-----------------
+1 items passed all tests:
+  25 tests in default
+25 tests in 1 items.
+25 passed and 0 failed.
+Test passed.
+
+Document: validation
+--------------------
+1 items passed all tests:
+  66 tests in default
+66 tests in 1 items.
+66 passed and 0 failed.
+Test passed.
+
+Document: fields
+----------------
+1 items passed all tests:
+ 128 tests in default
+128 tests in 1 items.
+128 passed and 0 failed.
+Test passed.
+
+Document: narr
+--------------
+1 items passed all tests:
+  23 tests in default
+23 tests in 1 items.
+23 passed and 0 failed.
+Test passed.
+
+Document: api
+-------------
+1 items passed all tests:
+ 299 tests in default
+299 tests in 1 items.
+299 passed and 0 failed.
+Test passed.
+
+Doctest summary
+===============
+  541 tests
+    0 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
