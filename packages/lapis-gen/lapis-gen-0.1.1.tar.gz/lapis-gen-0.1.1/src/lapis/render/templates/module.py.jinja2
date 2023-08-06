@@ -1,0 +1,17 @@
+{% from 'type_hint.py.jinja2' import type_hint -%}
+from __future__ import annotations
+
+import typing
+{%- for imp in model.imports %}
+import {{ imp }}
+{%- endfor %}
+
+{#-if typing.TYPE_CHECKING:#}
+{%- for imp in model.type_checking_imports %}
+import {{ imp }}
+{#- {%- else %}#}
+{#-    pass#}
+{%- endfor %}
+
+
+{% block body required %}{% endblock %}
