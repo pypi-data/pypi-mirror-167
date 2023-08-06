@@ -1,0 +1,8 @@
+MANIFEST.in
+licence.txt
+setup.py
+mypackrprint/__init__py.py
+printravisname.egg-info/PKG-INFO
+printravisname.egg-info/SOURCES.txt
+printravisname.egg-info/dependency_links.txt
+printravisname.egg-info/top_level.txt
