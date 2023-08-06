@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lichenggong/__init__.py
+lichenggong/__lidao__.py
+lichenggong/test.py
+lichenggong.egg-info/PKG-INFO
+lichenggong.egg-info/SOURCES.txt
+lichenggong.egg-info/dependency_links.txt
+lichenggong.egg-info/top_level.txt
