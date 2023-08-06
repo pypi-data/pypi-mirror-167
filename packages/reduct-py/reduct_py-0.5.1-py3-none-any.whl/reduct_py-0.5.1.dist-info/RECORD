@@ -1,0 +1,11 @@
+reduct/VERSION,sha256=q6lRYmyGkM5JPLyPAYIFu0aAA_YfvwD9PTxxzrq8AXc,6
+reduct/__init__.py,sha256=8P6In9FxrvfonY5Llz7ZbPDHLkgOjp-oTQpyJUCfj2c,216
+reduct/bucket.py,sha256=IWkUihqZzBKm4U1E8_atb_dXDcyoeELe1N4WODP5DuE,9503
+reduct/client.py,sha256=MJsQfYj5Z-PIxVo8a4XhylBgIqTw3g8hIct91U2vSbw,3454
+reduct/error.py,sha256=6e3YOb2vpyzd83D5aH9m3SfcKjlRwC8nt1c0liHj7mg,538
+reduct/http.py,sha256=bhpxNHqyRpz8AYQ0ZCHbd5NXd14QZP_1BNpXOJwibYI,1987
+reduct_py-0.5.1.dist-info/LICENSE,sha256=O1HCoKgNDYQKUfRoqGeq40ojije0oDmDwj5Lal-Isxk,1069
+reduct_py-0.5.1.dist-info/METADATA,sha256=mMlIfRQ8fpqJ0Gx6ULgipuajf_owbKtEOQzINqYZq5s,2441
+reduct_py-0.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+reduct_py-0.5.1.dist-info/top_level.txt,sha256=8s2_F74CILNOol5Ir-po8CNNDvpyilgVKiSCtwXmmN0,7
+reduct_py-0.5.1.dist-info/RECORD,,
