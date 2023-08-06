@@ -1,0 +1,4 @@
+[console_scripts]
+mailshell = mailshell.app:main
+mshell = mailshell.app:main
+
