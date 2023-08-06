@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "acac"
+version = "0.2.0"
+description = "競プロ便利ツール。AtCoder と アルゴ式 に対応。"
+authors = ["seijinrosen <86702775+seijinrosen@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/seijinrosen"
+repository = "https://github.com/seijinrosen/acac"
+documentation = "https://github.com/seijinrosen/acac"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.1"
+pydantic = "^1.10.1"
+pyperclip = "^1.8.2"
+readchar = "^4.0.3"
+requests = "^2.28.1"
+rich = "^12.5.1"
+tomli = "^2.0.1"
+tomli-w = "^1.0.0"
+typing-extensions = "^4.3.0"
+
+[tool.poetry.dev-dependencies]
+bandit = "^1.7.4"
+black = "^22.8.0"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.8.2"
+
+[tool.poetry.scripts]
+acac = "acac.__main__:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.report]
+exclude_lines = ['if __name__ == "__main__":']
+
+[tool.isort]
+profile = "black"
