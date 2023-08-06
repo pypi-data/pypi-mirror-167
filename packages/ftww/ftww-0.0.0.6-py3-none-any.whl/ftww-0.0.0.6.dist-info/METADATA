@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ftww
+Version: 0.0.0.6
+Summary: Find Text with Word
+Home-page: https://google.com
+Author: Gyungjun Ahn
+Author-email: an4683@gmail.com
+License: MIT
+Requires-Python: >=3
+
