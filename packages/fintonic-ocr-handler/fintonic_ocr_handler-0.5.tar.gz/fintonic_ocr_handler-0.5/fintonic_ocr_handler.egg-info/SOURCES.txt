@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+fintonic_ocr_handler/__init__.py
+fintonic_ocr_handler/extraction_error_handler.py
+fintonic_ocr_handler.egg-info/PKG-INFO
+fintonic_ocr_handler.egg-info/SOURCES.txt
+fintonic_ocr_handler.egg-info/dependency_links.txt
+fintonic_ocr_handler.egg-info/top_level.txt
