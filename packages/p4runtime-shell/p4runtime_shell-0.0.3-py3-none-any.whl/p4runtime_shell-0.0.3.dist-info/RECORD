@@ -1,0 +1,14 @@
+p4runtime_sh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p4runtime_sh/__main__.py,sha256=CVaSdZMpM3TwnzAwlYXnRJb8stc-VpuyfVJytQu2HTI,63
+p4runtime_sh/bytes_utils.py,sha256=i7aM8XDd5FOTXIGy1i71F4gvE0FdaskeG5OuIRlxjvk,3541
+p4runtime_sh/context.py,sha256=_-iQ7tJadmiUNxctLyK_3EYk_JAaig-1w4I73HCB6yE,5700
+p4runtime_sh/global_options.py,sha256=2ltcdbnZsjzIkjV4EhTLZf1vXSsewnh9Dw14wM_099A,4435
+p4runtime_sh/p4runtime.py,sha256=UwUq9JUhZbWY1yea-5jMlKSD5Ke0_nojWNdZ9Y878K4,13138
+p4runtime_sh/shell.py,sha256=FPZpjz93VbScxq-U7XSdB7DuIFNJENe7F1AgES85Ykw,104871
+p4runtime_sh/test.py,sha256=6y-iINMlF4G7xWU6tQPd5GeogFtyrWBMyNXR6VRVXT4,36846
+p4runtime_sh/utils.py,sha256=De1MzawdjMBVXPslPFPHdb1ppmAl97EjhRzifR2hOdY,726
+p4runtime_shell-0.0.3.dist-info/LICENSE,sha256=uE0HuGjczF-vVWSMVFAek4PRwYdU1yE9xcCssAeNtTU,10317
+p4runtime_shell-0.0.3.dist-info/METADATA,sha256=dkv3pzQCP1ok3VqHlSBCme6X28SLCWZGYH75UUPEf3o,17703
+p4runtime_shell-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+p4runtime_shell-0.0.3.dist-info/top_level.txt,sha256=GrZEeDPD41YVVkZySzDy6r-ZnrooyHmPlXgM3pZBWE0,13
+p4runtime_shell-0.0.3.dist-info/RECORD,,
