@@ -1,0 +1,2 @@
+[console_scripts]
+ndict = nekodict.__main__:main
