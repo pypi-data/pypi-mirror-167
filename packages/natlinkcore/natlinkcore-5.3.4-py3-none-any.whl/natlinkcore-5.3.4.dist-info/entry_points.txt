@@ -1,0 +1,6 @@
+[console_scripts]
+natlinkconfig_cli=natlinkcore.configure.natlinkconfig_cli:main_cli
+
+[gui_scripts]
+natlinkconfig_gui=natlinkcore.configure.natlinkconfig_gui:main_gui
+
