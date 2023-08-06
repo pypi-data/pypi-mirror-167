@@ -1,0 +1,10 @@
+websocket-client
+
+[:python_version < "3.11"]
+tomli>=2.0.1
+
+[dev]
+pytest
+pytest-randomly
+black
+isort
