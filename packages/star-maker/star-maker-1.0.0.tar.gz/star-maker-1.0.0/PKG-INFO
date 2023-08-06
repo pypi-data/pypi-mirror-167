@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: star-maker
+Version: 1.0.0
+Summary: some tool
+Home-page: UNKNOWN
+Author: Gabriel Falcão
+Author-email: gabriel@nacaolivre.org
+License: UNKNOWN
+Description: StarMaker
+        =========
+        
+        Terraform bootstrapping and management tool
+        
+Platform: UNKNOWN
