@@ -1,0 +1,11 @@
+django_visit_count/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_visit_count/app_settings.py,sha256=ZEwMJ0uSRZzKov46ezYcQLa61TbZGJckFtDhgKaILxQ,150
+django_visit_count/mixins.py,sha256=AflhRUFynL1E1cPp0qm4-bWx6so4KzOC2L7lDbJvbG8,624
+django_visit_count/utils.py,sha256=WHhvvPK4HdXYTQGUdC4Rk_c--tMJuVLS_bRnmEZTp0k,737
+django_visit_count/locale/fa/LC_MESSAGES/django.mo,sha256=iULalY6zpb1ouQacHVm6t3PibeDFlBv0GipQOrSZgrE,439
+django_visit_count/locale/fa/LC_MESSAGES/django.po,sha256=-q2a0EEsfs7y_npAmiL_zlsAFJQ07faGWGKR6ABkCl4,669
+django_visit_count-1.1.0.dist-info/LICENSE.txt,sha256=D0qHsX3Zed3ZwuuLoh04PmBUsre5SvSImKuVtmKOGdY,1078
+django_visit_count-1.1.0.dist-info/METADATA,sha256=oSYLmAXtUU4-7QZyk8AHhgNeg2ILVxgNBWAcpVqXhHU,3168
+django_visit_count-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_visit_count-1.1.0.dist-info/top_level.txt,sha256=iaH8vQMmJWOO07D9VQz4G59c1OrYCt4p5u_DQIgcuEs,19
+django_visit_count-1.1.0.dist-info/RECORD,,
