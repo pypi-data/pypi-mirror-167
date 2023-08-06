@@ -1,0 +1,41 @@
+QFrame {
+    min-width = 200px;
+    max-width = 600px;
+
+}
+
+QWidget {
+
+    font-size: 18px;
+}
+
+QDialog {
+    font-size: 18px;
+}
+QLabel {
+    font-size: 20px;
+}
+
+QToolTip {
+    font-size: 14px;
+}
+QListWidget{
+    background-color: #262930;
+}
+
+QScrollArea{
+    border: 1px solid black;
+}
+QPushButton:enabled{
+    color: white;
+    background-color: #505863;
+    border: 0px
+}
+QPushButton:hover{
+    border: 1px solid #909191;
+}
+QPushButton:disabled{
+    color: #909191;
+    background-color: #383d45;
+    border: 0px
+}
