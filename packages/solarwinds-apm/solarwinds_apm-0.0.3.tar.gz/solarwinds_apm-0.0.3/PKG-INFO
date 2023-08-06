@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: solarwinds_apm
+Version: 0.0.3
+Summary: Custom distro for OpenTelemetry to connect to SolarWinds
+Home-page: https://www.appoptics.com/monitor/python-performance
+Download-URL: https://pypi.org/project/solarwinds-apm/
+Author: SolarWinds, LLC
+Author-email: SWO-support@solarwinds.com
+Keywords: solarwinds_apm appoptics_apm traceview tracelytics oboe liboboe instrumentation performance
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# solarwinds_apm
+SolarWinds Observability distribution of OpenTelemetry Python, providing automatic instrumentation of Python applications for APM.
+
+Online documentation on SolarWinds APM features, configuration, and more is coming soon.
