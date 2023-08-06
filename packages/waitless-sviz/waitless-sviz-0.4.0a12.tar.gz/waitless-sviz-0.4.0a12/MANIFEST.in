@@ -1,0 +1,3 @@
+include res/*.html
+include res/css/*.css
+graft tmp
