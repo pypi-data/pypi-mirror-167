@@ -1,0 +1,9 @@
+[console_scripts]
+pmxanalyse = biobb_pmx.pmx.pmxanalyse:main
+pmxatom_mapping = biobb_pmx.pmx.pmxatom_mapping:main
+pmxcreate_top = biobb_pmx.pmx.pmxcreate_top:main
+pmxgentop = biobb_pmx.pmx.pmxgentop:main
+pmxligand_hybrid = biobb_pmx.pmx.pmxligand_hybrid:main
+pmxmerge_ff = biobb_pmx.pmx.pmxmerge_ff:main
+pmxmutate = biobb_pmx.pmx.pmxmutate:main
+
