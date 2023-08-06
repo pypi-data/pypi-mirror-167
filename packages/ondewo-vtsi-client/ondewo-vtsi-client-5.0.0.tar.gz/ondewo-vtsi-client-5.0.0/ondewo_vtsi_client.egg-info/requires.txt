@@ -1,0 +1,10 @@
+dataclasses-json==0.5.4
+polling==0.3.2
+pytest==7.1.2
+regex
+grpcio>=1.46.3
+grpcio-reflection>=1.46.3
+grpcio-tools>=1.46.3
+mypy-protobuf==3.2.0
+google-api-core>=2.8.1
+googleapis-common-protos>=1.56.2
