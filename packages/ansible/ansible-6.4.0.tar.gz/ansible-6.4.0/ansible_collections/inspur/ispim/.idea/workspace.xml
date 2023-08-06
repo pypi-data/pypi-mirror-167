@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="202463c2-e135-488e-b673-b0ef26cbec0a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ansible-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ansible-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bindep.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galaxy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/galaxy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meta/runtime.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meta/runtime.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/doc_fragments/ism.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/doc_fragments/ism.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ad_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ad_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ad_group_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ad_group_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ad_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ad_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/adapter_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/adapter_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/add_ldisk.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/add_ldisk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/alert_policy_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/alert_policy_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/audit_log_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/audit_log_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/auto_capture_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/auto_capture_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/backplane_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/backplane_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/backup.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/backup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/bios_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/bios_export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/bios_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/bios_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/bios_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/bios_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/bmc_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/bmc_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/boot_image_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/boot_image_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/boot_option_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/boot_option_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/clear_audit_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/clear_audit_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/clear_event_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/clear_event_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/clear_system_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/clear_system_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/collect_blackbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/collect_blackbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/collect_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/collect_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/connect_media_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/connect_media_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/cpu_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/cpu_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/del_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/del_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/dns_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/dns_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/download_auto_screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/download_auto_screenshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/download_manual_screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/download_manual_screenshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ad.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_alert_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_alert_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_auto_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_auto_capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_bios.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_bios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_boot_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_boot_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_boot_option.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_boot_option.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_connect_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_connect_media.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_dns.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_dns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_event_log_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_event_log_policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_fan.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_fan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_fru.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_fru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ipv4.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ipv4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ipv6.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ipv6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_kvm.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_kvm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ldap.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ldap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ldisk.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ldisk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_log_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_log_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_manual_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_manual_capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_media_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_media_instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ncsi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ncsi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_network_bond.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_network_bond.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_network_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_network_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_ntp.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_ntp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_pdisk.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_pdisk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_power_budget.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_power_budget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_power_restore.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_power_restore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_power_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_power_status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_preserve_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_preserve_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_psu_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_psu_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_psu_peak.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_psu_peak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_restore_factory_default.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_restore_factory_default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_smtp.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_smtp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_smtp_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_smtp_com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_smtp_dest.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_smtp_dest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_snmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_snmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_snmp_trap.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_snmp_trap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_threshold.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_threshold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_uid.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_uid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_virtual_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_virtual_media.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/edit_vlan.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/edit_vlan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/event_log_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/event_log_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/event_log_policy_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/event_log_policy_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/fan_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/fan_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/fru_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/fru_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/fw_version_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/fw_version_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/gpu_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/gpu_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/hard_disk_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/hard_disk_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/kvm_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/kvm_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ldap_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ldap_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ldap_group_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ldap_group_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ldap_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ldap_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ldisk_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ldisk_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/log_setting_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/log_setting_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/media_instance_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/media_instance_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/mem_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/mem_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ncsi_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ncsi_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/network_bond_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/network_bond_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/network_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/network_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/network_link_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/network_link_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/ntp_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/ntp_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/onboard_disk_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/onboard_disk_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/pcie_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/pcie_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/pdisk_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/pdisk_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/power_budget_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/power_budget_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/power_consumption_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/power_consumption_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/power_restore_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/power_restore_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/power_status_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/power_status_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/preserve_config_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/preserve_config_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/psu_config_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/psu_config_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/psu_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/psu_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/psu_peak_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/psu_peak_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/raid_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/raid_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/reset_bmc.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/reset_bmc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/reset_kvm.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/reset_kvm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/restore.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/restore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/self_test_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/self_test_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/sensor_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/sensor_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/server_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/server_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/service_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/service_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/session_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/session_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/smtp_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/smtp_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/snmp_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/snmp_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/snmp_trap_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/snmp_trap_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/system_log_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/system_log_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/temp_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/temp_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/threshold_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/threshold_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/uid_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/uid_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/update_cpld.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/update_cpld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/update_fw.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/update_fw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/user_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/user_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/user_group_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/user_group_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/user_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/user_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/virtual_media_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/virtual_media_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/modules/volt_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/modules/volt_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AbTgIIYXbkTBjSqxGKRwBlkPnH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../community.general" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="202463c2-e135-488e-b673-b0ef26cbec0a" name="Changes" comment="" />
+      <created>1655277394478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655277394478</updated>
+    </task>
+    <servers />
+  </component>
+</project>

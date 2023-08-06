@@ -1,0 +1,107 @@
+---
+# Copyright (c) Ansible Project
+# GNU General Public License v3.0+ (see LICENSES/GPL-3.0-or-later.txt or https://www.gnu.org/licenses/gpl-3.0.txt)
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# For the comprehensive list of the inputs supported by the ansible-community/ansible-test-gh-action GitHub Action, see
+# https://github.com/marketplace/actions/ansible-test
+
+name: CI
+on:
+  # Run CI against all pushes (direct commits, also merged PRs), Pull Requests
+  push:
+    branches:
+      - main
+      - stable-*
+  pull_request:
+  # Run CI once per day (at 05:30 UTC)
+  schedule:
+    - cron: '30 5 * * *'
+
+jobs:
+  sanity:
+    name: Sanity (Ⓐ${{ matrix.ansible }})
+    strategy:
+      matrix:
+        ansible:
+          # It's important that Sanity is tested against all stable-X.Y branches
+          # Testing against `devel` may fail as new tests are added.
+          - stable-2.9
+          - stable-2.10
+          - stable-2.11
+          - stable-2.12
+          - stable-2.13
+          - devel
+    runs-on: ubuntu-latest
+    steps:
+      - name: Perform sanity testing
+        uses: ansible-community/ansible-test-gh-action@release/v1
+        with:
+          ansible-core-version: ${{ matrix.ansible }}
+          testing-type: sanity
+
+  integration:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ansible:
+          - devel
+        docker_container:
+          - ubuntu2004
+          - ubuntu2204
+          - fedora36
+        sops_version:
+          - 3.5.0
+          - 3.6.0
+          - 3.7.3
+        python_version:
+          - ''
+        include:
+          # 2.9
+          - ansible: stable-2.9
+            docker_container: ubuntu1604
+            sops_version: 3.5.0
+          - ansible: stable-2.9
+            docker_container: ubuntu1804
+            sops_version: 3.7.1
+          # 2.10
+          - ansible: stable-2.10
+            docker_container: ubuntu1804
+            sops_version: 3.6.0
+          # 2.11
+          - ansible: stable-2.11
+            docker_container: ubuntu2004
+            sops_version: 3.7.2
+          # 2.12
+          - ansible: stable-2.12
+            docker_container: ubuntu2004
+            sops_version: 3.7.0
+          # 2.13
+          - ansible: stable-2.13
+            docker_container: ubuntu2004
+            sops_version: 3.7.3
+          # devel
+          # - ansible: devel
+          #   docker_container: alpine3  -- so far only alpine3 edge supports sops
+          #   sops_version: system
+          - ansible: devel
+            docker_container: quay.io/ansible-community/test-image:archlinux
+            python_version: '3.10'
+            sops_version: system
+    steps:
+      - name: >-
+          Perform integration testing against
+          Ansible version ${{ matrix.ansible }}
+          under ${{ matrix.docker_container }}
+          with sops ${{ matrix.sops_version }}
+        uses: ansible-community/ansible-test-gh-action@release/v1
+        with:
+          ansible-core-version: ${{ matrix.ansible }}
+          docker-image: ${{ matrix.docker_container }}
+          # Adjust vars files so that sops ${{ matrix.sops_version }} is used
+          # NOTE: we're installing with git to work around Galaxy being a huge PITA (https://github.com/ansible/galaxy/issues/2429)
+          pre-test-cmd: |-
+            echo 'sops_version: ${{ matrix.sops_version }}' > tests/integration/targets/setup_sops/vars/main.yml
+            git clone --depth=1 --single-branch https://github.com/ansible-collections/community.general.git ../../community/general
+          testing-type: integration
+          target-python-version: ${{ matrix.python_version }}

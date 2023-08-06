@@ -1,0 +1,4 @@
+---
+- ansible.builtin.include: cli.yaml
+  tags:
+    - network_cli
