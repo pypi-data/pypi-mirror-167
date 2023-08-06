@@ -1,0 +1,10 @@
+LICENSE
+README.md
+searchpass
+setup.cfg
+setup.py
+searchpass.egg-info/PKG-INFO
+searchpass.egg-info/SOURCES.txt
+searchpass.egg-info/dependency_links.txt
+searchpass.egg-info/requires.txt
+searchpass.egg-info/top_level.txt
