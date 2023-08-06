@@ -1,0 +1,12 @@
+phpphar/__init__.py,sha256=zQxV1Avibzz6W8EnfvPRGex6zFyzYEdA2AY_WmthuH8,645
+phpphar/constants.py,sha256=dgWhVQxvxvozk_9YYjEq_c7M88Mt73epyM4o7_Se5h0,241
+phpphar/types.py,sha256=z4UEvDcFtfEreL8fLd3utJgn-Dv4miUVX9prrPPwyNw,2411
+phpphar/utils.py,sha256=HZvABmhkEBJntcx6KQdiObS95CDFF4IkJ1-hB_cd8-c,1409
+phpphar/io/__init__.py,sha256=qltthoynvHnReRWyNBx2B7e1045XXVWFCy16mQKaGmw,664
+phpphar/io/phar.py,sha256=su9xUDe9CSE-YNIbRqcytJOE_CXoSdRpx7clNmt6s-0,6528
+phpphar/io/tar.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phpphar/io/zip.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libphpphar-0.0.1a1.dist-info/METADATA,sha256=_yAmykC1_vl_UPlN9tQf9t1zteRqWWClY7-yhwbJcOo,1399
+libphpphar-0.0.1a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+libphpphar-0.0.1a1.dist-info/top_level.txt,sha256=cT17CRULojcI6qWA8Pb-3TITe99GIL2mJM6tVI9sUJw,8
+libphpphar-0.0.1a1.dist-info/RECORD,,
