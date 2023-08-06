@@ -1,0 +1,8 @@
+cocotb>=1.7
+attrs~=22.1
+attrs-strict~=1.0
+cffi>=1.14
+
+[test]
+pytest>7
+pytest-cov[all]
