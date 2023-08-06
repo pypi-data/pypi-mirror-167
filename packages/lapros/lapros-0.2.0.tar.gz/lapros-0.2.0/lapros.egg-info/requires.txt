@@ -1,0 +1,12 @@
+pip
+packaging
+loguru
+numpy
+pandas
+plum-dispatch
+scipy
+
+[dev]
+cleanlab
+pyarrow
+scikit-learn
