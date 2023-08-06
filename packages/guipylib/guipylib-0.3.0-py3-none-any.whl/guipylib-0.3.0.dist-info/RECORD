@@ -1,0 +1,15 @@
+guipy/__init__.py,sha256=HvAWgfGeURymwvtbq7dE5OuRLNu7D9FOKZ4bDqqw4tg,48
+guipy/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guipy/components/_component.py,sha256=G5rBM3AZoUC1kaekfUXoksQtG-mzTl_2_lbQIapI0o0,1062
+guipy/components/button.py,sha256=wLD5fXRjbo-M2AMGsLa4pjcyejCrX-_3zRGEfKr8KYI,3202
+guipy/components/menu.py,sha256=JxnHndKKM7In8llLLqAkV3DmctiHUc-PaBc4bmmisrU,4318
+guipy/components/plot.py,sha256=fRTn3Je7dTYFs0KnCSH7b580o2p1MasYNeZbnec5t6s,8628
+guipy/components/slider.py,sha256=75DFwRgmB8D1_gStIZxthi372ZrqasOPo6WKTZW441k,2217
+guipy/components/switch.py,sha256=bs7x1KjwvT6X-srKj74_a-J8Kg_Br8InG85QfL3x4fw,2490
+guipy/components/textbox.py,sha256=AEKW2JSAZ3OaMQfjVzV5yPIvRcw2Y6TV8_4Q1LW1i0Y,2690
+guipy/manager.py,sha256=qHS5chyR7-lWNRFC8K4XUJ8GgIHD137zCFG9sd2QcyQ,1221
+guipy/utils.py,sha256=LAryJnDAG2yRc96OJcVkdaPC58YfcKB0gw2VHNK0Nfg,1660
+guipylib-0.3.0.dist-info/LICENSE,sha256=WTYSF6wOfkBrqORweFPLAfFHDSSJKFaD7mlIQHsmtic,1067
+guipylib-0.3.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+guipylib-0.3.0.dist-info/METADATA,sha256=AbiwVE8h7KFC4_xrAZkDakd1Uwazt-T7TBX4WrkG-9Q,3744
+guipylib-0.3.0.dist-info/RECORD,,
