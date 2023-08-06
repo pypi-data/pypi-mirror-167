@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+mypackager_cal/__init__.py
+newr_cal.egg-info/PKG-INFO
+newr_cal.egg-info/SOURCES.txt
+newr_cal.egg-info/dependency_links.txt
+newr_cal.egg-info/top_level.txt
