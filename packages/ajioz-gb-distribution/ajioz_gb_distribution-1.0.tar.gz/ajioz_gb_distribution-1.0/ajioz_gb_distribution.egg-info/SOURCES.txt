@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+ajioz_gb_distribution/Binomialdistribution.py
+ajioz_gb_distribution/Gaussiandistribution.py
+ajioz_gb_distribution/Generaldistribution.py
+ajioz_gb_distribution/__init__.py
+ajioz_gb_distribution.egg-info/PKG-INFO
+ajioz_gb_distribution.egg-info/SOURCES.txt
+ajioz_gb_distribution.egg-info/dependency_links.txt
+ajioz_gb_distribution.egg-info/not-zip-safe
+ajioz_gb_distribution.egg-info/top_level.txt
