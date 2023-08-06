@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+AnjaliPython/__init__.py
+AnjaliPython.egg-info/PKG-INFO
+AnjaliPython.egg-info/SOURCES.txt
+AnjaliPython.egg-info/dependency_links.txt
+AnjaliPython.egg-info/top_level.txt
