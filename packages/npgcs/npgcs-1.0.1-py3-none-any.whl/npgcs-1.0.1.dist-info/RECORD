@@ -1,0 +1,12 @@
+npgcs/__init__.py,sha256=Hl1F5BgQ8RPYwFD4sgbt-Is4L8ckSd6kEkiWTzEFwBo,621
+npgcs/connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npgcs/connectors/mssql.py,sha256=Zdu5GaKRV7Gig7io84LFt-HCg8lcmVTP9EabfmvhD2I,461
+npgcs/connectors/mysql.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npgcs/connectors/postgres.py,sha256=BzZe7Y3tBihg6KsYF1NErEkshCoaIsO6uQbTROr7Ay4,367
+npgcs/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npgcs/core/tools.py,sha256=dHR5CTV9_AxftV-Z7isvfP7RrhWfVvOlFHtxbF5TVm4,9644
+npgcs-1.0.1.dist-info/LICENSE,sha256=MGS_0rs3MAj70jTfWmDgW6ZL-_WHEzaRVenzprvrwBM,1062
+npgcs-1.0.1.dist-info/METADATA,sha256=jlL0KGyJYoyYPImbh8EuDkcmJlfVoOkce3gUP8wgGfk,1188
+npgcs-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+npgcs-1.0.1.dist-info/top_level.txt,sha256=97oiPObNVBlMXlV-wCLItnVZ-0wc9vWYI2gdbbuX1Bs,6
+npgcs-1.0.1.dist-info/RECORD,,
