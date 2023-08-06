@@ -1,0 +1,10 @@
+# -*- coding:utf-8 -*-
+
+VERSIONS = 'v0.1.2a1.dev1'
+
+ENVIRONMENT_VARIABLE_CONFIGURATION = '.dvsrc'
+ENVIRONMENT_VARIABLE_TEMP = 'PYTHON_DVS_TEMP'
+
+DEBUGGER = False
+
+PACKAGE_NAME = __package__
