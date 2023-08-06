@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: passwordstore
+Version: 1.1.0
+Summary: Small utility to generate secure passwords from masterpass word
+Home-page: https://github.com/maksloboda/PasswordStore
+Author: MaksL
+Author-email: contactmaksloboda@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/maksloboda/PasswordStore/issues
+Description: # PasswordStore
+        
+        Python3 utility used to generate complex passwords from one master password.
+        
+        # Usage
+        
+        Run `passwordstore` for the first time to generate a password protected secret.
+        Backup the secret in order to not lose your passwords.
+        
+        After that you can run `passwordstore` to generate a password and to store it in your clipboard.
+        
+        Passwords are not stored anywhere and are simply regenerated from secret and identifier.
+        This means that you can generate same passwords on different machines without needing to sync anything.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

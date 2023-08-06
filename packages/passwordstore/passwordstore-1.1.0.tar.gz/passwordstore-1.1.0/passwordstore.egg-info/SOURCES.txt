@@ -1,0 +1,9 @@
+README.md
+passwordstore.py
+setup.py
+passwordstore.egg-info/PKG-INFO
+passwordstore.egg-info/SOURCES.txt
+passwordstore.egg-info/dependency_links.txt
+passwordstore.egg-info/entry_points.txt
+passwordstore.egg-info/requires.txt
+passwordstore.egg-info/top_level.txt
