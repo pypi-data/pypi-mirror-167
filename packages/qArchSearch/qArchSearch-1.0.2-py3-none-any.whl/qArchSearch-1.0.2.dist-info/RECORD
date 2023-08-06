@@ -1,0 +1,13 @@
+qArchSearch/__init__.py,sha256=BDTfwtGvpmtUPAuXbOi9n6UWahpM7_7b11tBGU1ctKM,20
+qArchSearch/device.py,sha256=N2qj7DFKtodl_Krd0bWsxaRQ7EsBUMwjia4mXb3Vwas,5116
+qArchSearch/input.py,sha256=q_JCSV3sscOWdq1XP_oYMBD8Gb-y3rB4-o-vr_wQYfg,3333
+qArchSearch/output.py,sha256=3fHru5F2w4Q-GpskdB2RIfkJOzrFWIWrv6DIZ_KOtFQ,2386
+qArchSearch/search.py,sha256=P_BCLSg-Jo_T1fPOb8dJaA-i99aPHnMl8ZJVjImlYpI,35113
+qArchSearch/util.py,sha256=36hBvvEvvOBKtaeBRasmduTCFOrZLfdlowAS9MVO_Cg,14256
+qArchSearch/devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qArchSearch/devices/device.py,sha256=701ZpYg3vJ21Mm34-fIjbP-N9n9huy6WYLBXe9tKMBE,5826
+qArchSearch-1.0.2.dist-info/LICENSE,sha256=EXoX8n7dZDH1C_DrkESUotLEaKRjmGPJS3FBdeziHP8,1520
+qArchSearch-1.0.2.dist-info/METADATA,sha256=7ToFSbOUGxwdqIvbvu6LbvEJ1XatJWJLqAX1khK3yjU,412
+qArchSearch-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qArchSearch-1.0.2.dist-info/top_level.txt,sha256=PpS-wTg-XTsg8e7y76Y4vsFSgPxpkFUsLw4CjB6Tjkg,12
+qArchSearch-1.0.2.dist-info/RECORD,,
