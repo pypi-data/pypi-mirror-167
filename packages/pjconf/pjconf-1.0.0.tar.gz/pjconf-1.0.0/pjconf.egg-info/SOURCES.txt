@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pjconf/__init__.py
+pjconf/config.py
+pjconf.egg-info/PKG-INFO
+pjconf.egg-info/SOURCES.txt
+pjconf.egg-info/dependency_links.txt
+pjconf.egg-info/top_level.txt
