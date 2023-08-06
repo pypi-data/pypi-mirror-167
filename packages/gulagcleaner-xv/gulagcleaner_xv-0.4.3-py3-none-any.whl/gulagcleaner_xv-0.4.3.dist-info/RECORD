@@ -1,0 +1,9 @@
+gulagcleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gulagcleaner/command_line.py,sha256=EvGF7WRwLZ8w0pBLr46KWz7tiCV540OYRdt5WNz7iZk,1783
+gulagcleaner/gulagcleaner_extract.py,sha256=_MnsMjRFYM4-9muMIqOJ8fAmn_l2ioOiJGF4f8cj0PQ,3022
+gulagcleaner_xv-0.4.3.dist-info/LICENSE,sha256=51HPitbZtRFO9YgvLbVskUiOBGUiB8ImK2RyTGPF_38,70297
+gulagcleaner_xv-0.4.3.dist-info/METADATA,sha256=lDyij5qZUyVu7DtHZEkTmm7UXc6NBhzDwh_6p0IU_78,1401
+gulagcleaner_xv-0.4.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gulagcleaner_xv-0.4.3.dist-info/entry_points.txt,sha256=eQusLRQShH5pUIaZot3vxhJUmIl3WZ3Od3jcHe50jAw,64
+gulagcleaner_xv-0.4.3.dist-info/top_level.txt,sha256=fUsQ7UtKqrhW4ZfKQ-CsBR6X7jaVInjxVObxxpI_HVc,13
+gulagcleaner_xv-0.4.3.dist-info/RECORD,,
