@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+khemutham_distributions/Binomialdistribution.py
+khemutham_distributions/Gaussiandistribution.py
+khemutham_distributions/Generaldistribution.py
+khemutham_distributions/__init__.py
+khemutham_distributions.egg-info/PKG-INFO
+khemutham_distributions.egg-info/SOURCES.txt
+khemutham_distributions.egg-info/dependency_links.txt
+khemutham_distributions.egg-info/not-zip-safe
+khemutham_distributions.egg-info/top_level.txt
