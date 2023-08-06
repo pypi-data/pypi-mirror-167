@@ -1,0 +1,3 @@
+[console_scripts]
+markdown-spaces-generator=markdown_spaces_generator.cli:main
+
