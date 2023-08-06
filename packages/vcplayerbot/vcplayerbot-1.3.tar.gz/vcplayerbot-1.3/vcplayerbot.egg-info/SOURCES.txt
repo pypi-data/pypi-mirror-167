@@ -1,0 +1,7 @@
+README.md
+setup.py
+vcplayerbot.egg-info/PKG-INFO
+vcplayerbot.egg-info/SOURCES.txt
+vcplayerbot.egg-info/dependency_links.txt
+vcplayerbot.egg-info/requires.txt
+vcplayerbot.egg-info/top_level.txt
