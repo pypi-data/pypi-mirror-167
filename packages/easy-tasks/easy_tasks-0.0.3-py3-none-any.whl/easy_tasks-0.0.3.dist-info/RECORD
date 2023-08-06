@@ -1,0 +1,14 @@
+easy_tasks/__init__.py,sha256=cXZ7OnZBAuRi3sndUoP6jdY9U_x2czGhI09pqJ1J_-Y,607
+easy_tasks/_version.py,sha256=lHQBIZKooCnZnefoG1pjMu5CISd6F-sYOR8iW_frxsg,534
+easy_tasks/closest_furthest_value.py,sha256=h_mIx-wjuKjzYnz8mli_sB-C8i7rgivHZ5itk77jstU,542
+easy_tasks/dublicates.py,sha256=F_UFaWiVS2gOa8YEo5u6V--Epyaq7lqg2gzayYTzYEc,2223
+easy_tasks/percentage.py,sha256=1GMYkRDo2N8cfC4bq78ZCQcVgkkkJSCSANQGN9bmD7E,2887
+easy_tasks/sorter.py,sha256=d3eyn-cTnyYG5dNRNb9FA0OYsPxiZb7KXB71fu3p4_E,338
+easy_tasks/string_transformation.py,sha256=JX7qgpTp8hMaW8LjjARU4ebedRUqy3ppWRoP33XFO2U,1437
+easy_tasks/to_precision.py,sha256=Wvdwts2XOHxHBfGJnAFCxZtmWT-2TK2lBY4UuzynA5Y,9539
+easy_tasks/unpack.py,sha256=yWROboFpZHUNhWO7KWcP2DRLYSo92X2wNIR5b7Il21I,235
+easy_tasks-0.0.3.dist-info/LICENSE,sha256=9HsmUbkMFZDTY_7eyGX6_7F-jwhNF1PxA_6J37d5YPA,1095
+easy_tasks-0.0.3.dist-info/METADATA,sha256=Ihm9C-HvjTrl83Or8XDdd8IdwQmrar5vLKrX8l4nBx4,2768
+easy_tasks-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+easy_tasks-0.0.3.dist-info/top_level.txt,sha256=YyT4VLThi2voOVreLsk8tInT66vXyrdBv56rug0NCIY,11
+easy_tasks-0.0.3.dist-info/RECORD,,
