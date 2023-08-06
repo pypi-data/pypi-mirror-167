@@ -1,0 +1,103 @@
+{%- macro format_date_range(exp) -%}
+{{ exp.startDate }} - {% if exp.endDate %}{{ exp.endDate }}{% else %}Present{% endif %}
+{%- endmacro -%}
+
+<h1>{{ basics.name }}</h1>
+{% if basics.label %}
+<p>{{ basics.label }}</p>
+{% endif %}
+<ul class="header">
+    {% if basics.phone %}
+    <li><span class="icon icon-phone"></span> {{ basics.phone }}</li>
+    {% endif %}
+    {% if basics.email %}
+    <li><span class="icon icon-mail"></span> <a href="mailto:{{ basics.email }}">{{ basics.email }}</a></li>
+    {% endif %}
+    {% for profile in basics.profiles %}
+    {% if profile.network|lower == 'github' %}
+    <li><span class="icon icon-github"></span>
+        {% if profile.url %}
+        <a href="{{ profile.url }}">{{ profile.username }}</a>
+        {% else %}
+        <a href="https://github.com/{{ profile.username }}">{{ profile.username }}</a>
+        {% endif %}
+    </li>
+    {% endif %}
+    {% if profile.network|lower == 'linkedin' %}
+    <li><span class="icon icon-linkedin"></span>
+        {% if profile.url %}
+        <a href="{{ profile.url }}">{{ profile.username }}</a>
+        {% else %}
+        <a href="https://linkedin.com/in/{{ profile.username }}">{{ profile.username }}</a>
+        {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% if basics.url %}
+    <li><span class="icon icon-link"></span> <a href="{{ basics.url }}">{{ basics.url }}</a></li>
+    {% endif %}
+    {% if basics.location %}
+    <li><span class="icon icon-location-pin"></span>{{ basics.location.city }}{% if basics.location.countryCode %} ({{ basics.location.countryCode }}){% endif %}</li>
+    {% endif %}
+</ul>
+
+{%- if meta and meta.breaks_before.skills -%}
+<p style="page-break-before: always"></p>
+{%- endif -%}
+
+<h2>Skills</h2>
+<ul class="keyval-list">
+    {% for skill in skills %}
+    <li><span class="key-title">{{ skill.name }}</span>: {{ skill.keywords|join(', ') }}</li>
+    {% endfor %}
+</ul>
+
+{%- if meta and meta.breaks_before.work -%}
+<p style="page-break-before: always"></p>
+{%- endif -%}
+
+<h2>Experience</h2>
+<ul class="work-list">
+    {% for exp in work %}
+    <li>
+        <div class="work-title">{{ exp.position }}</div>
+        <div class="work-subheader">
+            <div class="work-company">{% if exp.url %}<a href="{{ exp.url }}">{{ exp.name }}</a>{% else %}{{ exp.name }}{% endif %}</div>
+            <div class="work-date">{{ format_date_range(exp) }}</div>
+        </div>
+        <ul class="work-description">
+            {% for desc_line in exp.highlights %}
+            <li>{{ desc_line }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+{%- if meta and meta.breaks_before.projects -%}
+<p style="page-break-before: always"></p>
+{%- endif -%}
+
+<h2>Projects</h2>
+<ul class="keyval-list">
+    {% for project in projects %}
+    <li><span class="key-title">{{ project.name }}</span>: {{ project.description }}{% if project.url %} (<a href=" {{ project.url }}">{{ project.url }}</a>){% endif %}{% if project.keywords|length > 0 %} ({{ project.keywords|join(', ') }}){% endif %}</li>
+    {% endfor %}
+</ul>
+
+{%- if meta and meta.breaks_before.education -%}
+<p style="page-break-before: always"></p>
+{%- endif -%}
+
+<h2>Education</h2>
+<ul class="work-list">
+    {% for exp in education %}
+    <li>
+        <div class="work-title">{{ exp.area }}</div>
+        <div class="work-subheader">
+            <div class="work-company">{{ exp.institution }}</div>
+            <div class="work-date">{{ format_date_range(exp) }}</div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
