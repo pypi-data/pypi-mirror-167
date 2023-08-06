@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fief-client
+Version: 0.14.2
+Summary: Fief Client for Python
+Project-URL: Documentation, https://docs.fief.dev/integrate/python/
+Project-URL: Source, https://github.com/fief-dev/fief-python
+Author-email: François Voron <contact@fief.dev>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Requires-Dist: httpx<0.24.0,>=0.21.3
+Requires-Dist: jwcrypto<2.0.0,>=1.4
+Requires-Dist: typing-extensions>=4.0.1; python_version < '3.8'
+Provides-Extra: fastapi
+Requires-Dist: fastapi; extra == 'fastapi'
+Requires-Dist: makefun<2.0.0,>=1.14.0; extra == 'fastapi'
+Provides-Extra: flask
+Requires-Dist: flask; extra == 'flask'
