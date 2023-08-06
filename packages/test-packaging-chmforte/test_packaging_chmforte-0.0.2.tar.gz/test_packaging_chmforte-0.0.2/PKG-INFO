@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: test_packaging_chmforte
+Version: 0.0.2
+Summary: My first Python package
+Author: Christopher M. Forte
+Author-email: christopher.forte1@gmail.com
+Keywords: python,first package
+
+My first Python package with a slightly longer description
