@@ -1,0 +1,11 @@
+Pyomo==6.1.2
+adjustText
+colorhash==1.0.4
+jsons
+matplotlib
+numpy
+pandas
+rbfopt==4.2.2
+requests
+scipy
+urllib3
