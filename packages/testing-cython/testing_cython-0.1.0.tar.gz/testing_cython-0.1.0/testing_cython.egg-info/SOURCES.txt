@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+testing_cython/__init__.py
+testing_cython/fib.c
+testing_cython/fib.pyx
+testing_cython.egg-info/PKG-INFO
+testing_cython.egg-info/SOURCES.txt
+testing_cython.egg-info/dependency_links.txt
+testing_cython.egg-info/requires.txt
+testing_cython.egg-info/top_level.txt
