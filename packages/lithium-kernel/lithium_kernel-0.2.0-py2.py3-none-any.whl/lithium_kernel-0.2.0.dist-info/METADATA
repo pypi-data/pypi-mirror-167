@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lithium_kernel
+Version: 0.2.0
+Summary: A Lithium kernel for Jupyter
+Author-email: ReLife Solutions <contact@relife.pw>
+Description-Content-Type: text/plain
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: ipykernel
+Project-URL: Source, https://gitlab.com/relife-solutions/relife-v2
+
+# Lithium kernel for Jupyter
