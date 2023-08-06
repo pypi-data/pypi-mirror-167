@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: decide-analysis
+Version: 2.0.1
+Summary: Analysis package for decide-host operant data
+Home-page: https://github.com/melizalab/decide-analysis
+Author: Dan Meliza
+Author-email: dan@meliza.org
+Maintainer: Dan Meliza
+Maintainer-email: dan@meliza.org
+License: BSD 3-Clause License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+License-File: COPYING
+
+# decide-analysis
+
+This project is a python package for analyzing data from the [decide operant control system ](https://github.com/melizalab/decide) stored on [django-decide-host](https://github.com/melizalab/django-decide-host).
