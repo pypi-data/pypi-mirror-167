@@ -1,0 +1,4 @@
+[console_scripts]
+MeiliXingzuoSheshouzuo = MeiliXingzuoSheshouzuo.__main__:main
+meili-xingzuo-sheshouzuo = MeiliXingzuoSheshouzuo.__main__:main
+
