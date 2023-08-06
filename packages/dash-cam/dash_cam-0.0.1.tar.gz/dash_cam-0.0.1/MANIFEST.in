@@ -1,0 +1,11 @@
+include dash_cam/dash_cam.min.js
+include dash_cam/dash_cam.min.js.map
+include dash_cam/async-*.js
+include dash_cam/async-*.js.map
+include dash_cam/*-shared.js
+include dash_cam/*-shared.js.map
+include dash_cam/metadata.json
+include dash_cam/package-info.json
+include README.md
+include LICENSE
+include package.json
