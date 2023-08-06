@@ -1,0 +1,13 @@
+pandas_lineage/__init__.py,sha256=C5KJn43MyXBIAK_oz_jeaegn8VHJAfZJY6U2N6F3MJM,55
+pandas_lineage/custom_types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_lineage/custom_types/lineage.py,sha256=15zdhJuOC-Xo8wCxrczZMZEKrUpgwHYt3SvvBIy16rk,3231
+pandas_lineage/custom_types/pandas.py,sha256=YhHxolMBWhcZ-A65RiOkeoBou9K7I29GPE_RLfcGAKg,2833
+pandas_lineage/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_lineage/io/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_lineage/io/parsers/readers.py,sha256=q19mOSv5eYXWLrhIetSfIQQjVvqW2JhoFyRrwcudDI8,1513
+pandas_lineage/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_lineage/tests/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_lineage/tests/types/test_lineage.py,sha256=zmof2-W9Jy_FtAzsExj2ANQApB_FfqsI93qYTF732Ao,753
+pandas_lineage-0.0.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pandas_lineage-0.0.1.dist-info/METADATA,sha256=VguJ93YTS1JJIBm27A-xYVbQaxm1DD8mSwa0B_6rico,2161
+pandas_lineage-0.0.1.dist-info/RECORD,,
