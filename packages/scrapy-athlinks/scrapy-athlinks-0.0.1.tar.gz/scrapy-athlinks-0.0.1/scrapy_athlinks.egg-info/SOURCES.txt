@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+scrapy_athlinks/__init__.py
+scrapy_athlinks/items.py
+scrapy_athlinks/pipelines.py
+scrapy_athlinks/settings.py
+scrapy_athlinks.egg-info/PKG-INFO
+scrapy_athlinks.egg-info/SOURCES.txt
+scrapy_athlinks.egg-info/dependency_links.txt
+scrapy_athlinks.egg-info/requires.txt
+scrapy_athlinks.egg-info/top_level.txt
+scrapy_athlinks/spiders/__init__.py
+scrapy_athlinks/spiders/race.py
