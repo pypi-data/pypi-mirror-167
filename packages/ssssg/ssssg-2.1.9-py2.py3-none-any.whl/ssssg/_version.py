@@ -1,0 +1,1 @@
+from semantic_release.history import get_current_version_by_tag
