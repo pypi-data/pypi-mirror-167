@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "smplstack"
+version = "0.1.0"
+description = "Simple stack implementation"
+authors = ["exerussus <solovyov.production@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
