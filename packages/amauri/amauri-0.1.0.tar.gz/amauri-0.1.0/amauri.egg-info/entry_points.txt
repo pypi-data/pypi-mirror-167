@@ -1,0 +1,2 @@
+[console_scripts]
+twblog = twblog_reader.__main__:main
