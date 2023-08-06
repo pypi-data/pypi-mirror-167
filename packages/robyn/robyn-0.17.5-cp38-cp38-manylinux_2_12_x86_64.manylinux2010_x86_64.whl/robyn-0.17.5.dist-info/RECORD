@@ -1,0 +1,17 @@
+robyn-0.17.5.dist-info/METADATA,sha256=QAImd_DumN20tq2TEZZBpXQNGXW0apREM4R5emZshQQ,5777
+robyn-0.17.5.dist-info/WHEEL,sha256=zhL4ClhtkqEiubPe3x1mGFl983OHV-IH8ohWKUp0SnI,129
+robyn-0.17.5.dist-info/license_files/LICENSE,sha256=j_4yGGMoPbscB-1KxkoiGhFAk5Esl7Vq-gKqmygvnWo,1323
+robyn/test-requirements.txt,sha256=2KGRcJifmPs3OsGVe08hvD18qv1zbHWJG91gPCCCZ1k,113
+robyn/responses.py,sha256=NW_Gx4X57fdL_G9QlS6sC7FkFrJ5TyLLaRwfXZleb5k,592
+robyn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robyn/log_colors.py,sha256=7gjhc4mBkIy--7PFs4nSZcSyb4ZEEWCf4lUr7qY1qGQ,226
+robyn/ws.py,sha256=2oF-89Sf9rtHr2jR5e9jgclUa5RLAdT6vej_ax7HH5s,1035
+robyn/argument_parser.py,sha256=pTd9Eu_huKb5arwZsGoCawK4qcyS4aWh1ardeMnfF40,1604
+robyn/processpool.py,sha256=qQ-Cplzne0h_WiSTqs3xxa18Lz2P1YqfgFzfBRxH-MA,3587
+robyn/events.py,sha256=y5NxCIUZq0AGBzA6u-VYhuy5ew6SMTHvy2TRmSvJykQ,94
+robyn/router.py,sha256=OAdA3YtCmSBc_b0Xd6f9mh0EdYAiu7LzVY_IiRGzLaY,4476
+robyn/robyn.pyi,sha256=YfZ8qs6zS3ruwEZfXTUZeYN-JIU9t3tr9UXk3A0UGU0,1432
+robyn/__init__.py,sha256=FpUtO6HqJMsnP3kY91_d0hm3hxPZjhKb0j3ME71zIso,9284
+robyn/dev_event_handler.py,sha256=n5nz06xHoIc9EfxK303NdfKPV92n4aM-zNR74R-M9PE,909
+robyn/robyn.cpython-38-x86_64-linux-gnu.so,sha256=2Jhsg1cb0JmJ4uZ5taTmPAUpvZTEnY4zBFc9RxqY_hw,13442632
+robyn-0.17.5.dist-info/RECORD,,
