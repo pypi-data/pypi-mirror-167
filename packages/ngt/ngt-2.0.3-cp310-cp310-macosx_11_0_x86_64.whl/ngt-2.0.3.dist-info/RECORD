@@ -1,0 +1,10 @@
+ngtpy.cpython-310-darwin.so,sha256=8EmBFpeFEuFX1W59JP2hJLtZJFV1cudIbV1qAtvUdbI,2321200
+ngt-2.0.3.dist-info/RECORD,,
+ngt-2.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ngt-2.0.3.dist-info/WHEEL,sha256=7ecXEvF-XLcRjF04rmdgKJuyC5-uJiQ0fLxsf44IKuc,111
+ngt-2.0.3.dist-info/top_level.txt,sha256=mUjg2zG_FhV7ZmJ-32KY5tQUsBPhf_JNQLa7IxD2pVQ,10
+ngt-2.0.3.dist-info/LICENSE.txt,sha256=LMkBh2XyMJhIkT69YOdyNw0kVCUgfoPaa1TQqFq0epI,42
+ngt-2.0.3.dist-info/METADATA,sha256=R_JMoiFQk3Qq_QAwjh1I2EBFUgwkdsMwKrjahzAh6aA,2637
+ngt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ngt/base.py,sha256=4HPxUbZUitgcFJ4gTDN_QYG-GNB9AjLh6QeIzRWe5Hc,18446
+ngt/.dylibs/libomp.dylib,sha256=SNaADBbBrqzMZqQCaPnCbzeuKrr8YmeOPJbPNqa-bTI,721088
