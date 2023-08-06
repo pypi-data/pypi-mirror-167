@@ -1,0 +1,10 @@
+napari_demo/__init__.py,sha256=mWjqpCcYkIU420Ix3aY53nwrWAHeA1flt3U2qW7q43g,2442
+napari_demo/_version.py,sha256=-WRu2o6hwfVn4gRz63JTptYVwBkOdRjAJ4QVJAmZ_0w,176
+napari_demo/napari.yaml,sha256=Cc5otmuaK3WbVdnAPYTnudLgDmxgLQy1ZQW2fw5AP-Q,2900
+napari_demo/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_demo-0.2.3.dist-info/LICENSE,sha256=5DUvZWycfBs2eyxJ-ENSn6Mq9VkZMmyq2FPcrzqSuM4,1517
+napari_demo-0.2.3.dist-info/METADATA,sha256=8qCJTdq3BkcLH3Q1auP6KOvjkCJtibK6Y4nMnPrYNlM,3802
+napari_demo-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_demo-0.2.3.dist-info/entry_points.txt,sha256=_RgBuY9Ns4lzNwFVTK1FnqV7Zul3wSpVmJ4lzzfXdZk,56
+napari_demo-0.2.3.dist-info/top_level.txt,sha256=L81zjsGZiIA2eTK8i10ruA8ibyuGXB5O2ifZfIL0Oyo,12
+napari_demo-0.2.3.dist-info/RECORD,,
