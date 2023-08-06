@@ -1,0 +1,10 @@
+pytezos_core/__init__.py,sha256=Zf80zUin_WQ77tGbDMBKvURmGcFKDgnESRwu7q6VXQk,25
+pytezos_core/encoding.py,sha256=02ORRodkSQg8J2h5NQEEV1U_f86NC2bjdUq9Cxm6XQ0,7597
+pytezos_core/hash.py,sha256=fPa-Mx7Wnr9lJRa5GJuwe5gvTJO3p2opT1gAw7sSf1c,2697
+pytezos_core/jupyter.py,sha256=2GvxrZzgzGKNcJ4-q2JvnclWHZnBtv5QD2QI_H0tHs0,3087
+pytezos_core/key.py,sha256=-ttZdaHbIpVui0nXjaagTg5yNoX5xRAjALCQua4ix_c,18619
+pytezos_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytezos_core-1.0.0rc1.dist-info/LICENSE.md,sha256=tN4X5uD6h6BaIj-n9b7ZtdwgpWg05jnTHFobsnyKMdQ,1103
+pytezos_core-1.0.0rc1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pytezos_core-1.0.0rc1.dist-info/METADATA,sha256=7OYiTyWREI-IZtJ9vncm4dtqEo2kuokLuxODl3beo4I,3066
+pytezos_core-1.0.0rc1.dist-info/RECORD,,

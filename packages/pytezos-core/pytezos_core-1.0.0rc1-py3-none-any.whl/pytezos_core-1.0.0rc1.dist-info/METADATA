@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pytezos-core
+Version: 1.0.0rc1
+Summary: Python toolkit for Tezos
+Home-page: https://pytezos.org
+License: MIT
+Keywords: tezos,blockchain,sdk,michelson,repl,cryptocurrencies,smart-contracts
+Author: Michael Zaikin
+Author-email: mz@baking-bad.org
+Maintainer: Michael Zaikin
+Maintainer-email: mz@baking-bad.org
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Dist: base58 (>=2.1.1,<3.0.0)
+Requires-Dist: fastecdsa (>=2.2.3,<3.0.0)
+Requires-Dist: mnemonic (>=0.20,<0.21)
+Requires-Dist: pyblake2 (>=1.1.2,<2.0.0)
+Requires-Dist: pysodium (>=0.7.10,<0.8.0)
+Requires-Dist: secp256k1 (>=0.14.0,<0.15.0)
+Project-URL: Repository, https://github.com/baking-bad/pytezos-core
+Description-Content-Type: text/markdown
+
+# PyTezos Core
+
+[![Python](https://img.shields.io/badge/made%20with-python-blue.svg?)](https://www.python.org)
+[![GitHub stars](https://img.shields.io/github/stars/baking-bad/pytezos-core)](https://github.com/baking-bad/pytezos-core)
+[![Latest stable release](https://img.shields.io/github/v/release/baking-bad/pytezos-core?label=stable)](https://github.com/baking-bad/pytezos-core/releases)
+[![Latest pre-release)](https://img.shields.io/github/v/release/baking-bad/pytezos-core?include_prereleases&label=latest)](https://github.com/baking-bad/pytezos-core/releases)
+[![PyPI monthly downloads](https://img.shields.io/pypi/dm/pytezos-core)](https://pypi.org/project/pytezos-core/)
+<br>
+[![GitHub tests](https://img.shields.io/github/workflow/status/baking-bad/pytezos-core/Test)](https://github.com/baking-bad/pytezos-core/actions)
+[![GitHub issues](https://img.shields.io/github/issues/baking-bad/pytezos-core)](https://github.com/baking-bad/pytezos-core/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/baking-bad/pytezos-core)](https://github.com/baking-bad/pytezos-core/pulls)
+[![License: MIT](https://img.shields.io/github/license/baking-bad/pytezos-core)](https://github.com/baking-bad/pytezos-core/blob/master/LICENSE)
+
+This repository contains utilities to work with [Tezos cryptography](https://pytezos.org/crypto.html). It is a part of the [PyTezos](https://github.com/baking-bad/pytezos) framework.
+
+To switch from mothership library replace `pytezos.crypto` imports with `pytezos_core`.
+
+```diff
+- from pytezos.crypto.key import Key
++ from pytezos_core.key import Key
+```
+
