@@ -1,0 +1,7 @@
+django_mailman/models.py,sha256=itgqjjvwT2sIip-QEQ3PqYSrC3KMkNYILoIH6OTP_YE,10754
+django_mailman/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+django_mailman/webcall.py,sha256=_6hvVfzByLuyCpQsbTnAvtXO6UUqtbv5fvaSdZqePgg,5487
+djangoplicity_mailman-0.4.2.dist-info/METADATA,sha256=QR0PjTxKY_4br7DapY97BM_0_deCthMDn_2A0cvFO2g,2528
+djangoplicity_mailman-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+djangoplicity_mailman-0.4.2.dist-info/top_level.txt,sha256=D4PeXh675HC5nR40jB0MO7oTjfh52ORPZI-Stup6o6w,15
+djangoplicity_mailman-0.4.2.dist-info/RECORD,,
