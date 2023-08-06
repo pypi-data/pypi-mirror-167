@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mt5_order_handle/__init__.py
+mt5_order_handle/mt5order.py
+mt5_order_handle.egg-info/PKG-INFO
+mt5_order_handle.egg-info/SOURCES.txt
+mt5_order_handle.egg-info/dependency_links.txt
+mt5_order_handle.egg-info/requires.txt
+mt5_order_handle.egg-info/top_level.txt

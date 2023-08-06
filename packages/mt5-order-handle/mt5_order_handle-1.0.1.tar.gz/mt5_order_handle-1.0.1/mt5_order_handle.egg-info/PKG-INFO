@@ -1,0 +1,251 @@
+Metadata-Version: 2.1
+Name: mt5-order-handle
+Version: 1.0.1
+Summary: a package that contain python function for handle mt5 order
+Home-page: UNKNOWN
+Author: Kritthanit_Malathong
+Author-email: kritthanit.m@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# MT5_Order_Handle
+## _Handle mt5 order via python_
+
+MT5_Order_Handle is python package for handle order/position on MT5 terminal
+NOTE: This package test on OS Windows
+
+## Features
+
+- Open Position (BUY, SELL, BUYSTOP, SELLSTOP, BUYLIMIT, SELLLIMIT)
+- Modify Position
+- Get symbol info
+- Get all position 
+- Get all pending-order
+- Delete pending order
+- Close position
+- Close position by symbol
+- total position on symbol
+- total sell on symbol
+- total buy on symbol
+- total pending order on symbol
+- Get average spread (Calculate with my algorithm not is true average spread)
+- Get last open time of position
+- Get bar price
+- Get position data
+- Get local time (PC Time)
+- Get sever time (MT5 Time)
+- Connect Python to MT5
+
+
+## Installation
+
+```sh
+pip install mt5_order_handle
+```
+OR
+```sh
+pip install mt5-order-handle
+```
+
+NOTE: Before use this package you must install MetaTrader5
+```sh
+pip install MetaTrader5
+```
+
+## Examaple
+Lastest version of document: 
+https://gist.github.com/kritthanit/919e09d6db21fb99909105d6107325b4
+
+```sh
+import MetaTrader5 as mt5
+from mt5_order_handle import mt5order as mt5hd
+
+# 1. Account info 
+port_number = 50959296           # your port account number
+account = 50959296
+password = "your_pass_word"
+server = "server_name"           # example: server = "ICMarketsSC-Demo"
+terminal_loc = r'C:\Program Files\MetaTrader 5 IC Markets (SC)\terminal64.exe'    # location of MT5 terminal
+
+# 2. Connect MT5 object to MetaTrader5 Terminal 
+mt5 = mt5hd.connect(mt5, account, password, server, terminal_loc)
+
+# 3. Create handle object 
+handles = mt5hd.OrderHandle(mt5)
+
+# 4. Read bar data 
+symbol = 'EURUSD'
+timeframe = mt5.TIMEFRAME_H4
+bar_shift = 1                   # 0 is current bar
+ohlc = handles.get_bar_price(symbol, timeframe, bar_shift)
+print(ohlc)
+# output example: {'Open': 0.99953, 'High': 1.00097, 'Low': 0.99597, 'Close': 0.99916}
+
+# 5. Open order
+order_type = "BUY"
+open_price = 0          # use current price
+tp = 0
+sl = 0
+magic_number = 2534
+order_comment = "Test"
+lot_size = 0.01
+ticket = handles.open_position(symbol, order_type, lot_size, open_price, tp, sl, magic_number, order_comment)
+print(ticket)           # if order send error, ticket will be -1
+
+order_type = "SELL"
+ticket = handles.open_position(symbol, order_type, lot_size, open_price, tp, sl, magic_number, order_comment)
+print(ticket)
+
+order_type = "BUYLIMIT"
+open_price = ohlc['Low']
+tp = ohlc['High']
+sl = ohlc['Low'] - (ohlc['High'] - ohlc['Low'])
+ticket = handles.open_position(symbol, order_type, lot_size, open_price, tp, sl, magic_number, order_comment)
+print(ticket)
+
+order_type = "SELLLIMIT"
+open_price = ohlc['High']
+tp = 0
+sl = 0
+ticket = handles.open_position(symbol, order_type, lot_size, open_price, tp, sl, magic_number, order_comment)
+print(ticket)
+
+order_type = "BUYSTOP"
+open_price = ohlc['High']
+ticket = handles.open_position(symbol, order_type, lot_size, open_price, tp, sl, magic_number, order_comment)
+print(ticket)
+
+order_type = "SELLSTOP"
+open_price = ohlc['Low']
+ticket = handles.open_position(symbol, order_type, lot_size, open_price, tp, sl, magic_number, order_comment)
+print(ticket)
+
+# 6. Read all Positions on MT5 Terminal
+positions = mt5.positions_get()
+for position in positions:
+    print(position)
+
+# 7. Read all Positions on symbol
+positions = mt5.positions_get(symbol=symbol)
+for position in positions:
+    print(position)
+
+# 8. Read all Pending-Order on MT5-Terminal
+orders = mt5.orders_get()
+for order in orders:
+    print(order)
+
+# 9. Read all Pending-Order on symbol
+orders = mt5.orders_get(symbol=symbol)
+for order in orders:
+    print(order)
+    
+# 10. Read symbol info
+sym_info = handles.get_symbol_info(symbol)
+print(sym_info)
+
+# 11. Close and Modify Position
+for position in positions:
+    pos_data = mt5hd.position_data(position)    # print(pos_data) for see all property
+    tk = pos_data['ticket']
+    tm = pos_data['open_time']                  # order time_s
+    order_type = pos_data['order_type']         # 0 = BUY, 1 = SELL
+    lots = pos_data['lot']
+    ocm = pos_data['comment']
+    pf = pos_data['swap'] + pos_data['profit'] - (lots * 8)  # swap+pf+commission (use for print output only)
+    op = pos_data['open_price']
+    sl = pos_data['sl']
+    sym = pos_data['symbol']
+
+    if pf > 10.0 or pf < -10.0:
+        chk = handles.close_position(tk, order_type, sym, lots, pf)     # return False if close error
+    else:
+        if order_type == 0:     # BUY
+            nw_sl = op - (1000 * sym_info['point'])
+            nw_tp = op + (1000 * sym_info['point'])
+            chk = handles.modify_position(sym, tk, nw_sl, nw_tp)
+        if order_type == 1:     # SELL
+            nw_sl = op + (1000 * sym_info['point'])
+            nw_tp = op - (1000 * sym_info['point'])
+            chk = handles.modify_position(sym, tk, nw_sl, nw_tp)
+            
+# 12. Delete and Modify Pending-Order
+for order in orders:
+    ord_info = mt5hd.position_data(order)
+    tk = ord_info['ticket']
+    order_type = ord_info['order_type']     # BUYLIMIT=2, SELLLIMIT=3, BUYSTOP=4, SELLSTOP=5
+    sym = ord_info['symbol']
+    op = ord_info['open_price']
+
+    if order_type == 2:
+        chk = handles.delete_pending(tk)
+
+    if order_type == 3:
+        nw_sl = op + (1000 * sym_info['point'])
+        nw_tp = op - (1000 * sym_info['point'])
+        chk = handles.modify_position(sym, tk, nw_sl, nw_tp)
+
+# 13. Close all position on symbol
+handles.close_positions_by_symbol(symbol)
+
+# 14. Total positions on symbol
+N = handles.total_position_on_symbol(symbol)
+
+# 15. Total buy on symbol
+N_Buy = handles.total_buy_on_symbol(symbol)
+
+# 16. Total sell on symbol
+N_Sell = handles.total_sell_on_symbol(symbol)
+
+# 17. Total pending on symbol
+N_pd = handles.total_pending_on_symbol(symbol)
+
+# 18. Get average spread
+average_spread = handles.get_average_spread(symbol)
+
+# 19. Get last position open time
+last_open_time = handles.get_last_position_time(symbol)
+
+# 20. Get local time
+local_time = mt5hd.get_local_time()
+
+# 21. Get server time
+server_time = handles.get_server_time(symbol, timeframe, bar_shift)
+
+```
+
+## License
+
+MIT
+
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+
+
