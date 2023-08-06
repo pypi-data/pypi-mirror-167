@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoMidian = TaluoMidian.__main__:main
+taluo-midian = TaluoMidian.__main__:main
+
