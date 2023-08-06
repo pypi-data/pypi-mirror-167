@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: idiscore
+Version: 1.1.0
+Summary: Pure-python deidentification of DICOM images using Attribute Confidentiality Options
+License: GPLv3
+Author: sjoerdk
+Author-email: sjoerd.kerkstra@radboudumc.nl
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: dicomgenerator (>=0.4.0,<0.5.0)
