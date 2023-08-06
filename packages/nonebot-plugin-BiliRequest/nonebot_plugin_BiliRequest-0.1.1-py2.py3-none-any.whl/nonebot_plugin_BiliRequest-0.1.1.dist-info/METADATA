@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-BiliRequest
+Version: 0.1.1
+Summary: use bilibili uid join in group
+Home-page: https://github.com/Shadow403/nonebot_plugin_BiliRequest.git
+Author: Shadow403
+Author-email: anonymous_hax@foxmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="260" height="260" alt="nonebot"></a>
+</p>
+
+<div align="center"> 
+
+# nonebot_plugin_BiliRequest
+
+<div>
+
+<div align=left> <div>
+
+## 已实现功能
+- 以B站UID审核入群（粉丝）
+
+## 使用方法
+
+- 使用pip
+```
+pip install nonebot_plugin_BiliRequest
+```
+
+- 重新加载插件
+
+## 说明依赖
+```
+10| import json, time, requests
+11| from nonebot import on_request, logger
+12| from nonebot.adapters.onebot.v11 import Bot, GroupRequestEvent
+```
+
+## 注意事项
+```
+20| if event.group_id == <群号>: <- 直接替换成要使用的群号
+##|                     ^^^^^^^
+21|   raw = json.loads(event.json())
+22|   gid = str(event.group_id)
+23|   uid = str(event.user_id)
+24|   flag = raw['flag']
+```
+```
+34| if '<主播UID>' in response: <- 直接替换成主播UID
+##|    ^^^^^^^^^^
+35|   logger.info(f"同意{uid}加入群 {gid},验证消息为 “{comment}”")
+36|   await bot.set_group_add_request(
+37|     flag=flag,
+38|     sub_type=sub_type,
+39|    approve=True,
+40|    reason=' ',
+41|   )
+```
+
+### 未来计划
+- Tips：如果在不咕的情况下 
+  - 实现单插件分群管理
+  - 实现切换审核模式（粉丝/持有粉丝牌/等）
+
+#### 反馈问题
+- 邮箱：anonymous_hax@foxmail.com
