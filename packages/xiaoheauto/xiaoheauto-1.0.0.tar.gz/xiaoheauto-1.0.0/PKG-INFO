@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xiaoheauto
+Version: 1.0.0
+Summary: test packge auto
+Home-page: https://gitee.com/hestudyit/autoapi.git
+Author: hezhibin
+Author-email: 2587071020@qq.com
+License: MIT License
+Keywords: api,auto
+Platform: python
+
+Interface automation framework
