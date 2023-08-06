@@ -1,0 +1,13 @@
+fastwarc/__init__.pxd,sha256=atGmpZoAgIja6HdW4SDRRJkKr143Zucm6Zg0-W1OdcE,580
+fastwarc/__init__.py,sha256=nnaFAC-2x0BhCKEJOeHnvwdIbeUW4YXyUb1oVzDdllY,750
+fastwarc/cli.py,sha256=qqvgVvv4gFfpwEPtoHxYIaZay0cK58DlkTakNXKGUik,19061
+fastwarc/stream_io.cpython-39-darwin.so,sha256=8h5HMMGt4l14rj5AAjPO7e73C3Jxk780xeb8FjSqt-Y,469632
+fastwarc/stream_io.pxd,sha256=uVPV9FeOWUan5ji2VrpZsOmsPKzxraS86h9DxzAgG6k,4879
+fastwarc/tools.cpython-39-darwin.so,sha256=kpgfdAqtkTN0puyXsrplVsDzVnwZ3MgEPId7qD093aw,183408
+fastwarc/warc.cpython-39-darwin.so,sha256=rhkbhsJ0Dsu5t5QOB-NqIvqvw3bP4biv4VDmR3pd9vo,441136
+fastwarc/warc.pxd,sha256=QK-8N2sTLJYl6CU5K5p1DTbvc56UNc-as4roVRoquk8,3670
+FastWARC-0.13.0.dist-info/METADATA,sha256=NXfy5bgMOjlFUheJE3rHRDvme2OqC-oBIGFMDgzpr6U,3076
+FastWARC-0.13.0.dist-info/WHEEL,sha256=UrJpo7VJ2GpinFtpzzfiWRObEQwqqviym3EH_4Ej_LY,110
+FastWARC-0.13.0.dist-info/entry_points.txt,sha256=IW6T7e-kb8Wr7Jd1g3u6zzG5TRVPDbGb0izYCSPZQvY,48
+FastWARC-0.13.0.dist-info/top_level.txt,sha256=kd2NdQA_61TyRclx6gmvrHOEiEqZh8LDqGMxfmsOEDw,9
+FastWARC-0.13.0.dist-info/RECORD,,
