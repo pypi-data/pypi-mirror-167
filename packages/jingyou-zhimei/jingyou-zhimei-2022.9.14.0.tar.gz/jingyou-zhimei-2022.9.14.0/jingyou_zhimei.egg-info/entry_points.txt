@@ -1,0 +1,4 @@
+[console_scripts]
+JingyouZhimei = JingyouZhimei.__main__:main
+jingyou-zhimei = JingyouZhimei.__main__:main
+
