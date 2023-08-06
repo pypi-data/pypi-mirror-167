@@ -1,0 +1,12 @@
+gallop/__init__.py,sha256=k1zO7viBnfsj9iaubmFhDUVwdsBbZd4fJgDb2MxkoZU,70
+gallop/call.py,sha256=cp9jd-_L22U0gWWC75lf2PGD28qVXQQ7k11z_WemNBI,7564
+gallop/classroom.py,sha256=_cSLepgfP-n6b32j_OTK-Qh7_OcdWkwSnyzmgQEN5nM,859
+gallop/config.py,sha256=nZEm1lr32jIV4rEVJ-zJHEAa3NyHsKcHPrE5S5Vyiks,4309
+gallop/funcs.py,sha256=fLkm48GY8269yQKgT-msmOkv3cysVhFix8kSf_vTGoc,1979
+gallop/bin/gallop,sha256=P_bLfFBb-TTaKsKaiZxOt6XzU-KjutW0xQiW5voP89Y,2372
+gallop-0.0.6.data/scripts/gallop,sha256=alqg7fQMsXiotJih4dyKXkYyO7OgA_3_G9mwWXxaxp4,2359
+gallop-0.0.6.dist-info/LICENSE,sha256=Se8gXZgOCKiq7o9KPhYxuYFoghb1i20o1AVhakygvZY,1085
+gallop-0.0.6.dist-info/METADATA,sha256=wW3qyK7BUClSVsNu5Tbs32aMJd2eEuncGi4C3PocMcQ,5288
+gallop-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gallop-0.0.6.dist-info/top_level.txt,sha256=ua5ootfP038t-eDevJzjxj9CJYP0i75hGKm5Ps5DYBM,7
+gallop-0.0.6.dist-info/RECORD,,
