@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nsj-flask-auth
+Version: 0.1.9
+Summary: Modulo básico para autenticação de aplicações Flask no contexto da Nasajon
+Author: Lucas Assis
+Author-email: lucasassis@nasajon.com.br
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Flask
+Requires-Dist: requests
