@@ -1,0 +1,7 @@
+fpdf
+pikepdf<=5.6.0
+PyPDF2
+pdf2docx
+tqdm
+reportlab
+PyMuPDF
