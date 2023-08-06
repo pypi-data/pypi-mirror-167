@@ -1,0 +1,5 @@
+setup.py
+not_complicated_ocr.egg-info/PKG-INFO
+not_complicated_ocr.egg-info/SOURCES.txt
+not_complicated_ocr.egg-info/dependency_links.txt
+not_complicated_ocr.egg-info/top_level.txt

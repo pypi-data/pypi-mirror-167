@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: not-complicated-ocr
+Version: 0.0.1
+Summary: 一个简单的验证码识别库，使用中遇到任何的问题都可以加q群，有众多大佬解答:738389368
+Home-page: https://github.com/
+Author: 写BUG专家
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+text/markdown
