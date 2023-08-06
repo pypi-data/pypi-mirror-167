@@ -1,0 +1,4 @@
+[console_scripts]
+dependably-me=dependably_me.cli:app
+dpm=dependably_me.cli:app
+

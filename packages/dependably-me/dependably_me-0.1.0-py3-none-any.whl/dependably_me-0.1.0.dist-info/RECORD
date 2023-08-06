@@ -1,0 +1,12 @@
+dependably_me/__init__.py,sha256=LIaP1Gm0egX5tPXlzOT7Yn179OFeGXO9msQYjyCKHA8,135
+dependably_me/cli/__init__.py,sha256=dneuSZhnUuTTy3i0PRVoD-ivsnk14t-BBUZE2Qnmlrs,230
+dependably_me/cli/reminders.py,sha256=vCq5ykDpAty0pUXfulLOrKcT5KiFM4QPcB8AQ7atBLs,1204
+dependably_me/cli/twilio.py,sha256=ejpCInM_yZZHtAdOc7X8rK9g1FPYs_j7v4pRWoCDgV4,990
+dependably_me/contacts.py,sha256=MPV-tZjRMk8D_2RKH8xC-rlHqD2W-IvdI1Ac4N9b_Qk,870
+dependably_me/project.py,sha256=1KSUrXL9f80ZFrvpEW684F1ZgBcZoM895T9sqtFukJY,866
+dependably_me/reminders.py,sha256=DgP-_l9lNYfhGergyz5go3XGqhntFzhdmm7Gte4C-9c,6279
+dependably_me/twilio.py,sha256=z6bPpFALS0I_q92Rolrb6AcvFhK2aXXb509lFr-GE_E,1112
+dependably_me-0.1.0.dist-info/entry_points.txt,sha256=DFE78YWjpI276Pxsz2Bh9afE5PyNI0FUI1dqYPgj2NA,81
+dependably_me-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+dependably_me-0.1.0.dist-info/METADATA,sha256=XWK-48zFHMNw4atM_kZfHbnpxOebDZzrQJ6qw35-tXI,3639
+dependably_me-0.1.0.dist-info/RECORD,,
