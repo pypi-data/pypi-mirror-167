@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cal-fibonacci
+Version: 0.0.1
+Summary: A very basic fibonacci calculator
+Home-page: UNKNOWN
+Author: Siddhesh Sagar
+Author-email: siddheshsagar3182001@gmail.com
+License: MIT
+Keywords: fibonacci
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This package contains the functionality to calculate the n'th fibonacci number.
+All you need is just call the 'calculate_fibonacci' function present in the library 
+and pass the n'th parameter to get the n'th fibonacci number.
+
+change log
+==========
+
+0.0.1 (13/09/2022)
+------------------
+- First Release
+
