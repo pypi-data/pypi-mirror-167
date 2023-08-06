@@ -1,0 +1,4 @@
+[console_scripts]
+MofaZhiliao = MofaZhiliao.__main__:main
+mofa-zhiliao = MofaZhiliao.__main__:main
+
