@@ -1,0 +1,13 @@
+bellybuttonseg/BBHP_function.py,sha256=VWzQ16J9uVPxtwmD5uNXW1KiZX4sKXNwGgMWX-94A2k,18008
+bellybuttonseg/DataGenerator.py,sha256=Cc4JGh3lYy3iEjSS1m65--oTcDwvMSWX4dZalM-qzjQ,33487
+bellybuttonseg/__init__.py,sha256=inRA3qzAprXhuullgNgyEkAFH2QLw7ZRvcafLxFX0vo,2229
+bellybuttonseg/createdir.py,sha256=inRA3qzAprXhuullgNgyEkAFH2QLw7ZRvcafLxFX0vo,2229
+bellybuttonseg/generate_network.py,sha256=0W3GoFuiHXHCcITG4h6tVWUUW6047qh7w2oU46w19Oc,2975
+bellybuttonseg/load_save_helpers.py,sha256=LxZ-T7_e8uHovzHaoKNFRi9K0HHOUTmVxqe2bX4Pfns,13194
+bellybuttonseg/run_BBHP.py,sha256=wa4YRPbYin88Vhx4GdVo5wvsRpPyA-59tpFf5xyUe04,2780
+bellybuttonseg/saved_model_functions.py,sha256=cvGGInhtSC0YljVgUwltMiGJ9aIOr1BI0sNEsSZ7pz0,12770
+bellybuttonseg-0.0.8.1.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+bellybuttonseg-0.0.8.1.dist-info/METADATA,sha256=2gERvpXGZbXF5jV88K9ELYWrkwty2LBnt0EwkYpiZ9A,3950
+bellybuttonseg-0.0.8.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bellybuttonseg-0.0.8.1.dist-info/top_level.txt,sha256=ztx3B1OlDpuaAHqnoFfXlE-bS_pGj9uN92I9itH4Yts,15
+bellybuttonseg-0.0.8.1.dist-info/RECORD,,
