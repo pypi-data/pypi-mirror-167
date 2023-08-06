@@ -1,0 +1,4 @@
+[console_scripts]
+MailunLiaoyu = MailunLiaoyu.__main__:main
+mailun-liaoyu = MailunLiaoyu.__main__:main
+
