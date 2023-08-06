@@ -1,0 +1,17 @@
+chard/__init__.py,sha256=Z1mQXdrBsjuNj7Ub8UH813WHAP72axnaW9kn-RjdWEU,43
+chard/admin.py,sha256=sdO1RYMONO2RYCd6RKzPzXGfxmyE2A3PE08RPBhC5ww,274
+chard/discover.py,sha256=9lZWALeTkKnAtB243NICBLO18dVhYpIOPGW5q-fUc_4,1882
+chard/exceptions.py,sha256=SlV7MeFIpSM96_ricAuznqPnG6eWamiTMipwBU1Mssg,451
+chard/models.py,sha256=06s39v7SI6DGFmYMgzPNwRe6n4CdzJxhD3vRv5OXRL4,1168
+chard/task.py,sha256=9LauF6ZNUm-Lx9Kh7cHLd1LSw8YixUQj-fufFU-Wevw,1201
+chard/types.py,sha256=_SqPcMzTQblRG_4-ZWOaPbLJvSUDPAB0d4zyEulSh0M,101
+chard/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chard/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chard/management/commands/chardworker.py,sha256=LvmBhUo-DwLE9BsOxfVKj_ZriEUI2sZbqlpkZ8TF5jU,3526
+chard/migrations/0001_initial.py,sha256=kv-J6rkpngsnUFrabjmRtBkClXUKh9Dm7nn0QNIVluM,1346
+chard/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_chard-0.2.dist-info/LICENSE,sha256=oHC2M1uPpTlDCSzXDVr4VfOGZyuPj1mqsVDvBpbEiys,183
+django_chard-0.2.dist-info/METADATA,sha256=TB-EP2Iw7EkpjNNt8mDPXG7i7crqiBI7iC-9UvleraQ,2275
+django_chard-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_chard-0.2.dist-info/top_level.txt,sha256=S0qBRS5lQrUfQjlUXtFq1913PHcA6V963_nzKE-zhUA,6
+django_chard-0.2.dist-info/RECORD,,
