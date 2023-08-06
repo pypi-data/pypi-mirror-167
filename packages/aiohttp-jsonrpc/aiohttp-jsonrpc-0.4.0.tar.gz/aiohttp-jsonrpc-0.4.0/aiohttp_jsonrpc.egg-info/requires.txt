@@ -1,0 +1,9 @@
+aiohttp
+
+[:python_version < "3.8"]
+typing-extensions
+
+[develop]
+pytest
+pytest-cov
+pytest-aiohttp
