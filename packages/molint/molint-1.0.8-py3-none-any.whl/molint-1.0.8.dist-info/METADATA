@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: molint
+Version: 1.0.8
+Summary: 扫描py文件
+Home-page: UNKNOWN
+Author: mzg
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pylint (==2.9.5)
+
+#### 1、molint安装
+
+pip install molint
+
+#### 2、查看帮助信息
+
+molint -h
+
+usage: molint [-h] [--rp [RP]]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --rp [RP]   代码路径
+
+rp:需要扫描的项目根目录，可不填，不填时为当前目录
+
+
+#### 3、使用
+
+molint  扫描当前目录
+
+molint --rp D:\aa  扫描D:\aa目录
+
+
