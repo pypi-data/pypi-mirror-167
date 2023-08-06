@@ -1,0 +1,11 @@
+mplshared/__init__.py,sha256=w9WdKIgvEFGgs59em-XYZQIN8CJ4Ppz4kP7fOT3f7u8,64
+mplshared/slopes.py,sha256=tZmMP-zXq2sJX3Zd9l4t3fEjtYmGR2m7Ss3OZnNGMyw,1818
+mplshared/step.py,sha256=1K-RqIIyDv7-FIveuB0COkrq2t1XrNh_FCfFnb15XLY,5813
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_slopes.py,sha256=xYY7tDCiZ4QzCLCOjFJ83gaHtKQxcD67KEwLk7rB5-U,1739
+tests/test_step.py,sha256=pb3AzmQrOH6qXfsk39yXZM8m-V-6siNgYDJZhKbrAmk,2097
+mplshared-0.1.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+mplshared-0.1.0.dist-info/METADATA,sha256=y7qpk-5V5AQrpWcSp_wAHfX33G0hKcts_hoskrUAdjw,1962
+mplshared-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mplshared-0.1.0.dist-info/top_level.txt,sha256=BfySGQ75bZ86msxSWW-lcQzRvsQb27nQO0vk1Em88PU,16
+mplshared-0.1.0.dist-info/RECORD,,
