@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+licchart/__init__.py
+licchart/app.py
+licchart/helpers.py
+licchart.egg-info/PKG-INFO
+licchart.egg-info/SOURCES.txt
+licchart.egg-info/dependency_links.txt
+licchart.egg-info/entry_points.txt
+licchart.egg-info/requires.txt
+licchart.egg-info/top_level.txt
