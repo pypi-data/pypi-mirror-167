@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dpvs"
+version = "0.1.2"
+description = ""
+authors = ["dennislblog <dennisl@udel.edu>"]
+readme = "README.md"
+packages = [{include = "dpvs"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hydra-core = "^1.2.0"
+ipython = "^8.5.0"
+tables = "^3.7.0"
+xgboost = "^1.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

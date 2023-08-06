@@ -1,0 +1,46 @@
+seed: 42 # rng seed for torch, random and numpy
+checkpoint: False # Checkpoint to resume from, False otherwise
+datapath: null
+device: cuda:0
+epochs: 20
+
+# dataset configuration
+data:
+  _target_: dpvs.datasets.make_tensor
+  data_dir: ${datapath}
+  label_mode: 'label_seq'
+  part_seed: 42
+  train_split:
+    train: 0.6
+    valid: 0.2
+    test: 0.2
+  sample_rate: 10
+  nw: 2
+  add_world_frame: true
+  use_cache: true
+  train_sz: 32
+  test_sz: 32
+
+
+# architecture configuration
+model:
+  _target_: src.model.CNN
+
+# engine configuration
+trainer:
+  engine:
+    _target_: src.engines.create_engine
+  device: ${device}
+  optimizer:
+    _target_: torch.optim.Adam
+  criterion:
+    _target_: torch.nn.CrossEntropyLoss
+
+# callback
+callbacks:
+  add_lr_scheduler:
+    _target_: src.callbacks.add_lr_scheduler
+  print_learning_rate:
+    _target_: src.callbacks.print_learning_rate
+  log_results:
+    _target_: src.callbacks.log_results
