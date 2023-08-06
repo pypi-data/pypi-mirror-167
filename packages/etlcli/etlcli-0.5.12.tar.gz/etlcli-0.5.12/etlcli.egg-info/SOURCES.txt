@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+etlcli/__init__.py
+etlcli/cli.py
+etlcli/extractor.py
+etlcli.egg-info/PKG-INFO
+etlcli.egg-info/SOURCES.txt
+etlcli.egg-info/dependency_links.txt
+etlcli.egg-info/entry_points.txt
+etlcli.egg-info/not-zip-safe
+etlcli.egg-info/top_level.txt
