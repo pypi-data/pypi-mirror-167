@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: xdeps
+Version: 0.0.9
+Summary: Data dependency manager
+Home-page: https://xsuite.readthedocs.io/
+Author: Riccardo De Maria
+Author-email: riccardo.de.maria@cern.ch
+License: Apache 2.0
+Download-URL: https://pypi.python.org/pypi/xdeps
+Project-URL: Bug Tracker, https://github.com/xsuite/xsuite/issues
+Project-URL: Documentation, https://xsuite.readthedocs.io/
+Project-URL: Source Code, https://github.com/xsuite/xdeps
+Description: Data dependency manager
+        
+        This package is part of the Xsuite collection.
+Platform: UNKNOWN
