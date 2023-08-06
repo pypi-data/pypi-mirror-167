@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/flexidep.egg-info/PKG-INFO
+src/flexidep.egg-info/SOURCES.txt
+src/flexidep.egg-info/dependency_links.txt
+src/flexidep.egg-info/requires.txt
+src/flexidep.egg-info/top_level.txt
