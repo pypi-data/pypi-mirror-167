@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "bigeye-cli"
+version = "0.3.16"
+description = "Bigeye CLI offers developer tools for maintaining your developer workspace."
+authors = ["Bigeye <support@bigeye.com>"]
+readme = "./bigeye_cli/CLI_DOCS.md"
+packages = [{include = "bigeye_cli"}]
+
+[tool.poetry.scripts]
+bigeye = "bigeye_cli.__main__:app"
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+typer = "0.4.0"
+click = "8.0.4"
+bigeye-sdk = "^0.4.26"
+bigeye-aws = "^0.0.9"
+PyGithub = "^1.55"
+rich = "^12.4.4"
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.16.2"
+pylint = "^2.15.2"
+mypy = "^0.971"
+
+
+[tool.poe.tasks]
+    pre_publish = ["clean"]
+
+    [tool.poe.poetry_hooks]
+        pre_build = "clean"
+        pre_publish = "pre_publish"
+        post_publish = "clean"
+
+    [tool.poe.tasks.format]
+        help = "Run black on the code base"
+        cmd  = "black ."
+
+    [tool.poe.tasks.clean]
+        help = "Remove generated files"
+        cmd  = """
+        rm -rf .coverage
+        rm -rf .mypy_cache
+        rm -rf ./dist
+        """
+
+    [tool.poe.tasks.types]
+        help = "Run the type checker"
+        cmd  = "mypy bigeye_sdk --ignore-missing-imports"
+
+    [tool.poe.tasks.lint]
+        help = "Run the linter"
+        cmd  = "pylint bigeye_sdk"
+
+    [tool.poe.tasks.test]
+        help = "Run all tests"
+        shell = """
+        cd ../tests
+        python -m unittest discover -s . -p 'test_*.py'
+        """
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
