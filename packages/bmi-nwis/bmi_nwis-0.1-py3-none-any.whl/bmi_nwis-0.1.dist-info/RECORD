@@ -1,0 +1,9 @@
+bmi_nwis/__init__.py,sha256=frT8DC-GTrpXVnvf2kqPUrM0atREPv9yQRJH4wjAApw,181
+bmi_nwis/_version.py,sha256=rJnh_LJw0_sz6NOqcThDfiyuqXnkkdyW_jjTuDkl5uk,496
+bmi_nwis/bmi.py,sha256=ifvUZTOOgsmKcRzP1xfuPXJqpR2K_PRsW0hX9U3Rv4I,23474
+bmi_nwis/utils.py,sha256=J41hFa_JyeMsfqO5Iw1e36mGe2qc-NIDENPLw1sP-kQ,6132
+bmi_nwis-0.1.dist-info/LICENSE.txt,sha256=vZfg9vZ2d-yKkFoxShdNr0WKjhlgHRQuF-Lg7lIukuc,1065
+bmi_nwis-0.1.dist-info/METADATA,sha256=J7yLa6WpZw7vCpJ2WJaD9ZrBxXeE959E8MGzo2-gbYE,5921
+bmi_nwis-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bmi_nwis-0.1.dist-info/top_level.txt,sha256=eiU7myrIkzEx6tnSU-y4IRWOfK30M7Jh9phKSRtphS0,9
+bmi_nwis-0.1.dist-info/RECORD,,
