@@ -1,0 +1,4 @@
+[console_scripts]
+ShiyongZhanxingxue = ShiyongZhanxingxue.__main__:main
+shiyong-zhanxingxue = ShiyongZhanxingxue.__main__:main
+
