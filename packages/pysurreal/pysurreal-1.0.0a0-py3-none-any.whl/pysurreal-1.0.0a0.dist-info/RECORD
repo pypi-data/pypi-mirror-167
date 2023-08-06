@@ -1,0 +1,9 @@
+pysurreal/__init__.py,sha256=Wotcv-i_Ojxg2b6ywN4ROyWKxZjR2Q0h-7fFq8te6vQ,219
+pysurreal/connector/__init__.py,sha256=0XroD1PRTus-RtThz3lKkKMh_1x5CLpSxal95MoiPuk,143
+pysurreal/connector/client.py,sha256=rduUZCQ_jndPsxMv1jP3M_7FglYCQYTabBa_DWdbsq8,1565
+pysurreal/connector/result.py,sha256=o14ub9Rca8uFATQnVvD2JPqOKve2IF8F5scHRW3FcYk,589
+pysurreal/orm/__init__.py,sha256=uBnOZxsMDby8Ny6aY_nD8_EHY5ZyxUdZQsKC3zZLYgQ,13
+pysurreal-1.0.0a0.dist-info/LICENSE,sha256=yuCKmDKmBN3HCG8j1AAxNwc2Gl0hIjHwuDWy30sWVuM,1066
+pysurreal-1.0.0a0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pysurreal-1.0.0a0.dist-info/METADATA,sha256=WEhy0izguCAsHiJzXn_XiXnDUwkM5r6GEdun8GcfW0s,1620
+pysurreal-1.0.0a0.dist-info/RECORD,,
