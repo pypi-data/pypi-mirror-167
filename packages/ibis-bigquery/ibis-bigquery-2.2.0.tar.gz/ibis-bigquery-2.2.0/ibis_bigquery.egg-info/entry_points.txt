@@ -1,0 +1,2 @@
+[ibis.backends]
+bigquery = ibis_bigquery
