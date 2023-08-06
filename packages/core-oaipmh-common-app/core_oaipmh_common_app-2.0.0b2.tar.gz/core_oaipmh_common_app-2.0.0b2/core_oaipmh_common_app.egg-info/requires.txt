@@ -1,0 +1,4 @@
+Django
+djangorestframework
+iso8601==0.1.13
+core-main-app==2.0.0-beta2
