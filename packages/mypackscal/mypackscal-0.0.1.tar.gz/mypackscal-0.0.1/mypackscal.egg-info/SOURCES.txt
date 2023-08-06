@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+SETUP.py
+setup.py
+mypackscal/__init__.py
+mypackscal.egg-info/PKG-INFO
+mypackscal.egg-info/SOURCES.txt
+mypackscal.egg-info/dependency_links.txt
+mypackscal.egg-info/top_level.txt
