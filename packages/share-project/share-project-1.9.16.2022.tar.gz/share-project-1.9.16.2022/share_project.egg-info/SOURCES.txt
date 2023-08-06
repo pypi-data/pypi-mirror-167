@@ -1,0 +1,8 @@
+README.md
+setup.py
+hi_there/__init__.py
+hi_there/greetings.py
+share_project.egg-info/PKG-INFO
+share_project.egg-info/SOURCES.txt
+share_project.egg-info/dependency_links.txt
+share_project.egg-info/top_level.txt
