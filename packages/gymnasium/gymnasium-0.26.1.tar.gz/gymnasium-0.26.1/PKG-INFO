@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gymnasium
+Version: 0.26.1
+Summary: A standard API for reinforcement learning and a diverse set of reference environments (formerly Gym)
+Home-page: https://gymnasium.farama.org/
+Author: Farama Foundation
+Author-email: jkterry@farama.org
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: atari
+Provides-Extra: accept-rom-license
+Provides-Extra: box2d
+Provides-Extra: classic_control
+Provides-Extra: mujoco_py
+Provides-Extra: mujoco
+Provides-Extra: toy_text
+Provides-Extra: other
+Provides-Extra: testing
+Provides-Extra: all
+License-File: LICENSE.md
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+<p align="center">
+    <img src="readme.png" width="500px"/>
+</p>
+
+## Gymnasium
+
+Gymnasium is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. This is a fork of OpenAI's Gym library by the maintainers, and is where future maintenance will occur going forward
+
+The documentation website is at [gymnasium.farama.org](https://gymnasium.farama.org), and we have a public discord server (which we also use to coordinate development work) that you can join here: https://discord.gg/nHg2JRN489
+
