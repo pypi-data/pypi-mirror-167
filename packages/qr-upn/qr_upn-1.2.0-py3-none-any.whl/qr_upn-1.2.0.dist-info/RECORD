@@ -1,0 +1,12 @@
+qr_upn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qr_upn/codes.csv,sha256=a5heAOA_3a_a5Tl66KUq-JwISJidNzUIocV9OTFOsiU,9501
+qr_upn/courbd.ttf,sha256=ic_x_55ZpmG6lHUA6cJCUG4tvzbAQXeD3qi3YuE9pwQ,710192
+qr_upn/formaters.py,sha256=gFzWaUUYVkAVT4Mq_P6MnF1RhPyBa8xT0xS8Gv4VAaE,1873
+qr_upn/misc.py,sha256=_32vqv0e4mhk2MLv0zsI7LcGQ3Ay60MbALaGVaSnMeE,873
+qr_upn/rules.py,sha256=_ioEqJ2gl-IDckuywLeUuwzhT--IQMTBANEWK_TREpM,10396
+qr_upn/upn_sl.png,sha256=sFyvBmwyx1bhHYUOmlqDevOyeb9Zxq53mBYEKySGSgs,75996
+qr_upn/utils.py,sha256=jPryGGWHxmrFe0zODvsD9qxZBMYz92cASJP9Er0XQsE,7046
+qr_upn-1.2.0.dist-info/METADATA,sha256=CLvRWne9tiYjd7LA8uO7uhCwU38zIrktYaQ3BcmkS1M,4473
+qr_upn-1.2.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+qr_upn-1.2.0.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+qr_upn-1.2.0.dist-info/RECORD,,
