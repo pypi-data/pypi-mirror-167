@@ -1,0 +1,12 @@
+tensorflow_metal-0.6.0.data/purelib/tensorflow-plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_metal-0.6.0.data/purelib/tensorflow-plugins/libmetal_plugin.dylib,sha256=e-pWL5f9ZvzToNuTsA9drInk4wi00vg7VxaiXiurKhU,5111256
+tensorflow_metal-0.6.0.data/purelib/tensorflow-plugins/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_metal-0.6.0.data/purelib/tensorflow-plugins/tools/pip_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_metal-0.6.0.data/purelib/tensorflow-plugins/tools/pip_package/setup.py,sha256=JBr-Fy_CzYKLwRbSrZF8M5yHDlvLbC0xvAsPf4PdIZc,5327
+tensorflow_metal-0.6.0.data/purelib/tensorflow-plugins/tools/pip_package/simple_console.py,sha256=A8VCwjDQaRHKt91xDZisZqcPax8ECHaRwfvCAyuSuas,293
+tensorflow_metal-0.6.0.dist-info/LICENSE,sha256=S9YeeMhVCv-Iagq3rpbJkTJmko4cr6XmVf3M_9DpkTI,1076
+tensorflow_metal-0.6.0.dist-info/METADATA,sha256=rRRabNvxc1G940yXrHRGm7L78mZvwUQc1WKw5ou_a3M,773
+tensorflow_metal-0.6.0.dist-info/WHEEL,sha256=-1z0DoS4mjY5dj8lgOaEzTO9KQ0fT0I8UIpYmFSgHuE,109
+tensorflow_metal-0.6.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+tensorflow_metal-0.6.0.dist-info/top_level.txt,sha256=T_uE6hIdLKbDvWkRt0IQObBeZtEPsuMwPD4qIdJvDjM,19
+tensorflow_metal-0.6.0.dist-info/RECORD,,
