@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+libphpphar.egg-info/PKG-INFO
+libphpphar.egg-info/SOURCES.txt
+libphpphar.egg-info/dependency_links.txt
+libphpphar.egg-info/requires.txt
+libphpphar.egg-info/top_level.txt
+phpphar/__init__.py
+phpphar/constants.py
+phpphar/types.py
+phpphar/utils.py
+phpphar/io/__init__.py
+phpphar/io/phar.py
+phpphar/io/tar.py
+phpphar/io/zip.py
