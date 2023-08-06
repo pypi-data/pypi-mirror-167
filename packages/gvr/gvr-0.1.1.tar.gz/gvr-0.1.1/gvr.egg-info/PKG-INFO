@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gvr
+Version: 0.1.1
+Summary: An informal AWK-like thing for python
+Home-page: https://github.com/balenio/g
+Author: balenio
+Author-email: pypi@ruf.mozmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+License-File: LICENSE.md
+
+UNKNOWN
+

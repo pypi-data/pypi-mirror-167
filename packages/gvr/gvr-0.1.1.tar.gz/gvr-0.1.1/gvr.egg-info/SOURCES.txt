@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+g.py
+setup.cfg
+setup.py
+gvr.egg-info/PKG-INFO
+gvr.egg-info/SOURCES.txt
+gvr.egg-info/dependency_links.txt
+gvr.egg-info/entry_points.txt
+gvr.egg-info/top_level.txt
