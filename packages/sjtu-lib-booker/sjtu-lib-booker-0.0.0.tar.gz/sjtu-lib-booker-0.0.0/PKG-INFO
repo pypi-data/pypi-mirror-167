@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sjtu-lib-booker
+Version: 0.0.0
+Summary: Library seat checker for SJTU
+Home-page: https://github.com/jtc1246
+Author: Tiancheng Jiao
+Author-email: jtc1246@outlook.com
+License: GPL-2.0 License
+Platform: all
+Requires-Python: >=3
+
+UNKNOWN
+
