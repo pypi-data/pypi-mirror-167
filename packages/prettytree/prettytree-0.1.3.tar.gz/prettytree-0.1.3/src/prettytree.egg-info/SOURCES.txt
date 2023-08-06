@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/prettytree/PrettyTree.py
+src/prettytree/__init__.py
+src/prettytree.egg-info/PKG-INFO
+src/prettytree.egg-info/SOURCES.txt
+src/prettytree.egg-info/dependency_links.txt
+src/prettytree.egg-info/top_level.txt
