@@ -1,0 +1,10 @@
+odoo/addons/l10n_es_ticketbai_batuz_extra_data/README.rst,sha256=FMBFA8CvyBysyR0oQKkqwagPH9mWaAvuiWSZ0POqBNw,2108
+odoo/addons/l10n_es_ticketbai_batuz_extra_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/l10n_es_ticketbai_batuz_extra_data/__manifest__.py,sha256=zDrkqabwAfldolsqkZ9pNrXjqh9ZJ9odnzQwN2aZjWQ,719
+odoo/addons/l10n_es_ticketbai_batuz_extra_data/data/tbai_tax_map_data.xml,sha256=nJjuSjBbyFyCrljI_BpE5DJtp4B6qG4EDv1P5r0wJNQ,394
+odoo/addons/l10n_es_ticketbai_batuz_extra_data/i18n/l10n_es_ticketbai_batuz_extra_data.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/l10n_es_ticketbai_batuz_extra_data/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo12_addon_l10n_es_ticketbai_batuz_extra_data-12.0.1.0.0.99.dev1.dist-info/METADATA,sha256=BDzNdNRYbrLVSMeJckWZC3cni0diRcuh_1cL-_EtBRM,2806
+odoo12_addon_l10n_es_ticketbai_batuz_extra_data-12.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_l10n_es_ticketbai_batuz_extra_data-12.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_es_ticketbai_batuz_extra_data-12.0.1.0.0.99.dev1.dist-info/RECORD,,
