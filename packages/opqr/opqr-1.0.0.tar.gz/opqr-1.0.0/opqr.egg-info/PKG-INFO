@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: opqr
+Version: 1.0.0
+Summary: A Simple QR encode Library.
+Home-page: UNKNOWN
+Author: caozhanhao
+Author-email: cao2013zh@163.com
+License: UNKNOWN
+Description: # opqr-python
+        
+        ## Introduction
+        - A Simple QR encode Library.
+        ## Useage
+        ```python
+        import opqr
+        qr = opqr.encode("opqr")
+        qr.image("qr.bmp")
+        ```
+        ## Note
+        - There may be bugs in Kanji Mode
+        ## Reference
+        [二维码生成原理](https://zhuanlan.zhihu.com/p/543574464)
+        
+Platform: UNKNOWN
