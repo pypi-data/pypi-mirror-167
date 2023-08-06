@@ -1,0 +1,11 @@
+appops/__init__.py,sha256=okhMeFd_zDCHq1i4KkFYtwYy_SvoFVvXpEuwQIaqPBY,396
+appops/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+appops/hooks/admob.py,sha256=kuQggHgg81nxBt-bZi8pNGfezQxJI_OB3WIcp0dCj3w,5929
+appops/hooks/oauth2discoveryapi.py,sha256=XyG0gyDErbhbqToxR5NwwdBK5cFEgTfMTc99Mq6lWTA,1369
+appops/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+appops/operators/admob_to_postgres.py,sha256=nBKBI88HAKayGVSfQXpwMlyiBycEIX7SwZGClLI2lR8,1970
+airflow_provider_appops-0.0.3.dist-info/METADATA,sha256=sItUxMEDKsje-pTaGBTTKtxnWIcbHwq-iLcInRXgWTo,1654
+airflow_provider_appops-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+airflow_provider_appops-0.0.3.dist-info/entry_points.txt,sha256=wcnOUYyxTzVRNdEXiGNW6EgpYUN7udu78GQPUe2YHtk,77
+airflow_provider_appops-0.0.3.dist-info/top_level.txt,sha256=8CREhk5NTcRt3iwbxWCfbX_SCgxY6bEmYYN9TK12EdY,7
+airflow_provider_appops-0.0.3.dist-info/RECORD,,
