@@ -1,0 +1,3 @@
+[console_scripts]
+RiskLabAI = RiskLabAI.app:entry_point
+
