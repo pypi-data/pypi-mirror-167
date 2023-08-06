@@ -1,0 +1,14 @@
+elapid/__init__.py,sha256=RU494szFewcevZux6GfE8KHzIRKlsmSu6I8f4OzTXs8,507
+elapid/__version__.py,sha256=6iOhPMgLVRRG7rmJdExO42_cGh8mUJ8ECNAeXtC56OA,9
+elapid/config.py,sha256=l724CCLLyCRpYkElWe1MdkuIpK8Zlzes8b-nvBQSSSs,1863
+elapid/features.py,sha256=pmALPAhxC0ezUsYRYM535HcxJTfaHOO7yBGl5I3S_Lw,27535
+elapid/geo.py,sha256=XSAdWuEBBN17mVmdTsdoa7EVxdimul5wuyRzIj7SC98,28868
+elapid/models.py,sha256=1aEhodUSvnKwqOwGjWxjJ3gtAS4fSDZ7sPQ_dypoaxA,24625
+elapid/stats.py,sha256=4YAwOVVGyDfdd98AY2gMPWGxApUr4vUeJdfppBu8ZMU,4661
+elapid/types.py,sha256=CPQ-O98AaaAS_5ZYDAF3xhgVVGoFa1L_WgwYeJunhVU,3243
+elapid/utils.py,sha256=qFWo6sYdaJwHZyUDf-DawQL7hLXrMJ7BqwQQlDOoO60,7778
+elapid-0.3.12.dist-info/LICENSE,sha256=QA7T76NdkGrzrMdYh3nnx8O4zGIo817qkG12aJrYK10,1077
+elapid-0.3.12.dist-info/METADATA,sha256=0PqkLMb7mMa9b0OJES4Wz6CeQMrnq7Z_E7VZ2-PEuTE,6457
+elapid-0.3.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+elapid-0.3.12.dist-info/top_level.txt,sha256=xFMULErXhPCWtnQ1HGy40Or_-cj7vIfo77ghVpp41Sc,7
+elapid-0.3.12.dist-info/RECORD,,
