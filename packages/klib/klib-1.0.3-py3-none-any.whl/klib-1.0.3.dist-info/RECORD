@@ -1,0 +1,10 @@
+klib/__init__.py,sha256=9cBqcWv9-yHuejCnbOumG8y7uKdqtt_mRfzOWRSMPss,936
+klib/_version.py,sha256=I20ZqktOCbA-ootQfQEsznBgSSAsTFd8YVb9swQ8vW8,52
+klib/clean.py,sha256=L0L1ipwWooktKTM4V4MkTQLsgoC77sTdT5NChuTxO_E,20723
+klib/describe.py,sha256=O5fKWk57HqcPtasOJCcfLtGHWqT4DRtulBWyi5PsPRQ,26950
+klib/scripts/performance.py,sha256=BE4UddsIdG2qm4EJVpvC8BWbZ5_SSja3KdKoWc86oWs,1759
+klib/utils.py,sha256=CtA9cTpYeIIHbhA_Wzt-BzB7hjgpNlNC7dItaHuNCiQ,9271
+klib-1.0.3.dist-info/LICENSE,sha256=D2FkqMKafLW4lAmTPWlnOYv5hiF8Amckc9F_35v2HRg,1069
+klib-1.0.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+klib-1.0.3.dist-info/METADATA,sha256=-i4cOzPx_-eX-seNniSan4t2Tt_MdlIBIK8dFev7cxo,6189
+klib-1.0.3.dist-info/RECORD,,
