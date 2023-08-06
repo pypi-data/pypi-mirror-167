@@ -1,0 +1,16 @@
+obsws_python/__init__.py,sha256=mq6lTmdFQZNXZw8tOhHbCDFuJN01nBrTbE8WHnix-Fs,104
+obsws_python/baseclient.py,sha256=DsOcTH8cKkbR5g2U2tF-lYKBlNa4NMyuGjg5i27-2ho,2581
+obsws_python/callback.py,sha256=3SrftqpeOuEt4FZBBiRbfAlAv_td8t08uNxr6aOQ3UM,1558
+obsws_python/error.py,sha256=evWLhfOcX2nFmpvNOKslX02C1YFWr-qnRwjqEX9lzfI,69
+obsws_python/events.py,sha256=kk7Hnmdg---B6SJs0Xm10t02YMd_AcBsmK1HvJA_-Xg,1985
+obsws_python/reqs.py,sha256=v0fhuB67-b9KJe5B_d37AtFX3b322h5bAZL_5d1MxOE,54720
+obsws_python/util.py,sha256=j33ucYRejlSGkR3TcHM-hgPizc09W4YXfA8L3wbM8Ro,578
+tests/__init__.py,sha256=eld2v2FKLDfGRNy1FDTMY-8inPsgpDNowpCr09P-eR0,370
+tests/test_attrs.py,sha256=D3RZNYzVTarFk6BS7OHS7LDPV7hnfPBLP0aUBz18uBk,750
+tests/test_callback.py,sha256=N_cnzO8uuZ-JHQrc7_92kJ88uNYsnL7JWSU9j0Fmkls,1693
+tests/test_request.py,sha256=3Wf0BMvozodALkPkNTF3DWgXmbHZvXL85iZDc65UBzM,4440
+obsws_python-1.0.5.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+obsws_python-1.0.5.dist-info/METADATA,sha256=5GWFDGVtFWbWucc8B-Dz-jDc1PJEdKxqeRPFmVGz5I4,4301
+obsws_python-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+obsws_python-1.0.5.dist-info/top_level.txt,sha256=f42aRWCwZYtKvY5v5H7hbVuT7aB2VePFx4U-DIIBpgk,19
+obsws_python-1.0.5.dist-info/RECORD,,
