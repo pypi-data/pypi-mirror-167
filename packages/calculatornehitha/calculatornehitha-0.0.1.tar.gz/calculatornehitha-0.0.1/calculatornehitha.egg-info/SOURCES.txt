@@ -1,0 +1,8 @@
+MANIFEST.in
+licence.txt
+setup.py
+calculatornehitha.egg-info/PKG-INFO
+calculatornehitha.egg-info/SOURCES.txt
+calculatornehitha.egg-info/dependency_links.txt
+calculatornehitha.egg-info/top_level.txt
+ncal/__init__py.py
