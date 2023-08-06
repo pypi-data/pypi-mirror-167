@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+
+[project]
+name = "xymon_client"
+description = "A minimalist Xymon client library in Python."
+authors = [
+    {name = "Romain Dartigues", email = "romain.dartigues@gmail.com"},
+]
+requires-python = ">=3.10"
+keywords = ["bb", "BigBrother", "xymon"]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Environment :: Plugins',
+    'Intended Audience :: Developers',
+    'Intended Audience :: System Administrators',
+    'License :: OSI Approved :: BSD License',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: System :: Monitoring',
+]
+dependencies = []
+dynamic = ["readme", "version"]
+
+[project.optional-dependencies]
+tests = [
+    "coverage>=6",
+    "pytest>=7",
+]
+
+[project.license]
+text = "BSD 3-Clause License"
+
+[project.scripts]
+xymon-client = "xymon_client.__main__:main"
+
+[project.urls]
+repository = "https://gitlab.com/romain-dartigues/python-xymon-client"
+
+[tool.black]
+line-length = 120
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+
+[tool.coverage.report]
+ignore_errors = true
+skip_empty = true
+skip_covered = true
+
+[tool.coverage.html]
+skip_covered = false
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+line_length = 120
+
+[tool.pytest.ini_options]
+minversion = "6.1"
+addopts = "-ra -q"
+python_files = ["test_*.py"]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.dynamic]
+version = {attr = "xymon_client.__version__"}
+readme = {file = ["README.md"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]
