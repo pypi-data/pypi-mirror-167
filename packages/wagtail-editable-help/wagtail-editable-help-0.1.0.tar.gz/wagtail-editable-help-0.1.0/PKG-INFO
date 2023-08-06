@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: wagtail-editable-help
+Version: 0.1.0
+Summary: Make help text editable in the Wagtail admin
+Author-email: Matt Westcott <matthew@torchbox.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
+Classifier: Framework :: Wagtail :: 3
+Classifier: Framework :: Wagtail :: 4
+Requires-Dist: Django>=3.0,<4.2
+Requires-Dist: wagtail>=2.15,<5
+Requires-Dist: telepath>=0.3,<1
+Requires-Dist: dj-database-url==0.5.0 ; extra == "testing"
+Requires-Dist: freezegun==0.3.15 ; extra == "testing"
+Project-URL: Documentation, https://github.com/wagtail/wagtail-editable-help#readme
+Project-URL: Source, https://github.com/wagtail/wagtail-editable-help
+Provides-Extra: testing
+
+# Wagtail Editable Help
+
+Make help text editable in the Wagtail admin
+
+
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+[![PyPI version](https://badge.fury.io/py/wagtail-editable-help.svg)](https://badge.fury.io/py/wagtail-editable-help)
+[![Editable Help CI](https://github.com/wagtail/wagtail-editable-help/actions/workflows/test.yml/badge.svg)](https://github.com/wagtail/wagtail-editable-help/actions/workflows/test.yml)
+
+## Links
+
+- [Documentation](https://github.com/wagtail/wagtail-editable-help/blob/main/README.md)
+- [Changelog](https://github.com/wagtail/wagtail-editable-help/blob/main/CHANGELOG.md)
+- [Contributing](https://github.com/wagtail/wagtail-editable-help/blob/main/CHANGELOG.md)
+- [Discussions](https://github.com/wagtail/wagtail-editable-help/discussions)
+- [Security](https://github.com/wagtail/wagtail-editable-help/security)
+
+## Supported versions
+
+- Python 3.7 - 3.10
+- Django 3.2 - 4.1
+- Wagtail 2.15 - 4.0
+
+## Installation
+
+- Run `pip install wagtail-editable-help`
+- Add `"wagtail_editable_help"` and `"wagtail.contrib.modeladmin"` to INSTALLED_APPS
+- Run `./manage.py migrate`
+- Optional: add `"wagtail_editable_help.middleware.EditableHelpMiddleware"` to the MIDDLEWARE setting, somewhere below `"django.contrib.auth.middleware.AuthenticationMiddleware"`. Enabling this middleware will add an "Edit" link at the point the help text is shown, to allow superusers and other users with the appropriate permission to edit the help text.
+
+## Usage
+
+For any `help_text` argument that you wish to make editable:
+
+    from wagtail_editable_help import HelpText
+
+then replace `help_text="Some help text"` with `help_text=HelpText("model", "identifier", default="Some help text")`. For example:
+
+    class HomePage(Page):
+        tagline = models.CharField(max_length=255, help_text="Write something snappy here")
+
+could be rewritten to:
+
+    from wagtail_editable_help.models import HelpText
+
+    class HomePage(Page):
+        tagline = models.CharField(max_length=255, help_text=HelpText("Home page", "tagline", default="Write something snappy here"))
+
+The help text string will then be made available for editing within the Wagtail admin under Settings -> Help text, under the heading "Home page tagline".
+
