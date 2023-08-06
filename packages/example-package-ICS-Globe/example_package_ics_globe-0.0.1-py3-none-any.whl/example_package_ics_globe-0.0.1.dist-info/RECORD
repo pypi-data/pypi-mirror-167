@@ -1,0 +1,6 @@
+src/example_package_ICS-Globe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/example_package_ICS-Globe/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+example_package_ics_globe-0.0.1.dist-info/METADATA,sha256=X5P12Ohez3gUnMkBNLTCjQzOGmyib2roLIqhnDtY4sg,1782
+example_package_ics_globe-0.0.1.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+example_package_ics_globe-0.0.1.dist-info/licenses/LICENSE,sha256=BkgGIGgy9sv-OsI7mRi9dIQ3Su0m4IbjpZlfxv8oBbM,1073
+example_package_ics_globe-0.0.1.dist-info/RECORD,,
