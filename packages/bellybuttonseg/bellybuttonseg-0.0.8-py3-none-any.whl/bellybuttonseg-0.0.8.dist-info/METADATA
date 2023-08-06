@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: bellybuttonseg
+Version: 0.0.8
+Summary: An easy-to-use image segmentation package
+Author-email: Sam Dillavou <sam.dillavou@gmail.com>, Jesse Hanlan <jhanlan@sas.upenn.edu>
+License: Copyright (c) 2018 The Python Packaging Authority        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/sdillavou/bellybuttonseg
+Project-URL: Bug Tracker, https://github.com/sdillavou/bellybuttonseg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Bellybutton Image Segmentation (bellybuttonseg)
+
+This is a machine-learning-based image segmentation package, designed for ease of use.
+Bellybutton uses a convolutional neural network, trained on images and paired user-generated masks, and outputs individually ID'd regions.
+Using the package requires no coding; by editing a text file, users can edit hyper-parameters, modify data augmentation (e.g. rotate images), specify outputs and filetypes, and run training and prediction.
+
+
+## Quickstart guide
+
+### Install Bellybutton
+
+Create a new python environment (e.g. using anaconda: shorturl.at/elRTZ)
+ 
+```
+conda create --name bellybuttonenv
+
+```
+
+Activate this environment (e.g. using anaconda)
+ 
+```
+conda activate bellybuttonenv
+
+```
+
+Download Bellybutton package 
+ 
+```
+pip install bellybuttonseg
+```
+
+Install dependencies (not automatic yet) 
+```
+pip install numpy
+pip install tensorflow
+pip install opencv_contrib_python
+pip install scipy
+pip install skimage
+```
+
+### Run Bellybutton on an example dataset
+**THIS DOES NOT WORK YET**
+
+Create the example directory. When this line is run, you will be prompted to select a location for the example dataset to be saved.
+
+```
+python3 -c 'from bellybuttonseg import createdir; createdir(example=1)'
+
+```
+
+Note that the directory you selected now has a new folder: example_project_[DATASETINFO]. Inside there folders that hold images (train, test, predict), masks, areas of interest, and outputs. We have chosen [INSERT DATASET INFO]...
+
+[optional] Edit hyper-parameters by opening and editing [new directory]/base_parameters.txt. A complete list of parameters and their meanings is included further in this readme. 
+
+Run Bellybutton on this dataset. When this line is run, you will be prompted to select the base folder for your project, in this case select example_project_[DATASETINFO] that you just created.
+
+```
+python3 -c 'from bellybuttonseg import runBB; runBB()'
+
+```
+
+The algorithm should run and you can track its progress on the command line. A new folder (whose name is based on the date and time) will be created inside example_project_[DATASETINFO]/outputs/ that will store results. Once training and prediction are completed, peruse the results inside this folder. Note that a new used_parameters.txt file has been created inside this outputs folder that stores the parameters used.
+
+To run Bellybutton again using different parameters, edit the base_parameters.txt before executing the above code line again.
+
+
+### Run Bellybutton on your own dataset
+
+**THIS DOES WORK**
+
+Create a directory (note: this is a slightly different line of code than creating the example directory.) When this line is run, you will be prompted to select a location AND prompted to enter a name for this project.
+
+```
+python3 -c 'import bellybuttonseg import createdir; createdir()'
+
+```
+
+Move your images, masks, and (optionally) areas of interest into the appropriate folders created in this new directory.
+
+Edit the parameters inside the parameters.txt file if desired.
+
+Run Bellybutton on your data. Again, you will be prompted to select your project folder.
+
+```
+python3 -c 'from bellybuttonseg import runBB; runBB()'
+
+```
+
+Results will be stored inside a new folder inside [yourproject]/outputs/.
+
+Enjoy!
+
+
+## Adjustable Parameters
+
+[to be filled out]
+
+
+
+
