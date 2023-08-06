@@ -1,0 +1,11 @@
+matplotlib
+numpy
+meshio
+pygalmesh
+scipy
+numba
+pycifrw
+dill
+xfab
+netcdf4
+h5py
