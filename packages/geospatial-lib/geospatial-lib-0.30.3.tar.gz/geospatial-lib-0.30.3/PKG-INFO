@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: geospatial-lib
+Version: 0.30.3
+Summary: A library with some geo functions
+License: GPL3
+Author: amauryval
+Author-email: amauryval@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: GeoAlchemy2 (>=0.12.5,<0.13.0)
+Requires-Dist: SQLAlchemy-Utils (>=0.38.3,<0.39.0)
+Requires-Dist: geopandas (>=0.11.1,<0.12.0)
+Requires-Dist: psycopg2-binary (>=2.9.3,<3.0.0)
+Requires-Dist: xlrd (>=2.0.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+GeoLib
+=====
+[![RunTest](https://github.com/amauryval/geolib/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/amauryval/geolib/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/amauryval/geolib/branch/master/graph/badge.svg)](https://codecov.io/gh/amauryval/geolib)
+
+
