@@ -1,0 +1,8 @@
+libcst
+typing-extensions
+
+[testing]
+absl-py
+pytest
+pytype
+seqio-nightly
