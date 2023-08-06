@@ -1,0 +1,11 @@
+pandas_missing/Missing.py,sha256=KcBOPmJqaE-ZmPRdkvsNsgxzzJYentT144h8mkDhqXM,932
+pandas_missing/__init__.py,sha256=Ah7gfLDDrWbu-b386BcdX-CkyUUF25oYKSsWn7Ji0eE,76
+pandas_missing/_modidx.py,sha256=53VHkwSVSDoGwsRnXoOc3H2OVisDGeR8Y727lakKebY,19916
+pandas_missing/basic_numerical_summaries.py,sha256=V9UrMs-ub1t2KxF0JpcthVfRoe99_e62XRLb9eMm-dM,5399
+pandas_missing/basic_summaries.py,sha256=dCjBQvZblBEQKWV27KP9wfcLc-3_Lyb0fc56s3C6c5A,5399
+pandas_missing-0.0.8.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+pandas_missing-0.0.8.dist-info/METADATA,sha256=skkknVk4YDHMoWJ6LBQDtv5_TeYP4aHfPVBJ58p6Tp4,2639
+pandas_missing-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pandas_missing-0.0.8.dist-info/entry_points.txt,sha256=t7Gog83BZrHj-bDXH1oizmHNFa18nzQiS_Xm7GIvNp8,109
+pandas_missing-0.0.8.dist-info/top_level.txt,sha256=IegQUJJw_brmQ2DQQL9Si0ImIaypHCtX0BfNl0jMheY,15
+pandas_missing-0.0.8.dist-info/RECORD,,
