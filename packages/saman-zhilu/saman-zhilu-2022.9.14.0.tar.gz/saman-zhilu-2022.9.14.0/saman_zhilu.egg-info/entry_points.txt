@@ -1,0 +1,4 @@
+[console_scripts]
+SamanZhilu = SamanZhilu.__main__:main
+saman-zhilu = SamanZhilu.__main__:main
+
