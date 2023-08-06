@@ -1,0 +1,3 @@
+[console_scripts]
+dore=dore.__main__:main
+
