@@ -1,0 +1,8 @@
+README.md
+fnet.py
+setup.py
+fnet_pytorch.egg-info/PKG-INFO
+fnet_pytorch.egg-info/SOURCES.txt
+fnet_pytorch.egg-info/dependency_links.txt
+fnet_pytorch.egg-info/requires.txt
+fnet_pytorch.egg-info/top_level.txt
