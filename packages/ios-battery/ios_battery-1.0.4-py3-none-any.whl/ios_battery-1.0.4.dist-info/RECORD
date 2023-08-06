@@ -1,0 +1,8 @@
+ios_battery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ios_battery/battery.py,sha256=LklFyCwpvRwRNHskCkSSziJJmeIw-XANu4LmNPpr42c,1246
+ios_battery-1.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ios_battery-1.0.4.dist-info/METADATA,sha256=gM_a6oK1wj9fSBHMVllhU0tZjG9JwVeu3YrzvflHuoQ,225
+ios_battery-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ios_battery-1.0.4.dist-info/entry_points.txt,sha256=m1SFkarrXvaom4-kUrC2-vfs6P5utpwk8dOyQqY7A7A,57
+ios_battery-1.0.4.dist-info/top_level.txt,sha256=2QY6e8iAkNKojoTdAUMaFvWvCpOc4aj1WouDFrYlfnA,12
+ios_battery-1.0.4.dist-info/RECORD,,
