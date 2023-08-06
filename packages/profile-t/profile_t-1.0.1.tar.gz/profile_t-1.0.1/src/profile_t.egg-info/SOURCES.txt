@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/profile_t/__init__.py
+src/profile_t.egg-info/PKG-INFO
+src/profile_t.egg-info/SOURCES.txt
+src/profile_t.egg-info/dependency_links.txt
+src/profile_t.egg-info/requires.txt
+src/profile_t.egg-info/top_level.txt
