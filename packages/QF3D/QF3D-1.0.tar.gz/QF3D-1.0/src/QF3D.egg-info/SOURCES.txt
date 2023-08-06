@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/QF3D.py
+src/QF3D.egg-info/PKG-INFO
+src/QF3D.egg-info/SOURCES.txt
+src/QF3D.egg-info/dependency_links.txt
+src/QF3D.egg-info/top_level.txt
