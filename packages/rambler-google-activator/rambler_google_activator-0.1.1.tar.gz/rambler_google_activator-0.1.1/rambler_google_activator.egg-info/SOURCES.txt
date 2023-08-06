@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+rambler_google_activator.egg-info/PKG-INFO
+rambler_google_activator.egg-info/SOURCES.txt
+rambler_google_activator.egg-info/dependency_links.txt
+rambler_google_activator.egg-info/top_level.txt
