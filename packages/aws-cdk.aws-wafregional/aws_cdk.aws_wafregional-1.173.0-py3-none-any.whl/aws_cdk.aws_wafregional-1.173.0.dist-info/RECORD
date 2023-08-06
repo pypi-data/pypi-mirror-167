@@ -1,0 +1,10 @@
+aws_cdk/aws_wafregional/__init__.py,sha256=-HOz4414ZLyH8Gahe0yN91VAi70mNGtSw7ebRKAQd5c,251397
+aws_cdk/aws_wafregional/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_wafregional/_jsii/__init__.py,sha256=oQGTX6KadJE8xXXhySSNeBqZc2GJAyGJpYa5B0QUQe8,428
+aws_cdk/aws_wafregional/_jsii/aws-wafregional@1.173.0.jsii.tgz,sha256=hI0PJtba5GNd1qymMGDWFbam3KD7_HpMAda-oQSSEC0,108992
+aws_cdk.aws_wafregional-1.173.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_wafregional-1.173.0.dist-info/METADATA,sha256=bBqMt2FOKgvyq6Gu6ppFmeNURbOdQ8_0hfpeZWkMU5k,3208
+aws_cdk.aws_wafregional-1.173.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_wafregional-1.173.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_wafregional-1.173.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_wafregional-1.173.0.dist-info/RECORD,,
