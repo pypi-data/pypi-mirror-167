@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SixDRepNet
+Version: 0.1.0
+Summary: Efficient and accurate image-based head pose estimation
+Home-page: https://github.com/thohemp/6DRepNet
+Author: Thorsten Hempel
+Author-email: thorsten.hempel@ovgu.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
