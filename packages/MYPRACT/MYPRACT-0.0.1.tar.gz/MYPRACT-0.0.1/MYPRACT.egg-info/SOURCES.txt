@@ -1,0 +1,7 @@
+LICENCE.TXT
+SETUP.py
+MYPRACT/__init__.py
+MYPRACT.egg-info/PKG-INFO
+MYPRACT.egg-info/SOURCES.txt
+MYPRACT.egg-info/dependency_links.txt
+MYPRACT.egg-info/top_level.txt
