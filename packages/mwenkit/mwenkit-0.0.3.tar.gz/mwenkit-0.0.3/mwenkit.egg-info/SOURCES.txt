@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+mwenkit/__init__.py
+mwenkit/clean.py
+mwenkit/infer.py
+mwenkit/plot.py
+mwenkit.egg-info/PKG-INFO
+mwenkit.egg-info/SOURCES.txt
+mwenkit.egg-info/dependency_links.txt
+mwenkit.egg-info/requires.txt
+mwenkit.egg-info/top_level.txt
