@@ -1,0 +1,7 @@
+celery
+Django
+djangorestframework
+future
+pytz
+requests
+core-main-app==2.0.0-beta2
