@@ -1,0 +1,3 @@
+[console_scripts]
+icat-store-processed = pyicat_plus.apps.store_processed:main
+icat-store-raw = pyicat_plus.apps.store_raw:main
