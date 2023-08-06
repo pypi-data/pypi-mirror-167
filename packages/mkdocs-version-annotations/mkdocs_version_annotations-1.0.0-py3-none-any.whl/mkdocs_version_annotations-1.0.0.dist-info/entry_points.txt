@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+mkdocs-version-annotations=mkdocs_version_annotations:MkDocsVersionAnnotationsPlugin
+
