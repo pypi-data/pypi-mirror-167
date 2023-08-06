@@ -1,0 +1,11 @@
+releaseup/__init__.py,sha256=P1jc8mDTTUeQtPwW1hdRfp5SSeN-SEC6eRstSBhm_f8,420
+releaseup/extract.py,sha256=MtJoW1D9E8Zf1nkd82Vhag92V8QN_OQg8YqnVTyCMmg,4034
+releaseup/high_level.py,sha256=vwMzX9JwN66fmPOZekDVYyvZzVIAp4vx6H77_FRCbFU,1468
+releaseup/nlp_backend.py,sha256=hQgigKZBjqStxe_xYVlJUg3mGCsGPioo2Yl73BpDOJE,2383
+releaseup/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+releaseup/version.py,sha256=6phs_teiMFXlYjRZHHJJHElOwXq2XLUA2bDPY9cA4bQ,176
+releaseup/version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+releaseup-0.1.0.dist-info/METADATA,sha256=1AuNQiTbapXmNmZlJ0sX2bRBJfkVkoWjPjEMETykEmI,9880
+releaseup-0.1.0.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+releaseup-0.1.0.dist-info/licenses/LICENSE,sha256=jTURaQ4T334xnQECeanYmTsZEztPQnmhpg9LySZR8qE,1055
+releaseup-0.1.0.dist-info/RECORD,,
