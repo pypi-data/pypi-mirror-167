@@ -1,0 +1,24 @@
+[build-system]
+requires      = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nekodict"
+version = "0.1.2"
+description = "Neko Dictionary is a light-weight command line EN-ZH dictionary."
+readme = "README.md"
+authors = [{ name = "BeautyyuYanli", email = "beautyyuyanli@gmail.com" }]
+license = { file = "LICENSE" }
+keywords = ["dictionary", "terminal"]
+dependencies = [
+    "beautifulsoup4>=4.9",
+    "requests >= 2.25"
+]
+requires-python = ">=3"
+
+
+[project.urls]
+"Source" = "https://github.com/BeautyYuYanli/nekodict"
+
+[project.scripts]
+ndic = "nekodict.__main__:main"

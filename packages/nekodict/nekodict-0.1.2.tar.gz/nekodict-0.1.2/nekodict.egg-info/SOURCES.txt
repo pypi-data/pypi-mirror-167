@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+nekodict/__main__.py
+nekodict.egg-info/PKG-INFO
+nekodict.egg-info/SOURCES.txt
+nekodict.egg-info/dependency_links.txt
+nekodict.egg-info/entry_points.txt
+nekodict.egg-info/requires.txt
+nekodict.egg-info/top_level.txt
