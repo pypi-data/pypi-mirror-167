@@ -1,0 +1,4 @@
+[console_scripts]
+ZuxianLiaoyu = ZuxianLiaoyu.__main__:main
+zuxian-liaoyu = ZuxianLiaoyu.__main__:main
+
