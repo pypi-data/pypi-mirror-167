@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+	"setuptools>54",
+	"wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splicejac"
+authors = [{name = "Federico Bocci", email = "fbocci@uci.edu"}]
+dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+doc = [
+	"sphinx~=4.2.0",
+	"myst-parser",
+	"sphinx_rtd_theme"
+]
