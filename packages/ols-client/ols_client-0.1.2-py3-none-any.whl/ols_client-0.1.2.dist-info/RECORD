@@ -1,0 +1,12 @@
+ols_client/__init__.py,sha256=ixj3GNexFp_0HLzxv_LYOvTgLdFuV6I5ykesDedeNRU,576
+ols_client/__main__.py,sha256=5LnNvjuAk1b1Etzlw_IcLZ4YCKgmoVfMB1lBLxbkoR4,327
+ols_client/cli.py,sha256=NQk1EKu_HvBkd5_8sjDMmcAoQo-vnE9NAO2peA7IklY,1696
+ols_client/client.py,sha256=Au8Q4rujYAVqm_AB3cuDXB0GOwsBX88pjM26hGO7XxI,13243
+ols_client/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ols_client/version.py,sha256=GrnoB5PEaf8qjQw5n5RFbmthK-Hzf587wSH6By4cR5A,1016
+ols_client-0.1.2.dist-info/LICENSE,sha256=ve6WiK7DUzD7fEkZ_ddqaiBSMNj9ib93QYZG5UsOAH0,1076
+ols_client-0.1.2.dist-info/METADATA,sha256=c3kA3mA4AZH9OsByRq96RG6GVodRWDmUKEose391NVU,7370
+ols_client-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ols_client-0.1.2.dist-info/entry_points.txt,sha256=sinDvUx39foZA9u_d3YbmtWOSBgqWu92DhJfHrAU_EE,51
+ols_client-0.1.2.dist-info/top_level.txt,sha256=A9zCWAqcqVUa51F1xnnw8EyPP9pqAlKgh3J0VvqOojw,11
+ols_client-0.1.2.dist-info/RECORD,,
