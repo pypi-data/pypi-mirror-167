@@ -1,0 +1,4 @@
+rioxarray
+requests
+gdown
+numpy
