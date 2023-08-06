@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: northgravity_utils
+Version: 0.0.2
+Summary: Python Utils for NorthGravity platform tasks
+Home-page: https://www.northgravity.com/
+Author: NorthGravity
+Author-email: info@northgravity.com
+Keywords: northgravity, utils
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NORTH GRAVITY PYTHON UTILS #
+
+This document describes the North Gravity Python Utils package which enables users to use the NG platform tools and most common functions within their python scripts / tasks repositories. 
+
+The Python Utils can be used within:
+
+- a single python script that is ran thanks to the Python Runner task within a pipeline in the NG application
+
+- a single Jupyter Notebook that is ran thanks to the Jupyter Runner task within a pipeline in the NG application
+
+- an ensemble of python scripts that are part of a container, for a Task created by the user, used in a pipeline in the NG application
+
+ 
+
+NG_Utils cover most frequently used functions for data/files handling purposes.
+
+The scope of the NG_Utils:
+
+- **Data Handler** - splitting data based on train/test labels, handling dates in datasets  
+
+- **File Handler** - downloading/uploading model-specific datasets from/to the data lake, handling datasets formats
+
+- **Back Test** - preparing short or extended backtest based on models results
+
+
+
+
+## How to install and set the package: 
+### Install
+```text
+pip3 install northgravity_utils==0.0.2
+```
+As the library is available from pip, it can be installed as a specific version within a Python Task from within requirements.txt just by adding:
+```text
+northgravity_utils==0.0.2
+```
+The package relies on the requests library so, in the project, the user must install this library in the requirements.txt file.
+```text
+pip3 install requests==2.27.1
+```
+
+
+### Environment Variables
+The package uses information from the environment variables. They are necessery for functionality of Nortygravity SDK package, used in Northgravity Utils
+Environment variables are automatically provided when running a script within a pipeline (as a Task or within the Python/Jupyter Runners).
+If running locally the script, users must set them in the project to be able to run the project locally.
+
+
+Mandatory environment variables to set:
+
+- LOGIN → login received from NG
+
+- PASSWORD → password to log in. Credentials are used to generate the token so that each request is authenticated.
+
+- NG_API_ENDPOINT → the URL to the NG platform API (by default, the url is set to https://api.northgravity.com)
+
+
+
+ --- - 
+## Data Handler
+### Import NG_Utils and load DataHandler, FileHandler and BackTest
+
+```python
+import ng_utils as ng_u
+
+dth = ng_u.DataHandler()
+dfh = ng_u.FileHandler()
+dbt = ng_u.BackTest()
+```
+### Train/Test/Val
+```python
+import ng_utils as ng_u
+
+dth = ng_u.DataHandler()
+
+# Train/Validation/Test
+tvt_dict = dth.train_test_split(features_df, target_df, val=True)
+
+# Train/Test
+tt_dict = dth.train_test_split(features_df, target_df, val=True)
+```
+
+### Get date column
+
+```python
+# Get date column
+X_dataset = tvt_dict['Val'][0]
+date_col = dth.get_date_col(X_dataset)
+```
+
+### Shift the dates by the specified period
+```python
+# Business Days
+data_shifted_bd = dth.date_shift(date_col, period=2, freq='B')
+
+# Week
+data_shifted_w = dth.date_shift(date_col, period=1, freq='W')
+
+# Quarter
+data_shifted_q = dth_date_shift(date_col, period=1, freq='Q')
+```
+
+### Shift the holiday dates based on uploaded calendar
+```python
+# hol_list - holiday calendar list
+# date_col - column with dates
+data_shifted_calendar = dth.holiday_shift(date_col, hol_list)
+```
+### Prepare index for forecast and test datasets
+```python
+# Index for forecast and test
+idx = dth.prep_prediction_date(target_df.index, period=3)
+```
+
+### Prepare forecast date in DataPrep required format
+```python
+# Date in DataPrep required format
+# idx - dates
+date_prep = dth.forecast_date_format(idx)
+```
+
+### Model' score - regression
+```python
+# Regression
+actual = df_test_reg['Real']
+predicted = df_test_reg['Predicted']
+print(dth.get_scores_regression(actual, predicted))
+```
+
+### Model's score - classification
+```python
+# Classification
+actual = df_test_class['Real']
+predicted = df_test_class['Predicted']
+print(dth.get_scores_classification(actual, predicted))
+```
+
+## FileHandler
+
+## Download features and target datasets
+```python
+# Features
+features_df = dfh.features_download()
+
+# Target
+target_df = dfh.target_download()
+```
+
+## Upload general models output
+```python
+print(fh.forecast_upload(df_for, group_name, model_out_name))
+print(fh.test_upload(df_test, group_name, model_out_name))
+print(fh.drivers_upload(df_drv, group_name, model_out_name))
+```
+
+## Convert NSCV file to Horizontal type file
+```python
+## Convert NCSV file to Horizontal type file
+print('NCSV type file: {}'.format(df_ncsv.tail(10)))
+n2h = fh.ncsv2horizontal(df_ncsv)
+print(n2h.tail(10))
+print('NCSV converted to Horizontal type file')
+n2h.to_csv(output_path + '/ncsv2horizontal_1.csv')
+```
+
+## BackTests
+
+### Short BackTest
+```python
+short_bt = bt.short_back_test(df=df_to_backtest, open_col='Price', trading_signal_col='Signal')
+print('Short BackTest: {}'.format(short_bt))
+```
+
+### Long Backtest
+```python
+long_bt = bt.long_back_test(df=df_to_backtest, number_of_contracts=100, open_col='Price', trading_signal_col='Signal')
+print('Long BackTest: {}'.format(long_bt))
+```
+
+
+### Who do I talk to? ###
+* Admin: NorthGravity info@northgravity.com
