@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShengmingShuziXinlixue/README.md
+ShengmingShuziXinlixue/__init__.py
+ShengmingShuziXinlixue/__main__.py
+ShengmingShuziXinlixue/file.pdf
+ShengmingShuziXinlixue/index.html
+shengming_shuzi_xinlixue.egg-info/PKG-INFO
+shengming_shuzi_xinlixue.egg-info/SOURCES.txt
+shengming_shuzi_xinlixue.egg-info/dependency_links.txt
+shengming_shuzi_xinlixue.egg-info/entry_points.txt
+shengming_shuzi_xinlixue.egg-info/top_level.txt

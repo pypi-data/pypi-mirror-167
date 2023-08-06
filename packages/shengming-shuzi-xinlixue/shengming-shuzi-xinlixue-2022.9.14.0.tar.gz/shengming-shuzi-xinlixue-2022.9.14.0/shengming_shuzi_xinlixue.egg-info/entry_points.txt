@@ -1,0 +1,4 @@
+[console_scripts]
+ShengmingShuziXinlixue = ShengmingShuziXinlixue.__main__:main
+shengming-shuzi-xinlixue = ShengmingShuziXinlixue.__main__:main
+
