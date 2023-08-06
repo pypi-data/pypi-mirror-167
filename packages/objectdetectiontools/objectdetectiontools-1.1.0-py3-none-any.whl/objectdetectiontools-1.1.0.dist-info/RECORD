@@ -1,0 +1,9 @@
+objectdetectiontools/__init__.py,sha256=3NZhqNoAR4Ty95vVWCqDSQh4ckJ9keQO3OH7Xuq00KY,61
+objectdetectiontools/images.py,sha256=bNhMMgRZ3ufrFY77lCDMd9INXHI4RPKSfcjpr3kEfQ4,9063
+objectdetectiontools/parser.py,sha256=pgj92NwkYda7gmb1oUmzmToX2GjF3czykHGYR5CKKPE,1010
+objectdetectiontools/reader.py,sha256=5TAWnCBY1NV-R6EERJUvDDcxqoh9C-RYHMLRYAbxKqE,1940
+objectdetectiontools-1.1.0.dist-info/LICENSE,sha256=fGhY0OcdyLhYJVJwrUtQBOgLWwWL9bvECKKEMNbdv0s,19334
+objectdetectiontools-1.1.0.dist-info/METADATA,sha256=naM6gxzrlA52ZdhlhSY4TPx2RIt3-1LdOOwwpNQziKA,23119
+objectdetectiontools-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+objectdetectiontools-1.1.0.dist-info/top_level.txt,sha256=UAqiOXtWjnO3HX_eiRuKGR7pmCwGf2boSWA0Pj05oPk,21
+objectdetectiontools-1.1.0.dist-info/RECORD,,
