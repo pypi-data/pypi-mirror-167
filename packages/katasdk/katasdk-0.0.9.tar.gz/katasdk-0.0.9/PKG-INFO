@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: katasdk
+Version: 0.0.9
+Summary: SDK aimed at creating games for the Kata.games platform
+Home-page: https://github.com/gaudiatech/katagames-glob-repo
+Author: Gaudia Tech Inc.
+Author-email: thomas@gaudia-tech.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+SDK aimed at creating games for the Kata.games platform, you can find more info on github: user **gaudiatech**
+
