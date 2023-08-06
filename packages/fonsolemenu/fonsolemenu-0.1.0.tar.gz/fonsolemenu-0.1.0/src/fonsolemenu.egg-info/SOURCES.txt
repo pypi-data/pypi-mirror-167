@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fonsolemenu/__init__.py
+src/fonsolemenu/fonsolemenu.py
+src/fonsolemenu/fonsoleoption.py
+src/fonsolemenu.egg-info/PKG-INFO
+src/fonsolemenu.egg-info/SOURCES.txt
+src/fonsolemenu.egg-info/dependency_links.txt
+src/fonsolemenu.egg-info/top_level.txt
