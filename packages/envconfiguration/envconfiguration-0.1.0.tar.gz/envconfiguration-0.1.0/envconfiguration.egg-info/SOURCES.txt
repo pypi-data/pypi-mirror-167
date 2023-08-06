@@ -1,0 +1,8 @@
+setup.py
+envconfiguration/__init__.py
+envconfiguration/envconfiguration.py
+envconfiguration.egg-info/PKG-INFO
+envconfiguration.egg-info/SOURCES.txt
+envconfiguration.egg-info/dependency_links.txt
+envconfiguration.egg-info/requires.txt
+envconfiguration.egg-info/top_level.txt
