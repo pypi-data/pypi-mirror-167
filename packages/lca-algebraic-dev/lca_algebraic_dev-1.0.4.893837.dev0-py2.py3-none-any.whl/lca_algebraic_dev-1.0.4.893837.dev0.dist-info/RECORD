@@ -1,0 +1,13 @@
+lca_algebraic/__init__.py,sha256=ZtwrKpBKZXTA0lo0XMbE_6U4NYwcjbeuloJyi0P_09I,1315
+lca_algebraic/base_utils.py,sha256=nrtyl5_B36Cx3G--65ciDx14Vot3aHSRf8oP54iRjew,3933
+lca_algebraic/explore.py,sha256=lkcAxpFM2vkWnL8lUU6x6JQg35sSXkMj-pZTznw2Wdg,22008
+lca_algebraic/helpers.py,sha256=tWy1sJMld7sPKNycLwWO233BcWC26Hp4RbK46jxU5nU,27578
+lca_algebraic/io.py,sha256=KkJDsLeQoUVLqJyZy06h69W9ehESiMXhq-xOyQ64zgk,1928
+lca_algebraic/lca.py,sha256=BIUAdBOi2yujpi0J0LOA3G3QDrlmtlHZiQvY9CyO4sw,18404
+lca_algebraic/params.py,sha256=tkrffbzSJqAuI79yN5XYJY27oY3YwbhcqCEXoBU0DzE,31632
+lca_algebraic/stats.py,sha256=kK6Rs9-eapsLKlt21qy8gKEcc1XzY8rRmSVt5oD5VOc,36302
+lca_algebraic_dev-1.0.4.893837.dev0.dist-info/LICENSE,sha256=a6_nYnNC1_U2wXMRC6fGYXibJwOJ1fXscOxvFm_8xs8,1331
+lca_algebraic_dev-1.0.4.893837.dev0.dist-info/METADATA,sha256=G1R8z9PKxJkf7gkNMUoLQN_RY1XMH_7f2frgUtpDgbo,4699
+lca_algebraic_dev-1.0.4.893837.dev0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+lca_algebraic_dev-1.0.4.893837.dev0.dist-info/top_level.txt,sha256=w5LROLTcKELU9BQdLaaUq47drptzjcZBtv4PrzU9wPs,14
+lca_algebraic_dev-1.0.4.893837.dev0.dist-info/RECORD,,
