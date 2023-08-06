@@ -1,0 +1,5 @@
+[project]
+name = "cuml-cu11"
+version = "0.0.1"
+description = "A small example package"
+requires-python = ">=3.8"
