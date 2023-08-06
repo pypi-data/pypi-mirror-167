@@ -1,0 +1,16 @@
+pyDatabases/__init__.py,sha256=h5Kv8Mms-pZcOamvgs9ONMU4qTcj4eNhagWhIOEgtYE,61
+pyDatabases/_mixedTools.py,sha256=QUw5Gtft5yyUkSfc9jeO4uML9ErJrR_HPlT8ETMkllU,8609
+pyDatabases/gpyDB/__init__.py,sha256=F4BNMW7676OFF2tM8hpOcCjCwwoxaIvv1a3s8vqVzUw,29
+pyDatabases/gpyDB/_database.py,sha256=DvX51c4gzi6LeFWOXImkXT1dKeMhulLwDSHtE1NCBJw,15667
+pyDatabases/gpyDB/gpyDB.py,sha256=Rt5QCKB4PxbqZrvrHqMspM7S1PVZmma4kShmyGVRyAI,9475
+pyDatabases/gpyDB_wheels/__init__.py,sha256=hwGWKXbUEzAVDVc6DieOgwBN6IlGt13uWlJJO0pINsk,43
+pyDatabases/gpyDB_wheels/gpyDB_wheels.py,sha256=3Q2iiSXKameKkTNKHtHqTbSIuKhFi5taT92dXrb_DAA,10138
+pyDatabases/simpleDB/__init__.py,sha256=YJjlIFsj7le6Yxcvk_GUVhoDu_6F1aVMTQZJOMX8p_4,23
+pyDatabases/simpleDB/simpleDB.py,sha256=BBXXwr67cXHqAJpd1rGJWGcLgQiRL-tzPbNb4PQaUxo,3200
+pyDatabases/simpleDB_wheels/__init__.py,sha256=SIVO-FoErtcpYUc0YS3Z0D3ZihpT6cOJaZoPjIKNhlg,30
+pyDatabases/simpleDB_wheels/simpleDB_wheels.py,sha256=SQAsl7COrWMS64q6ds-RGWPuvlnbnSkcSUA1hAh8kls,5291
+pyDatabases-0.0.1.dist-info/LICENSE,sha256=peFDGefEC3qei8qmiGu5-KEtlfsu7PEgnHY_EmKlvic,1089
+pyDatabases-0.0.1.dist-info/METADATA,sha256=f8RnicKzfl1UWdzC6PTMcPkG-dD91Mm-Ik7nXT3hGec,600
+pyDatabases-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyDatabases-0.0.1.dist-info/top_level.txt,sha256=qzEcHm1b425JwL7FrnUH1gR2JBCAnmCoDCJcjaUNi8c,12
+pyDatabases-0.0.1.dist-info/RECORD,,
