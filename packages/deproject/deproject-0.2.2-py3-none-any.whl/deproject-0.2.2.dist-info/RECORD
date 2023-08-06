@@ -1,0 +1,10 @@
+deproject/__init__.py,sha256=V3dw_WbPKvgHW6VVLFOmjvaCwXeZ6fVigNRXt8u8TxQ,215
+deproject/deproject.py,sha256=cHroVMwVi2bwZV6wQ6jcFVjECTUYNcTbqgfECZAtyo0,71518
+deproject/fieldstore.py,sha256=JRqBP1hgQnsX2dD_zraR6vVZ3H5W-Z_SjrUVEt9wIyI,9619
+deproject/simplegraph.py,sha256=sPej2nDRDUEnzzxanvRttMKiBoSX1AS7v9OAlrT9NhY,2640
+deproject/specstack.py,sha256=JlYPN3G4j5_BNWcIUUIE2XBdPfqeye4ASMfS7mKPJ74,23991
+deproject-0.2.2.dist-info/LICENSE,sha256=GtQXbYGvLKByaXJE84vGQgdVuSfnRAyNmOhkb3b-8AQ,1325
+deproject-0.2.2.dist-info/METADATA,sha256=eH4C9pp4dHKtPN2OtKRvb8L1TStJgM1QcgprMEDCo9g,6091
+deproject-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deproject-0.2.2.dist-info/top_level.txt,sha256=IF4j7_FJcaTQY179Fs64fzdF0egB9gBmpXcflgEFAKU,10
+deproject-0.2.2.dist-info/RECORD,,
