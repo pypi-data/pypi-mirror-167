@@ -1,0 +1,9 @@
+pivuq/__about__.py,sha256=z8u9ogM5ieElZUbUycRPpqClxZ0P6fyQcBJPiDSarsc,72
+pivuq/__init__.py,sha256=BNY7FMfDfcAcPsfBjsq3avRycxP2nXEmp3Oo2ztKBVo,172
+pivuq/disparity.py,sha256=6Z8ROxbd0oVFtLZXfO1hE3G6fQi2trfwVHC7H-tJ3CA,7014
+pivuq/lib.py,sha256=cPNGCYQg5TDl3kYApuoMKv1hvb-h3E9Czr1u0dUL0Dc,9764
+pivuq/warping.py,sha256=noBQrnmCXlqG_G-4IYv5yPseMxUrZuFRcbCaWVKXWVE,7170
+pivuq-0.4.0.dist-info/LICENSE,sha256=4SnraK4LogvizeuoT1i9HdhMUe1Y3YHVrzsk7lKIufI,1074
+pivuq-0.4.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pivuq-0.4.0.dist-info/METADATA,sha256=NTMija_pCBPgEwaHZB4SyKd10U0NCJ_MN6NFWgGI4ls,3200
+pivuq-0.4.0.dist-info/RECORD,,
