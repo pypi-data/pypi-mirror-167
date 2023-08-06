@@ -1,0 +1,3 @@
+galpy
+seaborn
+numba
