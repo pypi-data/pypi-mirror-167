@@ -1,0 +1,2 @@
+jsonpath-ng-aerospike==1.5.3
+aerospike==7.0.2

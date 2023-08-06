@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 64.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "document-lib-python"
+version = "0.1.0"
+authors = [
+  { name="Julian Nguyen", email="jnguyen@aerospike.com" },
+]
+description = "Document Library API for Python"
+readme = "README.md"
+requires-python = ">=3.7.0, <=3.9.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "jsonpath-ng-aerospike==1.5.3",
+  "aerospike==7.0.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aerospike/document-lib-python"
+"Bug Tracker" = "https://github.com/aerospike/document-lib-python/issues"

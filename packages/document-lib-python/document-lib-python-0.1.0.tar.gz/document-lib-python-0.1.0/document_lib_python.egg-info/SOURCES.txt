@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+document_lib_python.egg-info/PKG-INFO
+document_lib_python.egg-info/SOURCES.txt
+document_lib_python.egg-info/dependency_links.txt
+document_lib_python.egg-info/requires.txt
+document_lib_python.egg-info/top_level.txt
+documentapi/__init__.py
+documentapi/api.py
+documentapi/exception.py
