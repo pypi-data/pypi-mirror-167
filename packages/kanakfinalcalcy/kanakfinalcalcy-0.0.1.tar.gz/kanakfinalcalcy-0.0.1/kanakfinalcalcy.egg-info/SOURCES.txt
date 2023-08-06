@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+kanakfinalcalcy/__init__.py
+kanakfinalcalcy.egg-info/PKG-INFO
+kanakfinalcalcy.egg-info/SOURCES.txt
+kanakfinalcalcy.egg-info/dependency_links.txt
+kanakfinalcalcy.egg-info/top_level.txt
