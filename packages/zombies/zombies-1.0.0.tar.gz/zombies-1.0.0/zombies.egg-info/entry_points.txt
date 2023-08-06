@@ -1,0 +1,2 @@
+[console_scripts]
+zombies = zombies.cli:main

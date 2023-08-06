@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+zombies/__init__.py
+zombies/_types.py
+zombies/cli.py
+zombies/zombies.py
+zombies.egg-info/PKG-INFO
+zombies.egg-info/SOURCES.txt
+zombies.egg-info/dependency_links.txt
+zombies.egg-info/entry_points.txt
+zombies.egg-info/top_level.txt

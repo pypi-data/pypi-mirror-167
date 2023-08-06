@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: zombies
+Version: 1.0.0
+Summary: Run brainfuck code.
+Author: The Master
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Typing :: Typed
+Requires-Python: >=3.6.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+zombies
+========
+Run brainfuck code.
+
+
+License
+--------
+MIT
+
+
+Installation
+-------------
+.. code-block:: sh
+
+    $ pip install zombies
+
+
+Python Usage
+-------------
+.. code-block:: py
+
+    import zombies
+
+    interpreter = zombies.BF()
+    code = '''
+    >+++++++++[<++++++++>-]<.>+++++++[<++++>-]<+.+++++++..+++.[-]
+    >++++++++[<++++>-] <.>+++++++++++[<++++++++>-]<-.--------.+++
+    .------.--------.[-]>++++++++[<++++>- ]<+.[-]++++++++++.
+    '''
+    interpreter.run(code)  # Hello World!
+
+    # you can also run a .bf file
+    interpreter.run('helloworld.bf')
+
+
+Command Line Usage
+-------------------
+Run a `.bf` file
+
+.. code-block:: sh
+
+    $ zombies helloworld.bf
+
+
+Use the REPL
+
+.. code-block:: sh
+
+    $ zombies
+    Brainfuck REPL made in Python | zombies 1.0.0a by The Master | License MIT
+    Type "stop" to exit
+    \\\ >>++<<+-
+
+
+Code Formatting
+----------------
+All code should be formatted with `black`.
