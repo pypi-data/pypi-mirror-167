@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dl-jot
+Version: 0.3
+Summary: A library for instrumenting code and sending telemetry information to an aggregator
+License: MIT
+Author-email: Colin Putney <colin.putney@descarteslabs.com>
+Requires-Python: >=3.7
+Requires-Dist: requests~=2.26
+Provides-Extra: rollbar
+Requires-Dist: rollbar>=0.16.3; extra == "rollbar"
+Project-URL: homepage, https://github.com/descarteslabs/jot
