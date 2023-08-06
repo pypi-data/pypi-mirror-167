@@ -1,0 +1,11 @@
+_coneref.cpython-39-x86_64-linux-gnu.so,sha256=-ewXDidB186tSEVSZ7fncl21-PdizYSVH0xErAgs5Oc,35640128
+tests/test_one.py,sha256=LNI28Al6DasTT9PuYG749f3JBKhgYJz47Wk0aoJ_4Qc,59
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpref/cones_utils.py,sha256=xFZ_0crBA0bj1nI7YJ96Aud5KFGtiISFlgoJ6ReqOss,5633
+cpref/cvxpy_interface.py,sha256=WfHH3kZJCP1_14KxYSBoUElkwl0l--ZwEHv9FGJxV7w,9310
+cpref/__init__.py,sha256=wwJ25AF7Q3HLQO_A7eL0-VNbhShAQn-FUSJKDGLjil8,67
+coneref-0.0.1.dist-info/top_level.txt,sha256=gNSLvRfXTzfKM7bNOemg6VaT6BruF0yU0s0Jb-IF9BM,21
+coneref-0.0.1.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+coneref-0.0.1.dist-info/METADATA,sha256=_BEtQ4Rh1ZTPTpIeJEjuM5s718EsYVhZKyqD6BifePc,417
+coneref-0.0.1.dist-info/RECORD,,
+coneref-0.0.1.dist-info/LICENSE,sha256=1T23ltInF1iLMTNbeD_TOEO_Oj8OqP51-5UDyFOY3MU,1065
