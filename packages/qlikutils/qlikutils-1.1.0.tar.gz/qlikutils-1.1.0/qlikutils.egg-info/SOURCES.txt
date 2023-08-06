@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+qlikutils/__init__.py
+qlikutils/__main__.py
+qlikutils/utils.py
+qlikutils.egg-info/PKG-INFO
+qlikutils.egg-info/SOURCES.txt
+qlikutils.egg-info/dependency_links.txt
+qlikutils.egg-info/requires.txt
+qlikutils.egg-info/top_level.txt
+qlikutils/assets/__init__.py
+qlikutils/assets/fonts/Arial Black.ttf
+qlikutils/assets/fonts/Arial.ttf
+qlikutils/assets/images/background.png
