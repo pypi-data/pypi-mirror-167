@@ -1,0 +1,4 @@
+[console_scripts]
+SamanYulingyigeShijiedeXiangyu = SamanYulingyigeShijiedeXiangyu.__main__:main
+saman-yulingyige-shijiede-xiangyu = SamanYulingyigeShijiedeXiangyu.__main__:main
+
