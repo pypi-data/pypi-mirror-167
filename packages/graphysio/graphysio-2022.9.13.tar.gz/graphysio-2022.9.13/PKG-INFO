@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: graphysio
+Version: 2022.9.13
+Summary: Visualizer and analyser for biometric signals
+Home-page: https://github.com/jaj42/GraPhysio
+License: ISC
+Author: Jona Joachim
+Author-email: jona@joachim.cc
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pint (>=0.19.2,<0.20.0)
+Requires-Dist: numexpr (==2.8.3)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pathvalidate (>=2.5.0,<3.0.0)
+Requires-Dist: physiocurve (>=2022.7.14,<2023.0.0)
+Requires-Dist: pyEDFlib (>=0.1.29,<0.2.0)
+Requires-Dist: pyarrow (>=8.0.0,<9.0.0)
+Requires-Dist: pyqtgraph (>=0.12.4,<0.13.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
+Project-URL: Repository, https://github.com/jaj42/GraPhysio
+Description-Content-Type: text/markdown
+
+# GraPhysio
+GraPhysio is a graphical time series visualizer created for biometric data
+signals from ICU patient monitors. It is however not limited to this. It can
+handle low frequency and high frequency data as well as aggregating and
+synchronizing signals from different sources. GraPhysio supports basic
+mathematical operations and filters and can help selecting and exporting time
+periods. GraPhysio can read data from CSV, Parquet and EDF files and can write
+CSV, Parquet, EDF and Matlab files.
+
+## Install instructions
+For the best experience, conda is recommended:
+
+conda install -c conda-forge graphysio
+
+Alternatively you can then install the latest version of GraPhysio from PyPi by
+tying the following command:
+
+> python -m pip install graphysio
+
+You can launch GraPhysio by typing:
+
+> python -m graphysio
+
