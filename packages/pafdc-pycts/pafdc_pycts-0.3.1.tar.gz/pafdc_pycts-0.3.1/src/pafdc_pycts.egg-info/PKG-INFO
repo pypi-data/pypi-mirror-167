@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pafdc-pycts
+Version: 0.3.1
+Summary: Textile capacitive touch sensor tools and utilities.
+Home-page: https://github.com/pafdc/pycts
+Author: rjvallett
+Author-email: rjvallett@drexel.edu
+License: None
