@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-crawler-scheduler"
+version = "0.2.1"
+description = ""
+authors = ["laowang <847063657@qq.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_crawler_scheduler"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+redis = "^4.3.4"
+uhashring = "2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
