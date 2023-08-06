@@ -1,0 +1,105 @@
+# lvt-eval
+
+#### Installation
+1. python>=3.8, (windows: need c++ env, https://airesources.oss-cn-hangzhou.aliyuncs.com/jkl/%E8%BE%B9%E7%BC%98%E5%8D%A1/VisualStudioSetup.exe)
+
+2. pip install pybind11  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+3. pip install -e faster_coco_eval/ -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+4. pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+
+
+#### Lvt-eval guideline
+
+* studio aiport 
+1. write your config files in "config/{your config files}.json". 
+
+```
+For example:
+1) multi-object（studio json） vs. multi-object（interface return label） detection:
+{
+    "label":[{"objectLabel":["烟"], "attrLabel":[], "id":0, "prediction":"smoke"},{"objectLabel":["火"], "attrLabel":[], "id":1, "prediction":"fire"}],
+    "aiport": "http://192.1.2.238:8893/vql/v1/serving/process",
+    "rawdata": "data/yh.json",
+    "draw": false,
+    "download": false,
+    "raw_prediction_path": "prediction_dirs/raw_predictions_8893.json",
+    "save_gt_coco": "gt_dirs/coco_groundtruth.json",
+    "save_pred_path": "prediction_dirs/prediction_results.json",
+    "faster_coco_api": true
+}
+
+2) multi-object（studio json） vs. single-object（interface return label） detection:
+{
+    "label":[{"objectLabel":["人"], "attrLabel":["躺", "趴"], "id":0, "prediction":"睡岗"}],
+    "aiport": "http://192.1.2.238:8324/vql/v1/serving/process",
+    "rawdata": "data/sleep_test_json_0621.json",
+    "draw": false,
+    "download": false,
+    "raw_prediction_path": "prediction_dirs/raw_predictions_8324.json",
+    "save_gt_coco": "gt_dirs/coco_groundtruth.json",
+    "save_pred_path": "prediction_dirs/prediction_results.json",
+    "faster_coco_api": true
+}
+
+3) single-object（studio json） vs. single-object（interface return label） detection:
+{
+    "label":[{"objectLabel":["person"], "attrLabel":[], "id":0, "prediction":"person"}],
+    "aiport": "http://192.1.2.238:8312/vql/v1/serving/process",
+    "rawdata": "data/xingren.json",
+    "draw": false,
+    "download": false,
+    "raw_prediction_path": "prediction_dirs/raw_predictions_8312.json",
+    "save_gt_coco": "gt_dirs/coco_groundtruth.json",
+    "save_pred_path": "prediction_dirs/prediction_results.json",
+    "faster_coco_api": false
+}
+```
+```
+"label":
+    "objectLabel": enter the obj tags of studio json 
+    "attrLabel": enter the attr tags of studio json (same the obj tags)
+    "id": default is 0. 
+    "prediction": label of original outputs of interface 
+"aiport": model interface
+"rawdata": studio json format data
+"draw": "true" means draw GT and Pred bbox
+"download": download images, if draw=True, need download=True
+"raw_prediction_path": save original outputs of interface, file name "raw_predictions_{model interface id}.json"
+"save_gt_coco": save studio json format to coco json format
+"save_pred_path": save original outputs of interface to coco json format
+"faster_coco_api": "true" means use faster coco evaluation
+```
+
+2. then run 
+```python
+python od_evaluator.py --mode studio_json --config {your config files} 
+```
+
+
+* coco json
+
+1. prepare your data (coco json format)
+prepare groundtruth and prediction json.
+
+2. then run 
+```python
+python od_evaluator.py --mode coco_json --gt_json {your gt coco format json}  --pred_json {your pred coco format json} 
+or
+python od_evaluator.py --mode faster_coco_json --gt_json {your gt coco format json} --pred_json {your pred coco format json} 
+```
+
+
+#### How to start (example)
+
+1.  use mode = studio aiport:
+python od_evaluator.py --mode studio_json --config config/config_xingren.json
+2.  use mode = coco json:
+python od_evaluator.py --mode coco_json --gt_json example_data/only_no_glove.json --pred_json example_data/only_no_glove_pred.json
+3.  use mode = faster coco json:
+python od_evaluator.py --mode faster_coco_json --gt_json example_data/only_no_glove.json --pred_json example_data/only_no_glove_pred.json
+
+### update pypi
