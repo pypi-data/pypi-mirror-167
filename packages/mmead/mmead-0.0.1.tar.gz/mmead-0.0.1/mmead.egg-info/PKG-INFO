@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mmead
+Version: 0.0.1
+Summary: MS MARCO entity annotations and disambiguations
+Home-page: https://github.com/informagi/mmead
+Author: Chris Kamphuis
+Author-email: chris@cs.ru.nl
+Requires-Python: >=3.6
+License-File: LICENSE

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+mmead.egg-info/PKG-INFO
+mmead.egg-info/SOURCES.txt
+mmead.egg-info/dependency_links.txt
+mmead.egg-info/top_level.txt
