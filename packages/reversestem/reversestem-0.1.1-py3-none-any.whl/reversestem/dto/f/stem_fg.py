@@ -1,0 +1,42 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_fg = {'fga': {'fgas': []},
+ 'fgabcd': {'fgabcde': []},
+ 'fgalit': {'fgalite': []},
+ 'fgc': {'fgcs': []},
+ 'fgd': {'fgds': []},
+ 'fge': {'fges': []},
+ 'fgener': {'fgeneral': []},
+ 'fgeorg': {'fgeorge': []},
+ 'fget': {'fgets': []},
+ 'fgetpo': {'fgetpos': []},
+ 'fgf': {'fgfs': []},
+ 'fgfr': {'fgfrs': []},
+ 'fgg': {'fggs': []},
+ 'fghan': {'fghans': []},
+ 'fght': {'fghts': []},
+ 'fgi': {'fgis': [], 'fgy': []},
+ 'fgid': {'fgids': []},
+ 'fgiur': {'fgiure': []},
+ 'fgl': {'fgls': []},
+ 'fglise': {'fglises': []},
+ 'fgm': {'fgms': []},
+ 'fgmre': {'fgmres': []},
+ 'fgn': {'fgns': []},
+ 'fgnoranc': {'fgnorance': []},
+ 'fgo': {'fgoing': []},
+ 'fgoe': {'fgoes': []},
+ 'fgp': {'fgps': []},
+ 'fgpa': {'fgpas': []},
+ 'fgr': {'fgrs': []},
+ 'fgrm': {'fgrms': []},
+ 'fgt': {'fgts': []},
+ 'fgte': {'fgtes': []},
+ 'fgure': {'fgures': []},
+ 'fgvorit': {'fgvorites': []},
+ 'fgypt': {'fgypte': []},
+ 'fgyptian': {'fgyptians': []}}
+        

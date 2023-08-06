@@ -1,0 +1,41 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_fk = {'fkagment': {'fkagments': []},
+ 'fkanc': {'fkance': ['fkances']},
+ 'fkance': ['fkances'],
+ 'fkanci': {'fkancis': []},
+ 'fkb': {'fkbs': []},
+ 'fkbp': {'fkbps': []},
+ 'fke': {'fkes': []},
+ 'fkeder': {'fkederic': []},
+ 'fkeleton': {'fkeletons': []},
+ 'fketch': {'fketched': [], 'fketches': []},
+ 'fkey': {'fkeys': []},
+ 'fki': {'fkies': [], 'fky': []},
+ 'fkiend': {'fkiends': []},
+ 'fkil': {'fkilful': ['fkilfully']},
+ "fkil'r": {"fkil're": []},
+ 'fkilful': {'fkilfull': []},
+ 'fkill': {'fkilled': []},
+ 'fkin': {'fkins': []},
+ 'fkinn': {'fkinne': []},
+ 'fkint': {'fkinted': []},
+ 'fkirmifh': {'fkirmifhes': []},
+ 'fkirmish': {'fkirmishes': []},
+ 'fkirt': {'fkirted': [], 'fkirts': []},
+ 'fkiur': {'fkiure': []},
+ 'fknder': {'fknders': []},
+ 'fknm': {'fknms': []},
+ 'fko': {'fkos': []},
+ 'fkoud': {'fkoude': []},
+ 'fkowd': {'fkowde': []},
+ 'fkreen': {'fkreened': [], 'fkreens': []},
+ 'fku': {'fkus': []},
+ 'fkuit': {'fkuits': []},
+ 'fkull': {'fkulls': []},
+ 'fkur': {'fkurs': []},
+ 'fkuri': {'fkury': []}}
+        

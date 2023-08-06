@@ -1,0 +1,40 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_ww = {'wwa': {'wwas': []},
+ 'wwan': {'wwans': []},
+ 'wwc': {'wwcs': []},
+ 'wwcomfort': {'wwcomfortable': []},
+ 'wwconsciou': {'wwconscious': []},
+ 'wwd': {'wwds': []},
+ 'wwe': {'wwes': []},
+ 'wwedenski': {'wwedensky': []},
+ 'wwer': {'wwerful': [], 'wwers': []},
+ 'wwersiti': {'wwersity': []},
+ 'wwf': {'wwfs': []},
+ 'wwfintern': {'wwfinternational': []},
+ 'wwhappi': {'wwhappiness': [], 'wwhappy': []},
+ 'wwi': {'wwis': [], 'wwy': []},
+ 'wwic': {'wwics': []},
+ 'wwk': {'wwks': []},
+ 'wwlike': {'wwlikely': []},
+ 'wwmcc': {'wwmccs': []},
+ 'wwn': {'wwns': []},
+ 'wwnatur': {'wwnatural': []},
+ 'wwnecessari': {'wwnecessary': []},
+ 'wwni': {'wwny': []},
+ 'wwo': {'wwos': []},
+ 'wwoofer': {'wwoofers': []},
+ 'wwoorrsse': {'wwoorrssee': []},
+ 'wwow': {'wwows': []},
+ 'wwrealiti': {'wwreality': []},
+ 'wwrriitte': {'wwrriittee': []},
+ 'wwsuccess': {'wwsuccessful': []},
+ 'wwt': {'wwts': []},
+ 'wwtp': {'wwtps': []},
+ 'www': {'www': []},
+ 'wwwauthent': {'wwwauthenticate': []},
+ 'wwwbase': {'wwwbased': []}}
+        

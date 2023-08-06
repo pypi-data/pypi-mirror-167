@@ -1,0 +1,40 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_yb = {'yba': {'ybas': []},
+ 'ybab': {'ybabs': []},
+ 'yball': {'yballe': []},
+ 'ybane': {'ybanes': []},
+ 'ybar': {'ybars': []},
+ 'ybare': {'ybared': []},
+ 'ybarnegari': {'ybarnegary': []},
+ 'ybarra': {'ybarras': []},
+ 'ybb': {'ybbs': []},
+ 'ybdope': {'ybdoped': []},
+ 'ybe': {'ybeing': []},
+ 'ybear': {'ybearing': []},
+ 'ybernet': {'ybernetics': []},
+ 'yberspac': {'yberspace': []},
+ 'ybervil': {'yberville': []},
+ 'ybi': {'yby': []},
+ 'ybierna': {'ybiernas': []},
+ 'ybless': {'yblessed': []},
+ 'ybo': {'ybos': []},
+ 'yboc': {'ybocs': []},
+ 'ybodi': {'ybody': []},
+ 'yborciti': {'yborcity': []},
+ 'yborn': {'yborne': []},
+ 'ybound': {'ybounde': []},
+ 'ybranch': {'ybranches': []},
+ 'ybredd': {'ybredde': []},
+ 'ybri': {'ybry': []},
+ 'ybrid': {'ybrids': []},
+ 'ybridiz': {'ybridization': []},
+ 'ybsemit': {'ybsemite': []},
+ 'ybu': {'ybus': []},
+ "ybu'r": {"ybu're": []},
+ 'yburi': {'yburied': []},
+ 'ybutyrolacton': {'ybutyrolactone': []}}
+        

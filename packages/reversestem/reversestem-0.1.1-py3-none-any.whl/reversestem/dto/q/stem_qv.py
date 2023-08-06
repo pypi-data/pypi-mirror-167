@@ -1,0 +1,40 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_qv = {'qva': {'qvas': []},
+ 'qvadran': {'qvadrans': []},
+ 'qvaliti': {'qvality': []},
+ 'qvalu': {'qvalue': ['qvalues']},
+ 'qvalue': ['qvalues'],
+ 'qvarsel': {'qvarsell': []},
+ 'qvarterli': {'qvarterly': []},
+ 'qvartv': {'qvartvs': []},
+ 'qve': {'qves': []},
+ 'qvec': {'qvecs': []},
+ 'qveen': {'qveene': ['qveenes']},
+ 'qveene': ['qveenes'],
+ 'qvene': {'qvenes': []},
+ 'qveri': {'qvery': []},
+ 'qvestion': {'qvestions': []},
+ 'qvi': {'qvies': [], 'qvis': [], 'qvy': []},
+ 'qviantiti': {'qviantity': []},
+ 'qvibu': {'qvibus': []},
+ 'qvibv': {'qvibvs': []},
+ 'qvickli': {'qvickly': []},
+ 'qviestion': {'qviestions': []},
+ 'qviit': {'qviite': []},
+ 'qvilis': {'qvilisation': []},
+ 'qviliz': {'qvilization': []},
+ 'qvinci': {'qvincy': []},
+ 'qvinqv': {'qvinqve': []},
+ 'qvintv': {'qvintvs': []},
+ 'qvisqv': {'qvisqve': []},
+ 'qvisqvi': {'qvisqvis': []},
+ 'qvli': {'qvly': []},
+ 'qvo': {'qvos': []},
+ 'qvoiv': {'qvoivs': []},
+ 'qvoqu': {'qvoque': []},
+ 'qvoqv': {'qvoqve': []}}
+        

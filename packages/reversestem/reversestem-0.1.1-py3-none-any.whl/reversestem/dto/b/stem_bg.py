@@ -1,0 +1,40 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_bg = {'bga': {'bgas': []},
+ 'bgalactosidas': {'bgalactosidase': []},
+ 'bgalit': {'bgalite': []},
+ 'bgc': {'bgcs': []},
+ 'bgcaus': {'bgcause': []},
+ 'bgdi': {'bgdy': []},
+ 'bgdk': {'bgdks': []},
+ 'bge': {'bges': []},
+ 'bgeg': {'bgegs': []},
+ 'bgener': {'bgeneral': ['bgenerally']},
+ 'bgeneral': ['bgenerally'],
+ 'bgent': {'bgents': []},
+ 'bgg': {'bggs': []},
+ 'bghai': {'bghais': []},
+ 'bght': {'bghts': []},
+ 'bghtli': {'bghtly': []},
+ 'bgi': {'bgy': []},
+ 'bgin': {'bginning': []},
+ 'bgirl': {'bgirls': []},
+ 'bgl': {'bgls': []},
+ 'bglise': {'bglises': []},
+ 'bglucosidas': {'bglucosidase': []},
+ 'bglucuronidas': {'bglucuronidase': []},
+ 'bgm': {'bgms': []},
+ 'bgo': {'bgos': []},
+ 'bgp': {'bgps': []},
+ 'bgproperti': {'bgproperties': []},
+ 'bgraduat': {'bgraduate': []},
+ 'bgt': {'bgts': []},
+ 'bgte': {'bgtes': []},
+ 'bguil': {'bguile': []},
+ 'bgure': {'bgured': [], 'bgures': []},
+ 'bgv': {'bgvs': []},
+ 'bgypt': {'bgypte': []}}
+        
