@@ -1,0 +1,17 @@
+mxdesign/__init__.py,sha256=RVuj7ZFjgcQmYToaMVbCeT3d1ER3XezeVtVVCV_Nos8,174
+mxdesign/entities/__init__.py,sha256=Y6oYjWHqCCfGdge1fu5Nkyr0-SBxFIrpRTZYOdDWI5U,464
+mxdesign/entities/base.py,sha256=wg1AI85tuSlGkV7USeBKi73hoYJQE5hylLX_Uuloi6c,453
+mxdesign/entities/environment.py,sha256=HIe-9DuwjwIN6bX4PUgy3vXwgb0KziZye8KaXAK4xWE,2442
+mxdesign/entities/experiment.py,sha256=Eo8fsE-mhEyAuV4fHxaHY6PZttB_y664P5sLG8W580U,1956
+mxdesign/entities/namespace.py,sha256=41aAYoJuLuRb3fcyzuMOP4HwgiCGs7nrgmMNPsV2pJc,5143
+mxdesign/entities/trial.py,sha256=4p1BZ_HlMRIYqFxGRTZ8ELQR6oZtLvjDvht-tsbH8qA,4726
+mxdesign/entities/value.py,sha256=XQCxrEFChacEkNcPp5VkFGCcZTAvcMd-DAKpUKDgSG0,2245
+mxdesign/entities/variable.py,sha256=t0bXcISgtR6g6hbm5pUyEukspNC8cw8_sggqZUZwuZ0,4593
+mxdesign/utils/__init__.py,sha256=FxG39c-lgK5W1UzBhBdgZ9X8NiZsm9ydlIztDHqV4sg,224
+mxdesign/utils/dict.py,sha256=XMiHwnS4XuveqXnN8g6EHeiuj169Mpg9tqeCXFLOM58,1251
+mxdesign/utils/pandas.py,sha256=BMUInMQcX9ixsW90-1qW8JLsw50mlsrOX7Rb7TEo5qI,1508
+mxdesign-0.0.5.dist-info/LICENSE,sha256=QUQ7yDx84zc28X1L50S4TbOea15goR5MaZrrvgNUWw4,1071
+mxdesign-0.0.5.dist-info/METADATA,sha256=c2VuHtbVXdIw0WcbyZiztS3xG8yYlHJEcanBISQl8mY,688
+mxdesign-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mxdesign-0.0.5.dist-info/top_level.txt,sha256=pf5NyA8ZW1oOlNL7rOuJKBcXDkTvG6Ag9ZpQuAHctk0,9
+mxdesign-0.0.5.dist-info/RECORD,,
