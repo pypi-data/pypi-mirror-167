@@ -1,0 +1,8 @@
+ipywidgets
+matplotlib
+pillow
+torch
+torchvision
+tqdm
+
+[dev]
