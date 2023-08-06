@@ -1,0 +1,3 @@
+networkx
+rich
+typer==0.4.3
