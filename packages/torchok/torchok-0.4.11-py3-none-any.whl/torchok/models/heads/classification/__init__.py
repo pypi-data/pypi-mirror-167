@@ -1,0 +1,2 @@
+import torchok.models.heads.classification.arcface_head
+import torchok.models.heads.classification.classification_head
