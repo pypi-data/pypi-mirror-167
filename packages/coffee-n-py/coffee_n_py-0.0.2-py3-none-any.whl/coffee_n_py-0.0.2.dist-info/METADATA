@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: coffee-n-py
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: MBSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: all
+Requires-Dist: tox (>=3.24) ; extra == 'all'
+Requires-Dist: nose2 (>=0.10.0) ; extra == 'all'
+Requires-Dist: coverage (>=6.0) ; extra == 'all'
+Requires-Dist: flake8 (>=4.0) ; extra == 'all'
+Requires-Dist: flake8-docstrings (>=1.6.0) ; extra == 'all'
+Requires-Dist: flake8-fixme (>=1.1.1) ; extra == 'all'
+Requires-Dist: flake8-eradicate (>=1.2.0) ; extra == 'all'
+Requires-Dist: flake8-assertive (>=1.3.0) ; extra == 'all'
+Requires-Dist: eradicate (<3.0,>=2.0) ; extra == 'all'
+Requires-Dist: wheel (==0.37.0) ; extra == 'all'
+Requires-Dist: tomli (<2.0.0) ; extra == 'all'
+Requires-Dist: black (==22.3.0) ; extra == 'all'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'all'
+Requires-Dist: mypy (>=0.961) ; extra == 'all'
+Requires-Dist: types-PyYAML (>=6.0.9) ; extra == 'all'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'all'
+Requires-Dist: pycodestyle (>=2.8.0) ; extra == 'all'
+Requires-Dist: pyflakes (>=2.4) ; extra == 'all'
+Requires-Dist: build (==0.7.0) ; extra == 'all'
+Requires-Dist: twine (==3.4.2) ; extra == 'all'
+Requires-Dist: Sphinx (==4.2.0) ; extra == 'all'
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2) ; extra == 'all'
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2) ; extra == 'all'
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.0) ; extra == 'all'
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1) ; extra == 'all'
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3) ; extra == 'all'
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5) ; extra == 'all'
+Requires-Dist: furo (==2021.10.9) ; extra == 'all'
+Requires-Dist: pipdeptree (>=2.2.0) ; extra == 'all'
+Requires-Dist: Pygments (>=2.5.1) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: wheel (==0.37.0) ; extra == 'dev'
+Requires-Dist: tomli (<2.0.0) ; extra == 'dev'
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: mypy (>=0.961) ; extra == 'dev'
+Requires-Dist: types-PyYAML (>=6.0.9) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: pycodestyle (>=2.8.0) ; extra == 'dev'
+Requires-Dist: pyflakes (>=2.4) ; extra == 'dev'
+Requires-Dist: build (==0.7.0) ; extra == 'dev'
+Requires-Dist: twine (==3.4.2) ; extra == 'dev'
+Requires-Dist: Sphinx (==4.2.0) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.0) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5) ; extra == 'dev'
+Requires-Dist: furo (==2021.10.9) ; extra == 'dev'
+Requires-Dist: pipdeptree (>=2.2.0) ; extra == 'dev'
+Requires-Dist: Pygments (>=2.5.1) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: tox (>=3.24) ; extra == 'test'
+Requires-Dist: nose2 (>=0.10.0) ; extra == 'test'
+Requires-Dist: coverage (>=6.0) ; extra == 'test'
+Requires-Dist: flake8 (>=4.0) ; extra == 'test'
+Requires-Dist: flake8-docstrings (>=1.6.0) ; extra == 'test'
+Requires-Dist: flake8-fixme (>=1.1.1) ; extra == 'test'
+Requires-Dist: flake8-eradicate (>=1.2.0) ; extra == 'test'
+Requires-Dist: flake8-assertive (>=1.3.0) ; extra == 'test'
+Requires-Dist: eradicate (<3.0,>=2.0) ; extra == 'test'
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+
+## Coffee
+
+Small python script for imitating user motions.
+
+### Installation
+TBD
+
+
+### Usage
+
+Assuming that you have installed Coffee-n-Py, you can run it with the following command. The argument `interval` is an optional value that defaults to `300`, and represents the interval between actions in seconds.
+```bash
+coffee --interval 30
+```
+
+
