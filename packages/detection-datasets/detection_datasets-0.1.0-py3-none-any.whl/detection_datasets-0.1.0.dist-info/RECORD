@@ -1,0 +1,16 @@
+detection_datasets/__init__.py,sha256=X9mfcpVCCgyfH_CPRRXNf9odvSVNtUvjyhu1xw5nMCU,107
+detection_datasets/bbox.py,sha256=jiqpz3jnBMGZA9dNmJOU4MQoyeQ_ttVtem9x4SqY1w4,2347
+detection_datasets/detection_dataset.py,sha256=nAfHg3qIt19MtoRNXN-c1XB5a25n3b05CFn2KoOIE3s,15330
+detection_datasets/readers/__init__.py,sha256=8QJ3gTkrrYJf4H90Y4HynxIdLrBPEZE57vSdkdrIh5U,110
+detection_datasets/readers/base.py,sha256=MfMuBoo7i30FLLwsIVthQ0SVC6asn8lb2rZsXd06ldY,453
+detection_datasets/readers/coco.py,sha256=9FTnKm_EHRk6uOUKSF6YWkRIQS2deDt7vQCPsF-9WrE,2404
+detection_datasets/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detection_datasets/utils/enums.py,sha256=Czx8wWobXCl8jbG2DlTFcU9MARPuStTnlDjnYHwkNUA,102
+detection_datasets/utils/factories.py,sha256=ALzKFV6FxH4DKxKI2Uub2jMdzGaQ16JHufYxWyRy1xE,850
+detection_datasets/writers/__init__.py,sha256=WqxXkSxYju1PuDG9TsMLX5EMO_KYT4NPYPPoDcmIh0Y,167
+detection_datasets/writers/base.py,sha256=tI5z63EotV9l345X6NVdItBKAJOaeUm7ExHcZqEEaRc,1281
+detection_datasets/writers/mmdet.py,sha256=LVzmdLN1kwQe037DFYiZibMliHpvSSmv0xBV8MbQrKg,2531
+detection_datasets/writers/yolo.py,sha256=9tspmICEf8qrLqhrKoe7FQz1OIgwARXCJ8e-WVMOsok,4119
+detection_datasets-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+detection_datasets-0.1.0.dist-info/METADATA,sha256=WOaBihpkEXvcXdtnY25FcSX9QgAgK4FcDXTxlx2f_r4,970
+detection_datasets-0.1.0.dist-info/RECORD,,
