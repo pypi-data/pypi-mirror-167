@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pytatsu
+Version: 0.1.1
+Summary: A Python library/CLI tool for requesting and saving shsh blobs from apple's tatsu signing server api.
+Home-page: https://github.com/Cryptiiiic/Tatsu
+License: LGPL-3.0
+Author: Cryptiiiic
+Author-email: liamwqs@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pybmtool (>=0.1.2,<0.2.0)
+Project-URL: Bug Tracker, https://github.com/Cryptiiiic/Tatsu/issues
+Project-URL: Repository, https://github.com/Cryptiiiic/Tatsu
+Description-Content-Type: text/markdown
+
+# pytatsu 
+## A Python library/CLI tool for requesting and saving shsh blobs from apple's tatsu signing server api.
