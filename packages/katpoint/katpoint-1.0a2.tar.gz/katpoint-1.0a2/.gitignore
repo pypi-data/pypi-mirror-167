@@ -1,0 +1,41 @@
+*.py[cod]
+
+# C extensions
+*.so
+*.so.dSYM
+
+# Packages / virtual envs
+build
+dist
+*.eggs
+*.egg-info
+.cache
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+htmlcov
+coverage.xml
+.pytest_cache
+
+# Documentation
+docs/_build
+docs/apidocs
+
+# Developer tools / IDEs
+*~
+.ropeproject
+.idea
+.eclipse
+.vscode
+
+# macOS detritus
+.DS_Store
+
+# Downloaded AIPS source files
+katpoint/test/aips_projection/*.F
+katpoint/test/aips_projection/*.INC

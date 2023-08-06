@@ -1,0 +1,4 @@
+prune scripts
+include NEWS.rst
+include *.yml
+include tox.ini
