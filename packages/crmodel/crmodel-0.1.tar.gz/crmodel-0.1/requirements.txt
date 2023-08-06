@@ -1,0 +1,5 @@
+osmnx>=1.2.1
+scipy
+argparse
+geojson
+crossroads-segmentation>=0.1.10
