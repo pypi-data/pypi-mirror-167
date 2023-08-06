@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: assesspy
+Version: 0.1
+Summary: General purpose Python package for measuring assessment performance
+Home-page: https://gitlab.com/ccao-data-science---modeling/packages/assesspy/
+Author: CCAO
+Author-email: assessor.data@cookcountyil.gov
+License: GPL-3
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: statsmodels
+
