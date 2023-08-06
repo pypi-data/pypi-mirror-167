@@ -1,0 +1,4 @@
+requests
+tqdm
+SQLAlchemy
+beautifulsoup4>=4
