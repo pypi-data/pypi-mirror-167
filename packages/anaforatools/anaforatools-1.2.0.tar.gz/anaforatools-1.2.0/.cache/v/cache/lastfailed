@@ -1,0 +1,6 @@
+{
+  "anafora/test/test_anafora_evaluate.py::test_missing_ignored_properties": true,
+  "anafora/test/test_anafora_evaluate.py::test_score_data": true,
+  "anafora/test/test_anafora_evaluate.py::test_score_data_overlap": true,
+  "anafora/test/test_anafora_evaluate.py::test_temporal_closure_scores": true
+}

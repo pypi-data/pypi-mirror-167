@@ -1,0 +1,4 @@
+{
+  "anafora/test/test_anafora_evaluate.py::test_excluding_nested_entities": true,
+  "anafora/test/test_anafora_select.py::test_select_span": true
+}
