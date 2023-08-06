@@ -1,0 +1,8 @@
+stanza==1.2.3
+torch==1.11.*
+lxml
+beautifulsoup4>=4.9.*
+langdetect
+lang-trans
+regex
+phonenumberslite
