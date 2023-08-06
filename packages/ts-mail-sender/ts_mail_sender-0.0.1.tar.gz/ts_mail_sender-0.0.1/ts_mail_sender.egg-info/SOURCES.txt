@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LINCENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ts_mail_sender.egg-info/PKG-INFO
+ts_mail_sender.egg-info/SOURCES.txt
+ts_mail_sender.egg-info/dependency_links.txt
+ts_mail_sender.egg-info/requires.txt
+ts_mail_sender.egg-info/top_level.txt
+tsatsu_mail_sender/__init__.py

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ts_mail_sender
+Version: 0.0.1
+Summary: A package to send emails and attachments
+Home-page: https://github.com/edwardtsatsu/email_lib
+Author: Akorlie Edward Tsatsu
+Author-email: edwardakorlie73@gmail.com
+License: MIT
+Keywords: email
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This is a python library for sending email messages which is part of the Python standard library. 
+The original email package does not give you the flexibility as this one. 
+This library gives you the flexibility to send emails with attachments, HTML content and email subject. 
+It also supports sending emails with multiple recipients and single attachments.
+This package is compatible with Python 3 and later versions.
+
+Change Log
+==========
+
+0.0.1 (9/5/2022)
+------------------
+- First Release
