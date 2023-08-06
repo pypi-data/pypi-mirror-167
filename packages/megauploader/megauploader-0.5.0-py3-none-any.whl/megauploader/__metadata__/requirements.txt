@@ -1,0 +1,4 @@
+megadownloader>=0.0.1
+requests>=0.0.1
+omnitools>=0.0.1
+sqlq>=0.0.1
