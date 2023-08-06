@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: signal-handler
+Version: 0.0.5
+Summary: Handling system signals and taking actions on application termination
+Home-page: https://github.com/oleglpts/signal_handler
+Author: Oleg Lupats
+Author-email: oleglupats@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# signal_handler
+Handling system signals and taking actions on application termination
+
+Example:
+
+```python
+#!/usr/bin/python3
+
+from signal_handler import SignalHandler
+
+
+if __name__ == '__main__':
+    terminator = SignalHandler(handler=lambda: print(
+        '\nOn terminate actions here!\n'))
+    while True:
+        if not terminator.terminated:
+            print('Cycle')
+        else:
+            print(f"Message: {terminator.message}\n"
+                  f"Traceback: {terminator.traceback}\n"
+                  f"Signal name: {terminator.signal_name}")
+            break
+```
