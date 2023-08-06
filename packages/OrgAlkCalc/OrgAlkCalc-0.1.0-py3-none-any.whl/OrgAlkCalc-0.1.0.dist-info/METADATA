@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: OrgAlkCalc
+Version: 0.1.0
+Summary: This is the cleaned up organic-alkalinity-sausage-machine, now known more sensibly as OrgAlkCalc
+Home-page: https://github.com/charles-turner-1/OrgAlkCalc
+Author: Charles Turner
+Author-email: charlesturner0987@gmail.com
+License: MIT license
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: lmfit
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# OrgAlkCalc
+
+This is a package which you can use to compute organic alkalinity from titrations.
+Further details to follow.
