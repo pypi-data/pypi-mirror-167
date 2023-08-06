@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+scratch3py_wurulin/__init__.py
+scratch3py_wurulin/sddd.cp310-win_amd64.pyd
+scratch3py_wurulin.egg-info/PKG-INFO
+scratch3py_wurulin.egg-info/SOURCES.txt
+scratch3py_wurulin.egg-info/dependency_links.txt
+scratch3py_wurulin.egg-info/requires.txt
+scratch3py_wurulin.egg-info/top_level.txt
