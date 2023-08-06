@@ -1,0 +1,14 @@
+arcor2_calibration/VERSION,sha256=3ZVHK4wKgcSK2rvkLUUbwTQ9refRWtgyY98Pd6ZrIP8,5
+arcor2_calibration/__init__.py,sha256=5qUWRZPLDdHrZybntJ-Hseipd7VGf9Ut6nlyFDSfTvs,96
+arcor2_calibration/calibration.py,sha256=oQ9xakAWi_y4ovlj2zAlmPfsXy4I_1ttxurXGhod9IY,3326
+arcor2_calibration/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcor2_calibration/quaternions.py,sha256=KHd0tvU4WyQCW9GKwIO3Mzf-AtX8uQRNrDqn3W56umE,3291
+arcor2_calibration/robot.py,sha256=qqIKvAcr57FPVTOHAjP-MGlrqJrFdkTg4VlEYSuG-jg,4353
+arcor2_calibration/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcor2_calibration/scripts/calibration.py,sha256=A_08Dfr4MOyvSWeEbqeS2B9JhtmILQorw7QHeCZO_tI,15331
+arcor2_calibration-0.8.0.dist-info/METADATA,sha256=wwRWIMDQP2z9lqQPC2b3JhOyG7wPLbrQ4U5Wjm6FhKU,3816
+arcor2_calibration-0.8.0.dist-info/WHEEL,sha256=ZvcC9yJ-3jt0s3Z9GqWdFU0zAv0WwFaltzmW3pHC9do,93
+arcor2_calibration-0.8.0.dist-info/entry_points.txt,sha256=WX_KyT7pIjxUtcqiX7aG1Mn3h5PkLjVS_9EE2M-1cSA,83
+arcor2_calibration-0.8.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arcor2_calibration-0.8.0.dist-info/top_level.txt,sha256=9rSZiiYnXnTcvUGxW1bSGnzbGvc2TWCWrbTFOvmPwW4,19
+arcor2_calibration-0.8.0.dist-info/RECORD,,
