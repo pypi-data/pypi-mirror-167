@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyqlite
+Version: 1.0.1
+Summary: Lightweight SQLite O/R Mapper and Model Generator for Python.
+Home-page: UNKNOWN
+Author: Koki NAKAMURA
+Maintainer: Koki NAKAMURA
+Maintainer-email: koki.nakamura22@gmail.com
+License: Apache License, Version 2.0
+Project-URL: Source Code, https://github.com/koki-nakamura22/pyqlite
+Platform: UNKNOWN
+License-File: LICENSE
+
+Please read README.md on github repository: https://github.com/koki-nakamura22/pyqlite
+

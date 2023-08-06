@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyqlite.egg-info/PKG-INFO
+pyqlite.egg-info/SOURCES.txt
+pyqlite.egg-info/dependency_links.txt
+pyqlite.egg-info/entry_points.txt
+pyqlite.egg-info/requires.txt
+pyqlite.egg-info/top_level.txt
