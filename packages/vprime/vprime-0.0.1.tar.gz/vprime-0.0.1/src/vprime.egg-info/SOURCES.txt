@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/vprime/__init__.py
+src/vprime/prime.py
+src/vprime.egg-info/PKG-INFO
+src/vprime.egg-info/SOURCES.txt
+src/vprime.egg-info/dependency_links.txt
+src/vprime.egg-info/top_level.txt
