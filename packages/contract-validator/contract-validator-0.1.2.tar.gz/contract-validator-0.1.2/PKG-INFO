@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: contract-validator
+Version: 0.1.2
+Summary: 
+Author: Victor Magdalene
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+

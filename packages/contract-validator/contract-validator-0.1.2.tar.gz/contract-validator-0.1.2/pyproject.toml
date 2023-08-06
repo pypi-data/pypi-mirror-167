@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "contract-validator"
+version = "0.1.2"
+description = ""
+authors = ["Victor Magdalene"]
+readme = "README.md"
+packages = [{include = "contract_validator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
