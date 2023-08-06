@@ -1,0 +1,83 @@
+
+# Mailshell
+
+send and check emails faster from the terminal using Mailshell
+
+## Requirements
+
+- python 3.7+
+- Linux, MacOS or GitBash
+
+## Installation
+
+python `pip` install
+```bash
+$ python -m pip install mailshell
+```
+Support python 3.7+
+
+## Usage
+
+- just type `mailshell` to start, or you can type `mshell`
+```bash
+$ mshell
+```
+- add **`--version`** option to see your current version
+- type `login` to log in with gamil [app password][appp], and `new` to create a new message
+- use `edit` command to write your email and `add` with a file or image to include it.
+```bash
+>> add ./file.pdf
+```
+- you can also add a text from a txt file with `get` command
+```bash
+>> get ./your_text.txt
+```
+- use `content` to see your message content
+- run `send` to send your message to specified accounts
+- you can use `check` command to check your emails with a specified mailbox and [search command][sc]
+```bash
+>> check
+mailbox: Inbox
+Search command: FROM "Name.."
+```
+
+## Commands
+
+type `help` in mailshell to see the available commands:
+
+| Command          | Description                                                            |
+|------------------|------------------------------------------------------------------------|
+| login            | log in to your gmail using email address and the [app password][appp]  |
+| logout           | log out from your gmail account                                        |
+| cred             | print your current email address and app password                      |
+| new              | create new email message                                               |
+| edit             | edit your current message                                              |
+| content          | see the current message content with the included files                |
+| get [FILENAME]   | add a text from **.txt** file to you current message                   |
+| add [FILENAME]   | add a file or image to your message                                    |
+| rm [FILENAME]    | remove a file or image from your message                               |
+| to               | set your contact that you will send to                                 |
+| send             | send the current message                                               |
+| check            | check your emails with a specified mailbox and [search command][sc]    |
+| sch              | print the search commands that you need for checking emails            |
+| ls               | print the list of files and folders in the current folder              |
+| pwd              | print working directory                                                |
+| clear            | clear the terminal                                                     |
+| vertion          | see your current version                                               |
+| exit             | exit from Mailshell                                                    |
+
+or you can run
+```bash
+$ mailshell --help
+```
+
+## Support
+
+For support, Follow on twitter [@malkiAbdoo](https://twitter.com/malkiAbdoo).
+
+
+<!-- References -->
+
+[appp]:https://support.google.com/accounts/answer/185833?hl=en#app-passwords
+[sc]:https://www.marshallsoft.com/ImapSearch.htm
+
