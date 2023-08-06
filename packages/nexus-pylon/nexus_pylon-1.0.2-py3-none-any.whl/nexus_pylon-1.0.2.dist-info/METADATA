@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: nexus-pylon
+Version: 1.0.2
+Author: The Superpirate
+Author-email: fist.of.the.first.pirates@gmail.com
+Home-page: https://github.com/nexus-stc/hyperboria/tree/master/nexus/pylon
+License: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Requires-Dist: aiokit >= 1.0.0
+Requires-Dist: aiofiles >= 0.8.0
+Requires-Dist: aiohttp >= 3.8.1
+Requires-Dist: aiohttp_socks >= 2.3.2
+Requires-Dist: certifi >= 2022.6.15.1
+Requires-Dist: izihawa_configurator >= 1.0.0
+Requires-Dist: fire >= 0.4.0
+Requires-Dist: jq >= 1.2.2
+Requires-Dist: pypdf2 >= 2.10.0
+Requires-Dist: python-socks >= 2.0.3
+Requires-Dist: selenium >= 4.3.0
+Requires-Dist: tenacity >= 8.0.1
+
+# Nexus Pylon
+
+`Pylon` is a downloader for scientific publications.
+- Look articles by DOI, MD5 or IPFS hashes
+- Validates downloaded items
+- Streams data by chunks
+- GRPC-ready
+
+## Build
+
+```bash
+bazel build -c opt nexus-pylon-wheel
+```
+
+## Install
+
+### PIP
+```bash
+pip3 install nexus-pylon
+```
+
+## Nexus Pylon CLI
+
+Download scientific publication:
+```bash
+pylon download --doi 10.1182/blood-2011-03-325258 --output article.pdf
+```
+
+Download file by its MD5:
+```bash
+pylon download --md5 f07707ee92fa675fd4ee53e3fee977d1 --output article.pdf
+```
+
+Download file by its multihash:
+```bash
+pylon download --ipfs-multihashes '["bafykbzacea3vduqii3u52xkzdqan5oc54vsvedmed25dfybrqxyafahjl3rzu"]' --output article.pdf
+```
+
+### Using with Selenium
+
+Create directory for exchaning files between host and launched Selenium in Docker
+```bash
+mkdir downloads
+```
+
+Launch Selenium in Docker
+```bash
+docker run -e SE_START_XVFB=false -v $(pwd)/downloads:/downloads -p 4444:4444 selenium/standalone-chrome:latest
+```
+
+Launch Pylon
+```bash
+pylon download --doi 10.1101/2022.09.09.507349 --output article.pdf \
+--wd-endpoint 'http://127.0.0.1:4444/wd/hub' \
+--wd-directory /downloads --wd-host-directory $(pwd)/downloads --debug
+```
