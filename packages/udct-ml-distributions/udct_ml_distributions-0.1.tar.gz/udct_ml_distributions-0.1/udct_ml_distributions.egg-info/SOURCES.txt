@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+udct_ml_distributions/Binomialdistribution.py
+udct_ml_distributions/Gaussiandistribution.py
+udct_ml_distributions/Generaldistribution.py
+udct_ml_distributions/__init__.py
+udct_ml_distributions.egg-info/PKG-INFO
+udct_ml_distributions.egg-info/SOURCES.txt
+udct_ml_distributions.egg-info/dependency_links.txt
+udct_ml_distributions.egg-info/not-zip-safe
+udct_ml_distributions.egg-info/top_level.txt
