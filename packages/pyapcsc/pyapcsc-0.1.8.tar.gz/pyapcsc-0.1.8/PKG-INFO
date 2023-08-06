@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyapcsc
+Version: 0.1.8
+Summary: An asynchronous Python library for communicating with the APC Smart Connect API
+Home-page: https://github.com/rfleming71/pyapcsc
+Author: Ryan Fleming
+Author-email: rfleming71@users.noreply.github.com
+License: MIT
+Keywords: apc,smartconnect,homeassistant
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
