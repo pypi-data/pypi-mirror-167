@@ -1,0 +1,4 @@
+[console_scripts]
+YushengmingLingshuXiangyu = YushengmingLingshuXiangyu.__main__:main
+yushengming-lingshu-xiangyu = YushengmingLingshuXiangyu.__main__:main
+
