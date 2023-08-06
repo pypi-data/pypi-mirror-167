@@ -1,0 +1,305 @@
+use crate::{new_rc, pyo3_prelude::*};
+use macro_rules_attribute::apply;
+use num_bigint::BigUint;
+use pyo3::types::PyTuple;
+use uuid::Uuid;
+
+use super::{
+    named_axes::set_named_axes, CachedCircuitInfo, Circuit, CircuitConstructionError, CircuitNode,
+    CircuitRc, PyCircuitBase, Shape, TensorEvalError,
+};
+use crate::{
+    circuit_node_auto_impl, circuit_node_extra_impl,
+    py_types::{PyUuid, Tensor, PY_SCALAR_TO_TENSOR, PY_TORCH},
+    tensor_util::{TorchDeviceDtype, TorchDeviceDtypeOp},
+};
+
+use crate::circuit::NamedAxes;
+
+macro_rules! circuit_node_auto_leaf_impl {
+    ($uuid:literal) => {
+        circuit_node_auto_impl!($uuid);
+
+        fn children<'a>(&'a self) -> Box<dyn Iterator<Item = CircuitRc> + 'a> {
+            Box::new([].into_iter())
+        }
+
+        fn child_axis_map(&self) -> Vec<Vec<Option<usize>>> {
+            vec![]
+        }
+
+        fn map_children_enumerate<'a, F, E>(
+            &'a self,
+            _f: F,
+        ) -> Result<Self, CircuitConstructionError>
+        where
+            CircuitConstructionError: From<E>,
+            F: FnMut(usize, &'a Circuit) -> Result<CircuitRc, E>,
+        {
+            Ok(self.clone())
+        }
+    };
+}
+
+#[pyclass(extends=PyCircuitBase, unsendable)]
+#[derive(Debug, Clone, PyClassDeriv)]
+pub struct ArrayConstant {
+    #[pyo3(get)]
+    pub value: Tensor,
+    info: CachedCircuitInfo,
+    name: Option<String>,
+}
+
+circuit_node_extra_impl!(ArrayConstant);
+
+impl CircuitNode for ArrayConstant {
+    circuit_node_auto_leaf_impl!("b2aac9d5-1bfa-4c2a-9684-e3f9ecbc1b94");
+
+    fn compute_shape(&self) -> Shape {
+        self.value.shape().clone()
+    }
+
+    fn max_non_input_size(&self) -> BigUint {
+        BigUint::from(0usize)
+    }
+
+    fn compute_hash(&self) -> blake3::Hasher {
+        let mut hasher = blake3::Hasher::new();
+        hasher.update(self.value.hash().unwrap());
+
+        hasher
+    }
+
+    fn eval_tensors(
+        &self,
+        _tensors: &[Tensor],
+        _device_dtype: &TorchDeviceDtype,
+    ) -> Result<Tensor, TensorEvalError> {
+        Ok(self.value.clone())
+    }
+
+    fn device_dtype_extra<'a>(&'a self) -> Box<dyn Iterator<Item = TorchDeviceDtypeOp> + 'a> {
+        Box::new(std::iter::once(
+            TorchDeviceDtype::from_tensor(&self.value).into(),
+        ))
+    }
+}
+
+impl ArrayConstant {
+    #[apply(new_rc)]
+    pub fn new(value: Tensor, name: Option<String>) -> (Self) {
+        let value = value.hashed();
+        Self {
+            value,
+            name,
+            info: Default::default(),
+        }
+        .init_info()
+        .unwrap()
+    }
+}
+
+#[pymethods]
+impl ArrayConstant {
+    #[cfg(feature = "real-pyo3")]
+    #[new]
+    #[args(name = "\"ArrayConstant\".to_owned()")]
+    fn py_new(value: Tensor, name: Option<String>) -> PyClassInitializer<Self> {
+        ArrayConstant::new(value, name).into_init()
+    }
+
+    #[staticmethod]
+    pub fn randn_named(shape: Vec<usize>, name: Option<String>) -> Self {
+        Python::with_gil(|py| {
+            ArrayConstant::new(
+                PY_TORCH
+                    .getattr(py, "randn")
+                    .unwrap()
+                    .call(py, (PyTuple::new(py, shape),), None)
+                    .unwrap()
+                    .extract(py)
+                    .unwrap(),
+                name,
+            )
+        })
+    }
+
+    #[staticmethod]
+    #[args(args = "*")]
+    pub fn randn(args: Vec<usize>) -> Self {
+        ArrayConstant::randn_named(args, None)
+    }
+
+    #[staticmethod]
+    pub fn randn_named_seeded(shape: Vec<usize>, name: Option<String>, seed: usize) -> Self {
+        Python::with_gil(|py| {
+            PY_TORCH
+                .getattr(py, "manual_seed")
+                .unwrap()
+                .call(py, (seed,), None)
+                .unwrap();
+        });
+        ArrayConstant::randn_named(shape, name)
+    }
+
+    #[staticmethod]
+    pub fn new_named_axes(value: Tensor, name: Option<String>, named_axes: NamedAxes) -> Self {
+        let result = Self::new(value, name);
+        set_named_axes(&result, named_axes)
+    }
+}
+
+#[pyclass(extends=PyCircuitBase, unsendable)]
+#[derive(Debug, Clone)]
+pub struct Symbol {
+    pub uuid: Uuid,
+    info: CachedCircuitInfo,
+    name: Option<String>,
+}
+
+circuit_node_extra_impl!(Symbol);
+
+impl CircuitNode for Symbol {
+    circuit_node_auto_leaf_impl!("13c3ee63-76e9-4afb-8057-40309d17b458");
+
+    fn compute_shape(&self) -> Shape {
+        self.info.shape.clone() // note: assumes shape has already been initted!
+    }
+
+    fn compute_hash(&self) -> blake3::Hasher {
+        let mut hasher = blake3::Hasher::new();
+        hasher.update(self.uuid.as_bytes());
+
+        hasher
+    }
+
+    fn compute_is_explicitly_computable(&self) -> bool {
+        false
+    }
+
+    fn eval_tensors(
+        &self,
+        _tensors: &[Tensor],
+        _device_dtype: &TorchDeviceDtype,
+    ) -> Result<Tensor, TensorEvalError> {
+        Err(TensorEvalError::NotExplicitlyComputable {
+            circuit: self.clone().rc(),
+        })
+    }
+}
+
+impl Symbol {
+    #[apply(new_rc)]
+    pub fn new(shape: Shape, uuid: Uuid, name: Option<String>) -> (Self) {
+        let mut out = Self {
+            uuid,
+            name,
+            info: Default::default(),
+        };
+        out.info.shape = shape;
+        out.init_info().unwrap()
+    }
+
+    pub fn new_with_random_uuid(shape: Shape, name: Option<String>) -> Self {
+        Self::new(shape, Uuid::new_v4(), name)
+    }
+}
+
+#[pymethods]
+impl Symbol {
+    #[cfg(feature = "real-pyo3")]
+    #[new]
+    #[args(name = "\"Symbol\".to_owned()")]
+    fn py_new(shape: Shape, uuid: PyUuid, name: Option<String>) -> PyClassInitializer<Self> {
+        Symbol::new(shape, uuid.0, name).into_init()
+    }
+
+    #[getter]
+    fn uuid(&self) -> PyUuid {
+        PyUuid(self.uuid)
+    }
+}
+
+#[pyclass(extends=PyCircuitBase, unsendable)]
+#[derive(Debug, Clone, PyClassDeriv)]
+pub struct ScalarConstant {
+    #[pyo3(get)]
+    pub value: f64,
+    info: CachedCircuitInfo,
+    name: Option<String>,
+}
+
+circuit_node_extra_impl!(ScalarConstant);
+
+impl CircuitNode for ScalarConstant {
+    circuit_node_auto_leaf_impl!("78a77905-8b3f-4471-bb77-255673941fef");
+
+    fn compute_shape(&self) -> Shape {
+        self.info().shape.clone() // note: assumes shape has already been initted!
+    }
+
+    fn compute_hash(&self) -> blake3::Hasher {
+        let mut hasher = blake3::Hasher::new();
+        hasher.update(&self.value.to_le_bytes());
+        for l in &self.info.shape {
+            hasher.update(&l.to_le_bytes());
+        }
+        hasher
+    }
+
+    fn eval_tensors(
+        &self,
+        _tensors: &[Tensor],
+        device_dtype: &TorchDeviceDtype,
+    ) -> Result<Tensor, TensorEvalError> {
+        Python::with_gil(|py| {
+            Ok(PY_SCALAR_TO_TENSOR
+                .call(
+                    py,
+                    (self.value, self.info().shape.clone(), device_dtype.clone()),
+                    None,
+                )
+                .unwrap()
+                .extract(py)
+                .unwrap())
+        })
+    }
+}
+
+impl ScalarConstant {
+    #[apply(new_rc)]
+    pub fn new(value: f64, shape: Shape, name: Option<String>) -> (Self) {
+        let mut out = Self {
+            value,
+            name,
+            info: Default::default(),
+        };
+        out.info.shape = shape;
+
+        out.init_info().unwrap()
+    }
+}
+
+#[pymethods]
+impl ScalarConstant {
+    #[cfg(feature = "real-pyo3")]
+    #[new]
+    #[args(shape = "vec![]", name = "\"ScalarConstant\".to_owned()")]
+    fn py_new(value: f64, shape: Shape, name: Option<String>) -> PyClassInitializer<Self> {
+        Self::new(value, shape, name).into_init()
+    }
+
+    pub fn is_zero(&self) -> bool {
+        self.value == 0.
+    }
+
+    pub fn is_one(&self) -> bool {
+        self.value == 1.
+    }
+}
+
+#[test]
+fn test_nrc() {
+    let ex = ScalarConstant::nrc(0.0, vec![1, 2], None);
+    ex.compiler_print();
+}
