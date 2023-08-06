@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/warplol.py
+src/warplol.egg-info/PKG-INFO
+src/warplol.egg-info/SOURCES.txt
+src/warplol.egg-info/dependency_links.txt
+src/warplol.egg-info/requires.txt
+src/warplol.egg-info/top_level.txt

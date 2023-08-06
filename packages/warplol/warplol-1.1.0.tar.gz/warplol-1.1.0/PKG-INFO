@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: warplol
+Version: 1.1.0
+Summary: Short URLs using the warp.lol APIs.
+Home-page: https://warp.lol/
+Author: Filippo Romani
+Author-email: mail@filipporomani.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A simple yet powerful SDK for warp.lol
+
+## Short a URL
+
+```py
+from warplol import WarpLol
+
+url = WarpLol.getshort(URL, full=True) 
+print(url)
+```
+URL is the url that you want to short, with or without https://.
+The `full` argument is optional; with `full=True`, full warp.lol URL is returned (https://warp.lol/BbSg); with `full=False`, only the warp.lol redirect key is returned (BbSg).
+
+
+## Get shorted url redirect
+
+```py
+from warplol import WarpLol
+
+url = WarpLol.geturl(URL)
+print(url)
+```
+
+`URL` is the warp.lol URL. It can both be the full url (https://warp.lol/BbSg, with or without https://) or the last part (BbSg)
+
+
