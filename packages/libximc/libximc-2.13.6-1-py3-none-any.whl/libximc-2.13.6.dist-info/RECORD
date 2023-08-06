@@ -1,0 +1,6 @@
+src/pyximc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/pyximc/pyximc.py,sha256=gHI8ca2chSMIsFzuq9GiYgtVX4uVfkhhSFr649ktHXs,23113
+libximc-2.13.6.dist-info/METADATA,sha256=huZFfFVsybTeLjf_Nuhn1ljX9eQXl1UOYDE5sgZx2mk,1652
+libximc-2.13.6.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+libximc-2.13.6.dist-info/licenses/LICENSE,sha256=sQPXCVaDHYG2rS_-q0ojKTP9V4dkCXqDdSI3uUaUNq8,1052
+libximc-2.13.6.dist-info/RECORD,,
