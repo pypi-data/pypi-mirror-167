@@ -1,0 +1,5 @@
+[pylsp]
+pythonPlatform=Linux
+pythonVersion=3.6
+python_lsp_autoimport=python_lsp_autoimport.plugin
+

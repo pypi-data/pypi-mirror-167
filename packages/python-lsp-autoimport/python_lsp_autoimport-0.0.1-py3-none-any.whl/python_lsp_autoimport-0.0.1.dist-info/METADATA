@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: python-lsp-autoimport
+Version: 0.0.1
+Summary: Python LSP auto import plugin
+Home-page: https://github.com/frbor/python-lsp-autoimport
+License: MIT
+Author: Fredrik Borg
+Author-email: fredrikb.borg@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: autoimport
+Requires-Dist: isort (>=5.10.0)
+Requires-Dist: python-lsp-server
+Description-Content-Type: text/markdown
+
+# python-lsp-autoimport
+Auto Import plugin for [python-lsp-server](https://github.com/python-lsp/python-lsp-server).
+
+This plugin will run [autoimport](https://lyz-code.github.io/autoimport/) and [isort](https://pycqa.github.io/isort/) on your code.
+
+pylsp plugin code is taken from [pyls-isort](https://github.com/paradoxxxzero/pyls-isort).
+
+
+# Installation
+
+Install in same environment as python-lsp-server. I recommend to use pipx:
+
+```bash
+pip install --user pipx
+pipx install python-lsp-server
+pipx inject python-lsp-server python-lsp-autoimport 
+```
+
