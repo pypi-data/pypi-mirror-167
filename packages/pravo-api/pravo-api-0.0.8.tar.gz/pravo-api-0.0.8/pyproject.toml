@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pravo-api"
+version = "0.0.8"
+description = "Get Russian laws, federal and regional decrees."
+readme = "README.md"
+authors = [{ name = "Kirill Bondar", email = "ironbondar@gmail.com" }]
+
+dependencies = [
+"requests>=2.27.1",
+"aiohttp>=3.8.1",
+"aiosignal>=1.2.0",
+"backoff>=1.11.1",
+"beautifulsoup4>=4.11.1",
+"colorama>=0.4.5",
+"natasha>=1.4.0",
+"navec>=0.10.0",
+"pydantic>=1.9.1",
+"pymorphy2>=0.9.1",
+"pymorphy2-dicts-ru>=2.4.417127.4579844",
+"razdel>=0.5.0",
+"slovnet>=0.5.0",
+"SQLAlchemy>=1.4.40",
+"structlog>=21.1.0",
+"tqdm>=4.64.0",
+"urllib3>=1.26.11",
+"aiohttp_retry>=2.5.1"
+]
+
+requires-python = ">=3.6"
+
