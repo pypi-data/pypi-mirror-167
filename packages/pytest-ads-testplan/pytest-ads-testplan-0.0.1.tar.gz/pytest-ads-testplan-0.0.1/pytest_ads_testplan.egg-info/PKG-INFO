@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytest-ads-testplan
+Version: 0.0.1
+Summary: Azure DevOps Test Case reporting for pytest tests
+Home-page: https://github.com/kurt-cb/pytest-ads-testplan
+Author: kurt godwin
+Author-email: kurt-cb@github.com
+License: GPL v3
+Classifier: Framework :: Pytest
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# pytest-ads-testplan
+Pytest plugin to support Azure Test Plan updating for test cases
