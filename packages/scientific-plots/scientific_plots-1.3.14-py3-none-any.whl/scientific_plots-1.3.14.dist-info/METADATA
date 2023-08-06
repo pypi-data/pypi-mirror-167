@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scientific-plots
+Version: 1.3.14
+Summary: Useful methods for plots used in science
+Author-email: Felix Fischer <f.fischer@ifas.rwth-aachen.de>
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: matplotlib
+Requires-Dist: SciencePlots
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
