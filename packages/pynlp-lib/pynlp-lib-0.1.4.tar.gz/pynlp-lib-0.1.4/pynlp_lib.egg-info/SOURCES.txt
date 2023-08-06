@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pynlp_lib.egg-info/PKG-INFO
+pynlp_lib.egg-info/SOURCES.txt
+pynlp_lib.egg-info/dependency_links.txt
+pynlp_lib.egg-info/top_level.txt
+pynlpl/__init__.py
+pynlpl/local/__init__.py
+pynlpl/local/audio.py
+pynlpl/local/text/nltk.py
+pynlpl/local/text/spacy.py
+pynlpl/local/text/stanza.py
+pynlpl/web/__init__.py
+pynlpl/web/audio.py
+pynlpl/web/text.py
