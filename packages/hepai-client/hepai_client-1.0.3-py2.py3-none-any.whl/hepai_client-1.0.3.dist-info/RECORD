@@ -1,0 +1,8 @@
+hai_client/__init__.py,sha256=o2ZrEppqhbH5K3aRzGlP47a66qyNG-qWgMIJEqo0ynI,31
+hai_client/version.py,sha256=f2HxYB6WYubYgclRpKTwfshykC8AWGAdHRIQn1hDyN4,71
+hai_client/apis/__init__.py,sha256=E8sKTFVriWT-mDs8ZHX9PJZJdSw-A6VSPsX7u0MrWqI,34
+hai_client/apis/python_api.py,sha256=p48BudVTTmeVRvGZtH3ccyUWu64-FP8HJluE3LRFHQM,52
+hepai_client-1.0.3.dist-info/METADATA,sha256=xmeRHJtpEc7lyMAPa2DgukWIAGrGckq_2yXdnpZfhXo,1154
+hepai_client-1.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+hepai_client-1.0.3.dist-info/top_level.txt,sha256=w1YCQvdrpMisuCEg2sxLl-Z2udTFciu3NurSz9IPP9I,11
+hepai_client-1.0.3.dist-info/RECORD,,
