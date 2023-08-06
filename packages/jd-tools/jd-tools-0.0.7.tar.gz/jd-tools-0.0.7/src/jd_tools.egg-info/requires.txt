@@ -1,0 +1,6 @@
+xlrd
+Pillow
+qrcode
+Cryptography
+requests
+urllib3
