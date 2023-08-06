@@ -1,0 +1,48 @@
+[tool.poetry]
+authors = ["Taylor Beever <taybeever@gmail.com>"]
+description = "Satchel is a compendium of pure python functions to carry with you and get things done."
+homepage = "https://github.com/theelderbeever/satchel"
+license = "MIT"
+name = "PySatchel"
+packages = [
+  {include = "satchel"},
+]
+readme = "README.md"
+repository = "https://github.com/theelderbeever/satchel"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+pytest = "^6.2"
+
+[tool.black]
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | venv
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+target_version = ['py310']
+
+[tool.isort]
+include_trailing_comma = true
+known_first_party = "src"
+multi_line_output = 3
+profile = "black"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
