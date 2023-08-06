@@ -1,0 +1,7 @@
+pandas
+search4file
+faker
+alive_progress
+tqdm
+xlrd
+xlwt
