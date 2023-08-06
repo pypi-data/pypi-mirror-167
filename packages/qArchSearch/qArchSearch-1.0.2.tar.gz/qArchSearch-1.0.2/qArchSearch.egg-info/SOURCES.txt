@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+qArchSearch/__init__.py
+qArchSearch/device.py
+qArchSearch/input.py
+qArchSearch/output.py
+qArchSearch/search.py
+qArchSearch/util.py
+qArchSearch.egg-info/PKG-INFO
+qArchSearch.egg-info/SOURCES.txt
+qArchSearch.egg-info/dependency_links.txt
+qArchSearch.egg-info/top_level.txt
+qArchSearch/devices/__init__.py
+qArchSearch/devices/device.py

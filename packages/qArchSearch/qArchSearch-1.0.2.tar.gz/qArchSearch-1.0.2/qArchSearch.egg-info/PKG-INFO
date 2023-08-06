@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: qArchSearch
+Version: 1.0.2
+Summary: qArchSearch: A Domain-Secific Quantum Archticture Optimization Tool
+Home-page: https://github.com/WanHsuanLin/qArchSearch
+Author: Wan-Hsuan Lin
+Author-email: wanhsuanlin@ucla.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
