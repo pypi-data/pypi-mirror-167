@@ -1,0 +1,3 @@
+[console_scripts]
+morty-portal-gun=morty_portal_gun.main:app
+
