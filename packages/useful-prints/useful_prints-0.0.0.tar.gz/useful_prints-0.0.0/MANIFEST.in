@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+graft useful_prints
+recursive-exclude * *.py[co]
+include versioneer.py
+include useful_prints/_version.py

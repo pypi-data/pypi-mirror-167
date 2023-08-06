@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: useful_prints
+Version: 0.0.0
+Summary: Useful Prints
+Author: André Herber
+Author-email: andre.herber.programming@gmail.com
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# useful_prints
+**Needs to_precision by :**
+- **William Rusnack github.com/BebeSparkelSparkel linkedin.com/in/williamrusnack williamrusnack@gmail.com**
+- **Eric Moyer github.com/epmoyer eric@lemoncrab.com**
+- **Thomas Hladish https://github.com/tjhladish tjhladish@utexas.edu**
+**I am not able to add it to the requirements so please visit [Bitbucket](https://bitbucket.org/william_rusnack/to-precision/src/master/) or [GitHub](https://github.com/BebeSparkelSparkel/to-precision)**
+
+Functions:
+- pretty_print_dict
+- list_as_fitted_table_string
+- pretty_print_list
+- pretty_print_sym_double_list
+- progress_printer
+- main_and_sub_progress_printer
+
+
+## Links
+[GitHub](https://github.com/ICreedenI/useful_prints) | [PyPI](https://pypi.org/project/useful-prints/)

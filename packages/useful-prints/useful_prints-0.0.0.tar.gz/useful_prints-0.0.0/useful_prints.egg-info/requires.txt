@@ -1,0 +1,3 @@
+varname
+colorful_terminal
+exception_details
