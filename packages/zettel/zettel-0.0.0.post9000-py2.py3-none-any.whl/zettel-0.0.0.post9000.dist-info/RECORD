@@ -1,0 +1,7 @@
+zettel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zettel/cli.py,sha256=hmvtqREhoxm4g8z42KLqOTbzyjYxiKTQiYrKlVdljeQ,571
+zettel/notebook.py,sha256=60VlqS02LQ4FssOTQhfoCQcjO331N6wiCldXlDKxSNQ,937
+zettel/notes.py,sha256=y4nGiYbadAnk_c7600Xdqmnn6ubvtud7XShxsrLXXeI,480
+zettel-0.0.0.post9000.dist-info/METADATA,sha256=v1iDziUFSxsBZfkWLIgTHI9ts1gQ4GoKOVKXLrp-X1A,302
+zettel-0.0.0.post9000.dist-info/WHEEL,sha256=UwZ6D4m8FbVcyjfDuTDRMsrhMf2K3BuyTsPvnCJT1Q0,104
+zettel-0.0.0.post9000.dist-info/RECORD,,

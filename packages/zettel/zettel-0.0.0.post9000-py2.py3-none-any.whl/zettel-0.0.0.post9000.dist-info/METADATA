@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zettel
+Version: 0.0.0.post9000
+Summary: A package for notetaking inspired by the zettelkasten method
+Description-Content-Type: text/markdown
+
+# zettel - Notetaking with Zettelkasten
+
+A CLI program for notetaking following the [Zettelkasten Method](https://zettelkasten.de/).
