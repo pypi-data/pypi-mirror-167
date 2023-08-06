@@ -1,0 +1,17 @@
+paranet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paranet/__main__.py,sha256=WCdaBmd1o4dRXBW1mHUeN8H-qFD_NQBmNMmWgFkdDZE,403
+paranet/models.py,sha256=wej_V9jN9yi1iqFQ5To2YKEwGIEUau5m9PgwMHOzBMo,22588
+paranet/utils.py,sha256=RszWr9xYZdDb4WKfnxO80KD_q3unYvsXCtNnlvaLOYM,13977
+paranet/multivariate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paranet/multivariate/dists.py,sha256=Rav_1uUyQvLFawPrMPKpIx8HMg0OYzH24nM-yhEK75Q,15042
+paranet/multivariate/gradient.py,sha256=osLjy3fmnww0wVIKhdrIwotW0vfGS6BO7Oy7g0UQ5aQ,11575
+paranet/multivariate/multi_utils.py,sha256=IAenYRRFS8_aQkV-NAObFDcQf7Kx8b1NJoiO4HvBSig,2009
+paranet/univariate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paranet/univariate/dists.py,sha256=6NA_1SHtUbTYChAZnmDFzJlX5xdFK6XeyBVPqNIfSFU,11660
+paranet/univariate/gradient.py,sha256=OuJKTS6uqEd_e5PadxJoc8DUrEKBsVepHPZ9mlGpzxM,4297
+paranet/univariate/solvers_grad.py,sha256=kQKz68Jr_i8evWtpcj2nKaoo5wie-MoxP5_IkOz6bA8,5597
+paranet-0.1.4.dist-info/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+paranet-0.1.4.dist-info/METADATA,sha256=OQTh_a3OVWuqW7hwxdAmoNRzOvB0IGDlCpQlgBcXjAM,14598
+paranet-0.1.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+paranet-0.1.4.dist-info/top_level.txt,sha256=aePixFMJ6Ha6FfyEJkcJDZTMytvgX68bqsU5LC5fGmI,8
+paranet-0.1.4.dist-info/RECORD,,
