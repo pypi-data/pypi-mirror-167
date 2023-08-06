@@ -1,0 +1,86 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/fast-css-loader/lib/index.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./streamfield/static/streamfield/src/widget.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.stream-field__control {
+  display: none;
+}
+.stream-field__container {
+  padding-bottom: 5px;
+  min-height: 50px;
+}
+.stream-field__container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 0.25rem;
+  transition: opacity 0.3s;
+}
+.stream-field__toolbar {
+  padding-top: 10px;
+}
+.stream-field__block {
+  display: flex;
+  padding: 5px 5px 5px 0;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.25rem;
+}
+.stream-field__block:nth-of-type(n+2) {
+  margin-top: 10px;
+}
+.stream-field__block.sortable-ghost {
+  opacity: 0.75;
+  background-color: #feffd7;
+}
+.stream-field__block--invalid {
+  border-color: #e78b8b;
+}
+.stream-field__sortable-handler {
+  padding: 3px 0;
+  margin: -5px 0;
+  cursor: move;
+}
+.stream-field__sortable-icon {
+  width: 16px;
+  height: 100%;
+  background: url(/static/streamfield/dist/assets/sortable.svg);
+  background-size: contain;
+}
+.stream-field__title {
+  margin-left: 6px;
+}
+.stream-field__title--invalid {
+  color: #d04010;
+}
+.stream-field__tools {
+  margin-left: auto;
+}
+.stream-field__dropdown {
+  overflow: auto;
+  max-height: 210px;
+  border: 1px solid #444;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0 1px #444;
+}
+.stream-field__dropdown .dropdown-item:focus {
+  background-color: #e9ecef;
+  color: #1d1d1d;
+  box-shadow: none;
+}
+.stream-field__dropdown .dropdown-item:hover {
+  background-color: #79aec8;
+  color: #fff;
+  font-weight: 400;
+}
+.stream-field--loading .stream-field__container {
+  position: relative;
+}
+.stream-field--loading .stream-field__container:after {
+  z-index: auto;
+  opacity: 1;
+  background: rgba(240, 240, 240, 0.6901960784) url(/static/streamfield/dist/assets/spinner.svg) no-repeat center;
+}
