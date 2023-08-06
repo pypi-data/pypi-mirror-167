@@ -1,0 +1,49 @@
+---
+type: object
+properties:
+  partitions:
+    type: array
+    items:
+      type: object
+      properties: &raw_properties
+        name:
+          type: string
+        nodes:
+          type: integer
+        cores_per_node:
+          type: integer
+        concurrent_run:
+          type: integer
+        job_manager:
+          type: object
+          properties:
+            mintime:
+              type: integer
+            maxtime:
+              type: integer
+            allocate: &alloc_node
+              type: object
+              properties:
+                program: {"type": "string"}
+                args: {"type": "string"}
+                wrapper: {"type": "string"}
+              additionalProperties: false
+            run:
+              <<: *alloc_node
+            batch:
+              <<: *alloc_node
+          additionalProperties: false
+      additionalProperties: false
+
+  <<: *raw_properties
+  default_partition:
+    type: string
+  package_manager:
+    type: object
+    properties:
+      spack:
+        type: string
+      module:
+        type: string
+    additionalProperties: false
+additionalProperties: false
