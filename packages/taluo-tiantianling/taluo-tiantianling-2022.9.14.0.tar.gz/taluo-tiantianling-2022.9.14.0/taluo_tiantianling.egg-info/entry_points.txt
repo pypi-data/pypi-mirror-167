@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoTiantianling = TaluoTiantianling.__main__:main
+taluo-tiantianling = TaluoTiantianling.__main__:main
+
