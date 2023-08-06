@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/jd_HTMLTestRunner/HTMLTestRunner.py
+src/jd_HTMLTestRunner/__init__.py
+src/jd_HTMLTestRunner.egg-info/PKG-INFO
+src/jd_HTMLTestRunner.egg-info/SOURCES.txt
+src/jd_HTMLTestRunner.egg-info/dependency_links.txt
+src/jd_HTMLTestRunner.egg-info/top_level.txt
