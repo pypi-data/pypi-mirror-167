@@ -1,0 +1,6 @@
+django
+django-safe-fields
+django-changelist-toolbar-admin
+django-object-toolbar-admin
+magic-import
+fastutils
