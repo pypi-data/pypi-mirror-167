@@ -1,0 +1,7 @@
+click
+rich
+inquirerpy
+alive_progress
+
+[dev]
+black==22.*
