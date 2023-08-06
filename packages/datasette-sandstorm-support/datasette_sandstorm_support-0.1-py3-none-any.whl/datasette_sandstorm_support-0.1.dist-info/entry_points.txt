@@ -1,0 +1,2 @@
+[datasette]
+sandstorm_support = datasette_sandstorm_support
