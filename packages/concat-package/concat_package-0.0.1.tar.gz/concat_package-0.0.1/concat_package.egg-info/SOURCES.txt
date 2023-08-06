@@ -1,0 +1,8 @@
+README.md
+setup.py
+concat_package/__init__.py
+concat_package/uppercase_string.py
+concat_package.egg-info/PKG-INFO
+concat_package.egg-info/SOURCES.txt
+concat_package.egg-info/dependency_links.txt
+concat_package.egg-info/top_level.txt
