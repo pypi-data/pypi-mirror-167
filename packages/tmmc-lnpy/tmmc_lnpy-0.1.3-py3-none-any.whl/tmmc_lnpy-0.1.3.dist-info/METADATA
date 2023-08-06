@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: tmmc-lnpy
+Version: 0.1.3
+Summary: Analysis of lnPi results from TMMC simulation
+Home-page: https://github.com/wpk-nist-gov/tmmc-lnpy
+Author: William P. Krekelberg
+Author-email: wpk@nist.gov
+License: NIST license
+Keywords: TMMC
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: joblib
+Requires-Dist: bottleneck
+Requires-Dist: tqdm
+Requires-Dist: importlib-resources
+
+tmmc-lnpy
+=========
+
+Package to analyze :math:`\ln \Pi(N)` data from Transition Matrix Monte
+Carlo simulation.
+
+Links
+-----
+
+* `Github repo <https://github.com/usnistgov/tmmc-lnpy>`__
+* `Documentation <https://pages.nist.gov/tmmc-lnpy/>`__
+
+
+Installation
+------------
+
+From Source
+~~~~~~~~~~~
+
+.. code:: console
+
+   # * From pip
+   pip install tmmc-lnpy
+
+   # * From conda/mamba
+   conda install -c wpk-nist tmmc-lnpy
+
+   # * From Source
+   git clone {repo}
+   cd {repo}
+
+   # create needed environment
+   conda env create -n {optional-name] -f environment.yaml
+
+   # activate environment
+   conda activate {optional-name/lnpy-env (default)}
+
+   # install in development mode
+   pip install -e . --no-deps
+
+   # Optionally run tests.  This requires pytest
+   conda install pytest
+
+   pytest -x -v
+
+Quick Intro
+-----------
+
+Take a look at the `basic usage <https://github.com/usnistgov/tmmc-lnpy/blob/master/docs/notebooks/Basic_usage.ipynb>`__
+notebook for a quick introduction.
+
+Note that the distrubution name `tmmc-lnpy` is different than the package name `lnpy`, due to name conflicts on pypi.  To load the package in python, do the following:
+
+.. code:: python
+
+    import lnpy
+    import lnpy.examples
+
+    ref = lnpy.examples("lj_sup")
+
+
+Credits
+~~~~~~~
+
+This package was created with
+`Cookiecutter <https://github.com/audreyr/cookiecutter>`__ and the
+`wpk-nist-gov/cookiecutter-pypackage <https://github.com/wpk-nist-gov/cookiecutter-pypackage>`__
+Project template forked from
+`audreyr/cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__.
+
+=======
+History
+=======
+
+0.1.1 (2022-09-12)
+------------------
+
+* First release on PyPI.
+
+This software was developed by employees of the National Institute of Standards
+and Technology (NIST), an agency of the Federal Government. Pursuant to title 17
+United States Code Section 105, works of NIST employees are not subject to
+copyright protection in the United States and are considered to be in the public
+domain. Permission to freely use, copy, modify, and distribute this software and
+its documentation without fee is hereby granted, provided that this notice and
+disclaimer of warranty appears in all copies.
+
+THE SOFTWARE IS PROVIDED 'AS IS' WITHOUT ANY WARRANTY OF ANY KIND, EITHER
+EXPRESSED, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTY
+THAT THE SOFTWARE WILL CONFORM TO SPECIFICATIONS, ANY IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND FREEDOM FROM
+INFRINGEMENT, AND ANY WARRANTY THAT THE DOCUMENTATION WILL CONFORM TO THE
+SOFTWARE, OR ANY WARRANTY THAT THE SOFTWARE WILL BE ERROR FREE. IN NO EVENT
+SHALL NIST BE LIABLE FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO, DIRECT,
+INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES, ARISING OUT OF, RESULTING FROM, OR
+IN ANY WAY CONNECTED WITH THIS SOFTWARE, WHETHER OR NOT BASED UPON WARRANTY,
+CONTRACT, TORT, OR OTHERWISE, WHETHER OR NOT INJURY WAS SUSTAINED BY PERSONS OR
+PROPERTY OR OTHERWISE, AND WHETHER OR NOT LOSS WAS SUSTAINED FROM, OR AROSE OUT
+OF THE RESULTS OF, OR USE OF, THE SOFTWARE OR SERVICES PROVIDED HEREUNDER.
+
+Distributions of NIST software should also include copyright and licensing
+statements of any third-party software that are legally bundled with the code in
+compliance with the conditions of those licenses.
