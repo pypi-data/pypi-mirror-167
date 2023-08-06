@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jd-HTMLTestRunner"
+version = "1.7.0"
+authors = [
+  { name="wxg001", email="wxg001@21cn.com" },
+]
+description = "Python3 Unittest Runner -- HTMLTestRunner"
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = []
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pypi.org/project/jd-HTMLTestRunner/"
+"Bug Tracker" = "https://pypi.org/project/jd-HTMLTestRunner/"
