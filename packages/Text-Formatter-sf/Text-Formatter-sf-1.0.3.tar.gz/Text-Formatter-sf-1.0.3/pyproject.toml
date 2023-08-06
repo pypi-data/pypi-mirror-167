@@ -1,0 +1,31 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Text-Formatter-sf"
+version = "1.0.3"
+authors = [
+  { name="Daniel Lambert", email="daniel.lambert@deliveryhero.com" },
+]
+
+description = "A text formatting package for salesforce data engineers"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "wordninja",
+]
+
+[tool.setuptools]
+packages = ["salesforce_text_formatter"]
+package-dir = {"" = "src"}
+
+[project.urls]
+"Homepage" = "https://github.com/daniellambertdh/sf-text-formatter"

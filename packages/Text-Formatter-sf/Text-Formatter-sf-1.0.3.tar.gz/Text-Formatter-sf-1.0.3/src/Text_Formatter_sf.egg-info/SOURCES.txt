@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/Text_Formatter_sf.egg-info/PKG-INFO
+src/Text_Formatter_sf.egg-info/SOURCES.txt
+src/Text_Formatter_sf.egg-info/dependency_links.txt
+src/Text_Formatter_sf.egg-info/requires.txt
+src/Text_Formatter_sf.egg-info/top_level.txt
+src/salesforce_text_formatter/__init__.py
+src/salesforce_text_formatter/format.py
