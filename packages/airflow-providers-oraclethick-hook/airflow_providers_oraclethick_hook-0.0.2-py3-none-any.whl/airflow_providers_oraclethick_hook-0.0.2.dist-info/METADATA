@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: airflow-providers-oraclethick-hook
+Version: 0.0.2
+Summary: Thick driver initialization for oracledb Airflow hook
+Home-page: https://github.com/SVESoftware/airflow-providers-oraclethick
+Author: Drazen Nezic
+Author-email: info@trialogic.hr
+Project-URL: Bug Tracker, https://github.com/SVESoftware/airflow-providers-oraclethick/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# airflow-providers-oraclethick
+
+Provider for Oracle DB for Airflow 2.X. Just initializes thick client.
+Creates connection type OracleThick.
+
+
+Build and install locally:
+
+```
+python3 -m build
+
+pip install airflow-providers-oraclethick-hook --no-index --find-links file:///<path>/git/airflow_provider_oracle_thick/dist/
+```
+
+Start airflow:
+
+```
+airflow webserver
+```
+
+Check if provider is registered and if new connection type has appeared.
+
+Install:
+
+```
+pip install airflow-providers-oraclethick-hook
+```
