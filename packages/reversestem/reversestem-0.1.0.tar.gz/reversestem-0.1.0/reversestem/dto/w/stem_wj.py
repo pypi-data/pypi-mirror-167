@@ -1,0 +1,42 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_wj = {'wja': {'wjas': []},
+ 'wjame': {'wjames': []},
+ 'wjdeli': {'wjdely': []},
+ 'wjhatev': {'wjhatever': []},
+ 'wjhenev': {'wjhenever': []},
+ 'wjherea': {'wjhereas': []},
+ 'wjherev': {'wjherever': []},
+ 'wji': {'wjis': [], 'wjy': []},
+ 'wjier': {'wjiere': []},
+ 'wjierea': {'wjiereas': []},
+ 'wjiil': {'wjiile': []},
+ 'wjiit': {'wjiite': []},
+ 'wjiol': {'wjiole': []},
+ 'wjios': {'wjiose': []},
+ 'wjite': {'wjiting': []},
+ 'wjiter': {'wjiters': []},
+ 'wjj': {'wjjs': []},
+ 'wjk': {'wjks': []},
+ 'wjl': {'wjls': []},
+ 'wjlkin': {'wjlkins': []},
+ 'wjlliam': {'wjlliams': []},
+ 'wjm': {'wjms': []},
+ 'wjnd': {'wjnds': []},
+ 'wjndow': {'wjndows': []},
+ 'wjng': {'wjngs': []},
+ 'wjone': {'wjones': []},
+ 'wjord': {'wjords': []},
+ 'wjork': {'wjorks': []},
+ 'wjrd': {'wjrds': []},
+ 'wjre': {'wjres': []},
+ 'wjrite': {'wjriting': []},
+ 'wjrk': {'wjrks': []},
+ 'wjshe': {'wjshes': []},
+ 'wjt': {'wjts': []},
+ 'wjve': {'wjves': []},
+ 'wjzi': {'wjzy': []}}
+        

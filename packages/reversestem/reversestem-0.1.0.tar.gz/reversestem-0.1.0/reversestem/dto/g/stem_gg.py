@@ -1,0 +1,40 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_gg = {'gga': {'ggas': []},
+ 'ggar': {'ggars': []},
+ 'ggarett': {'ggarette': ['ggarettes']},
+ 'ggarette': ['ggarettes'],
+ 'ggb': {'ggbs': []},
+ 'ggbf': {'ggbfs': []},
+ 'ggc': {'ggcs': []},
+ 'gge': {'gges': []},
+ 'ggeenneerraal': {'ggeenneerraall': []},
+ 'ggener': {'ggeneral': []},
+ 'gger': {'ggers': []},
+ 'ggerat': {'ggerated': []},
+ 'ggere': {'ggered': []},
+ 'ggest': {'ggested': [], 'ggesting': [], 'ggests': []},
+ 'ggestion': {'ggestions': []},
+ 'ggf': {'ggfs': []},
+ 'ggg': {'gggs': []},
+ 'gggg': {'ggggs': []},
+ 'ggi': {'ggy': []},
+ 'ggin': {'ggins': []},
+ 'ggle': {'ggles': []},
+ 'ggli': {'ggly': []},
+ 'ggo': {'ggos': []},
+ 'ggod': {'ggods': []},
+ 'ggp': {'ggps': []},
+ 'ggravat': {'ggravated': []},
+ 'ggregat': {'ggregate': ['ggregates'], 'ggregation': []},
+ 'ggregate': ['ggregates'],
+ 'ggressiv': {'ggressive': ['ggressiveness']},
+ 'ggressive': ['ggressiveness'],
+ 'ggsn': {'ggsns': []},
+ 'ggt': {'ggts': []},
+ 'ggure': {'ggures': []},
+ 'ggv': {'ggvs': []}}
+        

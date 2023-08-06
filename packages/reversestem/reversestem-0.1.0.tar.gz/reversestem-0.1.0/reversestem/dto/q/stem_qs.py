@@ -1,0 +1,41 @@
+
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+# AUTO-GENERATED CONTENT
+d_stem_qs = {'qsa': {'qsas': []},
+ 'qsaliti': {'qsality': []},
+ 'qsar': {'qsars': []},
+ 'qsb': {'qsbs': []},
+ 'qsborn': {'qsborne': []},
+ 'qscolampadiu': {'qscolampadius': []},
+ 'qsdipu': {'qsdipus': []},
+ 'qse': {'q': []},
+ 'qship': {'qships': []},
+ 'qsi': {'qsy': ['qsys']},
+ 'qsiri': {'qsiris': []},
+ 'qsl': {'qsls': []},
+ 'qslob': {'qslobs': []},
+ 'qsnero': {'qsneros': []},
+ 'qso': {'qsos': []},
+ 'qsort': {'qsorts': []},
+ 'qsourc': {'qsource': []},
+ 'qsp': {'qsps': []},
+ 'qspe': {'qspes': []},
+ 'qspr': {'qsprs': []},
+ 'qsr': {'qsrs': []},
+ 'qssori': {'qssory': []},
+ 'qsst': {'qssts': []},
+ 'qst': {'qsts': []},
+ 'qsta': {'qstas': []},
+ 'qstercian': {'qstercians': []},
+ 'qsterreich': {'qsterreichs': []},
+ 'qsterreichisch': {'qsterreichische': []},
+ 'qstp': {'qstps': []},
+ 'qsub': {'qsubs': []},
+ 'qsupp': {'qsupps': []},
+ 'qsuvr': {'qsuvre': ['qsuvres']},
+ 'qsuvre': ['qsuvres'],
+ 'qswitch': {'qswitched': [], 'qswitches': [], 'qswitching': []},
+ 'qsy': ['qsys']}
+        
