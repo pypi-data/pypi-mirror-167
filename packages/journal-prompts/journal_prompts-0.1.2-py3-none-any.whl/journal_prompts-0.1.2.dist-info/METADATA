@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: journal-prompts
+Version: 0.1.2
+Summary: Corpus of Random Journal Prompts
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Requires-Python: ==3.8.5
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: baseblock
