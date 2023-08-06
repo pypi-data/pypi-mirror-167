@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sufiyakacalci/__init__.py
+sufiyakacalci.egg-info/PKG-INFO
+sufiyakacalci.egg-info/SOURCES.txt
+sufiyakacalci.egg-info/dependency_links.txt
+sufiyakacalci.egg-info/top_level.txt
