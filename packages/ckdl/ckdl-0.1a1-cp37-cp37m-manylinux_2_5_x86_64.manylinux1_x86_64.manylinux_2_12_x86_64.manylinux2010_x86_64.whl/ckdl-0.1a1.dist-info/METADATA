@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ckdl
+Version: 0.1a1
+Summary: KDL parser and writer
+Home-page: https://github.com/tjol/ckdl.git
+Author: Thomas Jollans
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: COPYING
+
