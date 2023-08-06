@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyself
+Version: 0.0.0
+Summary: A python interface for the Spectral Element Library in Fortran
+Home-page: https://github.com/fluidnumerics/pyself
+Author: Dr. Joe Schoonover
+Author-email: joe@fluidnumerics.com
+License: Researcher Software License
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+

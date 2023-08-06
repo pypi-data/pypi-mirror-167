@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyself.egg-info/PKG-INFO
+pyself.egg-info/SOURCES.txt
+pyself.egg-info/dependency_links.txt
+pyself.egg-info/requires.txt
+pyself.egg-info/top_level.txt
+self/__init__.py
+self/geometry.py
+self/lagrange.py
+self/model2d.py
