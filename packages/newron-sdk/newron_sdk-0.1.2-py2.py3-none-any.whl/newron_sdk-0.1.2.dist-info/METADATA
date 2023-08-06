@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: newron-sdk
+Version: 0.1.2
+Summary: NewronAI: Machine Learning, Made Simple. Client SDK for Newron AI
+Home-page: https://newron.ai
+Author: Newron AI
+Author-email: hello@newron.ai
+License: Apache License
+Project-URL: Documentation, https://docs.newron.ai/
+Project-URL: Source, https://github.com/NewronAI/NewronSDK/
+Project-URL: Tracker, https://github.com/NewronAI/NewronSDK/issues
+Keywords: mlops,experiment,tracking,deployments,mlflow
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: mlflow
+
+UNKNOWN
+
