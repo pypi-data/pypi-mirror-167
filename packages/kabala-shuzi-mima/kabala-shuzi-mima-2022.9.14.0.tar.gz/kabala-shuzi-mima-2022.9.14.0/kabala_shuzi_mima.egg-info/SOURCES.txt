@@ -1,0 +1,12 @@
+README.md
+setup.py
+KabalaShuziMima/README.md
+KabalaShuziMima/__init__.py
+KabalaShuziMima/__main__.py
+KabalaShuziMima/file.pdf
+KabalaShuziMima/index.html
+kabala_shuzi_mima.egg-info/PKG-INFO
+kabala_shuzi_mima.egg-info/SOURCES.txt
+kabala_shuzi_mima.egg-info/dependency_links.txt
+kabala_shuzi_mima.egg-info/entry_points.txt
+kabala_shuzi_mima.egg-info/top_level.txt

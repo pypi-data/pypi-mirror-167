@@ -1,0 +1,4 @@
+[console_scripts]
+KabalaShuziMima = KabalaShuziMima.__main__:main
+kabala-shuzi-mima = KabalaShuziMima.__main__:main
+
