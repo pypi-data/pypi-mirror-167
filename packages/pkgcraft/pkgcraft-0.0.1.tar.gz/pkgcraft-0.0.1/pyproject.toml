@@ -1,0 +1,21 @@
+[build-system]
+requires = ["cython~=0.29.30", "setuptools>=62", "setuptools_scm[toml]>=7", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/pkgcraft/__version__.py"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.cibuildwheel]
+build = ["cp39-manylinux_x86_64", "cp310-manylinux_x86_64", "cp311-manylinux_x86_64"]
+build-verbosity = 1
+manylinux-x86_64-image = "manylinux_2_28"
+test-requires = "pytest"
+test-command = "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest {package}/tests"
+
+[tool.cibuildwheel.linux]
+before-all = "{package}/.github/buildlib"

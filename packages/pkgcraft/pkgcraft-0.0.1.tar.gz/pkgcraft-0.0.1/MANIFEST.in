@@ -1,0 +1,4 @@
+# all vcs-tracked files are auto-included by setuptools_scm
+recursive-include src/pkgcraft *.c
+exclude .gitignore
+prune .github
