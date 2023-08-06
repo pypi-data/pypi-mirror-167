@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vuw-info
+Version: 0.0.2
+Summary: Python Information
+Author: Hazzahs
+Author-email: 
+License: UNKNOWN
+Keywords: python,information,osint,pentester,ngoto
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: gspread
+Requires-Dist: pywin32
+Requires-Dist: pycryptodome
+
+UNKNOWN
+
