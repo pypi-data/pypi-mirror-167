@@ -1,0 +1,8 @@
+ooquery
+semver
+lxml
+python-sql
+tqdm
+click
+pip
+osconf
