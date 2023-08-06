@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: data-serialize
+Version: 0.0.4
+Summary: data serialize
+Home-page: https://github.com/ssbuild/fastdatasets
+Author: ssbuild
+Author-email: 9727464@qq.com
+License: MIT
+Keywords: data_serialize,serialize,deserialize
+Description-Content-Type: text/markdown
+Requires-Dist: protobuf
+
+# data_serialize
+
+This library allows reading and writing binary to string 
+
+## Installation
+
+```pip3 install data_serialize```
+
+
+## serialize and deserialize
+
+```python
+import data_serialize
+
+
+def test_feature():
+    val1 = data_serialize.Int64List(value =[1,2,3] * 20)
+    val2 = data_serialize.FloatList(value =[1,2,3] * 20)
+    val3 = data_serialize.BytesList(value = [b'The china', b'boy'])
+    featrue = data_serialize.Features(feature=
+        {
+            "item_0": data_serialize.Feature(int64_list = val1),
+            "item_1": data_serialize.Feature(float_list = val2),
+            "item_2": data_serialize.Feature(bytes_list = val3)
+        }
+    )
+    example = data_serialize.Example(features=featrue)
+    print(example.SerializeToString())
+
+    cls = data_serialize.Example()
+    cls.ParseFromString(example.SerializeToString())
+    print(cls)
+
+test_feature()
+
+
+```
+
