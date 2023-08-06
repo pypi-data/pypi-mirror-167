@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>irbempy - Python interface to IRBEM library &#8212; SpacePy v0.4.1 Manual</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/default.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="_static/spacepy_favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="spacepy.irbempy.get_AEP8" href="autosummary/spacepy.irbempy.get_AEP8.html" />
+    <link rel="prev" title="spacepy.igrf.IGRF" href="autosummary/spacepy.igrf.IGRF.html" /> 
+  </head><body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="index.html"><img src="_static/spacepy_logo.jpg" border="0" alt="spacepy_logo"/></a>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="autosummary/spacepy.irbempy.get_AEP8.html" title="spacepy.irbempy.get_AEP8"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="autosummary/spacepy.igrf.IGRF.html" title="spacepy.igrf.IGRF"
+             accesskey="P">previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="search.html">search</a>|&nbsp;</li>
+       <li><a href="index.html">documentation </a> &raquo;</li>
+
+        <li class="nav-item nav-item-this"><a href="">irbempy - Python interface to IRBEM library</a></li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">irbempy - Python interface to IRBEM library</a><ul>
+<li><a class="reference internal" href="#options">Options</a></li>
+<li><a class="reference internal" href="#extmag">extMag</a></li>
+<li><a class="reference internal" href="#authors">Authors</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="autosummary/spacepy.igrf.IGRF.html"
+                          title="previous chapter">spacepy.igrf.IGRF</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="autosummary/spacepy.irbempy.get_AEP8.html"
+                          title="next chapter">spacepy.irbempy.get_AEP8</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/irbempy.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="module-spacepy.irbempy">
+<span id="irbempy-python-interface-to-irbem-library"></span><h1>irbempy - Python interface to IRBEM library<a class="headerlink" href="#module-spacepy.irbempy" title="Permalink to this heading">¶</a></h1>
+<p>module wrapper for irbem_lib
+Reference for this library
+<a class="reference external" href="https://sourceforge.net/projects/irbem/">https://sourceforge.net/projects/irbem/</a>
+D. Boscher, S. Bourdarie, P. O’Brien, T. Guild, IRBEM library V4.3, 2004-2008</p>
+<p>Most functions in this module use an options list to define the models used and the settings
+that define the quality level of the result. The options list is a 5-element list and is defined
+as follows.</p>
+<section id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>1st element: 0 - don’t compute L* or phi ;  1 - compute L*; 2- compute phi</p></li>
+<li><dl class="simple">
+<dt>2nd element: 0 - initialize IGRF field once per year (year.5);  </dt><dd><p>n - n is the  frequency (in days) starting on January 1st of each year 
+(i.e. if options(2nd element)=15 then IGRF will be updated on the following days of the 
+year: 1, 15, 30, 45 …)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>3rd element: resolution to compute L* (0 to 9) where 0 is the recomended value to ensure a </dt><dd><p>good ratio precision/computation time
+(i.e. an error of ~2% at L=6). The higher the value the better will be the precision, the 
+longer will be the computing time. Generally there is not much improvement for values 
+larger than 4. Note that this parameter defines the integration step (theta) 
+along the field line such as dtheta=(2pi)/(720*[options(3rd element)+1])</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>4th element: resolution to compute L* (0 to 9). The higher the value the better will be </dt><dd><p>the precision, the longer will be 
+the computing time. It is recommended to use 0 (usually sufficient) unless L* is not 
+computed on a LEO orbit. For LEO orbit higher values are recommended. Note that this 
+parameter defines the integration step (phi) along the drift shell such as 
+dphi=(2pi)/(25*[options(4th element)+1])</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>5th element: allows to select an internal magnetic field model (default is set to IGRF)</dt><dd><ul>
+<li><p>0 = IGRF</p></li>
+<li><p>1 = Eccentric tilted dipole</p></li>
+<li><p>2 = Jensen&amp;Cain 1960</p></li>
+<li><p>3 = GSFC 12/66 updated to 1970</p></li>
+<li><p>4 = User-defined model (Default: Centred dipole + uniform [Dungey open model] )</p></li>
+<li><p>5 = Centred dipole</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+<p>The routines also require specification of the external magnetic field model. The default is the
+Tsyganenko 2001 storm-time model. The external model is always specified using the extMag keyword
+and the following options exist.</p>
+</section>
+<section id="extmag">
+<h2>extMag<a class="headerlink" href="#extmag" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>‘0’ = No external field model</p></li>
+<li><p>‘MEAD’ = Mead and Fairfield</p></li>
+<li><p>‘T87SHORT’ = Tsyganenko 1987 short (inner magnetosphere)</p></li>
+<li><p>‘T87LONG’ = Tsyganenko 1987 long (valid in extended tail region)</p></li>
+<li><p>‘T89’ = Tsyganenko 1989</p></li>
+<li><p>‘OPQUIET’ = Olsen-Pfitzer static model for quiet conditions</p></li>
+<li><p>‘OPDYN’ = Olsen-Pfitzer static model for active conditions</p></li>
+<li><p>‘T96’ = Tsyganenko 1996</p></li>
+<li><p>‘OSTA’ = Ostapenko and Maltsev</p></li>
+<li><p>‘T01QUIET’ = Tsyganenko 2001 model for quiet conditions</p></li>
+<li><p>‘T01STORM’ = Tsyganenko 2001 model for active conditions</p></li>
+<li><p>‘T05’ = Tsyganenko and Sitnov 2005 model</p></li>
+<li><p>‘ALEX’ = Alexeev model</p></li>
+<li><p>‘TS07’ = Tsyganenko and Sitnov 2007 model</p></li>
+</ul>
+</div></blockquote>
+<p>Many of these models have limits placed on the valid range of input parameters,
+and outside these limits invalid (NaN) values will be returned.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>MEAD      : Mead &amp; Fairfield [1975] (uses 0&lt;=Kp&lt;=9 - Valid for rGEO&lt;=17. Re)</p></li>
+<li><p>T87SHORT: Tsyganenko short [1987] (uses 0&lt;=Kp&lt;=9 - Valid for rGEO&lt;=30. Re)</p></li>
+<li><p>T87LONG : Tsyganenko long [1987] (uses 0&lt;=Kp&lt;=9 - Valid for rGEO&lt;=70. Re)</p></li>
+<li><p>T89        : Tsyganenko [1989] (uses 0&lt;=Kp&lt;=9 - Valid for rGEO&lt;=70. Re)</p></li>
+<li><p>OPQUIET : Olson &amp; Pfitzer quiet [1977] (default - Valid for rGEO&lt;=15. Re)</p></li>
+<li><dl class="simple">
+<dt>OPDYN<span class="classifier">Olson &amp; Pfitzer dynamic [1988] (uses 5.&lt;=dens&lt;=50., 300.&lt;=velo&lt;=500.,</span></dt><dd><p>-100.&lt;=Dst&lt;=20. - Valid for rGEO&lt;=60. Re)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>T96<span class="classifier">Tsyganenko [1996] (uses -100.&lt;=Dst (nT)&lt;=20., 0.5&lt;=Pdyn (nPa)&lt;10.,</span></dt><dd><p><a href="#id1"><span class="problematic" id="id2">|ByIMF|</span></a> (nT)&lt;1=0., <a href="#id3"><span class="problematic" id="id4">|BzIMF|</span></a> (nT)&lt;=10. - Valid for rGEO&lt;=40. Re)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>OSTA<span class="classifier">Ostapenko &amp; Maltsev [1997] (uses dst,Pdyn,BzIMF, Kp)</span></dt><dd><p>T01QUIET: Tsyganenko [2002a,b] (uses -50.&lt;Dst (nT)&lt;20., 0.5&lt;Pdyn (nPa)&lt;=5.,
+<a href="#id5"><span class="problematic" id="id6">|ByIMF|</span></a> (nT)&lt;=5., <a href="#id7"><span class="problematic" id="id8">|BzIMF|</span></a> (nT)&lt;=5., 0.&lt;=G1&lt;=10., 0.&lt;=G2&lt;=10. - Valid for xGSM&gt;=-15. Re)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>T01STORM: Tsyganenko, Singer &amp; Kasper [2003] storm  (uses Dst, Pdyn, ByIMF, BzIMF, G2, G3 -</dt><dd><p>there is no upper or lower limit for those inputs - Valid for xGSM&gt;=-15. Re)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>T05<span class="classifier">Tsyganenko &amp; Sitnov [2005] storm  (uses Dst, Pdyn, ByIMF, BzIMF,</span></dt><dd><p>W1, W2, W3, W4, W5, W6 - no upper or lower limit for inputs - Valid for xGSM&gt;=-15. Re)</p>
+</dd>
+</dl>
+</li>
+<li><p>TS07   : Tsyganenko and Sitnov [2007] model. Uses specially calculated coefficient files.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="authors">
+<h2>Authors<a class="headerlink" href="#authors" title="Permalink to this heading">¶</a></h2>
+<p>Josef Koller, Steve Morley</p>
+<p>Copyright 2010 Los Alamos National Security, LLC.</p>
+</section>
+<p>This module provides a Python interface to the IRBEM (formerly known
+as ONERA-DESP) library.</p>
+<p>Reference for this library <a class="reference external" href="https://github.com/PRBEM/IRBEM">https://github.com/PRBEM/IRBEM</a></p>
+<p>D. Boscher, S. Bourdarie, P. O’Brien, T. Guild, IRBEM library V4.3, 2004-2008</p>
+<p>Authors: Josef Koller, Steve Morley</p>
+<p>Copyright 2010 Los Alamos National Security, LLC.</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.get_AEP8.html#spacepy.irbempy.get_AEP8" title="spacepy.irbempy.get_AEP8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_AEP8</span></code></a>(energy, loci[, model, fluxtype, ...])</p></td>
+<td><p>will return the flux from the AE8-AP8 model</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.get_Bfield.html#spacepy.irbempy.get_Bfield" title="spacepy.irbempy.get_Bfield"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_Bfield</span></code></a>(ticks, loci[, extMag, options, ...])</p></td>
+<td><p>call get_bfield in irbem lib and return a dictionary with the B-field vector and strenght.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.get_Lm.html#spacepy.irbempy.get_Lm" title="spacepy.irbempy.get_Lm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_Lm</span></code></a>(ticks, loci, alpha[, extMag, intMag, ...])</p></td>
+<td><p>Return the MacIlwain L value for a given location, time and model</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.get_Lstar.html#spacepy.irbempy.get_Lstar" title="spacepy.irbempy.get_Lstar"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_Lstar</span></code></a>(ticks, loci[, alpha, extMag, ...])</p></td>
+<td><p>This will call make_lstar1 or make_lstar_shell_splitting_1 from the irbem library and will lookup omni values for given time if not provided (optional).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.find_Bmirror.html#spacepy.irbempy.find_Bmirror" title="spacepy.irbempy.find_Bmirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_Bmirror</span></code></a>(ticks, loci, alpha[, extMag, ...])</p></td>
+<td><p>call find_mirror_point from irbem library and return a dictionary with values for Blocal, Bmirr and the GEO (cartesian) coordinates of the mirror point</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.find_footpoint.html#spacepy.irbempy.find_footpoint" title="spacepy.irbempy.find_footpoint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_footpoint</span></code></a>(ticks, loci[, extMag, ...])</p></td>
+<td><p>call find_foot_point1 from irbem library and return a dictionary with values for Bmin and the GEO (cartesian) coordinates of the magnetic equator</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.find_magequator.html#spacepy.irbempy.find_magequator" title="spacepy.irbempy.find_magequator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_magequator</span></code></a>(ticks, loci[, extMag, ...])</p></td>
+<td><p>call find_magequator from irbem library and return a dictionary with values for Bmin and the GEO (cartesian) coordinates of the magnetic equator</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.coord_trans.html#spacepy.irbempy.coord_trans" title="spacepy.irbempy.coord_trans"><code class="xref py py-obj docutils literal notranslate"><span class="pre">coord_trans</span></code></a>(loci, returntype, returncarsph)</p></td>
+<td><p>thin layer to call coor_trans1 from irbem lib this will convert between systems GDZ, GEO, GSM, GSE, SM, GEI, MAG, SPH, RLL</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.get_dtype.html#spacepy.irbempy.get_dtype" title="spacepy.irbempy.get_dtype"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_dtype</span></code></a>(sysaxes)</p></td>
+<td><p>will return the coordinate system type as string</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="autosummary/spacepy.irbempy.prep_irbem.html#spacepy.irbempy.prep_irbem" title="spacepy.irbempy.prep_irbem"><code class="xref py py-obj docutils literal notranslate"><span class="pre">prep_irbem</span></code></a>([ticks, loci, alpha, extMag, ...])</p></td>
+<td><p>Prepare inputs for direct IRBEM-LIB calls.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="autosummary/spacepy.irbempy.get_AEP8.html" title="spacepy.irbempy.get_AEP8"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="autosummary/spacepy.igrf.IGRF.html" title="spacepy.igrf.IGRF"
+             >previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="search.html">search</a>|&nbsp;</li>
+       <li><a href="index.html">documentation </a> &raquo;</li>
+
+        <li class="nav-item nav-item-this"><a href="">irbempy - Python interface to IRBEM library</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011-2022, The SpacePy Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.0.2.
+    </div>
+  </body>
+</html>

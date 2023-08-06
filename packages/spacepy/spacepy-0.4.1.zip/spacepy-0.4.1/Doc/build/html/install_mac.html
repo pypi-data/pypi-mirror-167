@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>MacOS Installation &#8212; SpacePy v0.4.1 Manual</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/default.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="_static/spacepy_favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Windows Installation" href="install_windows.html" />
+    <link rel="prev" title="Linux Installation" href="install_linux.html" /> 
+  </head><body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="index.html"><img src="_static/spacepy_logo.jpg" border="0" alt="spacepy_logo"/></a>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="install_windows.html" title="Windows Installation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="install_linux.html" title="Linux Installation"
+             accesskey="P">previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="search.html">search</a>|&nbsp;</li>
+       <li><a href="index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="install.html" accesskey="U">Installing SpacePy</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">MacOS Installation</a></li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">MacOS Installation</a><ul>
+<li><a class="reference internal" href="#conda-installation">Conda installation</a></li>
+<li><a class="reference internal" href="#macports-installation">MacPorts installation</a></li>
+<li><a class="reference internal" href="#cdf">CDF</a></li>
+<li><a class="reference internal" href="#xcode-installation">Xcode installation</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="install_linux.html"
+                          title="previous chapter">Linux Installation</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="install_windows.html"
+                          title="next chapter">Windows Installation</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/install_mac.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="macos-installation">
+<h1>MacOS Installation<a class="headerlink" href="#macos-installation" title="Permalink to this heading">¶</a></h1>
+<p>Unless otherwise noted, the commands in these instructions are run
+from the MacOS terminal (command line).</p>
+<p>Installation requires a working Python environment and compilers. The
+two common ways to achieve this are via <a class="reference internal" href="#install-mac-conda"><span class="std std-ref">conda</span></a>
+or via <a class="reference internal" href="#install-mac-macports"><span class="std std-ref">MacPorts</span></a>. As a weak recommendation
+for choosing between them, conda may be better if your main focus is
+running Python and you need conda’s easy support for multiple Python
+environments; MacPorts may be better if you want to use many of the other
+open source tools provided in MacPorts.</p>
+<p>Binary installers for SpacePy on Mac are in preparation for a future
+release.</p>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#conda-installation" id="id2">Conda installation</a></p></li>
+<li><p><a class="reference internal" href="#macports-installation" id="id3">MacPorts installation</a></p></li>
+<li><p><a class="reference internal" href="#cdf" id="id4">CDF</a></p></li>
+<li><p><a class="reference internal" href="#xcode-installation" id="id5">Xcode installation</a></p></li>
+</ul>
+</nav>
+<section id="conda-installation">
+<span id="install-mac-conda"></span><h2><a class="toc-backref" href="#id2" role="doc-backlink">Conda installation</a><a class="headerlink" href="#conda-installation" title="Permalink to this heading">¶</a></h2>
+<p>Our recommendation for <a class="reference external" href="https://docs.anaconda.com/anaconda/">Anaconda</a> is to use Python 3 and 64-bit
+binaries. Follow the directions to install conda and set up an
+environment; a minimal setup can be had by downloading the latest
+<a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a>. Double-click the
+miniconda pkg and run through the installation process, choosing
+“install for me only”. Then, at the terminal:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">source</span> <span class="o">~/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span>
+</pre></div>
+</div>
+<p>You will now be in an active conda environment. (Note: the
+installation will modify your <code class="docutils literal notranslate"><span class="pre">.zprofile</span></code> file.)</p>
+<p>Compiling under conda <a class="reference external" href="https://stackoverflow.com/questions/69236331/conda-macos-big-sur-ld-unsupported-tapi-file-type-tapi-tbd-in-yaml-file/">requires the MacOS 10.9 SDK</a>
+on Intel (x86_64) Macs and <a class="reference external" href="https://conda-forge.org/blog/posts/2020-10-29-macos-arm64/">11.0 on Apple Silicon</a>
+(ARM/M1/M2). It can be downloaded <a class="reference external" href="https://github.com/phracker/MacOSX-SDKs/releases">here</a> (choose
+“MacOSX10.9.sdk.tar.xz” or “MacOSX11.0.sdk.tar.xz”). Uncompress it
+into <code class="docutils literal notranslate"><span class="pre">opt</span></code>, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">tar</span> <span class="n">xf</span> <span class="o">~/</span><span class="n">Downloads</span><span class="o">/</span><span class="n">MacOSX10</span><span class="mf">.9</span><span class="o">.</span><span class="n">sdk</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">xz</span> <span class="o">-</span><span class="n">C</span> <span class="o">/</span><span class="n">opt</span>
+</pre></div>
+</div>
+<p>Install the Fortran compiler:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">gfortran</span>
+</pre></div>
+</div>
+<p>If you do not have Xcode installed, you will be prompted with a
+message like “The xcrun command requires the command line developer
+tools.” Accept the installation and allow it to finish before
+continuing.</p>
+<p>You may optionally install SpacePy dependencies via conda (otherwise
+they will be installed via <code class="docutils literal notranslate"><span class="pre">pip</span></code>):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">numpy</span> <span class="n">scipy</span> <span class="n">matplotlib</span> <span class="n">h5py</span>
+</pre></div>
+</div>
+<p>Finally, install SpacePy:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SDKROOT</span><span class="o">=/</span><span class="n">opt</span><span class="o">/</span><span class="n">MacOSX10</span><span class="mf">.9</span><span class="o">.</span><span class="n">sdk</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">spacepy</span>  <span class="c1"># Intel</span>
+<span class="n">SDKROOT</span><span class="o">=/</span><span class="n">opt</span><span class="o">/</span><span class="n">MacOSX11</span><span class="mf">.0</span><span class="o">.</span><span class="n">sdk</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">spacepy</span>  <span class="c1"># ARM</span>
+</pre></div>
+</div>
+<p>If you’re installing as a single user (not in a virtual environment) then
+add the <code class="docutils literal notranslate"><span class="pre">--user</span></code> flag.</p>
+<p>You will also need the <a class="reference internal" href="#install-mac-cdf"><span class="std std-ref">NASA CDF library</span></a> to use
+<a class="reference internal" href="pycdf.html#module-spacepy.pycdf" title="spacepy.pycdf"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pycdf</span></code></a>.</p>
+</section>
+<section id="macports-installation">
+<span id="install-mac-macports"></span><h2><a class="toc-backref" href="#id3" role="doc-backlink">MacPorts installation</a><a class="headerlink" href="#macports-installation" title="Permalink to this heading">¶</a></h2>
+<p>You may install <a class="reference internal" href="#install-mac-xcode"><span class="std std-ref">the full Xcode suite</span></a> and
+follow the <a class="reference external" href="https://guide.macports.org/">MacPorts guide</a>; however,
+these directions should suffice to install a working Python and
+SpacePy.</p>
+<p>Installing the Xcode command line tools is recommended before proceeding:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">--</span><span class="n">install</span>
+</pre></div>
+</div>
+<p>Download the <a class="reference external" href="https://www.macports.org/install.php">MacPorts installer</a> and double-click the pkg to
+perform the installation. (Note this modifies your <code class="docutils literal notranslate"><span class="pre">.zprofile</span></code>
+environment file.)</p>
+<p>Install Python and the needed compilers. You need to specify a
+version; at this time, Python 3.9 and gcc 11 are reasonable choices:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">port</span> <span class="n">install</span> <span class="n">gcc11</span>  <span class="c1"># Includes gfortran</span>
+<span class="n">sudo</span> <span class="n">port</span> <span class="n">install</span> <span class="n">python39</span>
+<span class="n">sudo</span> <span class="n">port</span> <span class="n">install</span> <span class="n">py39</span><span class="o">-</span><span class="n">pip</span>
+<span class="c1"># Installing the following is optional; pip will automatically install</span>
+<span class="n">sudo</span> <span class="n">port</span> <span class="n">install</span> <span class="n">py39</span><span class="o">-</span><span class="n">numpy</span> <span class="n">py39</span><span class="o">-</span><span class="n">scipy</span> <span class="n">py39</span><span class="o">-</span><span class="n">h5py</span> <span class="n">py39</span><span class="o">-</span><span class="n">matplotlib</span>
+</pre></div>
+</div>
+<p>If you have not already installed the Xcode command line tools, you
+will be prompted to do so. In that case, it is suggested to accept the
+tools installation, and then quit the port command and restart once
+the tools are installed.</p>
+<p>To install via <code class="docutils literal notranslate"><span class="pre">pip</span></code>, default versions of Python and gcc must be set:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">port</span> <span class="n">select</span> <span class="o">--</span><span class="nb">set</span> <span class="n">python</span> <span class="n">python39</span>
+<span class="n">rehash</span> <span class="c1">#recalculate the pathing to not get system python</span>
+<span class="n">sudo</span> <span class="n">port</span> <span class="n">select</span> <span class="o">--</span><span class="nb">set</span> <span class="n">python3</span> <span class="n">python39</span>
+<span class="n">sudo</span> <span class="n">port</span> <span class="n">select</span> <span class="o">--</span><span class="nb">set</span> <span class="n">pip</span> <span class="n">pip39</span>
+<span class="n">sudo</span> <span class="n">port</span> <span class="n">select</span> <span class="o">--</span><span class="nb">set</span> <span class="n">gcc</span> <span class="n">mp</span><span class="o">-</span><span class="n">gcc11</span>
+</pre></div>
+</div>
+<p>Then you can install SpacePy:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">spacepy</span>
+</pre></div>
+</div>
+<p>If you’re installing as a single user (not in a virtual environment) then
+add the <code class="docutils literal notranslate"><span class="pre">--user</span></code> flag.</p>
+<p>You will also need the <a class="reference internal" href="#install-mac-cdf"><span class="std std-ref">NASA CDF library</span></a> to use
+<a class="reference internal" href="pycdf.html#module-spacepy.pycdf" title="spacepy.pycdf"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pycdf</span></code></a>.</p>
+<p>If you are installing from a source distribution, you can specify the
+compiler at install time instead of using <code class="docutils literal notranslate"><span class="pre">port</span> <span class="pre">select</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span><span class="mf">.9</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span> <span class="o">--</span><span class="n">fcompiler</span><span class="o">=</span><span class="n">gnu95</span> <span class="o">--</span><span class="n">f90exec</span><span class="o">=/</span><span class="n">opt</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">gfortran</span><span class="o">-</span><span class="n">mp</span><span class="o">-</span><span class="mi">11</span>
+</pre></div>
+</div>
+</section>
+<section id="cdf">
+<span id="install-mac-cdf"></span><h2><a class="toc-backref" href="#id4" role="doc-backlink">CDF</a><a class="headerlink" href="#cdf" title="Permalink to this heading">¶</a></h2>
+<p>NASA provides <a class="reference external" href="https://spdf.gsfc.nasa.gov/pub/software/cdf/dist/latest-release/macosx/">Mac binaries</a>
+of the CDF library. Download the file ending in <code class="docutils literal notranslate"><span class="pre">binary_signed.pkg</span></code>
+(e.g. <code class="docutils literal notranslate"><span class="pre">CDF3_8_1-binary_signed.pkg</span></code>), double-click, and install per
+the defaults.</p>
+</section>
+<section id="xcode-installation">
+<span id="install-mac-xcode"></span><h2><a class="toc-backref" href="#id5" role="doc-backlink">Xcode installation</a><a class="headerlink" href="#xcode-installation" title="Permalink to this heading">¶</a></h2>
+<p>Installation of the full Xcode package is not required simply for
+SpacePy; however, if you are interested in regular compiler use, it
+may be useful. If you choose to install the full Xcode package,
+perform these steps before installing conda or macports via the
+directions above.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Create and log in to an Apple developer account at
+<a class="reference external" href="https://developer.apple.com/">https://developer.apple.com/</a></p></li>
+<li><p>Check the <a class="reference external" href="https://developer.apple.com/documentation/xcode-release-notes/">Xcode release notes</a>
+to find the latest version of Xcode supported on your version of
+MacOS.</p></li>
+<li><p>From the <a class="reference external" href="https://developer.apple.com/download/all/">more downloads</a> section of the Apple
+Developer site, search for and download that version of Xcode.</p></li>
+<li><p>Double-click on the downloaded .xip file to open with the archive
+utility and extract the Xcode app.</p></li>
+<li><p>Drag the resulting Xcode icon into Applications</p></li>
+<li><p>From the <a class="reference external" href="https://developer.apple.com/download/all/">more downloads</a> section of the Apple
+Developer site, search for the Xcode command line tools for the
+same version of Xcode</p></li>
+<li><p>Open the dmg file with the command line tools, open the resulting
+mounted disk image, and double-click the pkg file to install.</p></li>
+</ul>
+</div></blockquote>
+<p>Proceed with the installation of conda or MacPorts and SpacePy</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="install_windows.html" title="Windows Installation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="install_linux.html" title="Linux Installation"
+             >previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="search.html">search</a>|&nbsp;</li>
+       <li><a href="index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="install.html" >Installing SpacePy</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">MacOS Installation</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011-2022, The SpacePy Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.0.2.
+    </div>
+  </body>
+</html>

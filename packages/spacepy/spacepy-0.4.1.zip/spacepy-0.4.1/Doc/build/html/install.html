@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Installing SpacePy &#8212; SpacePy v0.4.1 Manual</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/default.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="_static/spacepy_favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SpacePy Dependencies" href="dependencies.html" />
+    <link rel="prev" title="SpacePy 0.4.1 documentation" href="index.html" /> 
+  </head><body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="index.html"><img src="_static/spacepy_logo.jpg" border="0" alt="spacepy_logo"/></a>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dependencies.html" title="SpacePy Dependencies"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="SpacePy 0.4.1 documentation"
+             accesskey="P">previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="search.html">search</a>|&nbsp;</li>
+       <li><a href="index.html">documentation </a> &raquo;</li>
+
+        <li class="nav-item nav-item-this"><a href="">Installing SpacePy</a></li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Installing SpacePy</a><ul>
+<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#pip-failures">pip failures</a></li>
+<li><a class="reference internal" href="#irbempy">irbempy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="index.html"
+                          title="previous chapter">SpacePy 0.4.1 documentation</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="dependencies.html"
+                          title="next chapter">SpacePy Dependencies</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/install.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="installing-spacepy">
+<h1>Installing SpacePy<a class="headerlink" href="#installing-spacepy" title="Permalink to this heading">¶</a></h1>
+<p>The simplest way from zero (no Python) to a working SpacePy setup is:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Install the <a class="reference external" href="https://docs.anaconda.com/anaconda/">Anaconda</a> Python
+environment. Python 3 is strongly recommended (64-bit is recommended).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">spacepy</span></code></p></li>
+</ol>
+</div></blockquote>
+<p>If you already have a working Python setup, install SpacePy by:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">numpy</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">spacepy</span></code></p></li>
+</ol>
+</div></blockquote>
+<p>This will install a binary build of SpacePy if available (currently
+only on Windows), otherwise it will attempt to compile. It will also
+install most dependencies.</p>
+<p>If you are familiar with installing Python packages, have particular
+preferences for managing an installation, or if the above doesn’t
+work, refer to platform-specific instructions and the details
+below.</p>
+<p>For installing the NASA CDF library to support <a class="reference internal" href="pycdf.html#module-spacepy.pycdf" title="spacepy.pycdf"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pycdf</span></code></a>,
+see the platform-specific instructions linked below.</p>
+<p>The first time a user imports SpacePy, it automatically creates the
+<a class="reference internal" href="configuration.html"><span class="doc">configuration directory</span></a>.</p>
+<p>If you need further assistance, you can <a class="reference external" href="https://github.com/spacepy/spacepy/issues">open an issue</a>.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">SpacePy Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install_linux.html">Linux Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install_mac.html">MacOS Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install_windows.html">Windows Installation</a></li>
+</ul>
+</div>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#troubleshooting" id="id1">Troubleshooting</a></p>
+<ul>
+<li><p><a class="reference internal" href="#pip-failures" id="id2">pip failures</a></p></li>
+<li><p><a class="reference internal" href="#irbempy" id="id3">irbempy</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<p>SpacePy installs with the common Python distutils and pip.</p>
+<p>The latest stable release is provided via <a class="reference external" href="https://pypi.org/project/SpacePy/">PyPI</a> To install from PyPI, make sure
+you have pip installed:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">spacepy</span>
+</pre></div>
+</div>
+<p>If you are installing for a single user, and are not working in a
+virtual environment, add the <code class="docutils literal notranslate"><span class="pre">--user</span></code> flag when installing with pip.</p>
+<p>Source releases are available from <a class="reference external" href="https://pypi.org/project/SpacePy/#files">PyPI</a> and <a class="reference external" href="https://github.com/spacepy/spacepy/releases">our github</a>. Development versions
+are on <a class="reference external" href="https://github.com/spacepy/spacepy">github</a>. In addition to
+downloading tarballs, the development version can be directly installed
+with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">spacepy</span><span class="o">/</span><span class="n">spacepy</span>
+</pre></div>
+</div>
+<p>For source releases, after downloading and
+unpacking, run (a virtual environment, such as a conda environment, is
+recommended):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>or, to install for all users (not in a virtual environment):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>or, to install for a single user (not in a virtual environment):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span> <span class="o">--</span><span class="n">user</span>
+</pre></div>
+</div>
+<p>If you do not have administrative privileges, or you will be
+developing for SpacePy, we strongly recommend using virtual
+environments.</p>
+<p>To install in custom location, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span> <span class="o">--</span><span class="n">home</span><span class="o">=/</span><span class="n">n</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python</span>
+</pre></div>
+</div>
+<p>Installs using <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> do not require setuptools.</p>
+<section id="troubleshooting">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Troubleshooting</a><a class="headerlink" href="#troubleshooting" title="Permalink to this heading">¶</a></h2>
+<section id="pip-failures">
+<span id="install-pip-failures"></span><h3><a class="toc-backref" href="#id2" role="doc-backlink">pip failures</a><a class="headerlink" href="#pip-failures" title="Permalink to this heading">¶</a></h3>
+<p>If <code class="docutils literal notranslate"><span class="pre">pip</span></code> completely fails to build, a common issue is a failure in
+the isolated build environment that <code class="docutils literal notranslate"><span class="pre">pip</span></code> sets up. Usually this can
+be addressed by installing numpy first and eschewing the separate
+build environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">spacepy</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="n">isolation</span>
+</pre></div>
+</div>
+<p>Manually installing all dependencies (via <code class="docutils literal notranslate"><span class="pre">pip</span></code>, <code class="docutils literal notranslate"><span class="pre">conda</span></code>, or other
+means) and then installing the source release via <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> is also
+an option.</p>
+<p><code class="docutils literal notranslate"><span class="pre">pip</span></code> suppresses detailed output from the build process. To
+troubleshoot a failure to install, it is useful to write this detailed
+output to a file using the <code class="docutils literal notranslate"><span class="pre">--log</span></code> option, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">spacepy</span> <span class="o">--</span><span class="n">log</span><span class="o">=</span><span class="n">install_log</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>Please include this log file if opening an issue related to installation.</p>
+<p><code class="docutils literal notranslate"><span class="pre">pip</span></code> will also cache packages; unfortunately sometimes it will use
+a cached package which is incompatible with the current
+environment. In that case, try clearing the cache first, so all
+locally-compiled packages are rebuilt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">cache</span> <span class="n">purge</span>
+</pre></div>
+</div>
+</section>
+<section id="irbempy">
+<h3><a class="toc-backref" href="#id3" role="doc-backlink">irbempy</a><a class="headerlink" href="#irbempy" title="Permalink to this heading">¶</a></h3>
+<p>The most common failures relate to compilation of the IRBEM
+library. Unfortunately <code class="docutils literal notranslate"><span class="pre">pip</span></code> will hide these warnings, so they
+manifest when running <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">spacepy.irbempy</span></code> (or some other
+component of SpacePy that uses irbempy).</p>
+<p>The error <code class="docutils literal notranslate"><span class="pre">ImportError:</span> <span class="pre">cannot</span> <span class="pre">import</span> <span class="pre">name</span> <span class="pre">'irbempylib'</span> <span class="pre">from</span>
+<span class="pre">partially</span> <span class="pre">initialized</span> <span class="pre">module</span> <span class="pre">'spacepy.irbempy'</span> <span class="pre">(most</span> <span class="pre">likely</span> <span class="pre">due</span> <span class="pre">to</span> <span class="pre">a</span>
+<span class="pre">circular</span> <span class="pre">import)</span></code> means the IRBEM library did not compile at
+all. This is most likely a compiler issue: either there is no Fortran
+compiler, or, when using conda on <a class="reference internal" href="install_mac.html"><span class="doc">Mac</span></a>, the correct
+SDK version has not been installed. This may also result from
+<a class="reference internal" href="#install-pip-failures"><span class="std std-ref">pip caching</span></a>.</p>
+<p>The error <code class="docutils literal notranslate"><span class="pre">RuntimeError:</span> <span class="pre">module</span> <span class="pre">compiled</span> <span class="pre">against</span> <span class="pre">API</span> <span class="pre">version</span> <span class="pre">0x10</span> <span class="pre">but</span>
+<span class="pre">this</span> <span class="pre">version</span> <span class="pre">of</span> <span class="pre">numpy</span> <span class="pre">is</span> <span class="pre">0xe</span></code> followed by <code class="docutils literal notranslate"><span class="pre">ImportError:</span>
+<span class="pre">numpy.core.multiarray</span> <span class="pre">failed</span> <span class="pre">to</span> <span class="pre">import</span></code> means that the version of
+numpy used at installation of SpacePy does not match that used at
+runtime. Check that there is only one version of numpy installed. In
+some cases <code class="docutils literal notranslate"><span class="pre">pip</span></code> will install another version of numpy to support
+the build; try installing numpy separately first, and then using the
+<code class="docutils literal notranslate"><span class="pre">--no-build-isolation</span></code> flag to <code class="docutils literal notranslate"><span class="pre">pip</span></code>.</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dependencies.html" title="SpacePy Dependencies"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="SpacePy 0.4.1 documentation"
+             >previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="search.html">search</a>|&nbsp;</li>
+       <li><a href="index.html">documentation </a> &raquo;</li>
+
+        <li class="nav-item nav-item-this"><a href="">Installing SpacePy</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011-2022, The SpacePy Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.0.2.
+    </div>
+  </body>
+</html>
