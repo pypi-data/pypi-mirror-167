@@ -1,0 +1,30 @@
+seed: 42 # rng seed for torch, random and numpy
+checkpoint: False # Checkpoint to resume from, False otherwise
+datapath: null
+
+data:
+  _target_: dpvs.datasets.make_numpy
+  data_dir: ${datapath}
+  label_mode: label_last
+  part_seed: 42
+  train_split:
+    train: 0.6
+    valid: 0.2
+    test: 0.2
+  sample_rate: 10
+  nw: 2
+  add_world_frame: false
+  use_cache: true
+
+model:
+  _target_: dpvs.model.sklearn_models.make_model
+  load_best: false
+  name: ???  #dt/knn/svm/rf/adaboost/xgboost
+
+trainer:
+  _target_: dpvs.engines.sklearn_run.Engine
+  params: {}
+  optim_metrics: f1
+  n_jobs: 1
+  hypopt: false
+  save_best: ${model.load_best}
