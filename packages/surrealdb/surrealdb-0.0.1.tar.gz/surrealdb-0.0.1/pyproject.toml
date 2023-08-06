@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "surrealdb"
+description = "Python client for SurrealDB database"
+version = "0.0.1"
+authors = [
+  { name = "ambrozic", email = "ambrozic@gmail.com" },
+]
+maintainers = []
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Unix",
+  "Operating System :: POSIX :: Linux",
+  "Environment :: Console",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Internet",
+]
+keywords = ["surrealdb", "database", "client"]
+requires-python = ">=3.8"
+readme = "readme.md"
+license = { file = "license" }
+dependencies = [
+  "httpx>=0.23.0,<1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ambrozic/surrealdb"
+Documentation = "https://github.com/ambrozic/surrealdb"
+Source = "https://github.com/ambrozic/surrealdb"
+Changelog = "https://github.com/ambrozic/surrealdb/blob/master/changelog.md"
+SurrealDB = "https://surrealdb.com"
+
+[project.optional-dependencies]
+dev = [
+  "black>=22.8.0",
+  "flake8>=5.0.4",
+  "isort>=5.10.1",
+  "mypy>=0.971",
+]
+test = [
+  "pytest-asyncio>=0.19.0,<1.0",
+  "pytest-clarity>=1.0,<2.0",
+  "pytest-cov>=3.0.0,<4.0",
+  "pytest-mock>=3.8.2,<4.0",
+  "pytest-sugar>=0.9,<1.0",
+  "pytest>=7.1.0,<8.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/surrealdb",
+  "/changelog.md",
+  "/license",
+  "/readme.md",
+]
