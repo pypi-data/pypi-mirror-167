@@ -1,0 +1,11 @@
+[project]
+name = "jeeny_jeen"
+description = "Jello world!"
+requires-python = ">=3.7"
+license = {text = "BSD 3-Clause License"}
+dependencies = [
+    "requests",
+    "tqdm",
+    "beautifulsoup4 >= 4"
+]
+version = "0.1.0"
