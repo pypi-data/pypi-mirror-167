@@ -1,0 +1,9 @@
+LICENSE,sha256=gNpNDz9nJV4RuPUd16OS-RZvq5EtwNG0pA-nGyfbfjU,1094
+README.md,sha256=rMHOFSWSrNCMRlHyaUmHBFeaEzwat9Sm7be0g3FinI8,702
+named_locks/__init__.py,sha256=hLruzuxfLnDWkjqKvhiiIXeFkZqFYraBj3DO1VZplTM,82
+named_locks/async_named_lock.py,sha256=Fq8G10xlyR4ryAj7zo2kFKlcuYiAlZjqp4WJrZOJ1fY,1069
+named_locks/base_named_lock.py,sha256=F4c5JSeblBYddHuSm8gfaTKq5gTX0kZUxp5i0Aipl2U,638
+namedlocks-0.0.1a3.dist-info/METADATA,sha256=pfhhby9cPLEAmGiZcyXMRyv0H3Mo8EnDILCFrvH9Uok,2451
+namedlocks-0.0.1a3.dist-info/WHEEL,sha256=Y57InxZzFBC6JOUn3gj3DWHnWQvSjh7u7UaNLmWRXIQ,86
+namedlocks-0.0.1a3.dist-info/licenses/LICENSE,sha256=gNpNDz9nJV4RuPUd16OS-RZvq5EtwNG0pA-nGyfbfjU,1094
+namedlocks-0.0.1a3.dist-info/RECORD,,
