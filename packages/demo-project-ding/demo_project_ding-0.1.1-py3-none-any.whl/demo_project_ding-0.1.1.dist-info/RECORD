@@ -1,0 +1,9 @@
+poetry_tutorial_project/__init__.py,sha256=g_iE9NuNWQSHSWHuWoYnTnRiOl56Kt2y80nZAdgybxY,1573
+poetry_tutorial_project/alarm_panel_callback.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+poetry_tutorial_project/alarm_panel_layout.py,sha256=JV7XSTDJF18inmQE2FMFUQlMi8oG_GI0y1p-faa5Xqs,5240
+poetry_tutorial_project/static/social.jpg,sha256=T965-JKn8vKRFFoqyhNDW9FYb0hWc_cuiWTx-FPv13M,441148
+poetry_tutorial_project/util/size.py,sha256=a2bn2qhCUQleMWK3246E-og74p368M6vjarZxBdKFOE,380
+demo_project_ding-0.1.1.dist-info/LICENSE,sha256=b12EAQg4HmW0QyVzvyArKV9LSfHMeSa_LaNOyjBSe9Y,1098
+demo_project_ding-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+demo_project_ding-0.1.1.dist-info/METADATA,sha256=MZJIo3rY4_sWM884ukCilkohApiYIKplNhPcQAAj7z0,2329
+demo_project_ding-0.1.1.dist-info/RECORD,,
