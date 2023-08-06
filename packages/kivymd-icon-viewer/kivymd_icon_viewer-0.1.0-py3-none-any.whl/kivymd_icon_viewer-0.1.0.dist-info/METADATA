@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kivymd-icon-viewer
+Version: 0.1.0
+Summary: KivyMD Icon Viewer
+License: MIT
+Author: Nattōsai Mitō
+Author-email: flow4re2c@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# KivyMD Icon Viewer
+
+![](screenshot/0001.png)
+![](screenshot/0002.png)
+
+[Youtube](https://youtu.be/h_ARi0fqnLw)
+
+## Installation
+
+```
+pip install kivymd-icon-viewer kivy kivymd
+```
+
+## How to launch
+
+Once you installed the `kivymd-icon-viewer`, you can launch it using `iconviewer` command.
