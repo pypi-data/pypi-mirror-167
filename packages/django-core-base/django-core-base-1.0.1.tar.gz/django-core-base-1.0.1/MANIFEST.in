@@ -1,0 +1,8 @@
+include LICENSE
+include README.rst
+recursive-include django-core-base *
+recursive-exclude django-core-base/migrations/__pycache__ *
+recursive-exclude django-core-base/utils/__pycache__ *
+recursive-exclude manage.py
+recursive-exclude requirements.txt
+recursive-exclude RELEASE.sh

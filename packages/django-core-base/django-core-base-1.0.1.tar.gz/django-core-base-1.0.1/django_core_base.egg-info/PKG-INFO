@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-core-base
+Version: 1.0.1
+Summary: 处理Django Rbac权限,日志等
+Home-page: https://so.szyfd.xyz/
+Author: cx
+Author-email: 2256807897@qq.com
+License: MIT
+Project-URL: Bug Tracker, https://so.szyfd.xyz/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-core-base
