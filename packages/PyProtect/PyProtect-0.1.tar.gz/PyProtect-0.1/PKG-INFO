@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyProtect
+Version: 0.1
+Summary: Protecting python filesYarik1gou
+Home-page: https://github.com/yar-exe/PyProtect
+Author: Yarik1gou
+Author-email: erundopel@internet.ru
+License: Apache License, Version 2.0, see LICENSE file
+Download-URL: https://github.com/yar-exe/PyProtect/archive/v0.1.zip
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+
+Protect your python file with a password(This version is still raw)!
+

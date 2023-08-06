@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+PyProtect/__init__.py
+PyProtect/pyprotect.py
+PyProtect.egg-info/PKG-INFO
+PyProtect.egg-info/SOURCES.txt
+PyProtect.egg-info/dependency_links.txt
+PyProtect.egg-info/top_level.txt
