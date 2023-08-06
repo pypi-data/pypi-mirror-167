@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/gymnasium_notices/__init__.py
+src/gymnasium_notices/notices.py
+src/gymnasium_notices.egg-info/PKG-INFO
+src/gymnasium_notices.egg-info/SOURCES.txt
+src/gymnasium_notices.egg-info/dependency_links.txt
+src/gymnasium_notices.egg-info/top_level.txt
